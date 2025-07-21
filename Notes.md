@@ -140,45 +140,43 @@ An encryption key is a piece of information that allows the holder to encrypt an
 ### Types of encryption
 Encryption can either be **symmetric-key** or **asymmetric-key**.
 
-**Symmetric-key encryption** (sometimes referred to as **<ins>secret-key encryption</ins>**) uses the same key (called a secret key) for both encryption and decryption (see Figure 2-2). Using a single key means the party encrypting the information must give that key to the recipient before they can decrypt the information. The secret key is typically sent to the intended recipient as a message separate from the ciphertext. Symmetric-key encryption is simple, fast, and relatively cheap.
+**Symmetric-key encryption** (sometimes referred to as **<ins>secret-key encryption</ins>**) uses the same key (called a secret key) for both encryption and decryption (see Figure 2-2). Using a single key means the party encrypting the information must give that key to the recipient before they can decrypt the information. **<ins>The secret key is typically sent to the intended recipient as a message separate from the ciphertext</ins>**. Symmetric-key encryption is **simple, fast, and relatively cheap**.
 
  WARNING  A notable drawback of symmetric-key encryption is it requires a secure channel for the initial key exchange between the encrypting party and the recipient. If your secret key is compromised, the encrypted information is as good posted on a billboard.
 
- Asymmetric-key encryption (more commonly known as public-key encryption) operates by using two keys — one public and one private. The public key, as you might guess, is made publicly available for anyone to encrypt messages. The private key remains a secret of the owner and is required to decrypt messages that come from anyone else (see Figure 2-3). Although public-key encryption is typically slower than its counterpart, it removes the need to secretly distribute keys and also has some very important uses (see the next section).
+ **Asymmetric-key encryption (more commonly known as <ins>public-key encryption<ins>)** **operates by using two keys** — one **public** and one **private**. The public key, as you might guess, is made publicly available for anyone to encrypt messages. The private key remains a secret of the owner and is required to decrypt messages that come from anyone else (see Figure 2-3). Although public-key encryption is typically slower than its counterpart, **it removes the need to secretly distribute keys and also has some very important uses** (see the next section).
 
 Lastly, in cloud environments, there are different ways that asymmetric keys are generated and even managed. Each has their own benefits and drawbacks. This is covered in Chapter 5.
 
-Figure 2-2: Using a symmetric-key for both encryption and decryption.
-Schematic illustration of using a secret-key for both encryption and decryption.
-Figure 2-3: Utilizing asymmetric-key (or public key) encryption and decryption.
-Schematic illustration of using a public-key or private-key for both encryption and decryption.
-Common uses of encryption
+Figure: Using a symmetric-key for both encryption and decryption.
+<img width="580" height="224" alt="image" src="https://github.com/user-attachments/assets/80b6c5c8-02a9-4834-b49f-e104ecab3ee7" />
+
+Figure: Utilizing asymmetric-key (or public key) encryption and decryption.
+<img width="580" height="285" alt="image" src="https://github.com/user-attachments/assets/cd08ef92-3967-4ade-9396-a2daf8c9718a" />
+
+### Common uses of encryption
 Encryption plays an important part in protecting information systems, and its applications are wide ranging. This section discusses some of the most common uses of encryption.
 
-Data protection
-Arguably the most widely used application of encryption is to protect the confidentiality of data. Data that has been encrypted (using strong algorithms) is protected from unauthorized viewers in the event it falls into the wrong person’s hand. You’ll typically see encryption used for data protection for both data-at-rest (things like files on a hard drive or in a database) and data-in-motion (communication over a network, for example).
+#### Data protection
+Arguably the most widely used application of encryption **is to protect the confidentiality of data**. You’ll typically see encryption used for data protection for both data-at-rest (things like files on a hard drive or in a database) and data-in-motion (communication over a network, for example). Both symmetric-key and asymmetric-key encryption are commonly used in data protection applications.
 
-Both symmetric-key and asymmetric-key encryption are commonly used in data protection applications.
+#### Authentication and authorization
+Usernames and passwords are often sent to some remote system for authentication and authorization. Encryption is commonly used to protect these sensitive credentials **from eavesdroppers on the network who would intercept the credentials in transit and utilize them to impersonate an authorized user**. **Authentication is a standard use case for public-key encryption**.
 
-Authentication and authorization
-Usernames and passwords are often sent to some remote system for authentication and authorization. Encryption is commonly used to protect these sensitive credentials from eavesdroppers on the network who would intercept the credentials in transit and utilize them to impersonate an authorized user. Authentication is a standard use case for public-key encryption.
+#### Network security
+**Transport Layer Security (TLS) is the standard technology** used **to encrypt traffic over a network**, and **it creates an encrypted link ensuring that all traffic between two points remains private**. TLS has replaced its longstanding predecessor, Secure Sockets Layer (SSL), as the de facto standard and **is used widely when privacy and data integrity need to be maintained between two systems**. you need to know that **TLS connections use a combination of symmetric- and asymmetric-key encryption**.
 
-Network security
-Transport Layer Security (TLS) is the standard technology used to encrypt traffic over a network, and it creates an encrypted link ensuring that all traffic between two points remains private. TLS has replaced its longstanding predecessor, Secure Sockets Layer (SSL), as the de facto standard and is used widely when privacy and data integrity need to be maintained between two systems.
+**(HTTPS) is TLS over HTTP** and is the **gold standard for protecting web communications**. HTTPS is incredibly important for banking and other websites where users send and receive sensitive information and is now commonly used as a standard practice. Keep an eye on your browser’s address bar for https:// to ensure your session is encrypted.
 
- REMEMBER  While the nitty-gritty details of TLS is outside the scope of this book, you need to know that TLS connections use a combination of symmetric- and asymmetric-key encryption.
+#### Digital signatures
+- Much like your handwritten signature is used to verify your identity, a digital signature is a piece of information that asserts or proves the identity of a user.
+- **Digital signatures operate on a public-key scheme** and **require a sender to use their private key to electronically sign a message**. Recipients can then use the sender’s public key to verify their identity. In addition to helping to identify users, **digital signatures support the principle of nonrepudiation**, which is the information security concept that **ensures that a party cannot deny the integrity or authenticity of a digital communication or transaction**. **Nonrepudiation provides assurance that the communication or transaction took place and that the parties involved cannot later deny their involvement.**
 
- TECHNICAL STUFF Hypertext Transfer Protocol Secure (HTTPS) is TLS over HTTP and is the gold standard for protecting web communications. HTTPS is incredibly important for banking and other websites where users send and receive sensitive information and is now commonly used as a standard practice. Keep an eye on your browser’s address bar for https:// to ensure your session is encrypted.
+#### Virtual private networks (VPNs)
+A virtual private network **(VPN) encrypts communication between the two networks**, over the Internet, to create a secure tunnel for communication. You commonly see VPNs used for people who telework by connecting to their organization’s network from home. Similar to the network security example in the earlier section, **VPNs use a mix of symmetric-key and asymmetric-key encryption**.
 
-Digital signatures
-Much like your handwritten signature is used to verify your identity, a digital signature is a piece of information that asserts or proves the identity of a user. Digital signatures operate on a public-key scheme and require a sender to use their private key to electronically sign a message. Recipients can then use the sender’s public key to verify their identity.
+#### Crypto-shredding
+Standard data deletion involves overwriting data with a series of zeroes, ones, or both. This process is both slow and not completely effective at ensuring bits and pieces of data aren’t left behind. **A better process, known as crypto-shredding**, **involves encrypting data and then destroying the keys. With no key left behind to decrypt the data, it’s effectively considered deleted.**
 
-In addition to helping to identify users, digital signatures support the principle of nonrepudiation, which is the information security concept that ensures that a party cannot deny the integrity or authenticity of a digital communication or transaction. Nonrepudiation provides assurance that the communication or transaction took place and that the parties involved cannot later deny their involvement.
+ TIP: If you guessed that symmetric-key encryption is best for crypto-shredding, you’d be correct! In addition to being simpler, faster, and cheaper, there’s only one key to delete!
 
-Virtual private networks (VPNs)
-Encryption provides a secure means for users to connect from one network to another. A virtual private network (VPN) encrypts communication between the two networks, over the Internet, to create a secure tunnel for communication. You commonly see VPNs used for people who telework by connecting to their organization’s network from home. Similar to the network security example in the earlier section, VPNs use a mix of symmetric-key and asymmetric-key encryption.
-
-Crypto-shredding
-Standard data deletion involves overwriting data with a series of zeroes, ones, or both. This process is both slow and not completely effective at ensuring bits and pieces of data aren’t left behind. A better process, known as crypto-shredding, involves encrypting data and then destroying the keys. With no key left behind to decrypt the data, it’s effectively considered deleted.
-
- TIP  If you guessed that symmetric-key encryption is best for crypto-shredding, you’d be correct! In addition to being simpler, faster, and cheaper, there’s only one key to delete!
