@@ -540,3 +540,344 @@ TECHNICAL STUFF  **AWS CloudFormation**, **Azure Automation**, **Puppet Bolt**, 
 TIP **Cloud automation is a subset of cloud orchestration** that involves programming repetitive tasks, such as spinning up and configuring virtual machines. Cloud automation helps you achieve repetitive tasks with minimal human intervention, while cloud orchestration involves coordinating and managing a collection of automated tasks.
 
 
+## Describing Cloud Reference Architecture
+
+Describing Cloud Reference Architecture
+Several key components fit together to create the complete picture of a cloud architecture and implementation. These components include the activities and capabilities required to develop and manage a cloud environment, as well as the cloud service categories and cloud deployment models that describe how the service is delivered, configured, and managed.
+
+In this section, you learn how about cloud reference architectures, including the three main cloud service categories and the Shared Responsibility Model.
+
+Cloud computing activities
+Similar to traditional computing environments, cloud computing requires a number of activities to be performed by several parties in order to build, deploy, secure, audit, and manage systems and data. This section serves as a high-level overview of the key activities performed by the cloud service provider, cloud service customer, and cloud service partner.
+
+Cloud service provider
+The following are key roles and activities performed by the cloud service provider:
+
+ Cloud service operations manager: Oversees and manages the operation and performance of cloud services provided to customers.
+
+ Technical account manager: Provides account support and high-level technical guidance to cloud customers.
+
+Cloud service customer
+The following are key roles and activities performed by the cloud service customer:
+
+ Cloud architect: Evaluates cloud technologies and services and designs the overall architecture of the cloud deployment to meet organizational requirements.
+
+ Cloud service user: Uses services provided by the CSP.
+
+ Cloud service administrator: Configures, manages, and monitors the use of cloud services.
+
+Cloud service partner
+The following are key roles and activities performed by the cloud service partner:
+
+ Cloud auditor: Performs audits of cloud environments and provides audit reports.
+
+ Cloud service broker: Provides a marketplace for approved services, manages contracting, and securely integrates cloud services with on-prem applications.
+
+Cloud service capabilities
+You should familiarize yourself with three primary cloud service capabilities:
+
+ Infrastructure service capability: The cloud customer can provision and maintain granular control over compute, storage, and network resources.
+
+ Platform service capability: The cloud customer can run code and develop applications using programming libraries that are managed and controlled by the cloud service provider.
+
+ Software service capability: The cloud customer can use applications that are fully developed and managed by the cloud service provider.
+
+Cloud service categories
+Cloud service categories generally fall into three main groups:
+
+ Infrastructure as a service (IaaS)
+
+ Platform as a service (PaaS)
+
+ Software as a service (SaaS)
+
+Aside from these three, you may have seen other iterations of the XaaS paradigm. Things like DBaaS (database as a service), BaaS (blockchain as a service), and others are increasingly used in some circles. In this section, I focus on the three primary cloud service categories listed in Table 3-1.
+
+Table 3-1: Primary Cloud Service Categories
+IaaS
+
+PaaS
+
+SaaS
+
+Compute, storage, and network resources
+
+CSP provides libraries, services, and development environments
+
+CSP provides fully functional application
+
+Underlying infrastructure is fully managed by the CSP
+
+Customer creates and deploys applications
+
+CSP manages the entire infrastructure and platform
+
+Customer can run software and services on the infrastructure
+
+CSP patches and deploys systems
+
+Customer leases or borrows licenses, as needed
+
+Customer may have limited control over select networking devices
+
+Customer maintains control over deployed applications and may be able to configure hosting environment
+
+Customer may have limited control of application configuration settings
+
+Infrastructure as a service (IaaS)
+Infrastructure as a service, or IaaS, is in many ways what people first think of when they hear cloud computing. It’s the service category where the CSP provides compute, storage, and networking resources and the customer has the greatest level of control and customization over those resources. Think of things like virtual machines and storage containers or buckets — that’s IaaS.
+
+NIST 800-145 describes IaaS as “the capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).”
+
+IaaS key characteristics and benefits include
+
+ Cost efficiency: By using the IaaS service model, customers do not need to spend money on buying and managing hardware up front or as the need for additional resources grow. With IaaS, customers can trade Capital Expenditure (CapEx) for Operational Expenditure (OpEx). In addition, customers also benefit from the cloud provider paying for and managing physical security of the datacenters.
+
+ Availability and reliability: Infrastructure as a service provides customers with options for load balancing and redundancy across vast infrastructures that can span many regions or even countries. These vast infrastructures provide customers with assurance that their resources will be highly available and resilient against availability threats (DDoS and others).
+
+ Scalability: With IaaS service models, additional resources can be procured, provisioned, and expanded quickly and with ease to support growing demand. Whereas on-premise solutions would require a customer to purchase and set up new servers to support increased utilization, IaaS allows automatic scaling when necessary.
+
+Platform as a service (PaaS)
+Platform as a service, or PaaS, sits on top of the IaaS layer in the cloud stack and begins to shift control (and responsibility) over resources away from the cloud customer and back to the cloud provider. In PaaS offerings, the user is generally building their own application or solution using prepackaged libraries and features provided by the cloud provider. Having the infrastructure and development environment taken care of by the CSP allows the customer to focus on development rather than managing servers, virtual machines, and other granular resources. As a result of PaaS offerings, the barrier to entry for software development continues to fall. Developers, large and small, spend less time and money developing infrastructures and managing resources and more time on being innovative.
+
+ TIP  You may be familiar with terms like up the stack and down the stack from TCP/IP discussions, and they carry over to the cloud computing world. In cloud, these terms refer to the way the three cloud service categories stack on top of each other to provide full cloud functionality. IaaS sits at the bottom of the stack and moves up to PaaS, followed by SaaS at the top.
+
+NIST 800-145 describes PaaS as “the capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.”
+
+Though PaaS customers inherit many of the same benefits of IaaS, some will be unique to PaaS.
+
+PaaS key characteristics and benefits include
+
+ Cost efficiency: Similar to IaaS, the PaaS service category offers cost savings because application developers pay only for the systems and resources they use. As customers progress through the development cycle, they can scale up or down with ease and without incurring unnecessary costs.
+
+ Flexibility: Developers receive a great deal of flexibility during their application development lifecycle when they use PaaS cloud offerings. Within a given cloud environment, developers can often easily switch between operating systems and software versions to suit their needs. Many cloud providers provide open source environments and applications for developers, which prevents vendor lock-in and affords them the ease of moving between environments, platforms, and even cloud providers.
+
+ Simplicity: With the underlying infrastructure and operating systems being managed by the cloud provider, hardware and software upgrades and system patches are handled for the developer. Upgrading to the latest version of software is commonly as simple as clicking a few buttons, which minimizes downtime and lets developers focus on creating their applications rather than managing systems.
+
+ Ease of access: Being cloud-based means that development platforms and tools are easily accessed from anywhere in the world. This ease of access makes it incredibly easy for global development teams to collaborate on projects, as opposed to on-prem development platforms that may require out of band collaboration (like emailing updated files or using less reliable technologies like shared drives).
+
+ TECHNICAL STUFF Serverless computing is a cloud computing model that allows developers to run their code without needing to provision or manage servers. A serverless function is a small piece of code that is executed in response to an event or trigger. In serverless computing, developers just need to write and deploy their application code and define event-driven functions. The CSP takes care of all of the infrastructure and scaling needs.
+
+Function as a service (FaaS)
+The increased adoption of serverless computing has given rise to another popular cloud service category, Function as a Service (FaaS). FaaS is similar to PaaS in that it provides a platform for developers to create, run, and manage application code while hiding infrastructure management from the developers. While PaaS requires you to manage servers and scaling, FaaS (and serverless) is more focused on code execution, and it doesn’t require any server process to constantly run; application code only executes when a function is invoked.
+
+Serverless computing has been around for some time, but FaaS was first made popular with the announcement of AWS Lambda in 2014. Since then, Microsoft Azure, Google Cloud Platform, and other CSPs, large and small, have launched serverless offerings that continue to grow in adoption.
+
+Software as a service (SaaS)
+Software as a service, or SaaS, sits at the top of the cloud stack and provides fully operational software applications to the customer. SaaS moves the majority of resource management to the cloud provider, allowing the end user to simply use the provided application to meet their needs. Examples of SaaS offerings include Google Docs, Dropbox, and DocuSign; these cloud-based applications require little to no configuration by the customer.
+
+NIST 800-145 describes SaaS as “the capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user specific application configuration settings.”
+
+SaaS customers inherit many of the previously mentioned benefits from IaaS and PaaS, but SaaS does have some unique features and benefits.
+
+SaaS key characteristics and benefits include
+
+ Cost efficiency: You’re probably seeing a theme here: Cloud helps customers cut costs. Similar to IaaS and PaaS, software as a service helps customers manage costs by eliminating the need for system administrators and dedicated hardware and software. For SaaS applications, customers only need a device to access the given application and an Internet connection.
+
+ Licensing: With SaaS, customers effectively lease or borrow licenses as they use software. Leasing eliminates the need for customers to purchase full sets of licenses, which may go underutilized for long periods of time. Cloud providers, due to the scale of their environments, can take advantage of friendlier licensing fees from third-party vendors, and some of those savings are able to be realized by the end user.
+
+ Standardization: By nature, cloud applications are standardized regardless of who’s accessing or where they’re accessing the application from. From an application standpoint, standardization helps ensure consistent experiences from one user to another and makes sure that all users are using the latest and greatest software versions, with little to no action taken by the customer.
+
+Cloud deployment models
+Four main types of cloud deployment models exist:
+
+ Public
+
+ Private
+
+ Community
+
+ Hybrid
+
+These deployment models describe how cloud services are hosted, who controls and operates them, and what cloud customers may access them. Table 3-2 highlights the main features of the four main types of cloud deployment.
+
+Table 3-2: Overview of the Cloud Deployment Models
+Public
+
+Private
+
+Community
+
+Hybrid
+
+Open to the general public
+
+Used exclusively by a single organization
+
+Used exclusively by a community of similar organizations (like government agencies)
+
+Shares features of two or more cloud models
+
+May be owned by a private company, government organization, academic institution, or a combination
+
+May be owned by the organization, a third party, or co-owned
+
+May be owned by a community member, a third party, or co-owned
+
+Allows customers to have control over their most critical systems
+
+Highly scalable resources
+
+May exist on- or off-premises
+
+Supports disaster recovery for customers considering private cloud
+
+Customer maintains increased ownership and control over their resources
+
+Public cloud deployment
+According to NIST SP 800-145, “[public] cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider.” In English, public cloud is a set of computing services that can be accessed by anyone willing and able to pay for them.
+
+With enterprise offerings from tech giants like Google, Amazon, and Microsoft — as well as Apple’s consumer cloud product, iCloud — public cloud is typically what consumers think of when they think about “the cloud.”
+
+Public cloud benefits and uses include
+
+ Easy to set up and manage: In public cloud deployments, the cloud service provider owns and operates the infrastructure, which means the customer isn’t responsible to manage infrastructure like data center facilities, networking hardware, and operational expenses. In addition, public cloud commonly offers streamlined access to resources through easy-to-use interfaces.
+
+ Highly scalable resources: Public clouds typically have vast infrastructures that are ready and able to handle heavy workloads.
+
+ Resource efficiency and cost-effective: Customers don’t have to worry about wasted resources, as public clouds automatically scale a customer’s resources up or down, based on their usage and bill them only for what they use. Unused resources from one customer can be used (and paid for) by another.
+
+Private cloud deployment
+According to NIST SP 800-145, “[private] cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.” In other words, private cloud offers similar services to those offered by public cloud, but private cloud can only be accessed by members of a single organization.
+
+Private cloud is sometimes referred to as an internal cloud and is often used for legal, compliance, or security purposes. In certain highly regulated industries, customers often want the convenience and features that cloud provides, without their data being mixed (or comingling) with other customers’ data.
+
+Private cloud benefits and uses include
+
+ Increased ownership: With private clouds, the customer/user is the same party that owns and operates it. As such, private clouds give users a greater level of ownership and the ability to control everything about it. One common example is for customers with data location requirements — for example, a bank may have regulations that require its data remains within the European Union (EU). The standard way to satisfy this requirement has historically been to build or use a private cloud that allows that bank to only let data travel to data centers within the EU. Newer offerings from some public cloud infrastructures are now allowing these customers to meet these types of requirements without managing their own private cloud.
+
+ High level of system and data control: Similar to the point mentioned in the previous bullet, private clouds give customers increased control over all resources. Private cloud customers can control things like bandwidth, system patching, and software/application availability, whereas these things are often only controlled by the CSP in public clouds.
+
+Community cloud deployment
+According to NIST SP 800-145, “[community] cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.” Think of community clouds as private clouds that are extended to a limited set of related organizations.
+
+Community clouds are common in highly regulated industries. Government customers, for example, will often seek out the moniker GovCloud for assurance that only government data resides within a given cloud. While the term GovCloud may entail a bit of marketing, it’s a great example of the intent of the community cloud deployment model.
+
+Community cloud benefits typically mirror those of public clouds. The added benefit comes from all members of the cloud user base sharing a common set of privacy, security, or compliance requirements. A community of users with the same (or highly similar) set of requirements can ensure that the cloud meets their requirements exactly.
+
+Hybrid cloud deployment
+According to NIST SP 800-145, “[hybrid] cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).” Simply put, hybrid cloud consists of some combination of public, private, and/or community cloud features.
+
+As you may expect, hybrid cloud models attempt to bring the best of multiple worlds together; when using a hybrid cloud deployment, customers are generally seeking public cloud features and scalability with private or community cloud control.
+
+Hybrid cloud benefits include
+
+ Re-use of existing infrastructure and technology: Many customers want the benefits and features that public clouds provide, but they may already have an expensive infrastructure that’s up and running. A hybrid cloud allows customers to reap the benefits of public clouds while still utilizing their private clouds, as necessary. A hybrid cloud is sometimes a stepping stone for customers dipping their toe in the cloud waters, but there are often compliance, legal, or other business reasons for customers maintaining private cloud (or on-premises) infrastructure.
+
+ Control over critical or sensitive systems: With hybrid cloud deployment models, customers are able to keep data that they are most concerned about in their private cloud, while moving less sensitive data to a public cloud. By sharing characteristics of public and private (or community) clouds, customers are able to maintain a high level of control and ownership without missing out on the benefits that public cloud provides.
+
+ Disaster recovery support: One common use case for hybrid cloud is in supporting disaster recovery. Customers already running on a fully functional private cloud can benefit from the redundancy and reliability assurance that many public clouds provide. Customers can continue to use their private clouds as normal, but can configure their resources to failover to the public cloud in the event of a disaster. Because the public cloud would be used only in case of emergency, customers will usually incur little to no costs under normal circumstances (because you’re billed for what you use).
+
+ TECHNICAL STUFF  The hybrid cloud deployment model shares similarities with the concept of multi-cloud. Multi-cloud refers to a strategy where an organization uses multiple CSPs rather than just a single cloud provider. This often includes the use of multiple public cloud providers — so while all hybrid cloud deployments are multi-cloud, not all multi-cloud deployments are hybrid.
+
+Cloud shared considerations
+Cloud computing involves organizations outsourcing the management and maintenance of their computing infrastructure to one or more third-party cloud providers. As such, moving to the cloud is not only a technology decision, but also a business decision. As with any business decision, you must consider several factors before moving forward. In this section, you explore several universal cross-cutting aspects that anyone thinking about moving their data to the cloud should consider.
+
+Interoperability
+Interoperability is the ability for two or more systems to seamlessly work together by sharing information and using that information as necessary. In cloud systems, interoperability ensures that cloud services can understand standard data formats, APIs, configurations, and identification and authorization mechanisms so that these cloud-based systems can work with the organization’s existing technologies or even other clouds.
+
+Portability and reversibility
+Portability is the ease with which a party can move or reuse application or service components. Portability means that the service provider, underlying platform, operating system, API structure, format of data, or other factors do not present obstacles to seamlessly moving services from one solution to another.
+
+Vendor lock-in occurs when any of these factors prevents a customer from moving from one cloud provider to another. Portability ensures that an organization is able to easily move between cloud providers or cloud deployment models (from public to private cloud, for example), and host some or all of those components in different environments. Highly interoperable systems provide customers flexibility as their needs change and also tend to keep cloud providers on their toes because customers are able to migrate at any time.
+
+Availability
+As discussed in Chapter 2, availability is one of the pillars of information security and one of the greatest considerations for organizations moving to the cloud. In many ways, the availability of resources and systems can make or break a cloud provider’s success and their reputation. When an organization relies on a cloud provider for their infrastructure, platforms, or applications, the cloud provider’s failure to deliver can mean substantial impact to the customer’s business. It’s not uncommon for CSPs to commit to 99.9 percent (or higher) availability. Failure to meet this commitment can result in penalties, loss of customers, and degraded brand reputation.
+
+Resiliency
+Resiliency measures the ability of a cloud provider to continue providing fully functioning services in the event of disruption. In many ways, resiliency goes hand in hand with availability. As you learn in Chapter 2, disaster recovery and business continuity planning are two key reasons users move to the cloud. Given that CSPs commonly have incredibly vast amounts of resources (servers, storage, networking equipment, bandwidth, and so on), it’s easier for cloud-based systems to be highly redundant and resilient in the event of natural disaster, power failure, or other equipment outage. Potential cloud adopters should pay close attention to any resiliency commitments made in their contracts or SLAs.
+
+Security and privacy
+Security is often the top concern for potential cloud customers, and it can either be a major selling point or a barrier to adoption for any given CSP. For many organizations — especially smaller ones — moving to the cloud can significantly increase security capabilities, because large scale cloud providers are able to provide world-class security controls that some organizations either cannot afford or are not yet sophisticated enough to implement.
+
+Many cloud providers will publicly state their baseline levels of security or share some of their most marketable security features, but they will typically fall short of listing specific security controls to avoid arming potential attackers with sensitive information that could lead them to compromising the CSP’s security. In general, the most mature cloud providers are able to offer just about any security feature a customer could want, but additional security can often incur additional costs.
+
+ WARNING  Not all cloud providers are created equally, and not all are able to meet the same levels of security standards. As cloud security professionals, it’s important to not only understand what security features are available, but also which ones are enabled by default. Too many cloud breaches occur because users falsely assume that an advertised security feature is enabled without their action.
+
+If security is concern 1A, privacy is often 1B for potential users of cloud services. The very nature of cloud means that customers’ data is not always 100 percent within their control. Remember that the global nature of cloud means that a customer’s data may exist in multiple locations around the world. Privacy laws and regulations are increasingly influencing CSPs’ behavior, but no universal or international set of laws or directives currently consistently enforce privacy standards from one CSP to another, across different geographical locations. Depending on a customer’s privacy needs, it may be necessary to negotiate specific requirements as part of contracts or SLAs. (I cover SLAs later in the section “Service-level agreements.”)
+
+It might go without saying that cloud computing and high performance are intertwined. Few customers will select or stay with a cloud provider that can’t deliver consistently strong performance. The largest CSPs have been in a bit of an “arms race” for years and are releasing stronger, better, and faster compute, memory, and storage capabilities at least every year.
+
+In the upcoming section “Impact of related technologies,” you can see some key emerging applications for cloud computing that rely on high performance.
+
+Governance
+Governance relates to the policies, procedures, roles, and responsibilities in place to ensure security, privacy, resiliency, and performance. Governance is required at the start of any cloud migration and continues through the entire lifetime of a cloud deployment. In other words, governance activities are ongoing from day zero until cloud services are no longer being used.
+
+Many cloud providers make governance easier than it is with traditional data center models because they offer tools to generate reports and monitor relevant statistics and metrics. The ability to schedule and automate reporting enhances governance activities and allows customers to focus on their mission.
+
+Service-level agreements
+In cloud, a service-level agreement (SLA) is an agreement between a cloud service provider and cloud customer that identifies the minimum level of service that must be maintained.
+
+SLAs can include anything from amount of uptime to minimum response time to customer service inquiries. In many ways, an SLA serves as a warranty when a customer moves to the cloud. Similar to the warranty you get when purchasing a car, a cloud SLA gives customers assurance that they are getting what they expect and provides remedies (like fee reimbursement) if those agreed upon expectations aren’t met.
+
+Here are some examples of things you should look for in a service-level agreement. Keep in mind that this list is not exhaustive:
+
+ Availability: How much uptime is the CSP committing to? The standard is 99.9 percent or more, but pay attention to the period of time over which this guarantee is made.
+
+ Performance: What are standard and maximum response times?
+
+ Data ownership: Who owns your data once it’s in the cloud?
+
+ Location of the data: What geographical locations might your data be located? The location may have privacy or compliance implications.
+
+ Portability of the data: Are you able to move your data to another provider whenever you choose?
+
+ Data security and privacy: Is data encrypted at rest? In transit? Who is permitted to access your data?
+
+ Disaster recovery: What solutions and processes are in place for DR and backup?
+
+Maintenance and versioning
+The cloud service category being used will determine just how much consideration a customer must give to maintenance and versioning. With SaaS offerings, the CSP is responsible for just about all patching, maintenance, and versioning. Moving up the stack to PaaS and even more with IaaS, the customer has increasing responsibility for these actions.
+
+Maintenance and versioning responsibilities should be agreed upon and understood early on, and they should be specifically called out in contracts and SLAs. With versioning, customers should be aware of what ability the CSP grants for rolling back to previous versions, and what responsibility they have to upgrade (or rollback) from one version to another.
+
+Regulatory compliance
+Regulatory compliance is the requirement for an organization to meet or satisfy regulations, guidelines, policies, and laws relevant to its business. A company failing to meet these requirements may face financial penalties, legal action, or even termination of business operations. As a result, regulatory compliance is a major concern for potential cloud users, and it’s important to note that the nature of cloud means satisfying compliance is a shared responsibility between a CSP and its customer.
+
+ TIP  Having worked on compliance teams at two of the largest cloud providers, I can say firsthand that cloud customers often struggle to understand what is commonly called the Shared Responsibility Model. As a CCSP, it’s paramount that you understand what your organization is responsible for securing and what your CSP or customer is responsible for. The most transparent CSPs will provide substantial documentation to support your understanding of the Shared Responsibility Model; if this documentation is not readily available, it’s best to ask for sufficient details.
+
+Many, many regulations and laws impact technology. Some key examples that impact cloud-based environments include Health Insurance Portability and Accountability Act (HIPAA), Payment Card Industry Data Security Standard (PCI DSS), System and Organization Controls (SOC), the Federal Information Security Management Act (FISMA), and the Federal Risk and Authorization Management Program (FedRAMP), among others. It’s important that cloud security professionals understand how their industry influences which of these or other regulations they are required to satisfy.
+
+ TIP  In the context of regulatory compliance, you may see SOC (i.e., SOC 1, SOC 2, or SOC 3) described as either System and Organization Controls or Service Organization Controls.
+
+Auditability
+As a CCSP candidate, auditability in the cloud is an area you should pay very close attention to because of the Shared Responsibility Model. Because customers do not have full control over the cloud environment the way they would in a traditional data center model, it’s important that they’re able to audit their compliance with various regulatory requirements, as well as monitor important user and system activity.
+
+The CSP is responsible for providing logging and auditing capabilities to the customer and demonstrating that they are capturing and reporting on any events the customer may want to audit. Most mature cloud service providers offer a wealth of auditing and reporting capabilities, but it is up to the customer to use them in accordance with their compliance obligations.
+
+Impact of related technologies
+One of the recently updated sections to the CCSP Common Body of Knowledge (CBK) addresses critical technologies that cloud security professionals should stay abreast of. The following list of emerging technologies are closely related to cloud and represent some of the fastest growing applications of cloud computing.
+
+Artificial Intelligence (AI) and machine learning (ML)
+Broadly speaking, Artificial Intelligence is the field devoted to helping machines process things in a smart manner; AI involves giving machines the ability to imitate intelligent human behavior. AI burst onto the public scene in a big way with the release of the AI-enabled chat app, ChatGPT, at the end of 2022. As of this writing in 2023, ChatGPT has over 100 million active users and generates 1.8 billion visitors per month, demonstrating the meteoric rise of mainstream AI, which has been enabled and driven by cloud computing.
+
+Machine learning is a subset of AI that focuses on allowing machines to alter themselves as they are exposed to additional data. Much like a child learns language by being exposed to different words in different contexts over time, ML occurs when a machine learns new information without requiring it to be explicitly programmed.
+
+Cloud providers like Amazon Web Services (AWS), Google Cloud Platform, and Microsoft Azure offer services that make it easy for organizations and users to access AI and ML capabilities without requiring advanced skills in data science. Many of these services offer pre-built machine learning models and large datasets from which those models can begin “learning” for your application.
+
+Data science
+Data science is a multidisciplinary approach to studying large and complex datasets and extracting meaningful insights using machine learning and various statistical techniques. Cloud computing plays a significant role in data science by providing scalable and flexible infrastructure and computational resources, allowing data scientists to store and process huge amounts of data using cutting-edge ML capabilities.
+
+Blockchain
+In April 2021, the price of 1 Bitcoin peaked at close to a whopping $65,000! Since then (as of this writing), the price has trended downward, but interest in cryptocurrencies and other blockchain applications continues strong. In simplest terms, a blockchain is a string of digital information that is chained together by cryptography. Each block of information contains a cryptographic hash of the previous block, transaction data, and a timestamp. Several industry leading cloud providers now offer platforms to help users build their blockchain-based applications without needing PhDs in cryptography.
+
+Internet of things (IoT)
+Internet of things is a fancy way of describing everyday devices that are connected to the Internet. My TVs, refrigerator, oven range, and dishwasher are all equipped with devices that connect to the Internet and that allow them to send and receive data (hopefully not to Skynet). Outside of the home, IoT has many commercial and industrial applications; you can find entire warehouses run by Internet-connected devices. Because these devices collect and generate a large amount of data, cloud systems play a pivotal role in drawing insights from IoT systems. For systems with thousands or even millions of IoT sensors, cloud computing allows data to be aggregated, processed, and analyzed more quickly and efficiently.
+
+Edge computing
+In simple terms, edge computing is a form of computing that involves capturing, processing, and analyzing data at its source. Edge computing reduces latency and improves performance by bringing the power of the cloud to the edge of the networks and doing all of the processing on-site instead of sending data to a central cloud data center. In a smart home, for example, edge computing can be used to process and control devices like security cameras and thermostats directly in the home instead of sending all data to a cloud server.
+
+Confidential computing
+Confidential computing is a cloud-based technology focused on protecting sensitive data by isolating it in a protected central processing unit (CPU) during processing. Confidential computing keeps sensitive data encrypted in a secure enclave that is separate from the rest of the environment, offering assurance that even the cloud provider cannot access the data in plaintext.
+
+Containers
+Containers are a growing technology that involves logically decoupling an application from its environment so that the containerized application can be developed, deployed, and run consistently in different environments (public cloud, private cloud, or even a personal laptop). Containers were made popular with the development of Kubernetes, an open-source platform for managing containerized workloads. With Kubernetes and other container platforms, cloud users are able to develop applications and seamlessly move and run them from one platform to another. Containers are particularly useful in hybrid cloud deployments, for example, where a customer might run the same application on-prem and in the cloud.
+
+Quantum computing
+In October 2019, Google announced that it had achieved quantum supremacy — basically, the ability of a quantum computer to solve a problem that a classical computer could not solve in a practical amount of time. Though quantum computing is still in its infancy, tech giants like Google, IBM, and Microsoft are pushing forward with solutions to bring the power of quantum computing to cloud applications.
+
+ TECHNICAL STUFF  The field of quantum computing revolves around using the principle of quantum mechanical superposition to process information exponentially faster than even modern supercomputers. The physics behind quantum mechanics and quantum computing is outside the scope of this book, but worth further research if you find yourself working on cloud-based quantum applications.
+
+DevSecOps
+DevSecOps is a software development practice aimed at combining security and IT operations into every stage of the software development lifecycle (SDLC). Cloud computing plays an important role in supporting and enabling DevSecOps practices in modern technology environments. The scalability, flexibility, and automation features within cloud environments support automating security processes and enabling development teams to include security throughout the entire development lifecycle.
+
