@@ -542,121 +542,90 @@ TIP **Cloud automation is a subset of cloud orchestration** that involves progra
 
 ## Describing Cloud Reference Architecture
 
-Describing Cloud Reference Architecture
 Several key components fit together to create the complete picture of a cloud architecture and implementation. These components include the activities and capabilities required to develop and manage a cloud environment, as well as the cloud service categories and cloud deployment models that describe how the service is delivered, configured, and managed.
 
-In this section, you learn how about cloud reference architectures, including the three main cloud service categories and the Shared Responsibility Model.
-
-Cloud computing activities
+### Cloud computing activities : 
 Similar to traditional computing environments, cloud computing requires a number of activities to be performed by several parties in order to build, deploy, secure, audit, and manage systems and data. This section serves as a high-level overview of the key activities performed by the cloud service provider, cloud service customer, and cloud service partner.
 
-Cloud service provider
-The following are key roles and activities performed by the cloud service provider:
+Cloud service **provider**: The following are key roles and activities performed by the cloud service provider:
+  - Cloud service operations manager: Oversees and manages the operation and performance of cloud services provided to customers.
+  - Technical account manager: Provides account support and high-level technical guidance to cloud customers.
+Cloud service **customer**: The following are key roles and activities performed by the cloud service customer:
+  - Cloud architect: Evaluates cloud technologies and services and designs the overall architecture of the cloud deployment to meet organizational requirements.
+  - Cloud service user: Uses services provided by the CSP.
+  - Cloud service administrator: Configures, manages, and monitors the use of cloud services.
+Cloud service **partner**: The following are key roles and activities performed by the cloud service partner:
+  - Cloud auditor: Performs audits of cloud environments and provides audit reports.
+  - Cloud service broker: Provides a marketplace for approved services, manages contracting, and securely integrates cloud services with on-prem applications.
 
- Cloud service operations manager: Oversees and manages the operation and performance of cloud services provided to customers.
+### Cloud service capabilities
+You should familiarize yourself with three primary cloud service **capabilities**:
+1. Infrastructure service capability: The cloud customer can provision and maintain granular control over compute, storage, and network resources.
+2. Platform service capability: The cloud customer can run code and develop applications using programming libraries that are managed and controlled by the cloud service provider.
+3. Software service capability: The cloud customer can use applications that are fully developed and managed by the cloud service provider.
 
- Technical account manager: Provides account support and high-level technical guidance to cloud customers.
-
-Cloud service customer
-The following are key roles and activities performed by the cloud service customer:
-
- Cloud architect: Evaluates cloud technologies and services and designs the overall architecture of the cloud deployment to meet organizational requirements.
-
- Cloud service user: Uses services provided by the CSP.
-
- Cloud service administrator: Configures, manages, and monitors the use of cloud services.
-
-Cloud service partner
-The following are key roles and activities performed by the cloud service partner:
-
- Cloud auditor: Performs audits of cloud environments and provides audit reports.
-
- Cloud service broker: Provides a marketplace for approved services, manages contracting, and securely integrates cloud services with on-prem applications.
-
-Cloud service capabilities
-You should familiarize yourself with three primary cloud service capabilities:
-
- Infrastructure service capability: The cloud customer can provision and maintain granular control over compute, storage, and network resources.
-
- Platform service capability: The cloud customer can run code and develop applications using programming libraries that are managed and controlled by the cloud service provider.
-
- Software service capability: The cloud customer can use applications that are fully developed and managed by the cloud service provider.
-
-Cloud service categories
+### Cloud service categories
 Cloud service categories generally fall into three main groups:
+1. Infrastructure as a service (IaaS)
+2. Platform as a service (PaaS)
+3. Software as a service (SaaS)
 
- Infrastructure as a service (IaaS)
-
- Platform as a service (PaaS)
-
- Software as a service (SaaS)
-
-Aside from these three, you may have seen other iterations of the XaaS paradigm. Things like DBaaS (database as a service), BaaS (blockchain as a service), and others are increasingly used in some circles. In this section, I focus on the three primary cloud service categories listed in Table 3-1.
-
-Table 3-1: Primary Cloud Service Categories
-IaaS
-
-PaaS
-
-SaaS
-
-Compute, storage, and network resources
-
-CSP provides libraries, services, and development environments
-
-CSP provides fully functional application
-
-Underlying infrastructure is fully managed by the CSP
-
-Customer creates and deploys applications
-
-CSP manages the entire infrastructure and platform
-
-Customer can run software and services on the infrastructure
-
-CSP patches and deploys systems
-
-Customer leases or borrows licenses, as needed
-
-Customer may have limited control over select networking devices
-
-Customer maintains control over deployed applications and may be able to configure hosting environment
-
-Customer may have limited control of application configuration settings
-
-Infrastructure as a service (IaaS)
-Infrastructure as a service, or IaaS, is in many ways what people first think of when they hear cloud computing. It’s the service category where the CSP provides compute, storage, and networking resources and the customer has the greatest level of control and customization over those resources. Think of things like virtual machines and storage containers or buckets — that’s IaaS.
+### Infrastructure as a service (IaaS)
+Infrastructure as a service, or IaaS, **is in many ways what people first think of when they hear cloud computing**. It’s the service category where the CSP provides compute, storage, and networking resources and the **customer has the greatest level of control and customization over those resources**. Think of things like virtual machines and storage containers or buckets — that’s IaaS.
 
 NIST 800-145 describes IaaS as “the capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).”
 
-IaaS key characteristics and benefits include
+**IaaS key characteristics and benefits include**
+1. **Cost efficiency:**
+  - By using the IaaS service model, **customers do not need to spend money on buying and managing hardware up front** or as the need for additional resources
+    grow.
+    - With IaaS, **customers can trade Capital Expenditure (CapEx) for Operational Expenditure (OpEx)**.
+  - In addition, **customers also benefit from the cloud provider paying for and managing physical security of the datacenter**s.
 
- Cost efficiency: By using the IaaS service model, customers do not need to spend money on buying and managing hardware up front or as the need for additional resources grow. With IaaS, customers can trade Capital Expenditure (CapEx) for Operational Expenditure (OpEx). In addition, customers also benefit from the cloud provider paying for and managing physical security of the datacenters.
+2. **Availability and reliability:**
+  - Infrastructure as a service provides customers with options for load balancing and redundancy across vast infrastructures that can span many regions or even
+   countries. These vast infrastructures provide customers with assurance that their resources will be highly available and resilient against availability
+   threats (DDoS and others).
 
- Availability and reliability: Infrastructure as a service provides customers with options for load balancing and redundancy across vast infrastructures that can span many regions or even countries. These vast infrastructures provide customers with assurance that their resources will be highly available and resilient against availability threats (DDoS and others).
+3. **Scalability:**
+  - With IaaS service models, additional resources can be procured, provisioned, and expanded quickly and with ease to support growing demand.
+  - Whereas on-premise solutions would require a customer to purchase and set up new servers to support increased utilization,
+  - IaaS allows automatic scaling when necessary.
 
- Scalability: With IaaS service models, additional resources can be procured, provisioned, and expanded quickly and with ease to support growing demand. Whereas on-premise solutions would require a customer to purchase and set up new servers to support increased utilization, IaaS allows automatic scaling when necessary.
+### Platform as a service (PaaS)
 
-Platform as a service (PaaS)
-Platform as a service, or PaaS, sits on top of the IaaS layer in the cloud stack and begins to shift control (and responsibility) over resources away from the cloud customer and back to the cloud provider. In PaaS offerings, the user is generally building their own application or solution using prepackaged libraries and features provided by the cloud provider. Having the infrastructure and development environment taken care of by the CSP allows the customer to focus on development rather than managing servers, virtual machines, and other granular resources. As a result of PaaS offerings, the barrier to entry for software development continues to fall. Developers, large and small, spend less time and money developing infrastructures and managing resources and more time on being innovative.
+Platform as a service, or PaaS, sits on top of the IaaS layer in the cloud stack and begins to shift control (and responsibility) over resources away from the cloud customer and back to the cloud provider. 
+In PaaS offerings, the user is generally **building their own application or solution using prepackaged libraries and features provided by the cloud provider.** 
 
- TIP  You may be familiar with terms like up the stack and down the stack from TCP/IP discussions, and they carry over to the cloud computing world. In cloud, these terms refer to the way the three cloud service categories stack on top of each other to provide full cloud functionality. IaaS sits at the bottom of the stack and moves up to PaaS, followed by SaaS at the top.
+Having the **infrastructure and development environment** **taken care of by the CSP** **allows the customer to focus on development rather than managing servers, virtual machines, and other granular resources**. 
 
-NIST 800-145 describes PaaS as “the capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.”
+As a result of PaaS offerings, the barrier to entry for software development continues to fall. 
 
-Though PaaS customers inherit many of the same benefits of IaaS, some will be unique to PaaS.
+**Developers, large and small, spend less time and money developing infrastructures and managing resources and more time on being innovative**.
 
-PaaS key characteristics and benefits include
+ TIP  You may be familiar with terms like up the stack and down the stack from TCP/IP discussions, and they carry over to the cloud computing world. In cloud, these terms refer to the way the three cloud service categories stack on top of each other to provide full cloud functionality. **IaaS sits at the bottom of the stack and moves up to PaaS, followed by SaaS at the top.**
 
- Cost efficiency: Similar to IaaS, the PaaS service category offers cost savings because application developers pay only for the systems and resources they use. As customers progress through the development cycle, they can scale up or down with ease and without incurring unnecessary costs.
+**NIST 800-145** describes PaaS as “the capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, **libraries, services, and tools supported by the provider**. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.”
 
- Flexibility: Developers receive a great deal of flexibility during their application development lifecycle when they use PaaS cloud offerings. Within a given cloud environment, developers can often easily switch between operating systems and software versions to suit their needs. Many cloud providers provide open source environments and applications for developers, which prevents vendor lock-in and affords them the ease of moving between environments, platforms, and even cloud providers.
+**Though PaaS customers inherit many of the same benefits of IaaS, some will be unique to PaaS**.
 
- Simplicity: With the underlying infrastructure and operating systems being managed by the cloud provider, hardware and software upgrades and system patches are handled for the developer. Upgrading to the latest version of software is commonly as simple as clicking a few buttons, which minimizes downtime and lets developers focus on creating their applications rather than managing systems.
+**PaaS key characteristics and benefits include**
 
- Ease of access: Being cloud-based means that development platforms and tools are easily accessed from anywhere in the world. This ease of access makes it incredibly easy for global development teams to collaborate on projects, as opposed to on-prem development platforms that may require out of band collaboration (like emailing updated files or using less reliable technologies like shared drives).
+1. **Cost efficiency:**
+  - Similar to IaaS, the PaaS service category offers cost savings **because application developers pay only for the systems and resources they use**.
+  - As customers progress through the development cycle, they can scale up or down with ease and without incurring unnecessary costs.
 
- TECHNICAL STUFF Serverless computing is a cloud computing model that allows developers to run their code without needing to provision or manage servers. A serverless function is a small piece of code that is executed in response to an event or trigger. In serverless computing, developers just need to write and deploy their application code and define event-driven functions. The CSP takes care of all of the infrastructure and scaling needs.
+3. **Flexibility:**
+  - Developers receive a great deal of flexibility during their application development lifecycle when they use PaaS cloud offerings.
+  - Within a given cloud environment, **developers can often easily switch between operating systems and software versions to suit their needs**.
+  - Many cloud providers provide open source environments and applications for developers, which prevents vendor lock-in and affords them the ease of moving
+    between environments, platforms, and even cloud providers.
+
+5. Simplicity: With the underlying infrastructure and operating systems being managed by the cloud provider, hardware and software upgrades and system patches are handled for the developer. Upgrading to the latest version of software is commonly as simple as clicking a few buttons, which minimizes downtime and lets developers focus on creating their applications rather than managing systems.
+
+6. Ease of access: Being cloud-based means that development platforms and tools are easily accessed from anywhere in the world. This ease of access makes it incredibly easy for global development teams to collaborate on projects, as opposed to on-prem development platforms that may require out of band collaboration (like emailing updated files or using less reliable technologies like shared drives).
+
+TECHNICAL STUFF Serverless computing is a cloud computing model that allows developers to run their code without needing to provision or manage servers. A serverless function is a small piece of code that is executed in response to an event or trigger. In serverless computing, developers just need to write and deploy their application code and define event-driven functions. The CSP takes care of all of the infrastructure and scaling needs.
 
 Function as a service (FaaS)
 The increased adoption of serverless computing has given rise to another popular cloud service category, Function as a Service (FaaS). FaaS is similar to PaaS in that it provides a platform for developers to create, run, and manage application code while hiding infrastructure management from the developers. While PaaS requires you to manage servers and scaling, FaaS (and serverless) is more focused on code execution, and it doesn’t require any server process to constantly run; application code only executes when a function is invoked.
