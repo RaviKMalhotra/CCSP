@@ -38,3 +38,29 @@
 ❓___________ Risk Management technique is halting the business function.
 💡Avoidance
 
+What is the full form of OECD
+Organization for Economic Cooperation and Development
+
+What is the function of OECD
+OECD is a multinational entity that creates nonbinding policy suggestions for its member countries. And OECD has published recommendations for privacy laws.
+
+Define what is Collection limitation principle
+The collection limitation principle requires any entity that gathers personally identifiable information (PII) about a person to restrict data collection to only
+information that is necessary for the transaction, and only with the knowledge and the permission of the individual. 
+
+The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.
+Collection limitation principle
+
+Define what is Data quality principle
+The data quality principle requires any entity that gathers personally identifiable information (PII) about a person to ensure that the data remains valid and accurate and allows for corrections by the data subject.
+
+The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.
+Data quality principle
+
+Define what is purpose specification principle
+The purpose specificatio principle requires any entity that gathers personally identifiable information (PII) about a person to clearly state the explicit purpose for which the PII will be used. 
+
+The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.
+Purpose specification principle
+
+Define what is Use limitation principle
