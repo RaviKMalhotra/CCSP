@@ -14,8 +14,8 @@
 
 - ❓# 106. Software that includes security elements from the outset of the software development lifecycle (SDLC) process will be _______________.
 		A. More secure in deployment
-		B. Less secure in deployment
-		C. More likely to malfunction
+  		B. Less secure in deployment
+  		C. More likely to malfunction
 		D. Less likely to malfunction
 Answer:
 A. It is important to verify and validate the program at each stage of the SDLC.
