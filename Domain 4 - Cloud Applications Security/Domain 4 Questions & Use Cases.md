@@ -1,6 +1,6 @@
 # Domain 4 - Cloud Applications Security Questions and Use Caess
 
-### Question # 1. Dynamic testing of software is perhaps most useful for _______________.  
+### Question # 1 - Dynamic testing of software is perhaps most useful for _______________.  
 	A. Simulating negative test cases  
 	B. Finding errors in the source code  
 	C. Determining the effect of social engineering  
@@ -8,14 +8,22 @@
 		Answer: A  
 		Running the software and allowing users to operate it is a great form of dynamic testing, which simulates both known good and known bad inputs.  
 
-### Question # 1. ISO 27034 mandates a framework for application security within an organization. According to the standard, each organization should have a(n) _______________, and each application within the organization should have its own _______________.  
+### Question # 1 - ISO 27034 mandates a framework for application security within an organization. According to the standard, each organization should have a(n) _______________, and each application within the organization should have its own _______________.  
 	A. Organizational Normative Framework (ONF), Application Normative Framework (ANF)  
 	B. Application Normative Framework (ANF), Organizational Normative Framework (ONF)  
 	C. Standard Application Security (SAS), Application Normative Framework (ANF)  
 	D. Organizational Normative Framework (ONF), Standard Application Security (SAS)  
- 		Answer: A
-   		The ONF lists all the controls used in all the applications within an organization; each ANF lists the particular controls used in each application the 		organization has.
-###
+ 	Answer: A
+   	The ONF lists all the controls used in all the applications within an organization; each ANF lists the particular controls used in each application the 		organization has.
+### Question # 2 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
+	A. Many
+	B. Three
+	C. No
+	D. One
+	Answer: D
+  	Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the 
+   	organization, but only one for each application.
+	
 
 
 ❓1. Dynamic testing of software is perhaps most useful for _______________.
