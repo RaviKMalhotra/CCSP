@@ -213,241 +213,261 @@
 	Software should include known secure components, and testing should include known bad data (fuzz testing), whether it is going to be used in the cloud or in 	a traditional environment, so options C and D are incorrect.
 
 ### Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?
-		A. Cryptography
-		B. STRIDE testing
-		C. Field validation
-		D. Logging
-Answer: D. 
-The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
-All the other options are things that can (and should) be done with software whether the application is being used in traditional or cloud environments, so those options are incorrect.
+	A. Cryptography
+	B. STRIDE testing
+	C. Field validation
+	D. Logging
+	Answer: D. 
+	The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud 	
+ 	developers to include that functionality/security element in cloud apps.
+	All the other options are things that can (and should) be done with software whether the application is being used in traditional or cloud environments, so 	those options are incorrect.
 
 ### Question # 22 - All of these can affect the quality of service expected from an application except _______________.
-		A. Encryption
-		B. Egress monitoring
-		C. Anti-malware tools
-		D. Use of known secure libraries/components
-Answer:
-D. Using only known secure libraries and components in software design may slow down development efforts but shouldn’t impact how the application runs.
-All the other options are security controls that will degrade performance because they require additional overhead; these options are incorrect.
+	A. Encryption
+	B. Egress monitoring
+	C. Anti-malware tools
+	D. Use of known secure libraries/components
+	Answer: D. 
+ 	Using only known secure libraries and components in software design may slow down development efforts but shouldn’t impact how the application runs.
+	All the other options are security controls that will degrade performance because they require additional overhead; these options are incorrect.
 
 ### Question # 23 - The possibility that a user could gain access or control of an application so as to take on administrator or management capabilities is called _______________.
-		A. Inversion
-		B. Spoofing
-		C. Repudiation
-		D. Escalation of privilege
-Answer:
-D. This is the definition of escalation of privilege (sometimes referred to as “elevation of privilege”).
-Inversion is a nonsense term in this context and just a distractor.
-Options B and C are threat modeling elements but are not correct answers for this question.
+	A. Inversion
+	B. Spoofing
+	C. Repudiation
+	D. Escalation of privilege
+	Answer: D. 
+ 	This is the definition of escalation of privilege (sometimes referred to as “elevation of privilege”).
+	Inversion is a nonsense term in this context and just a distractor.
+	Options B and C are threat modeling elements but are not correct answers for this question.
 
 ### Question # 24 - Which of the following is not checked when using the STRIDE threat model?
-		A. The ability of users to gain administrative access rights without proper permission
-		B. The ability of internal personnel to trigger business continuity/disaster recovery activities
-		C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction
-		D. The ability of an unauthorized user to pretend to be an authorized user
-Answer:
-A. The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.
-All the other options are elements of STRIDE (escalation of privilege, repudiation, and spoofing, respectively) and are therefore not correct.
+	A. The ability of users to gain administrative access rights without proper permission
+	B. The ability of internal personnel to trigger business continuity/disaster recovery activities
+	C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction
+	D. The ability of an unauthorized user to pretend to be an authorized user
+	Answer: A. 
+ 	The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.
+	All the other options are elements of STRIDE (escalation of privilege, repudiation, and spoofing, respectively) and are therefore not correct.
 
 ### Question # 25 - It is very likely that your organization’s users will use unapproved application programming interfaces (APIs), especially in a bring your own device (BYOD) environment, because _______________.
-		A. Users are constantly trying to break the security of your environment
-		B. APIs can’t ever be secure
-		C. Hackers are constantly infiltrating all APIs
-		D. Users enhance their productivity however they can
-Answer:
-D. Users in the production environment will leverage whatever tools and techniques they can in order to get their job done in a better, faster way, often regardless of whether this complies with security policies.
-All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and “can’t ever” in answer choices.
+	A. Users are constantly trying to break the security of your environment
+	B. APIs can’t ever be secure
+	C. Hackers are constantly infiltrating all APIs
+	D. Users enhance their productivity however they can
+	Answer: D. 
+ 	Users in the production environment will leverage whatever tools and techniques they can in order to get their job done in a better, faster way, often 	
+  	regardless of whether this complies with security policies.
+	All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and 	
+ 	“can’t ever” in answer choices.
 
 ### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.
-		A. Young programmers are not nearly as disciplined in their coding practices as older programmers
-		B. Some current programmers don’t write code line by line and instead use code component libraries
-		C. Coding languages have not been secure for 20 years
-		D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC)
-Answer:
-B. Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
-Option A is an unfair generalization.
-Option C is another broad generalization that may or may not be true. Option B is a better answer.
-Option D does not relate to the question about the SDLC and is therefore a poor choice for an answer.
+	A. Young programmers are not nearly as disciplined in their coding practices as older programmers
+	B. Some current programmers don’t write code line by line and instead use code component libraries
+	C. Coding languages have not been secure for 20 years
+	D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC)
+	Answer: B. 
+ 	Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may 	not be understood or identified by coders who don’t know the code inside the component.
+	Option A is an unfair generalization.
+	Option C is another broad generalization that may or may not be true. Option B is a better answer.
+	Option D does not relate to the question about the SDLC and is therefore a poor choice for an answer.
 
 ### Question # 27 - What is the most secure form of code testing and review?
-		A. Open source
-		B. Proprietary/internal
-		C. Neither open source nor proprietary
-		D. Combination of open source and proprietary
-Answer:
-D. Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
-The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is incorrect.
+	A. Open source
+	B. Proprietary/internal
+	C. Neither open source nor proprietary
+	D. Combination of open source and proprietary
+	Answer: D. 
+ 	Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of 	
+  	security controls (physical, logical, administrative, etc.) will provide better security than just one type.
+	The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of 	
+ 	open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open 	
+  	source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is 	
+   	incorrect.
 
 ### Question # 28 - What is the major difference between authentication and authorization?
-		A. Code verification/code implementation
-		B. Identity validation/access permission
-		C. Inverse incantation/obverse instantiation
-		D. User access/privileged access
-Answer:
-B. This is the textbook definition of these terms. All the other options are incorrect answers.
+	A. Code verification/code implementation
+	B. Identity validation/access permission
+	C. Inverse incantation/obverse instantiation
+	D. User access/privileged access
+	Answer: B. 
+ 	This is the textbook definition of these terms. All the other options are incorrect answers.
 
 ### Question # 29 - Access should be based on _______________.
-		A. Regulatory mandates
-		B. Business needs and acceptable risk
-		C. User requirements and management requests
-		D. Optimum performance and security provision
-Answer:
-B. Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
-This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
+	A. Regulatory mandates
+	B. Business needs and acceptable risk
+	C. User requirements and management requests
+	D. Optimum performance and security provision
+	Answer: B. 
+ 	Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of 	course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
+	This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management 	
+ 	requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior 	
+  	management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all 	
+   	subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
 
 ### Question # 30 - Who should determine which users have access to which specific objects?
-		A. The cloud provider
-		B. Senior management
-		C. Data owners
-		D. System administrators
-Answer:
-C. The data owner is responsible for the disposition of the data under their control; this includes access decisions.
-The cloud provider is not typically the data owner; option A is incorrect.
-Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
-System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
+	A. The cloud provider
+	B. Senior management
+	C. Data owners
+	D. System administrators
+	Answer: C. 
+ 	The data owner is responsible for the disposition of the data under their control; this includes access decisions.
+	The cloud provider is not typically the data owner; option A is incorrect.
+	Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal 	
+ 	representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data 	owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is 	
+  	more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
+	System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for 	specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners 	(middle management); again, option C is preferable to D.
 
 ### Question # 31 - All of the following are identity federation standards commonly found in use today except _______________.
-		A. WS-Federation
-		B. OpenID
-		C. OAuth (Open Authorization)
-		D. Pretty Good Privacy (PGP)
-Answer:
-D. PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
+	A. WS-Federation
+	B. OpenID
+	C. OAuth (Open Authorization)
+	D. Pretty Good Privacy (PGP)
+	Answer: D. PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
 
 ### Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?
-		A. WS-Federation
-		B. OpenID Connect
-		C. Service Organization Control (SOC) 2
-		D. Open Web Application Security Project (OWASP)
-Answer:
-B. OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation.
-WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A is incorrect.
-Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
-OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
+	A. WS-Federation
+	B. OpenID Connect
+	C. Service Organization Control (SOC) 2
+	D. Open Web Application Security Project (OWASP)
+	Answer: B. 
+ 	OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed 	with mobile apps in mind, instead of only web-based federation.
+	WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A 	is incorrect.
+	Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
+	OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
 
 ### Question # 33 - Authentication mechanisms typically include any or all of the following except _______________.
-		A. Something you know
-		B. Someone you know
-		C. Something you have
-		D. Something you are
-Answer:
-B. Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
-All the other options are typical authentication mechanisms and so are incorrect.
+	A. Something you know
+	B. Someone you know
+	C. Something you have
+	D. Something you are
+	Answer: B. 
+ 	Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity 	
+  	assertion.
+	All the other options are typical authentication mechanisms and so are incorrect.
 
 ### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?
-		A. Using an automated teller machine (ATM) to get cash with your credit or debit card
-		B. Using a password and personal identification number (PIN) to log into a website
-		C. Presenting a voice sample and fingerprint to access a secure facility
-		D. Displaying a birth certificate and a credit card
-Answer:
-A. At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
-A password and PIN are both something you know, so option B is incorrect.
-Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
-A birth certificate and credit card are both something you have, so option D is incorrect.
+	A. Using an automated teller machine (ATM) to get cash with your credit or debit card
+	B. Using a password and personal identification number (PIN) to log into a website
+	C. Presenting a voice sample and fingerprint to access a secure facility
+	D. Displaying a birth certificate and a credit card
+	Answer: A. 
+ 	At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
+	A password and PIN are both something you know, so option B is incorrect.
+	Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
+	A birth certificate and credit card are both something you have, so option D is incorrect.
 
 ### Question # 35 - Typically, multifactor authentication should be used _______________.
-		A. In every IT transaction
-		B. For high-risk operations and data that is particularly sensitive
-		C. When remote users are logging into the cloud environment
-		D. Only in the traditional environment
-Answer:
-B. Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
-Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra overhead, so option A is incorrect.
-All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C is incorrect.
-The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place in the traditional or online environment, so option D is incorrect.
+	A. In every IT transaction
+	B. For high-risk operations and data that is particularly sensitive
+	C. When remote users are logging into the cloud environment
+	D. Only in the traditional environment
+	Answer: B. 
+ 	Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, 	
+  	privileged user logins or when handling financial transactions).
+	Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra 	
+ 	overhead, so option A is incorrect.
+	All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C 	is incorrect.
+	The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place 	
+ 	in the traditional or online environment, so option D is incorrect.
 
 ### Question # 36 - A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
-		A. 2
-		B. 3
-		C. 7
-		D. Q
-Answer:
-C. A WAF is a Layer 7 tool.
-All the other options are incorrect.
+	A. 2
+	B. 3
+	C. 7
+	D. Q
+	Answer: C. 
+ 	A WAF is a Layer 7 tool.
+	All the other options are incorrect.
 
 ### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.
-		A. Malicious
-		B. Simple Mail Transfer Protocol (SMTP)
-		C. Internet Control Message Protocol (ICMP)
-		D. Hypertext Transfer Protocol (HTTP)
-Answer:
-D. WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
-Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, and D is a much better response for this question.
-Options B and C are protocols not usually inspected by WAFs and are therefore incorrect.
+	A. Malicious
+	B. Simple Mail Transfer Protocol (SMTP)
+	C. Internet Control Message Protocol (ICMP)
+	D. Hypertext Transfer Protocol (HTTP)
+	Answer: D. 
+ 	WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
+	Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, and D is 	a much better response for this question.
+	Options B and C are protocols not usually inspected by WAFs and are therefore incorrect.
 
 ### Question # 38 - WAFs can be used to reduce the likelihood that _______________ attacks will be successful.
-		A. Social engineering
-		B. Physical theft
-		C. Obverse inflection
-		D. Cross-site scripting
-Answer:
-D. WAFs can be used to attenuate the possibility that cross-site scripting attacks will be successful.
-WAFs do not protect against social engineering or physical attacks in any way, so options A and B are incorrect.
-Option C is a nonsense term and is therefore incorrect.
+	A. Social engineering
+	B. Physical theft
+	C. Obverse inflection
+	D. Cross-site scripting
+	Answer: D. 
+ 	WAFs can be used to attenuate the possibility that cross-site scripting attacks will be successful.
+	WAFs do not protect against social engineering or physical attacks in any way, so options A and B are incorrect.
+	Option C is a nonsense term and is therefore incorrect.
 
 ### Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
-		A. 2
-		B. 3
-		C. 7
-		D. Q
-Answer:
-C. A DAM is a Layer 7 tool.
-All the other options are incorrect.
+	A. 2
+	B. 3
+	C. 7
+	D. Q
+	Answer: C. 
+ 	A DAM is a Layer 7 tool.
+	All the other options are incorrect.
 
 ### Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.
-		A. SQL injection
-		B. Cross-site scripting
-		C. Insecure direct-object reference
-		D. Social engineering
-Answer:
-A. DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
-DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, so options B, C, and D are incorrect.
+	A. SQL injection
+	B. Cross-site scripting
+	C. Insecure direct-object reference
+	D. Social engineering
+	Answer: A. 
+ 	DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
+	DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, so options B, C, and D are 	
+ 	incorrect.
 
 ### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?
-		A. Web application firewall (WAF)
-		B. Database activity monitor (DAM)
-		C. Extensible Markup Language (XML) gateway
-		D. Single sign-on (SSO)
-Answer:
-C. The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
-The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
-Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
+	A. Web application firewall (WAF)
+	B. Database activity monitor (DAM)
+	C. Extensible Markup Language (XML) gateway
+	D. Single sign-on (SSO)
+	Answer: C. 
+ 	The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
+	The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
+	Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
 
 ### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.
-		A. Extensible Markup Language (XML) gateway
-		B. Application programming interface (API) gateway
-		C. Web application firewall (WAF)
-		D. Database activity monitor (DAM)
-Answer:
-B. An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
-XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
+	A. Extensible Markup Language (XML) gateway
+	B. Application programming interface (API) gateway
+	C. Web application firewall (WAF)
+	D. Database activity monitor (DAM)
+	Answer: B. 
+ 	An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to 	
+  	that client/session.
+	XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
 
 ### Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.
-		A. Known past behavior in the environment
-		B. Identity of the malicious user
-		C. Point of origination
-		D. Signature matching
-Answer:
-B. While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the attacker doesn’t usually share.
-All the other options are methods firewalls can use to recognize attacks.
+	A. Known past behavior in the environment
+	B. Identity of the malicious user
+	C. Point of origination
+	D. Signature matching
+	Answer: B. 
+ 	While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the 	
+  	attacker doesn’t usually share.
+	All the other options are methods firewalls can use to recognize attacks.
 
 ### Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.
-		A. Privacy, security
-		B. Security, optimization
-		C. Privacy, integrity
-		D. Enhancement, privacy
-Answer:
-C. TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
-In this context, privacy and security mean much the same thing; privacy is synonymous with confidentiality, which is a subset of the overall topic of security. Therefore, option A is repetitive and not correct.
-TLS does not optimize performance or add any sort of enhancement, so options B and D are incorrect.
+	A. Privacy, security
+	B. Security, optimization
+	C. Privacy, integrity
+	D. Enhancement, privacy
+	Answer:	C. 
+ 	TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
+	In this context, privacy and security mean much the same thing; privacy is synonymous with confidentiality, which is a subset of the overall topic of 	
+ 	security. Therefore, option A is repetitive and not correct.
+	TLS does not optimize performance or add any sort of enhancement, so options B and D are incorrect.
 
 ### Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.
-		A. Symmetric key
-		B. Asymmetric key
-		C. Public-private key pair
-		D. Inverse comparison
-Answer:
-A. TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made.
+	A. Symmetric key
+	B. Asymmetric key
+	C. Public-private key pair
+	D. Inverse comparison
+	Answer: A. 
+ 	TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new 	
+  connection is made.
 Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used in this portion of the process will not change from session to session, and therefore these options are incorrect.
 Option D is a nonsense term and is therefore incorrect.
 
