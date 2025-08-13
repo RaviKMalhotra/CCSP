@@ -217,8 +217,8 @@
 		B. STRIDE testing
 		C. Field validation
 		D. Logging
-Answer:
-D. The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
+Answer: D. 
+The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
 All the other options are things that can (and should) be done with software whether the application is being used in traditional or cloud environments, so those options are incorrect.
 
 ### Question # 22 - All of these can affect the quality of service expected from an application except _______________.
