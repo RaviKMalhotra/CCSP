@@ -467,88 +467,97 @@
 	D. Inverse comparison
 	Answer: A. 
  	TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new 	
-  connection is made.
-Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used in this portion of the process will not change from session to session, and therefore these options are incorrect.
-Option D is a nonsense term and is therefore incorrect.
+  	connection is made.
+	Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used 	in this portion of the process will not change from session to session, and therefore these options are incorrect.
+	Option D is a nonsense term and is therefore incorrect.
 
 ### Question # 46 - A virtual private network (VPN) is used to protect data in transit by _______________.
-		A. Securing each end of a client-server connection
-		B. Creating an encrypted tunnel between two endpoints
-		C. Encrypting databases
-		D. Restricting key access to only eight parties
-Answer:
-B. A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
-Option A is subtly misleading; the VPN secures the connection between two endpoints, not the ends of the connection. This option is incorrect.
-Option C is not correct; VPN is not used for encrypting databases—it is used for encrypting communications.
-Option D is incorrect; the symmetric key used in VPN is shared only between two parties (the endpoints), and the elements of the asymmetric key pair are either held by only one party (the owner of each private key) or by anyone at all (public key).
+	A. Securing each end of a client-server connection
+	B. Creating an encrypted tunnel between two endpoints
+	C. Encrypting databases
+	D. Restricting key access to only eight parties
+	Answer: B. 
+ 	A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
+	Option A is subtly misleading; the VPN secures the connection between two endpoints, not the ends of the connection. This option is incorrect.
+	Option C is not correct; VPN is not used for encrypting databases—it is used for encrypting communications.
+	Option D is incorrect; the symmetric key used in VPN is shared only between two parties (the endpoints), and the elements of the asymmetric key pair are 	
+ 	either held by only one party (the owner of each private key) or by anyone at all (public key).
+
 ### Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.
-		A. Having the developers review the code
-		B. Having the developers perform dynamic testing
-		C. Using automated agents to perform dynamic testing
-		D. Social engineering
-Answer:
-C. Users may not offer enough coverage for larger software products that have a great deal of functionality; it can be useful to also use automated agents to checks paths that users might not often attempt or utilize.
-The developers should not be involved in any form of testing the software as they have an inherent conflict of interest, so options A and B are incorrect.
-Dynamic testing does not involve social engineering; option D is incorrect.
+	A. Having the developers review the code
+	B. Having the developers perform dynamic testing
+	C. Using automated agents to perform dynamic testing
+	D. Social engineering
+	Answer: C. 
+ 	Users may not offer enough coverage for larger software products that have a great deal of functionality; it can be useful to also use automated agents to 	
+  	checks paths that users might not often attempt or utilize.
+	The developers should not be involved in any form of testing the software as they have an inherent conflict of interest, so options A and B are incorrect.
+	Dynamic testing does not involve social engineering; option D is incorrect.
 
 ### Question # 48 - Why do developers have an inherent conflict of interest in testing software they’ve created?
-		A. They are notoriously bad, as a group, at testing.
-		B. They work for the same department as the testing personnel.
-		C. They have a vested interest in having the software perform well.
-		D. They are never trained on testing procedures.
-Answer:
-C. This is the definition of “conflict of interest.”
-All the other answers are incorrect.
+	A. They are notoriously bad, as a group, at testing.
+	B. They work for the same department as the testing personnel.
+	C. They have a vested interest in having the software perform well.
+	D. They are never trained on testing procedures.
+	Answer: C. 
+ 	This is the definition of “conflict of interest.”
+	All the other answers are incorrect.
 
 ### Question # 49 - Sandboxing can often be used for _______________.
-		A. Optimizing the production environment by moving processes that are not frequently used into the sandbox
-		B. Allowing secure remote access for users who need resources in the cloud environment
-		C. Running malware for analysis purposes
-		D. Creating secure subnets of the production environment
-Answer:
-C. A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
-Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t perform productive activity there.
+	A. Optimizing the production environment by moving processes that are not frequently used into the sandbox
+	B. Allowing secure remote access for users who need resources in the cloud environment
+	C. Running malware for analysis purposes
+	D. Creating secure subnets of the production environment
+	Answer: C. 
+ 	A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some 	
+  	malware is sandbox-aware, so additional anti-malware measures are advisable.
+	Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t 	
+ 	perform productive activity there.
 
 ### Question # 50 - Sandboxing can often be used for _______________.
-		A. Testing user awareness and training
-		B. Testing security response capabilities
-		C. Testing software before putting it into production
-		D. Testing regulatory response to new configurations and modifications
-Answer:
-C. Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
-All the other options aren’t uses for sandboxes and are incorrect.
+	A. Testing user awareness and training
+	B. Testing security response capabilities
+	C. Testing software before putting it into production
+	D. Testing regulatory response to new configurations and modifications
+	Answer: C. 
+ 	Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production 	
+  	environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
+	All the other options aren’t uses for sandboxes and are incorrect.
 
 ### Question # 51 - Application virtualization can typically be used for _______________.
-		A. Running an application in a non-native environment
-		B. Installing updates to a system’s operating system (OS)
-		C. Preventing escalation of privilege by untrusted users
-		D. Enhancing performance of systems
-Answer:
-A. Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box.
-Because the virtualization engine encapsulates the application from the native runtime environment, patches can’t be applied through virtualized programs; option B is incorrect.
-Virtualization really doesn’t have anything to do with access control; option C is incorrect.
-The overhead of running a software virtualization engine will actually add to system overhead, not decrease it, so option D is incorrect.
+	A. Running an application in a non-native environment
+	B. Installing updates to a system’s operating system (OS)
+	C. Preventing escalation of privilege by untrusted users
+	D. Enhancing performance of systems
+	Answer: A. 
+ 	Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box.
+	Because the virtualization engine encapsulates the application from the native runtime environment, patches can’t be applied through virtualized programs; 	
+ 	option B is incorrect.
+	Virtualization really doesn’t have anything to do with access control; option C is incorrect.
+	The overhead of running a software virtualization engine will actually add to system overhead, not decrease it, so option D is incorrect.
 
 ### Question # 52 - Application virtualization can typically be used for _______________.
-		A. Denying access to untrusted users
-		B. Detecting and mitigating distributed denial of service (DDoS) attacks
-		C. Replacing encryption as a necessary control
-		D. Running an application on an endpoint without installing it
-Answer:
-D. Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device.
-Virtualization really doesn’t have anything to do with access control; option A is incorrect.
-Virtualization neither detects nor responds to DDoS; option B is incorrect.
-Virtualization does not replace encryption; if data needs to be secure within the virtualization environment, encryption may still have to be utilized. Option C is incorrect.
+	A. Denying access to untrusted users
+	B. Detecting and mitigating distributed denial of service (DDoS) attacks
+	C. Replacing encryption as a necessary control
+	D. Running an application on an endpoint without installing it
+	Answer: D. 
+ 	Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device.
+	Virtualization really doesn’t have anything to do with access control; option A is incorrect.
+	Virtualization neither detects nor responds to DDoS; option B is incorrect.
+	Virtualization does not replace encryption; if data needs to be secure within the virtualization environment, encryption may still have to be utilized. 	
+ 	Option C is incorrect.
 
 ### Question # 53 - Any organization that complies with ISO 27034 will have a maximum of _______________ Organizational Normative Framework(s) (ONF)(s).
-		A. 0
-		B. 1
-		C. 5
-		D. 25
-Answer:
-B. ISO 27034 dictates that an organization will have a collection of security controls used for all software within that organization; this collection is called the ONF.
-All the other options are distractors and incorrect.
-Under ISO 27034<img width="1122" height="15388" alt="image" src="https://github.com/user-attachments/assets/2bb4afc4-359c-457d-9a5b-8a06d25e0e3a" />
+	A. 0
+	B. 1
+	C. 5
+	D. 25
+	Answer: B. 
+ 	ISO 27034 dictates that an organization will have a collection of security controls used for all software within that organization; this collection is 	
+  	called the ONF.
+	All the other options are distractors and incorrect.
+	Under ISO 27034<img width="1122" height="15388" alt="image" src="https://github.com/user-attachments/assets/2bb4afc4-359c-457d-9a5b-8a06d25e0e3a" />
 
 
 ❓1. Dynamic testing of software is perhaps most useful for _______________.
