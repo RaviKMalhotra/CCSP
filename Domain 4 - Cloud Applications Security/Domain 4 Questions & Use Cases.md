@@ -1,12 +1,12 @@
 # Domain 4 - Cloud Applications Security Questions and Use Caess
 
-1. Dynamic testing of software is perhaps most useful for _______________.  
-		A. Simulating negative test cases  
-		B. Finding errors in the source code  
-		C. Determining the effect of social engineering  
-		D. Penetration tests  
-	Answer: A  
-	Running the software and allowing users to operate it is a great form of dynamic testing, which simulates both known good and known bad inputs.  
+### Question # 1. Dynamic testing of software is perhaps most useful for _______________.  
+			A. Simulating negative test cases  
+			B. Finding errors in the source code  
+			C. Determining the effect of social engineering  
+			D. Penetration tests  
+			Answer: A  
+			Running the software and allowing users to operate it is a great form of dynamic testing, which simulates both known good and known bad inputs.  
 
 
 
