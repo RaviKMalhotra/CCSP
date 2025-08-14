@@ -441,7 +441,7 @@ Option A is incorrect; this is a description of social engineering.
 Option B is incorrect; SQL injection does not typically involve malware.
 An attack that allows someone to penetrate a facility is a physical attack. The attacker has to physically be at the facility itself. Option D is incorrect.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” In most cases, what is the method for reducing the risk of an injection attack?
+### Question # 47 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” In most cases, what is the method for reducing the risk of an injection attack?
 		A. User training
 		B. Hardening the OS
 		C. Input validation/bounds checking
@@ -452,7 +452,7 @@ Injection attacks target applications, not users, so user training has little to
 The OS usually has little to do with injection attacks, which usually target user-facing web apps that ride on the OS, so option B is not correct.
 Injection attacks are logical, not physical, so locks won’t aid the security effort in this case, making option D incorrect.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is a good method for reducing the risk of broken authentication and session management?
+### Question # 48 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is a good method for reducing the risk of broken authentication and session management?
 		A. Do not use custom authentication schemes.
 		B. Implement widespread training programs.
 		C. Ensure that strong input validation is in place.
@@ -463,7 +463,7 @@ Authentication schema should be transparent to users, who will have little or (p
 Input validation is used to counter injection attacks and has no efficacy in authentication implementations, making option C incorrect.
 The X.400 standards are for email communication and are not applicable to session authentication; thus, option D is wrong.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?
+### Question # 49 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?
 		A. Session identification exposed in URLs
 		B. Unprotected stored credentials
 		C. Lack of session timeout
@@ -472,7 +472,7 @@ Answer:
 D. HIPAA is the U.S. federal law governing medical information; it has nothing to do with authentication or session management. Failure to follow HIPAA leads to regulatory noncompliance (for those covered by it).
 All the other options are practices that can enhance an attacker’s ability to compromise authentication implementations and sessions.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?
+### Question # 50 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?
 		A. Failure to rotate session IDs after a successful login
 		B. Easily guessed authentication credentials
 		C. Weak physical entry points in the data center
@@ -481,7 +481,7 @@ Answer:
 C. As breaking authentication and session management is a logical attack, lack of physical controls don’t affect such attacks.
 All the other options are practices that can enhance an attacker’s ability to compromise authentication implementations and sessions.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?
+### Question # 51 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?
 		A. Put untrusted data in only allowed slots of HTML documents.
 		B. HTML escape when including untrusted data in any HTML elements.
 		C. Use the attribute escape when including untrusted data in attribute elements.
@@ -490,7 +490,7 @@ Answer:
 D. In many cases, HTML documents are meant to be seen by the public or new users who do not yet have trust associations (accounts) with the organization, so encrypting every HTML document would be counter to the purpose. Moreover, total encryption of everything, even material that is not particularly sensitive or valuable, incurs an additional cost with no appreciable benefit.
 The other options are all actions that OWASP recommends for reducing the risk of XSS attacks: www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?
+### Question # 52 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?
 		A. Use an auto-escaping template system.
 		B. Use XML escape for all identity assertions.
 		C. Sanitize HTML markup with a library designed for the purpose.
@@ -499,7 +499,7 @@ Answer:
 B. Option B is a incorrect because the answer narrows the risk for only the identity assertions and does not address XSS attack risks. All the other options are actions recommended by OWASP for reducing XSS attack risks.
 This question is particularly difficult as it delves into a level of detail that may or may not appear on the actual exam; however, all source documents listed in the Candidate Information Bulletin, including the OWASP Top Ten, are fair game for the test, so it is best to have at least an understanding of these sources.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “insecure direct object references.” Which of these is an example of an insecure direct object reference?
+### Question # 53 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “insecure direct object references.” Which of these is an example of an insecure direct object reference?
 		A. www.sybex.com/authoraccounts/benmalisow
 		B. 10 ? “sybex accounts”; 20 goto 10
 		C. mysql -u [bmalisow] -p [database1];
@@ -508,7 +508,7 @@ Answer:
 A. The URL in option A reveals a location of specific data as well as the format for potential other data (such as other authors’ pages/accounts); this is a classic example of an insecure direct object reference.
 Option B is a DoS program string; C is a SQL database command line (which wouldn’t reveal any information on its own; it would prompt for a password); and option D is just an email address.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “insecure direct object references.” Which of these is a method to counter the risks of insecure direct object references?
+### Question # 54 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “insecure direct object references.” Which of these is a method to counter the risks of insecure direct object references?
 		A. Perform user security training.
 		B. Check access each time a direct object reference is called by an untrusted source.
 		C. Install high-luminosity interior lighting throughout the facility.
@@ -517,7 +517,7 @@ Answer:
 B. Untrusted sources calling a direct reference should be authenticated to ensure that the source has authorization to access that object.
 Option A will not aid in insecure direct object risks; this is not a user issue, usually, but a programming issue. Option C is for physical security, while insecure direct object references are logical attacks. Option D does not reduce the risk of insecure direct object references because classification and categorization are not protections themselves but need to be paired with proper control sets in order to provide protection.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is an example of a security misconfiguration?
+### Question # 55 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is an example of a security misconfiguration?
 		A. Not providing encryption keys to untrusted users
 		B. Having a public-facing website
 		C. Leaving default accounts unchanged
@@ -528,7 +528,7 @@ Untrusted users should not have encryption keys, so this is not a misconfigurati
 A public-facing website can be extremely useful for marketing purposes and is not necessarily a security issue in and of itself, so option B is incorrect.
 Option D might or might not be true; both turnstiles and mantraps are physical security controls, and we can’t be sure whether one or the other is preferable in any given situation, so we don’t know if this is a misconfiguration or a proper configuration. Option C is therefore preferable.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is an example of a security misconfiguration?
+### Question # 56 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is an example of a security misconfiguration?
 		A. Having unpatched software in the production environment
 		B. Leaving unprotected portable media in the workplace
 		C. Letting data owners determine the classifications/categorizations of their data
@@ -539,7 +539,7 @@ Option B is bad security practice but not considered a misconfiguration.
 Data owners are supposed to classify/categorize the data under their control, so option C is not a correct answer.
 Preventing users from reaching untrusted resources may be a proper control in a given environment, so option D is not a misconfiguration, and not a correct answer.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
+### Question # 57 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
 		A. Enforce strong user access control processes.
 		B. Have a repeatable hardening process for all systems/software.
 		C. Use encryption for all remote access.
@@ -547,7 +547,7 @@ Preventing users from reaching untrusted resources may be a proper control in a 
 Answer:
 B. This question requires some thought. All the options are examples of good security practices and could therefore arguably be ways to reduce misconfiguration risks. However, option B is the best answer for this specific question: it is a method for reducing risks due to misconfiguration—a repeatable process for hardening systems/software that addresses other bad practices and is itself a good practice. This is the best answer.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
+### Question # 58 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
 		A. Broad user training that includes initial, recurring, and refresher sessions
 		B. Deeper personnel screening procedures for privileged users than is used for regular users
 		C. A repeatable patching process that includes updating libraries as well as software
@@ -555,7 +555,7 @@ B. This question requires some thought. All the options are examples of good sec
 Answer:
 C. All the options are examples of good security practices and could therefore arguably be ways to reduce misconfiguration risks. However, option C is the best answer for this specific question. The other three options are personnel/administrative/managerial controls, where the security misconfiguration is more a technical issue, which requires a technical solution.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
+### Question # 59 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
 		A. Purchase only trusted devices/components.
 		B. Follow a published, known industry standard for baseline configurations.
 		C. Hire only screened, vetted candidates for all positions.
@@ -563,7 +563,7 @@ C. All the options are examples of good security practices and could therefore a
 Answer:
 B. All the options are examples of good security practices and could therefore arguably be ways to reduce misconfiguration risks. However, option B is the best answer for this specific question. The other three options are personnel/administrative/managerial controls, where the security misconfiguration is more a technical issue, which requires a technical solution.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
+### Question # 60 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?
 		A. Get regulatory approval for major configuration modifications.
 		B. Update the business continuity and disaster recovery (BC/DR) plan on a timely basis.
 		C. Train all users on proper security procedures.
@@ -571,7 +571,7 @@ B. All the options are examples of good security practices and could therefore a
 Answer:
 D. All of these are good security practices, but only option D is a method for detecting and addressing misconfigurations.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” Which of these is a technique to reduce the potential for a sensitive data exposure?
+### Question # 61 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” Which of these is a technique to reduce the potential for a sensitive data exposure?
 		A. Extensive user training on proper data handling techniques
 		B. Advanced firewalls inspecting all inbound traffic, to include content-based screening
 		C. Ensuring the use of utility backup power supplies
@@ -582,7 +582,7 @@ Option B is incorrect because firewalls that inspect inbound traffic only will n
 Option C is incorrect because it has nothing to do with data disclosure and is instead about business continuity and disaster recovery (BC/DR).
 Option D is incorrect because it has nothing to do with data disclosure and is instead about physical security.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” All of the following are techniques for reducing the possibility of exposing sensitive data, except ____________.
+### Question # 62 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” All of the following are techniques for reducing the possibility of exposing sensitive data, except ____________.
 		A. Destroying sensitive data as soon as possible
 		B. Avoiding categorizing data as sensitive
 		C. Using proper key management when encrypting sensitive data
@@ -591,7 +591,7 @@ Answer:
 B. Data needs to be categorized according to its value/sensitivity; avoiding accurate categorization is just as troublesome, from a security perspective, as not categorizing the data or overcategorizing it (putting it in a higher category than it deserves).
 All the other options are ways of reducing the risk of sensitive data disclosure. Option A reduces the possibility of disclosure by reducing the amount of data on hand (from the OWASP: “Data you don’t have can’t be stolen”). Option C reduces the chance of disclosing keys, which leads to disclosing the data. Option D reduces the possibility that the form will disclose sensitive data to someone filling it out by prompting with an entry that should be protected.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
+### Question # 63 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
 		A. Set the default to deny all access to functions, and require authentication/authorization for each access request.
 		B. HTML escape all HTML attributes.
 		C. Restrict permissions based on an access control list (ACL).
@@ -602,7 +602,7 @@ Option B is used to deter cross-site scripting attacks, so it is incorrect.
 Option C is correct but insufficient; option A includes a more restrictive mode, so is therefore a better choice.
 Option D is used to deter the possibility of insecure direct object references, so it is incorrect.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
+### Question # 64 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
 		A. Run a process as both user and privileged user, compare results, and determine similarity.
 		B. Run automated monitoring and audit scripts.
 		C. Include browser buttons/navigation elements to secure functions.
@@ -613,7 +613,7 @@ According to the OWASP, “automated tools are unlikely to find these problems,�
 Option C is incorrect because it is the exact opposite of what you’re trying to accomplish; this is an example of what happens when function-level access controls are missing.
 Option D in no way addresses the problem of missing function-level access controls, which is a technical problem, not a user issue.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of these is a technique to reduce the potential for a CSRF?
+### Question # 65 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of these is a technique to reduce the potential for a CSRF?
 		A. Train users to detect forged HTTP requests.
 		B. Have users remove all browsers from their devices.
 		C. Don’t allow links to or from other websites.
@@ -624,7 +624,7 @@ Option A is incorrect because HTTP requests are usually made by the browser, wit
 Option B is incorrect because it’s unrealistic. Removing all browsers would decrease the utility of the systems to the point where productivity would be negligible.
 Option C is incorrect for similar reasons; the danger from CSRF is not because of links to the target website but because of the browser behavior.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). A CSRF attack might be used for all the following malicious actions except _______________.
+### Question # 66 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). A CSRF attack might be used for all the following malicious actions except _______________.
 		A. The attacker could have the user log into one of the user’s online accounts.
 		B. The attacker could collect the user’s online account login credentials, to be used by the attacker later.
 		C. The attacker could have the user perform an action in one of the user’s online accounts.
@@ -633,7 +633,7 @@ Answer:
 D. This is a description of social engineering, not CSRF, which is a browser-based attack.
 All the other options are possible exploits an attacker might try to accomplish with a CSRF attack.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of the following is a good way to deter CSRF attacks?
+### Question # 67 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of the following is a good way to deter CSRF attacks?
 		A. Have your website refuse all HTTP resource requests.
 		B. Ensure that all HTTP resource requests include a unique, unpredictable token.
 		C. Don’t allow e-commerce on your website.
@@ -644,7 +644,7 @@ Option A is not optimal or sensible because it would inhibit all web traffic and
 Option C is not optimal or sensible because it would severely limit your online capabilities.
 Option D is not sensible because all browsers use stored tokens/cookies, and no browser is preferable for the purpose over others.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?
+### Question # 68 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?
 		A. Use only components your organization has written.
 		B. Update to current versions of component libraries as soon as possible.
 		C. Never use anyone else’s component library.
@@ -654,7 +654,7 @@ B. This is not an easy question and requires an understanding of how component l
 Option B is preferable to the others because, according to the OWASP, publishers of component libraries do not often patch old components but rather issue the fixed component(s) as a new version. This is also why option D is incorrect.
 Options A and C are two ways of stating the same thing, and not optimal; trying to use this method would require every one of your software packages to be wholly written by your programmers, which is actually not more secure than using published component libraries because the risk of additional human error and lack of review is introduced to the process.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Why would an organization ever use components with known vulnerabilities to create software?
+### Question # 69 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Why would an organization ever use components with known vulnerabilities to create software?
 		A. The organization is insured.
 		B. The particular vulnerabilities exist only in a context not being used by developers.
 		C. Some vulnerabilities exist only in foreign countries.
@@ -666,7 +666,7 @@ Option A is not correct because an underwriter would be unlikely to cover a clai
 Option C might conceivably be considered correct in a fashion; different countries have different legislation/regulations, and a vulnerability that could cause noncompliance in one country might not in another. However, this is a rather tortured reading of the question, requiring some convoluted reasoning, and this option is therefore not the best answer.
 Option D is not correct because a hidden vulnerability, by definition, is not a known vulnerability.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?
+### Question # 70 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?
 		A. Use only standard libraries.
 		B. Review all updates/lists/notifications for components your organization uses.
 		C. Be sure to HTML escape all attribute elements.
@@ -677,7 +677,7 @@ Option A is incorrect because even standard libraries are subject to vulnerabili
 Option C is not correct; this is a method for reducing the risk of cross-site scripting (XSS) attacks.
 Option D will not work as users have no influence or effect on which components are used in software design.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “unvalidated redirects and forwards.” Which of the following is a good way to protect against this problem?
+### Question # 71 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “unvalidated redirects and forwards.” Which of the following is a good way to protect against this problem?
 		A. HTML escape all HTML attributes.
 		B. Train users to recognize invalidated links.
 		C. Block all inbound resource requests.
@@ -688,7 +688,7 @@ Option A is not correct; this is a method for reducing the risk of cross-site sc
 Option C is not correct; it is ridiculous and would result in preventing all remote access.
 Option D is not correct; audit logging would only track activity, not prevent a user from being directed/forwarded to an attack site.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “unvalidated redirects and forwards.” Which of the following is a good way to protect against this problem?
+### Question # 72 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “unvalidated redirects and forwards.” Which of the following is a good way to protect against this problem?
 		A. Don’t use redirects/forwards in your applications.
 		B. Refrain from storing credentials long term.
 		C. Implement security incident/event monitoring (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) solutions.
@@ -698,7 +698,7 @@ A. Basic as it may seem, not including redirects and forwards within your softwa
 Option B is a incorrect because this type of attack is not aimed at stored credentials.
 Options C and D are both incorrect because neither of those types of solutions detect or prevent this type of attack.
 
-### Question # 5 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether your current applications in the on-premises environment will function properly with the provider’s hosted systems and tools. This is a(n) _______________ issue.
+### Question # 73 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether your current applications in the on-premises environment will function properly with the provider’s hosted systems and tools. This is a(n) _______________ issue.
 		A. Interoperability
 		B. Portability
 		C. Stability
@@ -706,7 +706,7 @@ Options C and D are both incorrect because neither of those types of solutions d
 Answer:
 A. This is the definition of cloud migration interoperability challenges. Portability is the measure of how difficult it might be to move the organization’s systems/data from a given cloud host to another cloud host. Stability has no specific meaning here and is just a distractor. Security might be an element of this challenge but is not the optimum answer; the question posed a concern about functionality, not disclosure or tainting the information.
 
-### Question # 5 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the provider will have undue control over your data once it is within the provider’s data center; will the provider be able to hold your organization hostage because they have your data? This is a(n) _______________ issue.
+### Question # 74 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the provider will have undue control over your data once it is within the provider’s data center; will the provider be able to hold your organization hostage because they have your data? This is a(n) _______________ issue.
 		A. Interoperability
 		B. Portability
 		C. Stability
@@ -714,7 +714,7 @@ A. This is the definition of cloud migration interoperability challenges. Portab
 Answer:
 B. This is the definition of cloud migration portability, the measure of how difficult it might be to move the organization’s systems/data from a given cloud host to another cloud host. Interoperability issues involve whether the cloud customer’s legacy services/data will interface properly with the provider’s systems. Stability has no specific meaning here and is just a distractor. Security might be an element of this challenge, but it is not the optimum answer; the question posed a concern about functionality, not disclosure or tainting the information.
 
-### Question # 5 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the cloud provider will be able to comply with the existing legislative and contractual frameworks your organization is required to follow. This is a _______________ issue.
+### Question # 75 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the cloud provider will be able to comply with the existing legislative and contractual frameworks your organization is required to follow. This is a _______________ issue.
 		A. Resiliency
 		B. Privacy
 		C. Performance
@@ -722,7 +722,7 @@ B. This is the definition of cloud migration portability, the measure of how dif
 Answer:
 D. This is the definition of a regulatory issue. Option B might also be a factor in this kind of issue, but because the subject of privacy or any specific related topic (such as personally identifiable information [PII], the European Union General Data Protection Regulation) was not mentioned, option D is the better answer. Resiliency issues involve the provider’s ability to handle disruptive externalities, such as natural disasters, system failures, and utility outages. Performance issues address the ability of the provider to meet the customer’s IT needs.
 
-### Question # 5 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the cloud provider will be able to allow your organization to substantiate and determine with some assurance that all of the contract terms are being met. This is a(n) _______________ issue.
+### Question # 76 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the cloud provider will be able to allow your organization to substantiate and determine with some assurance that all of the contract terms are being met. This is a(n) _______________ issue.
 		A. Regulatory
 		B. Privacy
 		C. Resiliency
@@ -730,7 +730,7 @@ D. This is the definition of a regulatory issue. Option B might also be a factor
 Answer:
 D. This is not an easy question. In the context of the question, the cloud customer is trying to ascertain whether they are getting what they’re paying for; that is, a way for them to audit the cloud provider and the service as a whole. This is not a regulatory issue, as it concerns the contractual agreement between the provider and the customer, not a third party performing oversight. It is also not a privacy issue (primarily; privacy concerns might be part of the contract, but it’s not the prevailing aspect of the issue here). Resiliency issues involve the provider’s ability to handle disruptive externalities, such as natural disasters, system failures, or utility outages.
 
-### Question # 5 - Encryption is an essential tool for affording security to cloud-based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?
+### Question # 77 - Encryption is an essential tool for affording security to cloud-based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?
 		A. Key length variances don’t provide any actual additional security.
 		B. It would cause additional processing overhead and time delay.
 		C. It might result in vendor lockout.
@@ -738,7 +738,7 @@ D. This is not an easy question. In the context of the question, the cloud custo
 Answer:
 B. Encryption consumes processing power and time; as with all security controls, additional security means measurably less operational capability—there is always a trade-off between security and productivity. Option A is gibberish and only a distractor. Option C is incorrect because vendor lock-out does not result from encryption; it is what might happen if the cloud provider goes out of business while holding your data. Data subjects are the individuals whose personally identifiable information (PII) an organization holds; usually, they will not know or care if something is encrypted (unless there is a breach of that PII, and then investigators will want to determine how that PII was protected) and would probably welcome total encryption, even though that might mean a decrease in operational capability.
 
-### Question # 5 - Encryption is an essential tool for affording security to cloud-based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?
+### Question # 78 - Encryption is an essential tool for affording security to cloud-based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?
 		A. It could increase the possibility of physical theft.
 		B. Encryption won’t work throughout the environment.
 		C. The protection might be disproportionate to the value of the asset(s).
@@ -746,7 +746,7 @@ B. Encryption consumes processing power and time; as with all security controls,
 Answer:
 C. Security should be commensurate with asset value, as determined by management; putting extra security on everything in an environment is usually not cost effective. The other options don’t make sense. For example, encryption doesn’t affect the potential for physical theft, encryption can be implemented organization-wide, and access controls can be placed on encrypted information as well as unencrypted.
 
-### Question # 5 - Which of the following is not an element of the identification component of identity and access management (IAM)?
+### Question # 79 - Which of the following is not an element of the identification component of identity and access management (IAM)?
 		A. Provisioning
 		B. Management
 		C. Discretion
@@ -754,7 +754,7 @@ C. Security should be commensurate with asset value, as determined by management
 Answer:
 C. Discretion is not an element of identification and has no meaning in this context. All the other options are aspects of the identification portion of IAM.
 
-### Question # 5 - Which of the following entities is most likely to play a vital role in the identity provisioning aspect of a user’s experience in an organization?
+### Question # 80 - Which of the following entities is most likely to play a vital role in the identity provisioning aspect of a user’s experience in an organization?
 		A. The accounting department
 		B. The human resources (HR) office
 		C. The maintenance team
@@ -762,7 +762,7 @@ C. Discretion is not an element of identification and has no meaning in this con
 Answer:
 B. Of these options, HR is most likely to participate in identity provisioning; HR will usually validate the user’s identity against some documentation (driver’s license, passport, etc.) as part of the user’s initial employment process and then pass confirmation of validation along to whatever entity issues system sign-on credentials. None of the other entities usually takes part in user identification.
 
-### Question # 5 - Why is the deprovisioning element of the identification component of identity and access management (IAM) so important?
+### Question # 81 - Why is the deprovisioning element of the identification component of identity and access management (IAM) so important?
 		A. Extra accounts cost so much extra money.
 		B. Open but unassigned accounts are vulnerabilities.
 		C. User tracking is essential to performance.
@@ -770,7 +770,7 @@ B. Of these options, HR is most likely to participate in identity provisioning; 
 Answer:
 B. Unused accounts that remain open can serve as attack vectors. All the other options are not associated with identity and access management.
 
-### Question # 5 - All of the following are reasons to perform review and maintenance actions on user accounts except _______________.
+### Question # 82 - All of the following are reasons to perform review and maintenance actions on user accounts except _______________.
 		A. To determine whether the user still needs the same access
 		B. To determine whether the user is still with the organization
 		C. To determine whether the data set is still applicable to the user’s role
@@ -778,7 +778,7 @@ B. Unused accounts that remain open can serve as attack vectors. All the other o
 Answer:
 D. Job performance is not a germane aspect of account review and maintenance; that is a management concern, not an access control issue. All the other options are legitimate access control concerns.
 
-### Question # 5 - Who should be involved in review and maintenance of user accounts/access?
+### Question # 83 - Who should be involved in review and maintenance of user accounts/access?
 		A. The user’s manager
 		B. The security manager
 		C. The accounting department
@@ -786,7 +786,7 @@ D. Job performance is not a germane aspect of account review and maintenance; th
 Answer:
 A. This is not an easy question. The best answer to the question does not appear on the list; that would be the data owner, because the data owner should be the ultimate arbiter of who has what access to the data under the owner’s control. However, of these options, A is the best; the user’s manager will have the greatest amount of insight into the role of the user within the organization and therefore will understand best which data the user needs to access. The security manager does not have this insight, and the task of reviewing all access for all users within the organization would be far too large an undertaking for that position. Accounting and incident response play no part in reviewing ongoing user account applicability.
 
-### Question # 5 - Which of the following protocols is most applicable to the identification process aspect of identity and access management (IAM)?
+### Question # 84 - Which of the following protocols is most applicable to the identification process aspect of identity and access management (IAM)?
 		A. Secure Sockets Layer (SSL)
 		B. Internet Protocol Security (IPSec)
 		C. Lightweight Directory Access Protocol (LDAP)
@@ -794,7 +794,7 @@ A. This is not an easy question. The best answer to the question does not appear
 Answer:
 C. LDAP is used in constructing and maintaining centralized directory services, which are vital in all aspects of IAM. SSL and IPSec are used to create secure communication sessions—important, but not most applicable for IAM. AADT is a fictitious term used as a distractor.
 
-### Question # 5 - Privileged user (administrators, managers, and so forth) accounts need to be reviewed more closely than basic user accounts. Why is this?
+### Question # 85 - Privileged user (administrators, managers, and so forth) accounts need to be reviewed more closely than basic user accounts. Why is this?
 		A. Privileged users have more encryption keys.
 		B. Regular users are more trustworthy.
 		C. There are extra controls on privileged user accounts.
@@ -802,7 +802,7 @@ C. LDAP is used in constructing and maintaining centralized directory services, 
 Answer:
 D. The additional capabilities of privileged users make their activities riskier to the organization, so these accounts bear extra review. The number of encryption keys a user has is meaningless out of context; the amount of risk is the issue, not the number of keys. The user’s type (regular versus privileged) is not an indicator, itself, of trustworthiness. Additional review activity for privileged users is an extra control we place on privileged users, not a reason for doing so.
 
-### Question # 5 - The additional review activities that might be performed for privileged user accounts could include all of the following except _______________.
+### Question # 86 - The additional review activities that might be performed for privileged user accounts could include all of the following except _______________.
 		A. Deeper personnel background checks
 		B. Review of personal financial accounts for privileged users
 		C. More frequent reviews of the necessity for access
@@ -810,7 +810,7 @@ D. The additional capabilities of privileged users make their activities riskier
 Answer:
 D. The efficacy of frisking administrators and managers is doubtful, and the harm to morale and disparity of enforcement likely outweighs any security benefit. All the other options could and should be included in privileged account review.
 
-### Question # 5 - If personal financial account reviews are performed as an additional review control for privileged users, which of the following characteristics is least likely to be a useful indicator for review purposes?
+### Question # 87 - If personal financial account reviews are performed as an additional review control for privileged users, which of the following characteristics is least likely to be a useful indicator for review purposes?
 		A. Too much money in the account
 		B. Too little money in the account
 		C. The bank branch being used by the privileged user
@@ -818,7 +818,7 @@ D. The efficacy of frisking administrators and managers is doubtful, and the har
 Answer:
 C. Which bank branch a privileged user frequents is unlikely to be of consequence. Too much money can indicate that the privileged user is accepting payment from someone other than the employer, which can be an indicator of malfeasance or corruption. Too little money can indicate that the privileged user is subject to undue financial stress, which might be the result of behavior that makes the privileged user susceptible to subversion, such as a drug habit, family problems, or excess gambling. Specific senders and recipients of personal funds can indicate untoward activity on the part of the privileged user.
 
-### Question # 5 - How often should the accounts of privileged users be reviewed?
+### Question # 88 - How often should the accounts of privileged users be reviewed?
 		A. Annually
 		B. Twice a year
 		C. Monthly
@@ -826,7 +826,7 @@ C. Which bank branch a privileged user frequents is unlikely to be of consequenc
 Answer:
 D. There is no specific rule for the timeliness of privileged user account reviews. However, as a matter of course, privileged user accounts should be reviewed more often than the accounts of regular users because privileged users can cause more damage and therefore entail more risk.
 
-### Question # 5 - Privileged user account access should be _______________.
+### Question # 89 - Privileged user account access should be _______________.
 		A. Temporary
 		B. Pervasive
 		C. Thorough
@@ -834,7 +834,7 @@ D. There is no specific rule for the timeliness of privileged user account revie
 Answer:
 A. Privileged users should have privileged access to specific systems/data only for the duration necessary to perform their administrative function; any longer incurs more risk than value. The other options are not associated with appropriate privilege access management.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA’s Notorious Nine list, data breaches can be _______________.
+### Question # 90 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA’s Notorious Nine list, data breaches can be _______________.
 		A. Overt or covert
 		B. International or subterranean
 		C. From internal or external sources
@@ -842,7 +842,7 @@ A. Privileged users should have privileged access to specific systems/data only 
 Answer:
 C. The CSA points out that data breaches come from a variety of sources, including both internal personnel and external actors. Although breaches might be overt or covert, or large or small, we don’t usually think of them in these terms, and the CSA doesn’t discuss them that way, so options A and D aren’t correct. Option B is just incorrect because subterranean is not associated with the CSA’s Notorious Nine list of common threats.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that operates in the cloud environment and suffers a data breach may be required to _______________.
+### Question # 91 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that operates in the cloud environment and suffers a data breach may be required to _______________.
 		A. Notify affected users
 		B. Reapply for cloud service
 		C. Scrub all affected physical memory
@@ -850,7 +850,7 @@ C. The CSA points out that data breaches come from a variety of sources, includi
 Answer:
 A. Data breach notification laws are plentiful; organizations operating in the cloud are almost sure to be subject to one or more such laws. Option B is incorrect because the CSA does not suggest that an organization that operates in the cloud environment and suffers a data breach may be required to reapply for cloud service. Option C is unlikely because most cloud customers won’t have physical access to/control of devices; moreover, a breach does not always entail sanitization. Option D does not make sense, either; regulations are imposed on organizations, as legal mandates, and an organization does not get to choose which regulations affect it.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that suffers a data breach might suffer all of the following negative effects except _______________.
+### Question # 92 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that suffers a data breach might suffer all of the following negative effects except _______________.
 		A. Cost of compliance with notification laws
 		B. Loss of public perception/goodwill
 		C. Loss of market share
@@ -858,7 +858,7 @@ A. Data breach notification laws are plentiful; organizations operating in the c
 Answer:
 D. The cost of detection exists whether or not the organization suffers a breach. All other options are costs an organization will likely face as the result of a breach.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.
+### Question # 93 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.
 		A. Multiple state laws
 		B. Contractual notification requirements
 		C. All standards-based notification schemes
@@ -866,7 +866,7 @@ D. The cost of detection exists whether or not the organization suffers a breach
 Answer:
 C. This question requires a bit of thought. Option C is correct because an organization is not required to subscribe to all standards but instead only the standards it selects (or are imposed on it through regulation). However, most cloud customers will have to comply with multiple state laws (at the very least, the laws of the states where the customer’s organization resides, where the data center resides, and where its end clientele reside); any contractual requirements (between the cloud customer and its consumers, vendors, or service providers, such as, for example, Payment Card Industry Data Security Standard [PCI DSS]); and any federal regulations that govern that cloud customer’s industry.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, data loss can be suffered as a result of _______________ activity.
+### Question # 94 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, data loss can be suffered as a result of _______________ activity.
 		A. Malicious or inadvertent
 		B. Casual or explicit
 		C. Web-based or stand-alone
@@ -874,7 +874,7 @@ C. This question requires a bit of thought. Option C is correct because an organ
 Answer:
 A. Data loss can be the result of deliberate or accidental behavior. The other options are less correct than option A.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, all of the following activity can result in data loss except _______________.
+### Question # 95 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, all of the following activity can result in data loss except _______________.
 		A. Misplaced crypto keys
 		B. Improper policy
 		C. Ineffectual backup procedures
@@ -882,7 +882,7 @@ A. Data loss can be the result of deliberate or accidental behavior. The other o
 Answer:
 B. Bad policy won’t explicitly lead to data loss, but it might hinder efforts to counter data loss. However, misplaced crypto keys can result in a self-imposed denial of service, bad backup procedures can result in failure to retain data (a form of data loss), and accidental overwrites occur all the time—hence the need for proper backups.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, service traffic hijacking can affect which portion of the CIA triad?
+### Question # 96 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, service traffic hijacking can affect which portion of the CIA triad?
 		A. Confidentiality
 		B. Integrity
 		C. Availability
@@ -890,7 +890,7 @@ B. Bad policy won’t explicitly lead to data loss, but it might hinder efforts 
 Answer:
 D. All. Service traffic hijacking can affect all portions of the CIA triad. Through hijacking, an attacker could eavesdrop on legitimate communication (breaching confidentiality), insert inaccurate/incorrect data into legitimate communication (damaging integrity), and/or redirect legitimate users from valid services (making the legitimate sources unavailable). Although all of the answers are correct, option D is the most comprehensive and therefore the best answer.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. The CSA recommends the prohibition of _______________ in order to diminish the likelihood of account/service traffic hijacking.
+### Question # 97 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. The CSA recommends the prohibition of _______________ in order to diminish the likelihood of account/service traffic hijacking.
 		A. All user activity
 		B. Sharing account credentials between users and services
 		C. Multifactor authentication
@@ -898,7 +898,7 @@ D. All. Service traffic hijacking can affect all portions of the CIA triad. Thro
 Answer:
 B. Users sharing account credentials is a fairly common (although undesirable) practice and one that can lead to significant misuse of the organization’s resources and greatly increase risk to the organization. Although ending all user activity would make our IT environments so much more secure and defensible, it would also make them utterly useless from a productivity standpoint, so option A is incorrect. Option C is incorrect because the CSA recommends multifactor authentication as a means to reduce the risk of hijacking. Though not documented on the CSA’s website, the CSA most certainly does not recommend the prohibition of interstate commerce in order to diminish the likelihood of account/service traffic hijacking. Therefore, option D is an incorrect answer.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which aspect of cloud computing makes it particularly susceptible to account/service traffic hijacking?
+### Question # 98 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which aspect of cloud computing makes it particularly susceptible to account/service traffic hijacking?
 		A. Scalability
 		B. Metered service
 		C. Remote access
@@ -909,7 +909,7 @@ Scalability might be seen as an attribute of cloud computing that increases the 
 The metered service nature of cloud computing has nothing to do with a hijacking threat; metered service indicates that the customer pays only for those resources users consume.
 Cloud customers pool resources might be of concern when considering hijacking attacks because poorly configured cloud environments could leave one cloud customer subject to attack by another tenant in that same environment. But, again, hijacking is predicated on attacking data in transit, so it is the remote access aspect that is the best answer for this question.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
+### Question # 99 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
 		A. Most of the cloud customer’s interaction with resources will be performed through APIs.
 		B. APIs are inherently insecure.
 		C. Attackers have already published vulnerabilities for all known APIs.
@@ -920,7 +920,7 @@ Option B is incorrect because APIs are not inherently insecure and it is unlikel
 Option C is incorrect because it is predicated on the inaccurate notion that all APIs are inherently insecure and that the vulnerabilities of all known APIs have been published.
 Lastly, option B is inaccurate because APIs are not known carcinogens. To be a carcinogen, the carcinogen needs to be a substance that causes cancer in living tissue. As far as we know, APIs do not cause cancer.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
+### Question # 100 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
 		A. Cloud customers and third parties are continually enhancing and modifying APIs.
 		B. APIs can have automated settings.
 		C. It is impossible to uninstall APIs.
@@ -930,7 +930,7 @@ A. The continuous modification of APIs issued/designed by cloud providers introd
 Automation is not inherently a source of threats/vulnerabilities, so option B is not correct.
 Options C and D are not true.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
+### Question # 101 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?
 		A. APIs are always used for administrative access.
 		B. Customers perform many high-value tasks via APIs.
 		C. APIs are cursed.
@@ -941,7 +941,7 @@ Not all API interaction involves administrative access, so option A is wrong.
 APIs may or may not be cursed.
 Secure code practices can be used to design robust APIs, so option D is incorrect.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, why are denial of service (DoS) attacks such a significant threat to cloud operations?
+### Question # 102 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, why are denial of service (DoS) attacks such a significant threat to cloud operations?
 		A. DoS attackers operate internationally.
 		B. There are no laws against DoS attacks, so they are impossible to prosecute.
 		C. Availability issues prevent productivity in the cloud.
@@ -952,7 +952,7 @@ A lot of attackers/criminals operate internationally; this has no bearing on whe
 There are laws prohibiting DoS attacks, so option B is incorrect.
 The volume of DoS traffic necessary to disrupt modern cloud providers is rather significant, so these types of attacks are not simple. Option D is incorrect.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what do we call denial of service (DoS) attacks staged from multiple machines against a specific target?
+### Question # 103 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what do we call denial of service (DoS) attacks staged from multiple machines against a specific target?
 		A. Invasive denial of service (IDoS)
 		B. Pervasive denial of service (PDoS)
 		C. Massive denial of service (MDoS)
@@ -960,7 +960,7 @@ The volume of DoS traffic necessary to disrupt modern cloud providers is rather 
 Answer:
 D. Denial-of-service attacks staged from multiple machines against a specific target is the definition of a DDoS. All the other options are either fictitious or are not typically associated with the definition of DDoS.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of malicious insiders so alarming?
+### Question # 104 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of malicious insiders so alarming?
 		A. Scalability
 		B. Multitenancy
 		C. Metered service
@@ -969,7 +969,7 @@ Answer:
 B. In a managed cloud service context, one malicious cloud administrator could ostensibly victimize a great number of cloud customers, making the impact much greater than a sole insider in the legacy environment.
 The other options are not applicable to the insider threat.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of abuse of cloud services so alarming from a management perspective?
+### Question # 105 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of abuse of cloud services so alarming from a management perspective?
 		A. Scalability
 		B. Multitenancy
 		C. Resiliency
@@ -978,7 +978,7 @@ Answer:
 A. Because users in cloud customer organizations often do not pay directly for cloud services (and are often not even aware of the cost of use), scalability can be a significant management concern; individuals, offices, or departments within the organization can create dozens or even hundreds of new virtual systems in a cloud environment, for whatever purpose they need or desire, and the cost is realized only by the department in the organization that is charged with paying the bill. This type of abuse hinges on the immense scalability of cloud services and is frequently not associated with any malicious intent but is instead an inadvertent result of well-intentioned or careless behavior.
 The other options are not applicable to the threat of abuse of cloud services.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which of the following is not an aspect of due diligence that the cloud customer should be concerned with when considering a migration to a cloud provider?
+### Question # 106 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which of the following is not an aspect of due diligence that the cloud customer should be concerned with when considering a migration to a cloud provider?
 		A. Ensuring that any legacy applications are not dependent on internal security controls before moving them to the cloud environment
 		B. Reviewing all contractual elements to appropriately define each party’s roles, responsibilities, and requirements
 		C. Assessing the provider’s financial standing and soundness
@@ -989,7 +989,7 @@ It is imperative that the cloud customer determine whether any application depen
 Reviewing the contract between the cloud customer and provider is an essential element of due diligence.
 Determining the long-term financial viability of a cloud provider is a way to avoid losing production capability/data in the cloud.
 
-### Question # 5 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. A cloud customer that does not perform sufficient due diligence can suffer harm if the cloud provider they’ve selected goes out of business. What do we call this problem?
+### Question # 107 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. A cloud customer that does not perform sufficient due diligence can suffer harm if the cloud provider they’ve selected goes out of business. What do we call this problem?
 		A. Vendor lock-in
 		B. Vendor lockout
 		C. Vendor incapacity
@@ -999,7 +999,7 @@ B. This is the definition of vendor lockout.
 Vendor lock-in is when data portability is limited, either through unfavorable contract language or technical limitations.
 Vendor incapacity and unscaled are not meaningful terms in the context of cloud computing.
 
-### Question # 5 - Which of the following is not a method for creating logical segmentation in a cloud data center?
+### Question # 108 - Which of the following is not a method for creating logical segmentation in a cloud data center?
 		A. Virtual local area networks (VLANs)
 		B. Network address translation (NAT)
 		C. Bridging
@@ -1008,7 +1008,7 @@ Answer:
 D. A hub is a (mostly archaic) network device that simply connects physical machines together; it cannot serve the purpose of network segmentation.
 All the other options are segmentation methods/tools. Option C may be perceived as a viable answer because bridges connect network segments (allowing a segmented network, but not really creating segmentation), but option D is a better choice for this question.
 
-### Question # 5 - According to (ISC)2, the lack/ambiguity of physical endpoints as individual network components in the cloud environment creates what kind of threat/concern?
+### Question # 109 - According to (ISC)2, the lack/ambiguity of physical endpoints as individual network components in the cloud environment creates what kind of threat/concern?
 		A. The lack of defined endpoints makes it difficult to uniformly define, manage, and protect IT assets.
 		B. Without physical endpoints, it is impossible to apply security controls to an environment.
 		C. Without physical endpoints, it is impossible to track user activity.
@@ -1018,7 +1018,7 @@ A. Knowing exactly where and what your assets are, from an IT security professio
 Nothing is impossible; these tasks may become more challenging, but not impossible. So options B and C are incorrect.
 Option D is not true because lack of physical endpoints may actually reduce the threat of physical theft/damage.
 
-### Question # 5 - When should cloud providers allow platform as a service (PaaS) customers shell access to the servers running their instances?
+### Question # 110 - When should cloud providers allow platform as a service (PaaS) customers shell access to the servers running their instances?
 		A. Never
 		B. Weekly
 		C. Only when the contract stipulates that requirement
@@ -1027,7 +1027,7 @@ Answer:
 A. PaaS customers should never be given shell access to underlying infrastructure because any changes by one customer may negatively impact other customers in a multitenant environment.
 All the other options are simply incorrect.
 
-### Question # 5 - In a PaaS implementation, each instance should have its own user-level permissions; when instances share common policies/controls, the cloud security professional should be careful to reduce the possibility of _______________ and _______________ over time.
+### Question # 111 - In a PaaS implementation, each instance should have its own user-level permissions; when instances share common policies/controls, the cloud security professional should be careful to reduce the possibility of _______________ and _______________ over time.
 		A. Denial of service (DoS)/physical theft
 		B. Authorization creep/inheritance
 		C. Sprawl/hashing
@@ -1036,7 +1036,7 @@ Answer:
 B. Mass permissions assigned to multiple instances may be susceptible to inadvertent authorization creep and permission inheritance over time as users shift roles and responsibilities and are assigned to new tasks and teams and as new users come into the existing, fluid environment.
 All the other options are just wrong, with at least one nonsensical element in each.
 
-### Question # 5 - In a platform as a service (PaaS) environment, user access management often requires that data about user activity be collected, analyzed, audited, and reported against rule-based criteria. These criteria are usually based on _______________.
+### Question # 112 - In a platform as a service (PaaS) environment, user access management often requires that data about user activity be collected, analyzed, audited, and reported against rule-based criteria. These criteria are usually based on _______________.
 		A. International standards
 		B. Federal regulations
 		C. Organizational policies
@@ -1047,7 +1047,7 @@ International standards do not apply to every organization’s internal needs an
 Not all organizations are bound by all (or any) federal regulations, but all organizations should have policies regarding user access rules, so option B is incorrect.
 Option D is a nod to Star Trek and also incorrect.
 
-### Question # 5 - An essential element of access management, _______________ is the practice of confirming that an individual is who they claim to be.
+### Question # 113 - An essential element of access management, _______________ is the practice of confirming that an individual is who they claim to be.
 		A. Authentication
 		B. Authorization
 		C. Nonrepudiation
@@ -1058,7 +1058,7 @@ Authorization is granting access based on permissions allocated to a particular 
 Nonrepudiation is the security concept of not allowing a participant in a transaction to deny that they participated.
 Regression is a statistical concept not relevant to the question in any way.
 
-### Question # 5 - An essential element of access management, _______________ is the practice of granting permissions based on validated identification.
+### Question # 114 - An essential element of access management, _______________ is the practice of granting permissions based on validated identification.
 		A. Authentication
 		B. Authorization
 		C. Nonrepudiation
@@ -1069,7 +1069,7 @@ Authentication is verifying that the user is who they claim to be and assigning 
 Nonrepudiation is the security concept of not allowing a participant in a transaction to deny that they participated.
 Regression is a statistical concept not relevant to the question in any way.
 
-### Question # 5 - What is the usual order of an access management process?
+### Question # 115 - What is the usual order of an access management process?
 		A. Access-authorization-authentication
 		B. Authentication-authorization-access
 		C. Authorization-authentication-access
@@ -1077,7 +1077,7 @@ Regression is a statistical concept not relevant to the question in any way.
 Answer:
 B. In access management, the user is first authenticated (their identity verified and validated as correct), then authorized (permissions granted based on their valid identity), and given access.
 
-### Question # 5 - Why are platform as a service (PaaS) environments at a higher likelihood of suffering backdoor vulnerabilities?
+### Question # 116 - Why are platform as a service (PaaS) environments at a higher likelihood of suffering backdoor vulnerabilities?
 		A. They rely on virtualization.
 		B. They are often used for software development.
 		C. They have multitenancy.
@@ -1086,7 +1086,7 @@ Answer:
 B. PaaS environments are attractive for software development because they allow testing of software on multiple operating systems that are administered by the cloud provider. Software developers routinely use backdoors as development and administrative tools in their products; these backdoors, if left in software when it ships, are significant vulnerabilities.
 All cloud environments, including PaaS, rely on virtualization, have multitenancy, and are scalable, so those options are not correct.
 
-### Question # 5 - Backdoors are sometimes left in software by developers _______________.
+### Question # 117 - Backdoors are sometimes left in software by developers _______________.
 		A. In lieu of other security controls
 		B. As a means to counter denial of service (DoS) attacks
 		C. Inadvertently or on purpose
@@ -1097,7 +1097,7 @@ Option A is incorrect as backdoors are not a control.
 Option B is incorrect because backdoors don’t serve as DoS protection in any way.
 Option D is incorrect because backdoors are not distractions for attackers, but means for attack.
 
-### Question # 5 - Alice is staging an attack against Bob’s website. She is able to introduce a string of command code into a database Bob is running, simply by entering the command string into a data field. This is an example of which type of attack?
+### Question # 118 - Alice is staging an attack against Bob’s website. She is able to introduce a string of command code into a database Bob is running, simply by entering the command string into a data field. This is an example of which type of attack?
 		A. Insecure direct object reference
 		B. Buffer overflow
 		C. SQL injection
@@ -1105,7 +1105,7 @@ Option D is incorrect because backdoors are not distractions for attackers, but 
 Answer:
 C. This is an example of typical SQL injection. All the other options are also attacks listed in the Open Web Application Security Project (OWASP) Top Ten, but they do not have the characteristics as the one contained in the question.
 
-### Question # 5 - Bob is staging an attack against Alice’s website. He is able to embed a link on her site that will execute malicious code on a visitor’s machine if the visitor clicks on the link. This is an example of which type of attack?
+### Question # 119 - Bob is staging an attack against Alice’s website. He is able to embed a link on her site that will execute malicious code on a visitor’s machine if the visitor clicks on the link. This is an example of which type of attack?
 		A. Cross-site scripting
 		B. Broken authentication/session management
 		C. Security misconfiguration
@@ -1113,7 +1113,7 @@ C. This is an example of typical SQL injection. All the other options are also a
 Answer:
 A. This is the definition of a cross-site scripting attack. Options B and C are also attacks listed in the Open Web Application Security Project (OWASP) Top Ten. Option D is not in the Top Ten and is made up as a fictitious option.
 
-### Question # 5 - Alice is staging an attack against Bob’s website. She has discovered that Bob has been storing cryptographic keys on a server with a default admin password and is able to get access to those keys and violate confidentiality and access controls. This is an example of which type of attack?
+### Question # 120 - Alice is staging an attack against Bob’s website. She has discovered that Bob has been storing cryptographic keys on a server with a default admin password and is able to get access to those keys and violate confidentiality and access controls. This is an example of which type of attack?
 		A. SQL injection
 		B. Buffer overflow
 		C. Using components with known vulnerabilities
@@ -1121,7 +1121,7 @@ A. This is the definition of a cross-site scripting attack. Options B and C are 
 Answer:
 D. This is likely a security misconfiguration, as crypto keys must not be disclosed or the cryptosystem does not provide protection; most successful attacks on cryptosystems have been configuration/implementation attacks, not mathematical or statistical. The other options are all also in the Open Web Application Security Project (OWASP) Top Ten.
 
-### Question # 5 - Which of the following is a management risk that organizations migrating to the cloud will have to address?
+### Question # 121 - Which of the following is a management risk that organizations migrating to the cloud will have to address?
 		A. Insider threat
 		B. Virtual sprawl
 		C. Distributed denial of service (DDoS) attacks
@@ -1129,7 +1129,7 @@ D. This is likely a security misconfiguration, as crypto keys must not be disclo
 Answer:
 B. In the cloud environment, it is very easy for a user to generate a new virtual instance; that is one of the advantages of the cloud. However, this can pose a problem for management, as users might generate many more instances than expected because the users don’t usually realize (or have to pay) the per-instance costs associated with doing so. However, the organization will have to pay the full price of many more instances at the end of each billing cycle, and exceeding the allotted amount dictated by the contract can be quite expensive. In the traditional environment, this would not pose a risk because the number of possible instances is limited by the resource capacity within the organization and additional instances don’t have attendant direct costs. All the other options are not cloud-specific risks; they also exist in the traditional environment.
 
-### Question # 5 - Which kind of hypervisor is the preferred target of attackers, and why?
+### Question # 122 - Which kind of hypervisor is the preferred target of attackers, and why?
 		A. Type 1, because it is more straightforward
 		B. Type 1, because it has a greater attack surface
 		C. Type 2, because it is less protected
@@ -1140,7 +1140,7 @@ Option A does not make logical sense; a Type 1 hypervisor is not more straightfo
 Option B is not true. A Type 1 hypervisor has a smaller attack surface, not a larger one.
 Option C is not true in general. Type 2 hypervisors are not necessarily less protected than other hypervisors. Option C is not the correct answer.
 
-### Question # 5 - Which of the following would make a good provision to include in the service-level agreement (SLA) between cloud customer and provider?
+### Question # 123 - Which of the following would make a good provision to include in the service-level agreement (SLA) between cloud customer and provider?
 		A. Location of the data center
 		B. Amount of data uploaded/downloaded during a pay period
 		C. Type of personnel security controls for network administrators
@@ -1148,7 +1148,7 @@ Option C is not true in general. Type 2 hypervisors are not necessarily less pro
 Answer:
 B. Option B is the only element that lends itself well to a discrete, objective metric; the other options might be something the customer is interested in but will often have little control over; if the customer is insistent on those points, they should be included in the contract, not the SLA.
 
-### Question # 5 - What is the most significant aspect of the service-level agreement (SLA) that incentivizes the cloud provider to perform?
+### Question # 124 - What is the most significant aspect of the service-level agreement (SLA) that incentivizes the cloud provider to perform?
 		A. The thoroughness with which it details all aspects of cloud processing
 		B. The financial penalty for not meeting service levels
 		C. The legal liability for violating data breach notification requirements
@@ -1156,7 +1156,7 @@ B. Option B is the only element that lends itself well to a discrete, objective 
 Answer:
 B. Usually, when a provider does not meet the terms specific in the SLA, the provider will not be paid for a period of service; this is the strongest, most immediate tool at the customer’s disposal. The other options simply are not true.
 
-### Question # 5 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except _______________.
+### Question # 125 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except _______________.
 		A. Reduced cost of ownership
 		B. Reduced energy costs
 		C. Metered usage
@@ -1164,7 +1164,7 @@ B. Usually, when a provider does not meet the terms specific in the SLA, the pro
 Answer:
 D. In an IaaS configuration, the customer still has to maintain the OS, so option D is the only answer that is not a direct benefit for the cloud customer.
 
-### Question # 5 - From an academic perspective, what is the main distinction between an event and an incident?
+### Question # 126 - From an academic perspective, what is the main distinction between an event and an incident?
 		A. Incidents can last for extended periods (days or weeks), whereas an event is momentary.
 		B. Incidents can happen at the network level, whereas events are restricted to the system level.
 		C. Events are anything that can occur in the IT environment, whereas incidents are unscheduled events.
@@ -1172,7 +1172,7 @@ D. In an IaaS configuration, the customer still has to maintain the OS, so optio
 Answer:
 C. This is the textbook definition of an incident versus event. However, this question is not easy, because many sources in the IT security field define incidents differently; it’s common to think of incidents as events that have an adverse impact, or incidents are something that require response. However, option C is the correct answer.
 
-### Question # 5 - The cloud computing characteristic of elasticity promotes which aspect of the CIA triad?
+### Question # 127 - The cloud computing characteristic of elasticity promotes which aspect of the CIA triad?
 		A. Confidentiality
 		B. Integrity
 		C. Availability
@@ -1180,7 +1180,7 @@ C. This is the textbook definition of an incident versus event. However, this qu
 Answer:
 D. Elasticity is a beneficial characteristic in that it supports the management goal of matching resources to user needs, but it does not provide any security benefit.
 
-### Question # 5 - A hosted cloud environment is great for an organization to use as _______________.
+### Question # 128 - A hosted cloud environment is great for an organization to use as _______________.
 		A. Storage of physical assets
 		B. A testbed/sandbox
 		C. A platform for managing unsecured production data
@@ -1188,7 +1188,7 @@ D. Elasticity is a beneficial characteristic in that it supports the management 
 Answer:
 B. Cloud customers can test different hardware/software implementations in the cloud without affecting the production environment and use this information to make decisions before investing in particular solutions. Option A is not true because the cloud does not store physical assets. Option C is not accurate because production data in the cloud must still be secured. And option D is not true because cloud hosting is not free; there is some cost (even if that cost is less than it would be for comparable on-premises hosting).
 
-### Question # 5 - What is the entity that created the Statement on Standards for Attestation Engagements (SSAE) auditing standard and certifies auditors for that standard?
+### Question # 129 - What is the entity that created the Statement on Standards for Attestation Engagements (SSAE) auditing standard and certifies auditors for that standard?
 		A. National Institute of Standards and Technology (NIST)
 		B. European Network and Information Security Agency (ENISA)
 		C. General Data Protection Regulation (GDPR)
@@ -1196,7 +1196,7 @@ B. Cloud customers can test different hardware/software implementations in the c
 Answer:
 D. The American Institute of Certified Public Accountants publishes the SSAE 18 standard. NIST is a U.S. government entity that publishes many standards for federal agencies, so option A is incorrect. ENISA is a European Union (EU) standards body, so option B is incorrect. The GDPR is an EU law about privacy data, so option C is incorrect.
 
-### Question # 5 - The current American Institute of Certified Public Accountants (AICPA) standard codifies certain audit reporting mechanisms. What are these called?
+### Question # 130 - The current American Institute of Certified Public Accountants (AICPA) standard codifies certain audit reporting mechanisms. What are these called?
 		A. Sarbanes-Oxley Act (SOX) reports
 		B. Secure Sockets Layer (SSL) audits
 		C. Sherwood Applied Business Structure Architecture (SABSA)
@@ -1204,7 +1204,7 @@ D. The American Institute of Certified Public Accountants publishes the SSAE 18 
 Answer:
 D. SOC reports are the audit reporting mechanisms dictated by SSAE 18. SOX is a federal law targeting publicly traded corporations in the United States. SSL is a way to conduct secure online transactions. SABSA is an architecture framework.
 
-### Question # 5 - Which of the following is not a report used to assess the design and selection of security controls within an organization?
+### Question # 131 - Which of the following is not a report used to assess the design and selection of security controls within an organization?
 		A. Consensus Assessments Initiative Questionnaire (CAIQ)
 		B. Cloud Security Alliance Cloud Controls Matrix (CSA CCM)
 		C. SOC 1
@@ -1212,7 +1212,7 @@ D. SOC reports are the audit reporting mechanisms dictated by SSAE 18. SOX is a 
 Answer:
 C. The SOC 1 audit report is not for security controls; it is for financial reporting controls. The AICPA SOC 2 Type 1 audit report reviews the controls an organization has selected and designed. Both the CAIQ and the CCM are tools created by the CSA to review an organization’s controls across several frameworks, regulations, and standards.
 
-### Question # 5 - Which of the following is a report used to assess the implementation and effectiveness of security controls within an organization?
+### Question # 132 - Which of the following is a report used to assess the implementation and effectiveness of security controls within an organization?
 		A. SOC 1
 		B. SOC 2 Type 1
 		C. SOC 2 Type 2
@@ -1220,7 +1220,7 @@ C. The SOC 1 audit report is not for security controls; it is for financial repo
 Answer:
 C. The SOC 2 Type 2 reviews the implementation of security controls. The SOC 1 reviews financial reporting controls, not security controls. The SOC 2 Type 1 reviews the design and selection of security controls, not implementation. The SOC 3 is only an attestation of an audit, so option C is better.
 
-### Question # 5 -  _______________ is an example of due care, and _______________ is an example of due diligence.
+### Question # 133 -  _______________ is an example of due care, and _______________ is an example of due diligence.
 		A. Privacy data security policy; auditing the controls dictated by the privacy data security policy
 		B. The European Union General Data Protection Regulation (GDPR); the Gramm-Leach-Bliley Act (GLBA)
 		C. Locks on doors; turnstiles
@@ -1232,7 +1232,7 @@ Door locks and turnstiles are physical security controls; they both might be exa
 Due care and diligence can be demonstrated by either internal or external controls/
 processes; there is no distinction to be made based on where the control is situated.
 
-### Question # 5 - In a Lightweight Directory Access Protocol (LDAP) environment, each entry in a directory server is identified by a _______________.
+### Question # 134 - In a Lightweight Directory Access Protocol (LDAP) environment, each entry in a directory server is identified by a _______________.
 		A. Domain name (DN)
 		B. Distinguished name (DN)
 		C. Directory name (DN)
@@ -1243,7 +1243,7 @@ A domain name is used to identify one or more IP addresses. For instance, Micros
 A directory name is typically associated with a file system structure and not something related to LDAP. Option C is incorrect.
 “Default Name” is not a common term, and is made up. Option D is not the correct answer.
 
-### Question # 5 - Each of the following is an element of the Identification phase of the identity and access management (IAM) process except _______________.
+### Question # 135 - Each of the following is an element of the Identification phase of the identity and access management (IAM) process except _______________.
 		A. Provisioning
 		B. Inversion
 		C. Management
@@ -1251,7 +1251,7 @@ A directory name is typically associated with a file system structure and not so
 Answer:
 B. Inversion is not part of the IAM process at all and has no meaning in this context. All the other options are elements of identification.
 
-### Question # 5 - Which of the following is true about two-person integrity?
+### Question # 136 - Which of the following is true about two-person integrity?
 		A. It forces all employees to distrust one another.
 		B. It requires two different identity and access management matrices (IAM).
 		C. It forces collusion for unauthorized access.
@@ -1260,7 +1260,7 @@ Answer:
 C. By creating a need for two identity assertions or authentication elements to access assets, two-person integrity prevents a single person from gaining unauthorized access and forces a would-be criminal to join up with at least one other person to conduct a crime. This reduces the possibility of the crime taking place.
 All the other options are simply untrue and are therefore exceedingly poor choices for answers to CCSP test questions.
 
-### Question # 5 - All of the following are statutory regulations except the _______________.
+### Question # 137 - All of the following are statutory regulations except the _______________.
 		A. Gramm-Leach-Bliley Act (GLBA)
 		B. Health Information Portability and Accountability Act (HIPAA)
 		C. Federal Information Systems Management Act (FISMA)
@@ -1268,7 +1268,7 @@ All the other options are simply untrue and are therefore exceedingly poor choic
 Answer:
 D. The PCI DSS is a voluntary standard, having only contractual obligation. All the other options are statutes, created by lawmaking bodies.
 
-### Question # 5 - A cloud data encryption situation where the cloud customer retains control of the encryption keys and the cloud provider only processes and stores the data could be considered a _______________.
+### Question # 138 - A cloud data encryption situation where the cloud customer retains control of the encryption keys and the cloud provider only processes and stores the data could be considered a _______________.
 		A. Threat
 		B. Risk
 		C. Hybrid cloud deployment model
@@ -1279,7 +1279,7 @@ Option A is incorrect because the scenario stated in the question does not ident
 Option B is incorrect because the scenario stated in the question does not identify a risk. Allowing the customer to retain their own encryption keys is actually less risky than sharing their encryption keys with the provider.
 Option D is incorrect because the provider does not have a right to the customer’s encryption keys, so, there cannot be an infringement on the provider’s rights.
 
-### Question # 5 - Which of the following is one of the benefits of a private cloud deployment?
+### Question # 139 - Which of the following is one of the benefits of a private cloud deployment?
 		A. Less cost
 		B. Higher performance
 		C. Retaining control of governance
@@ -1290,7 +1290,7 @@ Private clouds typically cost more than public cloud deployments, so option A is
 Performance is not necessarily enhanced (or decreased) by any of the cloud deployment models, so option B is incorrect.
 Retaining a higher degree of control over the cloud environment will necessarily require the cloud customer to have more maintenance capability, not less, so option D is incorrect.
 
-### Question # 5 - What are the two general delivery modes for the software as a service (SaaS) model?
+### Question # 140 - What are the two general delivery modes for the software as a service (SaaS) model?
 		A. Ranked and free
 		B. Hosted application management and software on demand
 		C. Intrinsic motivation complex and undulating perspective details
@@ -1299,7 +1299,7 @@ Answer:
 B. In SaaS, the cloud provider might license and deliver commercially available software for the customer, via the cloud (hosted application management), or provide the customer access to the provider’s proprietary software (software on demand).
 All the other options are incorrect. The options contain legitimate words put together to form gibberish.
 
-### Question # 5 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?
+### Question # 141 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?
 		A. The network admin responsible
 		B. The cloud provider
 		C. The regulators overseeing your deployment
@@ -1308,7 +1308,7 @@ Answer:
 D. The cloud customer is ultimately responsible for all legal repercussions involving data security and privacy; the cloud provider might be liable for financial costs related to these responsibilities, but those damages can only be recovered long after the notifications have been made by the cloud customer.
 All the other options are incorrect because they do not correctly identify who is required to make data breach notifications in accordance with all applicable laws. That responsibility rests with the cloud customer.
 
-### Question # 5 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?
+### Question # 142 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?
 		A. Platform as a service (PaaS), community
 		B. Infrastructure as a service (IaaS), hybrid
 		C. Software as a service (SaaS), public
@@ -1316,7 +1316,7 @@ All the other options are incorrect because they do not correctly identify who i
 Answer:
 D. An IaaS service model allows an organization to retain the most control of their IT assets in the cloud; the cloud customer is responsible for the operating system, the applications, and the data in the cloud. The private cloud model allows the organization to retain the greatest degree of governance control in the cloud; all the other deployment models would necessitate giving up governance control in an environment with pooled resources.
 
-### Question # 5 - If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?
+### Question # 143 - If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?
 		A. Platform as a service (PaaS), community
 		B. Infrastructure as a service (IaaS), hybrid
 		C. Software as a service (SaaS), public
@@ -1324,4 +1324,4 @@ D. An IaaS service model allows an organization to retain the most control of th
 Answer:
 C. With SaaS, the cloud customer is responsible only for the data in the cloud; the cloud provider is responsible for the underlying IT infrastructure, the operating system, and the applications; maintenance for this service model will be minimal, compared to the others. A public cloud deployment will reduce costs even more, as it is the least expensive of the options—with the least amount of control for the cloud customer.
 All the other options would include some degree of administration of the cloud resources on the part of the cloud customer and so are not as optimal as option C.
-![Uploading image.png…]()
+
