@@ -2,7 +2,7 @@
 
 Domain 1 of the Certified Cloud Security Professional (CCSP) Exam Outline is an introductory section that touches on almost every other element of the exam outline so you’ll find a wide breadth of content and subject matter ranging over many topics. The questions in this chapter will reflect that broad scope but will also get into some level of detail on certain aspects you’ll find pertinent to the exam.
 
-### Question # 1 - lice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which cloud service model should she most likely consider for her company’s purposes?
+### Question # 1 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which cloud service model should she most likely consider for her company’s purposes?
 		A. Platform as a service (PaaS)
 		B. Software as a service (SaaS)
 		C. Backup as a service (Baas)
@@ -87,7 +87,7 @@ Answer:
 A. The customer will have to pay for the costs of modification requested by the customer, regardless of purpose.
 All the other options are simply incorrect, especially option D, which is never true.
 
-### Question # 5 - Which of the following is not a factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?
+### Question # 11 - Which of the following is not a factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?
 		A. Pooled resources in the cloud
 		B. Shifting from IT investment as capital expenditures to operational expenditures
 		C. The time savings and efficiencies offered by the cloud service
@@ -96,7 +96,7 @@ Answer:
 D. The brand associated with the cloud provider should not influence the cost–benefit analysis; the cloud provider’s brand (and even which cloud provider an organization uses) will most likely not even be known to the consumers who have a business relationship with the organization.
 The provider does not absorb the cost when the customer’s requests a modification of the SLA. Though an even split of the cost between customer and provider may seem fair, the customer pays for all costs associated with modifications to the SLA by the customer. Finally, customer modifications to their SLA are chargeable expenses that will almost certainly be paid for by the customer.
 
-### Question # 5 - Which of the following is the least important factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?
+### Question # 12 - Which of the following is the least important factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?
 		A. Depreciation of IT assets
 		B. Shift in focus from IT dependencies to business process opportunities
 		C. Whether the provider bills on a monthly or weekly basis
@@ -105,7 +105,7 @@ Answer:
 C. The timing of recurring payments to the provider will probably not be a significant factor in the cost–benefit analysis.
 All the other options are topics that are more important to review when an organization is considering cloud migration.
 
-### Question # 5 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment into the cloud?
+### Question # 13 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment into the cloud?
 		A. Number of users
 		B. Cost of software licensing
 		C. Number of applications
@@ -116,7 +116,7 @@ Option A is incorrect because the number of users should not be affected whether
 Option C is incorrect because that may or may not be true of an organization’s migration to the cloud.
 Option D is incorrect because the organization certainly hopes it is not going to lose clientele by moving to the cloud!
 
-### Question # 5 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?
+### Question # 14 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?
 		A. Utilities costs
 		B. Security costs
 		C. Landscaping costs
@@ -126,7 +126,7 @@ A. Cloud providers are purchasing utilities (power, water, Internet connectivity
 Option B may or may not be true, depending on the degree of sensitivity and value of the organization’s data and what controls the organization will request/contract for in the cloud.
 Options C and D are not influenced by cloud migration in any way and are wholly dependent on other factors within the organization.
 
-### Question # 5 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?
+### Question # 15 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?
 		A. Personnel training
 		B. Personnel turnover
 		C. Capital expenses for IT assets
@@ -136,7 +136,7 @@ C. Constant reinvestment in IT assets (which are almost always obsolete by the t
 Option A is incorrect; cloud migration should not affect the need for personnel training; employees will just need to be trained in a different manner.
 Options B and D should not be affected by cloud migration in any way; whether your organization has a high personnel turnover rate or risk from internal threat is not based on whether the IT environment is owned or leased.
 
-### Question # 5 - Although cloud migration might offer significant cost savings for an organization, which of the following factors might reduce the actual financial benefit the organization realizes in a cloud environment?
+### Question # 16 - Although cloud migration might offer significant cost savings for an organization, which of the following factors might reduce the actual financial benefit the organization realizes in a cloud environment?
 		A. Altitude of the cloud data center
 		B. Security controls and countermeasures
 		C. Loss of ownership of IT assets
@@ -147,7 +147,7 @@ Option A is incorrect because the altitude of the cloud data center does not tra
 Option C is wrong because it should be the opposite of the actual case: losing ownership of the IT assets, and paying only for the use of those assets, should lead directly to a savings over the costs of a traditional IT environment, if compared on a seat-to-seat basis.
 Option D should not be true; the cost of connecting users to the Internet should not be significantly greater if the organization operates in the cloud or with an on-premises data center—if the cost is considerably greater, the organization should never have migrated in the first place.
 
-### Question # 5 - What is the international standard that dictates creation of an organizational information security management system (ISMS)?
+### Question # 17 - What is the international standard that dictates creation of an organizational information security management system (ISMS)?
 		A. NIST SP 800-53
 		B. PCI DSS
 		C. ISO 27001
@@ -158,7 +158,7 @@ National Institute of Standards and Technology (NIST) SP 800-53 is the list of s
 The Payment Card Industry Data Security Standard (PCI DSS) is the payment card industry’s framework of compliance for all entities accepting or processing credit card payments.
 NIST SP 800-37 is the Risk Management Framework.
 
-### Question # 5 - ISO 27001 favors which type of technology?
+### Question # 18 - ISO 27001 favors which type of technology?
 		A. Open source
 		B. PC
 		C. Cloud-based
@@ -166,7 +166,7 @@ NIST SP 800-37 is the Risk Management Framework.
 Answer:
 D. The ISO 27001 standard is designed to be product agnostic. The other answers suggest ISO 27001 favors a type of technology, and are therefore incorrect.
 
-### Question # 5 - Why might an organization choose to comply with the ISO 27001 standard?
+### Question # 19 - Why might an organization choose to comply with the ISO 27001 standard?
 		A. Price
 		B. Ease of implementation
 		C. International acceptance
@@ -175,7 +175,7 @@ Answer:
 C. The ISO standards are almost universally accepted and recognized, and they’re even mandated for certain industries/locales.
 They are not, however, cheap, fast, or easy to adopt, implement, and audit against, so all the other answers are incorrect.
 
-### Question # 5 - Why might an organization choose to comply with NIST SP 800-series standards?
+### Question # 20 - Why might an organization choose to comply with NIST SP 800-series standards?
 		A. Price
 		B. Ease of implementation
 		C. International acceptance
@@ -184,7 +184,7 @@ Answer:
 A. The NIST standards are not particularly easy or fast to implement (in fact, they require continual improvement), and they are not widely recognized or mandated outside of the U.S. government federal sector.
 However, they are in the public domain, so an organization would not have to pay for the standards material if the organization chose to use NIST standards.
 
-### Question # 5 - Which standard contains guidance for selecting, implementing, and managing information security controls mapped to an information security management system (ISMS) framework?
+### Question # 21 - Which standard contains guidance for selecting, implementing, and managing information security controls mapped to an information security management system (ISMS) framework?
 		A. ISO 27002
 		B. Payment Card Industry Data Security Standard (PCI DSS)
 		C. NIST SP 800-37
@@ -195,7 +195,7 @@ PCI DSS is the payment card industry’s framework of compliance for all entitie
 NIST SP 800-37 is the Risk Management Framework.
 HIPAA is the U.S. law regarding patient data privacy in the medical sector.
 
-### Question # 5 - The current American Institute of Certified Public Accountants (AICPA) publishes the _______________ standard, from which the Service Organization Control (SOC) reports are derived.
+### Question # 22 - The current American Institute of Certified Public Accountants (AICPA) publishes the _______________ standard, from which the Service Organization Control (SOC) reports are derived.
 		A. Sherwood Applied Business Security Architecture (SABSA)
 		B. Statement on Standards for Attestation Engagements (SSAE) 18
 		C. Biba
@@ -204,7 +204,7 @@ Answer:
 B. SSAE 18 is the current AICPA audit standard, as of 2018.
 All the other options are distractors: SABSA is an IT architecture framework, Biba is an access control model, and NIST SP 800-53 contains guidance for selecting security controls in accordance with the Risk Management Framework.
 
-### Question # 5 - Which U.S. federal law affects banking and insurance companies?
+### Question # 23 - Which U.S. federal law affects banking and insurance companies?
 		A. NIST 800-53
 		B. HIPAA
 		C. Sarbanes-Oxley Act (SOX)
@@ -215,7 +215,7 @@ NIST 800-53 is a standard, not a law, so option A is incorrect.
 Health Insurance Portability and Accountability Act (HIPAA) is a U.S. federal law concerning medical information, so option B is incorrect.
 SOX affects publicly traded corporations, making option C incorrect.
 
-### Question # 5 - The Statement on Standards for Attestation Engagements 18 (SSAE 18) Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). What kind of entities were SOC reports designed to audit?
+### Question # 24 - The Statement on Standards for Attestation Engagements 18 (SSAE 18) Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). What kind of entities were SOC reports designed to audit?
 		A. U.S. federal government
 		B. Privately held companies
 		C. Companies that provide services
@@ -223,7 +223,7 @@ SOX affects publicly traded corporations, making option C incorrect.
 Answer:
 C. The SSAE 18 is an audit standard, and the SOC reports were specifically designed to report on the suitability of organizations that provide services. This is not to say that SOC reports are not used to assess other types of organizations—they are, but they were not designed for that purpose, so all the other answers are incorrect.
 
-### Question # 5 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an IT security professional, when reviewing SOC reports for a cloud provider, which report would you most like to see?
+### Question # 25 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an IT security professional, when reviewing SOC reports for a cloud provider, which report would you most like to see?
 		A. SOC 1
 		B. SOC 2, Type 1
 		C. SOC 2, Type 2
@@ -234,7 +234,7 @@ The SOC 1 report provides information about financial reporting mechanisms of th
 The SOC 2, Type 1 report describes IT security controls designed by the target only but not how effectively those controls function, so option B is incorrect.
 The SOC 3 report is only an attestation that the target was audited and that it passed the audit, without detail, so option D is incorrect.
 
-### Question # 5 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an investor, when reviewing SOC reports for a cloud provider, which report would you most like to see?
+### Question # 26 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an investor, when reviewing SOC reports for a cloud provider, which report would you most like to see?
 		A. SOC 1
 		B. SOC 2, Type 1
 		C. SOC 2, Type 2
@@ -245,7 +245,7 @@ The SOC 2, Type 1 report describes IT security controls designed by the target o
 The SOC 2, Type 2 report will provide details on IT security controls used by the target and how well those controls function. While of great interest to the IT security professional, this is of little interest to the investor, so option C is incorrect.
 The SOC 3 report is only an attestation that the target was audited and that it passed the audit, without detail, so option D is incorrect.
 
-### Question # 5 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). You are an IT security professional working for an organization that is considering migrating from your on-premises environment into the cloud. Assuming some have passed SSAE 18 audits and some haven’t, which SOC report might be best to use for your initial review of several different cloud providers in order to narrow down the field of potential services in a fast, easy way?
+### Question # 27 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). You are an IT security professional working for an organization that is considering migrating from your on-premises environment into the cloud. Assuming some have passed SSAE 18 audits and some haven’t, which SOC report might be best to use for your initial review of several different cloud providers in order to narrow down the field of potential services in a fast, easy way?
 		A. SOC 1
 		B. SOC 2, Type 1
 		C. SOC 2, Type 2
@@ -256,7 +256,7 @@ The SOC 1 report provides information about financial reporting mechanisms of th
 The SOC 2, Type 1 report describes IT security controls designed by the target only but not how effectively those controls function. While of some interest to the IT security professional, it is more comprehensive and detailed than a SOC 3 report, so it would take more time; option B is incorrect.
 The SOC 2, Type 2 report will provide details on IT security controls used by the target and how well those controls function. While of great interest to the IT security professional, it is very detailed and comprehensive and wouldn’t be a speedy tool to narrow the field. Option C is incorrect.
 
-### Question # 5 - Which of the following entities would not be covered by the Payment Card Industry Data Security Standard (PCI DSS)?
+### Question # 28 - Which of the following entities would not be covered by the Payment Card Industry Data Security Standard (PCI DSS)?
 		A. A bank issuing credit cards
 		B. A retailer accepting credit cards as payment
 		C. A business that processes credit card payments on behalf of a retailer
@@ -264,7 +264,7 @@ The SOC 2, Type 2 report will provide details on IT security controls used by th
 Answer:
 D. PCI DSS applies only to those entities that want to engage in the business of taking or processing credit card payments, which would include options A, B, and C. A counseling service is not engaged in commerce involving credit cards and therefore is under no obligation to adhere to the PCI DSS.
 
-### Question # 5 - What sort of legal enforcement may the Payment Card Industry (PCI) Security Standards Council not bring to bear against organizations that fail to comply with the Payment Card Industry Data Security Standard (PCI DSS)?
+### Question # 29 - What sort of legal enforcement may the Payment Card Industry (PCI) Security Standards Council not bring to bear against organizations that fail to comply with the Payment Card Industry Data Security Standard (PCI DSS)?
 		A. Fines
 		B. Jail time
 		C. Suspension of credit card processing privileges
@@ -273,7 +273,7 @@ Answer:
 B. Because PCI DSS is strictly voluntary, and the PCI Council is not a government body but a consortium of private interests, they cannot detain or imprison anyone.
 They can, however, assess fees, suspend processing privileges, and require more auditing, so the other answers are true and therefore incorrect.
 
-### Question # 5 - The Payment Card Industry Data Security Standard (PCI DSS) merchant levels are based on _______________.
+### Question # 30 - The Payment Card Industry Data Security Standard (PCI DSS) merchant levels are based on _______________.
 		A. Dollar value of transactions over the course of a year
 		B. Number of transactions over the course of a year
 		C. Location of the merchant or processor
@@ -282,7 +282,7 @@ Answer:
 B. The PCI merchant levels are based on how many transactions a compliant entity engages in over the course of a year.
 All the other options are incorrect because the dollar value of transactions and location of the merchant or processor are not the criteria used for determining PCI DSS merchant levels. Only the transactions a compliant entity engages in over the course of a year is the correct answer.
 
-### Question # 5 - In terms of greatest stringency and requirements for security validation, which is the highest merchant level in the Payment Card Industry (PCI) standard?
+### Question # 31 - In terms of greatest stringency and requirements for security validation, which is the highest merchant level in the Payment Card Industry (PCI) standard?
 		A. 1
 		B. 2
 		C. 3
@@ -291,7 +291,7 @@ Answer:
 A. Merchant level 1 is for the merchants that engage in the most transactions per year (six million or more). It carries with it the requirement for the most comprehensive, detailed, and repeated security validation actions.
 It may be tempting to choose the highest number when choosing an answer for the highest merchant level. It may be counterintuitive to think that level 1 would be a higher level than a level 4. However, level 1 is the highest merchant level and is the correct answer to this question.
 
-### Question # 5 - The Payment Card Industry Data Security Standard (PCI DSS) requires _______________ security requirements for entities involved in credit card payments and processing.
+### Question # 32 - The Payment Card Industry Data Security Standard (PCI DSS) requires _______________ security requirements for entities involved in credit card payments and processing.
 		A. Technical
 		B. Nontechnical
 		C. Technical and nontechnical
@@ -302,7 +302,7 @@ Option A is partially correct and partially incorrect. While the security requir
 Option B is also partially correct and partially incorrect. While the security requirements are partially nontechnical, some requirements are technical. Therefore, option B is incorrect.
 Option C is incorrect because the requirements are technical and nontechnical, not neither technical nor nontechnical.
 
-### Question # 5 - According to the Payment Card Industry Data Security Standard (PCI DSS), if a merchant is going to store credit cardholder information for any length of time, what type of security protection must be used?
+### Question # 33 - According to the Payment Card Industry Data Security Standard (PCI DSS), if a merchant is going to store credit cardholder information for any length of time, what type of security protection must be used?
 		A. Tokenization or masking
 		B. Obfuscation or tokenization
 		C. Masking or obfuscation
@@ -311,7 +311,7 @@ Answer:
 D. The Payment Card Industry Data Security Standard (PCI DSS) allows for cardholder information at rest to be secured with either tokenization or encryption, but use of one is mandatory.
 The other options are distractors and not dictated by PCI DSS. They can, however, be useful in fulfilling certain credit card support services, such as customer support, where the personnel engaged in the activity (customer support agents, for instance) may need access to a limited set of the cardholder’s account information (for instance, name, mailing address, and date of the payment) but do not have a need to know other elements of that data set (particularly, the full credit card number); masking and obfuscation can satisfy that business need without putting data unduly at risk.
 
-### Question # 5 - What element of credit cardholder information may never be stored for any length of time, according to the Payment Card Industry Data Security Standard (PCI DSS)?
+### Question # 34 - What element of credit cardholder information may never be stored for any length of time, according to the Payment Card Industry Data Security Standard (PCI DSS)?
 		A. The full credit card number
 		B. The card verification value (CVV)
 		C. The cardholder’s mailing address
@@ -320,7 +320,7 @@ Answer:
 B. The Payment Card Industry Data Security Standard (PCI DSS) disallows the storage of the CVV for any length of time; the CVV may only be used during the payment transaction, and not saved.
 The other options may be stored for future transactions with the same merchant. However, unlike the CVV they may be stored by the merchant.
 
-### Question # 5 - When reviewing IT security products that have been subjected to Common Criteria certification, what does the Evaluation Assurance Level (EAL) tell you?
+### Question # 35 - When reviewing IT security products that have been subjected to Common Criteria certification, what does the Evaluation Assurance Level (EAL) tell you?
 		A. How secure the product is from an external attack
 		B. How thoroughly the product has been tested
 		C. The level of security the product delivers to an environment
@@ -329,7 +329,7 @@ Answer:
 B. The EAL is a measure of how thoroughly the security features the product vendor claims the product offers have been tested and reviewed, and by whom.
 The EAL does not offer any true measure of how well those security features will work in a production environment so options A and C are incorrect. Whether those features are preferable to other features offered by competing products, or whether the product is “good.” Therefore, option D is incorrect.
 
-### Question # 5 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are functionally tested by their manufacturer/vendor?
+### Question # 36 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are functionally tested by their manufacturer/vendor?
 		A. 1
 		B. 3
 		C. 5
@@ -339,7 +339,7 @@ A. EAL 1 is for functionally tested products. Option B is incorrect because EAL 
 Option C, EAL 5 is incorrect because that is for solutions that have been semi-formally designed and tested.
 Option D is incorrect because EAL 7 is for solutions that have been formally verified design and tested.
 
-### Question # 5 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are formally verified in terms of design and tested by an independent third party?
+### Question # 37 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are formally verified in terms of design and tested by an independent third party?
 		A. 1
 		B. 3
 		C. 5
@@ -350,7 +350,7 @@ EAL 1 is for functionally tested products.
 EAL 3 is for solutions that have been methodically tested and checked.
 EAL 5 is for solutions that have been semi-formally designed and tested.
 
-### Question # 5 - Who pays for the Common Criteria certification of an IT product?
+### Question # 38 - Who pays for the Common Criteria certification of an IT product?
 		A. National Institute of Standards and Technology (NIST)
 		B. The vendor/manufacturer
 		C. The cloud customer
@@ -362,7 +362,7 @@ Option C is incorrect because the cloud customer does not pay to have IT product
 Option D is incorrect because the end user is an individual and individuals do not pay to have IT products certified.
 (Note: Of course, the manufacturer/vendor is going to amortize the cost of the certification process across the price of the products they sell, so the customers who purchase the product will eventually “pay” for the certification, but that’s a very oblique and abstract way of reading the question.)
 
-### Question # 5 - Who publishes the list of cryptographic modules validated according to the Federal Information Processing Standard (FIPS) 140-2?
+### Question # 39 - Who publishes the list of cryptographic modules validated according to the Federal Information Processing Standard (FIPS) 140-2?
 		A. The U.S. Office of Management and Budget (OMB)
 		B. The International Standards Organization (ISO)
 		C. International Information System Security Certification Consortium, or (ISC)2
@@ -370,7 +370,7 @@ Option D is incorrect because the end user is an individual and individuals do n
 Answer:
 D. NIST publishes the list of validated crypto modules. The other choices are government or non-government organizations that are not involved with publishing the list of cryptographic modules that meet FIPS 140-2 requirements.
 
-### Question # 5 - Who performs the review process for hardware security modules (HSMs) in accordance with the Federal Information Processing Standard (FIPS) 140-2?
+### Question # 40 - Who performs the review process for hardware security modules (HSMs) in accordance with the Federal Information Processing Standard (FIPS) 140-2?
 		A. The National Institute of Standards and Technology (NIST)
 		B. The National Security Agency (NSA)
 		C. Independent (private) laboratories
@@ -381,7 +381,7 @@ Option A is incorrect because NIST does not perform the review process. NIST app
 Option B is incorrect. Of all the activities that the NSA does perform, reviewing the process for Hardware Security Modules in accordance with FIPS 140-2 is certainly not one of them.
 Option D is incorrect because the ENISA is a European Union organization that supports European Union institutions and stakeholders.
 
-### Question # 5 - In terms of the number of security functions offered, which is the highest Federal Information Processing Standard (FIPS) 140-2 security level a cryptographic module can achieve in certification?
+### Question # 41 - In terms of the number of security functions offered, which is the highest Federal Information Processing Standard (FIPS) 140-2 security level a cryptographic module can achieve in certification?
 		A. 1
 		B. 2
 		C. 3
@@ -389,7 +389,7 @@ Option D is incorrect because the ENISA is a European Union organization that su
 Answer:
 D. The highest security level a product can reach is 4. Option A is incorrect because Level 1 is the lowest level of security. Option B is incorrect because Level 2 simply improves upon the physical security of Level 2. Option C is incorrect because Level 3 improves upon Level 2 certification and adds tamper-detection/response capabilities.
 
-### Question # 5 - What distinguishes the Federal Information Processing Standard (FIPS) 140-2 security levels for cryptographic modules?
+### Question # 42 - What distinguishes the Federal Information Processing Standard (FIPS) 140-2 security levels for cryptographic modules?
 		A. The level of sensitivity of data they can be used to protect
 		B. The amount of physical protection provided by the product, in terms of tamper resistance
 		C. The size of the IT environment the product can be used to protect
@@ -400,7 +400,7 @@ The question asks what distinguishes the security levels for cryptographic modul
 Option C is incorrect because the size of the IT environment the cryptographic module is protecting is not what distinguishes the different levels.
 Option D is not correct because whether the cryptographic module is or is not allowed in a certain geographic location has no bearing on whether or not it works. The cryptographic module either works or it does not, regardless of its location.
 
-### Question # 5 - For U.S. government agencies, what level of data sensitivity/classification may be processed by cryptographic modules certified according to the Federal Information Processing Standard (FIPS) 140-2 criteria?
+### Question # 43 - For U.S. government agencies, what level of data sensitivity/classification may be processed by cryptographic modules certified according to the Federal Information Processing Standard (FIPS) 140-2 criteria?
 		A. Sensitive but unclassified (SBU)
 		B. Secret
 		C. Top Secret
@@ -408,7 +408,7 @@ Option D is not correct because whether the cryptographic module is or is not al
 Answer:
 A. FIPS 140-2 is only for SBU data. Options B, C, and D are incorrect because FIPS 140-2 certifies cryptographic modules for unclassified data. Secret, Top Secret, and Sensitive Compartmentalized Information all are categorized as classified information when it refers to their sensitivity level.
 
-### Question # 5 - Who pays for cryptographic modules to be certified in accordance with Federal Information Processing Standard (FIPS) 140-2 criteria?
+### Question # 44 - Who pays for cryptographic modules to be certified in accordance with Federal Information Processing Standard (FIPS) 140-2 criteria?
 		A. The U.S. government
 		B. Module vendors
 		C. Certification laboratories
@@ -419,7 +419,7 @@ Option A is incorrect because the U.S. government is not in the business of payi
 Certification laboratories receive funds for certifying cryptographic modules. They do not pay to have them certified. Therefore, option C is incorrect.
 Option D is incorrect. Users do not pay to have solutions certified.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. What is probably the single most important way of countering the highest number of items on the OWASP Top Ten (regardless of year)?
+### Question # 45 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. What is probably the single most important way of countering the highest number of items on the OWASP Top Ten (regardless of year)?
 		A. Social engineering training
 		B. Disciplined coding practices and processes
 		C. White-box source code testing
@@ -430,7 +430,7 @@ Strangely, option A is not correct in this case. Social engineering is perhaps t
 Option C is not correct because source code testing is only one aspect of code review and would not address as many items on the Top Ten as option B would.
 Option D is not correct for much the same reason option A is incorrect; this question is specifically about application security, and the physical protection element is very minor.
 
-### Question # 5 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” In most cases, what is the attacker trying to do with an injection attack?
+### Question # 46 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” In most cases, what is the attacker trying to do with an injection attack?
 		A. Get the user to allow access for the attacker.
 		B. Insert malware onto the system.
 		C. Trick the application into running commands.
