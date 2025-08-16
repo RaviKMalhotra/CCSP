@@ -1,37 +1,50 @@
  
 ### Question # 1 - Matthew is reviewing a new cloud service offering that his organization plans to adopt. In this offering, a cloud provider will create virtual server instances under the multitenancy model. Each server instance will be accessible only to Matthew’s company. What cloud deployment model is being used?
-A.	Hybrid cloud
-B.	Public cloud
-C.	Private cloud
-D.	Community cloud
+A.	Hybrid cloud  
+B.	Public cloud  
+C.	Private cloud  
+D.	Community cloud  
 
 ### Question # 2 - Zeke is responsible for sanitizing a set of solid- state drives (SSDs) removed from servers in his organization’s datacenter. The drives will be reused on a different project. Which one of the following sanitization techniques would be most effective?
-A.	Cryptographic erasure
-B.	Physical destruction
-C.	Degaussing
-D.	Overwriting
-3.	Tina would like to use a technology that will allow her to bundle up workloads and easily move them between different operating systems. What technology would best meet this need?
-A.	Virtual machines
-B.	Serverless computing
-C.	Hypervisors
-D.	Containers
-4.	Under the cloud reference architecture, which one of the following activities is not generally part of the responsibilities of a customer?
+A.	Cryptographic erasure  
+B.	Physical destruction  
+C.	Degaussing  
+D.	Overwriting  
+
+### Question # 3 - Tina would like to use a technology that will allow her to bundle up workloads and easily move them between different operating systems. What technology would best meet this need?
+A.	Virtual machines   
+B.	Serverless computing   
+C.	Hypervisors  
+D.	Containers  
+
+### Question # 4 - Under the cloud reference architecture, which one of the following activities is not generally part of the responsibilities of a customer?
 A.	Monitor services
 B.	Prepare systems
 C.	Perform business administration
 D.	Handle problem reports
-5.	Seth is helping his organization move their web server cluster to a cloud provider. The goal of this move is to provide the cluster with the ability to grow and shrink based on changing demand. What characteristic of cloud computing is Seth hoping to achieve?
+
+### Question # 5 - Seth is helping his organization move their web server cluster to a cloud provider. The goal of this move is to provide the cluster with the ability to grow and shrink based on changing demand. What characteristic of cloud computing is Seth hoping to achieve?
 A.	Scalability
 B.	On- demand self service
 C.	Elasticity
 D.	Broad network access
-6.	Sherry is deploying a zero- trust network architecture for her organization. In this approach, which one of the following characteristics would be least important in validating a login attempt? A. User identity
+
+### Question # 6 - Sherry is deploying a zero- trust network architecture for her organization. In this approach, which one of the following characteristics would be least important in validating a login attempt? 
+A. User identity
 B.	IP address
 C.	Geolocation
 D.	Nature of requested access
-7.	Which one of the following hypervisor models is the most resistant to attack? A. Type 1 B. Type 2 C. Type 3
+
+### Question # 7 - Which one of the following hypervisor models is the most resistant to attack? 
+A. Type 1 
+B. Type 2 
+C. Type 3
 D. Type 4
-8.	Joe is using a virtual server instance running on a public cloud provider and would like to restrict the ports on that server accessible from the internet. What security control would best allow him to meet this need?
+
+Answer: A. 
+If a cloud provider is able to choose between types of hypervisors, the bare-m etal (Type 1) hypervisor is preferable to the hypervisor that runs off the OS (Type 2) because it will offer less attack surface. Type 3 and 4 hypervisors do not exist.
+
+### Question # 8 - Joe is using a virtual server instance running on a public cloud provider and would like to restrict the ports on that server accessible from the internet. What security control would best allow him to meet this need?
 A.	Geofencing
 B.	Traffic inspection
 C.	Network firewall
@@ -469,14 +482,13 @@ A.	Confidential computing
 B.	Ephemeral computing
 C.	Quantum computing
 D.	Parallel computing
-100.	What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?
+### Question # 100 -	What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?
 A.	BC involves a recovery time objective (RTO), and DR involves a recovery point objective (RPO).
 B.	BC is for events caused by humans (like arson or theft), whereas DR is for natural disasters.
 C.	BC is about maintaining critical functions during a disruption of normal operations, and DR is about recovering to normal operations after a disruption.
 D.	BC involves protecting human assets (personnel, staff, users), whereas DR is about protecting property (assets, data).
  
-Chapter 1: Domain 1: Cloud Concepts, 
-Architecture, and Design
+Chapter 1: Domain 1: Cloud Concepts, Architecture, and Design
 1.	B. The key to answering this question is recognizing that the multitenancy model involves many different customers accessing cloud resources hosted on shared hardware. That makes this a public cloud deployment, regardless of the fact that access to a particular server instance is limited to Matthew’s company. In a private cloud deployment, only Matthew’s company would have access to any resources hosted on the same physical hardware. This is not multitenancy. There is no indication that Matthew’s organization is combining resources of public and private cloud computing, which would be a hybrid cloud, or that the resource use is limited to members of a particular group, which would be a community cloud.
 2.	A. Cryptographic erasure is a strong sanitization technique that involves encrypting the data with a strong encryption engine and then taking the keys generated in that process, encrypting them with a different encryption engine, and destroying the resulting keys of the second round of encryption. This technique is effective on both magnetic and solid- state drives. Degaussing and overwriting are not effective on SSDs. Physical destruction would effectively sanitize the media but would prevent Zeke from reusing the drives.
 3.	A. Containers do not provide easy portability because they are dependent upon the host operating system. Hypervisors are used to host virtual machines on a device, so that is another incorrect answer. Serverless computing is a platform as a service model that allows cloud customers to run their own code on the provider’s platform without provisioning servers, so that is also incorrect. Virtual machines are self- contained and have their own internal operating system, so it is possible to move them between different host operating systems.
