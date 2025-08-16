@@ -1,5 +1,7 @@
 
 ### Roles and Sub-Roles
+-
+-
 - Cloud Service Partner (CSN): A party that is engaged in support or or auxiliary to, activities of either the CSP, the CSC, or both.
 - Cloud Service Provider (CSP):
 - Cloud Service Customer (CSC):
