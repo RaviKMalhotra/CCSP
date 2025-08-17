@@ -19,10 +19,10 @@ C.	Hypervisors
 D.	Containers  
 
 ### Question # 4 - Under the cloud reference architecture, which one of the following activities is not generally part of the responsibilities of a customer?
-A.	Monitor services
-B.	Prepare systems
-C.	Perform business administration
-D.	Handle problem reports
+A.	Monitor services  
+B.	Prepare systems  
+C.	Perform business administration  
+D.	Handle problem reports  
 
 ### Question # 5 - Seth is helping his organization move their web server cluster to a cloud provider. The goal of this move is to provide the cluster with the ability to grow and shrink based on changing demand. What characteristic of cloud computing is Seth hoping to achieve?
 A.	Scalability
