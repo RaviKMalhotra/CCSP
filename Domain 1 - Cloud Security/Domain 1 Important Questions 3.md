@@ -441,48 +441,67 @@ A.	Platform as a service (PaaS), community
 B.	Infrastructure as a service (IaaS), hybrid
 C.	Software as a service (SaaS), public
 D.	Infrastructure as a service (IaaS), private
-90.	Henry’s company has deployed an extensive IoT infrastructure for building monitoring that includes environmental controls, occupancy sensors, and a variety of other sensors and controllers that help manage the building. Which of the following security concerns should Henry report as the most critical in his analysis of the IoT deployment?
+
+### Question # 90 -	Henry’s company has deployed an extensive IoT infrastructure for building monitoring that includes environmental controls, occupancy sensors, and a variety of other sensors and controllers that help manage the building. Which of the following security concerns should Henry report as the most critical in his analysis of the IoT deployment?
 A.	There is a lack of local storage space for security logs, which is common to IoT devices.
-B.	The IoT devices may not have a separate administrative interface, allowing anybody on the same network to attempt to log in to them and making brute- force attacks possible. C. The IoT devices may not support strong encryption for communications, exposing the log and sensor data to interception on the network.
+B.	The IoT devices may not have a separate administrative interface, allowing anybody on the same network to attempt to log in to them and making brute- force attacks possible.
+C. The IoT devices may not support strong encryption for communications, exposing the log and sensor data to interception on the network.
 D. The long- term support and patching model for the IoT devices may create security and operational risk for the organization.
-91.	In what cloud computing model does the customer build a cloud computing environment in their own datacenter or build an environment in another datacenter that is for the customer’s exclusive use? A. Public cloud
+
+### Question # 91 - In what cloud computing model does the customer build a cloud computing environment in their own datacenter or build an environment in another datacenter that is for the customer’s exclusive use?
+A. Public cloud
 B.	Private cloud
 C.	Hybrid cloud
 D.	Shared cloud
-92.	What cloud computing component is most susceptible to an escape attack? A. Hypervisor
+
+### Question # 92 -	What cloud computing component is most susceptible to an **escape attack**?
+A. Hypervisor
 B.	Hardware security module
 C.	Trusted platform module
 D.	Database
-93.	Steve is concerned that users of his organization’s cloud environment may be sending sensitive information over HTTPS connections. What technology would best help him detect this activity?
+
+### Question # 93 -	Steve is concerned that users of his organization’s cloud environment may be sending sensitive information over HTTPS connections. What technology would best help him detect this activity?
 A.	Traffic inspection
 B.	Port blocking
 C.	Patching
 D.	Geofencing
-94.	Which one of the following disaster recovery approaches is generally the most cost- effective for an organization? A. Hot site
-B. Cloud site C. Cold site
+
+### Question # 94 -	Which one of the following disaster recovery approaches is generally the most cost- effective for an organization? 
+A. Hot site
+B. Cloud site 
+C. Cold site
 D. Warm site
-95.	An essential element of access management, ____________ is the practice of confirming that an individual is who they claim to be.
+
+### Question # 95 - An essential element of access management, ____________ is the practice of confirming that an individual is who they claim to be.
 A.	Authentication
 B.	Authorization
 C.	Nonrepudiation
 D.	Regression
-96.	Which one of the following cloud service categories places the most security responsibility with the cloud service provider?
+
+### Question # 96 - Which one of the following cloud service categories places the most security responsibility with the cloud service provider?
 A.	SaaS
-B.	PaaS C. FaaS
+B.	PaaS
+C. FaaS
 D. IaaS
-97.	Alice and Bob are using a symmetric encryption algorithm to exchange sensitive information. How many total encryption keys are necessary for this communication?
-A.	1 B. 2 C. 3 D. 4
-98.	Mike and Renee would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority.
-When Mike receives Renee’s digital certificate, what key does he use to verify the authenticity of the certificate?
+
+### Question # 97 - .	Alice and Bob are using a symmetric encryption algorithm to exchange sensitive information. How many total encryption keys are necessary for this communication?
+A.	1
+B. 2
+C. 3
+D. 4
+
+### Question # 98 -	Mike and Renee would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority. When Mike receives Renee’s digital certificate, what key does he use to verify the authenticity of the certificate?
 A.	Renee’s public key
 B.	Renee’s private key
 C.	CA’s public key
 D.	CA’s private key
-99.	What computing technology, if fully developed, has the potential to undermine the security of modern encryption algorithms?
+
+### Question # 99 -	What computing technology, if fully developed, has the potential to undermine the security of modern encryption algorithms?
 A.	Confidential computing
 B.	Ephemeral computing
 C.	Quantum computing
 D.	Parallel computing
+
 ### Question # 100 -	What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?
 A.	BC involves a recovery time objective (RTO), and DR involves a recovery point objective (RPO).
 B.	BC is for events caused by humans (like arson or theft), whereas DR is for natural disasters.
