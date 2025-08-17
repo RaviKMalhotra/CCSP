@@ -3,148 +3,180 @@ A.	Portability
 B.	Multitenancy
 C.	Reversibility
 D.	Auto-scaling
+
 2.	Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
 A.	Confidentiality
 B.	Integrity
 C.	Availability
 D.	Privacy
+
 3.	With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?
 A.	Language	differences
 B.	Technologies	used
 C.	Licensing	issues
 D.	Lack	of	international	authority
+
 4.	Which	of	the	following	regulations	originates	from	a	professional	orindustry	organization,	rather	than	from	a	legal	or	governmental	authority?
 A.	PCI	DSS
 B.	FISMA
 C.	HIPAA
 D.	SOX
+
 5.	What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	hasbeen	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?
 A.	File	size
 B.	Checksum
 C.	Filename
 D.	Metadata
+
 6.	The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacy regulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?
 A.	The	United	States	and	Japan
 B.	Russia	and	the	European	Union
 C.	The	United	States	and	the	European	Union
 D.	The	European	Union	and	Japan
+
 7.	Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	bothlegal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?
 A.	PCI	DSS
 B.	FISMA
 C.	HIPAA
 D.	FIPS	140-2
+
 8.	Audits	are	regularly	undertaken	by	an	organization	in	both	internal	andexternal	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?
 A.	Efficiency
 B.	Regulations
 C.	Design	plans
 D.	Costs
+
 9.	What	principle	must	always	been	included	with	an	SOC	2	report?
 A.	Confidentiality
 B.	Security
 C.	Privacy
 D.	Processing	integrity
+
 10.	What	will	determine	the	responsibilities	for	both	the	cloud	provider	andthe	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service? A.		Contract
 B.	SLA
 C.	Regulation
 D.	SOW
+
 11.	The	first	step	with	an	internal	information	security	management	system (ISMS)	involves	defining	an	organization’s	security	policies.	After security	policies	have	been	defined,	what	is	the	next	step	in	the	process?
 A.	Risk	assessment
 B.	Scope	definition
 C.	Implement	controls
 D.	Continual	improvement
+
 12.	Without	direct	access	by	customers	to	the	underlying	infrastructure	of	acloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?
 A.	SLAs
 B.	Contracts
 C.	Regulations
 D.	Certifications
+
 13.	Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	toproperly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?
 A.	Access	to	systems
 B.	Knowledge	of	systems
 C.	Data	classification	rules
 D.	Contractual	requirements
+
 14.	During	the	lessons	learned	phase	of	an	audit,	reducing	duplication	is	keyfor	lowering	both	costs	and	time	involved	for	staff	with	audits.	Which	of
 the	following	will	prevent	elimination	of	duplication	in	many	instances?
 A.	Corporate	policies
 B.	Vendor	recommendations
 C.	Regulations
 D.	Stakeholders
+
 15.	The	ISO/IEC	27001:2013	security	standard	contains	14	different	domainsthat	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?
 A.	Legal
 B.	Management
 C.	Assets
 D.	Supplier	Relationships
+
 16.	What	is	the	process	that	requires	searching,	identifying,	collecting,	and securing	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? A.		Disclosure
 B.	Subpoena
 C.	Retention
 D.	eDiscovery
+
 17.	What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?
 A.	SLA
 B.	Contract
 C.	Regulation
 D.	SOW
+
 18.	Which	type	of	report	is	considered	for	“general”	use	and	does	not	containany	sensitive	information?
 A.	SOC	1
 B.	SAS-70
 C.	SOC	3
 D.	SOC	2
-19.	Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit? A.		Customer	feedback
+
+19.	Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit? 
+A.		Customer	feedback
 B.	Stakeholder	interviews
 C.	Documentation	review
 D.	Audit	testing
-20.	Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use? A.		Data	custodian
+
+20.	Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use? 
+A.		Data	custodian
 B.	Data	owner
 C.	Data	originator
 D.	Database	administrator
+
 21.	Many	processes	are	substantially	different	between	fulfilling	an eDiscovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?
 A.	Broad	network	access
 B.	Measured	service
 C.	Elasticity
 D.	On-demand	self-service
+
 22.	Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?
 A.	Contractual
 B.	Jurisdictional
 C.	Regulated
 D.	Sensitive
+
 23.	Which	of	the	following	laws	is	highly	related	to	the	preservation	andretention	of	electronic	records?
 A.	HIPAA
 B.	Safe	Harbor
 C.	SOX
 D.	GLBA
+
 24.	During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?
 A.	Security
 B.	Privacy
 C.	Processing	integrity
 D.	Availability
+
 25.	Which	of	the	following	is	NOT	one	of	the	steps	involved	in	the	audit plan?
 A.	Define	objectives
 B.	Remediation
 C.	Define	scope
 D.	Lessons	learned
+
 26.	ISO/IEC	27018	was	developed	to	establish	standards	for	privacy involving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?
 A.	Independent,	yearly
 B.	Internal,	every	six	months
 C.	Independent,	every	six	months
 D.	Internal,	yearly
+
 27.	Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? A.		Define	scope
 B.	Lessons	learned
 C.	Define	objectives
 D.	Conduct	the	audit
+
 28.	Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?
 A.	United	States
 B.	European	Union
 C.	Russia
 D.	Japan
+
 29.	An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?
 A.	Exclusions
 B.	Costs
 C.	Certifications
 D.	Reports
+
 30.	Which	of	the	following	laws	pertains	to	the	protection	and	confidentialityof	PII,	related	specifically	to	financial	institutions?
 A.	HIPAA
 B.	SOX
 C.	Safe	Harbor
 D.	GLBA 
-	QUICK	ANSWER	KEY
+	
+QUICK	ANSWER	KEY
 1.	B
 2.	A
 3.	D
@@ -175,8 +207,10 @@ D.	GLBA 
 28.	A
 29.	B
 30.	D 
-	ANSWERS
+
+ANSWERS Details 
 Comprehensive	Answers	and	Explanations
+
 1.	The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?
 A.	Portability
 B.	Multitenancy
@@ -186,6 +220,7 @@ D.	Auto-scaling
  	A	is	incorrect	because	portability	refers	to	the	ability	for	a	system, service,	or	application	to	move	with	ease	between	different	cloud providers.	It	gives	additional	flexibility	to	a	cloud	customer	and prevents	vendor	lock-in,	which	would	eliminate	a	cloud	customer from	seeking	competition	and	constantly	shopping	for	cheaper services	or	better	support.
  	C	is	incorrect	because	reversibility	refers	to	the	ability	of	a	cloud customer	to	easily	remove	their	data,	systems,	and	applications	from	a cloud	provider,	with	certainty	that	it	has	been	securely	and	completely removed.	The	requirements	for	removal,	including	methods	and timelines,	should	be	covered	by	the	contract	between	the	cloud customer	and	cloud	provider.
  	D	is	incorrect	because	auto-scaling	pertains	to	a	cloud	environment’s ability	to	programmatically	adjust	the	necessary	resources	to	meet current	demand,	either	by	adding	or	removing	allocated	resources.
+
 2.	Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
 A.	Confidentiality
 B.	Integrity
@@ -195,6 +230,7 @@ D.	Privacy
  	B	is	incorrect	because	integrity	refers	to	ensuring	that	data	has	not been	corrupted	or	altered	through	unauthorized	or	inappropriate actions.	It	is	solely	focused	on	the	format	and	correctness	of	the	data, and	may	be	used	in	conjunction	with	confidentiality	in	some instances.	However,	data	is	not	required	to	be	protected	or	to	be sensitive	in	nature	for	integrity	to	be	a	necessary	concern.
  	C	is	incorrect	because	availability	pertains	to	data	being	accessible when	necessary	and	in	a	secure	manner.	It	may	involve	sensitive	data or	can	be	completely	open	and	public	for	dissemination,	but	with necessary	requirements	for	access	and	availability	for	crucial operations.
  	D	is	incorrect	because	privacy	is	considered	a	subset	of	confidentiality, as	it	is	focused	on	personal	data	and	the	right	or	ability	to	control	how it	is	collected	or	used,	as	well	as	the	ability	to	have	it	removed	from	a system	or	application	when	desired	or	no	long	necessary	for	use.
+
 3.	With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?
 A.	Language	differences
 B.	Technologies	used
@@ -204,6 +240,7 @@ D.	Lack	of	international	authority
  	A	is	incorrect	because	language	differences	would	not	be	a	significant impediment.	Although	it	is	quite	likely	that	you	could	encounter language	differences	when	dealing	across	borders	with	different locales,	these	are	easily	overcome	with	translators,	or	even	computer programs	that	can	handle	translations	well.
  	B	is	incorrect	because	the	technologies	used	would	not	serve	as	a hindrance	to	regulations	compliance	in	any	significant	way	that	is unique	to	multiple	jurisdictions.	Technologies	always	need	to	match compliance	requirements	to	an	acceptable	standard,	so	hosting	across multiple	jurisdictions	is	not	a	unique	circumstance	in	this	regard.
  	C	is	incorrect	because	licensing	issues	are	also	not	unique	across jurisdictions,	nor	do	they	directly	play	into	issues	with	regulatory compliance.	They	are	more	central	to	contractual	issues.
+
 4.	Which	of	the	following	regulations	originates	from	a	professional	orindustry	organization,	rather	than	from	a	legal	or	governmental	authority?
 A.	PCI	DSS
 B.	FISMA
@@ -214,6 +251,7 @@ D.	SOX
  	C	is	incorrect	because	the	Health	Insurance	Portability	and
 Accountability	Act	(HIPAA)	was	implemented	by	the	United	States	in 1996	and	provides	security	for	the	privacy	and	protection	of	personal medical	records.
  	D	is	incorrect	because	the	Sarbanes–Oxley	Act	(SOX)	became	law	in the	United	States	in	2002	and	sets	requirements	for	publicly	traded companies	and	public	accounting	firms	in	regard	to	disclosure	and recordkeeping.
+
 5.	What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	hasbeen	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?
 A.	File	size
 B.	Checksum
@@ -223,6 +261,7 @@ D.	Metadata
  	A	is	incorrect	because	file	size	would	not	be	a	reliable	method	for determining	if	a	file	has	been	altered	at	all,	as	modifications	can	be made	that	would	not	alter	the	size	of	a	file	yet	could	substantially change	the	contents	of	the	data.
  	C	is	incorrect	because	filenames	can	easily	be	changed	at	any	time, and	there	is	no	way	to	know	if	the	filename	presented	is	the	correct	or original	value.
  	D	is	incorrect	because	metadata	represents	attributes	of	the	data	itself and	can	easily	be	manipulated,	altered,	or	forged.
+
 6.	The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacyregulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?
 A.	The	United	States	and	Japan
 B.	Russia	and	the	European	Union
@@ -232,6 +271,7 @@ D.	The	European	Union	and	Japan
  	A	is	incorrect	because	the	Safe	Harbor	program	pertains	to	the	United States	and	the	European	Union,	not	the	United	States	and	Japan.
  	B	is	incorrect	because	the	Safe	Harbor	program	pertains	to	the	United States	and	the	European	Union,	not	Russia	and	the	European	Union.
  	D	is	incorrect	because	the	Safe	Harbor	program	pertains	to	the	United States	and	the	European	Union,	not	the	European	Union	and	Japan.
+
 7.	Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	bothlegal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?
 A.	PCI	DSS
 B.	FISMA
@@ -241,6 +281,7 @@ D.	FIPS	140-2
  	B	is	incorrect	because	the	Federal	Information	Security	Management Act	(FISMA)	is	a	United	States	government	law	that	pertains	to	the protection	and	security	of	systems	used	by	government	agencies	and their	contractors.
  	C	is	incorrect	because	the	Health	Insurance	Portability	and Accountability	Act	(HIPAA)	is	a	United	States	government	law	that pertains	to	the	protection	of	medical	records	and	personal	privacy related	to	them.
  	D	is	incorrect	because	the	FIPS	140-2	standards	were	developed	by	the government	of	the	United	States	and	pertain	to	the	certification	of cryptographic	modules	used	within	systems.
+
 8.	Audits	are	regularly	undertaken	by	an	organization	in	both	internal	andexternal	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?
 A.	Efficiency
 B.	Regulations
@@ -250,6 +291,7 @@ D.	Costs
  	A	is	incorrect	because	efficiency—specifically,	operational	efficiency —is	a	key	component	of	internal	audits	that	is	done	to	improve business	processes	and	streamline	operations.
  	C	is	incorrect	because	design	plans	are	something	that	would	be evaluated	as	part	of	an	internal	audit,	with	a	goal	of	assisting	in efficiency	and	determining	appropriate	level	of	resources	needed.
  	D	is	incorrect	because	costs	are	not	a	factor	in	regulatory	compliance audits	at	all	and	are	instead	a	component	of	internal	audits,	typically with	an	eye	toward	any	changes	that	can	be	made	to	reduce	overall operating	costs.
+
 9.	What	principle	must	always	been	included	with	an	SOC	2	report?
 A.	Confidentiality
 B.	Security
@@ -259,6 +301,7 @@ D.	Processing	integrity
  	A	is	incorrect	because	confidentiality	is	a	principle	of	the	SOC	2 reports	that	pertains	to	the	protection	of	sensitive	information	and compliance	with	any	regulations	required	to	be	applied	to	it,	but	it	is not	a	required	principle	to	be	included	in	all	reports.
  	C	is	incorrect	because	privacy	is	a	principle	of	the	SOC	2	reports	that pertains	to	the	protection	of	personal	information	to	meet	an organization’s	privacy	policy,	as	well	as	any	applicable	regulations, but	it	is	not	a	required	principle	of	all	SOC	2	reports.
  	D	is	incorrect	because	processing	integrity	is	a	principle	of	the	SOC	2 reports	that	pertains	to	ensuring	that	only	authorized	parties	can manipulate	data,	and	only	do	so	in	an	appropriate	manner,	but	it	is	not required	as	a	principle	with	all	reports.
+
 10.	What	will	determine	the	responsibilities	for	both	the	cloud	provider	andthe	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service? A.		Contract
 B.	SLA
 C.	Regulation
@@ -267,6 +310,7 @@ D.	SOW
  	B	is	incorrect	because	the	service	level	agreement	(SLA)	will	specify specific	operational	thresholds	and	performance	metrics,	but	would not	be	the	appropriate	document	for	litigation	responsibilities.
  	C	is	incorrect	because	regulations	will	dictate	minimum	standards	for security	and	configurations,	but	will	not	determine	the	responsibilities or	duties	on	behalf	of	the	cloud	provider	or	cloud	customer	in	regard to	compliance	with	litigation.
  	D	is	incorrect	because	a	statement	of	work	(SOW)	will	document	the specific	work	items	and	tasks	necessary	to	turn	a	contract	into	an actual	implementation,	but	will	not	document	or	dictate	duties	or responsibilities	for	compliance	with	litigation.
+
 11.	The	first	step	with	an	internal	information	security	management	system (ISMS)	involves	defining	an	organization’s	security	policies.	After security	policies	have	been	defined,	what	is	the	next	step	in	the	process?
 A.	Risk	assessment
 B.	Scope	definition
@@ -276,6 +320,7 @@ D.	Continual	improvement
  	A	is	incorrect	because	the	risk	assessment	occurs	after	the	defining	of security	polices	and	determining	the	scope.	The	risk	assessment	is then	used	to	determine	how	to	approach	the	known	risks	with	an	eye toward	regulatory	compliance	or	management	expectations.
  	C	is	incorrect	because	controls	are	implemented	after	the	risk assessment	has	been	completed	and	the	scope	and	need	for	control have	been	appropriately	determined.	Implementing	controls	prior	the completion	of	the	risk	assessment	increases	the	likelihood	of	controls that	do	not	meet	objectives	or	that	incur	additional	costs	or	gaps	in compliance.
  	D	is	incorrect	because	continual	improvement	is	the	last	component, after	the	ISMS	has	been	properly	determined	and	implemented,	with an	eye	toward	ongoing	operations	and	adherence	to	regulatory compliance,	for	both	new	and	existing	regulations.
+
 12.	Without	direct	access	by	customers	to	the	underlying	infrastructure	of	acloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?
 A.	SLAs
 B.	Contracts
@@ -285,6 +330,7 @@ D.	Certifications
  	A	is	incorrect	because	service	level	agreements	(SLAs)	are	intended	to outline	performance	metrics	and	expectations	for	support	and implementations;	it	would	not	be	used	as	a	means	to	gain	assurances concerning	security	implementations	and	configurations.
  	B	is	incorrect	because	contracts	document	the	broad	parameters	and high-level	points	of	a	business	relationship.	They	formalize regulations	and	expectations	between	the	cloud	customer	and	the cloud	provider,	but	do	not	serve	to	provide	assurance	or	validation	for specific	configurations,	but	only	the	requirement	to	do	so.
  	C	is	incorrect	because	regulations	will	dictate	specific	requirements for	configurations	and	minimum	standards,	but	will	not	provide assurance	of	their	implementation	in	the	way	that	certifications	will. In	fact,	in	many	instances,	certifications	are	designed	specifically	to comply	with	regulations.
+
 13.	Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	toproperly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?
 A.	Access	to	systems
 B.	Knowledge	of	systems
@@ -294,6 +340,7 @@ D.	Contractual	requirements
  	A	is	incorrect	because	although	access	to	systems	does	pose	a challenge,	especially	with	the	much	more	limited	access	available	in	a PaaS	implementation,	it	does	not	pose	the	same	level	of	challenge	as knowledge	of	the	systems	and	the	underlying	infrastructure.
  	C	is	incorrect	because	data	classification	rules	will	be	universal regardless	of	the	particular	hosting	model	used.	Whether	the	data	is hosted	under	IaaS	or	PaaS	will	not	make	any	difference	in classification	rules.
  	D	is	incorrect	because	contractual	requirements	would	not	have	any impact	on	the	challenges	a	data	custodian	faces,	nor	are	there	any differences	between	IaaS	and	PaaS	hosting	deployments.
+
 14.	During	the	lessons	learned	phase	of	an	audit,	reducing	duplication	is	key for	lowering	both	costs	and	time	involved	for	staff	with	audits.	Which	of the	following	will	prevent	elimination	of	duplication	in	many	instances?
 A.	Corporate	policies
 B.	Vendor	recommendations
@@ -303,6 +350,7 @@ D.	Stakeholders
  	A	is	incorrect	because	corporate	policies	can	always	be	adjusted	to allow	for	the	elimination	of	duplication	with	audits.	Because	the company	controls	its	own	policies,	it	also	has	control	over	the modification	of	them,	or	the	acceptance	of	similar	audits	to	fulfill requirements.
  	B	is	incorrect	because	vendor	recommendations	will	not	directly	play into	audits.	Auditors	may	use	best	practice	recommendations	from vendors	as	input	into	their	own	testing	plans	and	methodologies,	but that	decision	is	subjective	and	always	open	to	modification.
  	D	is	incorrect	because	stakeholders	will	not	often	have	direct	influence on	audits	and	how	they	are	conducted,	beyond	perhaps	mandating specific	certifications	or	standards	that	should	be	followed.	However, stakeholders	can	always	allow	for	modifications,	whereas	regulations will	not	be	flexible	in	most	instances	for	individual	organizations.
+
 15.	The	ISO/IEC	27001:2013	security	standard	contains	14	different	domainsthat	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?
 A.	Legal
 B.	Management
@@ -312,6 +360,7 @@ D.	Supplier	Relationships
  	B	is	incorrect	because	management	is	one	of	the	14	individual domains	contained	in	the	ISO/IEC	27001:2013	standard.
  	C	is	in	correct	because	assets	is	one	of	the	14	individual	domains contained	in	the	ISO/IEC	27001:2013	standard.
  	D	is	incorrect	because	supplier	relationships	is	one	of	the	14	individual domains	contained	in	the	ISO/IEC	27001:2013	standard.
+
 16.	What	is	the	process	that	requires	searching,	identifying,	collecting,	andsecuring	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? A.		Disclosure
 B.	Subpoena
 C.	Retention
@@ -321,6 +370,7 @@ records	and	the	particular	needs	and	processes	required	for	them.
  	A	is	incorrect	because	although	disclosure	could	pertain	to	handing over	the	evidence	to	the	requesting	authority	pursuant	to	their eDiscovery	order,	it	is	not	an	official	term	used	here.
  	B	is	incorrect	because	a	subpoena	is	a	legal	mechanism	to	compel	the production	and	turning	over	of	records,	but	it’s	a	more	general	term that	isn’t	specific	to	electronic	evidence.	It	would,	however,	serve	as the	official	legal	way	of	compelling	an	eDiscovery	process.
  	C	is	incorrect	because	retention	refers	to	storing	and	archiving	of	data for	a	period	of	time	to	meet	regulations	or	policies.
+
 17.	What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?
 A.	SLA
 B.	Contract
@@ -331,6 +381,7 @@ and	the	requirements	for	their	completion,	including	time requirements.
  	A	is	incorrect	because	a	service	level	agreement	(SLA)	is	used	to determine	if	contractual	obligations	are	being	met,	based	on	agreedupon	metrics	and	requirements.
  	C	is	incorrect	because	regulations	play	a	key	role	in	the	scope	and requirements	of	an	eDiscovery	order;	they	are	not	a	factor	in	how information	is	collected	or	the	specific	responsibilities	for	its collection.
  	D	is	incorrect	because	a	statement	of	work	(SOW)	defines	the	actual work	to	implement	contractual	requirements	as	well	as	the	scope,	but it	does	not	relate	to	compliance	with	an	eDiscovery	order.
+
 18.	Which	type	of	report	is	considered	for	“general”	use	and	does	not	containany	sensitive	information.
 A.	SOC	1
 B.	SAS-70
@@ -340,6 +391,7 @@ D.	SOC	2
  	A	is	incorrect	because	SOC	1	reports	are	designed	for	restricted	use, and	only	for	internal	staff,	current	customers,	or	auditors	on	behalf	of regulators.
  	B	is	incorrect	because	SAS-70	reports	are	actually	deprecated	at	this time,	but	even	when	in	widespread	use,	they	were	considered restricted-use	reports	and	were	similar	to	SOC	1	reports.
  	D	is	incorrect	because	SOC	2	reports,	although	more	broad	in substance	and	duration	than	SOC	1	reports,	are	still	considered “restricted	use”	and	not	for	public	dissemination.
+
 19.	Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit? A.		Customer	feedback
 B.	Stakeholder	interviews
 C.	Documentation	review
@@ -348,6 +400,7 @@ D.	Audit	testing
  	B	is	incorrect	because	stakeholder	interviews	form	an	important	part	of an	audit	review	and	the	gathering	of	information	on	processes, decisions,	and	implementation	policies.
  	C	is	incorrect	because	documentation	review	is	a	key	component	of	an audit	and	gap	analysis	because	it	forms	the	basis	for	policies	and regulations,	as	well	as	the	specific	implementations	that	an organization	feels	are	prudent	and	should	be	in	place.
  	D	is	incorrect	because	actual	audit	testing	is	perhaps	the	most important	part	of	an	audit	because	it	determines	whether	the configurations	and	controls	in	place	actually	match	those	documented in	policy	or	regulation	and	should	be	in	place.
+
 20.	Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use? A.		Data	custodian
 B.	Data	owner
 C.	Data	originator
@@ -356,6 +409,7 @@ D.	Database	administrator
  	A	is	incorrect	because	the	data	custodian	works	with	the	data	owner	on appropriate	use	and	processing	of	data.	This	is	a	technical	role	rather than	a	managerial	role.
  	C	is	incorrect	because	data	originator	is	the	role	that	creates	the	data, through	a	variety	of	means	or	processes,	but	is	not	responsible	for overseeing	or	enforcing	policy	on	its	protection	or	appropriate	use.
  	D	is	incorrect	because	database	administrator	is	a	purely	technical	role that	has	a	duty	to	follow	and	enforce	policy	but	does	not	determine controls	or	appropriate	use.
+
 21.	Many	processes	are	substantially	different	between	fulfilling	aneDiscovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?
 A.	Broad	network	access
 B.	Measured	service
@@ -366,6 +420,7 @@ or	to	preserve	it,	pursuant	to	the	order.	During	the	time	the	disk	is being	used
  	A	is	incorrect	because	broad	network	access	pertains	to	the	ability	to access	cloud	resources	of	the	public	Internet,	through	a	variety	of different	devices	or	clients.	It	would	not	have	a	significant	impact	on the	fulfillment	of	an	eDiscovery	order.
  	C	is	incorrect	because	elasticity	pertains	to	the	ability	for	a	cloud environment	to	adjust	resources	as	needed	to	meet	the	current demands	of	a	service	or	system,	either	in	an	increasing	or	decreasing capacity.	This	is	typically	done	via	automated	means	and	would	not	be a	significant	factor	in	the	successful	fulfillment	of	an	eDiscovery order.
  	D	is	incorrect	because	on-demand	self-service	pertains	to	the	ability	of a	cloud	customer	to	automatically	request	and	provision	resources within	a	cloud	environment,	without	having	to	involve	the	staff	of	the cloud	provider.	Although	this	may	factor	into	the	ability	of	a	cloud customer	to	allocate	additional	resources	to	accommodate	an eDiscovery	order	fulfillment,	it	would	not	be	a	substantial	factor	in	it.
+
 22.	Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?
 A.	Contractual
 B.	Jurisdictional
@@ -375,6 +430,7 @@ D.	Sensitive
  	A	is	incorrect	because	contractual	PII	is	data	that	has	mandated protection	requirements	based	solely	on	the	contract	between	the cloud	customer	and	cloud	provider.	This	may	have	disclosure requirements	as	part	of	it,	but	not	with	the	same	force	or	requirements as	regulated	PII.
  	B	is	incorrect	because	jurisdictional	is	not	a	type	of	PII	protection. Regulated	PII	is	applied	at	the	jurisdiction	level	and	is	the	most appropriate	answer.
  	D	is	incorrect	because	“sensitive”	typically	refers	to	data	that	has particular	protection	requirements	or	would	be	of	high	value	for someone	to	obtain.	However,	it	is	not	a	specific	type	of	PII,	nor	are there	any	specific	and	direct	requirements	for	its	use	and	protection.
+
 23.	Which	of	the	following	laws	is	highly	related	to	the	preservation	and retention	of	electronic	records?
 A.	HIPAA
 B.	Safe	Harbor
@@ -384,6 +440,7 @@ D.	GLBA
  	A	is	incorrect	because	the	Health	Insurance	Portability	and Accountability	Act	(HIPAA)	of	1996	pertains	to	the	protection	of patient	privacy	and	medical	records.	It	is	not	focused	on	the preservation	or	retention	of	electronic	records.
  	B	is	incorrect	because	the	Safe	Harbor	program	was	developed	by	the United	States	Department	of	Commerce	as	a	way	for	US	companies	to bridge	the	privacy	laws	between	the	United	States	and	the	European Union	and	comply	with	the	more	strict	requirements.
  	D	is	incorrect	because	the	Gramm–Leach–Bliley	Act	(GLBA)	of	1999 is	focused	on	how	financial	institutions	handle	the	private	information of	individuals.	It	is	not	specifically	focused	on	records	retention	or preservation.
+
 24.	During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?
 A.	Security
 B.	Privacy
@@ -393,6 +450,7 @@ D.	Availability
  	B	is	incorrect	because	the	privacy	principle	does	not	have subcomponents.	It	is	focused	on	how	an	organization	uses,	collects, and	stores	personal	and	private	information,	and	it	does	so	in	a	manner that	conforms	to	the	organization’s	stated	policy	privacy	as	well	as any	pertinent	regulations,	laws,	or	standards	requirements.
  	C	is	incorrect	because	the	processing	integrity	principle	does	not	have subcomponents.	It	is	focused	on	how	an	organization’s	systems process	information,	and	it	does	so	in	a	manner	that	is	accurate, verified,	and	done	only	by	authorized	parties.
  	D	is	incorrect	because	the	availability	principle	focuses	on	how	a system	has	requirements	and	expectations	for	uptime	and	accessibility, and	it	is	able	to	meet	those	requirements	within	parameters	set	by contract	or	expectation.
+
 25.	Which	of	the	following	is	NOT	one	of	the	steps	involved	in	the	audit plan?
 A.	Define	objectives
 B.	Remediation
