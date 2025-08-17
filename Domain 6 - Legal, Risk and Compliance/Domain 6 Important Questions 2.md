@@ -461,6 +461,7 @@ D.	Lessons	learned
 to	form	the	outline	of	the	overall	audit,	including	the	purpose	of	the audit.
  	C	is	incorrect	because	defining	the	scope	of	the	audit	occurs	after	the defining	of	objectives.	The	scope	includes	what	exactly	will	be included	in	the	audit,	as	well	as	how	things	will	be	tested.	It	serves	as the	official	map	for	the	audit	and	all	the	steps	and	processes	that	must be	completed	as	part	of	it.
  	D	is	incorrect	because	the	lessons	learned	analysis	is	performed	after the	audit	has	been	conducted.	It	represents	the	opportunity	to	review the	audit	and	the	steps	taken	to	accomplish	it,	including	the	scope,	and serves	to	refine	future	audits	and	processes.
+
 26.	ISO/IEC	27018	was	developed	to	establish	standards	for	privacyinvolving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?
 A.	Independent,	yearly
 B.	Internal,	every	six	months
@@ -470,6 +471,7 @@ D.	Internal,	yearly
  	B	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	internally	every	six	months.
  	C	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	every	six	months.
  	D	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	internally.
+
 27.	Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? A.		Define	scope
 B.	Lessons	learned
 C.	Define	objectives
@@ -478,6 +480,7 @@ D.	Conduct	the	audit
  	A	is	incorrect	because	defining	the	scope	of	the	audit	occurs	after	the defining	of	objectives.	The	scope	includes	what	exactly	will	be included	in	the	audit,	as	well	as	how	things	will	be	tested.	It	serves	as the	official	map	for	the	audit	and	all	the	steps	and	processes	that	must be	completed	as	part	of	it.
  	B	is	incorrect	because	the	lessons	learned	analysis	is	performed	after the	audit	has	been	conducted.	It	represents	the	opportunity	to	review the	audit	and	the	steps	taken	to	accomplish	it,	including	the	scope,	and serves	to	refine	future	audits	and	processes.
  	D	is	incorrect	because	the	actual	conducting	of	the	audit	entails	testing of	controls	against	policies	and	expected	configurations	to	determine any	gaps	or	“findings.”
+
 28.	Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?
 A.	United	States
 B.	European	Union
@@ -487,6 +490,7 @@ D.	Japan
  	B	is	incorrect	because	the	European	Union	has	long	been	one	of	the top	drivers	of	data	privacy	and	personal	protection.	It	issued	Directive 95/45	EC	in	1995,	which	established	data	privacy	as	a	human	right.
  	C	is	incorrect	because	Russia	put	into	effect	Russian	Law	526-FZ	in 2015,	which	requires	all	data	and	processing	for	personal	information on	Russian	citizens	to	be	done	by	systems	and	applications	that physically	reside	and	are	hosted	within	the	borders	of	the	Russian Federation.
  	D	is	incorrect	because	Germany	is	part	of	the	European	Union,	and	as such,	it	is	covered	under	the	privacy	policies	and	regulations	the	EU has	issued.
+
 29.	An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?
 A.	Exclusions
 B.	Costs
@@ -496,6 +500,7 @@ D.	Reports
  	A	is	incorrect	because	any	exclusions	to	the	audit—either	systems, applications,	or	services,	as	well	as	any	particular	features	that	are	not to	be	included—would	be	a	core	component	of	the	audit	scope statement.
  	C	is	incorrect	because	any	required	certifications	on	the	part	of	the auditors	or	the	organization	would	be	a	core	component	of	the	audit scope	statement.
  	D	is	incorrect	because	the	final	reports,	including	format,	are	defined as	part	of	the	audit	scope	statement.	Also	included	is	the	audience	for the	dissemination	of	the	reports	upon	completion	of	the	audit.
+
 30.	Which	of	the	following	laws	pertains	to	the	protection	and	confidentiality of	PII,	related	specifically	to	financial	institutions?
 A.	HIPAA
 B.	SOX
@@ -506,4 +511,3 @@ D.	GLBA
  	B	is	incorrect	because	the	Sarbanes–Oxley	Act	(SOX)	of	2002	pertains to	the	records	that	publicly	traded	companies,	accounting	firms,	and many	other	types	of	organizations	must	retain.	It	specifies	not	only	the type	of	records	that	must	be	preserved	but	also	the	duration	of retention.
  	C	is	incorrect	because	the	Safe	Harbor	program	was	developed	by	the United	States	Department	of	Commerce	as	a	way	for	US	companies	to bridge	the	privacy	laws	between	the	United	States	and	the	European Union	and	comply	with	the	more	strict	requirements. 
  
-APPENDIX	A
