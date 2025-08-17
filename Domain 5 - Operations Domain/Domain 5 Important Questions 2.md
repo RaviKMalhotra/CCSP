@@ -3,74 +3,89 @@ A.	Record
 B.	Negotiation
 C.	Handshake
 D.	Transmission
+
 2.	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?
 A.	BISCI
 B.	IDCA
 C.	NFPA
 D.	Uptime	Institute
+
 3.	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
 A.	Network
 B.	Application
 C.	Transport
 D.	Data	link
+
 4.	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?
 A.	IDCA
 B.	NFPA
 C.	BISCI
 D.	Uptime	Institute
+
 5.	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	when
 would	the	optimal	time	be	to	apply	baselines	to	systems?
 A.	Immediately	after	enabling	a	virtual	machine
 B.	Before	penetration	testing	is	done
 C.	Immediately	prior	to	putting	the	system	into	production
 D.	Before	the	image	is	created
+
 6.	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?
 A.	Certificates
 B.	Tickets
 C.	Tokens
 D.	SAML
+
 7.	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?
 A.	Uptime	Institute
 B.	IDCA
 C.	NPFA
 D.	BISCI
+
 8.	DHCP	is	heavily	used	within	cloud	environments	to	maintain	networkconfigurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?
 A.	IP	address
 B.	Hostname
 C.	MAC	address
 D.	Gateway
+
 9.	Which	component	of	the	ITIL	framework	includes	dependency	checks?
 A.	Change	management
 B.	Continuity	management
 C.	Release	management
 D.	Availability	management
+
 10.	Which	process	is	used	to	properly	maintain	balanced	resources	across	acloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?
 A.	DCOM
 B.	Distributed	optimization
 C.	Dynamic	optimization
 D.	Elasticity
+
 11.	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?
 A.	Handshake
 B.	Transmission
 C.	Negotiation
 D.	Record
+
 12.	DNSSEC	relies	on	digital	signatures	and	allows	a	client	lookup	to	validate a	DNS	resolution	back	to	its	authoritative	source.	What	is	this	process called? A.		Zone	signing
 B.	Authentication
 C.	Realm	signing
 D.	Domain	signing
+
 13.	A	host-based	IDS	can	suffer	from	security	vulnerabilities	if	the	host	itselfis	compromised.	Which	of	the	following	concepts	can	be	best	used	to mitigate	risk	with	an	HIDS? A.		Administrative	privileges
 B.	Read-only	storage
 C.	Baselines
 D.	Encryption
+
 14.	Clusters	can	bring	many	benefits	to	a	computing	environment,	both	foradministrators	and	users.	Which	of	the	following	is	NOT	something	that will	be	increased	through	the	use	of	clustering?
 A.	Availability
 B.	Redundancy
 C.	Integrity
 D.	Failover
+
 15.	Which	of	the	following	is	commonly	used	by	cloud	providers	to	assurecustomers	about	security	practices	or	to	entice	new	customers	to	their services? A.		Audits
 B.	Baselines
 C.	Vulnerability	assessments
 D.	Certifications
+
 16.	Within	a	cloud	environment,	what	is	the	most	widely	used	protocol	forcommunication	with	storage	devices?
 A.	SATA
 B.	SCSI
