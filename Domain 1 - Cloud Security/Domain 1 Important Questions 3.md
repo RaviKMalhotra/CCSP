@@ -421,22 +421,26 @@ A.	Domain name (DN)
 B.	Distinguished name (DN)
 C.	Directory name (DN)
 D.	Default name (DN)
+
 86.	Which one of the following cloud building block technologies is best suited for storing data that is structured into related tables?
 A.	Storage
 B.	Networking
 C.	Databases
 D.	Virtualization
-87.	You are concerned about protecting sensitive data while it is stored in memory on a server.  What emerging technology is designed to assist with this work?
+
+### Question # 87 - You are concerned about protecting sensitive data while it is stored in memory on a server.  What emerging technology is designed to assist with this work?
 A.	Quantum computing
 B.	Confidential computing
 C.	Edge computing
 D.	Fog computing
-88.	Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?
+
+### Question # 88 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?
 A.	The network admin responsible
 B.	The cloud provider
 C.	The regulators overseeing your deployment
 D.	Your organization
-89.	If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?
+
+### Question # 89 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?
 A.	Platform as a service (PaaS), community
 B.	Infrastructure as a service (IaaS), hybrid
 C.	Software as a service (SaaS), public
