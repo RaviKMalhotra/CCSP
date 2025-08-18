@@ -191,10 +191,14 @@ A.	Portability
 B.	Multitenancy  
 C.	Reversibility   
 D.	Auto-scaling   
- 		B.	In	a	traditional	data	center,	where	an	organization	owns	and controls	all	systems,	data,	and	physical	equipment,	it	is	very	easy	to isolate	and	duplicate	anything	necessary.	Within	a	cloud	environment, with	multitenancy	and	many	customers	sharing	the	same	resources,	it isn’t	practical	for	the	cloud	provider	to	make	easy	snapshots	or	isolate physical	storage	systems	or	servers.	Different	collection	methods	are necessary	in	a	cloud	environment,	which	often	are	more	labor	or	cost intensive,	and	with	additional	complexity	involved.
- 	A	is	incorrect	because	portability	refers	to	the	ability	for	a	system, service,	or	application	to	move	with	ease	between	different	cloud providers.	It	gives	additional	flexibility	to	a	cloud	customer	and prevents	vendor	lock-in,	which	would	eliminate	a	cloud	customer from	seeking	competition	and	constantly	shopping	for	cheaper services	or	better	support.
- 	C	is	incorrect	because	reversibility	refers	to	the	ability	of	a	cloud customer	to	easily	remove	their	data,	systems,	and	applications	from	a cloud	provider,	with	certainty	that	it	has	been	securely	and	completely removed.	The	requirements	for	removal,	including	methods	and timelines,	should	be	covered	by	the	contract	between	the	cloud customer	and	cloud	provider.
- 	D	is	incorrect	because	auto-scaling	pertains	to	a	cloud	environment’s ability	to	programmatically	adjust	the	necessary	resources	to	meet current	demand,	either	by	adding	or	removing	allocated	resources.
+Correct Answer: B.	
+	- In	a	traditional	data	center,	where	an	organization	owns	and controls	all	systems,	data,	and	physical	equipment,	it	is	very	easy	to isolate	and	duplicate	anything	necessary.	Within	a	cloud	environment, with	multitenancy	and	many	customers	sharing	the	same	resources,	it isn’t	practical	for	the	cloud	provider	to	make	easy	snapshots	or	isolate physical	storage	systems	or	servers.	Different	collection	methods	are necessary	in	a	cloud	environment,	which	often	are	more	labor	or	cost intensive,	and	with	additional	complexity	involved.
+
+	- A	is	incorrect	because	portability	refers	to	the	ability	for	a	system, service,	or	application	to	move	with	ease	between	different	cloud providers.	It	gives	additional	flexibility	to	a	cloud	customer	and prevents	vendor	lock-in,	which	would	eliminate	a	cloud	customer from	seeking	competition	and	constantly	shopping	for	cheaper services	or	better	support.
+
+	- C	is	incorrect	because	reversibility	refers	to	the	ability	of	a	cloud customer	to	easily	remove	their	data,	systems,	and	applications	from	a cloud	provider,	with	certainty	that	it	has	been	securely	and	completely removed.	The	requirements	for	removal,	including	methods	and timelines,	should	be	covered	by	the	contract	between	the	cloud customer	and	cloud	provider.
+
+	- D	is	incorrect	because	auto-scaling	pertains	to	a	cloud	environment’s ability	to	programmatically	adjust	the	necessary	resources	to	meet current	demand,	either	by	adding	or	removing	allocated	resources.
 
 ### Question # 2 - Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?      
 A.	Confidentiality      
