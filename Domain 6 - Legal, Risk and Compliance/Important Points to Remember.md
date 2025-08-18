@@ -63,4 +63,27 @@ The purpose specificatio principle requires any entity that gathers personally i
 The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.
 Purpose specification principle
 
+- PCI DSS full form is Payment Card Industry Data Security Standard, and it was implemented in year 2004.
+- FISMA full form is Federal Information Security Management Act, and it was signed into laws in year 2002 in the United States.
+- FISMA pertains to the security of federal government IT systems and outlines requirements for agency security programs.
+- HIPAA stands for Health Insurance Portability and Accountability Act, was implemented by United States in 1996.
+- HIPAA provides security for the privacy and protection of personal medical records.
+- SOX stands for Sarbanes-Oxley Act became law in the United States in 2002.
+- SOX sets requirements for publicly traded companies and public accouting firms.
+- FIPS 140-2 standards were developed by the governemnt of the United States and pertains to the certification of cryptographic modules used within systems.
+- 
+- 
+- Safe Harbor program was designed by the US Department of Commerce as a voluntary set of regulations.
+- Safe Harbor program was developed to bridge the gap in privacy regulations between two distinct and different jurisdictions; The United States and European Union.
+- Safe Harbor program allow United States companies to comply with contractual and regulatory requirements necessary to doing business within EU borders.
+- Compliance with regulations is considered an external audit, and it is done by an independent third party.
+
+- SOC2 reports are composed of five (5) principles: Confidentiality, processing integrity, Availability, Privacy, and Security.
+- Contract should clearly document the responsibilities and duties of each party as far as communication and compliance.
+- In the event of any litigation, either against the cloud customer’s systems or services or against the cloud provider, the contract should clearly document the
+  responsibilities and duties of each party as far as communication and compliance.
+ - SLA specifies operational thresholds and performance metrics.
+ - Remember that SLS is not an appropriate document for litigation responsibilities.
+- 
+
 Define what is Use limitation principle
