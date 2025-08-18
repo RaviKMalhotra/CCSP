@@ -1,4 +1,4 @@
-1.	What term is used to describe agreements between IT service providers and customers that describe service-level targets and responsibilities of the customer and provider?
+1.	What term is used to describe agreements between IT service providers and customers that describe service-level targets and responsibilities of the customer and provider?  
 A.	OLA. 
 B.	SAC. 
 C.	SLAb 
