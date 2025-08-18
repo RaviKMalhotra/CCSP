@@ -4,58 +4,58 @@ B.	SAC.
 C.	SLA.  
 D.	SLR.  
   
-2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with? 
-A. Notification of breaches. 
-B.	Regulatory compliance. 
-C.	Managing expectations. 
-D.	Problem management. 
+2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with?  
+A. Notification of breaches.  
+B.	Regulatory compliance.  
+C.	Managing expectations.  
+D.	Problem management.  
 
-3.	Juanita has discovered unexpected programs running on her freshly installed Linux system that was built using her cloud provider’s custom Linux distribution but that did not allow connections from the internet yet. What is the most likely reason for this?
-A.	Juanita inadvertently installed additional tools during the installation process.
-B.	The version of Linux automatically downloads helper agents when installed.
-C.	Cloud vendors often install helper utilities in their own distributions.
-D.	Attackers have installed applications.
+3.	Juanita has discovered unexpected programs running on her freshly installed Linux system that was built using her cloud provider’s custom Linux distribution but that did not allow connections from the internet yet. What is the most likely reason for this?  
+A.	Juanita inadvertently installed additional tools during the installation process.  
+B.	The version of Linux automatically downloads helper agents when installed.  
+C.	Cloud vendors often install helper utilities in their own distributions.  
+D.	Attackers have installed applications.  
 
-4.	Ben wants to manage operating system and application patches for thousands of machines hosted in an infrastructure as a service vendor’s cloud. What should he do? A. Use the cloud vendor’s native patch management tools.
-B.	Use the operating system vendor’s patch management tools.
-C.	Use manual update processes.
-D.	Write custom scripts to manage updates.
+4.	Ben wants to manage operating system and application patches for thousands of machines hosted in an infrastructure as a service vendor’s cloud. What should he do?     A. Use the cloud vendor’s native patch management tools.  
+B.	Use the operating system vendor’s patch management tools.  
+C.	Use manual update processes.  
+D.	Write custom scripts to manage updates.     
 
-5.	Jason’s organization is required to provide information about its cloud operating environment, including yearly audit information to regulators in his industry. What is he most likely to be able to provide to the regulators when they ask for a security audit of his hosted environment? D
-A.	A recent audit conducted by staff from Jason’s organization
-B.	A recent audit conducted by a third- party auditor hired by Jason’s organization
-C.	Direct audit permissions for the regulators to audit the cloud provider
-D.	A copy of the cloud provider’s third- party audit results
+5.	Jason’s organization is required to provide information about its cloud operating environment, including yearly audit information to regulators in his industry. What is he most likely to be able to provide to the regulators when they ask for a security audit of his hosted environment?  
+A.	A recent audit conducted by staff from Jason’s organization. 
+B.	A recent audit conducted by a third- party auditor hired by Jason’s organization.  
+C.	Direct audit permissions for the regulators to audit the cloud provider.  
+D.	A copy of the cloud provider’s third- party audit results.  
 
-6.	Tracy has set up a cloud hardware security module (HSM) service for her organization in her cloud- hosted environment. What activity is she preparing for?
-A.	Securely storing and managing secrets
-B.	Ensuring end- to- end encryption between cloud and on- site systems
-C.	Managing the security of the underlying hardware in the environment
-D.	Detecting attacks against hosted systems
+6.	Tracy has set up a cloud hardware security module (HSM) service for her organization in her cloud- hosted environment. What activity is she preparing for?  
+A.	Securely storing and managing secrets.  
+B.	Ensuring end- to- end encryption between cloud and on- site systems.  
+C.	Managing the security of the underlying hardware in the environment.  
+D.	Detecting attacks against hosted systems.  
 
-7.	Charles wants to be able to create new servers as needed for his environment using variables and configuration files to configure the systems to meet changing needs. What type of solution should he implement to help with this type of orchestration?
-A.	A CI/CD pipeline
-B.	Infrastructure as code
-C.	A check- in/checkout design
-D.	An application interface
+7.	Charles wants to be able to create new servers as needed for his environment using variables and configuration files to configure the systems to meet changing needs. What type of solution should he implement to help with this type of orchestration?   
+A.	A CI/CD pipeline.  
+B.	Infrastructure as code.   
+C.	A check- in/checkout design.   
+D.	An application interface.   
 
-8.	James wants to establish key performance indicators for his service continuity management practice based on ITIL. Which of the following is a useful KPI for service continuity management?
-A.	The number of business processes with continuity agreements
-B.	The number of vulnerabilities found in installed software per period of time
-C.	The number of patches installed per period of time
-D.	The number of natural disasters in the local area in a year
+8.	James wants to establish key performance indicators for his service continuity management practice based on ITIL. Which of the following is a useful KPI for service continuity management?    
+A.	The number of business processes with continuity agreements.   
+B.	The number of vulnerabilities found in installed software per period of time.   
+C.	The number of patches installed per period of time.   
+D.	The number of natural disasters in the local area in a year.   
 
-9.	Zoe wants to speed up her traditional release management process. What modern approach is best suited to an ITIL v4–based rapid- release- oriented organization?
-A.	Waterfall
-B.	Agile/DevOps
-C.	Spiral
-D.	RAD
+9.	Zoe wants to speed up her traditional release management process. What modern approach is best suited to an ITIL v4–based rapid- release- oriented organization?    
+A.	Waterfall.  
+B.	Agile/DevOps.  
+C.	Spiral.  
+D.	RAD.  
 
-10.	ITIL v4 includes a seven- step continual improvement model. What item occurs at the end of the process before it starts again?
-A.	Determining the vision
-B.	Assessing results
-C.	Taking action
-D.	Determining the goal
+10.	ITIL v4 includes a seven- step continual improvement model. What item occurs at the end of the process before it starts again?    
+A.	Determining the vision.  
+B.	Assessing results.  
+C.	Taking action.  
+D.	Determining the goal.  
 
 11.	Tim puts a server in his virtualization environment into maintenance mode. Which of the following events will occur?
 A.	Migrates the running virtual machines to other hardware
