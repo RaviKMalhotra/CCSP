@@ -3,49 +3,60 @@ A.	OLA
 B.	SAC
 C.	SLA
 D.	SLR
-2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with? A. Notification of breaches
+
+2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with? 
+A. Notification of breaches
 B.	Regulatory compliance
 C.	Managing expectations
 D.	Problem management
+
 3.	Juanita has discovered unexpected programs running on her freshly installed Linux system that was built using her cloud provider’s custom Linux distribution but that did not allow connections from the internet yet. What is the most likely reason for this?
 A.	Juanita inadvertently installed additional tools during the installation process.
 B.	The version of Linux automatically downloads helper agents when installed.
 C.	Cloud vendors often install helper utilities in their own distributions.
 D.	Attackers have installed applications.
+
 4.	Ben wants to manage operating system and application patches for thousands of machines hosted in an infrastructure as a service vendor’s cloud. What should he do? A. Use the cloud vendor’s native patch management tools.
 B.	Use the operating system vendor’s patch management tools.
 C.	Use manual update processes.
 D.	Write custom scripts to manage updates.
-5.	Jason’s organization is required to provide information about its cloud operating environment, including yearly audit information to regulators in his industry. What is he most likely to be able to provide to the regulators when they ask for a security audit of his hosted environment?
+
+5.	Jason’s organization is required to provide information about its cloud operating environment, including yearly audit information to regulators in his industry. What is he most likely to be able to provide to the regulators when they ask for a security audit of his hosted environment? D
 A.	A recent audit conducted by staff from Jason’s organization
 B.	A recent audit conducted by a third- party auditor hired by Jason’s organization
 C.	Direct audit permissions for the regulators to audit the cloud provider
 D.	A copy of the cloud provider’s third- party audit results
+
 6.	Tracy has set up a cloud hardware security module (HSM) service for her organization in her cloud- hosted environment. What activity is she preparing for?
 A.	Securely storing and managing secrets
 B.	Ensuring end- to- end encryption between cloud and on- site systems
 C.	Managing the security of the underlying hardware in the environment
 D.	Detecting attacks against hosted systems
+
 7.	Charles wants to be able to create new servers as needed for his environment using variables and configuration files to configure the systems to meet changing needs. What type of solution should he implement to help with this type of orchestration?
 A.	A CI/CD pipeline
 B.	Infrastructure as code
 C.	A check- in/checkout design
 D.	An application interface
+
 8.	James wants to establish key performance indicators for his service continuity management practice based on ITIL. Which of the following is a useful KPI for service continuity management?
 A.	The number of business processes with continuity agreements
 B.	The number of vulnerabilities found in installed software per period of time
 C.	The number of patches installed per period of time
 D.	The number of natural disasters in the local area in a year
+
 9.	Zoe wants to speed up her traditional release management process. What modern approach is best suited to an ITIL v4–based rapid- release- oriented organization?
 A.	Waterfall
 B.	Agile/DevOps
 C.	Spiral
 D.	RAD
+
 10.	ITIL v4 includes a seven- step continual improvement model. What item occurs at the end of the process before it starts again?
 A.	Determining the vision
 B.	Assessing results
 C.	Taking action
 D.	Determining the goal
+
 11.	Tim puts a server in his virtualization environment into maintenance mode. Which of the following events will occur?
 A.	Migrates the running virtual machines to other hardware
 B.	Pauses all running VMs immediate
@@ -473,16 +484,27 @@ D.	Physical access to the datacenter
 
 
 Chapter 5: Domain 5: Cloud Security Operations
+
 1.	C. A service-level agreement (SLA) defines service-level targets and the responsibilities of the IT service provider and customer. An OLA (operational level agreement) is an internal agreement between the IT service provider and another part of the same organization and supports the service provider’s delivery of the service. Service acceptance criteria (SAC) are the criteria used to determine whether a service meets its quality and functionality goals. Finally, a service-level requirement (SLR) defines the requirements of a service from the customer’s perspective.
+
 2.	C. Proactive customer communications is key to managing expectations. Reactive communications are often used for data breach notification, regulatory compliance, and problem management.
+
 3.	C. Juanita knows that the major cloud vendors provide their own customized versions of Linux that often include additional agents and tools to help them work better with the provider’s infrastructure. She should verify that this is the case, but it is the most likely scenario for a freshly built system as described.
+
 4.	A. When managing systems at scale in the cloud, Ben knows that the best option is often to use the cloud IaaS vendor’s tools, particularly because they are typically designed to handle both operating systems that may have special features to work in the vendor’s environment and applications.
+
 5.	D. Jason knows that cloud service providers typically do not allow direct or third- party audits of their systems and services but that they do provide audit results to customers.
+
 6.	A. A cloud hardware security module (HSM) is used to create, store, and manage secrets.
+
 7.	B. Charles knows that his situation calls for an infrastructure as code design, which uses code and configuration files or variables to allow rapid deployment using scripts and automated tools. A CI/CD pipeline will often leverage infrastructure as code and automation tools, but it doesn’t directly meet this need. APIs (application programming interfaces) are used to access data from services, and check- in/checkout design was made up for this question.
+
 8.	A. From a service continuity management perspective, the number of business processes with continuity agreements is the only relevant answer from this list. Understanding the number of business practices that have continuity planning in place and assessing which gaps in coverage are critical is a common practice to improve service continuity.
+
 9.	B. Agile and DevOps are well suited to rapid release cycles, with continuous integration and continuous delivery processes. Waterfall and spiral both tend to take longer periods of time for each release, and RAD is not as widely adopted and not as release focused.
+
 10.	B. Assessing results occurs at the end of the seven- step process, helping provide feedback into the next cycle’s vision determination phase.
+
 11.	A. Maintenance mode migrates virtual machines to other hosts or waits until they are powered down to allow for hardware or other maintenance. Tim knows that he’ll need to ensure all VMs are migrated or shut down and that he can then perform maintenance.
 12.	A. Kathleen should look for a security information and event management (SIEM) tool. They’re used to centralized log collection, analysis, and detection capabilities and often have automated methods of finding issues and alerting on them. An IPS (intrusion prevention system) is used to detect and stop attacks, a CASB (cloud application security broker) is used to control and manage access to cloud services, and MITRE is a U.S. government–funded research organization with a heavy focus on security work.
 13.	B. TLS (Transport Layer Security) is an encryption protocol used to secure data in transit. VLANs are used to logically separate network segments, DNSSEC is intended to provide security to domain name system requests, and DHCP provides IP addresses and other network configuration information to systems automatically.
