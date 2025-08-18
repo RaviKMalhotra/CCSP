@@ -1,58 +1,59 @@
-1.	The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?
+### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?
 A.	Portability
 B.	Multitenancy
 C.	Reversibility
 D.	Auto-scaling
 
-2.	Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
+### Question # 2 - Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
 A.	Confidentiality
 B.	Integrity
 C.	Availability
 D.	Privacy
 
-3.	With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?
+### Question # 3 - With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?
 A.	Language	differences
 B.	Technologies	used
 C.	Licensing	issues
 D.	Lack	of	international	authority
 
-4.	Which	of	the	following	regulations	originates	from	a	professional	orindustry	organization,	rather	than	from	a	legal	or	governmental	authority?
+### Question # 4 - Which	of	the	following	regulations	originates	from	a	professional	orindustry	organization,	rather	than	from	a	legal	or	governmental	authority?
 A.	PCI	DSS
 B.	FISMA
 C.	HIPAA
 D.	SOX
 
-5.	What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	hasbeen	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?
+### Question # 5 - What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	hasbeen	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?
 A.	File	size
 B.	Checksum
 C.	Filename
 D.	Metadata
 
-6.	The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacy regulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?
+### Question # 6 - The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacy regulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?
 A.	The	United	States	and	Japan
 B.	Russia	and	the	European	Union
 C.	The	United	States	and	the	European	Union
 D.	The	European	Union	and	Japan
 
-7.	Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	bothlegal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?
+### Question # 7 - Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	bothlegal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?
 A.	PCI	DSS
 B.	FISMA
 C.	HIPAA
 D.	FIPS	140-2
 
-8.	Audits	are	regularly	undertaken	by	an	organization	in	both	internal	andexternal	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?
+### Question # 8 - Audits	are	regularly	undertaken	by	an	organization	in	both	internal	andexternal	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?
 A.	Efficiency
 B.	Regulations
 C.	Design	plans
 D.	Costs
 
-9.	What	principle	must	always	been	included	with	an	SOC	2	report?
+### Question # 9 - What	principle	must	always	been	included	with	an	SOC	2	report?
 A.	Confidentiality
 B.	Security
 C.	Privacy
 D.	Processing	integrity
 
-10.	What	will	determine	the	responsibilities	for	both	the	cloud	provider	andthe	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service? A.		Contract
+### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	andthe	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service? 
+A.		Contract
 B.	SLA
 C.	Regulation
 D.	SOW
