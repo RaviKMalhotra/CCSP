@@ -1,9 +1,9 @@
 1.	What term is used to describe agreements between IT service providers and customers that describe service-level targets and responsibilities of the customer and provider?  
-A.	OLA. 
-B.	SAC. 
-C.	SLAb 
-D.	SLR. 
-
+A.	OLA.  
+B.	SAC.   
+C.	SLA. 
+D.	SLR.  
+  
 2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with? 
 A. Notification of breaches. 
 B.	Regulatory compliance. 
