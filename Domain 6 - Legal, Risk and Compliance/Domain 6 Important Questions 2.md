@@ -1,62 +1,62 @@
-### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	with data	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?
-A.	Portability  
-B.	Multitenancy  
-C.	Reversibility  
-D.	Auto-scaling  
+### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	with data	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?  
+A.	Portability    
+B.	Multitenancy    
+C.	Reversibility    
+D.	Auto-scaling    
 
-### Question # 2 - Which	security	concept	pertains	to	protecting	sensitive	information	from disclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
-A.	Confidentiality
-B.	Integrity
-C.	Availability
-D.	Privacy
+### Question # 2 - Which	security	concept	pertains	to	protecting	sensitive	information	from disclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?    
+A.	Confidentiality  
+B.	Integrity   
+C.	Availability   
+D.	Privacy    
 
-### Question # 3 - With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	a virtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?
-A.	Language	differences
-B.	Technologies	used
-C.	Licensing	issues
-D.	Lack	of	international	authority
+### Question # 3 - With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	a virtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?     
+A.	Language	differences   
+B.	Technologies	used    
+C.	Licensing	issues    
+D.	Lack	of	international	authority    
 
-### Question # 4 - Which	of	the	following	regulations	originates	from	a	professional	or industry	organization,	rather	than	from	a	legal	or	governmental	authority?
-A.	PCI	DSS
-B.	FISMA
-C.	HIPAA
-D.	SOX
+### Question # 4 - Which	of	the	following	regulations	originates	from	a	professional	or industry	organization,	rather	than	from	a	legal	or	governmental	authority?   
+A.	PCI	DSS    
+B.	FISMA    
+C.	HIPAA     
+D.	SOX     
 
-### Question # 5 - What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	has been	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?
-A.	File	size
-B.	Checksum
-C.	Filename
-D.	Metadata
+### Question # 5 - What	is	a	very	common	method	of	verifying	the	integrity	of	a	file	that	has been	downloaded	from	a	site	or	vendor	distribution,	to	ensure	it	has	not been	modified	during	transmission?     
+A.	File	size    
+B.	Checksum    
+C.	Filename    
+D.	Metadata    
 
-### Question # 6 - The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacy regulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?
-A.	The	United	States	and	Japan
-B.	Russia	and	the	European	Union
-C.	The	United	States	and	the	European	Union
-D.	The	European	Union	and	Japan
+### Question # 6 - The	Safe	Harbor	program	was	developed	to	bridge	the	gap	in	privacy regulations	between	two	different	jurisdictions.	Which	two	jurisdictions are	involved	in	the	program?    
+A.	The	United	States	and	Japan     
+B.	Russia	and	the	European	Union      
+C.	The	United	States	and	the	European	Union    
+D.	The	European	Union	and	Japan    
 
-### Question # 7 - Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	both legal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?
-A.	PCI	DSS
-B.	FISMA
-C.	HIPAA
-D.	FIPS	140-2
+### Question # 7 - Regulatory	frameworks	can	come	from	a	variety	of	jurisdictions,	both legal	and	professional.	Which	of	the	following	regulatory	frameworks pertains	to	the	handling	of	credit	card	transactions?    
+A.	PCI	DSS    
+B.	FISMA    
+C.	HIPAA    
+D.	FIPS	140-2     
 
-### Question # 8 - Audits	are	regularly	undertaken	by	an	organization	in	both	internal	and external	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?
-A.	Efficiency
-B.	Regulations
-C.	Design	plans
-D.	Costs
+### Question # 8 - Audits	are	regularly	undertaken	by	an	organization	in	both	internal	and external	formats,	to	ensure	regulatory	or	corporate	policy	compliance, among	many	other	potential	factors.	Which	of	the	following	is	NOT something	evaluated	as	part	of	an	internal	audit?     
+A.	Efficiency    
+B.	Regulations    
+C.	Design	plans    
+D.	Costs    
 
-### Question # 9 - What	principle	must	always	been	included	with	an	SOC	2	report?
-A.	Confidentiality
-B.	Security
-C.	Privacy
-D.	Processing	integrity
+### Question # 9 - What	principle	must	always	been	included	with	an	SOC	2	report?     
+A.	Confidentiality   
+B.	Security    
+C.	Privacy   
+D.	Processing	integrity    
 
-### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	and the	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service? 
-A.	Contract
-B.	SLA
-C.	Regulation
-D.	SOW
+### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	and the	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service?    
+A.	Contract   
+B.	SLA    
+C.	Regulation     
+D.	SOW     
 
 ### Question # 11 - The	first	step	with	an	internal	information	security	management	system (ISMS)	involves	defining	an	organization’s	security	policies.	After security	policies	have	been	defined,	what	is	the	next	step	in	the	process?    
 A.	Risk	assessment  
@@ -64,119 +64,121 @@ B.	Scope	definition
 C.	Implement	controls   
 D.	Continual	improvement   
 
-### Question # 12 - Without	direct	access	by	customers	to	the	underlying	infrastructure	of	a cloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?
-A.	SLAs
-B.	Contracts
-C.	Regulations
-D.	Certifications
+### Question # 12 - Without	direct	access	by	customers	to	the	underlying	infrastructure	of	a cloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?    
+A.	SLAs    
+B.	Contracts    
+C.	Regulations     
+D.	Certifications   
 
-### Question # 13 - Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	to properly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?
+### Question # 13 - Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	to properly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?     
 A.	Access	to	systems   
 B.	Knowledge	of	systems    
 C.	Data	classification	rules    
 D.	Contractual	requirements   
 
-### Question # 14 -	During	the	lessons	learned	phase	of	an	audit,	reducing	duplication	is	key for	lowering	both	costs	and	time	involved	for	staff	with	audits.	Which	of the	following	will	prevent	elimination	of	duplication	in	many	instances?
-A.	Corporate	policies
-B.	Vendor	recommendations
-C.	Regulations
-D.	Stakeholders
+### Question # 14 -	During	the	lessons	learned	phase	of	an	audit,	reducing	duplication	is	key for	lowering	both	costs	and	time	involved	for	staff	with	audits.	Which	of the	following	will	prevent	elimination	of	duplication	in	many	instances?     
+A.	Corporate	policies    
+B.	Vendor	recommendations    
+C.	Regulations     
+D.	Stakeholders     
 
-### Question # 15 - The	ISO/IEC	27001:2013	security	standard	contains	14	different	domainsthat	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?
-A.	Legal
-B.	Management
-C.	Assets
-D.	Supplier	Relationships
+### Question # 15 - The	ISO/IEC	27001:2013	security	standard	contains	14	different	domainsthat	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?      
+A.	Legal  
+B.	Management   
+C.	Assets    
+D.	Supplier	Relationships    
 
-### Question # 16 - What	is	the	process	that	requires	searching,	identifying,	collecting,	and securing	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? A.		Disclosure
-B.	Subpoena
-C.	Retention
-D.	eDiscovery
+### Question # 16 - What	is	the	process	that	requires	searching,	identifying,	collecting,	and securing	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? 
+A.	Disclosure    
+B.	Subpoena    
+C.	Retention     
+D.	eDiscovery     
 
-### Question # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?
-A.	SLA
-B.	Contract
-C.	Regulation
-D.	SOW
+### Question # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?   
+A.	SLA    
+B.	Contract    
+C.	Regulation    
+D.	SOW    
 
-### Question # 18 - Which	type	of	report	is	considered	for	“general”	use	and	does	not	containany	sensitive	information?
-A.	SOC	1
-B.	SAS-70
-C.	SOC	3
-D.	SOC	2
+### Question # 18 - Which	type	of	report	is	considered	for	“general”	use	and	does	not	containany	sensitive	information?     
+A.	SOC	1    
+B.	SAS-70    
+C.	SOC	3   
+D.	SOC	2     
 
-### Question # 19 - Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit? 
-A.		Customer	feedback
-B.	Stakeholder	interviews
-C.	Documentation	review
-D.	Audit	testing
+### Question # 19 - Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit?  
+A.	Customer	feedback     
+B.	Stakeholder	interviews   
+C.	Documentation	review    
+D.	Audit	testing     
 
-### Question # 20 - Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use? 
-A.	Data	custodian
-B.	Data	owner
-C.	Data	originator
-D.	Database	administrator
+### Question # 20 - Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use?     
+A.	Data	custodian    
+B.	Data	owner    
+C.	Data	originator    
+D.	Database	administrator     
 
-### Question # 21 - Many	processes	are	substantially	different	between	fulfilling	an eDiscovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?
-A.	Broad	network	access
-B.	Measured	service
-C.	Elasticity
-D.	On-demand	self-service
+### Question # 21 - Many	processes	are	substantially	different	between	fulfilling	an eDiscovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?    
+A.	Broad	network	access     
+B.	Measured	service   
+C.	Elasticity    
+D.	On-demand	self-service     
 
-### Question # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?
-A.	Contractual
-B.	Jurisdictional
-C.	Regulated
-D.	Sensitive
+### Question # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?     
+A.	Contractual    
+B.	Jurisdictional    
+C.	Regulated    
+D.	Sensitive     
 
-### Question # 23 - Which	of	the	following	laws	is	highly	related	to	the	preservation	andretention	of	electronic	records?
-A.	HIPAA
-B.	Safe	Harbor
-C.	SOX
-D.	GLBA
+### Question # 23 - Which	of	the	following	laws	is	highly	related	to	the	preservation	andretention	of	electronic	records?     
+A.	HIPAA   
+B.	Safe	Harbor    
+C.	SOX    
+D.	GLBA    
 
-### Question # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?
-A.	Security
-B.	Privacy
-C.	Processing	integrity
-D.	Availability
+### Question # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?    
+A.	Security    
+B.	Privacy    
+C.	Processing	integrity    
+D.	Availability    
 
-### Question # 25 - Which	of	the	following	is	NOT	one	of	the	steps	involved	in	the	audit plan?
-A.	Define	objectives
-B.	Remediation
-C.	Define	scope
-D.	Lessons	learned
+### Question # 25 - Which	of	the	following	is	NOT	one	of	the	steps	involved	in	the	audit plan?     
+A.	Define	objectives    
+B.	Remediation    
+C.	Define	scope    
+D.	Lessons	learned   
 
-### Question # 26 - ISO/IEC	27018	was	developed	to	establish	standards	for	privacy involving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?
-A.	Independent,	yearly
-B.	Internal,	every	six	months
-C.	Independent,	every	six	months
-D.	Internal,	yearly
+### Question # 26 - ISO/IEC	27018	was	developed	to	establish	standards	for	privacy involving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?     
+A.	Independent,	yearly  
+B.	Internal,	every	six	months    
+C.	Independent,	every	six	months     
+D.	Internal,	yearly     
 
-### Question # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? A.		Define	scope
-B.	Lessons	learned
-C.	Define	objectives
-D.	Conduct	the	audit
+### Question # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? 
+A.	Define	scope    
+B.	Lessons	learned     
+C.	Define	objectives     
+D.	Conduct	the	audit     
 
-### Question # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?
-A.	United	States
-B.	European	Union
-C.	Russia
-D.	Japan
+### Question # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?     
+A.	United	States   
+B.	European	Union   
+C.	Russia   
+D.	Japan    
 
-### Question # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?
-A.	Exclusions
-B.	Costs
-C.	Certifications
-D.	Reports
+### Question # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?     
+A.	Exclusions    
+B.	Costs    
+C.	Certifications    
+D.	Reports    
 
-### Question # 30 - Which	of	the	following	laws	pertains	to	the	protection	and	confidentialityof	PII,	related	specifically	to	financial	institutions?
-A.	HIPAA
-B.	SOX
-C.	Safe	Harbor
-D.	GLBA 
+### Question # 30 - Which	of	the	following	laws	pertains	to	the	protection	and	confidentialityof	PII,	related	specifically	to	financial	institutions?    
+A.	HIPAA    
+B.	SOX   
+C.	Safe	Harbor     
+D.	GLBA     
 	
-# QUICK	ANSWER	KEY
+# QUICK	ANSWER	KEY     
 1.	B        2.	A        3.	D        4.	A        5.	B        6.	C        7.	A        8.	B        9.	B        10.	A        11.	B        12.	D        13.	B
 14.	C        15. A        16.	D        17.	B        18.	C        19.	A        20.	B        21.	B        22.	C        23.	C        24.	A        25.	B
 26.	A        27.	C        28.	A        29.	B        30.	D 
