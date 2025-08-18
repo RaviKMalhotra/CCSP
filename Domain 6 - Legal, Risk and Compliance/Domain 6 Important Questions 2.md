@@ -1,8 +1,8 @@
 ### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?
-A.	Portability
-B.	Multitenancy
-C.	Reversibility
-D.	Auto-scaling
+A.	Portability  
+B.	Multitenancy  
+C.	Reversibility  
+D.	Auto-scaling  
 
 ### Question # 2 - Which	security	concept	pertains	to	protecting	sensitive	information	fromdisclosure	but	also	ensuring	it	is	accessible	to	the	appropriate	parties?
 A.	Confidentiality
