@@ -192,6 +192,7 @@ B.	Multitenancy
 C.	Reversibility   
 D.	Auto-scaling   
 Correct Answer: B.	
+
 	- In	a	traditional	data	center,	where	an	organization	owns	and controls	all	systems,	data,	and	physical	equipment,	it	is	very	easy	to isolate	and	duplicate	anything	necessary.	Within	a	cloud	environment, with	multitenancy	and	many	customers	sharing	the	same	resources,	it isn’t	practical	for	the	cloud	provider	to	make	easy	snapshots	or	isolate physical	storage	systems	or	servers.	Different	collection	methods	are necessary	in	a	cloud	environment,	which	often	are	more	labor	or	cost intensive,	and	with	additional	complexity	involved.
 
 	- A	is	incorrect	because	portability	refers	to	the	ability	for	a	system, service,	or	application	to	move	with	ease	between	different	cloud providers.	It	gives	additional	flexibility	to	a	cloud	customer	and prevents	vendor	lock-in,	which	would	eliminate	a	cloud	customer from	seeking	competition	and	constantly	shopping	for	cheaper services	or	better	support.
