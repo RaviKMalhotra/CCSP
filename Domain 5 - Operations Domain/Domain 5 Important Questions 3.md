@@ -1,14 +1,14 @@
 1.	What term is used to describe agreements between IT service providers and customers that describe service-level targets and responsibilities of the customer and provider?
-A.	OLA
-B.	SAC
-C.	SLA
-D.	SLR
+A.	OLA. 
+B.	SAC. 
+C.	SLAb 
+D.	SLR. 
 
 2.	Sally is building her organization’s communication plans and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with? 
-A. Notification of breaches
-B.	Regulatory compliance
-C.	Managing expectations
-D.	Problem management
+A. Notification of breaches. 
+B.	Regulatory compliance. 
+C.	Managing expectations. 
+D.	Problem management. 
 
 3.	Juanita has discovered unexpected programs running on her freshly installed Linux system that was built using her cloud provider’s custom Linux distribution but that did not allow connections from the internet yet. What is the most likely reason for this?
 A.	Juanita inadvertently installed additional tools during the installation process.
