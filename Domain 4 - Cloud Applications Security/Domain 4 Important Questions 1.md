@@ -9,43 +9,53 @@ C. Standard Application Security (SAS), Application Normative Framework (ANF)
 D. Organizational Normative Framework (ONF), Standard Application Security (SAS)  
 Answer: A.   
 
-The ONF lists all the controls used in all the applications within an organization; each ANF lists the particular controls used in each application the organization has. Standard Application Security is a made-up term therefore options C and D are incorrect.
+The **ONF** lists all the controls **used in all the applications within an organization**; 
+And each **ANF** lists the **particular controls used in each application the organization has**. 
+Standard Application Security is a made-up term therefore options C and D are incorrect.
 
-	2. According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
-		A. Many
-		B. Three
-		C. No
-		D. One
-Answer:
-D. Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
-	3. What language is used in the Simple Object Access Protocol (SOAP) application design protocol?
-		A. Hypertext Markup Language (HTML)
-		B. X.509
-		C. Extensible Markup Language (XML)
-		D. Hypertext Transfer Protocol (HTTP)
-Answer:
-C. SOAP necessarily uses XML.
-HTML is a language used to tag text files so that they can be displayed with different fonts, colors, graphics and hyperlinks. HTML is not used in SOAP. Option A is incorrect.
+### Question # 1 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
+A. Many
+B. Three
+C. No
+D. One
+Answer: D. 
+
+Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
+
+### Question # 1 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?
+A. Hypertext Markup Language (HTML)
+B. X.509
+C. Extensible Markup Language (XML)
+D. Hypertext Transfer Protocol (HTTP)
+Answer: C. 
+
+**SOAP necessarily uses XML.**
+HTML is a language used to tag text files so that they can be displayed with different fonts, colors, graphics and hyperlinks. **HTML is not used in SOAP.** Option A is incorrect.
 Option B is incorrect because X.509 is a standard and the question is about a programming language.
 Option D is incorrect because HTTP is protocol and the question is about a programming language.
-	4. Typically, representational state transfer (REST) interactions do not require _______________.
-		A. Credentials
-		B. Sessions
-		C. Servers
-		D. Clients
-Answer:
-B. Generally, a REST interaction involves the client asking the server (through an application programming interface [API]) for data, sometimes as the result of processing; the server processes the request and returns the result. In REST, an enduring session, where the server has to store some temporary data about the client, is not necessary.
+
+### [Important] Question # 1 - Typically, representational state transfer (REST) interactions do not require _______________.
+A. Credentials
+B. Sessions
+C. Servers
+D. Clients
+Answer: B. 
+
+Generally, a REST interaction involves the client asking the server (through an application programming interface [API]) for data, sometimes as the result of processing; the server processes the request and returns the result. 
+**In REST, an enduring session, where the server has to store some temporary data about the client, is not necessary.**
 These interactions obviously involve servers and clients, so options C and D are not correct.
 Using REST does not eliminate the need for credentials, so option A is not correct.
-	5. Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.
-		A. Hypertext Markup Language (HTML)
-		B. Hypertext Transfer Protocol (HTTP)
-		C. Extensible Markup Language (XML)
-		D. American Standard Code for Information Interchange (ASCII)
-Answer:
-B. Roy Fielding, the author of the PhD dissertation that created REST, was also the author of HTTP, so it’s no surprise the command set is the same.
-All the other options are incorrect because the REST APIs do not use HTML, XML or ASCII as protocol verbs.
-	6. The architecture of the World Wide Web, as it works today, is _______________.
+
+### Question # 1 - Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.
+A. Hypertext Markup Language (HTML)
+B. Hypertext Transfer Protocol (HTTP)
+C. Extensible Markup Language (XML)
+D. American Standard Code for Information Interchange (ASCII)
+Answer: B. 
+Roy Fielding, the author of the PhD dissertation **that created REST, was also the author of HTTP**, so it’s no surprise the command set is the same.
+All the other options are incorrect because the **REST APIs do not use HTML, XML or ASCII as protocol verbs.**
+
+### Question # 1 - The architecture of the World Wide Web, as it works today, is _______________.
 		A. JavaScript Open Notation (JSON)
 		B. Denial of service (DoS)
 		C. Representational state transfer (REST)
