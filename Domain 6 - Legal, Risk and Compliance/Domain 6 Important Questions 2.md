@@ -94,7 +94,7 @@ B.	Subpoena
 C.	Retention     
 D.	eDiscovery     
 
-### Question # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?   
+### Question # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	data collection	pursuant	to	an	eDiscovery	request?   
 A.	SLA    
 B.	Contract    
 C.	Regulation    
@@ -124,19 +124,19 @@ B.	Measured	service
 C.	Elasticity    
 D.	On-demand	self-service     
 
-### Question # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?     
+### Question # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	any compromise	of	personal	data?     
 A.	Contractual    
 B.	Jurisdictional    
 C.	Regulated    
 D.	Sensitive     
 
-### Question # 23 - Which	of	the	following	laws	is	highly	related	to	the	preservation	andretention	of	electronic	records?     
+### Question # 23 - Which	of	the	following	laws	is	highly	related	to	the	preservation	and retention	of	electronic	records?     
 A.	HIPAA   
 B.	Safe	Harbor    
 C.	SOX    
 D.	GLBA    
 
-### Question # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?    
+### Question # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	procedures of	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?    
 A.	Security    
 B.	Privacy    
 C.	Processing	integrity    
@@ -154,25 +154,25 @@ B.	Internal,	every	six	months
 C.	Independent,	every	six	months     
 D.	Internal,	yearly     
 
-### Question # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? 
+### Question # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	be allocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit? 
 A.	Define	scope    
 B.	Lessons	learned     
 C.	Define	objectives     
 D.	Conduct	the	audit     
 
-### Question # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?     
+### Question # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulations regarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?     
 A.	United	States   
 B.	European	Union   
 C.	Russia   
 D.	Japan    
 
-### Question # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?     
+### Question # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	be used	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?     
 A.	Exclusions    
 B.	Costs    
 C.	Certifications    
 D.	Reports    
 
-### Question # 30 - Which	of	the	following	laws	pertains	to	the	protection	and	confidentialityof	PII,	related	specifically	to	financial	institutions?    
+### Question # 30 - Which	of	the	following	laws	pertains	to	the	protection	and	confidentiality of	PII,	related	specifically	to	financial	institutions?    
 A.	HIPAA    
 B.	SOX   
 C.	Safe	Harbor     
@@ -186,7 +186,7 @@ D.	GLBA 
 # ANSWERS Details 
 Comprehensive	Answers	and	Explanations
 
-### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?     
+### Question # 1 - The	nature	of	cloud	computing	and	how	it	operates	make	complying	withdata	discovery	and	disclosure	orders	more	difficult.	Which	of	the following	concepts	provides	the	biggest	challenge	in	regard	to	data collection,	pursuant	to	a	legal	order?   
 A.	Portability  
 B.	Multitenancy  
 C.	Reversibility   
@@ -207,6 +207,7 @@ B.	Integrity
 C.	Availability   
 D.	Privacy    
 Correct Answer: A.	
+
 Confidentiality	pertains	to	the	protection	of	sensitive	information from	disclosure	to	unauthorized	parties,	either	through	accidental disclosure	or	by	the	actions	of	malicious	actors.	It	has	a	second component	that	is	related	to	ensuring	that	data	is	available	to authorized	parties	and	provisioned	for	appropriate	access.
 
 B	is	incorrect	because	integrity	refers	to	ensuring	that	data	has	not been	corrupted	or	altered	through	unauthorized	or	inappropriate actions.	It	is	solely	focused	on	the	format	and	correctness	of	the	data, and	may	be	used	in	conjunction	with	confidentiality	in	some instances.	However,	data	is	not	required	to	be	protected	or	to	be sensitive	in	nature	for	integrity	to	be	a	necessary	concern.
@@ -215,12 +216,13 @@ C	is	incorrect	because	availability	pertains	to	data	being	accessible when	neces
 
 D	is	incorrect	because	privacy	is	considered	a	subset	of	confidentiality, as	it	is	focused	on	personal	data	and	the	right	or	ability	to	control	how it	is	collected	or	used,	as	well	as	the	ability	to	have	it	removed	from	a system	or	application	when	desired	or	no	long	necessary	for	use.
 
-### Question # 3 - With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?     
+### Question # 3 - With	cloud	computing	crossing	many	jurisdictional	boundaries,	it	is	avirtual	certainty	that	conflicts	will	arise	between	differing	regulations. What	is	the	major	impediment	to	resolving	conflicts	between	multiple jurisdictions	to	form	an	overall	policy?  
 A.	Language	differences    
 B.	Technologies	used    
 C.	Licensing	issues     
 D.	Lack	of	international	authority     
 Correct Answer: D.	
+
 The	biggest	problem	with	resolving	jurisdictional	conflicts	is	the lack	of	an	international	authority.	Each	jurisdiction,	typically	along national	lines,	establishes	its	own	regulations	and	laws	pertaining	to data	protection.	When	conflicts	between	jurisdictions	arise,	it	is incumbent	upon	those	jurisdictions	to	work	out	the	issue.	Typically,	no centralized	authority	exists	at	the	international	level	that	can	be	used to	resolve	potential	conflicts	or	to	mediate.
  
 A	is	incorrect	because	language	differences	would	not	be	a	significant impediment.	Although	it	is	quite	likely	that	you	could	encounter language	differences	when	dealing	across	borders	with	different locales,	these	are	easily	overcome	with	translators,	or	even	computer programs	that	can	handle	translations	well.
@@ -250,6 +252,7 @@ B.	Checksum
 C.	Filename    
 D.	Metadata    
 Correct Answer: B.	
+
 A	checksum	is	the	output	of	an	algorithm	processing	a cryptographic	hashing	function	against	a	piece	of	data	or	a	file.	The same	algorithm	can	be	run	against	a	file	at	another	time	and	compared to	the	original,	known,	true	value	to	determine	if	the	file	has	been altered	at	all	from	its	original	and	correct	state.	Using	a	checksum	is an	easy	and	quick	way	to	determine	if	a	file	has	been	altered	or tampered	with	in	any	way.
 
 A	is	incorrect	because	file	size	would	not	be	a	reliable	method	for determining	if	a	file	has	been	altered	at	all,	as	modifications	can	be made	that	would	not	alter	the	size	of	a	file	yet	could	substantially change	the	contents	of	the	data.
@@ -426,6 +429,7 @@ B.	Contract
 C.	Regulation    
 D.	SOW     
 Correct Answer: B.	
+
 When	dealing	with	possible	eDiscovery	in	a	cloud	environment, where	responsibilities	are	a	shared	between	the	cloud	customer	and cloud	provider,	it	is	essential	for	the	contract	to	outline	responsibilities and	the	requirements	for	their	completion,	including	time requirements.
 
 A	is	incorrect	because	a	service	level	agreement	(SLA)	is	used	to determine	if	contractual	obligations	are	being	met,	based	on	agreed upon	metrics	and	requirements.
@@ -515,6 +519,7 @@ B.	Safe	Harbor
 C.	SOX     
 D.	GLBA     
 Correct Answer: C.	
+
 The	Sarbanes–Oxley	Act	(SOX)	of	2002	pertains	to	the	records publicly	traded	companies,	accounting	firms,	and	many	other	types	of organizations	must	retain.	It	specifies	not	only	the	type	of	records	that must	be	preserved	but	also	the	duration	of	retention.
 
 A	is	incorrect	because	the	Health	Insurance	Portability	and Accountability	Act	(HIPAA)	of	1996	pertains	to	the	protection	of patient	privacy	and	medical	records.	It	is	not	focused	on	the preservation	or	retention	of	electronic	records.
@@ -560,17 +565,19 @@ B.	Internal,	every	six	months
 C.	Independent,	every	six	months      
 D.	Internal,	yearly      
 Correct Answer: A.	
+
 Under	the	ISO/IEC	27018	standards,	audits	should	be	completed	by an	independent	entity	that	does	not	have	any	financial	or	management stake	in	the	organization	or	application,	and	should	be	done	at	least yearly.
 B	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	internally	every	six	months.
 C	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	every	six	months.
 D	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	least	on	a	yearly	basis,	not	internally.
 
-### Qustion # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit?     
+### Qustion # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	be allocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit?     
 A.	Define	scope     
-B.	Lessons	learned     mk
+B.	Lessons	learned   
 C.	Define	objectives     
 D.	Conduct	the	audit     
 Correct Answer: C.	
+
 During	the	defining	objectives	stage	of	an	audit,	the	policies	and regulations	to	be	audited	against	are	determined,	as	well	as	the	risk acceptance	of	the	organization	in	regard	to	them.	As	part	of	this process,	the	number	of	staff	needed	to	complete	the	audit	is determined,	both	on	the	part	of	the	auditors	and	on	the	organization being	audited.
 
 A	is	incorrect	because	defining	the	scope	of	the	audit	occurs	after	the defining	of	objectives.	The	scope	includes	what	exactly	will	be included	in	the	audit,	as	well	as	how	things	will	be	tested.	It	serves	as the	official	map	for	the	audit	and	all	the	steps	and	processes	that	must be	completed	as	part	of	it.
@@ -579,12 +586,13 @@ B	is	incorrect	because	the	lessons	learned	analysis	is	performed	after the	audit
 
 D	is	incorrect	because	the	actual	conducting	of	the	audit	entails	testing of	controls	against	policies	and	expected	configurations	to	determine any	gaps	or	“findings.”
 
-### Qustion # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulationsregarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?    
+### Qustion # 28 - Many	jurisdictions	around	the	world	have	comprehensive	regulations regarding	privacy	and	data	protection.	Which	jurisdiction	lacks	an	overall comprehensive	policy	that	covers	its	entire	jurisdictional	area?    
 A.	United	States    
 B.	European	Union    
 C.	Russia    
 D.	Japan    
 Correct Answer: A.	
+
 The	United	States	lacks	an	overall	comprehensive	privacy regulation	for	data	protection.	Although	various	regulations	pertain	to specific	types	of	data	or	institutions,	there	is	no	single,	comprehensive regulation	for	personal	information	or	privacy	protection.
 
 B	is	incorrect	because	the	European	Union	has	long	been	one	of	the top	drivers	of	data	privacy	and	personal	protection.	It	issued	Directive 95/45	EC	in	1995,	which	established	data	privacy	as	a	human	right.
@@ -593,12 +601,13 @@ C	is	incorrect	because	Russia	put	into	effect	Russian	Law	526-FZ	in 2015,	which	
 
 D	is	incorrect	because	Germany	is	part	of	the	European	Union,	and	as such,	it	is	covered	under	the	privacy	policies	and	regulations	the	EU has	issued.
 
-### Qustion # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	beused	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?   
+### Qustion # 29 - An	audit	scope	statement	defines	the	entire	process	and	procedures	to	be used	while	conducting	of	an	audit.	Which	of	the	following	items	is	NOT something	that	would	be	found	in	an	audit	scope	statement?   
 A.	Exclusions   
 B.	Costs   
 C.	Certifications   
 D.	Reports   
 Correct Answer: B.	
+
 The	costs	of	the	audit	are	not	something	that	is	included	in	an	audit scope	statement.	They	would	be	determined	by	contract	separately. Although	the	intended	scope	of	the	audit	will	likely	have	an	impact	on costs,	they	are	not	included	in	the	audit	scope	statement.
 
 A	is	incorrect	because	any	exclusions	to	the	audit—either	systems, applications,	or	services,	as	well	as	any	particular	features	that	are	not to	be	included—would	be	a	core	component	of	the	audit	scope statement.
@@ -613,6 +622,7 @@ B.	SOX
 C.	Safe	Harbor   
 D.	GLBA   
 Correct Answer: D.	
+
 The	Gramm–Leach–Bliley	Act	(GLBA)	of	1999	is	focused	on	how financial	institutions	handle	the	private	information	of	individuals.
 
 A	is	incorrect	because	the	Health	Insurance	Portability	and Accountability	Act	(HIPAA)	of	1996	pertains	to	the	protection	of patient	privacy	and	medical	records,	not	to	financial	institutions.
