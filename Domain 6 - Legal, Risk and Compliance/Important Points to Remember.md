@@ -137,4 +137,6 @@ Purpose specification principle
 - Russia	put	into	effect	Russian	Law	526-FZ	in 2015,	which	requires	all	data	and	processing	for	personal	information on	Russian	citizens	to	be	done	by	systems	and	applications	that physically	reside	and	are	hosted	within	the	borders	of	the	Russian Federation.
 - "cost" is	NOT something	that	would	be	found	in	an	audit	scope	statement.
 - The	costs	of	the	audit	are	not	something	that	is	included	in	an	audit scope	statement.	They	would	be	determined	by	contract	separately. Although	the	intended	scope	of	the	audit	will	likely	have	an	impact	on costs,	they	are	not	included	in	the	audit	scope	statement.
-- 
+
+- The	Gramm–Leach–Bliley	Act	(GLBA)	of	1999	is	focused	on	how financial	institutions	handle	the	private	information	of	individuals.
+
