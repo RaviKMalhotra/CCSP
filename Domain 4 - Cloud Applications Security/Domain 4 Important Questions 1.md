@@ -3,11 +3,12 @@
 The fourth domain of the Certified Cloud Security Professional (CCSP) Exam Outline covers applications in the cloud, from software development to challenges involved in migrating apps from the traditional IT environment. It also addresses software security and performance testing methods as well as proper identity and access management (IAM) principles. Because it is weighted less than the previous domains (according to this table published by (ISC)2,  https://cccure.training/m/articles/view/CISSP-domains-weight-percentage-on-the-real-exam), there are considerably fewer questions in this chapter.
 	
 ### Question # 1 - ISO 27034 mandates a framework for application security within an organization. According to the standard, each organization should have a(n) _______________, and each application within the organization should have its own _______________.  
-		A. Organizational Normative Framework (ONF), Application Normative Framework (ANF)  
-		B. Application Normative Framework (ANF), Organizational Normative Framework (ONF)  
-		C. Standard Application Security (SAS), Application Normative Framework (ANF)  
-		D. Organizational Normative Framework (ONF), Standard Application Security (SAS)  
+A. Organizational Normative Framework (ONF), Application Normative Framework (ANF)  
+B. Application Normative Framework (ANF), Organizational Normative Framework (ONF)  
+C. Standard Application Security (SAS), Application Normative Framework (ANF)  
+D. Organizational Normative Framework (ONF), Standard Application Security (SAS)  
 Answer: A.   
+
 The ONF lists all the controls used in all the applications within an organization; each ANF lists the particular controls used in each application the organization has. Standard Application Security is a made-up term therefore options C and D are incorrect.
 
 	2. According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
