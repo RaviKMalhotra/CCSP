@@ -1,4 +1,4 @@
-Your company is considering migrating its production environment to the cloud. In reviewing the proposed contract, you notice that it includes a clause that requires an additional fee, equal to six monthly payments (equal to half the term of the contract) for ending the contract at any point prior to the scheduled date. This is best described as an example of _________________.   
+### Your company is considering migrating its production environment to the cloud. In reviewing the proposed contract, you notice that it includes a clause that requires an additional fee, equal to six monthly payments (equal to half the term of the contract) for ending the contract at any point prior to the scheduled date. This is best described as an example of _________________.   
 A.	Favorable contract terms   
 B.	Strong negotiation   
 C.	Infrastructure as a service (IaaS)   
