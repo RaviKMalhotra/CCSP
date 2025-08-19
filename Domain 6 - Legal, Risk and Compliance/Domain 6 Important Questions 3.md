@@ -4,11 +4,11 @@ B.	Strong negotiation
 C.	Infrastructure as a service (IaaS)   
 D.	Vendor lock- in   
 
-Cathy is developing an eDiscovery program to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?
+### Cathy is developing an eDiscovery program to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?
 A.	ISO 27001 B. ISO 27002 C. ISO 27050
 D. ISO 27701
 
-In regard to most privacy guidance, the data processor is _________________.
+### In regard to most privacy guidance, the data processor is _________________.
 A.	The individual described by the personally identifiable information (PII)
 B.	The entity that collects or creates the personally identifiable information (PII)
 C.	The entity that uses personally identifiable information (PII) on behalf of the controller
@@ -61,55 +61,55 @@ B.	Postpone the audit for one year until adequate records are available.
 C.	Issue a failing audit report.
 D.	Remove this test from the audit and test a different control objective instead.
 
-12.	Which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?
+### which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?
 A.	Be located in a country with a nationwide law that complies with the EU laws.
 B.	Appeal to the EU High Court for permission.
 C.	Create binding contractual language that complies with the EU laws.
 D.	Join the Privacy Shield program in its own country.
 
-13.	Which type of business impact assessment tool is most appropriate when attempting to evaluate the impact of a failure on customer confidence?
+### Which type of business impact assessment tool is most appropriate when attempting to evaluate the impact of a failure on customer confidence?
 A.	Quantitative
 B.	Qualitative
 C.	Annualized loss expectancy
 D.	Reduction
 
-14.	An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls.
+### An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls.
 A.	Statement on Auditing Standards (SAS) 70 standard
 B.	Statement on Standards for Attestation Engagements (SSAE) 18 standard
 C.	Service Organization Control (SOC) 2, Type 2 report matrix
 D.	ISO 27001 certification requirements
 
-15.	An IT security audit is designed to reveal all of the following except _________________.
+### An IT security audit is designed to reveal all of the following except _________________.
 A.	Financial fraud
 B.	Malfunctioning controls
 C.	Inadequate controls
 D.	Failure to meet target standards and guidelines
 
-16.	During an IT audit, the CEO of a cloud provider demands regular updates on the testing process. How should auditors respond to this demand?
+### During an IT audit, the CEO of a cloud provider demands regular updates on the testing process. How should auditors respond to this demand?
 A.	Refuse to provide the CEO with any information until the conclusion of the audit.
 B.	Refer the matter to the client’s Board of Directors.
 C.	Provide the CEO with regular updates.
 D.	Refer the matter to the audit firm’s partnership review board.
 
-17.	Which of the following is a U.S. audit standard often used to evaluate cloud providers?
+### Which of the following is a U.S. audit standard often used to evaluate cloud providers?
 A.	ISO 27001
 B.	SOX
 C.	SSAE 18
 D.	IEC 43770
 
-18.	Digital forensics investigators perform all of the following actions routinely except for securely _________________ data.
+### Digital forensics investigators perform all of the following actions routinely except for securely _________________ data.
 A.	Collecting
 B.	Creating
 C.	Analyzing
 D.	Presenting
 
-19.	A(n) _________________ includes reviewing the organization’s current position/performance as revealed by an audit against a given standard.
+### A(n) _________________ includes reviewing the organization’s current position/performance as revealed by an audit against a given standard.
 A.	Service Organization Control (SOC) report
 B.	Gap analysis
 C.	Audit scoping statement
 D.	Federal guideline
 
-20.	Belinda is auditing the financial controls of a manufacturing company and learns that the financial systems are run on a major IaaS platform. She would like to gain assurance that the platform has appropriate security controls in place to assure the accuracy of her client’s financial statements. What action should she take? A. Perform an IT audit of the cloud provider.
+### Belinda is auditing the financial controls of a manufacturing company and learns that the financial systems are run on a major IaaS platform. She would like to gain assurance that the platform has appropriate security controls in place to assure the accuracy of her client’s financial statements. What action should she take? A. Perform an IT audit of the cloud provider.
 B.	Obtain a SOC 1 report.
 C.	Obtain a SOC 2 report.
 D.	Continue testing only controls at the client and note the use of the cloud provider in her report.
