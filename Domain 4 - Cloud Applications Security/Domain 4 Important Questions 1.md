@@ -56,46 +56,56 @@ Roy Fielding, the author of the PhD dissertation **that created REST, was also t
 All the other options are incorrect because the **REST APIs do not use HTML, XML or ASCII as protocol verbs.**
 
 ### Question # 1 - The architecture of the World Wide Web, as it works today, is _______________.
-		A. JavaScript Open Notation (JSON)
-		B. Denial of service (DoS)
-		C. Representational state transfer (REST)
-		D. Extensible Markup Language (XML)
-Answer:
-C. The web is mainly HTTP, which is a RESTful protocol.
+A. JavaScript Open Notation (JSON)
+B. Denial of service (DoS)
+C. Representational state transfer (REST)
+D. Extensible Markup Language (XML)
+Answer: C. 
+
+**The web is mainly HTTP, which is a RESTful protocol.**
 All the other options are incorrect because they do not answer the question about the architecture of the World Wide Web.
-	7. RESTful responses can come from the server in _______________ or _______________ formats.
-		A. Extensible Markup Language (XML), JavaScript Open Notation (JSON)
-		B. Hypertext Transfer Protocol (HTTP), X.509
-		C. American Standard Code for Information Interchange (ASCII), text
-		D. Hypertext Markup Language (HTML), Extensible Markup Language (XML)
-Answer:
-A. Servers can return REST requests to clients in a number of formats, including XML and JSON.
-X.509 certificates are used for passing session encryption information, not data requests, so option B is incorrect.
+	
+### Question # 1 - RESTful responses can come from the server in _______________ or _______________ formats.
+A. Extensible Markup Language (XML), JavaScript Open Notation (JSON)
+B. Hypertext Transfer Protocol (HTTP), X.509
+C. American Standard Code for Information Interchange (ASCII), text
+D. Hypertext Markup Language (HTML), Extensible Markup Language (XML)
+Answer: A. 
+
+**Servers can return REST requests to clients in a number of formats, including XML and JSON**.
+**X.509 certificates are used for passing session encryption information, not data requests**, so option B is incorrect.
 Servers usually return data requests in some sort of display format, not plain text or ASCII, so option C is incorrect.
 HTML responses would simply be an entire web page, not specific data, so option D is incorrect.
-	8. Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?
-		A. Instantiation
-		B. Porting
-		C. Grandslamming
-		D. Forklifting
-Answer:
-D. All the other options are simply words used in other contexts. They are incorrect.
-	9. Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.
-		A. DoS and DDoS (denial of service and distributed denial of service)
-		B. Multitenancy and third-party administrators
-		C. Unprotected servers and unprotected clients
-		D. Default configurations and user error
-Answer:
-B. All the other options are risks that exist in the traditional environment as well as the cloud.
-	10. When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.
-		A. Geographic location, native language
-		B. Legal restrictions, specific ISP
-		C. Service model, deployment model
-		D. Available bandwidth, telecommunications country code
-Answer:
-C. In order for developers to properly create and secure applications, they will need to understand the extent of resource sharing (public/private/hybrid/community) and level of control (infrastructure as a service [IaaS], platform as a service [PaaS], software as a service [SaaS]) the organization will expect in the cloud environment.
+	
+### Question # 1 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?
+A. Instantiation
+B. Porting
+C. Grandslamming
+D. Forklifting
+Answer: D. 
+All the other options are simply words used in other contexts. They are incorrect.
+
+### Question # 1 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.
+A. DoS and DDoS (denial of service and distributed denial of service)
+B. Multitenancy and third-party administrators
+C. Unprotected servers and unprotected clients
+D. Default configurations and user error
+Answer: B. 
+
+All the other options are risks that exist in the traditional environment as well as the cloud.
+
+### Question # 1 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.
+A. Geographic location, native language
+B. Legal restrictions, specific ISP
+C. Service model, deployment model
+D. Available bandwidth, telecommunications country code
+Answer: C. 
+
+In order for developers to properly create and secure applications, they will need to understand the extent of resource sharing (public/private/hybrid/community) and level of control (infrastructure as a service [IaaS], platform as a service [PaaS], software as a service [SaaS]) the organization will expect in the cloud environment.
+
 Each of the other options includes at least one element that programmers don’t need to know (specifically, the native language, Internet service provider [ISP], country code) and is therefore incorrect.
-	11. Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?
+
+ ### Question # 1 - Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?
 		A. Remove the application from the organization’s production environment and replace it with something else.
 		B. Negotiate and conduct a trial run in the cloud environment for that application before permanently migrating.
 		C. Make sure the application is fully updated and patched according to all vendor specifications.
