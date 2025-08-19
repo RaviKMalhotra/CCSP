@@ -318,7 +318,7 @@ C	is	incorrect	because	privacy	is	a	principle	of	the	SOC	2	reports	that pertains
 
 D	is	incorrect	because	processing	integrity	is	a	principle	of	the	SOC	2 reports	that	pertains	to	ensuring	that	only	authorized	parties	can manipulate	data,	and	only	do	so	in	an	appropriate	manner,	but	it	is	not required	as	a	principle	with	all	reports.
 
-### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	andthe	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service?      
+### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	and the	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service?      
 A.	Contract    
 B.	SLA    
 C.	Regulation    
@@ -348,7 +348,7 @@ C	is	incorrect	because	controls	are	implemented	after	the	risk assessment	has	be
 
 D	is	incorrect	because	continual	improvement	is	the	last	component, after	the	ISMS	has	been	properly	determined	and	implemented,	with an	eye	toward	ongoing	operations	and	adherence	to	regulatory compliance,	for	both	new	and	existing	regulations.
 
-### Qustion # 12 - Without	direct	access	by	customers	to	the	underlying	infrastructure	of	acloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?    
+### Qustion # 12 - Without	direct	access	by	customers	to	the	underlying	infrastructure	of	a cloud	environment,	coupled	with	their	limited	knowledge	of	many operations	and	configurations,	what	can	be	used	for	customers	to	gain assurance	of	security	controls	and	implementations?    
 A.	SLAs    
 B.	Contracts    
 C.	Regulations    
@@ -363,7 +363,7 @@ B	is	incorrect	because	contracts	document	the	broad	parameters	and high-level	po
 
 C	is	incorrect	because	regulations	will	dictate	specific	requirements for	configurations	and	minimum	standards,	but	will	not	provide assurance	of	their	implementation	in	the	way	that	certifications	will. In	fact,	in	many	instances,	certifications	are	designed	specifically	to comply	with	regulations.
 
-### Qustion # 13 - Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	toproperly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?      
+### Qustion # 13 - Cloud	environments	pose	many	unique	challenges	for	a	data	custodian	to properly	adhere	to	policies	and	the	use	of	data.	What	poses	the	biggest challenge	for	a	data	custodian	with	a	PaaS	implementation,	over	and above	the	same	concerns	with	IaaS?      
 A.	Access	to	systems    
 B.	Knowledge	of	systems     
 C.	Data	classification	rules    
@@ -393,7 +393,7 @@ B	is	incorrect	because	vendor	recommendations	will	not	directly	play into	audits
 
 D	is	incorrect	because	stakeholders	will	not	often	have	direct	influence on	audits	and	how	they	are	conducted,	beyond	perhaps	mandating specific	certifications	or	standards	that	should	be	followed.	However, stakeholders	can	always	allow	for	modifications,	whereas	regulations will	not	be	flexible	in	most	instances	for	individual	organizations.
 
-### Qustion # 15 - The	ISO/IEC	27001:2013	security	standard	contains	14	different	domainsthat	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?      
+### Qustion # 15 - The	ISO/IEC	27001:2013	security	standard	contains	14	different	domains that	cover	virtually	all	areas	of	IT	operations	and	procedures.	Which	of the	following	is	NOT	one	of	the	domains	listed	in	the	standard?      
 A.	Legal    
 B.	Management    
 C.	Assets      
@@ -405,15 +405,14 @@ B	is	incorrect	because	management	is	one	of	the	14	individual domains	contained	
 C	is	in	correct	because	assets	is	one	of	the	14	individual	domains contained	in	the	ISO/IEC	27001:2013	standard.
 D	is	incorrect	because	supplier	relationships	is	one	of	the	14	individual domains	contained	in	the	ISO/IEC	27001:2013	standard.
 
-### Qustion # 16 - What	is	the	process	that	requires	searching,	identifying,	collecting,	andsecuring	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? 
+### Qustion # 16 - What	is	the	process	that	requires	[searching,	identifying,	collecting,	and securing]	electronic	data	or	records	for	use	within	criminal	or	civil	legal matters? 
 A.	Disclosure     
 B.	Subpoena    
 C.	Retention    
 D.	eDiscovery    
 Correct Answer: D.	
 
-eDiscovery	is	the	process	that	requires	searching,	identifying, collecting,	and	securing	electronic	data	or	records,	typically	to	be	used for	criminal	or	civil	legal	matters.	It	is	similar	to	the	discovery	process typically	used	for	evidence	collection	or	document	production	in	the course	of	a	legal	inquiry,	just	specifically	focused	on	electronic
-records	and	the	particular	needs	and	processes	required	for	them.
+eDiscovery	is	the	process	that	requires	searching,	identifying, collecting,	and	securing	electronic	data	or	records,	typically	to	be	used for	criminal	or	civil	legal	matters.	It	is	similar	to	the	discovery	process typically	used	for	evidence	collection	or	document	production	in	the course	of	a	legal	inquiry,	just	specifically	focused	on	electronic records	and	the	particular	needs	and	processes	required	for	them.
 
 A	is	incorrect	because	although	disclosure	could	pertain	to	handing over	the	evidence	to	the	requesting	authority	pursuant	to	their eDiscovery	order,	it	is	not	an	official	term	used	here.
 
@@ -421,16 +420,15 @@ B	is	incorrect	because	a	subpoena	is	a	legal	mechanism	to	compel	the production	
 
 C	is	incorrect	because	retention	refers	to	storing	and	archiving	of	data for	a	period	of	time	to	meet	regulations	or	policies.
 
-### Qustion # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	datacollection	pursuant	to	an	eDiscovery	request?    
+### Qustion # 17 - What	vehicle	will	delineate	the	responsibilities	for	compliance	and	data collection	pursuant	to	an	eDiscovery	request?    
 A.	SLA   
 B.	Contract    
 C.	Regulation    
 D.	SOW     
 Correct Answer: B.	
-When	dealing	with	possible	eDiscovery	in	a	cloud	environment, where	responsibilities	are	a	shared	between	the	cloud	customer	and cloud	provider,	it	is	essential	for	the	contract	to	outline	responsibilities
-and	the	requirements	for	their	completion,	including	time requirements.
+When	dealing	with	possible	eDiscovery	in	a	cloud	environment, where	responsibilities	are	a	shared	between	the	cloud	customer	and cloud	provider,	it	is	essential	for	the	contract	to	outline	responsibilities and	the	requirements	for	their	completion,	including	time requirements.
 
-A	is	incorrect	because	a	service	level	agreement	(SLA)	is	used	to determine	if	contractual	obligations	are	being	met,	based	on	agreedupon	metrics	and	requirements.
+A	is	incorrect	because	a	service	level	agreement	(SLA)	is	used	to determine	if	contractual	obligations	are	being	met,	based	on	agreed upon	metrics	and	requirements.
 
 C	is	incorrect	because	regulations	play	a	key	role	in	the	scope	and requirements	of	an	eDiscovery	order;	they	are	not	a	factor	in	how information	is	collected	or	the	specific	responsibilities	for	its collection.
 
@@ -452,7 +450,7 @@ B	is	incorrect	because	SAS-70	reports	are	actually	deprecated	at	this time,	but	
 D	is	incorrect	because	SOC	2	reports,	although	more	broad	in substance	and	duration	than	SOC	1	reports,	are	still	considered “restricted	use”	and	not	for	public	dissemination.
 
 ### Qustion # 19 - Which	of	the	following	would	NOT	be	used	as	input	toward	the	gap analysis	aspect	of	an	audit?    
-A.		Customer	feedback      
+A.	Customer	feedback      
 B.	Stakeholder	interviews   
 C.	Documentation	review   
 D.	Audit	testing    
@@ -466,7 +464,7 @@ C	is	incorrect	because	documentation	review	is	a	key	component	of	an audit	and	g
 
 D	is	incorrect	because	actual	audit	testing	is	perhaps	the	most important	part	of	an	audit	because	it	determines	whether	the configurations	and	controls	in	place	actually	match	those	documented in	policy	or	regulation	and	should	be	in	place.
 
-### Qustion # 20 - Data	is	used	by	many	different	roles	within	an	organization.	Although	allroles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use?   
+### Qustion # 20 - Data	is	used	by	many	different	roles	within	an	organization.	Although	all roles	have	the	responsibility	for	protecting	the	data	and	conforming	to	any policies	governing	its	use	or	access,	which	role	is	specifically	responsible for	determining	the	appropriate	controls	to	be	applied	as	well	as appropriate	use?   
 A.	Data	custodian   
 B.	Data	owner    
 C.	Data	originator    
@@ -481,15 +479,14 @@ C	is	incorrect	because	data	originator	is	the	role	that	creates	the	data, throug
 
 D	is	incorrect	because	database	administrator	is	a	purely	technical	role that	has	a	duty	to	follow	and	enforce	policy	but	does	not	determine controls	or	appropriate	use.
 
-### Qustion # 21 - Many	processes	are	substantially	different	between	fulfilling	aneDiscovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?     
+### Qustion # 21 - Many	processes	are	substantially	different	between	fulfilling	ane Discovery	request	in	a	cloud	environment	versus	a	traditional	data center.	Which	of	the	following	concepts	is	a	major	factor	within	a	cloud environment?     
 A.	Broad	network	access  
 B.	Measured	service  
 C.	Elasticity   
 D.	On-demand	self-service     
 Correct Answer: B.	
 
-Measured	service	is	a	cloud	concept	in	which	a	cloud	customer	only pays	for	the	resources	they	are	actively	using	and	have	allocated.	This becomes	an	important	concept	when	dealing	with	eDiscovery	orders because	substantial	disk	space	may	be	needed	to	make	copies	of	data
-or	to	preserve	it,	pursuant	to	the	order.	During	the	time	the	disk	is being	used,	an	organization	could	potentially	incur	substantial	extra costs	from	the	cloud	provider,	unless	accommodations	have	been made	via	the	contract.
+Measured	service	is	a	cloud	concept	in	which	a	cloud	customer	only pays	for	the	resources	they	are	actively	using	and	have	allocated.	This becomes	an	important	concept	when	dealing	with	eDiscovery	orders because	substantial	disk	space	may	be	needed	to	make	copies	of	data or	to	preserve	it,	pursuant	to	the	order.	During	the	time	the	disk	is being	used,	an	organization	could	potentially	incur	substantial	extra costs	from	the	cloud	provider,	unless	accommodations	have	been made	via	the	contract.
 
 A	is	incorrect	because	broad	network	access	pertains	to	the	ability	to access	cloud	resources	of	the	public	Internet,	through	a	variety	of different	devices	or	clients.	It	would	not	have	a	significant	impact	on the	fulfillment	of	an	eDiscovery	order.
 
@@ -497,7 +494,7 @@ C	is	incorrect	because	elasticity	pertains	to	the	ability	for	a	cloud environmen
 
 D	is	incorrect	because	on-demand	self-service	pertains	to	the	ability	of a	cloud	customer	to	automatically	request	and	provision	resources within	a	cloud	environment,	without	having	to	involve	the	staff	of	the cloud	provider.	Although	this	may	factor	into	the	ability	of	a	cloud customer	to	allocate	additional	resources	to	accommodate	an eDiscovery	order	fulfillment,	it	would	not	be	a	substantial	factor	in	it.
 
-### Qustion # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	anycompromise	of	personal	data?     
+### Qustion # 22 - Which	type	of	PII	will	often	have	public	disclosure	requirements	for	any compromise	of	personal	data?     
 A.	Contractual    
 B.	Jurisdictional      
 C.	Regulated      
@@ -526,7 +523,7 @@ B	is	incorrect	because	the	Safe	Harbor	program	was	developed	by	the United	State
 
 D	is	incorrect	because	the	Gramm–Leach–Bliley	Act	(GLBA)	of	1999 is	focused	on	how	financial	institutions	handle	the	private	information of	individuals.	It	is	not	specifically	focused	on	records	retention	or preservation.
 
-### Qustion # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	proceduresof	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?       
+### Qustion # 24 - During	an	SOC	2	audit,	the	change	management	policies	and	procedures of	an	organization	are	evaluated.	Which	principle	of	the	SOC	2	audit includes	this	evaluation?       
 A.	Security        
 B.	Privacy        
 C.	Processing	integrity        
@@ -557,7 +554,7 @@ C	is	incorrect	because	defining	the	scope	of	the	audit	occurs	after	the defining
 
 D	is	incorrect	because	the	lessons	learned	analysis	is	performed	after the	audit	has	been	conducted.	It	represents	the	opportunity	to	review the	audit	and	the	steps	taken	to	accomplish	it,	including	the	scope,	and serves	to	refine	future	audits	and	processes.
 
-### Qustion # 26 - ISO/IEC	27018	was	developed	to	establish	standards	for	privacyinvolving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?     
+### Qustion # 26 - ISO/IEC	27018	was	developed	to	establish	standards	for	privacy involving	cloud	computing.	One	of	its	key	components	specifies	the	type and	frequency	of	audits.	Which	of	the	following	represents	the	type	and frequency	of	audits	established	under	the	standard?     
 A.	Independent,	yearly     
 B.	Internal,	every	six	months      
 C.	Independent,	every	six	months      
@@ -570,7 +567,7 @@ D	is	incorrect	because	the	audits	must	be	done	by	an	independent entity,	at	leas
 
 ### Qustion # 27 - Which	step	of	the	audit	plan	determines	how	many	staff	will	need	to	beallocated	on	behalf	of	the	organization	and	the	auditors	to	conduct	a successful	audit?     
 A.	Define	scope     
-B.	Lessons	learned     
+B.	Lessons	learned     mk
 C.	Define	objectives     
 D.	Conduct	the	audit     
 Correct Answer: C.	
