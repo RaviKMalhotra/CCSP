@@ -39,7 +39,7 @@ B.	Account	hijacking
 C.	Malicious	insiders
 D.	Denial	of	service
 9.	You	have	been	tasked	by	management	to	run	security	tests	against	anapplication	using	the	same	toolsets	and	methodologies	that	a	legitimate attacker	would	use,	including	actually	attempting	to	leverage	successful exploits.	Which	type	of	testing	would	this	entail?
-A.	Dynamic	application	security	testing
+A.	Dynamic	application	security	testing 
 B.	Penetration	testing
 C.	Simulation	testing
 D.	Static	application	security	testing
