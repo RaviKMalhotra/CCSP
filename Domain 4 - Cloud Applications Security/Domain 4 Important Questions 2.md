@@ -227,61 +227,86 @@ D.	Token 
 # ANSWERS
 # Comprehensive	Answers	and	Explanations
 
-### Question # 1 - You	have	a	new	application	that	is	about	to	be	put	into	production	andused	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?  
+### Question # 1 - You	have	a	new	application	that	is	about	to	be	put	into	production	and used	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?    
 A.	SAST  
 B.	DAST  
 C.	Pen  
 D.	RASP  
 Answer: A.	
 
-Static	application	security	testing	(SAST)	assesses	both	the	source code	and	components	of	an	application.	It	is	done	as	a	“white-box” test,	as	those	performing	the	tests	have	full	access	to	the	actual	source code	and	configuration	documentation	of	the	application.	Tests	are done	against	an	offline	system.
+Static	application	security	testing	**(SAST)**	assesses	both	the	source code	and	components	of	an	application.	It	is	done	as	a	**“white-box”** test,	as	those	performing	the	tests	have	full	access	to	the	actual	source code	and	configuration	documentation	of	the	application.	Tests	are done	against	an	offline	system.
 
-B	is	incorrect	because	dynamic	application	security	testing	(DAST)	is run	as	a	“black-box”	test,	where	those	performing	the	test	have	no internal	or	particular	knowledge	of	a	system	and	must	discover everything	they	know	about	it	through	the	use	of	utilities.
+B	is	incorrect	because	dynamic	application	security	testing	**(DAST)**	is run	as	a	**“black-box”	test**,	where	those	performing	the	test	have	no internal	or	particular	knowledge	of	a	system	and	must	discover everything	they	know	about	it	through	the	use	of	utilities.
 
 C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test, but	using	the	same	tools	and	methodologies	that	an	attacker	would	use in	order	to	evaluate	the	security	of	the	application.	Pen	testing	is designed	to	assess	vulnerabilities	in	various	types	of	real-world scenarios.
 
 D	is	incorrect	because	runtime	application	self-protection	(RASP)	is used	to	test	against	systems	that	have	the	ability	to	detect	attacks	and threats,	and	then	to	automatically	adjust	their	security	settings	or	other configurations	to	compensate	for	and	mitigate	these	attacks	and threats.	RASP	is	designed	to	be	done	in	real	time	on	live	systems.
 
-2.	An	employee	of	your	company	submitted	a	security	ticket	claiming	that	hewas	able	to	access	areas	of	an	application	by	going	through	certain
-functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?
-A.	Missing	function-level	access	control
-B.	Security	misconfiguration
-C.	Sensitive	data	exposure
-D.	Unvalidated	redirects	and	forwards
- 		A.	Many	applications	will	do	authorization	checks	and	assign	access rights	when	a	user	first	accesses	the	application.	As	the	user	traverses the	application	and	accesses	different	functions,	if	the	application	does not	verify	authorization	for	each	function,	it	is	possible	for	the	user	to be	able	to	elevate	access,	either	intentionally	or	accidentally.	The application	should	verify	authorization	as	a	user	accesses	each	new function	or	piece	of	data.
- 	B	is	incorrect	because	security	misconfiguration	refers	to	a	system where	baselines	were	not	correctly	applied,	unauthorized	changes were	made,	or	security	patches	and	updates	from	the	vendor	were	not applied.
- 	C	is	incorrect	because	sensitive	data	exposure	occurs	when	protected data,	such	as	PII	or	credit	card	information,	is	not	properly	encrypted or	masked,	and	is	thus	susceptible	to	attackers.	This	exposure	refers	to specific	data	within	the	application	and	is	not	directly	related	to specific	functions	of	the	application.
- 	D	is	incorrect	because	unvalidated	redirects	and	forwards	occur	when an	application	allows	external	links	or	redirects	but	does	not	properly validate	or	secure	them.	This	enables	an	attacker	to	potentially	redirect users	through	a	legitimate	and	secure	application	to	an	external	site	for phishing	attempts	or	other	malware	attacks.	This	site	will	appear	to	be safe	and	legitimate	to	the	users	because	it	originated	from	within	a trusted	application.
-3.	Where	would	be	the	most	appropriate	location	for	an	XML	firewall	withina	system	architecture?
+### Question # 2 - An	employee	of	your	company	submitted	a	security	ticket	claiming	that	he was	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?   
+A.	Missing	function-level	access	control   
+B.	Security	misconfiguration    
+C.	Sensitive	data	exposure   
+D.	Unvalidated	redirects	and	forwards    
+Answer: A.	
+
+Many	applications	will	do	authorization	checks	and	assign	access rights	when	a	user	first	accesses	the	application.	As	the	user	traverses the	application	and	accesses	different	functions,	if	the	application	does not	verify	authorization	for	each	function,	it	is	possible	for	the	user	to be	able	to	elevate	access,	either	intentionally	or	accidentally.	The application	should	verify	authorization	as	a	user	accesses	each	new function	or	piece	of	data.
+
+B	is	incorrect	because	security	misconfiguration	refers	to	a	system where	baselines	were	not	correctly	applied,	unauthorized	changes were	made,	or	security	patches	and	updates	from	the	vendor	were	not applied.
+
+C	is	incorrect	because	sensitive	data	exposure	occurs	when	protected data,	such	as	PII	or	credit	card	information,	is	not	properly	encrypted or	masked,	and	is	thus	susceptible	to	attackers.	This	exposure	refers	to specific	data	within	the	application	and	is	not	directly	related	to specific	functions	of	the	application.
+
+D	is	incorrect	because	unvalidated	redirects	and	forwards	occur	when an	application	allows	external	links	or	redirects	but	does	not	properly validate	or	secure	them.	This	enables	an	attacker	to	potentially	redirect users	through	a	legitimate	and	secure	application	to	an	external	site	for phishing	attempts	or	other	malware	attacks.	This	site	will	appear	to	be safe	and	legitimate	to	the	users	because	it	originated	from	within	a trusted	application.
+
+### Question # 3 - Where	would	be	the	most	appropriate	location	for	an	XML	firewall	within a	system	architecture?
 A.	Between	the	presentation	and	application	layers
 B.	Between	the	application	and	data	layers
 C.	Between	the	firewalls	and	application	servers
 D.	Before	the	firewalls
- 		C.	An	XML	firewall	validates	XML	data	before	it	reaches	an application	server.	The	appliance	can	perform	validation	as	well	as control	what	users	or	services	are	allowed	to	access	specific	XML functions	of	an	application.	Positioning	the	XML	firewall	between	the firewalls	and	applications	allows	for	initial	network	filtering	based	on origination	and	destination	of	packets	before	the	content	analysis	of the	appliance	is	performed	and	before	the	traffic	is	allowed	to	reach the	application	servers.
- 	A	is	incorrect	because	the	validation	and	scrutiny	of	XML	data	will need	to	be	done	before	the	request	reaches	the	application	from	the outside.	If	the	data	can	reach	even	the	presentation	layer,	then application	access	is	allowed,	which	could	let	in	malformed	or dangerous	data.
- 	B	is	incorrect	because	the	data	would	have	already	reached	the application	servers	and	been	consumed	by	them	before	accessing	the data	layer,	which	would	allow	potentially	malformed	or	dangerous XML	data	into	the	application	and	through	processing	prior	to	being scrutinized.
- 	D	is	incorrect	because	a	system	would	want	network	validation	done before	content	validation.	A	firewall	can	block	or	allow	specific	traffic from	legitimate	origins	as	a	first	line	of	defense	at	a	much	lower overhead	processing	cost	compared	to	the	content	analysis	required	by an	XML	firewall.
-4.	When	you	are	changing	to	a	different	data	center	for	a	disaster	recovery scenario,	which	of	the	following	could	pose	a	challenge	to	the authentication	systems	over	a	geographic	distance?
+Answer: C.
+
+**An	XML	firewall	validates	XML	data	before	it	reaches	an application	server.**	
+**The	appliance	can	perform	validation	as	well	as control	what	users	or	services	are	allowed	to	access	specific	XML functions	of	an	application.**	**Positioning	the	XML	firewall	between	the firewalls	and	applications	allows	for	initial	network	filtering	based	on origination	and	destination	of	packets	before	the	content	analysis	of the	appliance	is	performed	and	before	the	traffic	is	allowed	to	reach the	application	servers.**
+
+A	is	incorrect	because	the	validation	and	scrutiny	of	XML	data	will need	to	be	done	before	the	request	reaches	the	application	from	the outside.	If	the	data	can	reach	even	the	presentation	layer,	then application	access	is	allowed,	which	could	let	in	malformed	or dangerous	data.
+
+B	is	incorrect	because	the	data	would	have	already	reached	the application	servers	and	been	consumed	by	them	before	accessing	the data	layer,	which	would	allow	potentially	malformed	or	dangerous XML	data	into	the	application	and	through	processing	prior	to	being scrutinized.
+
+D	is	incorrect	because	a	system	would	want	network	validation	done before	content	validation.	A	firewall	can	block	or	allow	specific	traffic from	legitimate	origins	as	a	first	line	of	defense	at	a	much	lower overhead	processing	cost	compared	to	the	content	analysis	required	by an	XML	firewall.
+
+### Question # 4 - When	you	are	changing	to	a	different	data	center	for	a	disaster	recovery scenario,	which	of	the	following	could	pose	a	challenge	to	the authentication	systems	over	a	geographic	distance?
 A.	Regulations
 B.	Latency
 C.	Redundancy
 D.	Interoperability
- 		B.	Authentication	systems,	as	a	security	check,	enforce	limited	time requirements	for	authentication	tokens	and	any	checks	to	be performed	and	validated.	If	it	takes	longer	than	the	allowed	time,	the request	will	be	considered	stale	and	invalid,	and	it	will	likely	loop back	to	try	the	process	again.	If	a	large	geographic	distance	exists	and network	latency	occurs,	it	is	possible	on	some	systems,	if	they	have
+Answer: B.	
+
+**Authentication	systems,	as	a	security	check,	enforce	limited	time requirements	for	authentication	tokens	and	any	checks	to	be performed	and	validated.**	
+If	it	takes	longer	than	the	allowed	time,	the request	will	be	**considered	stale	and	invalid**,	and	it	will	likely	loop back	to	try	the	process	again.	If	a	large	geographic	distance	exists	and network	latency	occurs,	it	is	possible	on	some	systems,	if	they	have
 short	validity	periods,	for	authentications	to	fail	and	for	system	access to	be	denied.
- 	A	is	incorrect	because	regulations	are	always	a	concern,	especially over	a	large	geographic	distance,	where	some	variations	are	almost guaranteed.	However,	this	is	not	the	best	answer	here	because	it	is	not specific	to	authentication	systems	and	their	operational	use.
- 	C	is	incorrect	because	redundancy	is	not	something	that	will	be impacted	by	geographic	distance	between	data	centers.	Systems	can have	redundancy	implemented	in	a	variety	of	ways,	regardless	of where	they	are	actually	hosted	or	the	distance	between	them.
- 	D	is	incorrect	because	interoperability	will	be	a	global	issue	across	the entire	enterprise,	not	one	specifically	impacting	authentication systems.	With	most	modern	authentication	systems,	interoperability	is also	not	a	primary	concern	because	these	systems	are	specifically designed	to	be	multiplatform	and	flexible.
-5.	Which	type	of	testing	involves	externally	attacking	the	security	of	asystem	but	without	actually	attempting	to	alter	systems	or	fully	execute malicious	actions?
+
+A	is	incorrect	because	regulations	are	always	a	concern,	especially over	a	large	geographic	distance,	where	some	variations	are	almost guaranteed.	However,	this	is	not	the	best	answer	here	because	it	is	not specific	to	authentication	systems	and	their	operational	use.
+
+C	is	incorrect	because	redundancy	is	not	something	that	will	be impacted	by	geographic	distance	between	data	centers.	Systems	can have	redundancy	implemented	in	a	variety	of	ways,	regardless	of where	they	are	actually	hosted	or	the	distance	between	them.
+
+D	is	incorrect	because	interoperability	will	be	a	global	issue	across	the entire	enterprise,	not	one	specifically	impacting	authentication systems.	With	most	modern	authentication	systems,	interoperability	is also	not	a	primary	concern	because	these	systems	are	specifically designed	to	be	multiplatform	and	flexible.
+
+### Question # 5 - Which	type	of	testing	involves	externally	attacking	the	security	of	asystem	but	without	actually	attempting	to	alter	systems	or	fully	execute malicious	actions?
 A.	DAST
 B.	SAST
 C.	Pen
 D.	RASP
- 		A.	Dynamic	application	security	testing	(DAST)	is	run	as	a	“blackbox”	test	where	those	running	the	test	have	no	internal	or	particular knowledge	of	the	system	and	must	discover	everything	they	know about	it	through	the	use	of	utilities.	DAST	does	not	attempt	to	fully execute	malicious	actions	in	the	same	manner	as	pen	testing	does.
- 	B	is	incorrect	because	static	application	security	testing	(SAST) assesses	both	the	source	code	and	components	of	an	application.	It	is done	as	a	“white-box”	test,	as	those	performing	the	tests	have	full access	to	the	actual	source	code	and	configuration	documentation	of the	application.	Also,	tests	are	done	against	an	offline	system.
- 	C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test but	using	the	same	tools	and	methodologies	that	an	attacker	would	use in	order	to	evaluate	the	security	of	the	application.	It	is	designed	to test	vulnerabilities	in	various	types	of	real-world	scenarios	and	to
-actually	execute	exploits.
- 	D	is	incorrect	because	runtime	application	self-protection	(RASP) involves	testing	against	systems	that	have	the	ability	to	detect	attacks and	threats	as	well	as	to	automatically	adjust	their	security	settings	or other	configurations	to	compensate	for	and	mitigate	them.	RASP	is designed	to	be	done	in	real	time	on	live	systems.
-6.	A	common	strategy	to	mitigate	costs	when	using	a	cloud	solution	fordisaster	recovery	is	to	leave	images	offline	at	the	DR	provider	and	only turn	them	on	when	needed.	Which	of	the	following	would	be	the	least significant	concern	with	this	approach?
+Answer: A.	
+
+**Dynamic	application	security	testing	(DAST)	is	run	as	a	“blackbox”	test	where	those	running	the	test	have	no	internal	or	particular knowledge	of	the	system	and	must	discover	everything	they	know about	it	through	the	use	of	utilities.	DAST	does	not	attempt	to	fully execute	malicious	actions	in	the	same	manner	as	pen	testing	does.**
+
+B	is	incorrect	because	static	application	security	testing	(SAST) assesses	both	the	source	code	and	components	of	an	application.	It	is done	as	a	“white-box”	test,	as	those	performing	the	tests	have	full access	to	the	actual	source	code	and	configuration	documentation	of the	application.	Also,	tests	are	done	against	an	offline	system.
+
+C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test but	using	the	same	tools	and	methodologies	that	an	attacker	would	use in	order	to	evaluate	the	security	of	the	application.	It	is	designed	to test	vulnerabilities	in	**various	types	of	real-world	scenarios	and	to
+actually	execute	exploits**.
+
+D	is	incorrect	because	**runtime	application	self-protection	(RASP)** involves	testing	against	systems	that	have	the	ability	to	detect	attacks and	threats	as	well	as	to	automatically	adjust	their	security	settings	or other	configurations	to	compensate	for	and	mitigate	them.	RASP	is designed	to	be	done	in	real	time	on	live	systems.
+
+### Question # 6 - A	common	strategy	to	mitigate	costs	when	using	a	cloud	solution	for disaster	recovery	is	to	leave	images	offline	at	the	DR	provider	and	only turn	them	on	when	needed.	Which	of	the	following	would	be	the	least significant	concern	with	this	approach?
 A.	Integrity
 B.	Patching
 C.	Confidentiality
