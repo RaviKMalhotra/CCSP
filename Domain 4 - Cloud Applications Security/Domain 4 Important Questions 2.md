@@ -1,8 +1,9 @@
-1.	You	have	a	new	application	that	is	about	to	be	put	into	production	andused	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?
+### Question # 1 - You	have	a	new	application	that	is	about	to	be	put	into	production	and used	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?
 A.	SAST
 B.	DAST
 C.	Pen
 D.	RASP
+
 2.	An	employee	of	your	company	submitted	a	security	ticket	claiming	that	hewas	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?
 A.	Missing	function-level	access	control
 B.	Security	misconfiguration
@@ -222,17 +223,25 @@ D.	Token 
 36.	A
 37.	B
 38.	D 
-	ANSWERS
-Comprehensive	Answers	and	Explanations
-1.	You	have	a	new	application	that	is	about	to	be	put	into	production	andused	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?
-A.	SAST
-B.	DAST
-C.	Pen
-D.	RASP
- 		A.	Static	application	security	testing	(SAST)	assesses	both	the	source code	and	components	of	an	application.	It	is	done	as	a	“white-box” test,	as	those	performing	the	tests	have	full	access	to	the	actual	source code	and	configuration	documentation	of	the	application.	Tests	are done	against	an	offline	system.
- 	B	is	incorrect	because	dynamic	application	security	testing	(DAST)	is run	as	a	“black-box”	test,	where	those	performing	the	test	have	no internal	or	particular	knowledge	of	a	system	and	must	discover everything	they	know	about	it	through	the	use	of	utilities.
- 	C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test, but	using	the	same	tools	and	methodologies	that	an	attacker	would	use in	order	to	evaluate	the	security	of	the	application.	Pen	testing	is designed	to	assess	vulnerabilities	in	various	types	of	real-world scenarios.
- 	D	is	incorrect	because	runtime	application	self-protection	(RASP)	is used	to	test	against	systems	that	have	the	ability	to	detect	attacks	and threats,	and	then	to	automatically	adjust	their	security	settings	or	other configurations	to	compensate	for	and	mitigate	these	attacks	and threats.	RASP	is	designed	to	be	done	in	real	time	on	live	systems.
+
+# ANSWERS
+# Comprehensive	Answers	and	Explanations
+
+### Question # 1 - You	have	a	new	application	that	is	about	to	be	put	into	production	andused	by	customers.	Management	would	like	to	undertake	an	exhaustive test	of	the	system	by	assessing	the	known	controls	and	configurations	as well	as	reviewing	the	source	code	and	components.	Which	type	of	testing would	this	represent?  
+A.	SAST  
+B.	DAST  
+C.	Pen  
+D.	RASP  
+Answer: A.	
+
+Static	application	security	testing	(SAST)	assesses	both	the	source code	and	components	of	an	application.	It	is	done	as	a	“white-box” test,	as	those	performing	the	tests	have	full	access	to	the	actual	source code	and	configuration	documentation	of	the	application.	Tests	are done	against	an	offline	system.
+
+B	is	incorrect	because	dynamic	application	security	testing	(DAST)	is run	as	a	“black-box”	test,	where	those	performing	the	test	have	no internal	or	particular	knowledge	of	a	system	and	must	discover everything	they	know	about	it	through	the	use	of	utilities.
+
+C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test, but	using	the	same	tools	and	methodologies	that	an	attacker	would	use in	order	to	evaluate	the	security	of	the	application.	Pen	testing	is designed	to	assess	vulnerabilities	in	various	types	of	real-world scenarios.
+
+D	is	incorrect	because	runtime	application	self-protection	(RASP)	is used	to	test	against	systems	that	have	the	ability	to	detect	attacks	and threats,	and	then	to	automatically	adjust	their	security	settings	or	other configurations	to	compensate	for	and	mitigate	these	attacks	and threats.	RASP	is	designed	to	be	done	in	real	time	on	live	systems.
+
 2.	An	employee	of	your	company	submitted	a	security	ticket	claiming	that	hewas	able	to	access	areas	of	an	application	by	going	through	certain
 functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?
 A.	Missing	function-level	access	control
