@@ -13,7 +13,7 @@ The **ONF** lists all the controls **used in all the applications within an orga
 And each **ANF** lists the **particular controls used in each application the organization has**. 
 Standard Application Security is a made-up term therefore options C and D are incorrect.
 
-### Question # 1 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
+### Question # 2 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
 A. Many
 B. Three
 C. No
@@ -22,7 +22,7 @@ Answer: D.
 
 Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
 
-### Question # 1 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?
+### Question # 3 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?
 A. Hypertext Markup Language (HTML)
 B. X.509
 C. Extensible Markup Language (XML)
@@ -34,7 +34,7 @@ HTML is a language used to tag text files so that they can be displayed with dif
 Option B is incorrect because X.509 is a standard and the question is about a programming language.
 Option D is incorrect because HTTP is protocol and the question is about a programming language.
 
-### [Important] Question # 1 - Typically, representational state transfer (REST) interactions do not require _______________.
+### [Important] Question # 4 - Typically, representational state transfer (REST) interactions do not require _______________.
 A. Credentials
 B. Sessions
 C. Servers
@@ -46,16 +46,17 @@ Generally, a REST interaction involves the client asking the server (through an 
 These interactions obviously involve servers and clients, so options C and D are not correct.
 Using REST does not eliminate the need for credentials, so option A is not correct.
 
-### Question # 1 - Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.
+### Question # 5 - Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.
 A. Hypertext Markup Language (HTML)
 B. Hypertext Transfer Protocol (HTTP)
 C. Extensible Markup Language (XML)
 D. American Standard Code for Information Interchange (ASCII)
 Answer: B. 
+
 Roy Fielding, the author of the PhD dissertation **that created REST, was also the author of HTTP**, so it’s no surprise the command set is the same.
 All the other options are incorrect because the **REST APIs do not use HTML, XML or ASCII as protocol verbs.**
 
-### Question # 1 - The architecture of the World Wide Web, as it works today, is _______________.
+### Question # 6 - The architecture of the World Wide Web, as it works today, is _______________.
 A. JavaScript Open Notation (JSON)
 B. Denial of service (DoS)
 C. Representational state transfer (REST)
@@ -65,7 +66,7 @@ Answer: C.
 **The web is mainly HTTP, which is a RESTful protocol.**
 All the other options are incorrect because they do not answer the question about the architecture of the World Wide Web.
 	
-### Question # 1 - RESTful responses can come from the server in _______________ or _______________ formats.
+### Question # 7 - RESTful responses can come from the server in _______________ or _______________ formats.
 A. Extensible Markup Language (XML), JavaScript Open Notation (JSON)
 B. Hypertext Transfer Protocol (HTTP), X.509
 C. American Standard Code for Information Interchange (ASCII), text
@@ -77,15 +78,16 @@ Answer: A.
 Servers usually return data requests in some sort of display format, not plain text or ASCII, so option C is incorrect.
 HTML responses would simply be an entire web page, not specific data, so option D is incorrect.
 	
-### Question # 1 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?
+### Question # 8 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?
 A. Instantiation
 B. Porting
 C. Grandslamming
 D. Forklifting
 Answer: D. 
+
 All the other options are simply words used in other contexts. They are incorrect.
 
-### Question # 1 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.
+### Question # 9 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.
 A. DoS and DDoS (denial of service and distributed denial of service)
 B. Multitenancy and third-party administrators
 C. Unprotected servers and unprotected clients
@@ -94,7 +96,7 @@ Answer: B.
 
 All the other options are risks that exist in the traditional environment as well as the cloud.
 
-### Question # 1 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.
+### Question # 10 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.
 A. Geographic location, native language
 B. Legal restrictions, specific ISP
 C. Service model, deployment model
@@ -105,151 +107,199 @@ In order for developers to properly create and secure applications, they will ne
 
 Each of the other options includes at least one element that programmers don’t need to know (specifically, the native language, Internet service provider [ISP], country code) and is therefore incorrect.
 
- ### Question # 1 - Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?
+### Question # 11 - Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?
 		A. Remove the application from the organization’s production environment and replace it with something else.
 		B. Negotiate and conduct a trial run in the cloud environment for that application before permanently migrating.
 		C. Make sure the application is fully updated and patched according to all vendor specifications.
 		D. Run the application in an emulator.
-Answer:
-B. A trial run in the cloud will reveal any functionality/performance loss before a permanent cloud migration.
+Answer: B. 
+
+A trial run in the cloud will reveal any functionality/performance loss before a permanent cloud migration.
 Option A doesn’t reduce any risk for a specific application; it trades the risk of one application not operating correctly with the risk of another application not working correctly. This answer is wrong.
 All applications should be reasonably patched and updated, whether it is in the traditional environment or the cloud. Option C is incorrect.
 An emulator won’t reduce the risk of degraded performance; it will probably result in degraded performance. Option D is incorrect.
-	12. Software developers designing applications for the cloud should expect to include options to ensure all of the following capabilities except _______________.
-		A. Encryption of data at rest
-		B. Encryption of data in transit
-		C. Data masking
-		D. Hashing database fields
-Answer:
-D. Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement.
+
+### Question # 12 - Software developers designing applications for the cloud should expect to include options to ensure all of the following capabilities except _______________.  
+A. Encryption of data at rest   
+B. Encryption of data in transit    
+C. Data masking    
+D. Hashing database fields    
+Answer: D. 
+
+Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement.
 All the other functions are expected in the majority of cloud operations.
-	13. In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production environment?
-		A. Cloud customer
-		B. Cloud provider
-		C. Regulator
-		D. Programmers
-Answer:
-A. In PaaS, the customer is responsible for the administration (and security) of applications.
+
+### Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production environment?
+A. Cloud customer
+B. Cloud provider
+C. Regulator
+D. Programmers
+Answer: A. 
+
+**In PaaS, the customer is responsible for the administration (and security) of applications.**
 Neither regulators nor programmers are responsible for the security of the applications in the production environment. That is the responsibility of the cloud customer.
 It may appear as though the cloud provider should be responsible for application security, however, as the cloud customer acquires more responsibility for their cloud environment, the cloud provider assumes less responsibility. Option B is incorrect.
-	14. In the testing phase of the software development lifecycle (SDLC), software performance and _______________ should both be reviewed.
+	
+### Question # 14 - In the testing phase of the software development lifecycle (SDLC), software performance and _______________ should both be reviewed.
 		A. Quality
 		B. Brevity
 		C. Requirements
 		D. Security
-Answer:
-D. Performance and security both need to be reviewed for adequacy.
+Answer: D. 
+
+Performance and security both need to be reviewed for adequacy.
 In this context, quality would be synonymous with performance and requirements, so D is a better answer than A or C.
 Brevity is not a trait we look for in testing, even though it may be desirable in programming, so B is incorrect.
-	15. Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?
-		A. Define
-		B. Design
-		C. Develop
-		D. Detect
-Answer:
-A. In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want.
+
+### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?
+A. Define
+B. Design
+C. Develop
+D. Detect
+Answer: A. 
+
+In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want.
+
 Options B and C are other phases of the SDLC, but not all SDLC models incorporate user input in these phases, so the options are not correct.
 Option D is not a phase of the SDLC and is incorrect.
-	16. Which phase of the software development lifecycle (SDLC) is most likely to involve crypto-shredding?
-		A. Define
-		B. Design
-		C. Test
-		D. Disposal
-Answer:
-D. Disposal is the only phase concerned with the sanitization of media or destruction of data.
-All the other options are also SDLC phases, however, crypto-shredding is much more likely to be used in the disposal phase.
-	17. Where are business requirements most likely to be mapped to software construction?
-		A. Define
-		B. Design
-		C. Test
-		D. Secure Operations
-Answer:
-B. Design is the correct answer, as this is where the requirements gathered during the Define phase are mapped to system designs.
+
+### Question # 16 - Which phase of the software development lifecycle (SDLC) is most likely to involve crypto-shredding?
+A. Define
+B. Design
+C. Test
+D. Disposal
+Answer: D. 
+
+Disposal is the only phase concerned with the sanitization of media or destruction of data.
+All the other options are also SDLC phases, however, **crypto-shredding is much more likely to be used in the disposal phase.**
+
+### Question # 17 - Where are business requirements most likely to be mapped to software construction?
+A. Define
+B. Design
+C. Test
+D. Secure Operations
+Answer: B. 
+
+Design is the correct answer, as this is where the requirements gathered during the Define phase are mapped to system designs.
 All the other options are SDLC phases where requirements are not mapped to software construction.
-	18. All of the following are usually nonfunctional requirements except _______________.
-		A. Color
-		B. Sound
-		C. Security
-		D. Function
-Answer:
-D. Function is usually the functional requirement, describing what action the tool/process satisfies.
+
+### Question # 18 - [important] All of the following are usually nonfunctional requirements except _______________.
+A. Color
+B. Sound
+C. Security
+D. Function
+Answer: D. 
+
+**Function is usually the functional requirement, describing what action the tool/process satisfies.**
+
 All the others are usually nonfunctional requirements. Exceptions to this are when the characteristic listed is the actual desired function. For instance, if the product is a tool that enunciates text so that a blind user can hear the words, then sound would be the functional requirement. If the product is a security tool such as a firewall or data loss prevention (DLP) solution, then security would be a functional requirement. Otherwise, these are nonfunctional requirements for standard products.
-	19. Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that may not have been as important in the traditional environment?
-		A. Identity and access management (IAM) capability
-		B. Distributed denial of service (DDoS) resistance
-		C. Encryption for data at rest and in motion
-		D. Field validation
-Answer:
-C. Traditional apps won’t usually require encryption in all phases of the data lifecycle because data is protected in several stages in the traditional environment without the need for additional controls. In the cloud environment, however, data exposed at any point in the lifecycle might constitute an inadvertent disclosure, so cloud apps require encryption for data at rest and in motion (and usually in use as well).
+
+### Question # 19 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that may not have been as important in the traditional environment?
+A. Identity and access management (IAM) capability
+B. Distributed denial of service (DDoS) resistance
+C. Encryption for data at rest and in motion
+D. Field validation
+Answer: C. 
+
+Traditional apps won’t usually require encryption in all phases of the data lifecycle because data is protected in several stages in the traditional environment without the need for additional controls. In the cloud environment, however, data exposed at any point in the lifecycle might constitute an inadvertent disclosure, **so cloud apps require encryption for data at rest and in motion (and usually in use as well).**
+
 Even traditional apps require IAM and field validation functions, so options A and D are incorrect.
 Most anti-DDoS activity will be performed by hardware and communication software run by the cloud provider or Internet service provider (ISP); developers should not typically need to include anti-DDoS elements in their programs. Option B is incorrect.
-	20. Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?
-		A. Application isolation
-		B. Inference framing
-		C. Known secure library components
-		D. Testing that uses known bad data
-Answer:
-A. Because the cloud is a multitenant environment, one of the concerns that developers should consider is how well the application prevents other applications/users from observing its operation and resource calls. In the traditional environment, this is not usually required because the organization owns the underlying infrastructure (as a single tenant) and there is very little risk in exposing the application’s functionality.
+	
+### Question # 20 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?
+A. Application isolation
+B. Inference framing
+C. Known secure library components
+D. Testing that uses known bad data
+Answer: A. 
+
+Because the cloud is a multitenant environment, one of the concerns that developers should consider is how well the application prevents other applications/users from observing its operation and resource calls. In the traditional environment, **this is not usually required because the organization owns the underlying infrastructure (as a single tenant) and there is very little risk in exposing the application’s functionality.**
+
 Inference framing is a nonsense term, used here only as a distractor.
 Software should include known secure components, and testing should include known bad data (fuzz testing), whether it is going to be used in the cloud or in a traditional environment, so options C and D are incorrect.
-	21. Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?
-		A. Cryptography
-		B. STRIDE testing
-		C. Field validation
-		D. Logging
-Answer:
-D. The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
+
+### Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?
+A. Cryptography
+B. STRIDE testing
+C. Field validation
+D. Logging
+Answer: D. 
+
+The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
+
 All the other options are things that can (and should) be done with software whether the application is being used in traditional or cloud environments, so those options are incorrect.
-	22. All of these can affect the quality of service expected from an application except _______________.
-		A. Encryption
-		B. Egress monitoring
-		C. Anti-malware tools
-		D. Use of known secure libraries/components
-Answer:
-D. Using only known secure libraries and components in software design may slow down development efforts but shouldn’t impact how the application runs.
+
+### Question # 22 - All of these can affect the quality of service expected from an application except _______________.
+A. Encryption
+B. Egress monitoring
+C. Anti-malware tools
+D. Use of known secure libraries/components
+Answer: D. 
+
+Using only known secure libraries and components in software design **may slow down development efforts but shouldn’t impact how the application runs.**
+
 All the other options are security controls that will degrade performance because they require additional overhead; these options are incorrect.
-	23. The possibility that a user could gain access or control of an application so as to take on administrator or management capabilities is called _______________.
-		A. Inversion
-		B. Spoofing
-		C. Repudiation
-		D. Escalation of privilege
-Answer:
-D. This is the definition of escalation of privilege (sometimes referred to as “elevation of privilege”).
+
+### Question # 23 - The possibility that a user could gain access or control of an application so as to take on administrator or management capabilities is called _______________.  
+A. Inversion  
+B. Spoofing  
+C. Repudiation  
+D. Escalation of privilege  
+Answer: D.     
+
+This is the definition of escalation of privilege (sometimes referred to as “elevation of privilege”).
 Inversion is a nonsense term in this context and just a distractor.
 Options B and C are threat modeling elements but are not correct answers for this question.
-	24. Which of the following is not checked when using the STRIDE threat model?
-		A. The ability of users to gain administrative access rights without proper permission
-		B. The ability of internal personnel to trigger business continuity/disaster recovery activities
-		C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction
-		D. The ability of an unauthorized user to pretend to be an authorized user
-Answer:
-A. The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.
+	
+### Question # 24 - Which of the following is not checked when using the STRIDE threat model?
+A. The ability of users to gain administrative access rights without proper permission
+B. The ability of internal personnel to trigger business continuity/disaster recovery activities
+C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction
+D. The ability of an unauthorized user to pretend to be an authorized user
+Answer: B 
+
+**The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.**
 All the other options are elements of STRIDE (escalation of privilege, repudiation, and spoofing, respectively) and are therefore not correct.
-	25. It is very likely that your organization’s users will use unapproved application programming interfaces (APIs), especially in a bring your own device (BYOD) environment, because _______________.
-		A. Users are constantly trying to break the security of your environment
-		B. APIs can’t ever be secure
-		C. Hackers are constantly infiltrating all APIs
-		D. Users enhance their productivity however they can
-Answer:
-D. Users in the production environment will leverage whatever tools and techniques they can in order to get their job done in a better, faster way, often regardless of whether this complies with security policies.
+STRIDE stands for:
+	S: Spoofing
+ 	T: Tempering
+	R: Repudiation
+ 	I: Information Disclosure
+  	D: Denial of Service
+   	E: Elevation of Privileges
+	
+### Question # 25 - It is very likely that your organization’s users will use unapproved application programming interfaces (APIs), especially in a bring your own device (BYOD) environment, because _______________. 
+A. Users are constantly trying to break the security of your environment
+B. APIs can’t ever be secure
+C. Hackers are constantly infiltrating all APIs
+D. Users enhance their productivity however they can
+Answer: D. 
+
+**Users in the production environment will leverage whatever tools and techniques they can in order to get their job done in a better, faster way, often regardless of whether this complies with security policies**.
+
 All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and “can’t ever” in answer choices.
-	26. Some current software developers are not aware of security problems within the programs they’re creating because _______________.
-		A. Young programmers are not nearly as disciplined in their coding practices as older programmers
-		B. Some current programmers don’t write code line by line and instead use code component libraries
-		C. Coding languages have not been secure for 20 years
-		D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC)
-Answer:
-B. Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
+
+### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.
+A. Young programmers are not nearly as disciplined in their coding practices as older programmers
+B. Some current programmers don’t write code line by line and instead use code component libraries
+C. Coding languages have not been secure for 20 years
+D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC)
+Answer: B. 
+
+Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
+
 Option A is an unfair generalization.
 Option C is another broad generalization that may or may not be true. Option B is a better answer.
 Option D does not relate to the question about the SDLC and is therefore a poor choice for an answer.
-	27. What is the most secure form of code testing and review?
-		A. Open source
-		B. Proprietary/internal
-		C. Neither open source nor proprietary
-		D. Combination of open source and proprietary
-Answer:
-D. Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
+
+### Question # 27 - What is the most secure form of code testing and review?
+A. Open source
+B. Proprietary/internal
+C. Neither open source nor proprietary
+D. Combination of open source and proprietary
+Answer: D. 
+
+Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
 The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is incorrect.
 	28. What is the major difference between authentication and authorization?
 		A. Code verification/code implementation
