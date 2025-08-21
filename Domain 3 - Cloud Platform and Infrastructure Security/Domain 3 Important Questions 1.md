@@ -1,99 +1,111 @@
 # Chapter 3: Domain 3—Cloud Platform and Infrastructure Security
 The third domain of the Certified Cloud Security Professional (CCSP) Exam Outline concerns the underlying infrastructure of the cloud, including both hardware and software, the concept of pooled resources, and a detailed discussion of identity and access management (IAM).
 
-### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would probably be the best strategy for this approach, in terms of redundancy and resiliency?
-A. Have your cloud provider also provide BC/DR backup.
-B. Keep a BC/DR backup on the premises of your corporate headquarters.
-C. Use another cloud provider for the BC/DR backup.
-D. Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.
+### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would probably be the best strategy for this approach, in terms of redundancy and resiliency?  
+A. Have your cloud provider also provide BC/DR backup.  
+B. Keep a BC/DR backup on the premises of your corporate headquarters.  
+C. Use another cloud provider for the BC/DR backup.  
+D. Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.  
 
-Answer: C. It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; this will be more complicated and expensive, but it provides the best redundancy and resiliency. Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
+Answer: C. 
+
+It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; this will be more complicated and expensive, but it provides the best redundancy and resiliency. Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
 
 ### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?
-		A. Have all participants conduct their individual activities via remote meeting technology.
-		B. Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.
-		C. Provide copies of the BC/DR policy to all participants.
-		D. Allow all users in your organization to participate.
-Answer:
-B. A trained and experienced moderator can guide the participants through the activity, enhancing their training and noting pitfalls and areas for improvement. Option A is not preferable because having the participants gathered together ensures their full attention and provides interaction that remote participation might not yield. Option C is a baseline; all participants should have copies of the policy as a matter of course. Option D is not useful in a tabletop exercise; only critical participants in the organization should take part in the tabletop.
+	A. Have all participants conduct their individual activities via remote meeting technology.
+	B. Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.
+	C. Provide copies of the BC/DR policy to all participants.
+	D. Allow all users in your organization to participate.
+Answer: B. 
 
-### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?
-		A. Enough personnel at the BC/DR recovery site to ensure proper operations
-		B. Good cryptographic key management
-		C. Access to the servers where the BC/DR backup is stored
-		D. Forensic analysis capabilities
-Answer:
-B. This is a difficult question that requires a great deal of thought. Option B is correct because appropriate cloud data security practices will require encrypting a great deal of the data, and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data. Option A is not correct because using the cloud for BC/DR will allow personnel to access the backup from anywhere they can get broadband connectivity, not specifically a recovery site. Option C is not correct because the customer will rarely have physical access to servers in the cloud environment. Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
+A trained and experienced moderator can guide the participants through the activity, enhancing their training and noting pitfalls and areas for improvement. Option A is not preferable because having the participants gathered together ensures their full attention and provides interaction that remote participation might not yield. Option C is a baseline; all participants should have copies of the policy as a matter of course. Option D is not useful in a tabletop exercise; only critical participants in the organization should take part in the tabletop.
 
- ### Question # 1 - YYou are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?
-		A. Have another full backup of the production environment stored prior to the test.
-		B. Assign all personnel tasks to perform during the test.
-		C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.
-		D. Have your regulators present at the test so they can monitor performance.
-Answer:
-A. A full test will involve both the production environment and the backup data; it is possible to create an actual disaster during a full test by ruining the availability of both. Therefore, it is crucial to have a full backup, distinct from the BC/DR backup, in order to roll back from the test in case something goes horribly wrong. Option B is incorrect because not all personnel will have tasks to perform; most personnel will have to evacuate from the facility only during a full test. Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. Option D is not correct because the regulators’ presence will not add any value to the test.
+### Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?  
+	A. Enough personnel at the BC/DR recovery site to ensure proper operations.  
+	B. Good cryptographic key management.  
+	C. Access to the servers where the BC/DR backup is stored.  
+	D. Forensic analysis capabilities.  
+Answer: B.
 
- ### Question # 1 - YA Security Assertion Markup Language (SAML) identity assertion token uses the ___________________ protocol.
-		A. Extensible Markup Language (XML)
-		B. Hypertext Transfer Protocol (HTTP)
-		C. Hypertext Markup Language (HTML)
-		D. American Standard Code for Information Interchange (ASCII)
-Answer:
-A. Security Assertion Markup Language (SAML) is based on XML. HTTP is used for port 80 web traffic; HTML is used to present web pages. ASCII is the universal alphanumeric character set.
+This is a difficult question that requires a great deal of thought. Option B is corect because appropriate cloud data security practices will require encrypting a great deal of the data, and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data. Option A is not correct because using the cloud for BC/DR will allow personnel to access the backup from anywhere they can get broadband connectivity, not specifically a recovery site. Option C is not correct because the customer will rarely have physical access to servers in the cloud environment. Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
 
- ### Question # 1 - YThe minimum essential characteristics of a cloud data center are often referred to as “ping, power, pipe.” What does this term mean?
-		A. Remote access for customer to racked devices in the data center; electrical utilities; connectivity to an Internet service provider (ISP)/the Internet
-		B. Application suitability; availability; connectivity
-		C. Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS)
-		D. Anti-malware tools; controls against distributed denial-of-service (DDoS) attacks; physical/environmental security controls, including fire suppression
-Answer:
-A. Option A is the definition of the term; the other answers are not.
+ ### Question # 3 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?
+	A. Have another full backup of the production environment stored prior to the test.
+	B. Assign all personnel tasks to perform during the test.
+	C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.
+	D. Have your regulators present at the test so they can monitor performance.
+Answer: A. 
 
- ### Question # 1 - YTo support all aspects of the CIA triad (confidentiality, integrity, availability), all of the following aspects of a cloud data center need to be engineered with redundancies except ___________________.
-		A. Power supply
-		B. HVAC
-		C. Administrative offices
-		D. Internet service provider (ISP)/connectivity lines
-Answer:
-C. The administrative offices of a cloud data center rarely are part of the critical functions of the operation; a data center could likely endure the loss of the administrative offices for a considerable length of time, so redundancy here is probably not cost effective.
+A full test will involve both the production environment and the backup data; it is possible to create an actual disaster during a full test by ruining the availability of both. Therefore, it is crucial to have a full backup, distinct from the BC/DR backup, in order to roll back from the test in case something goes horribly wrong. Option B is incorrect because not all personnel will have tasks to perform; most personnel will have to evacuate from the facility only during a full test. Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. Option D is not correct because the regulators’ presence will not add any value to the test.
+
+### Question # 1 - YA Security Assertion Markup Language (SAML) identity assertion token uses the ___________________.   protocol.   
+	A. Extensible Markup Language (XML).  
+	B. Hypertext Transfer Protocol (HTTP).  
+	C. Hypertext Markup Language (HTML).  
+	D. American Standard Code for Information Interchange (ASCII).  
+Answer: A. 
+
+Security Assertion Markup Language (SAML) is based on XML. HTTP is used for port 80 web traffic; HTML is used to present web pages. ASCII is the universal alphanumeric character set.
+
+### Question # 1 - YThe minimum essential characteristics of a cloud data center are often referred to as “ping, power, pipe.” What does this term mean?  
+	A. Remote access for customer to racked devices in the data center; electrical utilities; connectivity to an Internet service provider (ISP)/the Internet.  
+	B. Application suitability; availability; connectivity. 
+	C. Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS).  
+	D. Anti-malware tools; controls against distributed denial-of-service (DDoS) attacks; physical/environmental security controls, including fire suppression.  
+Answer:A. 
+
+Option A is the definition of the term; the other answers are not.
+
+### Question # 1 - YTo support all aspects of the CIA triad (confidentiality, integrity, availability), all of the following aspects of a cloud data center need to be engineered with redundancies except ___________________.   
+		A. Power supply.  
+		B. HVAC.  
+		C. Administrative offices.  
+		D. Internet service provider (ISP)/connectivity lines.  
+Answer: C. 
+
+The administrative offices of a cloud data center rarely are part of the critical functions of the operation; a data center could likely endure the loss of the administrative offices for a considerable length of time, so redundancy here is probably not cost effective.
 All the other items are part of the critical path and need redundancies.
 
- ### Question # 1 - YWho is the cloud carrier?
-		A. The cloud customer
-		B. The cloud provider
-		C. The regulator overseeing the cloud customer’s industry
-		D. The ISP between the cloud customer and provider
-Answer:
-D. Option D is the definition of a cloud carrier, from National Institute of Standards and Technology (NIST) Special Publication (SP) 500-292.
+### Question # 1 - Who is the cloud carrier?   
+		A. The cloud customer. 
+		B. The cloud provider. 
+		C. The regulator overseeing the cloud customer’s industry.  
+		D. The ISP between the cloud customer and provider.  
+Answer: D. 
+
+9Option D is the definition of a cloud carrier, from National Institute of Standards and Technology (NIST) Special Publication (SP) 500-292.
 All the other options are incorrect, as defined by NIST SP 500-292.
 
- ### Question # 1 - YWhich of the following terms describes a means to centralize logical control of all networked nodes in the environment, abstracted from the physical connections to each?
-		A. Virtual private network (VPN)
-		B. Software-defined network (SDN)
-		C. Access control lists (ACLs)
-		D. Role-based access control (RBAC)
-Answer:
-B. The question describes a software-defined network (SDN).
+### Question # 1 - YWhich of the following terms describes a means to centralize logical control of all networked nodes in the environment, abstracted from the physical connections to each?   
+		A. Virtual private network (VPN).  
+		B. Software-defined network (SDN).  
+		C. Access control lists (ACLs).  
+		D. Role-based access control (RBAC).  
+Answer: B. 
+
+The question describes a software-defined network (SDN).
 A VPN is used for creating an encrypted communications tunnel over an untrusted medium, so option A is incorrect.
 ACLs are used as centralized repositories for identification, authentication, and authorization purposes, so option C is incorrect.
 RBAC is an access control model used to assign permissions based on job functions within an organization, so option D is incorrect.
 
- ### Question # 1 - YIn software-defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.
-		A. Cloud customer; ISP
-		B. SDN controllers; SDN applications
-		C. Cloud provider; ISP
-		D. Router; host
-Answer:
-B. The NBI usually handles traffic between the SDN controllers and SDN applications.
+### Question # 1 - YIn software-defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.   
+		A. Cloud customer; ISP.  
+		B. SDN controllers; SDN applications.  
+		C. Cloud provider; ISP.  
+		D. Router; host.  
+Answer: B. 
+
+The NBI usually handles traffic between the SDN controllers and SDN applications.
 Options A and C are incorrect because neither of those options lists any of the SDN infrastructure, be that the controllers or the applications. Option D may be arguably correct, as there might be an NBI handling that traffic between those nodes, but option B is more specific and always true for this definition, so it is the better choice.
 
- ### Question # 1 - YSoftware-defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.
-		A. Reroute traffic based on current customer demand
-		B. Create logical subnets without having to change any actual physical connections
-		C. Filter access to resources based on specific rules or settings
-		D. Deliver streaming media content in an efficient manner by placing it closer to the end user
-Answer:
-D. Option D is really a definition of a CDN (content delivery network).
+### Question # 1 - YSoftware-defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.   
+	A. Reroute traffic based on current customer demand
+	B. Create logical subnets without having to change any actual physical connections
+	C. Filter access to resources based on specific rules or settings
+	D. Deliver streaming media content in an efficient manner by placing it closer to the end user
+Answer: D. 
+
+Option D is really a definition of a CDN (content delivery network).
 All the other options are aspects of SDNs.
 
  ### Question # 1 - YWhich of the following is a device specially purposed to handle the issuance, distribution, and storage of cryptographic keys?
