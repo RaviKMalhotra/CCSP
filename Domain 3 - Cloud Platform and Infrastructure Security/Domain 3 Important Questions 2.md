@@ -1,20 +1,20 @@
-### Question # 1 - Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?
-A.	Generators
-B.	Power	feeds
-C.	Power	distribution	units
-D.	Building	access	points
+### Question # 1 - Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?  
+A.	Generators. 
+B.	Power	feeds.  
+C.	Power	distribution	units.  
+D.	Building	access	points.  
 
-### Question # 2 - Limits	within	a	cloud	environment	can	be	either	hard	limits	or	limitscapable	of	adjusting	to	current	demands	and	circumstances.	Which	of	the following	concepts	encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	value	changing?
-A.	Loaning
-B.	Borrowing
-C.	Adapting
-D.	Scaling
+### Question # 2 - Limits	within	a	cloud	environment	can	be	either	hard	limits	or	limitscapable	of	adjusting	to	current	demands	and	circumstances.	Which	of	the following	concepts	encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	value	changing?   
+A.	Loaning.  
+B.	Borrowing.  
+C.	Adapting.  
+D.	Scaling.  
 
-### Question # 3 - When	dealing	with	a	cloud	environment	that	has	resource	pooling	andmultitenancy,	a	cloud	customer	may	want	contractual	assurances	that sufficient	resources	to	start	and	operate	their	services	will	always	be available.	What	is	this	type	of	assurance	called?
-A.	Limit
-B.	Reservation
-C.	Share
-D.	Guarantee
+### Question # 3 - When	dealing	with	a	cloud	environment	that	has	resource	pooling	andmultitenancy,	a	cloud	customer	may	want	contractual	assurances	that sufficient	resources	to	start	and	operate	their	services	will	always	be available.	What	is	this	type	of	assurance	called?   
+A.	Limit. 
+B.	Reservation. 
+C.	Share. 
+D.	Guarantee. 
 
 ### Question # 4 - A	BCDR	plan	has	several	different	types	of	operations	and	majorcomponents.	Which	of	the	following	is	the	most	often	overlooked	part	of the	overall	process,	both	in	testing	and	in	planning?
 A.	Recovery	of	services
