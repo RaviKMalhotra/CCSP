@@ -41,12 +41,12 @@ Option C is not correct because the customer will rarely have physical access to
 
 Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
 
- ### Question # 4 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?
-A. Have another full backup of the production environment stored prior to the test.
-B. Assign all personnel tasks to perform during the test.
-C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.
-D. Have your regulators present at the test so they can monitor performance.
-Answer: A. 
+ ### Question # 4 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?   
+A. Have another full backup of the production environment stored prior to the test.    
+B. Assign all personnel tasks to perform during the test.    
+C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.    
+D. Have your regulators present at the test so they can monitor performance.     
+Answer: A.    
 
 **A full test will involve both the production environment and the backup data**; 
 **it is possible to create an actual disaster during a full test by ruining the availability of both.** 
@@ -330,94 +330,117 @@ The best way to handle these risks is to have another, full backup of your data 
 
 The other options do not aid in addressing vendor lock-out.
 
-### Question # 1 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the data center and how they are deployed?
-		A. The cloud provider
-		B. The cloud customer
-		C. The regulator(s)
-		D. The end user
-Answer:
-A. Because the cloud provider owns and operates the cloud data center, the provider will craft and promulgate the governance that determines the control selection and usage. This is another risk the cloud customer must consider when migrating into the cloud; the customer’s governance will no longer have direct precedence over the environment where the customer’s data is located.
+### Question # 30 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the data center and how they are deployed?    
+A. The cloud provider    
+B. The cloud customer    
+C. The regulator(s)    
+D. The end user   
+Answer: A. 
+
+Because the cloud provider owns and operates the cloud data center, the provider will craft and promulgate the governance that determines the control selection and usage. This is another risk the cloud customer must consider when migrating into the cloud; the customer’s governance will no longer have direct precedence over the environment where the customer’s data is located.
 Both the cloud customer and the regulator(s) may have specific control mandates that might require the customer to deploy additional security controls (at the customer side, within the data, as agents on the user devices, or on the provider side or in application programming interfaces [APIs] as allowed by the service model or contract), so options B and C are also partially true, but A is a better answer as it is more general.
 Option D untrue because the end user does not determine which controls are selected for the cloud data center and how they are deployed. That is the responsibility of the cloud provider.
 
-### Question # 1 - What is the term that describes the situation when a malicious user or attacker can exit the restrictions of a virtual machine (VM) and access another VM residing on the same host?
-		A. Host escape
-		B. Guest escape
-		C. Provider exit
-		D. Escalation of privileges
-Answer:
-B. The question describes a guest escape.
+### Question # 31 - [important] What is the term that describes the situation when a malicious user or attacker can exit the restrictions of a virtual machine (VM) and access another VM residing on the same host?    
+A. Host escape    
+B. Guest escape   
+C. Provider exit   
+D. Escalation of privileges    
+Answer: B.   
+
+The question describes a guest escape.
 Options A and C are other risks of operating in the cloud. Option D can lead to A or B, but B describes the more specific situation and therefore the correct answer.
 
-### Question # 1 - What is the term that describes the situation when a malicious user or attacker can exit the restrictions of a single host and access other nodes on the network?
-		A. Host escape
-		B. Guest escape
-		C. Provider exit
-		D. Escalation of privileges
-Answer:
-A. The question describes host escape.
+### Question # 32 - [important] What is the term that describes the situation when a malicious user or attacker can exit the restrictions of a single host and access other nodes on the network?   
+A. Host escape    
+B. Guest escape    
+C. Provider exit    
+D. Escalation of privileges    
+Answer: A. 
+
+The question describes host escape.
 Options B and C are other risks of operating in the cloud. Option D can lead to A or B, but A is the more specific situation and therefore the correct answer.
-	33. ___________________ is/are probably the main cause of virtualization sprawl.
-		A. Malicious attackers
-		B. Lack of provider controls
-		C. Lack of customer controls
-		D. Ease of use
-Answer:
-D. Because most cloud users don’t see direct costs in creating new VM instances (the bills usually go to a single point of contact in the organization, not the user or the user’s office), they may tend to create additional VMs at a significant rate, without realizing the attendant cost. This is largely because it is so easy to do and has no apparent cost, from their perspective.
+
+### Question # 33 - ___________________ is/are probably the main cause of virtualization sprawl. 
+A. Malicious attackers   
+B. Lack of provider controls   
+C. Lack of customer controls   
+D. Ease of use    
+Answer: D.  
+
+Because most cloud users don’t see direct costs in creating new VM instances (the bills usually go to a single point of contact in the organization, not the user or the user’s office), they may tend to create additional VMs at a significant rate, without realizing the attendant cost. This is largely because it is so easy to do and has no apparent cost, from their perspective.
+
 All the other options do not cause virtualization sprawl.
-	34. Sprawl is mainly a(n) ___________________ problem.
-		A. Technical
-		B. External
-		C. Management
-		D. Logical
-Answer:
-C. Sprawl needs to be addressed from a managerial perspective because it is caused by allowed user actions (usually in a completely authorized capacity).
+
+### Question # 34 - Sprawl is mainly a(n) ___________________ problem.    
+A. Technical   
+B. External   
+C. Management   
+D. Logical    
+Answer: C.    
+
+**Sprawl needs to be addressed from a managerial perspective because it is caused by allowed user actions (usually in a completely authorized capacity).**
+
 Options A and D mean the same thing and could be considered as contributing to sprawl because the technological capabilities of virtualization create the ease of use that can cause sprawl. However, option C is a better answer.
 Option B is incorrect; sprawl occurs within the organization.
-	35. Which of the following risks exists in the traditional environment but is dramatically increased by moving into the cloud?
-		A. Physical security breaches
-		B. Loss of utility power
-		C. Financial upheaval
-		D. Man-in-the-middle attacks
-Answer:
-D. Because all cloud access is remote access, the risks to data in transit are dramatically heightened in the cloud.
+
+### Question # 35 - Which of the following risks exists in the traditional environment but is dramatically increased by moving into the cloud?   
+A. Physical security breaches    
+B. Loss of utility power    
+C. Financial upheaval    
+D. Man-in-the-middle attacks    
+Answer: D. 
+
+**Because all cloud access is remote access, the risks to data in transit are dramatically heightened in the cloud.**
+
 The other options exist in both the traditional environment and the cloud but are probably actually reduced in the cloud because cloud providers can use economies of scale to invest in means to reduce those risks in ways that individual organizations would not be able to.
-	36. A fundamental aspect of security principles, ___________________ should be implemented in the cloud as well as in traditional environments.
-		A. Continual uptime
-		B. Defense in depth
-		C. Multifactor authentication
-		D. Separation of duties
-Answer:
-B. Defense in depth, or layered defense, is perhaps the most fundamental characteristic of all security concepts.
+
+### Question # 36 - A fundamental aspect of security principles, ___________________ should be implemented in the cloud as well as in traditional environments.
+A. Continual uptime    
+B. Defense in depth     
+C. Multifactor authentication     
+D. Separation of duties    
+Answer: B. 
+
+**Defense in depth, or layered defense, is perhaps the most fundamental characteristic of all security concepts.**
 Options A and C are security aspects of some environments, and option A is likely to be a necessary trait of managed cloud services, but they are not fundamentals—they are specifics.
 Option D is specifically an administrative control; the question is looking for a fundamental aspect of security. Option B is more general (it applies to all types of security, in all industries and uses) and therefore is the correct choice for this question.
-	37. From a security perspective, automation of configuration aids in ___________________.
-		A. Enhancing performance
-		B. Reducing potential attack vectors
-		C. Increasing ease of use of the systems
-		D. Reducing need for administrative personnel
-Answer:
-B. A secure baseline configuration, applied and maintained automatically, ensures the optimum security footprint with the least attack surface.
+
+### Question # 37 - From a security perspective, automation of configuration aids in ___________________.     
+A. Enhancing performance    
+B. Reducing potential attack vectors    
+C. Increasing ease of use of the systems    
+D. Reducing need for administrative personnel    
+Answer: B.     
+
+**A secure baseline configuration, applied and maintained automatically, ensures the optimum security footprint with the least attack surface.**
 All the other options are benefits of automated configuration but are not specifically security enhancements.
-	38. ___________________ is the most prevalent protocol used in identity federation.
-		A. Hypertext Transfer Protocol (HTTP)
-		B. Security Assertion Markup Language (SAML)
-		C. File Transfer Protocol (FTP)
-		D. WS-Federation
-Answer:
-B. The Security Assertion Markup Language (SAML) is probably the most common protocol being used for identity federation at the moment.
+	
+
+### Question # 38 - ___________________ is the most prevalent protocol used in identity federation.      
+A. Hypertext Transfer Protocol (HTTP)    
+B. Security Assertion Markup Language (SAML)  
+C. File Transfer Protocol (FTP)   
+D. WS-Federation    
+Answer: B. 
+
+The Security Assertion Markup Language (SAML) is probably the most common protocol being used for identity federation at the moment.
 Options A and C are not identity federation protocols.
 Option D is a federation specification, but it also uses SAML tokens.
-	39. A user signs on to a cloud-based social media platform. In another browser tab, the user finds an article worth posting to the social media platform. The user clicks on the platform’s icon listed on the article’s website, and the article is automatically posted to the user’s account on the social media platform. This is an example of what?
-		A. Single sign-on
-		B. Insecure direct identifiers
-		C. Identity federation
-		D. Cross-site scripting
-Answer:
-C. This is a very popular function of federated identity.
+
+ ### Question # 39 - [important] A user signs on to a cloud-based social media platform. In another browser tab, the user finds an article worth posting to the social media platform. The user clicks on the platform’s icon listed on the article’s website, and the article is automatically posted to the user’s account on the social media platform. This is an example of what?     
+A. Single sign-on    
+B. Insecure direct identifiers    
+C. Identity federation    
+D. Cross-site scripting   
+Answer: C. 
+
+**This is a very popular function of federated identity.**
 Single sign-on (SSO) is similar to federation, but it is limited to a single organization; federation is basically SSO across multiple organizations. Option A is incorrect.
-Options B and D are threats listed in the Open Web Application Security Project (OWASP) Top Ten; they are incorrect.
-	40. A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?
+
+**Options B and D are threats listed in the Open Web Application Security Project (OWASP) Top Ten; they are incorrect.**
+
+### Question # 40 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?
 		A. Cross-certification
 		B. Proxy
 		C. Single sign-on
