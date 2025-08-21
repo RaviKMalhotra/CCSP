@@ -1,5 +1,5 @@
 # Chapter 3: Domain 3—Cloud Platform and Infrastructure Security
-The third domain of the Certified Cloud Security Professional (CCSP) Exam Outline concerns the underlying infrastructure of the cloud, including both hardware and software, the concept of pooled resources, and a detailed discussion of identity and access management (IAM).
+The third domain of the Certified Cloud Security Professional (CCSP) Exam Outline concerns the underlying infrastructure of the cloud, including both hardware and software, the concept of pooled resources, and a detailed discussion of identity and access management (IAM). 
 
 ### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would probably be the best strategy for this approach, in terms of redundancy and resiliency?  
 A. Have your cloud provider also provide BC/DR backup.  
