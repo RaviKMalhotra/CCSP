@@ -440,79 +440,101 @@ Single sign-on (SSO) is similar to federation, but it is limited to a single org
 
 **Options B and D are threats listed in the Open Web Application Security Project (OWASP) Top Ten; they are incorrect.**
 
-### Question # 40 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?
-		A. Cross-certification
-		B. Proxy
-		C. Single sign-on
-		D. Regulated
-Answer:
-A. The cross-certification federation model is also known as a web of trust.
+### Question # 40 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
+A. Cross-certification    
+B. Proxy    
+C. Single sign-on     
+D. Regulated    
+Answer: A.   
+
+**The cross-certification federation model is also known as a web of trust.**
+
 Proxy is another model for federation, so option B is incorrect.
-Single sign-on is similar to federation, but it is limited to a single organization; option C is incorrect.
+**Single sign-on is similar to federation, but it is limited to a single organization**; 
+option C is incorrect.
 Option D does not have relevance in this context and therefore incorrect as an answer.
-	41. A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to hire a third party to review each organization, for compliance with security governance and standards they all find acceptable, what is this federation model called?
-		A. Cross-certification
-		B. Proxy
-		C. Single sign-on
-		D. Regulated
-Answer:
-B. In the proxy federation model, the third party acts on behalf of the member organizations, reviewing each to ensure that they are all acceptable to the others.
+	
+ ### Question # 41 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to hire a third party to review each organization, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
+A. Cross-certification   
+B. Proxy    
+C. Single sign-on    
+D. Regulated    
+Answer: B. 
+
+**In the proxy federation model, the third party acts on behalf of the member organizations, reviewing each to ensure that they are all acceptable to the others**.
+
 Cross-certification is another model for federation, so option A is incorrect.
 Single sign-on is similar to federation, but it is limited to a single organization; option C is incorrect.
 Option D does not have relevance in this context and is therefore incorrect as an answer.
-	42. A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the identity provider(s)?
-		A. Each organization
-		B. A trusted third party
-		C. The regulator overseeing their industry
-		D. All of their patients
-Answer:
-A. In a web of trust federation model, all of the participating organizations are identity providers; each organization will assign identity credentials to its own authorized users, and all the other organizations in the federation will accept those credentials.
+	
+ ### Question # 42 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the identity provider(s)?    
+A. Each organization    
+B. A trusted third party    
+C. The regulator overseeing their industry    
+D. All of their patients    
+Answer: A. 
+
+**In a web of trust federation model, all of the participating organizations are identity providers; each organization will assign identity credentials to its own authorized users, and all the other organizations in the federation will accept those credentials.**
+
 A trusted third party, regulators, and clientele are not involved in the web of trust model, so the other options are incorrect.
-	43. A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the service providers?
-		A. Each organization
-		B. A trusted third party
-		C. The regulator overseeing their industry
-		D. All of their patients
-Answer:
-A. In a web of trust model, each member organization usually supplies both the access/identification credentials and the resources that the users want to access, so the organizations are both the identity providers and service providers in a web of trust federation model.
+
+ ### Question # 43 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the service providers?     
+A. Each organization    
+B. A trusted third party    
+C. The regulator overseeing their industry    
+D. All of their patients     
+Answer: A.    
+
+**In a web of trust model, each member organization usually supplies both the access/identification credentials and the resources that the users want to access, so the organizations are both the identity providers and service providers in a web of trust federation model.**
+
 A trusted third party, regulators, and clientele are not involved in the web of trust model, so the other options are incorrect.
-	44. A group of clinics decides to create an identification federation for their users (medical providers and clinicians). In this federation, all of the participating organizations would need to be in compliance with what U.S. federal regulation?
-		A. Gramm-Leach-Bliley Act (GLBA)
-		B. Family and Medical Leave Act (FMLA)
-		C. Payment Card Industry Data Security Standard (PCI DSS)
-		D. Health Information Portability and Accountability Act (HIPAA)
-Answer:
-D. While it’s likely the participating organizations will be subject to other federal regulations, HIPAA covers electronic patient information, so it will definitely be applicable in this case.
-GLBA covers financial and insurance service providers, so option A is incorrect.
-FMLA dictates how employers give vacation time to employees, so option B is not correct.
+
+ ### Question # 44 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). In this federation, all of the participating organizations would need to be in compliance with what U.S. federal regulation?    
+A. Gramm-Leach-Bliley Act (GLBA)    
+B. Family and Medical Leave Act (FMLA)    
+C. Payment Card Industry Data Security Standard (PCI DSS)     
+D. Health Information Portability and Accountability Act (HIPAA)    
+Answer: D. 
+
+While it’s likely the participating organizations will be subject to other federal regulations, HIPAA covers electronic patient information, so it will definitely be applicable in this case.
+
+**GLBA covers financial and insurance service providers**, so option A is incorrect.
+**FMLA dictates how employers give vacation time to employees**, so option B is not correct.
 PCI DSS is a contractual, not regulatory, standard, so option C is incorrect.
-	45. What is the process of granting access to resources?
-		A. Identification
-		B. Authentication
-		C. Authorization
-		D. Federation
-Answer:
-C. The question describes authorization.
+
+ ### Question # 45 - What is the process of granting access to resources?   
+A. Identification    
+B. Authentication    
+C. Authorization    
+D. Federation    
+Answer: C.   
+
+The question describes authorization.
 Options A and B are part of the overall identity and access management (IAM) process, as is option C, but they do not specifically describe granting access to resources.
 Federation is a means of conducting IAM across organizations; option C is more specific, so D is incorrect.
-	46. The process of identity management includes all the following elements except ___________________.
-		A. Provisioning
-		B. Maintenance
-		C. Deprovisioning
-		D. Redaction
-Answer:
-D. Redacting is an editorial process of excising sensitive information from disclosed data. All the other options are elements of identity management.
-	47. Which organizational entity usually performs the verification part of the provisioning element of the identification process?
-		A. Information technology (IT)
-		B. Security
-		C. Human resources (HR)
-		D. Sales
-Answer:
-C. This is a complicated question and requires thinking through the portions of the identification process.
+	
+### Question # 46 - The process of identity management includes all the following elements except ___________________.   
+A. Provisioning     
+B. Maintenance     
+C. Deprovisioning     
+D. Redaction    
+Answer: D.     
+
+Redacting is an editorial process of excising sensitive information from disclosed data. All the other options are elements of identity management.
+	
+### Question # 47 - Which organizational entity usually performs the verification part of the provisioning element of the identification process?       
+A. Information technology (IT)    
+B. Security    
+C. Human resources (HR)    
+D. Sales    
+Answer: C.    
+
+This is a complicated question and requires thinking through the portions of the identification process.
 Identification of personnel is usually verified during the hiring process, when HR checks identification documents (such as a passport or birth certificate) to confirm the applicant’s identity, often as part of a tax registration process.
 Options A and B include offices that may play a role in the identification process, but it is usually HR that does the actual verification.
 Option D, “Sales” is untrue. If a Sales department exists in an organization, it does not perform the verification part of the provisioning element of the identification process.
-	48. Of the following options, which is a reason cloud data center audits are often less easy to verify than traditional audits?
+	
+### Question # 48 - Of the following options, which is a reason cloud data center audits are often less easy to verify than traditional audits?
 		A. Data in the cloud can’t be audited.
 		B. Controls in the cloud can’t be audited.
 		C. Getting physical access can be difficult.
