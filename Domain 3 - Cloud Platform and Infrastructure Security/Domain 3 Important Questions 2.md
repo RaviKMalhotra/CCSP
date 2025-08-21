@@ -1,4 +1,4 @@
-1.	Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?
+### Question # 1 - Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?
 A.	Generators
 B.	Power	feeds
 C.	Power	distribution	units
