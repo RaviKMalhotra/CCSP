@@ -1443,7 +1443,7 @@ DDoS does not affect value, confidentiality, or liability; all the other options
 Answer:
 D. DDoS prevents all these things except for data integrity. DDoS only prevents communication; it does not usually result in modified data.
 
-### Question # 142 - Sprawl in the cloud can lead to significant additional costs to the organization because of ___________________.
+### Question # 142 - Sprawl in the cloud can lead to significant additional costs to the organization because of ___________________.  
 		A. Larger necessary physical footprint
 		B. Much larger utility consumption
 		C. Software licensing
@@ -1453,7 +1453,7 @@ C. In some instances, more virtualized machines will entail a relative increase 
 Typically, cloud customers do not pay extra for additional consumption of floor space or power usage for the number of virtual machines; these costs are rolled into the per-instance price, so options A and B are incorrect.
 Option D is incorrect; users don’t require more training if they have more virtual assets.
 
-### Question # 143 -  It is best to use variables in ___________________.   
+### Question # 143 -  It is best to use variables in ___________________.     
 A. Baseline configurations    
 B. Security control implementations    
 C. Contract language    
