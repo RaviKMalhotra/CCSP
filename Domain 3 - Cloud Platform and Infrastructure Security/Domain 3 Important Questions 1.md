@@ -6,81 +6,100 @@ A. Have your cloud provider also provide BC/DR backup.
 B. Keep a BC/DR backup on the premises of your corporate headquarters.  
 C. Use another cloud provider for the BC/DR backup.  
 D. Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.  
-
 Answer: C. 
 
 It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; this will be more complicated and expensive, but it provides the best redundancy and resiliency. Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
 
-### Question # 1 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?
-	A. Have all participants conduct their individual activities via remote meeting technology.
-	B. Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.
-	C. Provide copies of the BC/DR policy to all participants.
-	D. Allow all users in your organization to participate.
+### Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?  
+A. Have all participants conduct their individual activities via remote meeting technology.  
+B. Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.  
+C. Provide copies of the BC/DR policy to all participants.  
+D. Allow all users in your organization to participate.  
 Answer: B. 
 
-A trained and experienced moderator can guide the participants through the activity, enhancing their training and noting pitfalls and areas for improvement. Option A is not preferable because having the participants gathered together ensures their full attention and provides interaction that remote participation might not yield. Option C is a baseline; all participants should have copies of the policy as a matter of course. Option D is not useful in a tabletop exercise; only critical participants in the organization should take part in the tabletop.
+**A trained and experienced moderator can guide the participants through the activity, enhancing their training and noting pitfalls and areas for improvement.** 
 
-### Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?  
-	A. Enough personnel at the BC/DR recovery site to ensure proper operations.  
-	B. Good cryptographic key management.  
-	C. Access to the servers where the BC/DR backup is stored.  
-	D. Forensic analysis capabilities.  
+Option A is not preferable because having the participants gathered together ensures their full attention and provides interaction that remote participation might not yield. 
+
+**Option C is a baseline; all participants should have copies of the policy as a matter of course.** 
+
+**Option D is not useful in a tabletop exercise; only critical participants in the organization should take part in the tabletop**.
+
+### Question # 3 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?  
+A. Enough personnel at the BC/DR recovery site to ensure proper operations.  
+B. Good cryptographic key management.  
+C. Access to the servers where the BC/DR backup is stored.  
+D. Forensic analysis capabilities.  
 Answer: B.
 
-This is a difficult question that requires a great deal of thought. Option B is corect because appropriate cloud data security practices will require encrypting a great deal of the data, and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data. Option A is not correct because using the cloud for BC/DR will allow personnel to access the backup from anywhere they can get broadband connectivity, not specifically a recovery site. Option C is not correct because the customer will rarely have physical access to servers in the cloud environment. Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
+This is a difficult question that requires a great deal of thought. 
+Option B is corect because appropriate cloud data security practices will require encrypting a great deal of the data, and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data. 
 
- ### Question # 3 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?
-	A. Have another full backup of the production environment stored prior to the test.
-	B. Assign all personnel tasks to perform during the test.
-	C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.
-	D. Have your regulators present at the test so they can monitor performance.
+Option A is not correct because using the cloud for BC/DR will allow personnel to access the backup from anywhere they can get broadband connectivity, not specifically a recovery site. 
+
+Option C is not correct because the customer will rarely have physical access to servers in the cloud environment. 
+
+Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
+
+ ### Question # 4 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?
+A. Have another full backup of the production environment stored prior to the test.
+B. Assign all personnel tasks to perform during the test.
+C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.
+D. Have your regulators present at the test so they can monitor performance.
 Answer: A. 
 
-A full test will involve both the production environment and the backup data; it is possible to create an actual disaster during a full test by ruining the availability of both. Therefore, it is crucial to have a full backup, distinct from the BC/DR backup, in order to roll back from the test in case something goes horribly wrong. Option B is incorrect because not all personnel will have tasks to perform; most personnel will have to evacuate from the facility only during a full test. Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. Option D is not correct because the regulators’ presence will not add any value to the test.
+**A full test will involve both the production environment and the backup data**; 
+**it is possible to create an actual disaster during a full test by ruining the availability of both.** 
+**Therefore, it is crucial to have a full backup, distinct from the BC/DR backup, in order to roll back from the test in case something goes horribly wrong.** 
 
-### Question # 1 - YA Security Assertion Markup Language (SAML) identity assertion token uses the ___________________.   protocol.   
-	A. Extensible Markup Language (XML).  
-	B. Hypertext Transfer Protocol (HTTP).  
-	C. Hypertext Markup Language (HTML).  
-	D. American Standard Code for Information Interchange (ASCII).  
+Option B is incorrect because not all personnel will have tasks to perform; most personnel will have to evacuate from the facility only during a full test. Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. Option D is not correct because the regulators’ presence will not add any value to the test.
+
+### Question # 5 - A Security Assertion Markup Language (SAML) identity assertion token uses the ___________________.   protocol.   
+A. Extensible Markup Language (XML).  
+B. Hypertext Transfer Protocol (HTTP).  
+C. Hypertext Markup Language (HTML).  
+D. American Standard Code for Information Interchange (ASCII).  
 Answer: A. 
 
-Security Assertion Markup Language (SAML) is based on XML. HTTP is used for port 80 web traffic; HTML is used to present web pages. ASCII is the universal alphanumeric character set.
+**Security Assertion Markup Language (SAML) is based on XML.** 
+HTTP is used for port 80 web traffic; HTML is used to present web pages. 
+ASCII is the universal alphanumeric character set.
 
-### Question # 1 - YThe minimum essential characteristics of a cloud data center are often referred to as “ping, power, pipe.” What does this term mean?  
-	A. Remote access for customer to racked devices in the data center; electrical utilities; connectivity to an Internet service provider (ISP)/the Internet.  
-	B. Application suitability; availability; connectivity. 
-	C. Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS).  
-	D. Anti-malware tools; controls against distributed denial-of-service (DDoS) attacks; physical/environmental security controls, including fire suppression.  
+### Question # 6 - The minimum essential characteristics of a cloud data center are often referred to as “ping, power, pipe.” What does this term mean?  
+A. Remote access for customer to racked devices in the data center; electrical utilities; connectivity to an Internet service provider (ISP)/the Internet.    
+B. Application suitability; availability; connectivity.   
+C. Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS).  
+D. Anti-malware tools; controls against distributed denial-of-service (DDoS) attacks; physical/environmental security controls, including fire suppression.  
 Answer:A. 
 
 Option A is the definition of the term; the other answers are not.
 
-### Question # 1 - YTo support all aspects of the CIA triad (confidentiality, integrity, availability), all of the following aspects of a cloud data center need to be engineered with redundancies except ___________________.   
-		A. Power supply.  
-		B. HVAC.  
-		C. Administrative offices.  
-		D. Internet service provider (ISP)/connectivity lines.  
+### Question # 7 - To support all aspects of the CIA triad (confidentiality, integrity, availability), all of the following aspects of a cloud data center need to be engineered with redundancies except ___________________.   
+A. Power supply.  
+B. HVAC.  
+C. Administrative offices.  
+D. Internet service provider (ISP)/connectivity lines.  
 Answer: C. 
 
 The administrative offices of a cloud data center rarely are part of the critical functions of the operation; a data center could likely endure the loss of the administrative offices for a considerable length of time, so redundancy here is probably not cost effective.
 All the other items are part of the critical path and need redundancies.
 
-### Question # 1 - Who is the cloud carrier?   
-		A. The cloud customer. 
-		B. The cloud provider. 
-		C. The regulator overseeing the cloud customer’s industry.  
-		D. The ISP between the cloud customer and provider.  
-Answer: D. 
+### Question # 8 - Who is the cloud carrier?    
+A. The cloud customer.   
+B. The cloud provider.     
+C. The regulator overseeing the cloud customer’s industry.    
+D. The ISP between the cloud customer and provider.     
+Answer: D.    
 
-9Option D is the definition of a cloud carrier, from National Institute of Standards and Technology (NIST) Special Publication (SP) 500-292.
+**Option D is the definition of a cloud carrier, from National Institute of Standards and Technology (NIST) Special Publication (SP) 500-292.**
+
 All the other options are incorrect, as defined by NIST SP 500-292.
 
-### Question # 1 - YWhich of the following terms describes a means to centralize logical control of all networked nodes in the environment, abstracted from the physical connections to each?   
-		A. Virtual private network (VPN).  
-		B. Software-defined network (SDN).  
-		C. Access control lists (ACLs).  
-		D. Role-based access control (RBAC).  
+### Question # 9 - [important] Which of the following terms describes a means to centralize logical control of all networked nodes in the environment, abstracted from the physical connections to each?   
+A. Virtual private network (VPN).     
+B. Software-defined network (SDN).    
+C. Access control lists (ACLs).    
+D. Role-based access control (RBAC).     
 Answer: B. 
 
 The question describes a software-defined network (SDN).
@@ -88,200 +107,227 @@ A VPN is used for creating an encrypted communications tunnel over an untrusted 
 ACLs are used as centralized repositories for identification, authentication, and authorization purposes, so option C is incorrect.
 RBAC is an access control model used to assign permissions based on job functions within an organization, so option D is incorrect.
 
-### Question # 1 - YIn software-defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.   
-		A. Cloud customer; ISP.  
-		B. SDN controllers; SDN applications.  
-		C. Cloud provider; ISP.  
-		D. Router; host.  
-Answer: B. 
+### Question # 10 - [important] In software-defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.   
+A. Cloud customer; ISP.  
+B. SDN controllers; SDN applications.  
+C. Cloud provider; ISP.  
+D. Router; host.  
+Answer: B.  
 
-The NBI usually handles traffic between the SDN controllers and SDN applications.
-Options A and C are incorrect because neither of those options lists any of the SDN infrastructure, be that the controllers or the applications. Option D may be arguably correct, as there might be an NBI handling that traffic between those nodes, but option B is more specific and always true for this definition, so it is the better choice.
+**The NBI usually handles traffic between the SDN controllers and SDN applications.**
+Options A and C are incorrect because neither of those options lists any of the SDN infrastructure, be that the controllers or the applications. 
+Option D may be arguably correct, as there might be an NBI handling that traffic between those nodes, but option B is more specific and always true for this definition, so it is the better choice.
 
-### Question # 1 - YSoftware-defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.   
-	A. Reroute traffic based on current customer demand
-	B. Create logical subnets without having to change any actual physical connections
-	C. Filter access to resources based on specific rules or settings
-	D. Deliver streaming media content in an efficient manner by placing it closer to the end user
+### Question # 11 - Software-defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.       
+A. Reroute traffic based on current customer demand    
+B. Create logical subnets without having to change any actual physical connections    
+C. Filter access to resources based on specific rules or settings      
+D. Deliver streaming media content in an efficient manner by placing it closer to the end user    
 Answer: D. 
 
 Option D is really a definition of a CDN (content delivery network).
 All the other options are aspects of SDNs.
 
- ### Question # 1 - YWhich of the following is a device specially purposed to handle the issuance, distribution, and storage of cryptographic keys?
-		A. Key management box (KMB)
-		B. Hardware security module (HSM)
-		C. Ticket-granting ticket (TGT)
-		D. Trusted computing base (TCB)
-Answer:
-B. The question describes an HSM.
+ ### Question # 12 - Which of the following is a device specially purposed to handle the issuance, distribution, and storage of cryptographic keys?   
+A. Key management box (KMB)   
+B. Hardware security module (HSM)    
+C. Ticket-granting ticket (TGT)    
+D. Trusted computing base (TCB)    
+Answer: B. 
+
+The question describes an HSM.
 KMB is a nonsense term used as a distractor, so it is incorrect.
 TGT is a term associated with Kerberos single sign-on systems and is incorrect.
 The TCB includes the elements of hardware and software (usually in the operating system) that ensure that a system can only be controlled by those with the proper permissions (i.e., admins with root control), so it is also incorrect.
 
-### Question # 1 - When discussing the cloud, we often segregate the data center into the terms compute, storage, and networking. Compute is made up of ___________________ and ___________________.
-		A. Routers; hosts
-		B. Application programming interface (APIs); northbound interface (NBIs)
-		C. Central processing unit (CPU); random-access memory (RAM)
-		D. Virtualized; actual hardware devices
-Answer:
-C. The compute nodes of a cloud data center can be measured in terms of how many central processing units (CPUs) and how much random access memory (RAM) is available within the center.
+### Question # 13 - When discussing the cloud, we often segregate the data center into the terms compute, storage, and networking. Compute is made up of ___________________ and ___________________.     
+A. Routers; hosts    
+B. Application programming interface (APIs); northbound interface (NBIs)     
+C. Central processing unit (CPU); random-access memory (RAM)    
+D. Virtualized; actual hardware devices   
+Answer: C. 
+
+**The compute nodes of a cloud data center can be measured in terms of how many central processing units (CPUs) and how much random access memory (RAM) is available within the center.**
+
 Option A is incorrect because routers would be considered a part of the networking of a data center (and because option C is a better answer).
 Option B involves applications and how traffic flows between them and storage controllers; it has nothing to do with the compute nodes and is therefore wrong.
 Option D might obliquely be considered correct because it’s technically true (compute nodes will include both virtual and hardware machines), but option C is a much better and more accurate choice.
 
-### Question # 1 - All of the following can be used to properly apportion cloud resources except ___________________.
-		A. Reservations
-		B. Shares
-		C. Cancellations
-		D. Limits
-Answer:
-C. Cancellations is not a term used to describe a resource allotment methodology. All of the other options are such terms.
+### Question # 14 - All of the following can be used to properly apportion cloud resources except ___________________.   
+A. Reservations    
+B. Shares    
+C. Cancellations   
+D. Limits    
+Answer: C.   
+Cancellations is not a term used to describe a resource allotment methodology. All of the other options are such terms.
 
-### Question # 1 - Which of the following is a method for apportioning resources that involves setting guaranteed minimums for all tenants/customers within the environment?
-		A. Reservations
-		B. Shares
-		C. Cancellations
-		D. Limits
-Answer:
-A. The question is the definition of reservations.
+### Question # 15 - Which of the following is a method for apportioning resources that involves setting guaranteed minimums for all tenants/customers within the environment?
+A. Reservations
+B. Shares
+C. Cancellations
+D. Limits
+Answer: A. 
+
+The question is the definition of reservations.
 Options B and D are also resource apportioning methods, but they do not fall under the definition described in the question.
 Option C is incorrect because it has no meaning in this context.
 
-### Question # 1 - Which of the following is a method for apportioning resources that involves setting maximum usage amounts for all tenants/customers within the environment?
-		A. Reservations
-		B. Shares
-		C. Cancellations
-		D. Limits
-Answer:
-D. The question describes limits.
+### Question # 16 - Which of the following is a method for apportioning resources that involves setting maximum usage amounts for all tenants/customers within the environment?     
+A. Reservations         
+B. Shares      
+C. Cancellations        
+D. Limits   
+Answer: D. 
+
+The question describes limits.
 Options A and B are also resource apportioning methods, but they do not fall under the definition described in the question.
 Option C is because it has no meaning in this context.
 
-### Question # 1 - Which of the following is a method for apportioning resources that involves prioritizing resource requests to resolve contention situations?
-		A. Reservations
-		B. Shares
-		C. Cancellations
-		D. Limits
-Answer:
-B. The question describes shares.
+### Question # 17 - Which of the following is a method for apportioning resources that involves prioritizing resource requests to resolve contention situations?
+A. Reservations
+B. Shares
+C. Cancellations
+D. Limits
+Answer: B. 
+
+The question describes shares.
 Options A and D are also resource apportioning methods, but they do not fall under the definition described in the question.
 Option C is incorrect because it has no meaning in this context.
 
-### Question # 1 - A bare-metal hypervisor is Type ___________________.
-		A. 1
-		B. 2
-		C. 3
-		D. 4
-Answer:
-A. A bare-metal hypervisor is a Type 1 hypervisor.
+### Question # 18 - A bare-metal hypervisor is Type ___________________.   
+A. 1    
+B. 2    
+C. 3    
+D. 4   
+Answer: A. 
+
+**A bare-metal hypervisor is a Type 1 hypervisor.**
 Option B describes another type of hypervisor; the other options are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 1 - A hypervisor that runs inside another operating system (OS) is a Type ___________________ hypervisor.
-		A. 1
-		B. 2
-		C. 3
-		D. 4
-Answer:
-B. The question describes a Type 2 hypervisor.
+### Question # 19 - A hypervisor that runs inside another operating system (OS) is a Type ___________________ hypervisor.
+A. 1
+B. 2
+C. 3
+D. 4
+Answer: B. 
+
+The question describes a Type 2 hypervisor.
 Option A describes another type of hypervisor; the other options are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 1 - A Type ___________________ hypervisor is probably more difficult to defend than other hypervisors.
-		A. 1
-		B. 2
-		C. 3
-		D. 4
-Answer:
-B. A Type 2 hypervisor relies on the underlying operating system (OS) to operate properly; the underlying OS offers a large attack surface for aggressors.
+### Question # 20 - A Type ___________________ hypervisor is probably more difficult to defend than other hypervisors.     
+A. 1     
+B. 2     
+C. 3     
+D. 4    
+Answer: B.      
+
+A Type 2 hypervisor relies on the underlying operating system (OS) to operate properly; the underlying OS offers a large attack surface for aggressors.
 A Type 1 hypervisor boots directly from the hardware; it’s much easier to secure a machine’s Basic Input/Output System (BIOS) than an entire OS, so option B is better than option A.
 Options C and D are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 1 - One of the security challenges of operating in the cloud is that additional controls must be placed on file storage systems because ___________________.
-		A. File stores are always kept in plain text in the cloud
-		B. There is no way to sanitize file storage space in the cloud
-		C. Virtualization necessarily prevents the use of application-based security controls
-		D. Virtual machines are stored as snapshotted files when not in use
-Answer:
-D. VMs are snapshotted and simply stored as files when they are not being used; an attacker who gains access to those file stores could ostensibly steal entire machines in highly portable, easily copied formats. Therefore, these cloud storage spaces must include a significant amount of controls.
+### Question # 21 - One of the security challenges of operating in the cloud is that additional controls must be placed on file storage systems because ___________________.    
+A. File stores are always kept in plain text in the cloud
+B. There is no way to sanitize file storage space in the cloud
+C. Virtualization necessarily prevents the use of application-based security controls
+D. Virtual machines are stored as snapshotted files when not in use
+Answer: D. 
+
+**VMs are snapshotted and simply stored as files when they are not being used; an attacker who gains access to those file stores could ostensibly steal entire machines in highly portable, easily copied formats. Therefore, these cloud storage spaces must include a significant amount of controls.**
+
 Options A and C are simply untrue.
 Option B is untrue when crypto-shredding is utilized.
 
-### Question # 1 - What is the main reason virtualization is used in the cloud?
-		A. Virtual machines (VMs) are easier to administer.
-		B. If a VM is infected with malware, it can be easily replaced.
-		C. With VMs, the cloud provider does not have to deploy an entire hardware device for every new user.
-		D. VMs are easier to operate than actual devices.
-Answer:
-C. While options A and B are both also true, C is the most significant reason cloud data centers use VMs. If the cloud provider had to purchase a new box for every user, the cost of cloud services would be as much as running a traditional environment (or likely cost even more), and there would be no reason for any organization to migrate to the cloud, especially considering the risks associated with disclosing data to a third party.
+### Question # 22 - What is the main reason virtualization is used in the cloud?    
+A. Virtual machines (VMs) are easier to administer.   
+B. If a VM is infected with malware, it can be easily replaced.    
+C. With VMs, the cloud provider does not have to deploy an entire hardware device for every new user.    
+D. VMs are easier to operate than actual devices.     
+Answer: C. 
+
+While options A and B are both also true, C is the most significant reason cloud data centers use VMs. If the cloud provider had to purchase a new box for every user, the cost of cloud services would be as much as running a traditional environment (or likely cost even more), and there would be no reason for any organization to migrate to the cloud, especially considering the risks associated with disclosing data to a third party.
 Option D is simply untrue. VMs are not easier to operate than actual devices.
 
-### Question # 1 - Orchestrating resource calls is the job of the ___________________.
-		A. Administrator
-		B. Router
-		C. VM
-		D. Hypervisor
-Answer:
-D. The question describes what the hypervisor does. (Note that the answer “operating system” would also work here but was not one of the options.)
+### Question # 23 - Orchestrating resource calls is the job of the ___________________.     
+A. Administrator     
+B. Router     
+C. VM     
+D. Hypervisor      
+Answer: D. 
+
+The question describes what the hypervisor does. (Note that the answer “operating system” would also work here but was not one of the options.)
 Option A is incorrect; the allocation of resources is not performed manually.
 The router directs traffic between networks; it does not apportion resources. Therefore, option B is incorrect.
 A VM makes resource calls; option C is incorrect.
 
-### Question # 1 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?
-		A. Volume storage
-		B. Object storage
-		C. Logical unit number (LUN)
-		D. Block storage
-Answer:
-B. Object storage is, literally, a means of storing objects in a hierarchy such as a file tree.
+### Question # 24 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?     
+A. Volume storage
+B. Object storage
+C. Logical unit number (LUN)
+D. Block storage
+Answer: B. 
+
+**Object storage is, literally, a means of storing objects in a hierarchy such as a file tree.**
 All the other options are terms used to describe cloud storage areas without file structures.
 
-### Question # 1 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?
-		A. Volume storage
-		B. Object storage
-		C. Logical unit number (LUN)
-		D. Block storage
-Answer:
-B. Snapshotted VM images are usually kept in object storage, as files.
+### Question # 25 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?
+A. Volume storage
+B. Object storage
+C. Logical unit number (LUN)
+D. Block storage
+Answer: B. 
+
+**Snapshotted VM images are usually kept in object storage, as files.**
 All the other options are incorrect and option C is not a type of storage.
 
-### Question # 1 - Who operates the management plane?
-		A. Regulators
-		B. End consumers
-		C. Privileged users
-		D. Privacy data subjects
-Answer:
-C. Only the most trusted administrators and managers will have access to the cloud data center’s management plane. These will usually be cloud provider employees, but some cloud customer personnel may be granted limited access to arrange their organization’s cloud resources.
+### Question # 26 - Who operates the management plane?     
+A. Regulators
+B. End consumers
+C. Privileged users
+D. Privacy data subjects
+Answer: C. 
+
+**Only the most trusted administrators and managers will have access to the cloud data center’s management plane.** 
+These will usually be cloud provider employees, but some cloud customer personnel may be granted limited access to arrange their organization’s cloud resources.
 Regulators do not operate a customer’s management plane, so option A is incorrect.
+
 Option B is ambiguous. However, a consumer of data is unlikely to have been given the elevated privileges necessary of operate the management plane in a cloud environment. Option B is incorrect.
+
 Option D is also an ambiguous answer. Only the most trusted administrators and managers have access to the cloud data center’s management plane. A privacy data subject is neither a most trusted administrator nor a trusted manager. Therefore, option D is incorrect.
 	
- 
- ### Question # 1 - What is probably the optimum way to avoid vendor lock-in?
-		A. Use nonproprietary data formats.
-		B. Use industry-standard media.
-		C. Use strong cryptography.
-		D. Use favorable contract language.
-Answer:
-D. The contract is probably the cloud customer’s best tool for avoiding vendor lock-in; contract terms will establish how easy it is to migrate your organization’s data to another provider in a timely, cost-effective manner.
+ ### Question # 27 - [important] What is probably the optimum way to avoid vendor lock-in?
+A. Use nonproprietary data formats.
+B. Use industry-standard media.
+C. Use strong cryptography.
+D. Use favorable contract language.
+Answer: D. 
+
+**The contract is probably the cloud customer’s best tool for avoiding vendor lock-in; contract terms will establish how easy it is to migrate your organization’s data to another provider in a timely, cost-effective manner.**
+
 Options A and B are also important ways to avoid vendor lock-in, but D is the best answer.
 Option C is incorrect and will not aid in avoiding vendor lock-in.
 	
-### Question # 1 - Who will determine whether your organization’s cloud migration is satisfactory from a compliance perspective?
-		A. The cloud provider
-		B. The cloud customer
-		C. The regulator(s)
-		D. The Internet service provider (ISP)
-Answer:
-C. The regulator(s) overseeing your industry/organization will make the final determination as to whether your cloud configuration is suitable to meet their requirements. It is best to coordinate with your regulator(s) when first considering cloud migration.
+### Question # 28 - [confusing] Who will determine whether your organization’s cloud migration is satisfactory from a compliance perspective?   
+A. The cloud provider    
+B. The cloud customer    
+C. The regulator(s)    
+D. The Internet service provider (ISP)    
+Answer: C.    
+**The regulator(s) overseeing your industry/organization will make the final determination as to whether your cloud configuration is suitable to meet their requirements. It is best to coordinate with your regulator(s) when first considering cloud migration.**
+
 Cloud providers, cloud customers, and ISPs are not particularly concerned about whether an organization’s migration is satisfactory from a compliance perspective. The words, “compliance perspective” should automatically bring to mind regulator(s). Options A, B, and D are therefore incorrect answers.
 	
-### Question # 1 - What is probably the best way to avoid problems associated with vendor lock-out?
+### Question # 29 - What is probably the best way to avoid problems associated with vendor lock-out?
 		A. Use strong contract language.
 		B. Use nonproprietary data and media formats.
 		C. Use strong cryptography.
 		D. Use another provider for backup purposes.
-Answer:
-D. Vendor lock-out occurs when the provider suddenly leaves the market, as during a bankruptcy or acquisition. The risks associated with lock-out include denial of service, because of total unavailability of your data. The best way to handle these risks is to have another, full backup of your data with another vendor and the ability to reconstitute your operating environment in a time frame that doesn’t exceed your recovery time objective (RTO).
+Answer: D. 
+
+[Important Explanation]
+**Vendor lock-out occurs when the provider suddenly leaves the market, as during a bankruptcy or acquisition. 
+The risks associated with lock-out include denial of service, because of total unavailability of your data. 
+The best way to handle these risks is to have another, full backup of your data with another vendor and the ability to reconstitute your operating environment in a time frame that doesn’t exceed your recovery time objective (RTO).**
+
 The other options do not aid in addressing vendor lock-out.
 
 ### Question # 1 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the data center and how they are deployed?
