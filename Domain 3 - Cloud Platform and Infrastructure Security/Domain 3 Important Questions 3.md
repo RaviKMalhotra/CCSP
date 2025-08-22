@@ -1,149 +1,152 @@
-### Question # 1 - Barry is the CIO of an organization that recently suffered a serious operational issue that required activation of the disaster recovery plan. He would like to conduct a lessons learned session to review the incident. Who would be the best facilitator for this session?
-A.	Barry, as chief information officer
-B.	Chief information security officer
-C.	Disaster recovery team leader
-D.	External consultant
+### Question # 1 - Barry is the CIO of an organization that recently suffered a serious operational issue that required activation of the disaster recovery plan. He would like to conduct a lessons learned session to review the incident. Who would be the best facilitator for this session?    
+A.	Barry, as chief information officer     
+B.	Chief information security officer   
+C.	Disaster recovery team leader   
+D.	External consultant   
 
-### Question # 2 - If the cloud is used for BC/DR purposes, the loss of ___________________ could gravely affect your organization’s RTO.
-A.	Any cloud administrator
-B.	A specific VM
-C.	Your policy and contract documentation
-D.	ISP connectivity
+### Question # 2 - If the cloud is used for BC/DR purposes, the loss of ___________________ could gravely affect your organization’s RTO.    
+A.	Any cloud administrator   
+B.	A specific VM    
+C.	Your policy and contract documentation     
+D.	ISP connectivity     
 
-### Question # 3 - Brent is reviewing the controls that will protect his organization in the event of a sustained period of power loss at his on- premises datacenter. Which one of the following solutions would best meet his needs?
-A.	Redundant servers
-B.	Uninterruptible power supply (UPS)
-C.	Generator
-D.	RAID
+### Question # 3 - Brent is reviewing the controls that will protect his organization in the event of a sustained period of power loss at his on- premises datacenter. Which one of the following solutions would best meet his needs?     
+A.	Redundant servers   
+B.	Uninterruptible power supply (UPS)      
+C.	Generator     
+D.	RAID     
 
-### Question # 4 - Carolyn is concerned that users on her network may be storing sensitive information, such  as Social Security numbers, on their hard drives without proper authorization or security controls. What third- party security service can she implement to best detect this activity?
-A.	IDS
-B.	IPS
-C.	DLP
-D.	TLS
+### Question # 4 - Carolyn is concerned that users on her network may be storing sensitive information, such  as Social Security numbers, on their hard drives without proper authorization or security controls. What third- party security service can she implement to best detect this activity?      
+A.	IDS     
+B.	IPS     
+C.	DLP     
+D.	TLS     
 
-### Question # 5 - What individuals should have access to the management plane of a cloud datacenter?
-A.	Service provider engineers
-B.	Customer engineers
-C.	End users
-D.	Both A and B
+### Question # 5 - What individuals should have access to the management plane of a cloud datacenter?        
+A.	Service provider engineers       
+B.	Customer engineers      
+C.	End users       
+D.	Both A and B      
 
-### Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?
-A.	IPS
-B.	Wi- Fi
-C.	RFID
-D.	Ethernet
+### Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?       
+A.	IPS      
+B.	Wi- Fi       
+C.	RFID      
+D.	Ethernet      
 
-### Question # 7 - Becka recently signed a contract with an alternate data processing facility that will provide her company with space in the event of a disaster. The facility includes HVAC, power, and communications circuits but no hardware. What type of facility is Becka using?
-A.	Cold site
-B.	Warm site
-C.	Hot site
-D.	Mobile site
+### Question # 7 - Becka recently signed a contract with an alternate data processing facility that will provide her company with space in the event of a disaster. The facility includes HVAC, power, and communications circuits but no hardware. What type of facility is Becka using?      
+A.	Cold site     
+B.	Warm site     
+C.	Hot site      
+D.	Mobile site       
 
-### Question # 8 - Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would  probably be the best strategy for this approach, in terms of redundancy and resiliency? A. Have your cloud provider also provide BC/DR backup.
-B.	Keep a BC/DR backup on the premises of your corporate headquarters.
-C.	Use another cloud provider for the BC/DR backup.
-D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.
+### Question # 8 - Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would  probably be the best strategy for this approach, in terms of redundancy and resiliency? 
+A. Have your cloud provider also provide BC/DR backup.          
+B.	Keep a BC/DR backup on the premises of your corporate headquarters.      
+C.	Use another cloud provider for the BC/DR backup.      
+D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.      
 
-### Question # 9 - Philip is developing a new security tool that will be used by individuals in many different subsidiaries of his organization. He chooses to use Docker to deploy the tool to simplify configuration. What term best describes this approach?
-A.	Virtualization B. Abstraction
-C.	Simplification
-D.	Containerization
+### Question # 9 - Philip is developing a new security tool that will be used by individuals in many different subsidiaries of his organization. He chooses to use Docker to deploy the tool to simplify configuration. What term best describes this approach?      
+A.	Virtualization     
+B. Abstraction       
+C.	Simplification     
+D.	Containerization    
 
-### Question # 10 - What is the most important asset to protect in cloud BC/DR activities?
-A.	Intellectual property
-B.	Hardware at the cloud datacenter
-C.	Personnel
-D.	Data on portable media
+### Question # 10 - What is the most important asset to protect in cloud BC/DR activities?      
+A.	Intellectual property     
+B.	Hardware at the cloud datacenter     
+C.	Personnel     
+D.	Data on portable media     
 
-### Question # 11 - Carla is developing the design of a cloud infrastructure service offering that she will be reselling to a number of customers. What component of her stack is most directly responsible for performing tenant partitioning of the virtual machines belonging to different customers?
-A.	Access control lists
-B.	Network security group
-C.	Firewall
-D.	Hypervisor
+### Question # 11 - Carla is developing the design of a cloud infrastructure service offering that she will be reselling to a number of customers. What component of her stack is most directly responsible for performing tenant partitioning of the virtual machines belonging to different customers?     
+A.	Access control lists    
+B.	Network security group    
+C.	Firewall     
+D.	Hypervisor     
 
-### Question # 12 - Carlos is planning a design for a datacenter that will be constructed within a new four- story corporate headquarters. The building consists of a basement and three above- ground floors. What is the best location for the datacenter?
-A.	Basement
-B.	First floor
-C.	Second floor
-D.	Third floor
+### Question # 12 - Carlos is planning a design for a datacenter that will be constructed within a new four- story corporate headquarters. The building consists of a basement and three above- ground floors. What is the best location for the datacenter?      
+A.	Basement      
+B.	First floor      
+C.	Second floor        
+D.	Third floor       
 
-### Question # 13 - Chris is an information security professional for a major corporation and, as he is walking into the building, he notices that the door to a secure area has been left ajar. Physical security does not fall under his responsibility, but he takes immediate action by closing the door and informing the physical security team of his action. What principle is Chris demonstrating?
-A.	Due care
-B.	Due diligence
-C.	Separation of duties
-D.	Informed consent
+### Question # 13 - Chris is an information security professional for a major corporation and, as he is walking into the building, he notices that the door to a secure area has been left ajar. Physical security does not fall under his responsibility, but he takes immediate action by closing the door and informing the physical security team of his action. What principle is Chris demonstrating?     
+A.	Due care      
+B.	Due diligence       
+C.	Separation of duties      
+D.	Informed consent       
 
-### Question # 14 - Roger recently accepted a new position as a security professional at a company that runs its entire IT infrastructure within an IaaS environment. Which one of the following would most likely be the responsibility of Roger’s firm?
-A.	Configuring the network firewall
-B.	Applying hypervisor updates
-C.	Patching operating systems
-D.	Wiping drives prior to disposal
+### Question # 14 - Roger recently accepted a new position as a security professional at a company that runs its entire IT infrastructure within an IaaS environment. Which one of the following would most likely be the responsibility of Roger’s firm?     
+A.	Configuring the network firewall      
+B.	Applying hypervisor updates       
+C.	Patching operating systems      
+D.	Wiping drives prior to disposal      
 
-### Question # 15 - Candace is designing a backup strategy for her organization’s file server. She would like to perform a backup every weekday that has the smallest possible storage footprint. What type of backup should she perform?
-A.	Incremental backup
-B.	Full backup
-C.	Differential backup
-D.	Transaction log backup
+### Question # 15 - Candace is designing a backup strategy for her organization’s file server. She would like to perform a backup every weekday that has the smallest possible storage footprint. What type of backup should she perform?      
+A.	Incremental backup       
+B.	Full backup       
+C.	Differential backup      
+D.	Transaction log backup       
 
-### Question # 16 - Alyssa’s team recently implemented a new system that gathers information from a variety of log sources, analyzes that information, and then triggers automated playbooks in response to security events. What term best describes this technology?
-A.	SIEM
-B.	Log repositories
-C.	IPS
-D.	SOAR
+### Question # 16 - Alyssa’s team recently implemented a new system that gathers information from a variety of log sources, analyzes that information, and then triggers automated playbooks in response to security events. What term best describes this technology?       
+A.	SIEM      
+B.	Log repositories       
+C.	IPS       
+D.	SOAR       
 
-### Question # 17 - Nick is evaluating options for his organization’s future datacenters. Which one of the following options normally incurs the largest up- front cost?
-A.	Colocation facilities
-B.	Cloud datacenters
-C.	On- premises datacenters
-D.	SaaS offerings
+### Question # 17 - Nick is evaluating options for his organization’s future datacenters. Which one of the following options normally incurs the largest up- front cost?      
+A.	Colocation facilities     
+B.	Cloud datacenters  
+C.	On- premises datacenters    
+D.	SaaS offerings    
 
-### Question # 18 - Ben is an IT auditor and would like to ensure that the organization has mechanisms in place to create an appropriate audit trail for systems and applications. Which one of the following technologies aggregates and correlates log entries?
-A.	SIEM
-B.	IPS
-C.	EDR
-D.	CASB
+### Question # 18 - Ben is an IT auditor and would like to ensure that the organization has mechanisms in place to create an appropriate audit trail for systems and applications. Which one of the following technologies aggregates and correlates log entries?      
+A.	SIEM    
+B.	IPS     
+C.	EDR     
+D.	CASB      
 
-### Question # 19 - In addition to the security controls implemented by the cloud provider, a cloud customer must consider the security controls implemented by ___________________.
+### Question # 19 - In addition to the security controls implemented by the cloud provider, a cloud customer must consider the security controls implemented by ___________________.    
 A.	The respective regulator
-B.	The end user(s)
-C.	Any vendor the cloud customer previously used in the on- premises environment
-D.	Any third parties the provider depends on
+B.	The end user(s)      
+C.	Any vendor the cloud customer previously used in the on- premises environment    
+D.	Any third parties the provider depends on     
 
-### Question # 20 - Brittney is reviewing her organization’s disaster recovery process data and notes that the MTD for the business’s database server is 30 minutes. What does she know about the RTO for the server?
-A.	It needs to be less than 30 minutes.
-B.	It needs to be at least 30 minutes.
-C.	The MTD is too short and needs to be longer.
-D.	The RTO is too short and needs to be longer.
+### Question # 20 - Brittney is reviewing her organization’s disaster recovery process data and notes that the MTD for the business’s database server is 30 minutes. What does she know about the RTO for the server?    
+A.	It needs to be less than 30 minutes.    
+B.	It needs to be at least 30 minutes.    
+C.	The MTD is too short and needs to be longer.    
+D.	The RTO is too short and needs to be longer.    
 
-### Question # 21 - Cameron is worried about distributed denial- of- service (DDoS) attacks against his company’s primary web application. Which of the following options will provide the most resilience against large- scale DDoS attacks? A. Implement a CDN.
-B.	Increase the number of servers in the web application server cluster.
-C.	Contract for DDoS mitigation services via the company’s ISP.
-D.	Increase the amount of bandwidth available from one or more ISPs.
+### Question # 21 - Cameron is worried about distributed denial- of- service (DDoS) attacks against his company’s primary web application. Which of the following options will provide the most resilience against large- scale DDoS attacks? 
+A.  Implement a CDN.         
+B.	Increase the number of servers in the web application server cluster.     
+C.	Contract for DDoS mitigation services via the company’s ISP.    
+D.	Increase the amount of bandwidth available from one or more ISPs.    
 
-### Question # 22 - John’s network begins to experience symptoms of slowness. He launches a packet capture tool and realizes that the network is being bombarded with TCP SYN packets and believes that his organization is the victim of a denial- of- service attack. What principle of information security is being violated?
-A.	Availability
-B.	Integrity
-C.	Confidentiality
-D.	Denial
+### Question # 22 - John’s network begins to experience symptoms of slowness. He launches a packet capture tool and realizes that the network is being bombarded with TCP SYN packets and believes that his organization is the victim of a denial- of- service attack. What principle of information security is being violated? 
+A.	Availability     
+B.	Integrity      
+C.	Confidentiality      
+D.	Denial      
 
-### Question # 23 - Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing?
-A.	Risk acceptance
-B.	Risk avoidance
-C.	Risk mitigation
-D.	Risk transference
+### Question # 23 - Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing?     
+A.	Risk acceptance     
+B.	Risk avoidance     
+C.	Risk mitigation      
+D.	Risk transference       
 
-### Question # 24 - You are trying to determine the critical assets that your organization must protect in your BC/DR activities. Which one of the following artifacts would be most useful in your work?
-A.	Quantitative risk analysis
-B.	Qualitative risk analysis
-C.	Business impact analysis
-D.	Risk appetite
+### Question # 24 - You are trying to determine the critical assets that your organization must protect in your BC/DR activities. Which one of the following artifacts would be most useful in your work?     
+A.	Quantitative risk analysis     
+B.	Qualitative risk analysis      
+C.	Business impact analysis      
+D.	Risk appetite       
 
-### Question # 25 - A component failure in the primary HVAC system leads to a high temperature alarm in the datacenter that Kim manages. After resolving the issue, what should Kim consider to prevent future issues like this?
-A.	A closed loop chiller
-B.	Redundant cooling systems
-C.	Swamp coolers
-D.	Relocating the datacenter to a colder climate
+### Question # 25 - A component failure in the primary HVAC system leads to a high temperature alarm in the datacenter that Kim manages. After resolving the issue, what should Kim consider to prevent future issues like this?      
+A.	A closed loop chiller      
+B.	Redundant cooling systems      
+C.	Swamp coolers      
+D.	Relocating the datacenter to a colder climate      
 
 ### Question # 26 - Joe is the security administrator for a cloud- based ERP system. He is preparing to create accounts for several new employees. What default access should he give to all of the new employees as he creates the accounts?
 A.	Read only
