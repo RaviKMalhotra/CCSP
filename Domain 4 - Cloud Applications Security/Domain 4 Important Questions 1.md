@@ -491,532 +491,652 @@ All the other answers are incorrect.
 Answer:
 C. A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
 Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t perform productive activity there.
-	50. Sandboxing can often be used for _______________.
-		A. Testing user awareness and training
-		B. Testing security response capabilities
-		C. Testing software before putting it into production
-		D. Testing regulatory response to new configurations and modifications
-Answer:
-C. Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
+	
+### Question # 50. Sandboxing can often be used for _______________.      
+A. Testing user awareness and training   
+B. Testing security response capabilities    
+C. Testing software before putting it into production    
+D. Testing regulatory response to new configurations and modifications    
+Answer: C. 
+
+Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
 All the other options aren’t uses for sandboxes and are incorrect.
-	51. Application virtualization can typically be used for _______________.
-		A. Running an application in a non-native environment
-		B. Installing updates to a system’s operating system (OS)
-		C. Preventing escalation of privilege by untrusted users
-		D. Enhancing performance of systems
-Answer:
-A. Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box.
+	
+### Question # 51. Application virtualization can typically be used for _______________.       
+A. Running an application in a non-native environment    
+B. Installing updates to a system’s operating system (OS)    
+C. Preventing escalation of privilege by untrusted users    
+D. Enhancing performance of systems    
+Answer: A. 
+
+Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box.
 Because the virtualization engine encapsulates the application from the native runtime environment, patches can’t be applied through virtualized programs; option B is incorrect.
 Virtualization really doesn’t have anything to do with access control; option C is incorrect.
 The overhead of running a software virtualization engine will actually add to system overhead, not decrease it, so option D is incorrect.
-	52. Application virtualization can typically be used for _______________.
-		A. Denying access to untrusted users
-		B. Detecting and mitigating distributed denial of service (DDoS) attacks
-		C. Replacing encryption as a necessary control
-		D. Running an application on an endpoint without installing it
-Answer:
-D. Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device.
+	
+### Question # 52. Application virtualization can typically be used for _______________.         
+A. Denying access to untrusted users    
+B. Detecting and mitigating distributed denial of service (DDoS) attacks    
+C. Replacing encryption as a necessary control    
+D. Running an application on an endpoint without installing it    
+Answer: D. 
+
+Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device. 
 Virtualization really doesn’t have anything to do with access control; option A is incorrect.
 Virtualization neither detects nor responds to DDoS; option B is incorrect.
 Virtualization does not replace encryption; if data needs to be secure within the virtualization environment, encryption may still have to be utilized. Option C is incorrect.
-	53. Any organization that complies with ISO 27034 will have a maximum of _______________ Organizational Normative Framework(s) (ONF)(s).
-		A. 0
-		B. 1
-		C. 5
-		D. 25
-Answer:
-B. ISO 27034 dictates that an organization will have a collection of security controls used for all software within that organization; this collection is called the ONF.
+ 
+### Question # 53. Any organization that complies with ISO 27034 will have a maximum of _______________ Organizational Normative Framework(s) (ONF)(s).     
+A. 0   
+B. 1    
+C. 5    
+D. 25    
+Answer: B.    
+
+ISO 27034 dictates that an organization will have a collection of security controls used for all software within that organization; this collection is called the ONF.
 All the other options are distractors and incorrect.
-	54. Under ISO 27034, every application within a given organization will have an attendant set of controls assigned to it; the controls for a given application are listed in the _______________.
-		A. ONF
-		B. ANF
-		C. TTF
-		D. FTP
-Answer:
-B. Each application in an organization compliant with ISO 27034 will be assigned an Application Normative Framework (ANF), which lists all the controls assigned to that application.
+	
+### Question # 54. Under ISO 27034, every application within a given organization will have an attendant set of controls assigned to it; the controls for a given application are listed in the _______________.      
+A. ONF    
+B. ANF    
+C. TTF    
+D. FTP    
+Answer: B.     
+
+Each application in an organization compliant with ISO 27034 will be assigned an Application Normative Framework (ANF), which lists all the controls assigned to that application.
 Technically, the controls for each application within an organization compliant with ISO 27034 will be listed in the Organizational Normative Framework (ONF), because the ONF is the list of all controls for all applications; however, for a given application, only the controls used for that application are listed in an ANF, so option B is a preferable answer to A.
 TTF (time to failure) has no meaning in this context, so option C is incorrect.
 FTP (File Transfer Protocol) is a protocol for transferring files and not applicable here; option D is incorrect.
-	55. Static application security testing (SAST) is usually considered a _______________ form of testing.
-		A. White-box
-		B. Black-box
-		C. Gray-box
-		D. Parched field
-Answer:
-A. SAST is often referred to as white-box testing.
+	
+### Question # 55. Static application security testing (SAST) is usually considered a _______________ form of testing.       
+A. White-box   
+B. Black-box    
+C. Gray-box    
+D. Parched field    
+Answer: A. 
+
+SAST is often referred to as white-box testing.
 Black-box testing does not include access to source code, which is required for SAST. Option B is therefore incorrect.
 Option C is a combination of black-box and white-box testing so option C is an incorrect answer for this question.
 Option D has no meaning in this context.
-	56. Static application security testing (SAST) examines _______________.
-		A. Software outcomes
-		B. User performance
-		C. System durability
-		D. Source code
-Answer:
-D. In SAST, testers review the source code of an application in order to determine security flaws and operational errors.
+	
+### Question # 56. Static application security testing (SAST) examines _______________.       
+A. Software outcomes    
+B. User performance    
+C. System durability    
+D. Source code    
+Answer: D. 
+
+In SAST, testers review the source code of an application in order to determine security flaws and operational errors.
 While determining “software outcomes” may be considered a possible goal of SAST, “source code” is a much better answer as it is more specific and applicable to the question. Option D is still preferable.
 SAST does not check user performance or system durability; options B and C are incorrect.
-	57. Dynamic application security testing (DAST) is usually considered a _______________ form of testing.
-		A. White-box
-		B. Black-box
-		C. Gray-box
-		D. Parched field
-Answer:
-B. DAST is often referred to as black-box testing.
+	
+### Question # 57. Dynamic application security testing (DAST) is usually considered a _______________ form of testing.      
+A. White-box    
+B. Black-box    
+C. Gray-box    
+D. Parched field    
+Answer: B. 
+
+DAST is often referred to as black-box testing.
 White-box testing requires the tester to have access to source code, which is not provided in DAST. Option A is therefore incorrect.
 Option C is a combination of black-box and white-box testing so option C is an incorrect answer for this question.
 Option D has no meaning in this context.
-	58. Dynamic application security testing (DAST) checks software functionality in _______________.
-		A. The production environment
-		B. A runtime state
-		C. The cloud
-		D. An IaaS configuration
-Answer:
-B. DAST is performed while the application is running.
+	
+### Question # 58. Dynamic application security testing (DAST) checks software functionality in _______________.       
+A. The production environment    
+B. A runtime state    
+C. The cloud    
+D. An IaaS configuration    
+Answer: B.     
+
+DAST is performed while the application is running.
 Software testing should not take place in the production environment; option A is incorrect.
 DAST, like other forms of testing, may or may not take place in the cloud and is not confined to any particular service model (although it is unlikely to occur in software as a service [SaaS] environments); options C and D are incorrect.
-	59. Vulnerability scans are dependent on _______________ in order to function.
-		A. Privileged access
-		B. Vulnerability signatures
-		C. Malware libraries
-		D. Forensic analysis
-Answer:
-B. Vulnerability scans use signatures of known vulnerabilities to detect and report those vulnerabilities.
+	
+### Question # 59. Vulnerability scans are dependent on _______________ in order to function.      
+A. Privileged access    
+B. Vulnerability signatures    
+C. Malware libraries    
+D. Forensic analysis    
+Answer: B.    
+
+Vulnerability scans use signatures of known vulnerabilities to detect and report those vulnerabilities.
 Vulnerability scans do not typically require administrative access to function; option A is incorrect.
 Both malware libraries and forensic analysis of existing vulnerabilities may be used to create the signatures that vulnerability scanning tools utilize to detect and report vulnerabilities; however, these answers are too specific (limiting the answer), making option B a better answer than either C or D.
-	60. Due to their reliance on vulnerability signatures, vulnerability scanners will not detect _______________.
-		A. User error
-		B. Improper control selection
-		C. Cloud vulnerabilities
-		D. Unknown vulnerabilities
-Answer:
-D. Because vulnerability scanning tools require vulnerability signatures to operate effectively, unknown vulnerabilities that might exist in the scanned system won’t be detected (no signature has been created by vendors until a vulnerability is known). User errors are not detected by vulnerability scans; option A is incorrect. Scans can’t tell you whether you’ve picked the optimum security controls for your environment; option B is incorrect. Vulnerability scanning tools may or may not detect cloud-based vulnerabilities, depending on the tool used, the level of access to the target environment, and the settings applied to the scanner; option C is less accurate than option D.
-	61. Penetration testing is a(n) _______________ form of security assessment.
-		A. Active
-		B. Comprehensive
-		C. Total
-		D. Inexpensive
-Answer:
-A. A penetration test requires the tester to analyze the security of an environment from the perspective of an attacker; this also includes actually taking action that would result in breaching that environment.
+	
+### Question # 60. Due to their reliance on vulnerability signatures, vulnerability scanners will not detect _______________.      
+A. User error    
+B. Improper control selection    
+C. Cloud vulnerabilities   
+D. Unknown vulnerabilities     
+Answer: D.    
+
+Because vulnerability scanning tools require vulnerability signatures to operate effectively, unknown vulnerabilities that might exist in the scanned system won’t be detected (no signature has been created by vendors until a vulnerability is known). User errors are not detected by vulnerability scans; option A is incorrect. Scans can’t tell you whether you’ve picked the optimum security controls for your environment; option B is incorrect. Vulnerability scanning tools may or may not detect cloud-based vulnerabilities, depending on the tool used, the level of access to the target environment, and the settings applied to the scanner; option C is less accurate than option D.
+
+### Question # 61. Penetration testing is a(n) _______________ form of security assessment.       
+A. Active    
+B. Comprehensive    
+C. Total    
+D. Inexpensive    
+Answer: A. 
+
+A penetration test requires the tester to analyze the security of an environment from the perspective of an attacker; this also includes actually taking action that would result in breaching that environment.
 Penetration tests may or may not be comprehensive, depending on the intended scope and area of analysis. Option B is incorrect.
 While it’s nice to think of any security assessment as total, that is an extreme term, like all or never; such terms can rarely be used in security because there are no absolutes when dealing with risk, and it has no meaning in this context. Option C is not correct.
 Although the cost of a penetration test will vary according to a vast range of variables, it will rarely be considered inexpensive, especially relative to other forms of security testing. Option D is not correct.
-	62. Dynamic software security testing should include _______________.
-		A. Source code review
-		B. User training
-		C. Penetration testing
-		D. Known bad data
-Answer:
-D. Also called fuzz testing, dynamic testing methods should include known bad inputs in order to determine how the program will handle the “wrong” data (will it fail into a state that is less secure than normal operations, etc.).
+	
+### Question # 62. Dynamic software security testing should include _______________.      
+A. Source code review    
+B. User training    
+C. Penetration testing    
+D. Known bad data    
+Answer: D. 
+
+Also called fuzz testing, dynamic testing methods should include known bad inputs in order to determine how the program will handle the “wrong” data (will it fail into a state that is less secure than normal operations, etc.).
 Source code review is not part of dynamic testing; option A is incorrect.
 For accurate quality testing, user familiarity with the target software should be minimal and should not be assessed; option B is not correct.
 Penetration includes active steps to overcome security measures; this is rarely the purpose of software testing; option C is not the best answer.
-	63. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.
-		A. Information gathering
-		B. User surveys
-		C. Configuration and deployment management testing
-		D. Identity management testing
-Answer:
-B. User surveys are not an element of active security testing, although they might be used in acceptance testing. All of the other options are included in the OWASP guide to active security testing.
-	64. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.
-		A. Authentication testing
-		B. Authorization testing
-		C. Session management testing
-		D. Privacy review testing
-Answer:
-D. Privacy review testing is not included in the OWASP guide to active security testing, although it might be included as an aspect of compliance testing (for organizations in highly regulated industries). All of the other options are included in the OWASP guide to active security testing.
-	65. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.
-		A. Session initiation testing
-		B. Input validation testing
-		C. Testing for error handling
-		D. Testing for weak cryptography
-Answer:
-A. While session management testing is included in the OWASP guide to active software security testing, session initiation is not. All of the other options are included in the OWASP guide to active security testing.
-	66. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.
-		A. Business logic testing
-		B. Client-side testing
-		C. Intuition testing
-		D. Information gathering
-Answer:
-C. Intuition testing is not part of the OWASP guide to active security testing. All of the other options are included in the OWASP guide to active security testing.
-	67. Static software security testing typically uses _______________ as a measure of how thorough the testing was.
-		A. Number of testers
-		B. Flaws detected
-		C. Code coverage
-		D. Malware hits
-Answer:
-C. This metric is usually expressed as a percentage of lines of code. For example, “SAST covered 90% of the source code.”
+	
+### Question # 63. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.          
+A. Information gathering   
+B. User surveys   
+C. Configuration and deployment management testing    
+D. Identity management testing    
+Answer: B. 
+
+User surveys are not an element of active security testing, although they might be used in acceptance testing. All of the other options are included in the OWASP guide to active security testing.
+	
+### Question # 64. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.      
+A. Authentication testing   
+B. Authorization testing    
+C. Session management testing   
+D. Privacy review testing    
+Answer: D. 
+
+Privacy review testing is not included in the OWASP guide to active security testing, although it might be included as an aspect of compliance testing (for organizations in highly regulated industries). All of the other options are included in the OWASP guide to active security testing.
+	
+### Question # 65. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.       
+A. Session initiation testing   
+B. Input validation testing    
+C. Testing for error handling    
+D. Testing for weak cryptography     
+Answer: A. 
+
+While session management testing is included in the OWASP guide to active software security testing, session initiation is not. All of the other options are included in the OWASP guide to active security testing.
+	
+### Question # 66. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.      
+A. Business logic testing   
+B. Client-side testing   
+C. Intuition testing   
+D. Information gathering    
+Answer: C.     
+
+Intuition testing is not part of the OWASP guide to active security testing. All of the other options are included in the OWASP guide to active security testing.
+	
+### Question # 67. Static software security testing typically uses _______________ as a measure of how thorough the testing was.     
+A. Number of testers    
+B. Flaws detected    
+C. Code coverage    
+D. Malware hits    
+Answer: C.     
+
+This metric is usually expressed as a percentage of lines of code. For example, “SAST covered 90% of the source code.”
 The number of testers involved means very little when discussing testing coverage; this is a distractor and not correct.
 In some cases, testing reports might include a statistic representing the number of flaws discovered in the code; however, this is usually not a pertinent metric (undetected flaws can’t be measured, so counting the ones that have doesn’t add to your surety the code is secure), and code coverage is used more often. Option C is preferable to option B.
 Testing should first occur in an environment where the software has not even been exposed to the possibility of malware infection. Option D is incorrect.
-	68. Dynamic software security testing typically uses _______________ as a measure of how thorough the testing was.
-		A. User coverage
-		B. Code coverage
-		C. Path coverage
-		D. Total coverage
-Answer:
-C. In dynamic software security testing, the objective is to test a significant sample of the possible logical paths from data input to output.
+
+### Question # 68. Dynamic software security testing typically uses _______________ as a measure of how thorough the testing was.      
+A. User coverage    
+B. Code coverage    
+C. Path coverage    
+D. Total coverage     
+Answer: C. 
+
+In dynamic software security testing, the objective is to test a significant sample of the possible logical paths from data input to output.
 User coverage is a distractor and has no real meaning in this context; option A is incorrect.
 Code coverage is the metric used in static testing, making option B incorrect.
 While it would be nice to test each and every data pathway through an application, with both known good and known bad data, that could be unrealistic, depending on the number of possible branches in the application; this goes up exponentially every time another option/choice is added to the program. Total coverage is not a metric—it’s a hope. Option D is incorrect.
-	69. Software security testing should involve both known good and known bad data in order to simulate both _______________ and _______________.
-		A. Managers, users
-		B. Regulators, users
-		C. Vendors, users
-		D. Users, attackers
-Answer:
-D. Known good data is used to determine if the software fulfills the business requirements for which it was acquired. Known bad data tests the ability of the software to handle inputs and conditions that might put it into a fail state; these inputs and conditions can be invoked either purposefully (by attackers) or inadvertently (by users who make mistakes).
+
+### Question # 69. Software security testing should involve both known good and known bad data in order to simulate both _______________ and _______________.     
+A. Managers, users    
+B. Regulators, users   
+C. Vendors, users    
+D. Users, attackers     
+Answer: D. 
+
+Known good data is used to determine if the software fulfills the business requirements for which it was acquired. Known bad data tests the ability of the software to handle inputs and conditions that might put it into a fail state; these inputs and conditions can be invoked either purposefully (by attackers) or inadvertently (by users who make mistakes).
 Testing does not attempt to mimic managers, regulators, or vendors, so the other answers are incorrect.
-	70. Training programs should be tracked and monitored in order to fulfill both _______________ and _______________ requirements. Choose the best response.
-		A. Business, security
-		B. Regulatory, legal
-		C. User, managerial
-		D. Vendor, supplier
-Answer:
-B. This is not a simple question, and more than one answer could be construed as correct, but option B is the best answer. Tracking and monitoring personnel training is absolutely vital in order to demonstrate regulatory requirements (and many, if not all, organizations are obligated to comply with some regulation that mandates user training) and legal requirements (as an element of due diligence in the modern workplace).
+
+### Question # 70. Training programs should be tracked and monitored in order to fulfill both _______________ and _______________ requirements. Choose the best response.     
+A. Business, security    
+B. Regulatory, legal    
+C. User, managerial    
+D. Vendor, supplier    
+Answer: B. 
+
+This is not a simple question, and more than one answer could be construed as correct, but option B is the best answer. Tracking and monitoring personnel training is absolutely vital in order to demonstrate regulatory requirements (and many, if not all, organizations are obligated to comply with some regulation that mandates user training) and legal requirements (as an element of due diligence in the modern workplace).
 Option A is the other answer that could be perceived as accurate, but there is a bit of nuance that makes it less preferable than B. Security is a business requirement—it may not be a functional requirement, but it is a requirement nonetheless. Therefore, these two terms are repetitive; security requirements are just a subset of business requirements. Option B is still the better answer.
 Options C and D do not make sense in this context.
-	71. Task-centric training is typically for _______________.
-		A. All personnel
-		B. Specific personnel
-		C. Management personnel
-		D. HR personnel
-Answer:
-B. Training is usually a formal process involving detailed information. This is for those personnel who are involved with the specific topic or task for which the training is intended (for example, personnel involved in business continuity and disaster recovery [BC/DR] activities should get specific, detailed training on how to perform those actions).
+
+### Question # 71. Task-centric training is typically for _______________.         
+A. All personnel    
+B. Specific personnel    
+C. Management personnel     
+D. HR personnel     
+Answer: B. 
+
+Training is usually a formal process involving detailed information. This is for those personnel who are involved with the specific topic or task for which the training is intended (for example, personnel involved in business continuity and disaster recovery [BC/DR] activities should get specific, detailed training on how to perform those actions).
 Option A incorrect because not all personnel require task-centric training. Training required for all personnel in an organization cannot be task-centric training, by definition (not all personnel perform the same tasks).
 Options C and D are incorrect because they would only answer a subset of the question. Management personnel would receive management training and HR personnel would receive HR training. The correct answer is task-centric training is for specific personnel.
-	72. Awareness training is typically for _______________.
-		A. All personnel
-		B. Specific personnel
-		C. Management personnel
-		D. HR personnel
-Answer:
-A. Awareness efforts are usually intended to reach as wide an audience as possible within the organization, for generalized information. For instance, fire drills are awareness exercises; everyone in the facility needs to know how to get out and where to go.
+ 
+ ### Question # 72. Awareness training is typically for _______________.     
+A. All personnel    
+B. Specific personnel     
+C. Management personnel    
+D. HR personnel     
+Answer: A. 
+
+Awareness efforts are usually intended to reach as wide an audience as possible within the organization, for generalized information. For instance, fire drills are awareness exercises; everyone in the facility needs to know how to get out and where to go.
 Specific personnel, management personnel, and HR personnel would all receive task-centric training in addition to the awareness instruction that all personnel receive. Options B, C, and D are incorrect.
-	73. Why is cloud security training particularly important for software developers?
-		A. Software developers are the mainstay of every cloud environment.
-		B. You can’t have a cloud environment without software developers.
-		C. Security controls cannot be added to software after the fact and must be included from the very first steps of software development.
-		D. Many modern software developers don’t understand how the code underlying the libraries they use actually works.
-Answer:
-D. Modern developers usually aren’t writing code—they are recombining library components in novel ways to create new functionality. They may not understand the security risks associated with their work, especially for the cloud environment, which entails a different set of challenges from the traditional environment, which the developers might be more familiar with.
+
+### Question # 73. Why is cloud security training particularly important for software developers?
+A. Software developers are the mainstay of every cloud environment.     
+B. You can’t have a cloud environment without software developers.    
+C. Security controls cannot be added to software after the fact and must be included from the very first steps of software development.     
+D. Many modern software developers don’t understand how the code underlying the libraries they use actually works.     
+Answer: D.    
+
+Modern developers usually aren’t writing code—they are recombining library components in novel ways to create new functionality. They may not understand the security risks associated with their work, especially for the cloud environment, which entails a different set of challenges from the traditional environment, which the developers might be more familiar with.
 Options A and B are actually the same concept, reworded, which is patently untrue: depending on the cloud deployment and service models the organization chooses to use, software developers may or may not be crucial (for instance, in a software as a service [SaaS] public cloud, many organizations won’t even need internal development teams).
 Option C is just wrong: security controls can be added to software after it has been fielded. This is just not a best practice, as it is usually less effective and more expensive (in terms of both money and overhead).
-	74. Software developers should receive cloud-specific training that highlights the challenges involved with having a production environment that operates in the cloud. One of these challenges is _______________.
-		A. The massive additional hacking threat, especially from foreign sources
-		B. The prevalent use of encryption in all data life-cycle phases
-		C. Drastic increase of risk due to distributed denial of service (DDoS) attacks
-		D. Additional regulatory mandates
-Answer:
-B. Because cloud operations are so dependent on encryption protections in all data life-cycle phases, developers will have to accommodate the additional overhead and interoperability encryption requires.
+
+### Question # 74. Software developers should receive cloud-specific training that highlights the challenges involved with having a production environment that operates in the cloud. One of these challenges is _______________.     
+A. The massive additional hacking threat, especially from foreign sources     
+B. The prevalent use of encryption in all data life-cycle phases    
+C. Drastic increase of risk due to distributed denial of service (DDoS) attacks      
+D. Additional regulatory mandates     
+Answer: B. 
+
+Because cloud operations are so dependent on encryption protections in all data life-cycle phases, developers will have to accommodate the additional overhead and interoperability encryption requires.
 The hacking threat (foreign or otherwise) does not change whether the target is the cloud or the (connected) traditional environment; option A is incorrect.
 Likewise, the threat of DDoS attacks does not increase; if anything, it may decrease, because the cloud provider may be more resistant to such attacks than individual organizations would be. Option C is not correct.
 Regulatory requirements may or may not change when moving into the cloud. Moreover, developers are not likely to be the ones interpreting and responding to these new mandates; that is a level of abstraction above developer insight into software requirements. Option D is not preferable to B.
-	75. Software developers should receive cloud-specific training that highlights the challenges involved with having a production environment that operates in the cloud. One of these challenges is _______________.
-		A. Lack of management oversight
-		B. Additional workload in creating governance for two environments (the cloud data center and client devices)
-		C. Increased threat of malware
-		D. The need for process isolation
-Answer:
-D. Because shared resources in the cloud may mean increased opportunity for side-channel attacks, developers will have to design programs to function in a way that ensures process isolation.
+
+### Question # 75. Software developers should receive cloud-specific training that highlights the challenges involved with having a production environment that operates in the cloud. One of these challenges is _______________.     
+A. Lack of management oversight    
+B. Additional workload in creating governance for two environments (the cloud data center and client devices)    
+C. Increased threat of malware     
+D. The need for process isolation    
+Answer: D. 
+
+Because shared resources in the cloud may mean increased opportunity for side-channel attacks, developers will have to design programs to function in a way that ensures process isolation.
 Management oversight should not change from a policy perspective, regardless of where the processing is taking place; option A is incorrect.
 There is no additional workload resulting from cloud migration; in fact, the load should decrease, because the cloud customer cannot impose governance on the cloud provider. Option B is wrong.
 Malware threat does not increase or decrease in the cloud environment; option C is incorrect.
-	76. Which security technique is most preferable when creating a limited functionality for customer service personnel to review account data related to sales made to your clientele?
-		A. Anonymization
-		B. Masking
-		C. Encryption
-		D. Training
-Answer:
-B. Masking allows customer service representatives to review clients’ sales and account information without revealing the entirety of those records (for instance, obscuring credit card numbers except for the last four digits).
+
+### Question # 76. Which security technique is most preferable when creating a limited functionality for customer service personnel to review account data related to sales made to your clientele?     
+A. Anonymization   
+B. Masking    
+C. Encryption    
+D. Training   
+Answer: B. 
+
+Masking allows customer service representatives to review clients’ sales and account information without revealing the entirety of those records (for instance, obscuring credit card numbers except for the last four digits).
 Anonymization strips out identifying information from a record. This would not aid in limiting customer service personnel from viewing sensitive data, but it would make it impossible for customer service personnel to know who they were communicating with and leave them unable to identify customers, which would defeat the purpose of their existence. Option A is incorrect.
 Encryption of sales/account records would not limit customer service personnel in their review of account records. It would either disallow them to see the records at all or allow them to see the entirety of the records (depending on whether the representatives were given keys to that encrypted data). Option C is incorrect.
 Training does not limit access; option D is incorrect.
-	77. At which phase of the software development lifecycle (SDLC) is user involvement most crucial?
-		A. Define
-		B. Design
-		C. Develop
-		D. Test
-Answer:
-A. While some development models allow for user involvement in the entirety of the process, user input is most necessary in the Define phase, where developers can understand the business/user requirements—what the system/software is actually supposed to produce, in terms of function and performance. All the other options are beneficial phases to gauge user input, but not as crucial as option A.
-	78. At which phase of the software development lifecycle (SDLC) should security personnel first be involved?
-		A. Define
-		B. Design
-		C. Develop
-		D. Test
-Answer:
-A. The earlier security inputs are included in the project, the more efficient and less costly security controls are overall. The Define phase is the earliest part of the SDLC. All the other options are later phases and incorrect.
-	79. At which phase of the software development lifecycle (SDLC) is it probably most useful to involve third-party personnel?
-		A. Define
-		B. Design
-		C. Develop
-		D. Test
-Answer:
-D. During testing, getting outside perspective is invaluable, for both performance and security purposes; internal development and review capabilities are enhanced by augmentation from external parties.
+
+### Question # 77. At which phase of the software development lifecycle (SDLC) is user involvement most crucial?     
+A. Define    
+B. Design    
+C. Develop    
+D. Test    
+Answer: A. 
+
+While some development models allow for user involvement in the entirety of the process, user input is most necessary in the Define phase, where developers can understand the business/user requirements—what the system/software is actually supposed to produce, in terms of function and performance. All the other options are beneficial phases to gauge user input, but not as crucial as option A.
+
+### Question # 78. At which phase of the software development lifecycle (SDLC) should security personnel first be involved?     
+A. Define    
+B. Design    
+C. Develop     
+D. Test    
+Answer: A.     
+
+The earlier security inputs are included in the project, the more efficient and less costly security controls are overall. The Define phase is the earliest part of the SDLC. All the other options are later phases and incorrect.
+
+### Question # 79. At which phase of the software development lifecycle (SDLC) is it probably most useful to involve third-party personnel?
+A. Define    
+B. Design    
+C. Develop    
+D. Test    
+Answer: D.    
+
+During testing, getting outside perspective is invaluable, for both performance and security purposes; internal development and review capabilities are enhanced by augmentation from external parties.
 All the other phases are not normally appropriate for external participation.
-	80. In software development lifecycle (SDLC) implementations that include a Secure Operations phase, which of the following security techniques or tools are implemented during that phase?
-		A. Vulnerability assessments and penetration testing
-		B. Performance testing and security control validation
-		C. Requirements fulfillment testing
-		D. Threat modeling and secure design review
-Answer:
-A. Once the system is deployed operationally, continuous security monitoring, including periodic vulnerability assessments and penetration testing, is recommended. All the other options are security functions that should take place in phases prior to the system’s deployment.
-	81. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.
-		A. Can lead to data breaches
-		B. Causes electromagnetic interference
-		C. Will affect quality of service
-		D. Can cause regulatory noncompliance
-Answer:
-C. Security and operations are always inversely related; excessive controls necessarily degrade performance.
+
+### Question # 80. In software development lifecycle (SDLC) implementations that include a Secure Operations phase, which of the following security techniques or tools are implemented during that phase?    
+A. Vulnerability assessments and penetration testing    
+B. Performance testing and security control validation    
+C. Requirements fulfillment testing    
+D. Threat modeling and secure design review       
+Answer: A. 
+
+Once the system is deployed operationally, continuous security monitoring, including periodic vulnerability assessments and penetration testing, is recommended. All the other options are security functions that should take place in phases prior to the system’s deployment.
+
+### Question # 81. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.      
+A. Can lead to data breaches    
+B. Causes electromagnetic interference   
+C. Will affect quality of service    
+D. Can cause regulatory noncompliance     
+Answer: C. 
+
+Security and operations are always inversely related; excessive controls necessarily degrade performance.
 Excessive use of controls should not lead to more data breaches; if anything, it may reduce their occurrence. However, it is more likely that there will be no effect. Option A is incorrect.
 Many controls don’t affect the electromagnetic spectrum in any way. Option B is incorrect.
 Regulations don’t usually mandate a maximum set of controls but rather a minimum. Option D is incorrect.
-	82. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.
-		A. Can lead to distributed denial of service (DDoS)
-		B. Allows malware infections
-		C. Increases the risk of adverse environmental effects
-		D. Is an unnecessary expense
-Answer:
-D. From a simple financial perspective (which is often the managerial perspective), money spent on excessive anything is money wasted; spending to no good effect is detrimental.
+
+### Question # 82. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.    
+A. Can lead to distributed denial of service (DDoS)   
+B. Allows malware infections    
+C. Increases the risk of adverse environmental effects    
+D. Is an unnecessary expense     
+Answer: D. 
+
+From a simple financial perspective (which is often the managerial perspective), money spent on excessive anything is money wasted; spending to no good effect is detrimental.
 Overuse of controls should not result in greater risks of DDoS, malware, or environmental threats in any way. Options A, B, and C are incorrect.
-	83. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.
-		A. Can lead to customer dissatisfaction
-		B. Is a risk to health and human safety
-		C. Brings down the organization’s stock price
-		D. Negates the need for insurance
-Answer:
-A. If excessive controls impact the user/customer experience to the extent that system response speeds and results are delayed significantly, and performance is degraded to the point where competitors’ systems are far superior, customer dissatisfaction can be a severe problem.
+
+### Question # 83. A cloud environment that lacks security controls is vulnerable to exploitation, data loss, and interruptions. Conversely, excessive use of security controls _______________.    
+A. Can lead to customer dissatisfaction    
+B. Is a risk to health and human safety     
+C. Brings down the organization’s stock price     
+D. Negates the need for insurance     
+Answer: A. 
+
+If excessive controls impact the user/customer experience to the extent that system response speeds and results are delayed significantly, and performance is degraded to the point where competitors’ systems are far superior, customer dissatisfaction can be a severe problem.
 Some security controls (particularly physical controls) can affect health and human safety, such as if extraneous fencing/walls/barriers are put in place to control access/egress, and this hinders emergency escape from facilities. However, not all security controls pose this risk, so option B is a bit too specific; option A is still preferable.
 Security controls should not affect stock price or, in and of themselves, negate insurance needs (risk mitigation does not automatically offset the benefits of risk transference). Options C and D are incorrect.
-	84. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be used to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. Of the following, what is the most reasonable immediate action?
-		A. Delete accounts of all users who had utilized unapproved APIs to access company data.
-		B. Suspend access for all users who had utilized unapproved APIs to access company data.
-		C. Block all unapproved APIs from accessing company data.
-		D. Notify whomever you report to in the company hierarchy, and suggest bringing the matter to the attention of senior management immediately.
-Answer:
-D. The problem in this case is not so much that policies have been violated or that, in a more literal sense, the unapproved APIs are being used to access the data, the problem is that the violations are so pervasive and extensive that taking any immediate direct action (such as the responses in options A, B, and C) might interfere with business activity in a drastic and potentially harmful way. Because of this, the matter needs to be dealt with as a business decision and requires that senior management make a determination before action is taken.
-	85. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be used to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. You’ve brought the matter to the attention of the chief executive officer (CEO), who understands the issue and asks for your recommendation. What is probably the best suggestion?
-		A. Gather more data about how users are utilizing the APIs and for what purposes.
-		B. Delete accounts of all users who had utilized unapproved APIs to access company data.
-		C. Suspend access for all users who had utilized unapproved APIs to access company data.
-		D. Block all unapproved APIs from accessing company data.
-Answer:
-A. Again, before taking any action that might impact operations, it would probably be best to figure out the actual user needs being met by the unapproved APIs, and the severity of impact if they were removed from service, before performing the actions described in options B, C, and D.
-	86. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be utilized to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. Upon performing an information-gathering investigation at the behest of the chief executive officer (CEO), you determine that these APIs increased productivity 387 percent over the period since they were adopted, at a cost that is negligible compared to getting even one API through the company’s current approval process. What is your suggestion on how to handle the situation?
-		A. Retroactively put all the APIs currently in use through the formal approval process, and require that all future APIs users want to install also get approved.
-		B. Have the CEO waive formal approval processing for all APIs currently in use, granting them approval, but require all future APIs be approved through that process.
-		C. Punish all employees who have installed or used any of the rogue APIs for violating company policy.
-		D. Change the policy.
-Answer:
-D. It’s hard to argue with success; operational capability and security are always a trade-off, but this kind of productivity increase with little attendant cost is probably too good to pass up. It also seems evident that the existing policy is far too restrictive and limiting and that it is not being accepted by a significant number of users; trying to mandate its acceptance, and enforcing it with punitive measures, especially in the face of the overwhelming success of the violations, is most likely counter to the company’s overall interests. It is best to revisit the policy itself, determine why it didn’t meet user needs originally, and modify it so as to meet the demands of both the users and senior management (as well as whatever other externalities may have been the foundation of the policy). Options A, B, and C may be attractive, but they are all less preferable than D.
-	87. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be utilized to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. As a subject matter expert, what should you also recommend to the chief executive officer (CEO)?
-		A. Reward the users who committed the infractions, for aiding the company even when they were violating the policy.
-		B. Replace all the personnel that violated the policy, and have the new personnel use the new policy from their start of hire.
-		C. Restrict user access to possible APIs.
-		D. Augment the current set of security controls used by the company in order to offset risks posed by the anticipated use of even more APIs from unknown sources.
-Answer:
-D. APIs chosen by users may or may not have integral security and probably weren’t chosen according to how secure they are; because the company will continue to be exposed to additional risks from these (and future) APIs, additional security controls are absolutely necessary.
+
+### Question # 84. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be used to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. Of the following, what is the most reasonable immediate action?    
+A. Delete accounts of all users who had utilized unapproved APIs to access company data.      
+B. Suspend access for all users who had utilized unapproved APIs to access company data.     
+C. Block all unapproved APIs from accessing company data.     
+D. Notify whomever you report to in the company hierarchy, and suggest bringing the matter to the attention of senior management immediately.     
+Answer: D.     
+
+The problem in this case is not so much that policies have been violated or that, in a more literal sense, the unapproved APIs are being used to access the data, the problem is that the violations are so pervasive and extensive that taking any immediate direct action (such as the responses in options A, B, and C) might interfere with business activity in a drastic and potentially harmful way. Because of this, the matter needs to be dealt with as a business decision and requires that senior management make a determination before action is taken.
+
+### Question # 85. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be used to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. You’ve brought the matter to the attention of the chief executive officer (CEO), who understands the issue and asks for your recommendation. What is probably the best suggestion?    
+A. Gather more data about how users are utilizing the APIs and for what purposes.     
+B. Delete accounts of all users who had utilized unapproved APIs to access company data.    
+C. Suspend access for all users who had utilized unapproved APIs to access company data.    
+D. Block all unapproved APIs from accessing company data.     
+Answer: A. 
+
+Again, before taking any action that might impact operations, it would probably be best to figure out the actual user needs being met by the unapproved APIs, and the severity of impact if they were removed from service, before performing the actions described in options B, C, and D.
+
+### Question # 86. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be utilized to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. Upon performing an information-gathering investigation at the behest of the chief executive officer (CEO), you determine that these APIs increased productivity 387 percent over the period since they were adopted, at a cost that is negligible compared to getting even one API through the company’s current approval process. What is your suggestion on how to handle the situation?     
+A. Retroactively put all the APIs currently in use through the formal approval process, and require that all future APIs users want to install also get approved.   
+B. Have the CEO waive formal approval processing for all APIs currently in use, granting them approval, but require all future APIs be approved through that process.  
+C. Punish all employees who have installed or used any of the rogue APIs for violating company policy.     
+D. Change the policy.     
+Answer: D.    
+
+It’s hard to argue with success; operational capability and security are always a trade-off, but this kind of productivity increase with little attendant cost is probably too good to pass up. It also seems evident that the existing policy is far too restrictive and limiting and that it is not being accepted by a significant number of users; trying to mandate its acceptance, and enforcing it with punitive measures, especially in the face of the overwhelming success of the violations, is most likely counter to the company’s overall interests. It is best to revisit the policy itself, determine why it didn’t meet user needs originally, and modify it so as to meet the demands of both the users and senior management (as well as whatever other externalities may have been the foundation of the policy). Options A, B, and C may be attractive, but they are all less preferable than D.
+
+### Question # 87. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also dictate which application programming interfaces (APIs) can be utilized to access and manipulate company data and the process for getting an API added to the list of approved programs. You conduct an approved scan of the company data set in the cloud, with the provider’s permission. This allows you to catalog all APIs that have accessed and manipulated company data through authorized user accounts in the last month. The scan reveals that 300 different APIs were used by authorized personnel. Of these, 30 had been approved by the company and were on the list. As a subject matter expert, what should you also recommend to the chief executive officer (CEO)?     
+A. Reward the users who committed the infractions, for aiding the company even when they were violating the policy.     
+B. Replace all the personnel that violated the policy, and have the new personnel use the new policy from their start of hire.      
+C. Restrict user access to possible APIs.    
+D. Augment the current set of security controls used by the company in order to offset risks posed by the anticipated use of even more APIs from unknown sources.    
+Answer: D.   
+
+APIs chosen by users may or may not have integral security and probably weren’t chosen according to how secure they are; because the company will continue to be exposed to additional risks from these (and future) APIs, additional security controls are absolutely necessary.
 However, personnel actions and draconian enforcement efforts at this point would be pointless and vindictive, and probably counter to the company’s interests. Options A, B, and C are incorrect.
-	88. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?
-		A. Encrypt all routers between mobile users and the cloud.
-		B. Use additional anti-malware detection capabilities on both user devices and the environment to which they connect.
-		C. Implement strong multifactor authentication on all user-owned devices.
-		D. Employ regular performance monitoring in the cloud environment to ensure that the cloud provider is meeting the service level agreement (SLA) targets.
-Answer:
-B. Because untrusted APIs may not be secured sufficiently, increased vigilance for the possibility of introducing malware into the production environment is essential.
+
+### Question # 88. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?     
+A. Encrypt all routers between mobile users and the cloud.     
+B. Use additional anti-malware detection capabilities on both user devices and the environment to which they connect.     
+C. Implement strong multifactor authentication on all user-owned devices.      
+D. Employ regular performance monitoring in the cloud environment to ensure that the cloud provider is meeting the service level agreement (SLA) targets.     
+Answer: B.      
+
+Because untrusted APIs may not be secured sufficiently, increased vigilance for the possibility of introducing malware into the production environment is essential.
 It is impossible to encrypt devices that don’t belong to the organization. Option A is incorrect.
 Securing access to user-owned devices is admirable, but it has no effect at all on securing the device (or production environment) from risks due to installed APIs; option C is incorrect.
 This is a security question, and option D addresses performance; this is incorrect.
-	89. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?
-		A. Regular and widespread integrity checks on sampled data throughout the managed environment
-		B. More extensive and granular background checks on all employees, particularly new hires
-		C. Inclusion of references to all applicable regulations in the policy documents
-		D. Increased enforcement of separation of duties for all workflows
-Answer:
-A. In order to detect possible erroneous or malicious modification of the organization’s data by unauthorized or security-deficient APIs, it’s important to take representative samples of the production data on a continual basis and perform integrity checks.
+
+### Question # 89. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?    
+A. Regular and widespread integrity checks on sampled data throughout the managed environment     
+B. More extensive and granular background checks on all employees, particularly new hires     
+C. Inclusion of references to all applicable regulations in the policy documents     
+D. Increased enforcement of separation of duties for all workflows      
+Answer: A.    
+
+In order to detect possible erroneous or malicious modification of the organization’s data by unauthorized or security-deficient APIs, it’s important to take representative samples of the production data on a continual basis and perform integrity checks.
 Additional personnel security measures will not, in this case, yield any relevant security benefit; options B and D are not correct.
-It is always good to refer to regulations in policies; this isn’t something to be performed in response to the policy change but should have been included when the policy was created. Option C is incorrect.
-	90. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?
-		A. Enact secure connections between the user devices and the cloud environment using end-to-end encryption.
-		B. Enact secure connections between the user devices and the cloud environment using link encryption.
-		C. Employ additional user training.
-		D. Tunnel all connections with a virtual private network (VPN).
-Answer:
-C. Additional user training would be helpful in this situation, particularly any information that helps users understand the reasons APIs from unknown sources might be less secure and the potential impacts from using them.
+It is always good to refer to regulations in policies; this isn’t something to be performed in response to the policy change but should have been included when the policy was created. Option C is incorrect.     
+
+### Question # 90 - You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?       
+A. Enact secure connections between the user devices and the cloud environment using end-to-end encryption.   
+B. Enact secure connections between the user devices and the cloud environment using link encryption.   
+C. Employ additional user training.   
+D. Tunnel all connections with a virtual private network (VPN).   
+Answer: C.   
+
+Additional user training would be helpful in this situation, particularly any information that helps users understand the reasons APIs from unknown sources might be less secure and the potential impacts from using them.
 All the other answers are incorrect; securing the connection between endpoints and the cloud is irrelevant in protecting against risks caused by software installed on the client devices.
-	91. Users in your organization have been leveraging application programming interfaces (APIs) for enhancing their productivity in the cloud environment. To ensure that you are securing API access to the production environment, you should deploy _______________ and _______________.
-		A. Secure Sockets Layer (SSL) and message-level cryptography
-		B. Transport Layer Security (TLS) and message-level cryptography
-		C. SSL and whole drive encryption
-		D. TLS and whole drive encryption
-Answer:
-B. Cryptography for the two main types of APIs is required; this is TLS for representational state transfer (REST) and message-level encryption for Simple Object Access Protocol (SOAP).
+
+### Question # 91. Users in your organization have been leveraging application programming interfaces (APIs) for enhancing their productivity in the cloud environment. To ensure that you are securing API access to the production environment, you should deploy _______________ and _______________.    
+A. Secure Sockets Layer (SSL) and message-level cryptography   
+B. Transport Layer Security (TLS) and message-level cryptography    
+C. SSL and whole drive encryption     
+D. TLS and whole drive encryption    
+Answer: B. 
+
+Cryptography for the two main types of APIs is required; this is TLS for representational state transfer (REST) and message-level encryption for Simple Object Access Protocol (SOAP).
 SSL has been deprecated because of severe vulnerabilities; this eliminates options A and C. Whole drive encryption protects against loss or theft of a device but does not secure API access to the data, which eliminates option D.
-	92. You implement identity and access management (IAM) in order to control access between subjects and objects. What is the ultimate purpose of this effort?
-		A. Identification. Determine who the specific, individual subjects are.
-		B. Authentication. Verify and validate any identification assertions.
-		C. Authorization. Grant subjects permissions to objects once they’ve been authenticated.
-		D. Accountability. Be able to reconstruct a narrative of who accessed what.
-Answer:
-D. Accountability is the end purpose of all IAM efforts; all the other options are the elements of IAM that support this effort.
-	93. _______________ is perhaps the main external factor driving identity and access management (IAM) efforts.
-		A. Regulation
-		B. Business need
-		C. The evolving threat landscape
-		D. Monetary value
-Answer:
-A. Regulatory compliance has historically driven IAM efforts. All the other options can to some extent drive IAM efforts, however, they do not have as much influence as regulatory factors. Therefore options B, C, and D are incorrect answers.
-	94. Whether in a cloud or traditional environment, it is important to implement both _______________ and _______________ access controls.
-		A. Internal and managed
-		B. Provider and customer
-		C. Physical and logical
-		D. Administrative and technical
-Answer:
-C. Both physical and logical controls are possible (and necessary) to implement in both environments.
+
+### Question # 92. You implement identity and access management (IAM) in order to control access between subjects and objects. What is the ultimate purpose of this effort?    
+A. Identification. Determine who the specific, individual subjects are.
+B. Authentication. Verify and validate any identification assertions.
+C. Authorization. Grant subjects permissions to objects once they’ve been authenticated.
+D. Accountability. Be able to reconstruct a narrative of who accessed what.
+Answer: D. 
+
+Accountability is the end purpose of all IAM efforts; all the other options are the elements of IAM that support this effort.
+
+### Question # 93. _______________ is perhaps the main external factor driving identity and access management (IAM) efforts.    
+A. Regulation   
+B. Business need    
+C. The evolving threat landscape   
+D. Monetary value     
+Answer: A.    
+
+Regulatory compliance has historically driven IAM efforts. All the other options can to some extent drive IAM efforts, however, they do not have as much influence as regulatory factors. Therefore options B, C, and D are incorrect answers.
+
+### Question # 94. Whether in a cloud or traditional environment, it is important to implement both _______________ and _______________ access controls.       
+A. Internal and managed   
+B. Provider and customer    
+C. Physical and logical     
+D. Administrative and technical    
+Answer: C. 
+
+Both physical and logical controls are possible (and necessary) to implement in both environments.
 Options A and B are really only feasible if the organization is using a cloud service (or other managed service); the terms managed and provider suggest this. This makes these options less desirable for a question that also includes the traditional environment.
 It is not reasonable to expect that the organization can impose administrative controls in a cloud environment (for the provider environment), so option D is not correct.
-	95. Access to specific data sets should be granted by _______________.
-		A. The data subjects
-		B. The data owners
-		C. The data processors
-		D. The data regulators
-Answer:
-B. The data owner is most familiar with the risks and impacts associated with the data sets under their control.
+
+### Question # 95. Access to specific data sets should be granted by _______________.    
+A. The data subjects    
+B. The data owners    
+C. The data processors    
+D. The data regulators    
+Answer: B.    
+
+The data owner is most familiar with the risks and impacts associated with the data sets under their control.
 The data subject may grant permission for a data owner to have the subject’s data but will not govern the granular assignment of access rights. Option A is incorrect.
 The data processor does not have the right to grant data access and must only act at the direction of the data owner. Option C is incorrect.
 Regulators dictate how data must be secured, and possibly in what manner, but do not supervise explicit access to that data. Option D is incorrect.
-	96. Access should be granted based on all of the following except _______________.
-		A. Policy
-		B. Business needs
-		C. Performance
-		D. Acceptable risk
-Answer:
-C. Performance should not determine who gets access to which data; all the other options are the factors for making this determination.
-	97. Federation allows _______________ across organizations.
-		A. Role replication
-		B. Encryption
-		C. Policy
-		D. Access
-Answer:
-D. Federation allows users from multiple member organizations to access resources owned by various members.
+
+### Question # 96. Access should be granted based on all of the following except _______________.        
+A. Policy    
+B. Business needs   
+C. Performance   
+D. Acceptable risk   
+Answer: C. 
+
+Performance should not determine who gets access to which data; all the other options are the factors for making this determination.
+
+### Question # 97. Federation allows _______________ across organizations.     
+A. Role replication     
+B. Encryption    
+C. Policy    
+D. Access   
+Answer: D. 
+
+Federation allows users from multiple member organizations to access resources owned by various members.
 All the other answers are simply not correct.
-	98. Federation should be _______________ to the users.
-		A. Hostile
-		B. Proportional
-		C. Transparent
-		D. Expensive
-Answer:
-C. Federation allows ease of use for access to multiple resource providers; this provides a transparent user mechanism.
+
+### Question # 98. Federation should be _______________ to the users.      
+A. Hostile    
+B. Proportional    
+C. Transparent    
+D. Expensive    
+Answer: C. 
+
+Federation allows ease of use for access to multiple resource providers; this provides a transparent user mechanism.
 The goal of federation is to enhance the user experience, the exact opposite of making the environment more hostile to them. Option A is incorrect.
 Option B is incorrect because it is meaningless in this context.
 Option D is incorrect. Users typically do not pay for the organization’s IT environment.
-	99. A web application firewall (WAF) understands which protocol(s)?
-		A. All protocols that use the Internet as a medium
-		B. Transport Layer Security (TLS)
-		C. Hypertext Transfer Protocol (HTTP)
-		D. File Transfer Protocol (FTP)
-Answer:
-C. WAFs apply rulesets to web traffic, which uses HTTP. All the other answers are incorrect.
-	100. Web application firewalls and database activity monitors function at levels _______________ and _______________ of the Open Systems Interconnection (OSI) model, respectively.
-		A. 1 and 7
-		B. 7 and 1
-		C. 7 and 7
-		D. 3 and 4
-Answer:
-C. These are both Layer 7 tools. All the other answers are incorrect.
-	101. What can tokenization be used for?
-		A. Encryption
-		B. Compliance with the Payment Card Industry Data Security Standard (PCI DSS)
-		C. Enhancing the user experience
-		D. Giving management oversight to e-commerce functions
-Answer:
-B. Aside from encryption, PCI DSS allows for tokenization as a means to protect account and cardholder data at rest.
+
+### Question # 99. A web application firewall (WAF) understands which protocol(s)?    
+A. All protocols that use the Internet as a medium    
+B. Transport Layer Security (TLS)   
+C. Hypertext Transfer Protocol (HTTP)   
+D. File Transfer Protocol (FTP)   
+Answer: C. 
+
+WAFs apply rulesets to web traffic, which uses HTTP. All the other answers are incorrect.
+
+### Question # 100. Web application firewalls and database activity monitors function at levels _______________ and _______________ of the Open Systems Interconnection (OSI) model, respectively.     
+A. 1 and 7    
+B. 7 and 1    
+C. 7 and 7   
+D. 3 and 4    
+Answer: C.   
+
+These are both Layer 7 tools. All the other answers are incorrect.
+
+### Question # 101. What can tokenization be used for?     
+A. Encryption    
+B. Compliance with the Payment Card Industry Data Security Standard (PCI DSS)     
+C. Enhancing the user experience    
+D. Giving management oversight to e-commerce functions    
+Answer: B. 
+
+Aside from encryption, PCI DSS allows for tokenization as a means to protect account and cardholder data at rest.
 Tokenization is not encryption; there is no encryption engine and no key involved in the process. Option A is incorrect.
 Tokenization does not necessarily enhance or detract from the user experience; option C is incorrect.
 Management is not allowed any additional oversight into any particular function by tokenization; option D is incorrect.
-	102. Merchants who accept credit card payments can avoid some of the compliance burden for the Payment Card Industry Data Security Standard (PCI DSS) by outsourcing the tokenization function to _______________.
-		A. A third party
-		B. The data owner
-		C. The data subject
-		D. The PCI Security Standards Council
-Answer:
-A. By offloading privacy data to a tokenizing third party, merchants can free themselves of the contractual burdens for protecting cardholder data at rest.
+
+### Question # 102. Merchants who accept credit card payments can avoid some of the compliance burden for the Payment Card Industry Data Security Standard (PCI DSS) by outsourcing the tokenization function to _______________.    
+A. A third party    
+B. The data owner    
+C. The data subject    
+D. The PCI Security Standards Council    
+Answer: A.    
+
+By offloading privacy data to a tokenizing third party, merchants can free themselves of the contractual burdens for protecting cardholder data at rest.
 The data owner is the merchants themselves, and the data subject is the person to whom the privacy data applies, so privacy data cannot be outsourced to either of these, and options B and C are incorrect.
 The PCI Council is the body that promulgates and enforces the PCI DSS; they will not process data on behalf of any merchant. Option D is incorrect.
-	103. Which of the following is an example of useful and sufficient data masking of the string “CCSP”?
-		A. XCSP
-		B. PSCC
-		C. TtLp
-		D. 3X91
-Answer:
-C. This answer requires some thought about how the original data is displayed and its properties.
+
+### Question # 103. Which of the following is an example of useful and sufficient data masking of the string “CCSP”?    
+A. XCSP    
+B. PSCC    
+C. TtLp    
+D. 3X91    
+Answer: C.    
+
+This answer requires some thought about how the original data is displayed and its properties.
 Option A masks only one letter in a four-letter string; this is not sufficient because the original string could be identified with a very low-work factor, brute-force attack of only 26 possible combinations.
 Option B is likewise easy to break; it only reverses the content of the string, which is very simple to determine, and would allow easy recovery of any other similar strings in the data set.
 Option D mixes numeric characters into what was originally only an alphabetic string; this may detract from the utility of the string if the masked version is to be used for software testing.
 Option C completely obscures the original content but retains the qualities of the original (all alphabetic characters). It may affect the use of the string by mixing uppercase and lowercase, but this is still the best choice of the four possible answers.
-	104. A cloud-based sandbox should not be used for _______________.
-		A. Application interoperability testing
-		B. Processing sensitive data
-		C. Application security testing
-		D. Malware analysis
-Answer:
-D. Installing malware on systems owned by someone else may be illegal in many jurisdictions. While on-premises sandboxes are fine for this purpose, it may be a felony if performed in the cloud.
+
+### Question # 104. A cloud-based sandbox should not be used for _______________.    
+A. Application interoperability testing    
+B. Processing sensitive data    
+C. Application security testing    
+D. Malware analysis    
+Answer: D. 
+
+Installing malware on systems owned by someone else may be illegal in many jurisdictions. While on-premises sandboxes are fine for this purpose, it may be a felony if performed in the cloud.
 All the other options are good uses of cloud-based sandboxes.
-	105. Which of the following should occur at each stage of the software development lifecycle (SDLC)?
-		A. Added functionality
-		B. Management review
-		C. Verification and validation
-		D. Repurposing of any newly developed components
-Answer:
-C. It is important to verify and validate the program at each stage of the SDLC.
+
+### Question # 105. Which of the following should occur at each stage of the software development lifecycle (SDLC)?     
+A. Added functionality     
+B. Management review    
+C. Verification and validation    
+D. Repurposing of any newly developed components    
+Answer: C.     
+
+It is important to verify and validate the program at each stage of the SDLC.
 Adding functionality at each stage of the SDLC is the definition of scope creep, which is what we’d like to avoid. Option A is incorrect.
 Management should not have to shepherd software through the development process; this is the process of the development team. Option B is incorrect.
 Option D is a distractor and makes no actual sense.
-	106. Software that includes security elements from the outset of the software development lifecycle (SDLC) process will be _______________.
-		A. More secure in deployment
-		B. Less secure in deployment
-		C. More likely to malfunction
-		D. Less likely to malfunction
-Answer:
-A. It is important to verify and validate the program at each stage of the SDLC.
+
+### Question # 106. Software that includes security elements from the outset of the software development lifecycle (SDLC) process will be _______________.    
+A. More secure in deployment    
+B. Less secure in deployment    
+C. More likely to malfunction    
+D. Less likely to malfunction    
+Answer: A. 
+
+It is important to verify and validate the program at each stage of the SDLC.
 Adding functionality at each stage of the SDLC is the definition of scope creep, which is what we’d like to avoid. Option A is incorrect.
 Management should not have to shepherd software through the development process; this is the process of the development team. Option B is incorrect.
 Option D makes no sense: you can’t repurpose something that has just been developed.
-	107. Software that includes security elements from the outset of the software development lifecycle (SDLC) process will _______________.
-		A. Be less expensive to operate securely in the production environment
-		B. Be more expensive to operate securely in the production environment
-		C. Not be interoperable with other software and systems in the production environment
-		D. Have a greater likelihood of interoperability with other software and systems in the production environment
-Answer:
-A. When security is created as an aspect of the software itself, there is less need to acquire and apply additional security controls to mitigate risks after deployment. Option B is also wrong for this same reason.
+
+### Question # 107. Software that includes security elements from the outset of the software development lifecycle (SDLC) process will _______________.     
+A. Be less expensive to operate securely in the production environment    
+B. Be more expensive to operate securely in the production environment     
+C. Not be interoperable with other software and systems in the production environment    
+D. Have a greater likelihood of interoperability with other software and systems in the production environment    
+Answer: A.    
+
+When security is created as an aspect of the software itself, there is less need to acquire and apply additional security controls to mitigate risks after deployment. Option B is also wrong for this same reason.
 Options C and D are incorrect because the inclusion of security aspects in software design should not affect interoperability in any significant way.
-	108. The inclusion of security controls in the software design process is dictated by _______________.
-		A. The National Institute of Standards and Technology (NIST) 800-37
-		B. The American Institute of Certified Public Accountants (AICPA)
-		C. ISO 27034
-		D. The Health Insurance Portability and Accountability Act (HIPAA)
-Answer:
-C. ISO 27034 addresses the sets of controls used in software throughout the environment.
+
+### Question # 108. The inclusion of security controls in the software design process is dictated by _______________.    
+A. The National Institute of Standards and Technology (NIST) 800-37     
+B. The American Institute of Certified Public Accountants (AICPA)      
+C. ISO 27034     
+D. The Health Insurance Portability and Accountability Act (HIPAA)     
+Answer: C.     
+
+ISO 27034 addresses the sets of controls used in software throughout the environment.
 800-37 is the Risk Management Framework, which is about the organization’s overall security, not software development, so option A is incorrect.
 The AICPA is a standards-making body, not a standard itself, so option B is incorrect.
 HIPAA deals with health care privacy, so option D is incorrect.
-	109. Software development should be perceived as _______________.
-		A. Including all members of the organization
-		B. The paramount goal of the organization
-		C. The greatest risk to the organization
-		D. A lifecycle
-Answer:
-D. It is important to consider software development as having a defined process and an eventual endpoint for the useful life of the product.
+
+### Question # 109. Software development should be perceived as _______________.       
+A. Including all members of the organization    
+B. The paramount goal of the organization    
+C. The greatest risk to the organization    
+D. A lifecycle    
+Answer: D.   
+
+It is important to consider software development as having a defined process and an eventual endpoint for the useful life of the product.
 Not every organization is a software development company. Even in software development companies, not everyone participates in development (there are other departments/offices, such as sales, accounting, etc.). Option A is a poor choice.
 Option B is only a correct answer if the organization is a software development company. Otherwise, it is not a correct answer. Option B is incorrect.
 If software development poses the most significant risk to your organization, you probably shouldn’t be doing software development. Option C is incorrect.
-	110. Dynamic testing of software is perhaps most useful for _______________.
-		A. Simulating negative test cases
-		B. Finding errors in the source code
-		C. Determining the effect of social engineering
-		D. Penetration tests
-Answer:
-A. 
+
+### Question # 110. Dynamic testing of software is perhaps most useful for _______________.      
+A. Simulating negative test cases    
+B. Finding errors in the source code     
+C. Determining the effect of social engineering      
+D. Penetration tests     
+Answer: A.
+
 Dynamic testing does not involve source code review or social engineering; options B and C are incorrect.
 Penetration tests occur in the production environment, not on pre-deployment software; option D is incorrect.
-<img width="746" height="23144" alt="image" src="https://github.com/user-attachments/assets/adbcef7c-9a93-442c-a729-467b6be6a481" />
