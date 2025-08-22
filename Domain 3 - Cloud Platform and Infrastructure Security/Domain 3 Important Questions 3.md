@@ -597,6 +597,7 @@ C.	Log file generation
 D.	Hackback capabilities
 
 # Chapter 3: Domain 3: Cloud Platform and Infrastructure Security
+
 1.	D. Barry should recruit an independent moderator to facilitate the session. Having a moderator who was not directly involved in the effort encourages honest and open feedback. While it is not necessary to use an external consultant, they may easily fill this role. It’s also possible to find a qualified internal employee to fill this position, but it should not be someone who was involved in the incident response effort or who has a major stake in the plan, such as Barry, the CISO, or the DR team leader.
 
 2.	D. Without ISP connectivity, nobody will be able to use the internet and, thus, the cloud. Of course, realistically, without internet connectivity not much business will get done anyway, for most organizations, regardless of whether they were operating in the cloud or on- premises.
@@ -800,43 +801,60 @@ Option B is not correct; cloud migration will require some risk acceptance, but 
 Option D is incorrect; cloud providers can choose not to offer services or not to accept certain clients.
 
 80.	C. The administrative offices of a cloud datacenter rarely are part of the critical functions of the operation; a datacenter could likely endure the loss of the administrative offices for a considerable length of time, so redundancy here is probably not cost effective.
+
 81.	B. The recovery point objective (RPO) is a measure of data that can be lost in an outage without irreparably damaging the organization. Data replication strategies will most affect this metric, as the choice of strategy will determine how much recent data is available for recovery purposes.
 Recovery time objective (RTO) is a measure of how long an organization can endure an outage without irreparable harm. This may be affected by the replication strategy, but not as much as the RPO. Option A is incorrect.
 The maximum allowable downtime (MAD) is how long an organization can suffer an outage before ceasing to be an organization. This is not dependent on the RPO, and the data replication strategy won’t have much effect on it at all. Option C is incorrect.
 The mean time to failure (MTTF) is a measure of how long an asset is expected to last (usually hardware), as determined by the manufacturer/vendor. The data replication strategy will have no bearing on this whatsoever. Option D is incorrect.
+
 82.	C. Authorization is the process of granting users and other security principles access to resources in an environment.
 Identification and authentication are part of the overall identity and access management (IAM) process, as is authorization, but they do not specifically describe granting access to resources.
 Federation is a means of conducting IAM across organizations; authorization is a more specific answer, so federation is incorrect.
+
 83.	B. When using two different cloud providers, a cloud customer runs the risk that data/software formats used in the operational environment can’t be readily adapted to the other provider’s service, thus causing delays during an actual failover.
 Risks of physical intrusion are neither obviated nor enhanced by choosing to use two cloud providers; option A is incorrect.
 Using a different cloud provider for backup/archiving actually reduces the risks of outages due to vendor lock- in/lockout and natural disasters, so options C and D are not correct.
+
 84.	C. As the models increase in level of abstraction and service, the customer’s control over the environment decreases. Therefore, the customer has the most control over the configuration of IaaS services, a moderate degree of control over PaaS/FaaS services, and the least control over SaaS services.
+
 85.	C. Without a full test, Warren can’t be sure the BC/DR plan/process will work the way it is intended.
 Audits are good, but they will not demonstrate actual performance the way a test will, so options A and B are incorrect.
 It is important that the BC/DR capacity and performance be included in the contract, but that will not truly ensure that the functionality exists; a test is required, so option D is incorrect.
+
 86.	C. A premature return to normal operations can jeopardize not only production, but personnel; if the contingency that caused the BC/DR action is not fully complete/addressed, there may still be danger remaining.
 The BC/DR plan/process should take into account both the absence of essential personnel and telecommunications capabilities, so options A and D are incorrect.
 Option B does present a serious problem for the organization, but option C is still a greater risk, so B is incorrect.
+
 87.	C. Systems that use water always pose a greater failure risk to electronic equipment than those that use gas because water can destroy equipment. Of the systems listed, wet pipe systems pose the greatest risk because water is always present in the pipes.
+
 88.	B. Guest escape (a malicious user leaving the confines of a VM and able to access other VMs on the same machine) is less likely to occur and to have a significant impact in an environment provisioned for and used by a single customer.
 In a public cloud, this is more likely and would be more significant, so option A is incorrect.
 The service model doesn’t specifically dictate the likelihood of occurrence or impact (both PaaS and IaaS could be in a private or public cloud, which is the more important factor), so both options C and D are incorrect.
+
 89.	A. Many cloud providers restrict activities that are common for administrative and security purposes but can also be construed/used for hacking; this includes port scanning and penetration testing. These restrictions can reduce the customer’s ability to perform basic security functions. Customers should review these practices with service providers and confirm that they are allowed to conduct routine security activities.
 While geographical dispersion of cloud assets might make securing those assets more difficult in the notional sense (customer administrators can’t physically visit the devices that host their data), remoteness does not necessarily inhibit good security practices, which can be performed at a remove. This is not as detrimental as rules against port scanning/pen testing, so option B is incorrect.
 There are no rules against user training or laws against securing your own assets, in the cloud or otherwise; options C and D are incorrect.
+
 90.	B. The question describes a software- defined network (SDN).
 A	VPN is used for creating an encrypted communications tunnel over an untrusted medium, so option A is incorrect.
 ACLs are used as centralized repositories for identification, authentication, and authorization purposes, so option C is incorrect.
 RBAC is an access control model used to assign permissions based on job functions within an organization, so option D is incorrect.
+
 91.	C. Cloud providers may be reluctant to grant physical access, even to their customers, on the assumption that allowing access would disclose information about security controls. In some cases, cloud customers won’t even know the location(s) of the datacenter(s) where their data is stored.
 The other options are all untrue. Data in the cloud and controls in the cloud can most certainly be audited. So, options A and B are incorrect. D is untrue; there are regulators for all industries, including those that operate in the cloud.
+
 92.	A. The business requirements will determine the crucial aspects of BC/DR.
 All the other options may constitute some input that will influence the BC/DR, but they are not the prevailing factors and so are incorrect.
+
 93.	C. Because cloud access is remote access, pen tests will be remote tests; it doesn’t really matter what the physical origin of the simulated attack is.
 Cloud providers will want notice before the customer launches the test and that notice should include a description of the scope of the test, knowledge of the timeframe for the test, and the logical (not physical!) addresses of the testing systems.
+
 94.	D. The checklist review is the least disruptive type of disaster recovery test. During a checklist review, team members each review the contents of their disaster recovery checklists on their own and suggest any necessary changes. During a tabletop exercise, team members come together and walk through a scenario without making any changes to information systems. During a parallel test, the team actually activates the disaster recovery site for testing, but the primary site remains operational. During a full interruption test, the team takes down the primary site and confirms that the disaster recovery site is capable of handling regular operations. The full interruption test is the most thorough test but also the most disruptive.
+
 95.	D. DDoS prevents all these things except for data integrity. DDoS only prevents communication; it does not usually result in modified data.
+
 96.	C. Health and human safety is a paramount goal of security; all facilities must have multiple emergency egress points. All the other options are distractors as they are included in option C.
+
 97.	B. Because VMs don’t take updates when they are not in use (snapshotted and saved as image files) and updates may be pushed while the VMs are saved, it’s important to ensure that they receive updates when they are next instantiated. Systems may be configured to perform automatic updates.
 A	physical tracking mechanism won’t be of much aid for virtual devices because they aren’t physically stolen like hardware boxes, so option A is incorrect.
 Having an ACL in the image baseline would create a situation where every user from every cloud customer could access every VM in the datacenter; option C is incorrect.
@@ -844,10 +862,12 @@ Write protection is used in forensic analysis of machines (virtual or otherwise)
  
 98.	D. Performing live deception and trickery against employees of the cloud provider (or its suppliers/vendors) could be construed as unethical and possibly illegal, especially without their knowledge and/or consent. Social engineering probably won’t be involved in penetration tests run by customers.
 All the other options are legitimate activities a customer might perform during a penetration test (with provider permission).
+
 99.	D. Having the backup within the same environment can allow easy rollback to a last known good state or to reinstantiate clean VM images after minor incidents (e.g., a malware infection in certain VMs).
 Ease of compliance will not be determined by the location of the backup, so option A is incorrect.
 Traveling should not be a major cost for cloud usage; option B is incorrect.
 The location of the backups won’t have any effect on user training; option C is incorrect.
+
 100.	C. Event logging is essential for incident management and resolution; this can be set as an automated function of the CM tools.
 Not all systems need or can utilize biometrics; option A is incorrect.
 Usually, tampering refers to physical intrusion of a device; since the question is about VMs, it is probably not applicable. Option B is incorrect.
