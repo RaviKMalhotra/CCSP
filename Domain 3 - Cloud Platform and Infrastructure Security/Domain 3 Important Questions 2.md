@@ -4,77 +4,77 @@ B.	Power	feeds.
 C.	Power	distribution	units.  
 D.	Building	access	points.  
 
-### Question # 2 - Limits	within	a	cloud	environment	can	be	either	hard	limits	or	limitscapable	of	adjusting	to	current	demands	and	circumstances.	Which	of	the following	concepts	encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	value	changing?   
+### Question # 2 - Limits	 within 	a 	cloud	environment	can	be	either	hard	limits	or	limits capable	of	adjusting	 to	current	demands	 and	circumstances.	Which	of	the following	 concepts	 encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	 value	changing?   
 A.	Loaning.  
 B.	Borrowing.  
 C.	Adapting.  
 D.	Scaling.  
 
-### Question # 3 - When	dealing	with	a	cloud	environment	that	has	resource	pooling	andmultitenancy,	a	cloud	customer	may	want	contractual	assurances	that sufficient	resources	to	start	and	operate	their	services	will	always	be available.	What	is	this	type	of	assurance	called?   
+### Question # 3 - When 	dealing 	with	a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer 	may	want	contractual	assurances	that sufficient	resources	 to	 start	 and	operate	 their 	services	will	always	be available.	What	is	this	type	of	assurance	 called?   
 A.	Limit. 
 B.	Reservation. 
 C.	Share. 
 D.	Guarantee. 
 
-### Question # 4 - A	BCDR	plan	has	several	different	types	of	operations	and	majorcomponents.	Which	of	the	following	is	the	most	often	overlooked	part	of the	overall	process,	both	in	testing	and	in	planning?
-A.	Recovery	of	services
-B.	Change	management	processes
-C.	Staff	availability	and	demands
-D.	Restoration	of	services
+### Question # 4 - A	BCDR	plan	has	several	different	 types	of	operations	and	major components.	Which	of	the	following 	is	the 	most	often	 overlooked	part	of the	overall	process,	both	in	testing 	and	in	planning?   
+A.	Recovery	of	services.  
+B.	Change	management	processes.  
+C.	Staff	 availability	and 	demands.  
+D.	Restoration	of	services.  
 
-### Question # 5 - What	concept	allows	users	or	support	staff	to	change	some	networkconfigurations	without	having	access	to	the	actual	networking	hardware and	administrative	interfaces?
-A.	Logical	networks
-B.	VLANs
-C.	Broad	network	access
-D.	Software-defined	networking
+### Question # 5 - What	concept 	allows	users	 or	support 	staff	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative 	interfaces?  
+A.	Logical	networks.  
+B.	VLANs.  
+C.	Broad	 network	access.  
+D.	Software-defined	 networking.  
 
-### Question # 6 - Within	a	federated	identity	system,	which	entity	takes	the	response	from the	identity	provider	and	processes	it	to	determine	the	authentication	and authorization	properties	of	the	user?
-A.	Service	provider
-B.	Service	party
-C.	Relying	party
-D.	Application	provider
+### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?  
+A.	Service	 provider. 
+B.	Service	 party. 
+C.	Relying	 party. 
+D.	Application	provider. 
 
-### Question # 7 - Which	cloud	storage	method	utilizes	a	key	value	to	access	data	from	anapplication	or	client?
-A.	Object
-B.	Volume
-C.	Structured
-D.	Unstructured
+### Question # 7 - Which	cloud	 storage	method	utilizes	a 	key	value	to	access	data	from	anapplication	or	client?  
+A.	Object.  
+B.	Volume.  
+C.	Structured.  
+D.	Unstructured.  
 
-### Question # 8 - 	Which	of	the	following	is	the	most	prominent	potential	problem	point	withobject	storage	for	systems	that	have	high	data	reading	and	writing dependencies?
-A.	Integrity	of	objects
-B.	Replication	of	objects
-C.	Size	of	objects
-D.	Number	of	objects
+### Question # 8 - 	Which	 of	the	following	is	the	 most	 prominent	potential	 problem	point	 with object	storage	for	systems	that	have	high	data	reading 	and	 writing dependencies?  
+A.	Integrity	of	objects.  
+B.	Replication	of	objects.  
+C.	Size	of	objects.   
+D.	Number	of	objects.  
 
-### 9.	When	system	resource	utilization	is	experiencing	heavy	demand,	possiblynearing	the	overall	full	capacity	of	the	cloud	environment,	which	of	the following	concepts	will	set	the	prioritization	as	to	which	virtual	hosts receive	the	requested	resources?
-A.	Reservations
-B.	Shares
-C.	Limits
-D.	Escrows
+### 9.	When	system	resource	utilization	is	experiencing	 heavy	demand,	possibly nearing	the	 overall	full	capacity	of	the 	cloud	environment,	which	of	the following	concepts	will	set	the 	prioritization 	as	to	which	virtual 	hosts receive	the	requested.  	resources?  
+A.	Reservations.  
+B.	Shares.  
+C.	Limits.  
+D.	Escrows.  
 
-### 10.	Which	concept	ensures	that	enough	resources	are	available	to	the	manytenants	within	a	cloud	environment	and	that	a	single	system,	service,	or customer	does	not	consume	too	many	resources?
-A.	Share
-B.	Reservation
-C.	Limit
-D.	Cap
+### 10.	Which	 concept	ensures	 that enough	resources 	are 	available 	to	the 	many tenants	 within 	a	 cloud	environment	and	that	a	single	system,	service,	or customer	does	not	consume 	too 	many	resources?   
+A.	Share. 
+B.	Reservation. 
+C.	Limit. 
+D.	Cap. 
 
-### 11.	One	of	the	most	crucial	metrics	for	a	BCDR	plan	is	how	long	it	takes	for services	to	be	restored	to	a	point	of	satisfaction	for	management.	Which metric	represents	this	point	and	value?
-A.	RTO
-B.	RPO
-C.	RSL
-D.	SRE
+### 11.	One	of	the	 most 	crucial 	metrics	 for	a	BCDR	plan	is	how 	long	it	takes	for services	to	be	restored	to	a	point 	of	satisfaction	for	management.	Which metric	represents	this	point	and	value?  
+A.	RTO. 
+B.	RPO.  
+C.	RSL.  
+D.	SRE.  
 
-### 12.	When	resource	limitations	surpass	the	thresholds	determined	by	the	cloudprovider	and	shares	need	to	be	invoked,	which	of	the	following	is	the driving	factor	for	the	determination	of	share	allocations?
-A.	Prioritization	weighting
-B.	Size	of	customer
-C.	Number	of	users
-D.	Costs	of	resources
+### 12.	When	resource	limitations	surpass	 the	thresholds	determined	by	the	cloud provider	and	shares	need	to	be	invoked,	which	of	the	following 	is	the driving	factor	for	the	determination	of	share 	allocations?
+A.	Prioritization 	weighting. 
+B.	Size	of	customer. 
+C.	Number	of	users. 
+D.	Costs	 of	resources. 
 
-### 13.	Which	metric	is	used	to	determine	whether	BCDR	objectives	have	beenmet	and	measures	the	percentage	of	production-level	restoration	required for	success?
-A.	RTO
-B.	RPO
-C.	RSL
-D.	SRE
+### 13.	Which 	metric	is	used	to	determine	whether	 BCDR	 objectives	have	been met	and	measures	the 	percentage	of	production-level	restoration	required for	success?  
+A.	RTO. 
+B.	RPO. 
+C.	RSL. 
+D.	SRE. 
 
 ### 14.	Cloud	environments	are	based	entirely	on	virtual	machines	and	virtualdevices,	and	those	images	are	also	in	need	of	storage	within	the environment.	What	type	of	storage	is	typically	used	for	virtual	images?
 A.	Volume
@@ -267,42 +267,51 @@ D.	When	the	image	is	offline 
 
 # ANSWERS - Comprehensive	Answers	and	Explanations
 
-### Question # 1 - 	Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?  
+### Question # 1 - 	Data	centers	 have	components	that	are 	either	internal	or	external redundancies.	Which	of	the	following	is	considered	an	internal.  redundancy?  
 A.	Generators. 
 B.	Power	feeds. 
 C.	Power	distribution	units. 
 D.	Building	access	points. 
 Answer: C.	
 
-Power	distribution	units	are	internal	to	a	data	center.	They	distribute power	to	racks,	internal	chillers,	and	any	other	internal	systems	that need	direct	power	feeds.	Because	they	are	completely	internal	to	the data	center,	they	are	considered	an	internal	redundancy.
+Power 	distribution	units	are	internal	to	a	data	center.	
+They	distribute power	to	racks,	internal	chillers,	and	any	other	internal	systems	that need	direct	power	feeds.	
+Because	they	are	completely	internal	to	the data	center,	they	are	considered	an	internal	redundancy.
 
-A	is	incorrect	because	generators	are	external	to	a	data	center	and provide	electrical	feeds	in	the	event	of	a	utility	outage.	Because	they sit	outside	of	the	data	center	and	feed	power	inward,	they	are considered	an	external	redundancy.
+A	is	incorrect	 because	generators	are	external	to	a	data	center	and provide	electrical	feeds	in	the	event	of	a 	utility	outage.
+Because 	they sit	outside	of	the	data	center	and	feed	power	inward,	they	are considered	an	external	redundancy.
 
-B	is	incorrect	because	power	feeds	come	from	external	utilities	or generators	and	send	electrical	power	into	the	data	center.	Because	they originate	from	outside	the	data	center,	they	are	considered	external redundancies.
+B	is	incorrect	 because	power	feeds	come	from	external	utilities	 or generators	 and	send	electrical	power	into	the	data	center.	
+Because	 they originate	from	outside	 the 	data	center,	they	are	considered	external redundancies.
 
-D	is	incorrect	because	building	access	points	provide	staff	access	to internal	layers	of	a	data	center	from	the	outside.	Because	they	provide external	access	to	the	data	center,	they	are	considered	external redundancies.
+D	is	incorrect 	because	 building 	access	points	provide 	staff	access	to internal	layers	of	a	data	center	from	the	outside.	Because	they	provide external	 access	to	the	data	center,	they	are	considered	external redundancies.
 
-### Question # 2 - Limits	within	a	cloud	environment	can	be	either	hard	limits	or	limitscapable	of	adjusting	to	current	demands	and	circumstances.	Which	of	the following	concepts	encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	value	changing?  
+### Question # 2 - Limits	 within	a	cloud	environment	can	 be 	either	hard	limits	or	limits capable	of	adjusting 	to	current	demands	 and	circumstances.	Which	of	the following 	concepts	encapsulates 	allowing	a	limit to	adjust	to	current circumstances,	without	 the	actual	limit	 value	changing?  
 A.	Loaning. 
 B.	Borrowing. 
 C.	Adapting. 
 D.	Scaling. 
 Answer: B.
 
-Limits	can	be	set	as	either	hard	or	flexible	within	a	cloud environment.	When	limits	are	flexible,	rather	than	adjusting	the	actual limits	when	it	is	necessary	to	exceed	them,	the	system	allows customers	or	other	systems	to	borrow	resources,	which	are	allocated to	the	customer	or	system	in	need.	This	maintains	the	actual	limit	in the	system	going	forward,	but	allows	for	temporary	expansion	under certain	circumstances.
+Limits	can	be	set	as	either	hard	or	flexible	within	a	cloud environment.	When	limits	are	flexible,	rather	than	adjusting	 the	actual limits	when	it	is	necessary	to	exceed	them,	the	system	allows customers	 or	other	systems	to	borrow	resources,	which 	are	allocated to	the	customer	or	system	in	need.	
+This	maintains 	the	 actual	 limit	in the	system	going	forward,	but	allows	for	temporary	expansion 	under certain	circumstances.
 
 A	is	incorrect	because	the	correct	term	is	borrowing,	not	loaning.
 
-C	is	incorrect	because	the	correct	term	is	borrowing,	not	adapting.  		D	is	incorrect	because	the	correct	term	is	borrowing,	not	scaling.
+C	is	incorrect	because	the	correct	term	is	borrowing,	not	adapting.  		
 
-### Question # 3 - When	dealing	with	a	cloud	environment	that	has	resource	pooling	andmultitenancy,	a	cloud	customer	may	want	contractual	assurances	that sufficient	resources	to	start	and	operate	their	services	will	always	be available.	What	is	this	type	of	assurance	called?   
+D	is	incorrect	because	the	correct	term	is	borrowing,	not	scaling.
+
+### Question # 3 - When	 dealing	 with	 a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer	 may	want	contractual	assurances	that sufficient	resources	 to	start 	and	 operate	their	services	will	always	be available.	What	is	this	type	of	assurance 	called?   
 A.	Limit. 
 B.	Reservation. 
 C.	Share.  
 D.	Guarantee.  
 Answer: B.
 
-A	reservation	is	a	minimum	resource	level	guaranteed	to	a	customer within	a	cloud	environment.	A	reservation	can	pertain	to	the	two	main aspects	of	computing:	memory	and	processing.	With	a	reservation	in place,	a	cloud	customer	is	guaranteed	by	the	cloud	provider	to	always have	at	minimum	the	necessary	resources	available	to	power	on	and operate	any	of	its	services.	In	large	cloud	environments	with numerous	customers,	this	feature	can	be	of	particular	importance	in the	case	of	denial	of	service	attacks	or	high	utilization	of	resources	by other	hosts	and	systems	because	it	offers	a	guaranteed	minimum	level of	operations	to	all	customers.
+A	reservation	is	a 	minimum	 resource 	level	guaranteed	to	a	customer within	a	cloud	environment.
+A	reservation	can	 pertain	to	the	two	 main aspects	 of	computing:	memory	and	processing.	With	a	reservation	in place,	a	cloud	customer	is	guaranteed	by	the	cloud	provider	to	always have	at	minimum	the	necessary	resources	 available	to	power	on	and operate	 any	of	its	 services.	
+In	large	 cloud	environments	with numerous	customers,	this	feature	 can	be	of	particular	importance	in the	case	of	denial	of	service	attacksv	or	high	utilization	of	resources 	by other 	hosts	 and	systems	 because	it	offers	a	guaranteed	 minimum	 level of	operations	to	all	customers.
 
 A	is	incorrect	because	limits	are	put	in	place	to	enforce	the	maximum allowable	utilization	of	memory	or	processing	by	a	cloud	customer. These	limits	can	be	done	at	either	the	virtual	machine	level	or	a comprehensive	level	for	a	customer.	They	are	meant	to	ensure	that enormous	cloud	resources	cannot	be	allocated	to	or	consumed	by	a single	host	or	customer	to	the	detriment	of	other	hosts	and	customers.
 Along	with	cloud	computing	features	such	as	auto-scaling	and	ondemand	self-service,	limits	can	be	either	hard	(or	fixed)	or	flexible and	allowed	to	change	dynamically.	Typically,	when	limits	are allowed	to	change	dynamically	based	on	current	conditions	and consumption,	it	is	done	by	“borrowing”	additional	resources	rather through	a	change	to	the	actual	limits	themselves.
@@ -311,11 +320,11 @@ C	is	incorrect	because	the	concept	of	shares	within	a	cloud environment	is	used	
 
 D	is	incorrect	because	although	the	term	guarantee	sounds	similar	in concept	to	reservation,	it	is	not	the	correct	term	being	asked	for	by	the question.
 
-### Question # 4 - A	BCDR	plan	has	several	different	types	of	operations	and	major components.	Which	of	the	following	is	the	most	often	overlooked	part	of the	overall	process,	both	in	testing	and	in	planning?
-A.	Recovery	of	services
-B.	Change	management	processes
-C.	Staff	availability	and	demands
-D.	Restoration	of	services
+### Question # 4 - A	BCDR	plan	has	several	different	 types	of	operations	and 	major components.	Which	of	the	following	is	the 	most	often 	overlooked	part	of the	overall	process,	both	in	testing 	and 	in	planning?  
+A.	Recovery	of	services. 
+B.	Change	management 	processes. 
+C.	Staff 	availability 	and 	demands. 
+D.	Restoration	of	services. 
 Answer: D.	
 
 Once	a	BCDR	event	has	concluded,	and	the	regular	data	center	and hosting	resources	are	available	again,	it	is	crucial	to	conduct	an orderly	return	to	normal	operations.	Although	BCDR	plans	tend	to	be very	detailed	and	thoroughly	tested	for	moving	production	operations to	a	recovery	site,	the	same	level	of	detail	and	testing	is	often	not performed	for	returning	services	to	normal	operations.	With	this oversight,	an	organization	can	be	left	incurring	substantial	delays, costs,	or	even	potentially	downtime	returning	its	data	and	services	to their	normal	operating	state.
@@ -326,7 +335,7 @@ B	is	incorrect	because	most	BCDR	planning	does	a	good	job	of ensuring	that	chang
  	
 C	is	incorrect	because	the	availability	of	staff	and	the	demands	placed upon	them	are	tightly	coupled	with	the	restoration	of	services,	and	as such	would	not	be	overlooked.
 
-### Question # 5 - What	concept	allows	users	or	support	staff	to	change	some	networkconfigurations	without	having	access	to	the	actual	networking	hardware and	administrative	interfaces?  
+### Question # 5 - What	concept 	allows	users	 or	support 	staff	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative	interfaces?  
 A.	Logical	networks. 
 B.	VLANs. 
 C.	Broad	network	access. 
@@ -342,14 +351,16 @@ B	is	incorrect	because	virtual	local	area	networks	(VLANs)	are	the same	concept	
  
 C	is	incorrect	because	broad	network	access	refers	to	cloud	computing being	available	over	the	public	Internet	rather	than	using	the	internal or	private	networks	typically	associated	with	a	traditional	data	center, but	it	does	not	pertain	to	the	administration	of	networks.
 
-### Question # 6 - Within	a	federated	identity	system,	which	entity	takes	the	response	fromthe	identity	provider	and	processes	it	to	determine	the	authentication	and authorization	properties	of	the	user?  
-A.	Service	provider. 
-B.	Service	party.  
-C.	Relying	party. 
+### [important] Question # 6 - Within 	a	federated	 identity 	system,	which	 entity	 takes	 the	response	from the	 identity	 provider 	and	processes 	it	to	determine	 the	authentication 	and authorization	properties	of	the	user?  
+A.	Service 	provider. 
+B.	Service 	party.  
+C.	Relying	 party. 
 D.	Application	provider.  
 Answer: C.	
 
-During	the	authentication	process,	the	identity	provider	sends certain	predetermined	attributes	about	the	user	to	the	relying	party. The	relying	party	then	uses	this	information	(name,	location,	job	title, and	so	on)	to	determine	the	appropriate	level	and	type	of	access	to grant,	or	whether	to	grant	access	at	all.	The	relying	party,	even	in	a federated	system,	makes	this	determination	because	it	is	tied	to	the actual	application,	and	it	makes	the	decisions	based	on	the	policies, requirements,	or	regulations	of	the	data	being	accessed.
+**During	the 	authentication	 process,	the	identity	provider	sends certain	predetermined	attributes 	about	 the	user	to	the	relying	 party.** 
+**The	relying 	party	then	uses	this	information	(name,	location,	job	title, and	so	on)	to	determine	 the	appropriate	level 	and	 type	of	access	to grant,	or	whether	to	grant	access	at	all.**
+The	relying 	party,	even	in	a federated	system,	makes	 this	 determination	 because	it	is	tied	to	the actual	application,	and	it	makes 	the 	decisions	 based	on	the 	policies, requirements,	or	regulations	of	the	data	being	accessed.
  	
 A	is	incorrect	because	service	provider,	although	it	is	often	used	in	the same	way	as	the	term	relying	party,	is	not	the	correct	term	that	is universally	used	in	this	case.
  	
@@ -357,7 +368,7 @@ B	is	incorrect	because	service	party	sounds	similar	to	the	term	relying party	bu
  	
 D	is	incorrect	because	application	provider	sounds	similar	to	the	term relying	party	but	is	not	the	correct	term	in	this	case.
 
-### Question # 7 - 	Which	cloud	storage	method	utilizes	a	key	value	to	access	data	from	anapplication	or	client?  
+### Question # 7 - 	Which	cloud	storage	method	utilizes	a	key	value	to	access	data	from	an application	or	client?  
 A.	Object.  
 B.	Volume.  
 C.	Structured.  
@@ -371,7 +382,7 @@ C	is	incorrect	because	structured	storage	resembles	a	database paradigm,	with	de
  
 D	is	incorrect	because	unstructured	storage	is	used	for	supporting	and auxiliary	files	in	conjunction	with	structured	storage,	but	it	does	not use	key	values	in	the	same	sense	as	object	storage	does.
 
-### Question # 8 - Which	of	the	following	is	the	most	prominent	potential	problem	point	withobject	storage	for	systems	that	have	high	data	reading	and	writing dependencies?  
+### Question # 8 - Which	of	the	following 	is	the 	most	prominent	 potential	 problem	point	 with object	storage 	for	 systems	that	have	high	data	reading	 and	 writing dependencies?  
 A.	Integrity	of	objects.   
 B.	Replication	of	objects. 
 C.	Size	of	objects. 
