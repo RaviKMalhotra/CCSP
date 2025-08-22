@@ -1,20 +1,20 @@
 ### Question # 1 - Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?  
-A.	Generators. 
-B.	Power	feeds.  
+A.	Generators.     
+B.	Power	feeds.    
 C.	Power	distribution	units.  
 D.	Building	access	points.  
 
 ### Question # 2 - Limits	 within 	a 	cloud	environment	can	be	either	hard	limits	or	limits capable	of	adjusting	 to	current	demands	 and	circumstances.	Which	of	the following	 concepts	 encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	 value	changing?   
 A.	Loaning.  
 B.	Borrowing.  
-C.	Adapting.  
+C.	Adaptin g.  
 D.	Scaling.  
 
-### Question # 3 - When 	dealing 	with	a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer 	may	want	contractual	assurances	that sufficient	resources	 to	 start	 and	operate	 their 	services	will	always	be available.	What	is	this	type	of	assurance	 called?   
-A.	Limit. 
-B.	Reservation. 
-C.	Share. 
-D.	Guarantee. 
+### Question # 3 - When 	dealing 	with	a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer 	may	want	contractual	assurances	that sufficient	resources	 to	 start	 and	operate	 their 	services	will	always	be available.	What	is	this	type	of	assurance	 called?      
+A.	Limit.     
+B.	Reservation.      
+C.	Share.     
+D.	Guarantee.      
 
 ### Question # 4 - A	BCDR	plan	has	several	different	 types	of	operations	and	major components.	Which	of	the	following 	is	the 	most	often	 overlooked	part	of the	overall	process,	both	in	testing 	and	in	planning?   
 A.	Recovery	of	services.  
@@ -64,166 +64,168 @@ B.	RPO.
 C.	RSL.  
 D.	SRE.  
 
-### 12.	When	resource	limitations	surpass	 the	thresholds	determined	by	the	cloud provider	and	shares	need	to	be	invoked,	which	of	the	following 	is	the driving	factor	for	the	determination	of	share 	allocations?
-A.	Prioritization 	weighting. 
-B.	Size	of	customer. 
-C.	Number	of	users. 
-D.	Costs	 of	resources. 
+### 12.	When	resource	limitations	surpass	 the	thresholds	determined	by	the	cloud provider	and	shares	need	to	be	invoked,	which	of	the	following 	is	the driving	factor	for	the	determination	of	share 	allocations?     
+A.	Prioritization 	weighting.     
+B.	Size	of	customer.    
+C.	Number	of	users.     
+D.	Costs	 of	resources.     
 
-### 13.	Which 	metric	is	used	to	determine	whether	 BCDR	 objectives	have	been met	and	measures	the 	percentage	of	production-level	restoration	required for	success?  
-A.	RTO. 
-B.	RPO. 
-C.	RSL. 
-D.	SRE. 
+### 13.	Which 	metric	is	used	to	determine	whether	 BCDR	 objectives	have	been met	and	measures	the 	percentage	of	production-level	restoration	required for	success?       
+A.	RTO.      
+B.	RPO.     
+C.	RSL.     
+D.	SRE.      
 
-### 14.	Cloud	environments	are	based	entirely	on	virtual	machines	and	virtualdevices,	and	those	images	are	also	in	need	of	storage	within	the environment.	What	type	of	storage	is	typically	used	for	virtual	images?
-A.	Volume
-B.	Structured
-C.	Unstructured
-D.	Object
+### 14.	Cloud	environments	are	based	entirely	on	virtual	machines	and	virtualdevices,	and	those	images	are	also	in	need	of	storage	within	the environment.	What	type	of	storage	is	typically	used	for	virtual	images?       
+A.	Volume     
+B.	Structured      
+C.	Unstructured     
+D.	Object     
 
-### 15.	An	organization	could	have	many	reasons	that	are	common	throughoutthe	industry	to	activate	a	BCDR	situation.	Which	of	the	following	is	NOT a	typical	reason	to	activate	a	BCDR	plan?
-A.	Natural	disaster
-B.	Utility	outage
-C.	Staff	loss
-D.	Terrorist	attack
+### 15.	An	organization	could	have	many	reasons	that	are	common	throughoutthe	industry	to	activate	a	BCDR	situation.	Which	of	the	following	is	NOT a	typical	reason	to	activate	a	BCDR	plan?     
+A.	Natural	disaster    
+B.	Utility	outage      
+C.	Staff	loss       
+D.	Terrorist	attack       
 
-### 16.	What	type	of	system	is	exposed	to	the	public	Internet	but	to	maintain security	is	designed	to	perform	just	a	specific	function	and	has	security controls	and	monitoring	in	place	specifically	focused	on	that	capability?
-A.	Honeypot
-B.	Bastion
-C.	WAF
-D.	VPN
+### 16.	What	type	of	system	is	exposed	to	the	public	Internet	but	to	maintain security	is	designed	to	perform	just	a	specific	function	and	has	security controls	and	monitoring	in	place	specifically	focused	on	that	capability?       
+A.	Honeypot     
+B.	Bastion      
+C.	WAF      
+D.	VPN       
 
-### 17.	Which	concept	provides	an	acceptable	level	of	assurance	that	anindividual	or	entity	is	in	fact	whom	they	claim	to	be?
-A.	Identification
-B.	Authentication
-C.	Authorization
-D.	Integrity
+### 17.	Which	concept	provides	an	acceptable	level	of	assurance	that	anindividual	or	entity	is	in	fact	whom	they	claim	to	be?      
+A.	Identification     
+B.	Authentication     
+C.	Authorization      
+D.	Integrity        
 
-### 18.	A	federated	identity	system	is	composed	of	three	main	components.Which	of	the	following	is	NOT	one	of	the	three	main	components?
-A.	Identity	provider
-B.	User
-C.	Relying	party
-D.	API
+### 18.	A	federated	identity	system	is	composed	of	three	main	components.Which	of	the	following	is	NOT	one	of	the	three	main	components?         
+A.	Identity	provider     
+B.	User      
+C.	Relying	party    
+D.	API      
 
-### 19.	Measured	service	is	a	very	attractive	aspect	of	cloud	computing	for	anorganization	looking	for	BCDR	solutions	because	it	will	keep	costs	down. Which	of	the	following	is	also	a	key	aspect	of	cloud	computing	that	can make	BCDR	situations	easier	in	a	cloud	environment	than	in	a	traditional data	center?
-A.	Broad	network	access
-B.	Resource	pooling
-C.	Multitenancy
-D.	Reversibility
+### 19.	Measured	service	is	a	very	attractive	aspect	of	cloud	computing	for	anorganization	looking	for	BCDR	solutions	because	it	will	keep	costs	down. Which	of	the	following	is	also	a	key	aspect	of	cloud	computing	that	can make	BCDR	situations	easier	in	a	cloud	environment	than	in	a	traditional data	center?      
+A.	Broad	network	access      
+B.	Resource	pooling      
+C.	Multitenancy       
+D.	Reversibility       
 
-### 20.	With	PaaS,	which	strategy	is	most	commonly	used	for	the	deployment	ofoperating	system	patches?
-A.	Scripts
-B.	Reimaging
-C.	Customer	administration
-D.	APIs
+### 20.	With	PaaS,	which	strategy	is	most	commonly	used	for	the	deployment	ofoperating	system	patches?     
+A.	Scripts     
+B.	Reimaging     
+C.	Customer	administration     
+D.	APIs       
 
-### 21.	During	a	system	or	application	audit,	which	of	the	following	populations will	be	the	most	important	driver	of	the	audit	and	testing?
-A.	Regulators
-B.	Management
-C.	Shareholders
-D.	Users
+### 21.	During	a	system	or	application	audit,	which	of	the	following	populations will	be	the	most	important	driver	of	the	audit	and	testing?     
+A.	Regulators     
+B.	Management      
+C.	Shareholders      
+D.	Users      
 
-### 22.	A	primary	focus	during	a	BCDR	situation	is	for	systems	and	applicationsto	meet	an	acceptable	level	of	operations.	Which	value	represents	this status? A.		RTO
-B.	RPO
-C.	RSL
-D.	SRE
+### 22.	A	primary	focus	during	a	BCDR	situation	is	for	systems	and	applicationsto	meet	an	acceptable	level	of	operations.	Which	value	represents	this status?      
+A.	RTO      
+B.	RPO       
+C.	RSL       
+D.	SRE         
 
-### 23.	A	variety	of	limits	can	be	set	within	a	cloud	environment.	Which	of	thefollowing	is	NOT	a	unit	where	a	limit	can	be	set?
-A.	Customer
-B.	Application
-C.	Virtual	machine
-D.	Hypervisor
+### 23.	A	variety	of	limits	can	be	set	within	a	cloud	environment.	Which	of	thefollowing	is	NOT	a	unit	where	a	limit	can	be	set?       
+A.	Customer        
+B.	Application       
+C.	Virtual	machine       
+D.	Hypervisor       
 
-### 24.	Which	of	the	following	capabilities	would	NOT	be	covered	by	a reservation	within	a	cloud	environment?
-A.	Running	applications
-B.	Starting	virtual	machines
-C.	Auto-scaling
-D.	Performing	normal	business	operations
+### 24.	Which	of	the	following	capabilities	would	NOT	be	covered	by	a reservation	within	a	cloud	environment?      
+A.	Running	applications    
+B.	Starting	virtual	machines     
+C.	Auto-scaling      
+D.	Performing	normal	business	operations         
 
-### 25.	Without	the	ability	to	segregate	networks	physically	within	a	cloudenvironment,	what	concept	is	heavily	used	for	network	isolation	and segmentation?
-A.	WAN
-B.	VLAN
-C.	LAN
-D.	Firewalls
+### 25.	Without	the	ability	to	segregate	networks	physically	within	a	cloudenvironment,	what	concept	is	heavily	used	for	network	isolation	and segmentation?        
+A.	WAN       
+B.	VLAN         
+C.	LAN         
+D.	Firewalls        
 
-### 26.	Under	the	guidance	of	industry-accepted	best	practices,	which	of	thefollowing	is	the	correct	frequency	for	BCDR	plan	testing?
-A.	Annually
-B.	Monthly
-C.	Quarterly
-D.	Bi-annually
+### 26.	Under	the	guidance	of	industry-accepted	best	practices,	which	of	thefollowing	is	the	correct	frequency	for	BCDR	plan	testing?      
+A.	Annually      
+B.	Monthly     
+C.	Quarterly      
+D.	Bi-annually      
 
-### 27.	Software-defined	networking	(SDN)	is	intended	to	separate	differentnetwork	capabilities	and	allow	for	the	granting	of	granular	configurations, permissions,	and	features	to	non-network	staff	or	customers.	Which network	capability	is	separated	from	forwarding	of	traffic?
-A.	Routing
-B.	Firewalling
-C.	Filtering
-D.	IPS
+### 27.	Software-defined	networking	(SDN)	is	intended	to	separate	differentnetwork	capabilities	and	allow	for	the	granting	of	granular	configurations, permissions,	and	features	to	non-network	staff	or	customers.	Which network	capability	is	separated	from	forwarding	of	traffic?       
+A.	Routing       
+B.	Firewalling       
+C.	Filtering       
+D.	IPS       
 
-### 28.	Different	storage	paradigms	within	a	cloud	environment	handleformatting,	allocation,	and	security	controls	differently.	What	handles these	aspects	for	volume	storage?
-A.	Operating	system	of	host
-B.	Hypervisor
-C.	Management	plane
-D.	Storage	host
+### 28.	Different	storage	paradigms	within	a	cloud	environment	handleformatting,	allocation,	and	security	controls	differently.	What	handles these	aspects	for	volume	storage?      
+A.	Operating	system	of	host       
+B.	Hypervisor      
+C.	Management	plane      
+D.	Storage	host      
 
-### 29.	Which	aspect	of	cloud	computing	would	be	most	negatively	impacted	byincurring	vendor	lock-in	with	a	cloud	provider?
-A.	Interoperability
-B.	Reversibility
-C.	Portability
-D.	Scalability
+### 29.	Which	aspect	of	cloud	computing	would	be	most	negatively	impacted	byincurring	vendor	lock-in	with	a	cloud	provider?       
+A.	Interoperability      
+B.	Reversibility       
+C.	Portability       
+D.	Scalability        
 
-### 30.	A	denial	of	service	(DoS)	attack	can	potentially	impact	all	customerswithin	a	cloud	environment	with	the	continued	allocation	of	additional resources.	Which	of	the	following	can	be	useful	for	a	customer	to	protect themselves	from	a	DoS	attack	against	another	customer?
-A.	Limits
-B.	Reservations
-C.	Shares
-D.	Borrows
+### 30.	A	denial	of	service	(DoS)	attack	can	potentially	impact	all	customerswithin	a	cloud	environment	with	the	continued	allocation	of	additional resources.	Which	of	the	following	can	be	useful	for	a	customer	to	protect themselves	from	a	DoS	attack	against	another	customer?      
+A.	Limits      
+B.	Reservations       
+C.	Shares        
+D.	Borrows       
 
-### 31.	What	aspect	of	a	Type	2	hypervisor	involves	additional	security	concernsthat	are	not	relevant	with	a	Type	1	hypervisor?
-A.	Reliance	on	a	host	operating	system
-B.	Proprietary	software
-C.	Programming	languages
-D.	Auditing
+### 31.	What	aspect	of	a	Type	2	hypervisor	involves	additional	security	concernsthat	are	not	relevant	with	a	Type	1	hypervisor?        
+A.	Reliance	on	a	host	operating	system      
+B.	Proprietary	software       
+C.	Programming	languages       
+D.	Auditing       
 
-### 32.	A	common	strategy	employed	when	using	cloud	services	for	BCDR strategies	is	to	only	maintain	images	offline	at	the	cloud	provider,	or	to only	have	a	minimal	set	of	systems	running	until	needed.	With	the strategy	of	only	running	a	minimal	level	of	systems	until	needed,	which aspect	of	cloud	computing	would	be	most	beneficial	during	an	actual BCDR	situation?
-A.	Resource	pooling
-B.	Measured	service
-C.	Rapid	elasticity
-D.	Broad	network	access
+### 32.	A	common	strategy	employed	when	using	cloud	services	for	BCDR strategies	is	to	only	maintain	images	offline	at	the	cloud	provider,	or	to only	have	a	minimal	set	of	systems	running	until	needed.	With	the strategy	of	only	running	a	minimal	level	of	systems	until	needed,	which aspect	of	cloud	computing	would	be	most	beneficial	during	an	actual BCDR	situation?         
+A.	Resource	pooling      
+B.	Measured	service        
+C.	Rapid	elasticity     
+D.	Broad	network	access      
 
-### 33.	With	volume	storage,	a	slice	of	storage	space	is	allocated	to	a	system	tobe	used	in	whatever	manner	is	necessary	for	that	particular	system	and	its requirements.	What	is	this	slice	of	storage	referred	to	as?
-A.	LAN
-B.	LUN
-C.	Partition
-D.	Allocation
+### 33.	With	volume	storage,	a	slice	of	storage	space	is	allocated	to	a	system	tobe	used	in	whatever	manner	is	necessary	for	that	particular	system	and	its requirements.	What	is	this	slice	of	storage	referred	to	as?      
+A.	LAN      
+B.	LUN      
+C.	Partition       
+D.	Allocation       
 
-### 34.	Although	cloud	storage	systems	will	ultimately	be	consumed	by	cloudcustomers	or	users	from	a	logical	configuration,	what	are	the	two	types	of underlying	physical	storage	systems	most	used	with	cloud	computing?
-A.	RAID	and	SAN
-B.	SAN	and	iSCSI
-C.	SCSI	and	RAID
-D.	iSCSI	and	RAID
+### 34.	Although	cloud	storage	systems	will	ultimately	be	consumed	by	cloudcustomers	or	users	from	a	logical	configuration,	what	are	the	two	types	of underlying	physical	storage	systems	most	used	with	cloud	computing?        
+A.	RAID	and	SAN     
+B.	SAN	and	iSCSI     
+C.	SCSI	and	RAID      
+D.	iSCSI	and	RAID      
+ 
+### 35.	Although	performing	BCDR	tests	at	regular	intervals	is	a	best	practice	toensure	processes	and	documentation	are	still	relevant	and	efficient,	which of	the	following	represents	a	reason	to	conduct	a	BCDR	review	outside	of the	regular	interval?       
+A.		Staff	changes     
+B.	Application	changes     
+C.	Regulatory	changes    
+D.	Management	changes    
 
-### 35.	Although	performing	BCDR	tests	at	regular	intervals	is	a	best	practice	toensure	processes	and	documentation	are	still	relevant	and	efficient,	which of	the	following	represents	a	reason	to	conduct	a	BCDR	review	outside	of the	regular	interval? A.		Staff	changes
-B.	Application	changes
-C.	Regulatory	changes
-D.	Management	changes
+### 36.	When	an	organization	is	considering	the	use	of	a	cloud	provider	as	part	ofits	BCDR	strategy,	which	of	the	following	is	most	important	to	consider from	a	security	perspective?    
+A.	Auditing    
+B.	Network	access    
+C.	Jurisdiction      
+D.	Resource	pooling      
 
-### 36.	When	an	organization	is	considering	the	use	of	a	cloud	provider	as	part	ofits	BCDR	strategy,	which	of	the	following	is	most	important	to	consider from	a	security	perspective?
-A.	Auditing
-B.	Network	access
-C.	Jurisdiction
-D.	Resource	pooling
+### 37.	Why	does	the	use	of	a	Type	2	hypervisor	typically	incur	more	security concerns	than	a	Type	1	hypervisor?     
+A.	A	Type	2	hypervisor	is	always	exposed	to	the	public	Internet	forfederated	identity	access.    
+B.	A	Type	2	hypervisor	allows	users	to	directly	perform	some	functions     
+with	their	own	access.    
+C.	A	Type	2	hypervisor	runs	on	top	of	an	operating	system	and	isdependent	on	the	security	of	that	OS	for	its	own	security.       
+D.	A	Type	2	hypervisor	is	open	source,	so	attackers	can	more	easily	findexploitable	vulnerabilities.     
 
-### 37.	Why	does	the	use	of	a	Type	2	hypervisor	typically	incur	more	security concerns	than	a	Type	1	hypervisor?
-A.	A	Type	2	hypervisor	is	always	exposed	to	the	public	Internet	forfederated	identity	access.
-B.	A	Type	2	hypervisor	allows	users	to	directly	perform	some	functions
-with	their	own	access.
-C.	A	Type	2	hypervisor	runs	on	top	of	an	operating	system	and	isdependent	on	the	security	of	that	OS	for	its	own	security.
-D.	A	Type	2	hypervisor	is	open	source,	so	attackers	can	more	easily	findexploitable	vulnerabilities.
-
-### 38.	When	is	a	system	hosted	in	a	virtualized	environment	vulnerable	but	NOT vulnerable	on	a	physical	server?
-A.	During	patching
-B.	During	maintenance
-C.	During	change	windows
-D.	When	the	image	is	offline 
+### 38.	When	is	a	system	hosted	in	a	virtualized	environment	vulnerable	but	NOT vulnerable	on	a	physical	server?     
+A.	During	patching    
+B.	During	maintenance     
+C.	During	change	windows     
+D.	When	the	image	is	offline     
 
 # QUICK	ANSWER	KEY
 1.	C
