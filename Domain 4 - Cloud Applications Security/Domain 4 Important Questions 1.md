@@ -13,11 +13,11 @@ The **ONF** lists all the controls **used in all the applications within an orga
 And each **ANF** lists the **particular controls used in each application the organization has**. 
 Standard Application Security is a made-up term therefore options C and D are incorrect.
 
-### Question # 2 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.
-A. Many
-B. Three
-C. No
-D. One
+### Question # 2 - According to ISO 27034, there is one Organizational Normative Framework (ONF) in the organization, and _______________ Application Normative Framework (ANF[s]) for each application within that organization.    
+A. Many    
+B. Three    
+C. No    
+D. One     
 Answer: D. 
 
 Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
