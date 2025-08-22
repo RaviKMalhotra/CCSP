@@ -4,219 +4,221 @@ B.	DAST
 C.	Pen    
 D.	RASP    
 
-### Question # 2 - An	employee	of	your	company	submitted	a	security	ticket	claiming	that	hewas	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?
-A.	Missing	function-level	access	control
-B.	Security	misconfiguration
-C.	Sensitive	data	exposure
-D.	Unvalidated	redirects	and	forwards
+### Question # 2 - An	employee	of	your	company	submitted	a	security	ticket	claiming	that	hewas	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?    
+A.	Missing	function-level	access	control    
+B.	Security	misconfiguration    
+C.	Sensitive	data	exposure     
+D.	Unvalidated	redirects	and	forwards     
 
-### Question # 3 - Where	would	be	the	most	appropriate	location	for	an	XML	firewall	withina	system	architecture?
-A.	Between	the	presentation	and	application	layers
-B.	Between	the	application	and	data	layers
-C.	Between	the	firewalls	and	application	servers
-D.	Before	the	firewalls
+### Question # 3 - Where	would	be	the	most	appropriate	location	for	an	XML	firewall	withina	system	architecture?    
+A.	Between	the	presentation	and	application	layers    
+B.	Between	the	application	and	data	layers     
+C.	Between	the	firewalls	and	application	servers    
+D.	Before	the	firewalls    
 
-### Question # 4 - When	you	are	changing	to	a	different	data	center	for	a	disaster	recoveryscenario,	which	of	the	following	could	pose	a	challenge	to	the authentication	systems	over	a	geographic	distance?
-A.	Regulations
-B.	Latency
-C.	Redundancy
-D.	Interoperability
+### Question # 4 - When	you	are	changing	to	a	different	data	center	for	a	disaster	recoveryscenario,	which	of	the	following	could	pose	a	challenge	to	the authentication	systems	over	a	geographic	distance?     
+A.	Regulations    
+B.	Latency     
+C.	Redundancy     
+D.	Interoperability    
 
-### Question # 5 - Which	type	of	testing	involves	externally	attacking	the	security	of	asystem	but	without	actually	attempting	to	alter	systems	or	fully	execute malicious	actions?
-A.	DAST
-B.	SAST
-C.	Pen
-D.	RASP
+### Question # 5 - Which	type	of	testing	involves	externally	attacking	the	security	of	asystem	but	without	actually	attempting	to	alter	systems	or	fully	execute malicious	actions?      
+A.	DAST    
+B.	SAST     
+C.	Pen     
+D.	RASP    
 
-### Question # 6 - A	common	strategy	to	mitigate	costs	when	using	a	cloud	solution	for disaster	recovery	is	to	leave	images	offline	at	the	DR	provider	and	only turn	them	on	when	needed.	Which	of	the	following	would	be	the	least significant	concern	with	this	approach?
-A.	Integrity
-B.	Patching
-C.	Confidentiality
-D.	Reversibility
+### Question # 6 - A	common	strategy	to	mitigate	costs	when	using	a	cloud	solution	for disaster	recovery	is	to	leave	images	offline	at	the	DR	provider	and	only turn	them	on	when	needed.	Which	of	the	following	would	be	the	least significant	concern	with	this	approach?     
+A.	Integrity    
+B.	Patching    
+C.	Confidentiality     
+D.	Reversibility      
 
-### Question # 7 - Which	stage	of	the	BCDR	process	takes	into	account	the	RPO	and	RTOrequirements	set	forth	by	management	and	stakeholders?
-A.	Gathering	requirements
-B.	Define	scope
-C.	Analyze
-D.	Implement
+### Question # 7 - Which	stage	of	the	BCDR	process	takes	into	account	the	RPO	and	RTOrequirements	set	forth	by	management	and	stakeholders?            
+A.	Gathering	requirements    
+B.	Define	scope    
+C.	Analyze     
+D.	Implement     
 
-### Question # 8 - Which	of	the	following	threats	from	the	OWASP	Top	Ten	is	the	mostdifficult	for	an	organization	to	protect	against?
-A.	Advanced	persistent	threats
-B.	Account	hijacking
-C.	Malicious	insiders
-D.	Denial	of	service
+### Question # 8 - Which	of	the	following	threats	from	the	OWASP	Top	Ten	is	the	mostdifficult	for	an	organization	to	protect	against?        
+A.	Advanced	persistent	threats    
+B.	Account	hijacking    
+C.	Malicious	insiders   
+D.	Denial	of	service    
 
-### Question # 9 - You	have	been	tasked	by	management	to	run	security	tests	against	anapplication	using	the	same	toolsets	and	methodologies	that	a	legitimate attacker	would	use,	including	actually	attempting	to	leverage	successful exploits.	Which	type	of	testing	would	this	entail?
-A.	Dynamic	application	security	testing 
-B.	Penetration	testing
-C.	Simulation	testing
-D.	Static	application	security	testing
+### Question # 9 - You	have	been	tasked	by	management	to	run	security	tests	against	anapplication	using	the	same	toolsets	and	methodologies	that	a	legitimate attacker	would	use,	including	actually	attempting	to	leverage	successful exploits.	Which	type	of	testing	would	this	entail?        
+A.	Dynamic	application	security	testing           
+B.	Penetration	testing         
+C.	Simulation	testing    
+D.	Static	application	security	testing    
 
-### Question # 10 - Which	of	the	following	types	of	threats	is	focused	on	compromising	theclient	rather	than	the	server	or	application	itself?
-A.	Cross-site	scripting
-B.	Insecure	direct	object	references
-C.	Injection
-D.	Cross-site	request	forgery
+### Question # 10 - Which	of	the	following	types	of	threats	is	focused	on	compromising	theclient	rather	than	the	server	or	application	itself?    
+A.	Cross-site	scripting     
+B.	Insecure	direct	object	references    
+C.	Injection    
+D.	Cross-site	request	forgery   
 
-### Question # 11 - Which	concept	refers	to	the	ability	to	validate	and	prove	that	a	specific entity	did	not	perform	operations	on	a	system?
-A.	Repudiation
-B.	Validation
-C.	Integrity
-D.	Authentication
+### Question # 11 - Which	concept	refers	to	the	ability	to	validate	and	prove	that	a	specific entity	did	not	perform	operations	on	a	system?    
+A.	Repudiation    
+B.	Validation     
+C.	Integrity    
+D.	Authentication    
 
-### Question # 12 - Which	of	the	following	software	applications	is	not	a	utility	for	managingcode	or	system	configurations?
-A.	Puppet
-B.	Chef
-C.	Shibboleth
-D.	GitHub
+### Question # 12 - Which	of	the	following	software	applications	is	not	a	utility	for	managingcode	or	system	configurations?     
+A.	Puppet     
+B.	Chef     
+C.	Shibboleth     
+D.	GitHub    
 
-### Question # 13 - During	an	incident	investigation	from	a	suspected	breach,	it	wasdiscovered	that	some	application	code	contained	the	names	of	underlying databases	and	systems	that	were	able	to	be	read	by	the	attacker.	What	type of	vulnerability	does	this	best	represent?
-A.	Injection
-B.	Sensitive	data	exposure
-C.	Security	misconfigurations
-D.	Insecure	direct	object	references
+### Question # 13 - During	an	incident	investigation	from	a	suspected	breach,	it	wasdiscovered	that	some	application	code	contained	the	names	of	underlying databases	and	systems	that	were	able	to	be	read	by	the	attacker.	What	type of	vulnerability	does	this	best	represent?    
+A.	Injection     
+B.	Sensitive	data	exposure    
+C.	Security	misconfigurations    
+D.	Insecure	direct	object	references   
 
-### Question # 14 - What	standard	is	used	between	different	entities	within	a	federated	systemto	exchange	information	about	authentication	and	user	attributes?
-A.	SAML
-B.	XML
-C.	HTML
-D.	TLS
+### Question # 14 - What	standard	is	used	between	different	entities	within	a	federated	systemto	exchange	information	about	authentication	and	user	attributes?  
+A.	SAML     
+B.	XML     
+C.	HTML     
+D.	TLS    
 
-### Question # 15 - Which	concept	is	often	used	to	isolate	and	separate	information	orprocesses	within	an	environment	for	either	security	concerns	or	regulatory requirements? A.		Virtualization
-B.	Segregation
-C.	Sandboxing
-D.	Honeypots
+### Question # 15 - Which	concept	is	often	used	to	isolate	and	separate	information	orprocesses	within	an	environment	for	either	security	concerns	or	regulatory requirements?    
+A.		Virtualization         
+B.	Segregation      
+C.	Sandboxing     
+D.	Honeypots     
 
-### Question # 16 - Which	type	of	threat	is	often	used	in	conjunction	with	phishing	attemptsand	is	often	viewed	as	greatly	increasing	the	likeliness	of	success?
-A.	Unvalidated	redirects	and	forwards
-B.	Cross-site	request	forgery
-C.	Cross-site	scripting
-D.	Insecure	direct	object	references
+### Question # 16 - Which	type	of	threat	is	often	used	in	conjunction	with	phishing	attemptsand	is	often	viewed	as	greatly	increasing	the	likeliness	of	success? 
+A.	Unvalidated	redirects	and	forwards    
+B.	Cross-site	request	forgery     
+C.	Cross-site	scripting    
+D.	Insecure	direct	object	references       
 
-### Question # 17 - What	is	the	primary	security	mechanism	used	to	protect	SOAP	and	RESTAPIs?
-A.	Firewalls
-B.	XML	firewalls
-C.	Encryption
-D.	WAFs
+### Question # 17 - What	is	the	primary	security	mechanism	used	to	protect	SOAP	and	RESTAPIs?     
+A.	Firewalls     
+B.	XML	firewalls    
+C.	Encryption     
+D.	WAFs       
 
-### Question # 18 - Which	type	of	testing	tends	to	produce	the	best	and	most	comprehensiveresults	for	discovering	system	vulnerabilities?
-A.	Static
-B.	Dynamic
-C.	Pen
-D.	Vulnerability
+### Question # 18 - Which	type	of	testing	tends	to	produce	the	best	and	most	comprehensiveresults	for	discovering	system	vulnerabilities?     
+A.	Static    
+B.	Dynamic    
+C.	Pen     
+D.	Vulnerability     
 
-### Question # 19 - Which	of	the	following	represents	the	R	component	of	the	DREAD	threat risk	modeling	system?
-A.	Reproducibility
-B.	Repudiation
-C.	Redundancy
-D.	Reversibility
+### Question # 19 - Which	of	the	following	represents	the	R	component	of	the	DREAD	threat risk	modeling	system?     
+A.	Reproducibility     
+B.	Repudiation    
+C.	Redundancy     
+D.	Reversibility    
 
-### Question # 20 - During	a	periodic	or	specific	testing	of	a	BCDR	plan,	which	of	thefollowing	pairs	of	objectives	is	the	main	metric	used	for	the	overall evaluation	of	the	plan?
-A.	RPO	and	SRE
-B.	RSL	and	RTO
-C.	RTO	and	RPO
-D.	ARO	and	RSL
+### Question # 20 - During	a	periodic	or	specific	testing	of	a	BCDR	plan,	which	of	thefollowing	pairs	of	objectives	is	the	main	metric	used	for	the	overall evaluation	of	the	plan?     
+A.	RPO	and	SRE    
+B.	RSL	and	RTO    
+C.	RTO	and	RPO     
+D.	ARO	and	RSL     
 
-### Question # 21 - Which	of	the	following	options	would	be	possible,	in	conjunction	with	aUSB	drive,	to	fulfill	an	application’s	multifactor	authentication requirements? A.		RFID	chip	card
-B.	Password
-C.	RSA	token
-D.	Access	card
+### Question # 21 - Which	of	the	following	options	would	be	possible,	in	conjunction	with	aUSB	drive,	to	fulfill	an	application’s	multifactor	authentication requirements?     
+A.		RFID	chip	card     
+B.	Password     
+C.	RSA	token    
+D.	Access	card     
 
-### Question # 22 - Which	of	the	following	types	of	organizations	is	most	likely	to	make	use of	open	source	software	technologies?
-A.	Government	agencies
-B.	Corporations
-C.	Universities
-D.	Military
+### Question # 22 - Which	of	the	following	types	of	organizations	is	most	likely	to	make	use of	open	source	software	technologies?     
+A.	Government	agencies     
+B.	Corporations     
+C.	Universities     
+D.	Military     
 
-### Question # 23 - Which	component	consumes	assertions	from	identity	providers	and	makesa	determination	as	to	whether	to	grant	access,	and	at	what	level,	if applicable	to	a	user? A.		Service	party
-B.	Application	provider
-C.	Service	broker
-D.	Relying	party
+### Question # 23 - Which	component	consumes	assertions	from	identity	providers	and	makesa	determination	as	to	whether	to	grant	access,	and	at	what	level,	if applicable	to	a	user? A.		Service	party    
+B.	Application	provider    
+C.	Service	broker    
+D.	Relying	party     
 
-### Question # 24 - Which	of	the	following	choices	represents	the	D	component	of	the STRIDE	threat	model	from	OWASP?
-A.	Data	loss
-B.	Data	breach
-C.	Denial	of	service
-D.	Disclosure
+### Question # 24 - Which	of	the	following	choices	represents	the	D	component	of	the STRIDE	threat	model	from	OWASP?    
+A.	Data	loss    
+B.	Data	breach    
+C.	Denial	of	service   
+D.	Disclosure     
 
-### Question # 25 - Many	organizations	will	have	different	environments	for	developmentversus	production,	even	using	different	cloud	providers	or	different systems	between	the	two.	Which	of	the	following	would	be	the	BEST reason	to	have	both	production	systems	and	development	systems	hosted within	the	same	cloud	environment?
-A.	Operating	systems
-B.	VPN	access
-C.	Storage	systems
-D.	APIs
+### Question # 25 - Many	organizations	will	have	different	environments	for	developmentversus	production,	even	using	different	cloud	providers	or	different systems	between	the	two.	Which	of	the	following	would	be	the	BEST reason	to	have	both	production	systems	and	development	systems	hosted within	the	same	cloud	environment?      
+A.	Operating	systems     
+B.	VPN	access     
+C.	Storage	systems                 
+D.	APIs        
 
-### Question # 26 - It	was	discovered	that	an	attacker	was	able	to	send	properly	formattedSQL	code	through	your	web	application	in	order	to	obtain	the	entire schema	of	the	underlying	database.	What	type	of	attack	does	this	best represent? A.		Injection
-B.	Sensitive	data	exposure
-C.	Security	misconfiguration
-D.	Insecure	direct	object	references
+### Question # 26 - It	was	discovered	that	an	attacker	was	able	to	send	properly	formattedSQL	code	through	your	web	application	in	order	to	obtain	the	entire schema	of	the	underlying	database.	What	type	of	attack	does	this	best represent?     
+A.		Injection     
+B.	Sensitive	data	exposure     
+C.	Security	misconfiguration      
+D.	Insecure	direct	object	references     
 
-### Question # 27 - Your	application	has	been	a	continued	target	for	SQL	injection	attempts. Which	of	the	following	technologies	would	be	best	used	to	combat	the likeliness	of	a	successful	SQL	injection	exploit	from	occurring?
-A.	XML	accelerator
-B.	WAF
-C.	Sandbox
-D.	Firewall
+### Question # 27 - Your	application	has	been	a	continued	target	for	SQL	injection	attempts. Which	of	the	following	technologies	would	be	best	used	to	combat	the likeliness	of	a	successful	SQL	injection	exploit	from	occurring?     
+A.	XML	accelerator     
+B.	WAF     
+C.	Sandbox     
+D.	Firewall      
 
-### Question # 28 - A	federated	identity	system	is	composed	of	two	main	components.	Whichof	the	following	pairs	represents	the	correct	two	components?
-A.	Identity	provider	and	relying	party
-B.	Authentication	provider	and	service	provider
-C.	Identity	provider	and	relying	provider
-D.	Single	sign-on	and	application
+### Question # 28 - A	federated	identity	system	is	composed	of	two	main	components.	Whichof	the	following	pairs	represents	the	correct	two	components?      
+A.	Identity	provider	and	relying	party     
+B.	Authentication	provider	and	service	provider      
+C.	Identity	provider	and	relying	provider      
+D.	Single	sign-on	and	application      
 
-### Question # 29 - Which	concept	involves	the	ability	for	a	system	to	respond	to	attackmethods	being	used	against	it	and	automatically	alter	security configurations	and	countermeasures	to	compensate	for	them?
-A.	DAST
-B.	Pen
-C.	RASP
-D.	SAST
+### Question # 29 - Which	concept	involves	the	ability	for	a	system	to	respond	to	attackmethods	being	used	against	it	and	automatically	alter	security configurations	and	countermeasures	to	compensate	for	them?       
+A.	DAST   
+B.	Pen    
+C.	RASP    
+D.	SAST     
 
-### Question # 30 - What	type	of	testing	runs	known	attacks	and	signatures	against	a	systemto	determine	a	risk	rating	based	upon	discovered	weaknesses?
-A.	Vulnerability	scanning
-B.	Pen	testing
-C.	Baseline	scanning
-D.	Compliance	scanning
+### Question # 30 - What	type	of	testing	runs	known	attacks	and	signatures	against	a	systemto	determine	a	risk	rating	based	upon	discovered	weaknesses?     
+A.	Vulnerability	scanning     
+B.	Pen	testing     
+C.	Baseline	scanning     
+D.	Compliance	scanning     
 
-### Question # 31 - With	cloud	systems	making	exclusive	use	of	broad	network	access,	whichtechnology	is	commonly	used	for	support	personnel	to	access	systems	for maintenance	and	administration?
-A.	IPSec
-B.	TLS
-C.	SSH
-D.	VPN
+### Question # 31 - With	cloud	systems	making	exclusive	use	of	broad	network	access,	whichtechnology	is	commonly	used	for	support	personnel	to	access	systems	for maintenance	and	administration?     
+A.	IPSec     
+B.	TLS     
+C.	SSH    
+D.	VPN     
 
-### Question # 32 - What	type	of	device	is	often	leveraged	to	assist	legacy	applications	that may	not	have	the	programmatic	capability	to	process	assertions	from modern	web	services? A.		Web	application	firewall
-B.	XML	accelerator
-C.	Relying	party
-D.	XML	firewall
+### Question # 32 - What	type	of	device	is	often	leveraged	to	assist	legacy	applications	that may	not	have	the	programmatic	capability	to	process	assertions	from modern	web	services? A.		Web	application	firewall     
+B.	XML	accelerator    
+C.	Relying	party    
+D.	XML	firewall     
 
-### Question # 33 -  At	which	phase	of	the	SDLC	process	should	security	begin	participating?
-A.	Requirements	gathering
-B.	Requirements	analysis
-C.	Design
-D.	Testing
+### Question # 33 -  At	which	phase	of	the	SDLC	process	should	security	begin	participating?    
+A.	Requirements	gathering    
+B.	Requirements	analysis     
+C.	Design    
+D.	Testing    
 
-### Question # 34 - Which	of	the	following	is	NOT	part	of	the	OWASP	Top	Ten	list	of	critical web	application	security	risks?
-A.	Injection
-B.	Sensitive	data	exposure
-C.	Insecure	direct	object	references
-D.	User	ID	and	password	authentication	schemes
+### Question # 34 - Which	of	the	following	is	NOT	part	of	the	OWASP	Top	Ten	list	of	critical web	application	security	risks?     
+A.	Injection    
+B.	Sensitive	data	exposure     
+C.	Insecure	direct	object	references     
+D.	User	ID	and	password	authentication	schemes       
 
-### Question # 35 - What	type	of	identity	system	allows	trust	and	verifications	between	theauthentication	systems	of	multiple	organizations?
-A.	Federated
-B.	Collaborative
-C.	Integrated
-D.	Bidirectional
+### Question # 35 - What	type	of	identity	system	allows	trust	and	verifications	between	theauthentication	systems	of	multiple	organizations?     
+A.	Federated     
+B.	Collaborative     
+C.	Integrated      
+D.	Bidirectional     
 
-### Question # 36 - It	is	vital	during	the	initial	requirements	gathering	for	a	new	project	orapplication	to	include	all	the	pertinent	stakeholders	who	will	both	drive the	requirements	and	determine	whether	the	critical	success	factors	have been	achieved.	Which	of	the	following	would	NOT	be	a	key	stakeholder to	include	during	these	initial	stages?
-A.	Developers
-B.	Management
-C.	Security
-D.	Users
+### Question # 36 - It	is	vital	during	the	initial	requirements	gathering	for	a	new	project	orapplication	to	include	all	the	pertinent	stakeholders	who	will	both	drive the	requirements	and	determine	whether	the	critical	success	factors	have been	achieved.	Which	of	the	following	would	NOT	be	a	key	stakeholder to	include	during	these	initial	stages?       
+A.	Developers     
+B.	Management     
+C.	Security     
+D.	Users      
 
-### Question # 37 - The	Simple	Object	Access	Protocol	(SOAP)	allows	programs	from different	environments	or	platforms	to	communicate	seamlessly	with	each other	over	HTTP.	If	you	are	using	SOAP,	which	data	format	are	you	using for	information	exchange?       
+### Question # 37 - The	Simple	Object	Access	Protocol	(SOAP)	allows	programs	from different	environments	or	platforms	to	communicate	seamlessly	with	each other	over	HTTP.	If	you	are	using	SOAP,	which	data	format	are	you	using for	information	exchange?         
 A.	SAML    
 B.	XML     
 C.	JSON     
 D.	HTML    
 
-### Question # 38 - Single	sign-on	systems	work	by	authenticating	users	from	a	centralizedlocation	or	using	a	centralized	method,	and	then	allowing	applications	that trust	the	system	to	grant	those	users	access.	What	would	be	passed between	the	authentication	system	and	the	applications	to	grant	a	user      
-access?     
+### Question # 38 - Single	sign-on	systems	work	by	authenticating	users	from	a	centralizedlocation	or	using	a	centralized	method,	and	then	allowing	applications	that trust	the	system	to	grant	those	users	access.	What	would	be	passed between	the	authentication	system	and	the	applications	to	grant	a	user access?     
 A. 	Ticket      
 B.	Certificate    
 C.	Credential     
