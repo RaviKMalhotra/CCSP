@@ -238,7 +238,7 @@ Using only known secure libraries and components in software design **may slow d
 
 All the other options are security controls that will degrade performance because they require additional overhead; these options are incorrect.
 
-### Question # 23 - The possibility that a user could gain access or control of an application so as to take on administrator or management capabilities is called _______________.  
+### Question # 23 - The possibility that a user could gain access or control of an application so as to take on administrator or management capabilities is called.  _______________.  
 A. Inversion  
 B. Spoofing  
 C. Repudiation  
@@ -308,15 +308,19 @@ The question is which is the “most” secure form of code testing and review. 
 Answer: B. 
 
 This is the textbook definition of these terms. All the other options are incorrect answers.
-	29. Access should be based on _______________.
+
+### Question # 29. Access should be based on _______________.  
 		A. Regulatory mandates
 		B. Business needs and acceptable risk
 		C. User requirements and management requests
 		D. Optimum performance and security provision
-Answer:
-B. Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
+
+Answer: B. 
+
+Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
 This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
-	30. Who should determine which users have access to which specific objects?
+	
+### 30. Who should determine which users have access to which specific objects?
 		A. The cloud provider
 		B. Senior management
 		C. Data owners
@@ -326,14 +330,16 @@ C. The data owner is responsible for the disposition of the data under their con
 The cloud provider is not typically the data owner; option A is incorrect.
 Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
 System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
-	31. All of the following are identity federation standards commonly found in use today except _______________.
+	
+31. All of the following are identity federation standards commonly found in use today except _______________.
 		A. WS-Federation
 		B. OpenID
 		C. OAuth (Open Authorization)
 		D. Pretty Good Privacy (PGP)
 Answer:
 D. PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
-	32. Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?
+	
+32. Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?
 		A. WS-Federation
 		B. OpenID Connect
 		C. Service Organization Control (SOC) 2
@@ -343,7 +349,8 @@ B. OpenID Connect is a federation protocol that uses representational state tran
 WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A is incorrect.
 Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
 OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
-	33. Authentication mechanisms typically include any or all of the following except _______________.
+	
+33. Authentication mechanisms typically include any or all of the following except _______________.
 		A. Something you know
 		B. Someone you know
 		C. Something you have
@@ -351,7 +358,8 @@ OWASP is a volunteer group of and for web app developers, not a federation stand
 Answer:
 B. Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
 All the other options are typical authentication mechanisms and so are incorrect.
-	34. Which of the following constitutes a multifactor authentication process or procedure?
+	
+34. Which of the following constitutes a multifactor authentication process or procedure?
 		A. Using an automated teller machine (ATM) to get cash with your credit or debit card
 		B. Using a password and personal identification number (PIN) to log into a website
 		C. Presenting a voice sample and fingerprint to access a secure facility
@@ -361,7 +369,8 @@ A. At the ATM, the customer will use the card (something you have) and enter a P
 A password and PIN are both something you know, so option B is incorrect.
 Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
-	35. Typically, multifactor authentication should be used _______________.
+	
+35. Typically, multifactor authentication should be used _______________.
 		A. In every IT transaction
 		B. For high-risk operations and data that is particularly sensitive
 		C. When remote users are logging into the cloud environment
@@ -371,7 +380,8 @@ B. Multifactor authentication should be considered for operations that have a si
 Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra overhead, so option A is incorrect.
 All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C is incorrect.
 The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place in the traditional or online environment, so option D is incorrect.
-	36. A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
+	
+36. A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
 		A. 2
 		B. 3
 		C. 7
