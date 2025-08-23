@@ -350,78 +350,94 @@ Answer: D.
 
 PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
 	
-### Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?  
-A. WS-Federation. 
-B. OpenID Connect. 
-C. Service Organization Control (SOC) 2. 
-D. Open Web Application Security Project (OWASP). 
-Answer: B. 
+### Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?     
+A. WS-Federation.    
+B. OpenID Connect.    
+C. Service Organization Control (SOC) 2.   
+D. Open Web Application Security Project (OWASP).    
+Answer: B.     
 
 OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation.
 WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A is incorrect.
+
 Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
 OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
 	
-### Question # 33 - Authentication mechanisms typically include any or all of the following except _______________.  
-A. Something you know. 
-B. Someone you know. 
-C. Something you have. 
-D. Something you are. 
-Answer: B. 
+### Question # 33 - Authentication mechanisms typically include any or all of the following except _______________.    
+A. Something you know.   
+B. Someone you know.   
+C. Something you have.    
+D. Something you are.      
+Answer: B.   
 
 Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
 All the other options are typical authentication mechanisms and so are incorrect.
 	
-### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?     
-A. Using an automated teller machine (ATM) to get cash with your credit or debit card. 
-B. Using a password and personal identification number (PIN) to log into a website. 
-C. Presenting a voice sample and fingerprint to access a secure facility. 
-D. Displaying a birth certificate and a credit card. 
+### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?          
+A. Using an automated teller machine (ATM) to get cash with your credit or debit card.   
+
+B. Using a password and personal identification number (PIN) to log into a website.
+ 
+C. Presenting a voice sample and fingerprint to access a secure facility.      
+
+D. Displaying a birth certificate and a credit card.    
+
 Answer: A. 
 
 At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
-A password and PIN are both something you know, so option B is incorrect.
-Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
+A password and PIN are both something you know, 
+
+so option B is incorrect.
+Using a voice sample and fingerprint are two forms of something you are, 
+
+so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
 	
-### Question # 35 - Typically, multifactor authentication should be used _______________.   
-A. In every IT transaction. 
-B. For high-risk operations and data that is particularly sensitive. 
-C. When remote users are logging into the cloud environment. 
-D. Only in the traditional environment. 
-Answer: B. 
+### Question # 35 - Typically, multifactor authentication should be used _______________.      
+A. In every IT transaction.   
+B. For high-risk operations and data that is particularly sensitive.   
+C. When remote users are logging into the cloud environment.    
+D. Only in the traditional environment.     
+Answer: B.    
 
 Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
+
 Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra overhead, so option A is incorrect.
+
 All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C is incorrect.
+
 The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place in the traditional or online environment, so option D is incorrect.
 	
 ### Question # 36 - A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.   
 A. 2.  
-B. 3.  
-C. 7.  
-D. Q.  
-Answer: C. 
+B. 3.     
+C. 7.      
+D. Q.     
+Answer: C.     
 
 A WAF is a Layer 7 tool.
 All the other options are incorrect.
 
-### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.  
+### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.     
 	A. Malicious. 
-	B. Simple Mail Transfer Protocol (SMTP). 
-	C. Internet Control Message Protocol (ICMP). 
+	B. Simple Mail Transfer Protocol (SMTP).    
+	C. Internet Control Message Protocol (ICMP).    
 	D. Hypertext Transfer Protocol (HTTP).  
-Answer: D. 
+Answer: D.    
 
 WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
-Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, and D is a much better response for this question.
+
+Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, 
+
+and D is a much better response for this question.
+
 Options B and C are protocols not usually inspected by WAFs and are therefore incorrect.
 	
-### Question # 38 - WAFs can be used to reduce the likelihood that _______________ attacks will be successful.  
-A. Social engineering. 
-B. Physical theft. 
-C. Obverse inflection. 
-D. Cross-site scripting. 
+### Question # 38 - WAFs can be used to reduce the likelihood that _______________ attacks will be successful.    
+A. Social engineering.    
+B. Physical theft.   
+C. Obverse inflection.   
+D. Cross-site scripting.   
 Answer: D. 
 
 WAFs can be used to attenuate the possibility that cross-site scripting attacks will be successful.
@@ -438,22 +454,24 @@ Answer: C.
 A DAM is a Layer 7 tool.
 All the other options are incorrect.
 	
-### Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.   
-A. SQL injection. 
-B. Cross-site scripting. 
-C. Insecure direct-object reference. 
-D. Social engineering. 
-Answer: A. 
+### Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.     
+A. SQL injection.   
+B. Cross-site scripting.   
+C. Insecure direct-object reference.   
+D. Social engineering.   
+Answer: A.   
 
 DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
-DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, so options B, C, and D are incorrect.
+DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, 
+
+so options B, C, and D are incorrect.
 	
-### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?  
-A. Web application firewall (WAF). 
-B. Database activity monitor (DAM). 
-C. Extensible Markup Language (XML).   gateway.  
-D. Single sign-on (SSO).  
-Answer: C. 
+### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?    
+A. Web application firewall (WAF).   
+B. Database activity monitor (DAM).   
+C. Extensible Markup Language (XML).   gateway.    
+D. Single sign-on (SSO).    
+Answer: C.   
 
 The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
 The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
