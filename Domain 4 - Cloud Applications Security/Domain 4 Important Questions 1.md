@@ -249,11 +249,11 @@ This is the definition of escalation of privilege (sometimes referred to as “e
 Inversion is a nonsense term in this context and just a distractor.
 Options B and C are threat modeling elements but are not correct answers for this question.
 	
-### Question # 24 - Which of the following is not checked when using the STRIDE threat model?   
-A. The ability of users to gain administrative access rights without proper permission. 
-B. The ability of internal personnel to trigger business continuity/disaster recovery activities. 
-C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction. 
-D. The ability of an unauthorized user to pretend to be an authorized user. 
+### Question # 24 - Which of the following is not checked when using the STRIDE threat model?     
+A. The ability of users to gain administrative access rights without proper permission.   
+B. The ability of internal personnel to trigger business continuity/disaster recovery activities.   
+C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction.   
+D. The ability of an unauthorized user to pretend to be an authorized user.   
 Answer: B   
 
 **The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.**
@@ -281,7 +281,7 @@ All the other options are untrue and therefore cannot be the correct answer. For
 A. Young programmers are not nearly as disciplined in their coding practices as older programmers. 
 B. Some current programmers don’t write code line by line and instead use code component libraries.  
 C. Coding languages have not been secure for 20 years. 
-D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC). 
+D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC).   
 Answer: B.   
 
 Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
