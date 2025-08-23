@@ -955,7 +955,7 @@ This is a security question, and option D addresses performance; this is incorre
 ### Question # 89. You are the security manager for an online retail sales company with 100 employees and a production environment hosted in a platform as a service (PaaS) model with a major cloud provider. According to your company policies, personnel are allowed to work equally from the company offices and their own homes or other locations, using their personal IT devices. The policies also allow users to select which application programming interfaces (APIs) they install and use on their own devices in order to access and manipulate company data. Of the following, what is a security control you’d like to implement to offset the risk(s) incurred by this practice?    
 A. Regular and widespread integrity checks on sampled data throughout the managed environment     
 B. More extensive and granular background checks on all employees, particularly new hires     
-C. Inclusion of references to all applicable regulations in the policy documents     
+C. Inclusion of references to all applicable regulations in the policy documents.     
 D. Increased enforcement of separation of duties for all workflows      
 Answer: A.    
 
@@ -1064,21 +1064,21 @@ Answer: C.
 
 WAFs apply rulesets to web traffic, which uses HTTP. All the other answers are incorrect.
 
-### Question # 100. Web application firewalls and database activity monitors function at levels _______________ and _______________ of the Open Systems Interconnection (OSI) model, respectively.     
-A. 1 and 7    
-B. 7 and 1    
-C. 7 and 7   
-D. 3 and 4    
-Answer: C.   
+### Question # 100. Web application firewalls and database activity monitors function at levels _______________ and _______________ of the Open Systems Interconnection (OSI) model, respectively.          
+A. 1 and 7.      
+B. 7 and 1.      
+C. 7 and 7.    
+D. 3 and 4.     
+Answer: C.     
 
 These are both Layer 7 tools. All the other answers are incorrect.
 
 ### Question # 101. What can tokenization be used for?     
-A. Encryption    
-B. Compliance with the Payment Card Industry Data Security Standard (PCI DSS)     
-C. Enhancing the user experience    
-D. Giving management oversight to e-commerce functions    
-Answer: B. 
+A. Encryption.     
+B. Compliance with the Payment Card.  Industry Data Security Standard (PCI DSS).     
+C. Enhancing the user experience.  
+D. Giving management oversight to e-commerce functions.      
+Answer: B.    
 
 Aside from encryption, PCI DSS allows for tokenization as a means to protect account and cardholder data at rest.
 Tokenization is not encryption; there is no encryption engine and no key involved in the process. Option A is incorrect.
@@ -1097,10 +1097,10 @@ The data owner is the merchants themselves, and the data subject is the person t
 The PCI Council is the body that promulgates and enforces the PCI DSS; they will not process data on behalf of any merchant. Option D is incorrect.
 
 ### Question # 103. Which of the following is an example of useful and sufficient data masking of the string “CCSP”?    
-A. XCSP    
-B. PSCC    
-C. TtLp    
-D. 3X91    
+A. XCSP.    
+B. PSCC.     
+C. TtLp.     
+D. 3X91.     
 Answer: C.    
 
 This answer requires some thought about how the original data is displayed and its properties.
@@ -1157,7 +1157,7 @@ Options C and D are incorrect because the inclusion of security aspects in softw
 A. The National Institute of Standards and Technology (NIST) 800-37     
 B. The American Institute of Certified Public Accountants (AICPA)      
 C. ISO 27034     
-D. The Health Insurance Portability and Accountability Act (HIPAA)     
+D. The Health Insurance Portability and Accountability Act (HIPAA)       
 Answer: C.     
 
 ISO 27034 addresses the sets of controls used in software throughout the environment.
