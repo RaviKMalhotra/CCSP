@@ -320,7 +320,7 @@ Answer: B.
 Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
 This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
 	
-### 30. Who should determine which users have access to which specific objects?  
+### Question # 30 - Who should determine which users have access to which specific objects?  
 A. The cloud provider. 
 B. Senior management. 
 C. Data owners. 
@@ -332,7 +332,7 @@ The cloud provider is not typically the data owner; option A is incorrect.
 Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
 System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
 	
-### 31. All of the following are identity federation standards commonly found in use today except _______________.  
+### Question # 31 - All of the following are identity federation standards commonly found in use today except _______________.  
 A. WS-Federation. 
 B. OpenID. 
 C. OAuth (Open Authorization). 
@@ -341,7 +341,7 @@ Answer: D.
 
 PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
 	
-32. Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?
+### Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?  
 A. WS-Federation. 
 B. OpenID Connect. 
 C. Service Organization Control (SOC) 2. 
@@ -353,11 +353,11 @@ WS-Federation is a federation protocol that is part of the WS-Security family of
 Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
 OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
 	
-### 33. Authentication mechanisms typically include any or all of the following except _______________.
-A. Something you know
-B. Someone you know
-C. Something you have
-D. Something you are
+### Question # 33 - Authentication mechanisms typically include any or all of the following except _______________.  
+A. Something you know. 
+B. Someone you know. 
+C. Something you have. 
+D. Something you are. 
 Answer: B. 
 
 Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
@@ -375,7 +375,7 @@ A password and PIN are both something you know, so option B is incorrect.
 Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
 	
-### 35. Typically, multifactor authentication should be used _______________.   
+### Question # 35 - Typically, multifactor authentication should be used _______________.   
 A. In every IT transaction. 
 B. For high-risk operations and data that is particularly sensitive. 
 C. When remote users are logging into the cloud environment. 
@@ -387,7 +387,7 @@ Requiring multifactor authentication for every transaction is an undue burden on
 All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C is incorrect.
 The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place in the traditional or online environment, so option D is incorrect.
 	
-### 36. A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.   
+### Question # 36 - A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.   
 A. 2.  
 B. 3.  
 C. 7.  
@@ -397,7 +397,7 @@ Answer: C.
 A WAF is a Layer 7 tool.
 All the other options are incorrect.
 
-### 37. A web application firewall (WAF) can understand and act on _______________ traffic.  
+### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.  
 	A. Malicious. 
 	B. Simple Mail Transfer Protocol (SMTP). 
 	C. Internet Control Message Protocol (ICMP). 
@@ -407,108 +407,135 @@ Answer: D.
 WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
 Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, and D is a much better response for this question.
 Options B and C are protocols not usually inspected by WAFs and are therefore incorrect.
-	38. WAFs can be used to reduce the likelihood that _______________ attacks will be successful.
-		A. Social engineering
-		B. Physical theft
-		C. Obverse inflection
-		D. Cross-site scripting
-Answer:
-D. WAFs can be used to attenuate the possibility that cross-site scripting attacks will be successful.
+	
+### Question # 38 - WAFs can be used to reduce the likelihood that _______________ attacks will be successful.  
+A. Social engineering. 
+B. Physical theft. 
+C. Obverse inflection. 
+D. Cross-site scripting. 
+Answer: D. 
+
+WAFs can be used to attenuate the possibility that cross-site scripting attacks will be successful.
 WAFs do not protect against social engineering or physical attacks in any way, so options A and B are incorrect.
 Option C is a nonsense term and is therefore incorrect.
-	39. A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
-		A. 2
-		B. 3
-		C. 7
-		D. Q
-Answer:
-C. A DAM is a Layer 7 tool.
+	
+### Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.  
+A. 2. 
+B. 3. 
+C. 7. 
+D. Q. 
+Answer: C. 
+
+A DAM is a Layer 7 tool.
 All the other options are incorrect.
-	40. Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.
-		A. SQL injection
-		B. Cross-site scripting
-		C. Insecure direct-object reference
-		D. Social engineering
-Answer:
-A. DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
+	
+### Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.   
+A. SQL injection. 
+B. Cross-site scripting. 
+C. Insecure direct-object reference. 
+D. Social engineering. 
+Answer: A. 
+
+DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
 DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, so options B, C, and D are incorrect.
-	41. Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?
-		A. Web application firewall (WAF)
-		B. Database activity monitor (DAM)
-		C. Extensible Markup Language (XML) gateway
-		D. Single sign-on (SSO)
-Answer:
-C. The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
+	
+### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?  
+A. Web application firewall (WAF). 
+B. Database activity monitor (DAM). 
+C. Extensible Markup Language (XML).   gateway.  
+D. Single sign-on (SSO).  
+Answer: C. 
+
+The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
 The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
 Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
-	42. To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.
-		A. Extensible Markup Language (XML) gateway
-		B. Application programming interface (API) gateway
-		C. Web application firewall (WAF)
-		D. Database activity monitor (DAM)
-Answer:
-B. An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
+	
+### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.   
+A. Extensible Markup Language (XML) gateway. 
+B. Application programming interface (API) gateway. 
+C. Web application firewall (WAF). 
+D. Database activity monitor (DAM). 
+Answer: B. 
+
+An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
 XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
-	43. Firewalls can detect attack traffic by using all these methods except _______________.
-		A. Known past behavior in the environment
-		B. Identity of the malicious user
-		C. Point of origination
-		D. Signature matching
-Answer:
-B. While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the attacker doesn’t usually share.
+	
+### Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.  
+A. Known past behavior in the environment. 
+B. Identity of the malicious user. 
+C. Point of origination. 
+D. Signature matching. 
+Answer: B. 
+
+While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the attacker doesn’t usually share.
 All the other options are methods firewalls can use to recognize attacks.
-	44. Transport Layer Security (TLS) provides _______________ and _______________ for communications.
-		A. Privacy, security
-		B. Security, optimization
-		C. Privacy, integrity
-		D. Enhancement, privacy
-Answer:
-C. TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
+	
+### Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.  
+A. Privacy, security. 
+B. Security, optimization. 
+C. Privacy, integrity. 
+D. Enhancement, privacy. 
+Answer: C. 
+
+TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
 In this context, privacy and security mean much the same thing; privacy is synonymous with confidentiality, which is a subset of the overall topic of security. Therefore, option A is repetitive and not correct.
 TLS does not optimize performance or add any sort of enhancement, so options B and D are incorrect.
-	45. Transport Layer Security (TLS) uses a new _______________ for each secure connection.
-		A. Symmetric key
-		B. Asymmetric key
-		C. Public-private key pair
-		D. Inverse comparison
-Answer:
-A. TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made.
+	
+### Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.   
+A. Symmetric key. 
+B. Asymmetric key. 
+C. Public-private key pair. 
+D. Inverse comparison. 
+Answer: A. 
+
+TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made.
 Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used in this portion of the process will not change from session to session, and therefore these options are incorrect.
 Option D is a nonsense term and is therefore incorrect.
-	46. A virtual private network (VPN) is used to protect data in transit by _______________.
-		A. Securing each end of a client-server connection
-		B. Creating an encrypted tunnel between two endpoints
-		C. Encrypting databases
-		D. Restricting key access to only eight parties
-Answer:
-B. A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
+	
+### Question # 46 - A virtual private network (VPN) is used to protect data in transit by _______________.   
+A. Securing each end of a client-server connection. 
+B. Creating an encrypted tunnel between two endpoints. 
+C. Encrypting databases. 
+D. Restricting key access to only eight parties. 
+Answer: B. 
+
+A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
+
 Option A is subtly misleading; the VPN secures the connection between two endpoints, not the ends of the connection. This option is incorrect.
+
 Option C is not correct; VPN is not used for encrypting databases—it is used for encrypting communications.
+
 Option D is incorrect; the symmetric key used in VPN is shared only between two parties (the endpoints), and the elements of the asymmetric key pair are either held by only one party (the owner of each private key) or by anyone at all (public key).
-	47. The employment of users in dynamic software testing should best be augmented by _______________.
-		A. Having the developers review the code
-		B. Having the developers perform dynamic testing
-		C. Using automated agents to perform dynamic testing
-		D. Social engineering
-Answer:
-C. Users may not offer enough coverage for larger software products that have a great deal of functionality; it can be useful to also use automated agents to checks paths that users might not often attempt or utilize.
+	
+### Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.   
+A. Having the developers review the code. 
+B. Having the developers perform dynamic testing. 
+C. Using automated agents to perform dynamic testing. 
+D. Social engineering. 
+Answer: C. 
+
+Users may not offer enough coverage for larger software products that have a great deal of functionality; it can be useful to also use automated agents to checks paths that users might not often attempt or utilize.
 The developers should not be involved in any form of testing the software as they have an inherent conflict of interest, so options A and B are incorrect.
 Dynamic testing does not involve social engineering; option D is incorrect.
-	48. Why do developers have an inherent conflict of interest in testing software they’ve created?
-		A. They are notoriously bad, as a group, at testing.
-		B. They work for the same department as the testing personnel.
-		C. They have a vested interest in having the software perform well.
-		D. They are never trained on testing procedures.
-Answer:
-C. This is the definition of “conflict of interest.”
+	
+### Question # 48 - Why do developers have an inherent conflict of interest in testing software they’ve created?   
+A. They are notoriously bad, as a group, at testing.   
+B. They work for the same department as the testing personnel.   
+C. They have a vested interest in having the software perform well.   
+D. They are never trained on testing procedures.   
+Answer: C. 
+
+This is the definition of “conflict of interest.”
 All the other answers are incorrect.
-	49. Sandboxing can often be used for _______________.
-		A. Optimizing the production environment by moving processes that are not frequently used into the sandbox
-		B. Allowing secure remote access for users who need resources in the cloud environment
-		C. Running malware for analysis purposes
-		D. Creating secure subnets of the production environment
-Answer:
-C. A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
+	
+### Question # 49 - Sandboxing can often be used for _______________.   
+A. Optimizing the production environment by moving processes that are not frequently used into the sandbox. 
+B. Allowing secure remote access for users who need resources in the cloud environment.  
+C. Running malware for analysis purposes. 
+D. Creating secure subnets of the production environment. 
+Answer: C. 
+
+A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
 Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t perform productive activity there.
 	
 ### Question # 50. Sandboxing can often be used for _______________.      
@@ -521,7 +548,7 @@ Answer: C.
 Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
 All the other options aren’t uses for sandboxes and are incorrect.
 	
-### Question # 51. Application virtualization can typically be used for _______________.       
+### Question # 51 - Application virtualization can typically be used for _______________.       
 A. Running an application in a non-native environment    
 B. Installing updates to a system’s operating system (OS)    
 C. Preventing escalation of privilege by untrusted users    
