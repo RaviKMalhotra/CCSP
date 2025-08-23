@@ -25,8 +25,7 @@ Each application will have its own ANF, derived from the organization’s ONF. T
 ### Question # 3 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?   
 A. Hypertext Markup Language (HTML).  
 B. X.509.  
-C. Extensible Markup Language (XML). b
-D. Hypertext Transfer Protocol (HTTP).  
+C. Extensible Markup Language (XML).     D. Hypertext Transfer Protocol (HTTP).  
 Answer: C. 
 
 **SOAP necessarily uses XML.**
@@ -49,8 +48,7 @@ Using REST does not eliminate the need for credentials, so option A is not corre
 ### Question # 5 - Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.     
 A. Hypertext Markup Language (HTML).  
 B. Hypertext Transfer Protocol (HTTP).  
-C. Extensible Markup Language (XML). b
-D. American Standard Code for Information.  Interchange (ASCII).  
+C. Extensible Markup Language (XML).       D. American Standard Code for Information.  Interchange (ASCII).  
 Answer: B.    
 
 Roy Fielding, the author of the PhD dissertation **that created REST, was also the author of HTTP**, so it’s no surprise the command set is the same.
@@ -218,22 +216,22 @@ Because the cloud is a multitenant environment, one of the concerns that develop
 Inference framing is a nonsense term, used here only as a distractor.
 Software should include known secure components, and testing should include known bad data (fuzz testing), whether it is going to be used in the cloud or in a traditional environment, so options C and D are incorrect.
 
-### Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?
-A. Cryptography
-B. STRIDE testing
-C. Field validation
-D. Logging
+### Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?   
+A. Cryptography.  
+B. STRIDE testing.  
+C. Field validation.  
+D. Logging.  
 Answer: D. 
 
 The cloud provider may have controls that restrict logging, or the delivery of log data, in the environment; this can make it complicated for cloud developers to include that functionality/security element in cloud apps.
 
 All the other options are things that can (and should) be done with software whether the application is being used in traditional or cloud environments, so those options are incorrect.
 
-### Question # 22 - All of these can affect the quality of service expected from an application except _______________.
-A. Encryption
-B. Egress monitoring
-C. Anti-malware tools
-D. Use of known secure libraries/components
+### Question # 22 - All of these can affect the quality of service expected from an application except _______________.   
+A. Encryption.  
+B. Egress monitoring.  
+C. Anti-malware tools.  
+D. Use of known secure libraries/components.  
 Answer: D. 
 
 Using only known secure libraries and components in software design **may slow down development efforts but shouldn’t impact how the application runs.**
