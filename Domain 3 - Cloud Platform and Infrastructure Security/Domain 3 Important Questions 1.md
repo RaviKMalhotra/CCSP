@@ -119,10 +119,11 @@ Options A and C are incorrect because neither of those options lists any of the 
 Option D may be arguably correct, as there might be an NBI handling that traffic between those nodes, but option B is more specific and always true for this definition, so it is the better choice.
 
 ### Question # 11 - Software-defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.       
-A. Reroute traffic based on current customer demand    
-B. Create logical subnets without having to change any actual physical connections    
-C. Filter access to resources based on specific rules or settings      
-D. Deliver streaming media content in an efficient manner by placing it closer to the end user    
+
+A. Reroute traffic based on current customer demand.     
+B. Create logical subnets without having to change any actual physical connections.       
+C. Filter access to resources based on specific rules or settings.       
+D. Deliver streaming media content in an efficient manner by placing it closer to the end user.    
 Answer: D. 
 
 Option D is really a definition of a CDN (content delivery network).
@@ -204,11 +205,11 @@ Answer: A.
 **A bare-metal hypervisor is a Type 1 hypervisor.**
 Option B describes another type of hypervisor; the other options are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 19 - A hypervisor that runs inside another operating system (OS) is a Type ___________________ hypervisor.
-A. 1
-B. 2
-C. 3
-D. 4
+### Question # 19 - A hypervisor that runs inside another operating system (OS) is a Type ___________________ hypervisor.    
+A. 1.   
+B. 2.   
+C. 3.    
+D. 4.   
 Answer: B. 
 
 The question describes a Type 2 hypervisor.
@@ -237,7 +238,7 @@ Answer: D.
 Options A and C are simply untrue.
 Option B is untrue when crypto-shredding is utilized.
 
-### Question # 22 - What is the main reason virtualization is used in the cloud?    
+### Question # 22 - What is the main reason virtualization is used in the cloud?         
 A. Virtual machines (VMs) are easier to administer.   
 B. If a VM is infected with malware, it can be easily replaced.    
 C. With VMs, the cloud provider does not have to deploy an entire hardware device for every new user.    
@@ -247,11 +248,11 @@ Answer: C.
 While options A and B are both also true, C is the most significant reason cloud data centers use VMs. If the cloud provider had to purchase a new box for every user, the cost of cloud services would be as much as running a traditional environment (or likely cost even more), and there would be no reason for any organization to migrate to the cloud, especially considering the risks associated with disclosing data to a third party.
 Option D is simply untrue. VMs are not easier to operate than actual devices.
 
-### Question # 23 - Orchestrating resource calls is the job of the ___________________.     
-A. Administrator     
-B. Router     
-C. VM     
-D. Hypervisor      
+### Question # 23 - Orchestrating resource calls is the job of the ___________________.        
+A. Administrator.           
+B. Router.        
+C. VM.     
+D. Hypervisor.       
 Answer: D. 
 
 The question describes what the hypervisor does. (Note that the answer “operating system” would also work here but was not one of the options.)
@@ -259,31 +260,31 @@ Option A is incorrect; the allocation of resources is not performed manually.
 The router directs traffic between networks; it does not apportion resources. Therefore, option B is incorrect.
 A VM makes resource calls; option C is incorrect.
 
-### Question # 24 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?     
-A. Volume storage
-B. Object storage
-C. Logical unit number (LUN)
-D. Block storage
+### Question # 24 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?        
+A. Volume storage.   
+B. Object storage.    
+C. Logical unit number (LUN).   
+D. Block storage.    
 Answer: B. 
 
 **Object storage is, literally, a means of storing objects in a hierarchy such as a file tree.**
 All the other options are terms used to describe cloud storage areas without file structures.
 
-### Question # 25 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?
-A. Volume storage
-B. Object storage
-C. Logical unit number (LUN)
-D. Block storage
+### Question # 25 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?    
+A. Volume storage.   
+B. Object storage.    
+C. Logical unit number (LUN).   
+D. Block storage.    
 Answer: B. 
 
 **Snapshotted VM images are usually kept in object storage, as files.**
 All the other options are incorrect and option C is not a type of storage.
 
-### Question # 26 - Who operates the management plane?     
-A. Regulators
-B. End consumers
-C. Privileged users
-D. Privacy data subjects
+### Question # 26 - Who operates the management plane?              
+A. Regulators.    
+B. End consumers.    
+C. Privileged users.    
+D. Privacy data subjects.    
 Answer: C. 
 
 **Only the most trusted administrators and managers will have access to the cloud data center’s management plane.** 
@@ -294,11 +295,11 @@ Option B is ambiguous. However, a consumer of data is unlikely to have been give
 
 Option D is also an ambiguous answer. Only the most trusted administrators and managers have access to the cloud data center’s management plane. A privacy data subject is neither a most trusted administrator nor a trusted manager. Therefore, option D is incorrect.
 	
- ### Question # 27 - [important] What is probably the optimum way to avoid vendor lock-in?
-A. Use nonproprietary data formats.
-B. Use industry-standard media.
+ ### Question # 27 - [important] What is probably the optimum way to avoid vendor lock-in?    
+A. Use nonproprietary data formats.    
+B. Use industry-standard media.    
 C. Use strong cryptography.
-D. Use favorable contract language.
+D. Use favorable contract language.     
 Answer: D. 
 
 **The contract is probably the cloud customer’s best tool for avoiding vendor lock-in; contract terms will establish how easy it is to migrate your organization’s data to another provider in a timely, cost-effective manner.**
