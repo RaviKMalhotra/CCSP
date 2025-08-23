@@ -300,102 +300,111 @@ Answer: D.
 Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
 The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is incorrect.
 	
-28. What is the major difference between authentication and authorization?  
-	A. Code verification/code implementation. 
-	B. Identity validation/access permission. 
-	C. Inverse incantation/obverse instantiation. 
-	D. User access/privileged access. 
+### Question # 28 - What is the major difference between authentication and authorization?  
+A. Code verification/code implementation. 
+B. Identity validation/access permission. 
+C. Inverse incantation/obverse instantiation. 
+D. User access/privileged access. 
 Answer: B. 
 
 This is the textbook definition of these terms. All the other options are incorrect answers.
 
 ### Question # 29. Access should be based on _______________.  
-		A. Regulatory mandates
-		B. Business needs and acceptable risk
-		C. User requirements and management requests
-		D. Optimum performance and security provision
+A. Regulatory mandates. 
+B. Business needs and acceptable risk. 
+C. User requirements and management requests. 
+D. Optimum performance and security provision. 
 
 Answer: B. 
 
 Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
 This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
 	
-### 30. Who should determine which users have access to which specific objects?
-		A. The cloud provider
-		B. Senior management
-		C. Data owners
-		D. System administrators
-Answer:
-C. The data owner is responsible for the disposition of the data under their control; this includes access decisions.
+### 30. Who should determine which users have access to which specific objects?  
+A. The cloud provider. 
+B. Senior management. 
+C. Data owners. 
+D. System administrators. 
+Answer: C. 
+
+The data owner is responsible for the disposition of the data under their control; this includes access decisions.
 The cloud provider is not typically the data owner; option A is incorrect.
 Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
 System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
 	
-31. All of the following are identity federation standards commonly found in use today except _______________.
-		A. WS-Federation
-		B. OpenID
-		C. OAuth (Open Authorization)
-		D. Pretty Good Privacy (PGP)
-Answer:
-D. PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
+### 31. All of the following are identity federation standards commonly found in use today except _______________.  
+A. WS-Federation. 
+B. OpenID. 
+C. OAuth (Open Authorization). 
+D. Pretty Good Privacy (PGP). 
+Answer: D. 
+
+PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
 	
 32. Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?
-		A. WS-Federation
-		B. OpenID Connect
-		C. Service Organization Control (SOC) 2
-		D. Open Web Application Security Project (OWASP)
-Answer:
-B. OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation.
+A. WS-Federation. 
+B. OpenID Connect. 
+C. Service Organization Control (SOC) 2. 
+D. Open Web Application Security Project (OWASP). 
+Answer: B. 
+
+OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation.
 WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A is incorrect.
 Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
 OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
 	
-33. Authentication mechanisms typically include any or all of the following except _______________.
-		A. Something you know
-		B. Someone you know
-		C. Something you have
-		D. Something you are
-Answer:
-B. Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
+### 33. Authentication mechanisms typically include any or all of the following except _______________.
+A. Something you know
+B. Someone you know
+C. Something you have
+D. Something you are
+Answer: B. 
+
+Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
 All the other options are typical authentication mechanisms and so are incorrect.
 	
-34. Which of the following constitutes a multifactor authentication process or procedure?
-		A. Using an automated teller machine (ATM) to get cash with your credit or debit card
-		B. Using a password and personal identification number (PIN) to log into a website
-		C. Presenting a voice sample and fingerprint to access a secure facility
-		D. Displaying a birth certificate and a credit card
-Answer:
-A. At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
+### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?     
+A. Using an automated teller machine (ATM) to get cash with your credit or debit card. 
+B. Using a password and personal identification number (PIN) to log into a website. 
+C. Presenting a voice sample and fingerprint to access a secure facility. 
+D. Displaying a birth certificate and a credit card. 
+Answer: A. 
+
+At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
 A password and PIN are both something you know, so option B is incorrect.
 Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
 	
-35. Typically, multifactor authentication should be used _______________.
-		A. In every IT transaction
-		B. For high-risk operations and data that is particularly sensitive
-		C. When remote users are logging into the cloud environment
-		D. Only in the traditional environment
-Answer:
-B. Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
+### 35. Typically, multifactor authentication should be used _______________.   
+A. In every IT transaction. 
+B. For high-risk operations and data that is particularly sensitive. 
+C. When remote users are logging into the cloud environment. 
+D. Only in the traditional environment. 
+Answer: B. 
+
+Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
 Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra overhead, so option A is incorrect.
 All cloud access will entail remote login; this is a common operation, so adding multifactor authentication is an unnecessary burden in most cases. Option C is incorrect.
 The decision to use multifactor authentication should be based on the risk of the operation and the sensitivity of the data, not on whether it takes place in the traditional or online environment, so option D is incorrect.
 	
-36. A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.
-		A. 2
-		B. 3
-		C. 7
-		D. Q
-Answer:
-C. A WAF is a Layer 7 tool.
+### 36. A web application firewall (WAF) usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.   
+A. 2.  
+B. 3.  
+C. 7.  
+D. Q.  
+Answer: C. 
+
+A WAF is a Layer 7 tool.
 All the other options are incorrect.
-	37. A web application firewall (WAF) can understand and act on _______________ traffic.
-		A. Malicious
-		B. Simple Mail Transfer Protocol (SMTP)
-		C. Internet Control Message Protocol (ICMP)
-		D. Hypertext Transfer Protocol (HTTP)
-Answer:
-D. WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
+
+### 37. A web application firewall (WAF) can understand and act on _______________ traffic.  
+	A. Malicious. 
+	B. Simple Mail Transfer Protocol (SMTP). 
+	C. Internet Control Message Protocol (ICMP). 
+	D. Hypertext Transfer Protocol (HTTP).  
+Answer: D. 
+
+WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
 Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, and D is a much better response for this question.
 Options B and C are protocols not usually inspected by WAFs and are therefore incorrect.
 	38. WAFs can be used to reduce the likelihood that _______________ attacks will be successful.
