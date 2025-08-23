@@ -277,11 +277,16 @@ Answer: D.
 
 All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and “can’t ever” in answer choices.
 
-### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.   
-A. Young programmers are not nearly as disciplined in their coding practices as older programmers. 
+### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.     
+
+A. Young programmers are not nearly as disciplined in their coding practices as older programmers.                            
+
 B. Some current programmers don’t write code line by line and instead use code component libraries.  
+
 C. Coding languages have not been secure for 20 years. 
+
 D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC).   
+
 Answer: B.   
 
 Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
@@ -291,46 +296,50 @@ Option C is another broad generalization that may or may not be true. Option B i
 Option D does not relate to the question about the SDLC and is therefore a poor choice for an answer.
 
 ### Question # 27 - What is the most secure form of code testing and review?   
-A. Open source.  
-B. Proprietary/internal. 
-C. Neither open source nor proprietary. 
-D. Combination of open source and proprietary.  
-Answer: D.   
+A. Open source.   
+B. Proprietary/internal.    
+C. Neither open source nor proprietary.     
+D. Combination of open source and proprietary.     
+Answer: D.      
 
 Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
 The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is incorrect.
 	
-### Question # 28 - What is the major difference between authentication and authorization?  
-A. Code verification/code implementation. 
-B. Identity validation/access permission. 
-C. Inverse incantation/obverse instantiation. 
-D. User access/privileged access. 
-Answer: B. 
+### Question # 28 - What is the major difference between authentication and authorization?     
+A. Code verification/code implementation.   
+B. Identity validation/access permission.   
+C. Inverse incantation/obverse instantiation.    
+D. User access/privileged access.    
+Answer: B.     
 
 This is the textbook definition of these terms. All the other options are incorrect answers.
 
 ### Question # 29. Access should be based on _______________.  
-A. Regulatory mandates. 
-B. Business needs and acceptable risk. 
-C. User requirements and management requests. 
-D. Optimum performance and security provision. 
+A. Regulatory mandates.   
+B. Business needs and acceptable risk.   
+C. User requirements and management requests.    
+D. Optimum performance and security provision.    
 
 Answer: B. 
 
 Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
 This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
 	
-### Question # 30 - Who should determine which users have access to which specific objects?  
-A. The cloud provider. 
-B. Senior management. 
-C. Data owners. 
-D. System administrators. 
-Answer: C. 
+### Question # 30 - Who should determine which users have access to which specific objects?    
+A. The cloud provider.    
+B. Senior management.    
+C. Data owners.    
+D. System administrators.    
+Answer: C.    
 
 The data owner is responsible for the disposition of the data under their control; this includes access decisions.
 The cloud provider is not typically the data owner; option A is incorrect.
-Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. Option C is preferable to B.
-System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
+Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. 
+
+Option C is preferable to B.
+System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. 
+
+However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
 	
 ### Question # 31 - All of the following are identity federation standards commonly found in use today except _______________.  
 A. WS-Federation. 
