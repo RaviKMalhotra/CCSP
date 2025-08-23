@@ -66,53 +66,53 @@ Answer: C.
 **The web is mainly HTTP, which is a RESTful protocol.**
 All the other options are incorrect because they do not answer the question about the architecture of the World Wide Web.
 	
-### Question # 7 - RESTful responses can come from the server in _______________ or _______________ formats.
-A. Extensible Markup Language (XML), JavaScript Open Notation (JSON)
-B. Hypertext Transfer Protocol (HTTP), X.509
-C. American Standard Code for Information Interchange (ASCII), text
-D. Hypertext Markup Language (HTML), Extensible Markup Language (XML)
-Answer: A. 
+### Question # 7 - RESTful responses can come from the server in _______________ or _______________ formats.   
+A. Extensible Markup Language (XML), JavaScript Open Notation (JSON).  
+B. Hypertext Transfer Protocol (HTTP), X.509.   
+C. American Standard Code for Information Interchange (ASCII), text.   
+D. Hypertext Markup Language (HTML), Extensible Markup Language (XML).   
+Answer: A.    
 
 **Servers can return REST requests to clients in a number of formats, including XML and JSON**.
 **X.509 certificates are used for passing session encryption information, not data requests**, so option B is incorrect.
 Servers usually return data requests in some sort of display format, not plain text or ASCII, so option C is incorrect.
 HTML responses would simply be an entire web page, not specific data, so option D is incorrect.
 	
-### Question # 8 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?
-A. Instantiation
-B. Porting
-C. Grandslamming
-D. Forklifting
+### Question # 8 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?    
+A. Instantiation.  
+B. Porting.   
+C. Grandslamming.   
+D. Forklifting.   
 Answer: D. 
 
 All the other options are simply words used in other contexts. They are incorrect.
 
-### Question # 9 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.
-A. DoS and DDoS (denial of service and distributed denial of service)
-B. Multitenancy and third-party administrators
-C. Unprotected servers and unprotected clients
-D. Default configurations and user error
+### Question # 9 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.   
+A. DoS and DDoS (denial of service and distributed denial of service).  
+B. Multitenancy and third-party administrators.   
+C. Unprotected servers and unprotected clients.   
+D. Default configurations and user error.  
 Answer: B. 
 
 All the other options are risks that exist in the traditional environment as well as the cloud.
 
-### Question # 10 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.
-A. Geographic location, native language
-B. Legal restrictions, specific ISP
-C. Service model, deployment model
-D. Available bandwidth, telecommunications country code
-Answer: C. 
+### Question # 10 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.   
+A. Geographic location, native language. 
+B. Legal restrictions, specific ISP. 
+C. Service model, deployment model.  
+D. Available bandwidth, telecommunications country code.  
+Answer: C.   
 
 In order for developers to properly create and secure applications, they will need to understand the extent of resource sharing (public/private/hybrid/community) and level of control (infrastructure as a service [IaaS], platform as a service [PaaS], software as a service [SaaS]) the organization will expect in the cloud environment.
 
 Each of the other options includes at least one element that programmers don’t need to know (specifically, the native language, Internet service provider [ISP], country code) and is therefore incorrect.
 
-### Question # 11 - Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?
-		A. Remove the application from the organization’s production environment and replace it with something else.
-		B. Negotiate and conduct a trial run in the cloud environment for that application before permanently migrating.
-		C. Make sure the application is fully updated and patched according to all vendor specifications.
-		D. Run the application in an emulator.
-Answer: B. 
+### Question # 11 - Which of the following is perhaps the best method for reducing the risk of a specific application not delivering the proper level of functionality and performance when it is moved from the traditional environment into the cloud?    
+A. Remove the application from the organization’s production environment and replace it with something else.   
+B. Negotiate and conduct a trial run in the cloud environment for that application before permanently migrating.   
+C. Make sure the application is fully updated and patched according to all vendor specifications.   
+D. Run the application in an emulator.   
+Answer: B.    
 
 A trial run in the cloud will reveal any functionality/performance loss before a permanent cloud migration.
 Option A doesn’t reduce any risk for a specific application; it trades the risk of one application not operating correctly with the risk of another application not working correctly. This answer is wrong.
@@ -129,33 +129,33 @@ Answer: D.
 Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement.
 All the other functions are expected in the majority of cloud operations.
 
-### Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production environment?
-A. Cloud customer
-B. Cloud provider
-C. Regulator
-D. Programmers
-Answer: A. 
+### Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production.   environment?   
+A. Cloud customer.  
+B. Cloud provider.  
+C. Regulator.  
+D. Programmers.  
+Answer: A.   
 
 **In PaaS, the customer is responsible for the administration (and security) of applications.**
 Neither regulators nor programmers are responsible for the security of the applications in the production environment. That is the responsibility of the cloud customer.
 It may appear as though the cloud provider should be responsible for application security, however, as the cloud customer acquires more responsibility for their cloud environment, the cloud provider assumes less responsibility. Option B is incorrect.
 	
-### Question # 14 - In the testing phase of the software development lifecycle (SDLC), software performance and _______________ should both be reviewed.
-		A. Quality
-		B. Brevity
-		C. Requirements
-		D. Security
+### Question # 14 - In the testing phase of the software development lifecycle (SDLC), software performance and _______________ should both be reviewed.    
+A. Quality.  
+B. Brevity.  
+C. Requirements.   
+D. Security.  
 Answer: D. 
 
 Performance and security both need to be reviewed for adequacy.
 In this context, quality would be synonymous with performance and requirements, so D is a better answer than A or C.
 Brevity is not a trait we look for in testing, even though it may be desirable in programming, so B is incorrect.
 
-### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?
-A. Define
-B. Design
-C. Develop
-D. Detect
+### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?  
+A. Define.  
+B. Design.  
+C. Develop.  
+D. Detect. 
 Answer: A. 
 
 In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want.
@@ -163,42 +163,42 @@ In the Define phase, we’re trying to determine the purpose of the software, in
 Options B and C are other phases of the SDLC, but not all SDLC models incorporate user input in these phases, so the options are not correct.
 Option D is not a phase of the SDLC and is incorrect.
 
-### Question # 16 - Which phase of the software development lifecycle (SDLC) is most likely to involve crypto-shredding?
-A. Define
-B. Design
-C. Test
-D. Disposal
+### Question # 16 - Which phase of the software development lifecycle (SDLC) is most likely to involve crypto-shredding?   
+A. Define.  
+B. Design. 
+C. Test.  
+D. Disposal.  
 Answer: D. 
 
 Disposal is the only phase concerned with the sanitization of media or destruction of data.
 All the other options are also SDLC phases, however, **crypto-shredding is much more likely to be used in the disposal phase.**
 
-### Question # 17 - Where are business requirements most likely to be mapped to software construction?
-A. Define
-B. Design
-C. Test
-D. Secure Operations
+### Question # 17 - Where are business requirements most likely to be mapped to software construction?   
+A. Define.  
+B. Design.  
+C. Test.  
+D. Secure Operations.  
 Answer: B. 
 
 Design is the correct answer, as this is where the requirements gathered during the Define phase are mapped to system designs.
 All the other options are SDLC phases where requirements are not mapped to software construction.
 
-### Question # 18 - [important] All of the following are usually nonfunctional requirements except _______________.
-A. Color
-B. Sound
-C. Security
-D. Function
+### Question # 18 - [important] All of the following are usually nonfunctional requirements except _______________.   
+A. Color.  
+B. Sound.  
+C. Security.   
+D. Function.  
 Answer: D. 
 
 **Function is usually the functional requirement, describing what action the tool/process satisfies.**
 
 All the others are usually nonfunctional requirements. Exceptions to this are when the characteristic listed is the actual desired function. For instance, if the product is a tool that enunciates text so that a blind user can hear the words, then sound would be the functional requirement. If the product is a security tool such as a firewall or data loss prevention (DLP) solution, then security would be a functional requirement. Otherwise, these are nonfunctional requirements for standard products.
 
-### Question # 19 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that may not have been as important in the traditional environment?
-A. Identity and access management (IAM) capability
-B. Distributed denial of service (DDoS) resistance
-C. Encryption for data at rest and in motion
-D. Field validation
+### Question # 19 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that may not have been as important in the traditional environment?    
+A. Identity and access management (IAM) capability.  
+B. Distributed denial of service (DDoS) resistance.   
+C. Encryption for data at rest and in motion.   
+D. Field validation.  
 Answer: C. 
 
 Traditional apps won’t usually require encryption in all phases of the data lifecycle because data is protected in several stages in the traditional environment without the need for additional controls. In the cloud environment, however, data exposed at any point in the lifecycle might constitute an inadvertent disclosure, **so cloud apps require encryption for data at rest and in motion (and usually in use as well).**
@@ -206,11 +206,11 @@ Traditional apps won’t usually require encryption in all phases of the data li
 Even traditional apps require IAM and field validation functions, so options A and D are incorrect.
 Most anti-DDoS activity will be performed by hardware and communication software run by the cloud provider or Internet service provider (ISP); developers should not typically need to include anti-DDoS elements in their programs. Option B is incorrect.
 	
-### Question # 20 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?
-A. Application isolation
-B. Inference framing
-C. Known secure library components
-D. Testing that uses known bad data
+### Question # 20 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?  
+A. Application isolation.  
+B. Inference framing.  
+C. Known secure library components.  
+D. Testing that uses known bad data.  
 Answer: A. 
 
 Because the cloud is a multitenant environment, one of the concerns that developers should consider is how well the application prevents other applications/users from observing its operation and resource calls. In the traditional environment, **this is not usually required because the organization owns the underlying infrastructure (as a single tenant) and there is very little risk in exposing the application’s functionality.**
