@@ -249,12 +249,12 @@ This is the definition of escalation of privilege (sometimes referred to as “e
 Inversion is a nonsense term in this context and just a distractor.
 Options B and C are threat modeling elements but are not correct answers for this question.
 	
-### Question # 24 - Which of the following is not checked when using the STRIDE threat model?
-A. The ability of users to gain administrative access rights without proper permission
-B. The ability of internal personnel to trigger business continuity/disaster recovery activities
-C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction
-D. The ability of an unauthorized user to pretend to be an authorized user
-Answer: B 
+### Question # 24 - Which of the following is not checked when using the STRIDE threat model?   
+A. The ability of users to gain administrative access rights without proper permission. 
+B. The ability of internal personnel to trigger business continuity/disaster recovery activities. 
+C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction. 
+D. The ability of an unauthorized user to pretend to be an authorized user. 
+Answer: B   
 
 **The STRIDE threat model does not deal with business continuity and disaster recovery (BC/DR) actions.**
 All the other options are elements of STRIDE (escalation of privilege, repudiation, and spoofing, respectively) and are therefore not correct.
@@ -266,23 +266,23 @@ STRIDE stands for:
   	D: Denial of Service
    	E: Elevation of Privileges
 	
-### Question # 25 - It is very likely that your organization’s users will use unapproved application programming interfaces (APIs), especially in a bring your own device (BYOD) environment, because _______________. 
-A. Users are constantly trying to break the security of your environment
-B. APIs can’t ever be secure
-C. Hackers are constantly infiltrating all APIs
-D. Users enhance their productivity however they can
+### Question # 25 - It is very likely that your organization’s users will use unapproved application programming interfaces (APIs), especially in a bring your own device (BYOD) environment, because _______________.   
+A. Users are constantly trying to break the security of your environment.  
+B. APIs can’t ever be secure.  
+C. Hackers are constantly infiltrating all APIs.  
+D. Users enhance their productivity however they can.  
 Answer: D. 
 
 **Users in the production environment will leverage whatever tools and techniques they can in order to get their job done in a better, faster way, often regardless of whether this complies with security policies**.
 
 All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and “can’t ever” in answer choices.
 
-### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.
-A. Young programmers are not nearly as disciplined in their coding practices as older programmers
-B. Some current programmers don’t write code line by line and instead use code component libraries
-C. Coding languages have not been secure for 20 years
-D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC)
-Answer: B. 
+### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.   
+A. Young programmers are not nearly as disciplined in their coding practices as older programmers. 
+B. Some current programmers don’t write code line by line and instead use code component libraries.  
+C. Coding languages have not been secure for 20 years. 
+D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC). 
+Answer: B.   
 
 Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
 
@@ -290,22 +290,24 @@ Option A is an unfair generalization.
 Option C is another broad generalization that may or may not be true. Option B is a better answer.
 Option D does not relate to the question about the SDLC and is therefore a poor choice for an answer.
 
-### Question # 27 - What is the most secure form of code testing and review?
-A. Open source
-B. Proprietary/internal
-C. Neither open source nor proprietary
-D. Combination of open source and proprietary
-Answer: D. 
+### Question # 27 - What is the most secure form of code testing and review?   
+A. Open source.  
+B. Proprietary/internal. 
+C. Neither open source nor proprietary. 
+D. Combination of open source and proprietary.  
+Answer: D.   
 
 Obviously, using multiple forms of code review will produce more secure results than any one form of review, in the same way that having multiple forms of security controls (physical, logical, administrative, etc.) will provide better security than just one type.
 The question is which is the “most” secure form of code testing and review. That would be the most extensive. Since the correct answer is a combination of open source and proprietary, the least secure would be least extensive. Option A is strictly open source so that is incorrect. Option C is neither open source nor proprietary, which is even less extensive. Option C is incorrect. Proprietary/internal is also less extensive than Option D. So Option B is incorrect.
-	28. What is the major difference between authentication and authorization?
-		A. Code verification/code implementation
-		B. Identity validation/access permission
-		C. Inverse incantation/obverse instantiation
-		D. User access/privileged access
-Answer:
-B. This is the textbook definition of these terms. All the other options are incorrect answers.
+	
+28. What is the major difference between authentication and authorization?  
+	A. Code verification/code implementation. 
+	B. Identity validation/access permission. 
+	C. Inverse incantation/obverse instantiation. 
+	D. User access/privileged access. 
+Answer: B. 
+
+This is the textbook definition of these terms. All the other options are incorrect answers.
 	29. Access should be based on _______________.
 		A. Regulatory mandates
 		B. Business needs and acceptable risk
