@@ -1,296 +1,303 @@
 
-### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	beconsidered	a	direct	identifier?
-A.	Job	title
-B.	Educational	history
-C.	Income
-D.	Phone	number
+### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	beconsidered	a	direct	identifier?    
+A.	Job	title    
+B.	Educational	history     
+C.	Income    
+D.	Phone	number     
 
-### Question # 1 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solutionand	software	be	deployed?
-A.	On	the	client
-B.	On	the	application	server
-C.	Network	perimeter
-D.	Data	layer
+### Question # 2 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solutionand	software	be	deployed?    
+A.	On	the	client    
+B.	On	the	application	server    
+C.	Network	perimeter     
+D.	Data	layer    
 
-### Question # 1 - Which	cloud	storage	type	uses	an	opaque	value	or	descriptor	to	categorizeand	organize	data?
-A.	Volume
-B.	Object
-C.	Structured
-D.	Unstructured
+### Question # 3 - Which	cloud	storage	type	uses	an	opaque	value	or	descriptor	to	categorizeand	organize	data?     
+A.	Volume     
+B.	Object    
+C.	Structured    
+D.	Unstructured    
 
-### Question # 1 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?
-A.	Size
-B.	Throughput
-C.	Quality
-D.	Source
+### Question # 4 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
+A.	Size    
+B.	Throughput    
+C.	Quality    
+D.	Source     
 
-### Question # 1 - Which	of	the	following	actions	do	NOT	fall	under	the	“create”	phase	of the	cloud	data	lifecycle?
-A.	Newly	created	data
-B.	Data	that	is	imported
-C.	Data	that	is	archived
-D.	Data	that	is	modified
+### Question # 5 - Which	of	the	following	actions	do	NOT	fall	under	the	“create”	phase	of the	cloud	data	lifecycle?    
+A.	Newly	created	data    
+B.	Data	that	is	imported    
+C.	Data	that	is	archived    
+D.	Data	that	is	modified   
 
-### Question # 1 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	a potential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?
-A.	Confidentiality
-B.	Privacy
-C.	Chain	of	custody
-D.	Aggregation
+### Question # 6 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	a potential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?    
+A.	Confidentiality    
+B.	Privacy    
+C.	Chain	of	custody   
+D.	Aggregation     
 
-### Question # 1 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtualmachine	images?
-A.	Volume
-B.	Structured
-C.	Unstructured
-D.	Object
+### Question # 7 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtualmachine	images?    
+A.	Volume    
+B.	Structured    
+C.	Unstructured     
+D.	Object    
 
-### Question # 1 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	theoptimal	place	to	deploy	the	DLP	components?
-A.	On	the	server	originating	the	traffic
-B.	At	the	network	perimeter
-C.	Between	VLANs
-D.	On	the	server	receiving	the	data
+### Question # 8 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	theoptimal	place	to	deploy	the	DLP	components?     
+A.	On	the	server	originating	the	traffic    
+B.	At	the	network	perimeter    
+C.	Between	VLANs    
+D.	On	the	server	receiving	the	data     
 
-### Question # 1 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatorycompliance	reporting?
-A.	SIEM
-B.	DLP
-C.	IRM
-D.	IDS
+### Question # 9 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatorycompliance	reporting?     
+A.	SIEM    
+B.	DLP    
+C.	IRM     
+D.	IDS     
 
-### Question # 1 - Encryption	solutions	can	be	embedded	within	database	operations	thatwill	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?
-A.	Transparent
-B.	Passive
-C.	RSA
-D.	Homomorphic
+### Question # 10 - Encryption	solutions	can	be	embedded	within	database	operations	thatwill	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?     
+A.	Transparent     
+B.	Passive     
+C.	RSA     
+D.	Homomorphic     
 
-### Question # 1 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	process of	data	classification?
-A.	Use
-B.	Store
-C.	Create
-D.	Archive
+### Question # 11 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	process of	data	classification?     
+A.	Use    
+B.	Store     
+C.	Create     
+D.	Archive     
 
-### Question # 1 - Your	application	generates	large	volumes	of	data	based	on	customer	input.With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	following	methods	for	data	discovery	would	be	your	best choice?
-A.	Content	analysis
-B.	Labels
-C.	Metadata
-D.	Authorization
+### Question # 12 - Your	application	generates	large	volumes	of	data	based	on	customer	input.With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	following	methods	for	data	discovery	would	be	your	best choice?    
+A.	Content	analysis    
+B.	Labels   
+C.	Metadata    
+D.	Authorization    
 
-### Question # 1 - When	using	an	e-commerce	site,	you	see	your	credit	card	informationwith	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?
-A.	Dynamic
-B.	Homomorphic
-C.	Static
-D.	Replication
+### Question # 13 - When	using	an	e-commerce	site,	you	see	your	credit	card	informationwith	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?     
+A.	Dynamic    
+B.	Homomorphic     
+C.	Static     
+D.	Replication     
 
-### Question # 1 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	suchas	DRM	and	DLP	be	most	appropriately	utilized?
-A.	Use
-B.	Share
-C.	Store
-D.	Archive
+### Question # 14 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	suchas	DRM	and	DLP	be	most	appropriately	utilized?     
+A.	Use     
+B.	Share      
+C.	Store     
+D.	Archive      
 
-### Question # 1 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloudenvironment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option? A.		Object
-B.	Structured
-C.	Volume
-D.	Unstructured
+### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloudenvironment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?      
+A.		Object    
+B.	Structured     
+C.	Volume     
+D.	Unstructured     
 
-### Question # 1 - Which	of	the	following	concepts	refers	to	having	logs	available	from throughout	a	system	or	application	within	a	single	source?
-A.	Consolidation
-B.	Correlation
-C.	Aggregation
-D.	Archiving
+### Question # 16 - Which	of	the	following	concepts	refers	to	having	logs	available	from throughout	a	system	or	application	within	a	single	source?     
+A.	Consolidation    
+B.	Correlation     
+C.	Aggregation    
+D.	Archiving     
 
-### Question # 1 - Which	key	storage	solution	would	be	the	BEST	choice	in	a	situation where	availability	might	be	of	a	particular	concern?
-A.	Internal
-B.	External
-C.	Hosted
-D.	Embedded
+### Question # 17 - Which	key	storage	solution	would	be	the	BEST	choice	in	a	situation where	availability	might	be	of	a	particular	concern?     
+A.	Internal     
+B.	External      
+C.	Hosted      
+D.	Embedded      
 
-### Question # 1 - Digital	right	management	is	an	extension	of	information	rightsmanagement,	but	is	focused	on	which	particular	type	of	data?
-A.	Health	records
-B.	Academic	records
-C.	Consumer	media
-D.	Financial	data
+### Question # 18 - Digital	right	management	is	an	extension	of	information	rightsmanagement,	but	is	focused	on	which	particular	type	of	data?     
+A.	Health	records    
+B.	Academic	records     
+C.	Consumer	media     
+D.	Financial	data     
 
-### Question # 1 - Which	of	the	following	is	a	law	in	the	United	States	that	protectshealthcare	information	and	privacy?
-A.	HIPAA
-B.	PII
-C.	PHI
-D.	ACA
+### Question # 19 - Which	of	the	following	is	a	law	in	the	United	States	that	protectshealthcare	information	and	privacy?     
+A.	HIPAA     
+B.	PII     
+C.	PHI      
+D.	ACA      
 
-### Question # 1 - Which	of	the	following	technologies	or	concepts	could	be	used	for	thepreservation	of	integrity?
-A.	DNSSEC
-B.	Encryption
-C.	Tokenization
-D.	Anonymization
+### Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	thepreservation	of	integrity?     
+A.	DNSSEC    
+B.	Encryption     
+C.	Tokenization     
+D.	Anonymization      
 
-### Question # 1 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?
-A.	Masking
-B.	Anonymization
-C.	Obfuscation
-D.	Encryption
+### Question # 21 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?     
+A.	Masking    
+B.	Anonymization     
+C.	Obfuscation     
+D.	Encryption     
 
-### Question # 1 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?
-A.	Volume
-B.	Unstructured
-C.	Structured
-D.	Object
+### Question # 22 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?    
+A.	Volume    
+B.	Unstructured    
+C.	Structured     
+D.	Object     
 
-### Question # 1 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customerwithin	an	IaaS	service	category?
-A.	Physical	security
-B.	Network	security
-C.	Hypervisor	security
-D.	Data	security
+### Question # 23 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customerwithin	an	IaaS	service	category?      
+A.	Physical	security     
+B.	Network	security      
+C.	Hypervisor	security     
+D.	Data	security      
 
-### Question # 1 - Your	new	project	and	its	data	have	regulations	that	dictate	what	type	ofrecords	must	be	maintained	and	for	how	long.	Which	term	refers	to	this concept?
-A.	Data	retention
-B.	Data	archiving
-C.	Data	preservation
-D.	Data	warehousing
+### Question # 24 - Your	new	project	and	its	data	have	regulations	that	dictate	what	type	ofrecords	must	be	maintained	and	for	how	long.	Which	term	refers	to	this concept?      
+A.	Data	retention     
+B.	Data	archiving     
+C.	Data	preservation      
+D.	Data	warehousing     
 
-### Question # 1 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulationand	accessing	of	data	without	having	to	unencrypt	it	first?
-A.	Dynamic
-B.	Homomorphic
-C.	Parallel
-D.	Heterogeneous
+### Question # 25 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulationand	accessing	of	data	without	having	to	unencrypt	it	first?      
+A.	Dynamic     
+B.	Homomorphic     
+C.	Parallel     
+D.	Heterogeneous     
 
-### Question # 1 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	originalsource	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance? A.		Nonrepudiation
-B.	Integrity
-C.	Authentication
-D.	Availability
+### Question # 26 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	originalsource	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance?      
+A.		Nonrepudiation     
+B.	Integrity     
+C.	Authentication     
+D.	Availability     
 
-### Question # 1 - Within	a	PaaS	implementation,	which	of	the	following	is	NOT	the responsibility	of	the	cloud	provider?
-A.	Physical	environment
-B.	Infrastructure
-C.	Application	framework
-D.	Data
+### Question # 27 - Within	a	PaaS	implementation,	which	of	the	following	is	NOT	the responsibility	of	the	cloud	provider?     
+A.	Physical	environment     
+B.	Infrastructure    
+C.	Application	framework     
+D.	Data     
 
-### Question # 1 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRMsolutions,	but	not	available	with	traditional	permissions	and	security settings? A.		Confidentiality
-B.	Expiration
-C.	Integrity
-D.	Copying
+### Question # 28 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRMsolutions,	but	not	available	with	traditional	permissions	and	security settings?      
+A.		Confidentiality    
+B.	Expiration     
+C.	Integrity     
+D.	Copying     
 
-### Question # 1 - When	an	organization	implements	an	SIEM	solution	and	beginsaggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind? A.		Continual	review
-B.	Continuous	optimization
-C.	Aggregation	updates
-D.	Event	elasticity
+### Question # 29 - When	an	organization	implements	an	SIEM	solution	and	beginsaggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind?      
+A.		Continual	review    
+B.	Continuous	optimization    
+C.	Aggregation	updates    
+D.	Event	elasticity    
 
-### Question # 1 - Applying	restrictions	on	certain	activities	requires	the	use	of	informationrights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?
-A.	Copy
-B.	Rename
-C.	Read
-D.	Print
+### Question # 30 - Applying	restrictions	on	certain	activities	requires	the	use	of	informationrights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?     
+A.	Copy    
+B.	Rename     
+C.	Read    
+D.	Print     
 
-### Question # 1 - Which	cloud	service	category	is	object	storage	associated	with?
-A.	Software
-B.	Infrastructure
-C.	Desktop
-D.	Platform
+### Question # 31 - Which	cloud	service	category	is	object	storage	associated	with?     
+A.	Software    
+B.	Infrastructure      
+C.	Desktop     
+D.	Platform     
 
-### Question # 1 - Which	of	the	following	is	NOT	a	common	component	of	a	DLP implementation	process?
-A.	Discovery
-B.	Monitoring
-C.	Revision
-D.	Enforcement
+### Question # 32 - Which	of	the	following	is	NOT	a	common	component	of	a	DLP implementation	process?     
+A.	Discovery     
+B.	Monitoring       
+C.	Revision       
+D.	Enforcement      
 
-### Question # 1 - Which	of	the	following	operations	can	be	controlled	and	prevented	withan	IRM	solution	but	would	not	be	possible	with	traditional	authorization mechanisms? 
-A.		Read
-B.	Delete
-C.	Modify
-D.	Distribution
+### Question # 33 - Which	of	the	following	operations	can	be	controlled	and	prevented	withan	IRM	solution	but	would	not	be	possible	with	traditional	authorization mechanisms?      
+A.		Read     
+B.	Delete     
+C.	Modify     
+D.	Distribution     
 
-### Question # 1 - Which	of	the	following	concepts	is	NOT	one	of	the	key	components	of	a data-archiving	program?
-A.	Format
-B.	Size
-C.	Regulations
-D.	Testing
+### Question # 34 - Which	of	the	following	concepts	is	NOT	one	of	the	key	components	of	a data-archiving	program?     
+A.	Format    
+B.	Size     
+C.	Regulations    
+D.	Testing    
 
-### Question # 1 - Which	of	the	following	activities	is	NOT	something	typically	performed by	an	SIEM	solution?
-A.	Deletion
-B.	Alerting
-C.	Correlation
-D.	Aggregation
+### Question # 35 - Which	of	the	following	activities	is	NOT	something	typically	performed by	an	SIEM	solution?      
+A.	Deletion     
+B.	Alerting    
+C.	Correlation      
+D.	Aggregation     
 
-### Question # 1 - Which	of	the	following	would	be	considered	an	indirect	identifier?
-A.	Name
-B.	ZIP	Code
-C.	Educational	history
-D.	Address
+### Question # 36 - Which	of	the	following	would	be	considered	an	indirect	identifier?       
+A.	Name    
+B.	ZIP	Code    
+C.	Educational	history      
+D.	Address      
 
-### Question # 1 - Which	of	the	following	is	NOT	a	method	for	protecting	data	in	transit?
-A.	HTTPS
-B.	IPSec
-C.	DRM
-D.	TLS
+### Question # 37 - Which	of	the	following	is	NOT	a	method	for	protecting	data	in	transit?       
+A.	HTTPS     
+B.	IPSec     
+C.	DRM      
+D.	TLS     
 
-### Question # 1 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	main pitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution? A.		Volume	and	object
-B.	Structured	and	unstructured
-C.	Container	and	object
-D.	Volume	and	structured
+### Question # 38 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	main pitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution?     
+A.		Volume	and	object      
+B.	Structured	and	unstructured      
+C.	Container	and	object      
+D.	Volume	and	structured      
 
-### Question # 1 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?
-A.	Zeroing
-B.	Anonymization
-C.	Tokenization
-D.	Obfuscation
+### Question # 39 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?    
+A.	Zeroing    
+B.	Anonymization     
+C.	Tokenization     
+D.	Obfuscation      
 
-### Question # 1 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?
-A.	Mobile	security
-B.	Human	resources
-C.	Governance
-D.	Financial	audit
+### Question # 40 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?     
+A.	Mobile	security     
+B.	Human	resources     
+C.	Governance     
+D.	Financial	audit     
 
-### Question # 1 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?
-A.	Platform
-B.	Software
-C.	Infrastructure
-D.	Desktop
+### Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
+A.	Platform    
+B.	Software    
+C.	Infrastructure     
+D.	Desktop     
 
-### Question # 1 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primarymeans	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata? A.		Column	names
-B.	Content
-C.	Filenames
-D.	Headers
+### Question # 42 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primarymeans	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?     
+A.		Column	names     
+B.	Content      
+C.	Filenames      
+D.	Headers      
 
-### Question # 1 - Different	types	of	cloud	deployment	models	use	different	types	of	storage from	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?
-A.	Docker
-B.	Object
-C.	Structured
-D.	Volume
+### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storage from	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
+A.	Docker     
+B.	Object    
+C.	Structured     
+D.	Volume     
 
-### Question # 1 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	oftime,	which	of	the	following	becomes	the	most	pressing	concern	over time? A.		Encryption
-B.	Size
-C.	Restoration
-D.	Availability
+### Question # 44 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	oftime,	which	of	the	following	becomes	the	most	pressing	concern	over time?     
+A.		Encryption     
+B.	Size    
+C.	Restoration     
+D.	Availability     
 
-### Question # 1 - Which	of	the	following	data	protection	methodologies	maintains	theability	to	connect	back	values	to	the	original	values?
-A.	Tokenization
-B.	Anonymization
-C.	Obfuscation
-D.	Dynamic	mapping
+### Question # 45 - Which	of	the	following	data	protection	methodologies	maintains	theability	to	connect	back	values	to	the	original	values?     
+A.	Tokenization    
+B.	Anonymization     
+C.	Obfuscation    
+D.	Dynamic	mapping    
 
-### Question # 1 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	datadiscovery? 
-A.	Labels
-B.	Metadata
-C.	Signature	hashing
-D.	Content	analysis
+### Question # 46 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	datadiscovery?      
+A.	Labels     
+B.	Metadata    
+C.	Signature	hashing     
+D.	Content	analysis     
 
-### Question # 1 - Although	the	preservation	and	retention	of	data	are	the	most	importantconcepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?
-A.	Recoverability
-B.	Portability
-C.	Encryption
-D.	Availability
+### Question # 47 - Although	the	preservation	and	retention	of	data	are	the	most	importantconcepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
+A.	Recoverability     
+B.	Portability     
+C.	Encryption     
+D.	Availability    
 
-### Question # 1 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloudprovider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?
-A.	Platform
-B.	Desktop
-C.	Software
-D.	Infrastructure
+### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloudprovider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?     
+A.	Platform     
+B.	Desktop     
+C.	Software    
+D.	Infrastructure     
 
-### Question # 1 - Which	of	the	following	will	always	serve	as	the	starting	point	for	theminimum	period	of	data	retention?
-A.	Contract
-B.	Regulation
-C.	System	resources
-D.	Company	policy
+### Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	theminimum	period	of	data	retention?      
+A.	Contract    
+B.	Regulation    
+C.	System	resources     
+D.	Company	policy        
 
-### Question # 1 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	setsfor	testing	purposes,	where	the	same	structure	and	size	are	of	importance?
-A.	Dynamic
-B.	Structured
-C.	Tokenized
-D.	Static 
+### Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	setsfor	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
+A.	Dynamic    
+B.	Structured     
+C.	Tokenized     
+D.	Static        
 
 ### QUICK	ANSWER	KEY
 1.	D
@@ -363,7 +370,7 @@ B	is	incorrect	because	educational	history,	including	schools	attended and	degre
 
 C	is	incorrect	because	income	would	be	a	seemingly	arbitrary	number that	could	apply	to	a	very	large	number	of	jobs	and	individuals	and therefore,	by	itself,	would	not	be	a	direct	identifier	to	a	specific individual.
 
-### Question # 1 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solutionand	software	be	deployed?     
+### Question # 2 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solutionand	software	be	deployed?     
 A.	On	the	client    
 B.	On	the	application	server    
 C.	Network	perimeter    
@@ -378,7 +385,7 @@ C	is	incorrect	because	installing	DLP	at	the	network	perimeter	would be	appropri
 
 D	is	incorrect	because	the	data	layer	is	where	data	at	rest	would	be applicable,	not	where	the	data	is	being	actually	used	or	consumed	as	it would	be	on	a	client.
 
-### Question # 1 - Which	cloud	storage	type	uses	an	opaque	value	or	descriptor	to	categorizeand	organize	data?    
+### Question # 3 - Which	cloud	storage	type	uses	an	opaque	value	or	descriptor	to	categorizeand	organize	data?    
 A.	Volume    
 B.	Object    
 C.	Structured    
@@ -393,7 +400,7 @@ C	is	incorrect	because	structured	storage,	used	with	PaaS,	resembles database	st
 
 D	is	incorrect	because	unstructured	storage	is	used	with	PaaS	and	is employed	to	store	files	and	objects	that	do	not	fit	within	the	structured storage	type—typically,	support	files	or	web	files	such	as	images, style	sheets,	and	so	on.
 
-### Question # 1 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
+### Question # 4 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
 A.	Size    
 B.	Throughput    
 C.	Quality    
@@ -408,7 +415,7 @@ B	is	incorrect	because	throughput	may	impact	performance	and processing	time	but
 
 D	is	incorrect	because	the	source	of	the	data	has	no	direct	bearing	on the	quality	of	data	or	the	ability	to	evaluate	it.
 
-### Question # 1 - Which	of	the	following	actions	do	NOT	fall	under	the	“create”	phase	of the	cloud	data	lifecycle?     
+### Question # 5 - Which	of	the	following	actions	do	NOT	fall	under	the	“create”	phase	of the	cloud	data	lifecycle?     
 A.	Newly	created	data    
 B.	Data	that	is	imported    
 C.	Data	that	is	archived     
@@ -423,7 +430,7 @@ B	is	incorrect	because	data	that	is	imported	is	new	to	the	system accepting	the	
 
 D	is	incorrect	because	data	that	is	modified	is	considered	new	data	due to	its	new	form	or	format,	so	it	has	been	created	as	part	of	the	initial phase	within	the	system.
 
-### Question # 1 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	apotential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?    
+### Question # 6 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	apotential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?    
 A.	Confidentiality    
 B.	Privacy    
 C.	Chain	of	custody    
@@ -438,7 +445,7 @@ In	order	for	evidence	to	be	considered	properly	preserved	and admissible	for	leg
  
  D	is	incorrect	because	aggregation	refers	to	collecting	data,	typically event	data,	into	a	single	index	and	storage	system.	Aggregation	does not	apply	directly	to	data	preservation	at	all.
 
-### Question # 1 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtualmachine	images?    
+### Question # 7 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtualmachine	images?    
 A.	Volume    
 B.	Structured    
 C.	Unstructured   
@@ -453,7 +460,7 @@ B	is	incorrect	because	structured	storage	resembles	a	database-type organization
 
 C	is	incorrect	because	unstructured	storage	is	used	within	a	PaaS implementation	for	support	objects	such	as	images	and	web	files;	it would	not	be	used	for	the	storage	of	virtual	machines	for	use throughout	a	cloud	infrastructure.
 
-### Question # 1 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	theoptimal	place	to	deploy	the	DLP	components?    
+### Question # 8 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	theoptimal	place	to	deploy	the	DLP	components?    
 A.	On	the	server	originating	the	traffic    
 B.	At	the	network	perimeter    
 C.	Between	VLANs     
@@ -469,7 +476,7 @@ C	is	incorrect	because	firewalls	and	other	network-monitoring solutions	are	used
 
 D	is	incorrect	because	the	server	receiving	the	data	would	be	a	client where	data	in	use	becomes	the	appropriate	stage;	it	is	no	longer	data	in transit	once	it	reaches	its	destination.
 
-### Question # 1 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatorycompliance	reporting?    
+### Question # 9 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatorycompliance	reporting?    
 A.	SIEM    
 B.	DLP    
 C.	IRM    
@@ -484,7 +491,7 @@ C	is	incorrect	because	information	rights	management	(IRM)	solutions are	used	to
 
 D	is	incorrect	because	an	intrusion	detection	system	(IDS)	is	used	to monitor	data	transmissions	against	known	signatures	and	patterns,	and to	alert	application	owners	or	developers	to	anomalies	or	suspicious circumstances.	It	is	not	used	for	regulatory	or	compliance	reporting.
 
-### Question # 1 - Encryption	solutions	can	be	embedded	within	database	operations	thatwill	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?     
+### Question # 10 - Encryption	solutions	can	be	embedded	within	database	operations	thatwill	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?     
 A.	Transparent     
 B.	Passive     
 C.	RSA    
@@ -500,7 +507,7 @@ C	is	incorrect	because	RSA	refers	to	a	specific	type	of	encryption algorithm,	no
 
 D	is	incorrect	because	homomorphic	encryption	is	a	cutting-edge technique	that	allows	for	accessing	and	processing	encrypted	data without	the	traditional	step	of	having	to	unencrypt	it	first.	It	is	a	type of	encryption	rather	than	a	specific	implementation,	which	is	what	the question	is	asking.
 
-### Question # 1 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	processof	data	classification?     
+### Question # 11 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	processof	data	classification?     
 A.	Use    
 B.	Store    
 C.	Create    
@@ -515,7 +522,7 @@ B	is	incorrect	because	data	needs	to	have	a	classification	attached before	it	en
 
 D	is	incorrect	because	the	“archive”	phase	is	a	much	later	part	of	the overall	process,	and	data	will	have	gone	through	storage,	usage,	and sharing	long	before	it	reaches	archiving,	so	classification	would	need to	take	place	much	earlier.
 
-### Question # 1 - Your	application	generates	large	volumes	of	data	based	on	customer	input. With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	following	methods	for	data	discovery	would	be	your	best choice?     
+### Question # 12 - Your	application	generates	large	volumes	of	data	based	on	customer	input. With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	following	methods	for	data	discovery	would	be	your	best choice?     
 A.	Content	analysis    
 B.	Labels     
 C.	Metadata    
@@ -530,7 +537,7 @@ B	is	incorrect	because	applying	labels,	although	much	quicker	than content	analy
 
 D	is	incorrect	because	authorization	is	the	process	of	granting privileges	and	access	to	data	or	functions	within	an	application;	it	is not	related	to	the	classification	process	at	all.
 
-### Question # 1 - When	using	an	e-commerce	site,	you	see	your	credit	card	informationwith	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?    
+### Question # 13 - When	using	an	e-commerce	site,	you	see	your	credit	card	informationwith	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?    
 A.	Dynamic    
 B.	Homomorphic     
 C.	Static    
@@ -545,7 +552,7 @@ C	is	incorrect	because	static	masking	creates	a	set	of	data,	typically used	for	
 
 D	is	incorrect	because	replication	refers	to	making	multiple	copies	of data	for	either	redundancy,	high	availability,	or	any	use	where	a secondary	copy	is	needed.	It	is	not	related	specifically	to	masking,	as replication	involves	making	identical	copies	of	data	and	not	outputting one	with	masking	in	place.
 
-### Question # 1 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	suchas	DRM	and	DLP	be	most	appropriately	utilized?    
+### Question # 14 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	suchas	DRM	and	DLP	be	most	appropriately	utilized?    
 A.	Use    
 B.	Share    
 C.	Store     
@@ -561,7 +568,7 @@ C	is	incorrect	because	the	“store”	phase	relies	on	different technologies	fo
 
 D	is	incorrect	because	archiving	involves	static	copies	of	data	for preservation,	where	technologies	such	as	encryption	would	be appropriate.	The	use	of	DRM	or	DLP	would	not	be	necessary	or appropriate	because	the	data	is	not	being	transmitted,	shared,	or consumed	in	this	phase.
 
-### Question # 1 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloudenvironment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
+### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloudenvironment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
 A.	Object    
 B.	Structured      
 C.	Volume     
@@ -576,7 +583,7 @@ B	is	incorrect	because	structured	storage,	used	with	Platform	as	a Service	(PaaS
 
 D	is	incorrect	because	unstructured	is	a	data	storage	type	with	PaaS that	is	used	for	objects	that	do	not	fit	within	a	structured	storage system	(typically,	support	files,	images,	web	objects,	and	so	on).	It	is not	used	in	the	sense	of	a	traditional	file	system’s	structure	and configuration	for	this	example.
 
-### Question # 1 - Which	of	the	following	concepts	refers	to	having	logs	available	fromthroughout	a	system	or	application	within	a	single	source?    
+### Question # 16 - Which	of	the	following	concepts	refers	to	having	logs	available	fromthroughout	a	system	or	application	within	a	single	source?    
 A.	Consolidation     
 B.	Correlation     
 C.	Aggregation     
@@ -591,7 +598,7 @@ B	is	incorrect	because	correlation	is	the	function	of	taking	different data	sour
 
 D	is	incorrect	because	archiving	is	the	long-term	preservation	of	event data.	This	is	often	done	on	systems	that	do	aggregation	for	simplicity; these	concepts	are	not	necessarily	related	or	dependent	upon	each other.
 
-### Question # 1 - Which	key	storage	solution	would	be	the	BEST	choice	in	a	situation where	availability	might	be	of	a	particular	concern?    
+### Question # 17 - Which	key	storage	solution	would	be	the	BEST	choice	in	a	situation where	availability	might	be	of	a	particular	concern?    
 A.	Internal    
 B.	External     
 C.	Hosted     
@@ -606,7 +613,7 @@ C	is	incorrect	because	“hosted”	is	not	a	term	typically	applied	to	a	key sto
 
 D	is	incorrect	because	the	term	“embedded”	refers	to	a	type	of encryption,	not	to	a	type	of	key	storage	system.	The	term	is	typically applied	to	encryption	that	is	built	into	a	system	and	is	an	integral	part of	it,	rather	than	an	external	service	or	operation.
 
-### Question # 1 - Digital	right	management	is	an	extension	of	information	rightsmanagement,	but	is	focused	on	which	particular	type	of	data?    
+### Question # 18 - Digital	right	management	is	an	extension	of	information	rightsmanagement,	but	is	focused	on	which	particular	type	of	data?    
 A.	Health	records    
 B.	Academic	records    
 C.	Consumer	media     
@@ -621,7 +628,7 @@ B	is	incorrect	because	academic	records	are	not	a	focus	of	DRM solutions,	althou
 
 D	is	incorrect	because	DRM	is	focused	on	consumer	media	and	not financial	records,	although	IRM	solutions	may	be	used	to	protect financial	records,	as	applicable.
 
-### Question # 1 - Which	of	the	following	is	a	law	in	the	United	States	that	protectshealthcare	information	and	privacy?    
+### Question # 19 - Which	of	the	following	is	a	law	in	the	United	States	that	protectshealthcare	information	and	privacy?    
 A.	HIPAA    
 B.	PII     
 C.	PHI    
@@ -636,7 +643,7 @@ C	is	incorrect	because	PHI	refers	to	protected	health	information.	It	is a	subse
 
 D	is	incorrect	because	the	Affordable	Care	Act	(ACA)	is	a	United States	law	pertaining	to	health	insurance	coverage	and	access,	but	it does	not	pertain	to	specific	regulations	for	the	handling	and	protection of	heathcare	data.
 
-### Question # 1 - Which	of	the	following	technologies	or	concepts	could	be	used	for	thepreservation	of	integrity?     
+### Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	thepreservation	of	integrity?     
 A.	DNSSEC     
 B.	Encryption     
 C.	Tokenization     
@@ -651,7 +658,7 @@ C	is	incorrect	because	tokenization	is	the	process	of	replacing	sensitive data	w
 
 D	is	incorrect	because	anonymization	is	the	process	of	removing identifiers	from	a	data	set	that	would	allow	an	individual	identity	to	be determined	from	the	various	data.	It	is	a	method	and	strategy	for protecting	the	privacy	and	confidentiality	of	data,	not	the	integrity	of it.
 
-### Question # 1 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?     
+### Question # 21 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?     
 A.	Masking    
 B.	Anonymization    
 C.	Obfuscation     
@@ -667,7 +674,7 @@ a	data	set,	typically	for	producing	sets	to	test	applications	in	nonproduction	a
 
 D	is	incorrect	because	encryption	is	used	for	protecting	the confidentiality	of	data,	not	for	altering	values	or	ensuring	the	data cannot	be	tied	through	indirect	identifiers	to	a	specific	individual.
 
-### Question # 1 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?     
+### Question # 22 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?     
 A.	Volume    
 B.	Unstructured    
 C.	Structured     
@@ -682,7 +689,7 @@ B	is	incorrect	because	unstructured	data	is	used	within	PaaS implementations,	ty
 
 C	is	incorrect	because	structured	data,	used	within	PaaS,	represents	the type	of	data	that	is	typically	housed	with	a	database	system.	It	is	used for	the	processing	and	support	of	the	application,	rather	than	the	type of	data	that	would	be	extracted	or	saved	by	a	user	or	other	entity. Therefore,	the	application	of	IRM	would	not	be	applicable	or	useful.
 
-### Question # 1 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customerwithin	an	IaaS	service	category?     
+### Question # 23 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customerwithin	an	IaaS	service	category?     
 A.	Physical	security    
 B.	Network	security    
 C.	Hypervisor	security     
@@ -697,7 +704,7 @@ B	is	incorrect	because	network	security	at	the	IaaS	level	is	shared between	the	
 
 C	is	incorrect	because	with	all	cloud	service	categories,	hypervisor security	is	solely	the	responsibility	of	the	cloud	provider.	At	the hypervisor	level,	the	cloud	customer	would	never	be	allowed	access	or given	insight	beyond	limited	API	and	service	calls	made	to	the hypervisors	via	automated	and	secured	tools	authorized	by	the	cloud provider.
 
-### Question # 1 - Your	new	project	and	its	data	have	regulations	that	dictate	what	type	of records	must	be	maintained	and	for	how	long.	Which	term	refers	to	this concept?     
+### Question # 24 - Your	new	project	and	its	data	have	regulations	that	dictate	what	type	of records	must	be	maintained	and	for	how	long.	Which	term	refers	to	this concept?     
 A.	Data	retention    
 B.	Data	archiving    
 C.	Data	preservation     
@@ -712,7 +719,7 @@ C	is	incorrect	because	data	preservation	is	only	a	part	of	an	overall data	reten
 
 D	is	incorrect	because	data	warehousing	refers	to	the	process	of consolidating	and	storing	data	in	a	centralized	system,	which	can	then be	leveraged	for	business	intelligence	and	other	analysis.	It	does	not refer	to	the	long-term	retention	of	data,	nor	the	policies	and regulations	involved	in	it.
 
-### Question # 1 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulationand	accessing	of	data	without	having	to	unencrypt	it	first?    
+### Question # 25 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulationand	accessing	of	data	without	having	to	unencrypt	it	first?    
 A.	Dynamic    
 B.	Homomorphic     
 C.	Parallel     
@@ -727,7 +734,7 @@ C	is	incorrect	because	parallel	refers	to	multiple	processes	taking	place simult
 
 D	is	incorrect	because	heterogeneous	encryption	is	not	a	real technology	or	concept.	This	option	was	merely	provided	as	a	choice similar	to	homomorphic	encryption.
 
-### Question # 1 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	originalsource	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance?    
+### Question # 26 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	originalsource	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance?    
 A.	Nonrepudiation        
 B.	Integrity        
 C.	Authentication        
@@ -743,7 +750,7 @@ C	is	incorrect	because	authentication	refers	to	the	process	of establishing	the	
 D	is	incorrect	because	availability	refers	to	data,	systems,	or	services
 being	accessible	and	functioning	when	needed,	and	in	a	secure manner.	It	does	not	address	the	confidentiality	or	integrity	of	the	data or	systems	themselves,	nor	does	it	prove	origination	or	identity.
 
-### Question # 1 - Within	a	PaaS	implementation,	which	of	the	following	is	NOT	the responsibility	of	the	cloud	provider?      
+### Question # 27 - Within	a	PaaS	implementation,	which	of	the	following	is	NOT	the responsibility	of	the	cloud	provider?      
 A.	Physical	environment      
 B.	Infrastructure     
 C.	Application	framework     
@@ -758,7 +765,7 @@ B	is	incorrect	because	infrastructure	within	the	PaaS	service	category is	the	re
 
 C	is	incorrect	because	the	main	focus	of	the	PaaS	service	category	is on	providing	an	application	framework	for	the	cloud	customer	to deploy	code	and	data	into.	The	cloud	customer	will	have	considerable input	into	and	contractual	requirements	for	the	application	framework, but	it	is	the	responsibility	of	the	cloud	provider	to	meet	and	address those	needs	to	meet	SLA	requirements.
 
-### Question # 1 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRMsolutions,	but	not	available	with	traditional	permissions	and	security settings?      
+### Question # 28 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRMsolutions,	but	not	available	with	traditional	permissions	and	security settings?      
 A.	Confidentiality     
 B.	Expiration      
 C.	Integrity     
@@ -773,7 +780,7 @@ C	is	incorrect	because	integrity	can	be	assured	through	traditional permissions	
 
 D	is	incorrect	because	the	ability	to	copy	is	inherent	with	the	ability	to read	data.	If	a	user	can	access	a	file	to	read	it,	he	can	also	copy	it, either	directly	copying	the	file	as	a	whole	unit	or	copying	the	data	out of	it	and	into	another	source.	IRM	is	capable	of	preventing	data	from being	copied	even	if	the	user	can	read	it.
 
-### Question # 1 - When	an	organization	implements	an	SIEM	solution	and	beginsaggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind?     
+### Question # 29 - When	an	organization	implements	an	SIEM	solution	and	beginsaggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind?     
 A.	Continual	review     
 B.	Continuous	optimization      
 C.	Aggregation	updates     
@@ -789,7 +796,7 @@ C	is	incorrect	because	while	the	term	“aggregation	updates”	does sound	simil
 D	is	incorrect	because	“event	elasticity”	is	a	made-up	term	for	the purposes	of	the	question,	though	it	does	capture	the	concept	of	event data	and	pairing	with	the	elastic	nature	of	cloud	environments.
 However,	it	is	not	pertinent	to	the	question.
 
-### Question # 1 - Applying	restrictions	on	certain	activities	requires	the	use	of	informationrights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?     
+### Question # 30 - Applying	restrictions	on	certain	activities	requires	the	use	of	informationrights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?     
 A.	Copy    
 B.	Rename     
 C.	Read    
@@ -804,7 +811,7 @@ B	is	incorrect	because	files	can	typically	be	renamed	if	they	can	be read	on	a	s
 
 D	is	incorrect	because	printing	is	possible	if	a	file	can	be	read.	Once the	data	is	accessible,	even	if	printing	is	not	possible	directly	from	the host	system,	there	are	a	variety	of	ways	to	copy	or	move	data	that could	expose	it	to	being	printed.	IRM	technologies	can	be	used	in	a variety	of	ways	to	prevent	printing.
 
-### Question # 1 - Which	cloud	service	category	is	object	storage	associated	with?      
+### Question # 31 - Which	cloud	service	category	is	object	storage	associated	with?      
 A.	Software     
 B.	Infrastructure      
 C.	Desktop      
@@ -819,7 +826,7 @@ C	is	incorrect	because	Desktop	as	a	Service	(DaaS)	uses	storage	in	a similar	way
 
 D	is	incorrect	because	Platform	as	a	Service	(PaaS)	uses	structured	and unstructured	storage	types.	Structured	storage	typically	resembles	a database-type	system,	where	the	organization	and	labels	are	well defined	and	used	by	the	application,	whereas	unstructured	storage serves	to	host	support	files	such	as	images,	web	objects,	configuration files,	and	so	on.
 
-### Question # 1 - Which	of	the	following	is	NOT	a	common	component	of	a	DLP implementation	process?      
+### Question # 32 - Which	of	the	following	is	NOT	a	common	component	of	a	DLP implementation	process?      
 A.	Discovery    
 B.	Monitoring      
 C.	Revision     
@@ -834,7 +841,7 @@ B	is	incorrect	because	monitoring	is	done	constantly	by	DLP	systems as	data	is	a
 
 D	is	incorrect	because	the	ultimate	goal	of	DLP	solutions	is	to	enforce policies	and	controls	on	data	as	it	is	being	used	or	moved.
 
-### Question # 1 - Which	of	the	following	operations	can	be	controlled	and	prevented	withan	IRM	solution	but	would	not	be	possible	with	traditional	authorization mechanisms?     
+### Question # 33 - Which	of	the	following	operations	can	be	controlled	and	prevented	withan	IRM	solution	but	would	not	be	possible	with	traditional	authorization mechanisms?     
 A.	Read    
 B.	Delete    
 C.	Modify    
@@ -849,7 +856,7 @@ B	is	incorrect	because	deletion	can	be	prevented	through	modify	or specific	dele
 
 C	is	incorrect	because	modify	is	a	core	capability	of	all	file	systems and	authorization	schemes,	and	IRM	is	not	needed	to	control	it, though	IRM	can	certainly	give	far	greater	and	more	granular	control over	it.
 
-### Question # 1 - Which	of	the	following	concepts	is	NOT	one	of	the	key	components	of	a data-archiving	program?     
+### Question # 34 - Which	of	the	following	concepts	is	NOT	one	of	the	key	components	of	a data-archiving	program?     
 A.	Format     
 B.	Size     
 C.	Regulations     
@@ -864,7 +871,7 @@ C	is	incorrect	because	regulations	are	the	most	central	and	important component	
 
 D	is	incorrect	because	testing	is	vital	to	ensure	the	success	and compliance	of	an	archiving	program.	Although	identifying	data	that must	be	preserved	and	establishing	processes	to	do	so	are	vital,	the testing	of	the	restoration	capabilities	is	equally	as	vital.	Collecting data	and	archiving	it	will	not	fulfill	regulatory	requirements	if	the organization	is	later	unable	to	restore	or	access	it,	should	the	need arise.
 
-### Question # 1 - Which	of	the	following	activities	is	NOT	something	typically	performed by	an	SIEM	solution?     
+### Question # 35 - Which	of	the	following	activities	is	NOT	something	typically	performed by	an	SIEM	solution?     
 A.	Deletion     
 B.	Alerting     
 C.	Correlation    
@@ -879,7 +886,7 @@ C	is	incorrect	because	correlation	of	data	from	across	an	enterprise	is	a core	f
 
 D	is	incorrect	because	aggregation	is	perhaps	the	most	well	known function	of	an	SIEM	solution,	which	collects	data	from	many	different devices,	servers,	and	sources	and	then	indexes	it	for	use	in	a	single repository	and	searching	mechanism.
 
-### Question # 1 - Which	of	the	following	would	be	considered	an	indirect	identifier?      
+### Question # 36 - Which	of	the	following	would	be	considered	an	indirect	identifier?      
 A.	Name      
 B.	ZIP	Code     
 C.	Educational	history      
@@ -894,7 +901,7 @@ B	is	incorrect	because	a	ZIP	Code	is	typically	considered	specific enough	to	be	
 
 D	is	incorrect	because	an	address	is	very	specific	to	an	individual	or	a residence.	With	the	address	alone,	it	is	possible	to	very	quickly	focus on	an	individual	directly.
 
-### Question # 1 - Which	of	the	following	is	NOT	a	method	for	protecting	data	in	transit?      
+### Question # 37 - Which	of	the	following	is	NOT	a	method	for	protecting	data	in	transit?      
 A.	HTTPS       
 B.	IPSec      
 C.	DRM      
@@ -909,7 +916,7 @@ B	is	incorrect	because	IPSec	is	used	for	securing	communications directly	betwee
 
 D	is	incorrect	because	TLS	is	now	the	default	standard	encryption	and secure	model	for	most	network	communications,	but	especially	for web	and	web	services.	It	has	several	methods	for	both	securing	and ensuring	the	authentication	of	data-in-transit	communications.
 
-### Question # 1 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	mainpitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution?     
+### Question # 38 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	mainpitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution?     
 A.	Volume	and	object    
 B.	Structured	and	unstructured     
 C.	Container	and	object    
@@ -924,7 +931,7 @@ C	is	incorrect	because	container	and	object	are	not	recognized	storage types	ass
 
 D	is	incorrect	because	although	both	volume	and	structured	are	storage types	used	within	cloud	environments,	they	span	two	different	cloud service	categories.	Volume	storage	is	associated	with	IaaS,	whereas structured	storage	is	associated	with	PaaS;	both	are	not	applicable	to the	PaaS	example	represented	in	the	question.
 
-### Question # 1 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?     
+### Question # 39 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?     
 A.	Zeroing    
 B.	Anonymization    
 C.	Tokenization     
@@ -939,7 +946,7 @@ C	is	incorrect	because	tokenization	involves	replacing	sensitive	data with	opaqu
 
 D	is	incorrect	because	obfuscation	is	typically	used	as	a	method	for making	data	sets	available	for	testing	of	development	or	nonproduction	systems	by	removing	sensitive	data	or	replacing	it	with other	values.
 
-### Question # 1 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?      
+### Question # 40 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?      
 A.	Mobile	security     
 B.	Human	resources      
 C.	Governance    
@@ -954,7 +961,7 @@ B	is	incorrect	because	human	resources	is	listed	as	one	of	the	domains of	the	CC
 
 C	is	incorrect	because	governance	of	IT	data	and	resources	is	a	core domain	of	the	CCM.
 
-### Question # 1 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
+### Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
 A.	Platform     
 B.	Software    
 C.	Infrastructure     
@@ -969,7 +976,7 @@ C	is	incorrect	because	Infrastructure	as	a	Service	(IaaS)	is	also	focused on	a	s
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	operates	much	as SaaS	and	carries	with	it	the	same	concerns,	but	is	more	segregated	by individual	cloud	customers.
 
-### Question # 1 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primarymeans	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?      
+### Question # 42 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primarymeans	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?      
 A.	Column	names    
 B.	Content     
 C.	Filenames     
@@ -984,7 +991,7 @@ C	is	incorrect	because	filenames	are	information	about	data,	regardless of	the	n
 
 D	is	incorrect	because	headers	are	very	similar	column	names	and represent	information	about	the	data	and	how	it	is	organized	or categorized.	They	are	also	considered	metadata	and	descriptive	in nature.
 
-### Question # 1 - Different	types	of	cloud	deployment	models	use	different	types	of	storagefrom	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
+### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storagefrom	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
 A.	Docker    
 B.	Object    
 C.	Structured    
@@ -999,7 +1006,7 @@ C	is	incorrect	because	structured	storage,	where	data	is	stored	in	a database-ty
 
 D	is	incorrect	because	volume	storage,	where	data	is	stored	on	a logical	partition	resembling	a	traditional	file	system	hierarchy,	is	an official	cloud	storage	type	used	with	Infrastructure	as	a	Service	(IaaS).
 
-### Question # 1 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	oftime,	which	of	the	following	becomes	the	most	pressing	concern	over time?      
+### Question # 44 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	oftime,	which	of	the	following	becomes	the	most	pressing	concern	over time?      
 A.	Encryption      
 B.	Size       
 C.	Restoration       
@@ -1014,7 +1021,7 @@ B	is	incorrect	because	although	the	size	of	archives	can	be	a	concern, especiall
 
 D	is	incorrect	because	archives	typically	are	housed	in	less	accessible means	of	storage,	many	times	on	tapes	kept	at	secure	external facilities.	When	the	need	for	restoration	arises,	it	may	take	some	time for	archives	to	be	retrieved	and	restored.	There	is	no	need	for	archives to	be	immediately	available,	and	the	contract	or	SLA	with	a	service provider	should	document	the	required	or	expected	restoration	times, ensuring	they	also	will	satisfy	any	regulatory	requirements.
 
-### Question # 1 - Which	of	the	following	data	protection	methodologies	maintains	theability	to	connect	back	values	to	the	original	values?     
+### Question # 45 - Which	of	the	following	data	protection	methodologies	maintains	theability	to	connect	back	values	to	the	original	values?     
 A.	Tokenization     
 B.	Anonymization     
 C.	Obfuscation     
@@ -1029,7 +1036,7 @@ C	is	incorrect	because	obfuscation	often	replaces	values	with	garbage or	random	
 
 D	is	incorrect	because	dynamic	mapping	can	refer	to	many	things within	a	system	or	application,	but	in	this	instance	it’s	provided	as	an erroneous	choice.
 
-### Question # 1 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	datadiscovery?      
+### Question # 46 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	datadiscovery?      
 A.	Labels     
 B.	Metadata     
 C.	Signature	hashing     
@@ -1044,7 +1051,7 @@ B	is	incorrect	because	metadata,	or	data	about	data,	is	commonly	used as	a	strat
 
 D	is	incorrect	because	content	analysis,	which	is	done	against	the actual	data	itself,	is	a	main	strategy	for	data	discovery,	even	if	it	is	the slowest	and	least	accurate	method.	However,	as	tools	become	more mature	and	efficient,	the	use	of	content	analysis	is	rapidly	growing and	becoming	more	accurate	and	useful.
 
-### Question # 1 - Although	the	preservation	and	retention	of	data	are	the	most	importantconcepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
+### Question # 47 - Although	the	preservation	and	retention	of	data	are	the	most	importantconcepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
 A.	Recoverability    
 B.	Portability    
 C.	Encryption    
@@ -1060,7 +1067,7 @@ or	system.
 
 D	is	incorrect	because	availability	is	not	a	primary	concern	with archiving.	Typically,	offsite	storage	or	storage	services	are	used	with archiving,	in	which	case	the	immediate	availability	for	restoration	will not	be	possible,	and	some	period	of	time,	defined	by	regulation,	is allowed	for	producing	records	and	evidence.
 
-### Question # 1 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloudprovider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
+### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloudprovider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
 A.	Platform    
 B.	Desktop    
 C.	Software    
@@ -1075,7 +1082,7 @@ B	is	incorrect	because	Desktop	as	a	Service	(DaaS)	works	much	like SaaS,	where	t
 
 C	is	incorrect	because	the	operating	system	with	Software	as	a	Service (SaaS)	is	solely	the	responsibility	of	the	cloud	provider,	who	itself would	retain	full	access	to	operating	system	logs.	Because	the	cloud provider	is	solely	responsible	for	the	logs,	there	would	be	little	need for	the	cloud	customer	to	have	access	to	them.
 
-### Question # 1 - Which	of	the	following	will	always	serve	as	the	starting	point	for	theminimum	period	of	data	retention?    
+### Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	theminimum	period	of	data	retention?    
 A.	Contract     
 B.	Regulation     
 C.	System	resources    
@@ -1090,7 +1097,7 @@ C	is	incorrect	because	system	resources	would	never	be	a	factor	for determining	
 
 D	is	incorrect	because	company	policy	forms	the	end	basis	for	data retention,	but	the	starting	point	will	always	be	regulation.	Company policies	may	always	expand	and	build	upon	regulations,	but regulations	will	always	form	the	minimum	starting	basis	for	retention requirements.
 
-### Question # 1 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	setsfor	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
+### Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	setsfor	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
 A.	Dynamic    
 B.	Structured    
 C.	Tokenized     
