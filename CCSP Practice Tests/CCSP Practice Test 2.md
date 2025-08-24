@@ -1051,9 +1051,10 @@ Option D is untrue because the end user does not determine which controls are se
 
 121.	C. The Agile Manifesto specifically advocates for getting sample systems into the hands of the users as soon as possible in order to ensure that development is meeting customer needs. The Manifesto refutes all other elements of programming that slow down this effort, including an excessive focus on documentation and planning.
 
-122.	B. A platform as a service (PaaS) environment will likely provide the best option for testing the game; the provider will offer various OS platforms for the game to run on, giving your company the opportunity to reach as many customers (using various platforms) as possible, raising your potential for market penetration.
- 
-Although infrastructure as a service (IaaS) is not a terrible option and would give your team additional control of the entire test, it would also require the team to duplicate many different platforms and OSs, requiring a much greater level of effort and additional expertise at what would likely be a much greater cost. Option B is preferable to option A.
+122.	B. A platform as a service (PaaS) environment will likely provide the best option for testing the game; the provider will offer various OS platforms for the game to run on, giving your company the opportunity to reach as many customers (using various platforms) as possible, raising your potential for market penetration. Although infrastructure as a service (IaaS) is not a terrible option and would give your team additional control of the entire test, it would also require the team to duplicate many different platforms and OSs, requiring a much greater level of effort and additional expertise at what would likely be a much greater cost. 
+
+Option B is preferable to option A.
+
 A software as a service (SaaS) model will not allow your team to install and run the game; option C is incorrect.
 Function as a service (FaaS) is a subcategory of PaaS computing, but it does not allow for the running of full applications, such as video games. Instead, it is designed for executing small portions of code, making option D incorrect.
 
@@ -1062,4 +1063,5 @@ SOAP is not particularly lightweight; in fact, it is kind of cumbersome. Option 
 SOAP is not especially more secure than DCOM or CORBA; option C is incorrect. SOAP is newer than the other technologies; however, that is not the reason it is preferable in a web context. Option B is still preferable to D.
 
 124.	A. Business impact analysis (BIA) determines the impact on a business from the loss of support or availability of any resource. It also establishes the escalation of that loss over time, identifies the minimum resources needed to recover, and prioritizes the recovery of processes and supporting systems.
+
 125.	A. A private cloud is an infrastructure provisioned for exclusive use by a single organization consisting of multiple customers (e.g., business units) and may be owned, managed, or operated by the organization, a third party, or some combination of both and may exist on- or off- premises.
