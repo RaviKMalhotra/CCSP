@@ -1,123 +1,124 @@
 
-### Questions # x - Which	cloud	service	category	is	most	associated	with	auto-scalingofferings	for	a	cloud	customer?
-A.	IaaS
-B.	PaaS
-C.	SaaS
-D.	DaaS
+### Questions # 1 - Which	cloud	service	category	is	most	associated	with	auto-scalingofferings	for	a	cloud	customer?     
+A.	IaaS   
+B.	PaaS    
+C.	SaaS    
+D.	DaaS     
 
- ### Questions # 2 - Which	of	the	following	is	NOT	considered	one	of	the	core	building-block technologies	of	cloud	computing	and	services	offered	by	cloud	providers?
-A.	CPU
-B.	Memory
-C.	Operating	systems
-D.	Storage
+ ### Questions # 2 - Which	of	the	following	is	NOT	considered	one	of	the	core	building-block technologies	of	cloud	computing	and	services	offered	by	cloud	providers?      
+A.	CPU     
+B.	Memory     
+C.	Operating	systems     
+D.	Storage    
 
- ### Questions # 3 - If	an	organization	desires	to	utilize	multiple	cloud	providers	for	thepurposes	of	redundancy	and	disaster	recovery	strategies,	which	cloud deployment	model	would	be	the	most	appropriate?
-A.	Hybrid
-B.	Private
-C.	Public
-D.	Community
+ ### Questions # 3 - If	an	organization	desires	to	utilize	multiple	cloud	providers	for	thepurposes	of	redundancy	and	disaster	recovery	strategies,	which	cloud deployment	model	would	be	the	most	appropriate?      
+A.	Hybrid     
+B.	Private    
+C.	Public      
+D.	Community     
 
- ### Questions # 4 - Which	of	the	following	strategies	to	ensure	data	deletion	andunrecoverability	is	the	most	likely	to	be	available	within	a	cloud environment?
-A.	Degaussing
-B.	Cryptographic	erasure
-C.	Overwriting
-D.	Shredding
+ ### Questions # 4 - Which	of	the	following	strategies	to	ensure	data	deletion	andunrecoverability	is	the	most	likely	to	be	available	within	a	cloud environment?      
+A.	Degaussing     
+B.	Cryptographic erasure     
+C.	Overwriting      
+D.	Shredding     
 
- ### Questions # 5 - Which	key	aspect	of	cloud	computing	allows	the	cloud	customer	toadminister	their	configurations	or	provisioned	services	without	the	need	to interact	or	be	involved	with	the	cloud	provider	and	its	staff?
+ ### Questions # 5 - Which	key	aspect	of	cloud	computing	allows	the	cloud	customer	toadminister	their	configurations	or	provisioned	services	without	the	need	to interact	or	be	involved	with	the	cloud	provider	and	its	staff?     
  
-A.	Resource	pooling
-B.	Measured	service
-C.	Multitenancy
-D.	On-demand	self-service
+A.	Resource	pooling     
+B.	Measured	service     
+C.	Multitenancy     
+D.	On-demand	self-service      
 
- ### Questions # 6 - Which	of	the	following	properties	of	an	application	will	lead	to	the	biggest cost-savings	potential	with	a	move	into	a	cloud	environment?
-A.	Heavy	utilization
-B.	Light	utilization
-C.	Cyclical	utilization
-D.	Internal	utilization
+ ### Questions # 6 - Which	of	the	following	properties	of	an	application	will	lead	to	the	biggest cost-savings	potential	with	a	move	into	a	cloud	environment?      
+A.	Heavy	utilization     
+B.	Light	utilization   
+C.	Cyclical	utilization     
+D.	Internal	utilization     
 
- ### Questions # 7 - Which	of	the	following	standards	pertains	to	the	accreditation	ofcryptographic	modules?
-A.	FIPS	140-2
-B.	PCI	DSS
-C.	NIST	800-53
-D.	ISO/IEC	27001
+ ### Questions # 7 - Which	of	the	following	standards	pertains	to	the	accreditation	ofcryptographic	modules?     
+A.	FIPS	140-2     
+B.	PCI	DSS     
+C.	NIST	800-53    
+D.	ISO/IEC	27001     
 
- ### Questions # 8 - Which	model	lays	out	a	vision	for	IT	Service	Management,	encompassingbest-practice	recommendations	covering	a	wide	variety	of	IT	services	and operations?
-A.	SABSA
-B.	ITIL
-C.	TOGAF
-D.	NIST SP	500-293
+ ### Questions # 8 - Which	model	lays	out	a	vision	for	IT	Service	Management,	encompassingbest-practice	recommendations	covering	a	wide	variety	of	IT	services	and operations?     
+A.	SABSA     
+B.	ITIL     
+C.	TOGAF      
+D.	NIST SP	500-293     
 
- ### Questions # 9 - Which	phase	of	the	cloud	secure	data	lifecycle	is	where	data	is	viewable	tocustomers	or	users?
-A.	Use
-B.	Share
-C.	Store
-D.	View
+ ### Questions # 9 - Which	phase	of	the	cloud	secure	data	lifecycle	is	where	data	is	viewable	tocustomers	or	users?      
+A.	Use    
+B.	Share    
+C.	Store     
+D.	View     
 
- ### Questions # 10 - Which	cloud	storage	type	is	typically	accessed	via	an	API	or	web	servicecall?
-A.	Volume
-B.	Structured
-C.	Unstructured
-D.	Object
+ ### Questions # 10 - Which	cloud	storage	type	is	typically	accessed	via	an	API	or	web	servicecall?      
+A.	Volume   
+B.	Structured     
+C.	Unstructured      
+D.	Object      
 
- ### Questions # 11 - Which	data	security	and	privacy	practice	uses	an	opaque	value	forsensitive	data	fields	that	can	be	mapped	back	to	the	original	value	if needed? 
-A.	Anonymization
-B.	Tokenization
-C.	Obfuscation
-D.	Masking
+ ### Questions # 11 - Which	data	security	and	privacy	practice	uses	an	opaque	value	forsensitive	data	fields	that	can	be	mapped	back	to	the	original	value	if needed?      
+A.	Anonymization    
+B.	Tokenization    
+C.	Obfuscation   
+D.	Masking      
 
- ### Questions # 12 - Which	phase	of	the	cloud	data	lifecycle	represents	the	first	opportunity	to apply	security	controls	to	protect	data?
-A.	Create
-B.	Use
-C.	Share
-D.	Store
+ ### Questions # 12 - Which	phase	of	the	cloud	data	lifecycle	represents	the	first	opportunity	to apply	security	controls	to	protect	data?   
+A.	Create      
+B.	Use    
+C.	Share    
+D.	Store     
 
- ### Questions # 13 - Which	of	the	following	is	NOT	one	of	the	main	methods	of	data	discovery processes? A.		Checksums
-B.	Metadata
-C.	Labels
-D.	Content	analysis
+ ### Questions # 13 - Which	of	the	following	is	NOT	one	of	the	main	methods	of	data	discovery processes?      
+ A.	Checksums    
+B.	Metadata     
+C.	Labels     
+D.	Content	analysis     
 
- ### Questions # 14 - Which	jurisdiction	has	implemented	policy	regulations	that	are	known	asthe	“right	to	be	forgotten”	protections?
-A.	United	States
-B.	Russia
-C.	European	Union
-D.	APEC
+ ### Questions # 14 - Which	jurisdiction	has	implemented	policy	regulations	that	are	known	asthe	“right	to	be	forgotten”	protections?    
+A.	United	States    
+B.	Russia    
+C.	European	Union   
+D.	APEC    
 
- ### Questions # 15 - Which	of	the	following	functions	can	be	controlled	by	IRM	technologies,where	typical	operating	system	controls	would	not	be	sufficient?
-A.	Read
-B.	Copy
-C.	Delete
-D.	Write
+ ### Questions # 15 - Which	of	the	following	functions	can	be	controlled	by	IRM	technologies,where	typical	operating	system	controls	would	not	be	sufficient?    
+A.	Read    
+B.	Copy    
+C.	Delete    
+D.	Write     
 
- ### Questions # 16 - Which	of	the	following	will	always	dictate	the	minimum	requirements	fordata	retention	and	archiving	periods?
-A.	Company	policies
-B.	Application	needs
-C.	Regulations
-D.	Administrator	requests
+ ### Questions # 16 - Which	of	the	following	will	always	dictate	the	minimum	requirements	fordata	retention	and	archiving	periods?     
+A.	Company	policies    
+B.	Application	needs    
+C.	Regulations    
+D.	Administrator	requests     
 
- ### Questions # 17 - Which	of	the	following	event	data	types	is	a	cloud	customer	most	likely	tobe	supplied	with	a	SaaS	implementation?
-A.	Firewall
-B.	Authentication
-C.	Patching
-D.	Billing
+ ### Questions # 17 - Which	of	the	following	event	data	types	is	a	cloud	customer	most	likely	tobe	supplied	with	a	SaaS	implementation?    
+A.	Firewall    
+B.	Authentication   
+C.	Patching    
+D.	Billing    
 
- ### Questions # 18 - Which	security	concept	is	the	most	important	consideration	with	the	useof	an	external	key	management	system?
-A.	Confidentiality
-B.	Availability
-C.	Integrity
-D.	Privacy
+ ### Questions # 18 - Which	security	concept	is	the	most	important	consideration	with	the	useof	an	external	key	management	system?    
+A.	Confidentiality    
+B.	Availability    
+C.	Integrity    
+D.	Privacy     
 
- ### Questions # 19 - Which	of	the	following	is	not	one	of	the	defined	security	controlsdomains	within	the	Cloud	Controls	Matrix,	published	by	the	Cloud Security	Alliance?
-A.	Financial
-B.	Human	resources
-C.	Mobile	security
-D.	Identity	and	access	management
+ ### Questions # 19 - Which	of	the	following	is	not	one	of	the	defined	security	controlsdomains	within	the	Cloud	Controls	Matrix,	published	by	the	Cloud Security	Alliance?     
+A.	Financial    
+B.	Human	resources    
+C.	Mobile	security    
+D.	Identity	and	access	management     
 
- ### Questions # 20 - Which	concept	is	utilized	by	a	cloud	provider	to	determine	how	toallocate	resources	requested	by	cloud	customers	when	the	cloud infrastructure	does	not	have	enough	resources	to	meet	all	requests?
-A.	Limits
-B.	Reservations
-C.	Holds
-D.	Shares
+ ### Questions # 20 - Which	concept	is	utilized	by	a	cloud	provider	to	determine	how	toallocate	resources	requested	by	cloud	customers	when	the	cloud infrastructure	does	not	have	enough	resources	to	meet	all	requests?    
+A.	Limits   
+B.	Reservations   
+C.	Holds     
+D.	Shares    
 
  ### Questions # 21 - 21.	Which	type	of	hypervisor	runs	within	a	host	operating	system,	rather	thandirectly	tied	to	the	underlying	hypervisor	hardware?
 A.	Type	1
