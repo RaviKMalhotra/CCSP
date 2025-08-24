@@ -1,4 +1,4 @@
-1.	An email is an example of what type of data?
+1.	An email is an example of what type of data? 
 A.	Structured data
 B.	Semi- structured data
 C.	RFC- defined data
