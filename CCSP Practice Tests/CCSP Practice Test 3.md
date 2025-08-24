@@ -1,173 +1,183 @@
 
-### Question # x - Juanita has configured her virtualization cluster for high availability mode. The virtualization management plane detects that one of her servers has failed and is no longer sending heartbeat information. What will the cluster do if the node cannot be restarted? A. Attempt to reboot the failed system.
-B.	Shut down the failed system and send an alert.
-C.	Restart the VMs hosted on that system on other cluster nodes.
-D.	Migrate the hosts from the failed system to its backup mirror.
+### Question # 1 - Juanita has configured her virtualization cluster for high availability mode. The virtualization management plane detects that one of her servers has failed and is no longer sending heartbeat information. What will the cluster do if the node cannot be restarted? 
+A. Attempt to reboot the failed system.     
+B.	Shut down the failed system and send an alert.    
+C.	Restart the VMs hosted on that system on other cluster nodes.    
+D.	Migrate the hosts from the failed system to its backup mirror.     
 
 
-### Question # x - Will wants to use containerized applications in his cloud- hosted environment. Which of the following is a best practice he should use as he builds them? A. Package a single application per container.
-B.	Use default installs wherever possible.
-C.	Retain all normal tools and utilities.
-D.	Avoid tagging to reduce complexity.
+### Question # 2 - Will wants to use containerized applications in his cloud- hosted environment. Which of the following is a best practice he should use as he builds them?      
+A. Package a single application per container.         
+B.	Use default installs wherever possible.        
+C.	Retain all normal tools and utilities.        
+D.	Avoid tagging to reduce complexity.       
 
-### Question # 3 - Jason wants to adopt a cloud service security standard. Which of the following is specifically designed to cover cloud service providers?
-A.	ISO/IEC 20000:1
-B.	ISO/IEC 27017
-C.	PCI DSS
-D.	GDPR
+### Question # 3 - Jason wants to adopt a cloud service security standard. Which of the following is specifically designed to cover cloud service providers?    
+A.	ISO/IEC 20000:1    
+B.	ISO/IEC 27017     
+C.	PCI DSS     
+D.	GDPR     
 
-### Question # 4 - Helen’s organization operates an e- commerce website housed by a cloud service provider. Which of the following compliance standards is she likely to have to comply with?
-A.	PCI DSS
-B.	FedRAMP
-C.	COBIT
-D.	ITIL
+### Question # 4 - Helen’s organization operates an e- commerce website housed by a cloud service provider. Which of the following compliance standards is she likely to have to comply with?     
+A.	PCI DSS     
+B.	FedRAMP     
+C.	COBIT     
+D.	ITIL     
 
-### Question # 5 - Ilya wants to ensure that systems in his cloud environment are properly patched. Which of the following options will give him the most flexibility and control over patching, including when patches are installed and what patches are installed if his organization has a strong emphasis on using prebuilt tools?
-A.	Automatically install patches using built- in OS tools.
-B.	Use a patching script developed by the organization.
-C.	Set up automatic updates for all applications and the OS.
-D.	Use the cloud provider’s patching tools and patch baselines.
+### Question # 5 - Ilya wants to ensure that systems in his cloud environment are properly patched. Which of the following options will give him the most flexibility and control over patching, including when patches are installed and what patches are installed if his organization has a strong emphasis on using prebuilt tools?      
+A.	Automatically install patches using built- in OS tools.     
+B.	Use a patching script developed by the organization.     
+C.	Set up automatic updates for all applications and the OS.      
+D.	Use the cloud provider’s patching tools and patch baselines.       
 
-### Question # 6 - Yasmine is validating her software’s performance under load, including testing for higher numbers of users than her organization expects to ever use the application. What type of testing is she conducting? A. Functional testing
-B.	Black- box testing
-C.	Nonfunctional testing
-D.	White- box testing
+### Question # 6 - Yasmine is validating her software’s performance under load, including testing for higher numbers of users than her organization expects to ever use the application. What type of testing is she conducting?      
+A. Functional testing      
+B.	Black- box testing     
+C.	Nonfunctional testing     
+D.	White- box testing      
 
-### Question # 7 - Adam’s organization uses Google cloud services and he wants to ensure that his organization’s logs are secure. What best practice should he recommend to his organization to ensure that the logs are secure at rest?
-A.	Ensure the cloud provider regularly rotates keys for the logs.
-B.	Use customer- managed encryption keys for logs.
-C.	Use provider- managed encryption keys for logs.
-D.	Avoid encrypting logs to ensure they remain accessible.
+### Question # 7 - Adam’s organization uses Google cloud services and he wants to ensure that his organization’s logs are secure. What best practice should he recommend to his organization to ensure that the logs are secure at rest?      
+A.	Ensure the cloud provider regularly rotates keys for the logs.     
+B.	Use customer- managed encryption keys for logs.       
+C.	Use provider- managed encryption keys for logs.     
+D.	Avoid encrypting logs to ensure they remain accessible.      
+ 
+### Question # 8 - Charleen wants to implement multifactor authentication for her organization. Which of the following MFA options is considered the least secure?     
+A.	Application- based code generation     
+B.	Hardware token–based code generation     
+C.	SMS- based code delivery     
+D.	USB hardware tokens     
 
-### Question # 8 - Charleen wants to implement multifactor authentication for her organization. Which of the following MFA options is considered the least secure?
-A.	Application- based code generation
-B.	Hardware token–based code generation
-C.	SMS- based code delivery
-D.	USB hardware tokens
+### Question # 9 - Email and web pages are both examples of what type of data?     
+A.	Unstructured data     
+B.	Structured data    
+C.	Semi- structured data     
+D.	Partially structured data    
 
-### Question # 9 - Email and web pages are both examples of what type of data?
-A.	Unstructured data
-B.	Structured data
-C.	Semi- structured data
-D.	Partially structured data
+### Question # 10 - Felix wants to ensure that members of his organization only access management consoles while they are in approved locations. Which of the following network security capabilities will best allow him to accomplish that task?     
+A.	Zero trust     
+B.	Geofencing    
+C.	Traffic inspection     
+D.	Network security groups      
 
-### Question # 10 - Felix wants to ensure that members of his organization only access management consoles while they are in approved locations. Which of the following network security capabilities will best allow him to accomplish that task?
-A.	Zero trust
-B.	Geofencing
-C.	Traffic inspection
-D.	Network security groups
+### Question # 11 - Valerie, an Amazon AWS user, is concerned about potential outages that might impact her current US- East region. What risk mitigation strategy should she take to ensure her organization can handle a region- wide outage?       
+A. Configure DR in another region.         
+B.	Configure DR in another availability zone.          
+C.	Deploy redundant systems in her current availability zone.          
+D.	Deploy redundant systems in her current region.         
 
-### Question # 11 - Valerie, an Amazon AWS user, is concerned about potential outages that might impact her current US- East region. What risk mitigation strategy should she take to ensure her organization can handle a region- wide outage? A. Configure DR in another region.
-B.	Configure DR in another availability zone.
-C.	Deploy redundant systems in her current availability zone.
-D.	Deploy redundant systems in her current region.
+### Question # 12 - Casey is transitioning from an on- premises datacenter to a cloud datacenter. What hardware monitoring will she still be able to access in her new environment?      
+A.	CPU utilization     
+B.	Fan speeds        
+C.	System temperature     
+D.	System voltages          
 
-### Question # 12 - Casey is transitioning from an on- premises datacenter to a cloud datacenter. What hardware monitoring will she still be able to access in her new environment?
-A.	CPU utilization
-B.	Fan speeds
-C.	System temperature
-D.	System voltages
+### Question # 13 - Kirk is adopting a platform as a service tool for his organization. Who is responsible for application and data security in PaaS environments?      
+A.	The customer     
+B.	The provider     
+C.	The regulator      
+D.	Both the customer and provider     
 
-### Question # 13 - Kirk is adopting a platform as a service tool for his organization. Who is responsible for application and data security in PaaS environments?
-A.	The customer
-B.	The provider
-C.	The regulator
-D.	Both the customer and provider
+### Question # 14 - Alaina wants to protect her on- premises datacenter from power issues. Which of the  following options is best suited to handling brownouts?    
+A.	A generator     
+B.	Purchasing power from two different providers     
+C.	UPS     
+D.	PDUs       
 
-### Question # 14 - Alaina wants to protect her on- premises datacenter from power issues. Which of the  following options is best suited to handling brownouts?
-A.	A generator
-B.	Purchasing power from two different providers
-C.	UPS
-D.	PDUs
+### Question # 15 - What term is used to describe a cloud service provider that allows customers to create virtual machines, define their own networking using virtual networks, and use storage and other services to create and manage their own infrastructure?     
+A.	IaaS     
+B.	PaaS      
+C.	SaaS        
+D.	CaaS       
 
-### Question # 15 - What term is used to describe a cloud service provider that allows customers to create virtual machines, define their own networking using virtual networks, and use storage and other services to create and manage their own infrastructure?
-A.	IaaS
-B.	PaaS
-C.	SaaS
-D.	CaaS
+### Question # 16 - When Susan logs into her organization’s service portal, she sees customer data that has names and addresses removed. What data obfuscation technique is her organization using?       
+A. Randomization     
+B.	Data masking      
+C.	Hashing     
+D.	Anonymization       
 
-### Question # 16 - When Susan logs into her organization’s service portal, she sees customer data that has names and addresses removed. What data obfuscation technique is her organization using? A. Randomization
-B.	Data masking
-C.	Hashing
-D.	Anonymization
+### Question # 17 - Hui wants to conduct a point in time SOC audit that covers her organization’s security practices. What type of SOC audit should she select?   
+A.	A SOC 1 Type 1      
+B. A SOC 2 Type 1      
+C. A SOC 1 Type 2     
+D. A SOC 2 Type 2     
 
-### Question # 17 - Hui wants to conduct a point in time SOC audit that covers her organization’s security practices. What type of SOC audit should she select?
-A.	A SOC 1 Type 1 B. A SOC 2 Type 1 C. A SOC 1 Type 2
-D. A SOC 2 Type 2
+### Question # 18 - The Cloud Security Alliance notes that specific log types may only be available to cloud  service providers when conducting forensic investigations. Which of the following log types will not typically be under service provider control in an IaaS environment?      
+A.	Logs from DNS servers     
+B.	Billing records     
+C.	API logs     
+D.	Web server logs      
 
-### Question # 18 - The Cloud Security Alliance notes that specific log types may only be available to cloud  service providers when conducting forensic investigations. Which of the following log types will not typically be under service provider control in an IaaS environment?
-A.	Logs from DNS servers
-B.	Billing records
-C.	API logs
-D.	Web server logs
+### Question # 19 - ITIL v4 defines one primary responsibility for availability. What role is key to availability efforts in ITIL?     
+A.	System architect     
+B.	Availability tester     
+C.	Risk manager     
+D.	Availability manager       
 
-### Question # 19 - ITIL v4 defines one primary responsibility for availability. What role is key to availability efforts in ITIL?
-A.	System architect
-B.	Availability tester
-C.	Risk manager
-D.	Availability manager
+### Question # 20 - Wayne’s organization employs cloud architects who have broad responsibility for the implementation and oversight of their cloud environment. He wants to provide the architects with appropriate rights in his environment. What should he do to provide them with the proper rights?      
+A.	Use the vendor’s best practices definitions for cloud architect rights.     
+B.	Use only built- in roles.   
+C.	Define a custom role.   
+D.	Use multifactor authentication to map roles as needed.     
 
-### Question # 20 - Wayne’s organization employs cloud architects who have broad responsibility for the implementation and oversight of their cloud environment. He wants to provide the architects with appropriate rights in his environment. What should he do to provide them with the proper rights?
-A.	Use the vendor’s best practices definitions for cloud architect rights.
-B.	Use only built- in roles.
-C.	Define a custom role.
-D.	Use multifactor authentication to map roles as needed.
+### Question # 21 - Jack is considering a cloud service policy as part of his organization’s move to the cloud. Which of the following is not a common principle to follow when building a cloud  service policy?     
+A.	Obtain input from all relevant stakeholders.    
+B.	Change organizational culture for the cloud.     
+C.	Follow the chain of command.    
+D.	Meet external requirements.     
 
-### Question # 21 - Jack is considering a cloud service policy as part of his organization’s move to the cloud. Which of the following is not a common principle to follow when building a cloud  service policy?
-A.	Obtain input from all relevant stakeholders.
-B.	Change organizational culture for the cloud.
-C.	Follow the chain of command.
-D.	Meet external requirements.
+### Question # 22 - Lucca wants to define technical risks to his cloud environment. Which of the following is not a technical risk for his cloud services?    
+A.	Privacy issues    
+B.	Data breaches     
+C.	System outages    
+D.	Denial- of- service attacks     
 
-### Question # 22 - Lucca wants to define technical risks to his cloud environment. Which of the following is not a technical risk for his cloud services?
-A.	Privacy issues
-B.	Data breaches
-C.	System outages
-D.	Denial- of- service attacks
+### Question # 23 - What defines a Type 2 hypervisor? A. It runs in the cloud.     
+B.	It runs on top of an existing operating system.     
+C.	It is installed on a bare- metal system.     
+D.	It cannot run inside of a virtualization system.     
 
-### Question # 23 - What defines a Type 2 hypervisor? A. It runs in the cloud.
-B.	It runs on top of an existing operating system.
-C.	It is installed on a bare- metal system.
-D.	It cannot run inside of a virtualization system.
+### Question # 24 - Amazon’s S3 relies on collections of objects in buckets and is accessible via REST APIs. What common type of cloud storage is Amazon’s S3?    
+A.	Object      
+B. Block     
+C.	Native     
+D.	Network file      
+ 
+### Question # 25 - Which of the following is not a typical goal of a privacy impact assessment (PIA)?     
+A.	Identifying the cost of privacy efforts    
+B.	Ensuring that the organization meets legal and policy- based privacy requirements    
+C.	Identifying the risks of privacy breaches    
+D.	Identifying privacy controls     
 
-### Question # 24 - Amazon’s S3 relies on collections of objects in buckets and is accessible via REST APIs. What common type of cloud storage is Amazon’s S3?
-A.	Object B. Block
-C.	Native
-D.	Network file
+### Question # 26 - Mike wants to ensure that his data labeling travels with the data as it is used in his organization. What is the most effective and feasible option to ensure this?     
+A. Include the data labels in file metadata.           
+B.	Include the data labels in the filename.            
+C.	Include the data labels as s second file sent with the first.     
+D.	Include the data labels as part of a cryptographic wrapper.      
 
-### Question # 25 - Which of the following is not a typical goal of a privacy impact assessment (PIA)?
-A.	Identifying the cost of privacy efforts
-B.	Ensuring that the organization meets legal and policy- based privacy requirements
-C.	Identifying the risks of privacy breaches
-D.	Identifying privacy controls
+### Question # 27 - After a breach has been discovered, what group is most likely to have a legally required time frame to be notified about the breach?    
+A.	Customers    
+B.	Partners     
+C.	Regulators     
+D.	Law enforcement    
 
-### Question # 26 - Mike wants to ensure that his data labeling travels with the data as it is used in his organization. What is the most effective and feasible option to ensure this? A. Include the data labels in file metadata.
-B.	Include the data labels in the filename.
-C.	Include the data labels as s second file sent with the first.
-D.	Include the data labels as part of a cryptographic wrapper.
+### Question # 28 - Google’s Cloud Architecture Framework suggests a number of common security design practices. Which of the following is not a common cloud IaaS design security practice?     
+A. Meet compliance requirements for your regions.     
+B.	Use a layered security approach.     
+C.	Emphasize manual monitoring.     
+D.	Automate deployment of sensitive tasks.      
 
-### Question # 27 - After a breach has been discovered, what group is most likely to have a legally required time frame to be notified about the breach?
-A.	Customers
-B.	Partners
-C.	Regulators
-D.	Law enforcement
+### Question # 29 - Olivia is using a waterfall SLDC. Which of the following is not a phase in typical waterfall- based SDLCs?     
+A.	Requirements gathering     
+B.	Reverse engineering      
+C.	Implementation     
+D.	Maintenance     
 
-### Question # 28 - Google’s Cloud Architecture Framework suggests a number of common security design practices. Which of the following is not a common cloud IaaS design security practice? A. Meet compliance requirements for your regions.
-B.	Use a layered security approach.
-C.	Emphasize manual monitoring.
-D.	Automate deployment of sensitive tasks.
-
-### Question # 29 - Olivia is using a waterfall SLDC. Which of the following is not a phase in typical waterfall- based SDLCs?
-A.	Requirements gathering
-B.	Reverse engineering
-C.	Implementation
-D.	Maintenance
-
-### Question # 30 - Michelle wants to store and manage cryptographic keys for her cloud environment. What solution should she require her cloud IaaS provider to have if she is selecting a new provider?
-A.	TPM
-B.	Cloud HSM
-C.	PKI
-D.	SAS 70
+### Question # 30 - Michelle wants to store and manage cryptographic keys for her cloud environment. What solution should she require her cloud IaaS provider to have if she is selecting a new provider?     
+A.	TPM    
+B.	Cloud HSM     
+C.	PKI     
+D.	SAS 70     
 
 ### Question # 31 - What is the most common method for allocation of compute power in cloud IaaS environments?
 A.	Each customer uses a dedicated CPU per instance.
