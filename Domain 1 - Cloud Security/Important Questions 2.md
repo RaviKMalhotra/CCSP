@@ -1,27 +1,27 @@
 
-### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?
-A.	Interoperability  
-B.	Open	source  
+### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?  
+A.	Interoperability     
+B.	Open	source      
 **C.**	Broad	network	access  
-D.	Single	sign-on  
+D.	Single	sign-on.       
 
-### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	of cryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?
-**A.**	FIPS	140-2
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	ISO/IEC	27001
+### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	of cryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?   
+**A.**	FIPS	140-2.  
+B.	NIST	SP	800-53.   
+C.	SOC	2.    
+D.	ISO/IEC	27001.    
 
-### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?
-A.	CPU
-B.	Storage
-**C.**	Number	of	users
-D.	Memory
+### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?     
+A.	CPU.    
+B.	Storage.   
+**C.**	Number	of	users.    
+D.	Memory.    
 
-### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	and maintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?
-A.	Co-location
-B.	Elasticity
-C.	System	sharing
-**D.**	Resource	pooling
+### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	and maintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?    
+A.	Co-location.  
+B.	Elasticity.   
+C.	System	sharing.   
+**D.**	Resource	pooling.    
 
 ### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?
 **A.**	On-demand	self-service
