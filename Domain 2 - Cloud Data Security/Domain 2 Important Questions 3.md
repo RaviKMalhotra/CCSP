@@ -10,7 +10,9 @@ B.	Storage.
 C.	Use.  
 D.	Destruction.  
 
-### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization?    A. Lack of data labeling.  
+### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization? 
+
+A. Lack of data labeling.     
 B.	Use of encryption for data in transit.  
 C.	Improper data labeling.  
 D.	Use of encryption for data at rest.  
@@ -57,70 +59,71 @@ B.	The destination port.
 C.	The query string.   
 D.	The destination IP address.   
 
-### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?
-A.	Its ability to be uniquely identified
-B.	The length of the data
-C.	The formatting of the data
-D.	The ability to sort the data based on street number
+### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?   
+A.	Its ability to be uniquely identified. 
+B.	The length of the data.  
+C.	The formatting of the data.  
+D.	The ability to sort the data based on street number.  
 
-### Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?
-A.	Delete all data not in secure storage.
-B.	Store data in more than one location or service.
-C.	Avoid storing data in intact form, requiring data from more than one location to use a data set.
-D.	Geographically separate data by at least 15 miles to ensure that a single natural disaster cannot destroy it.
+### Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?    
+A.	Delete all data not in secure storage.   
+B.	Store data in more than one location or service.     
+C.	Avoid storing data in intact form, requiring data from more than one location to use a data set.     
+D.	Geographically separate data by at least 15 miles to ensure that a single natural disaster cannot destroy it.     
 
-### Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?
-A.	Long- term storage
-B.	Ephemeral storage
-C.	Raw storage
-D.	Volume- based storage
+### Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?    
+A.	Long- term storage.  
+B.	Ephemeral storage.    
+C.	Raw storage.   
+D.	Volume- based storage.   
 
-### Question # 14 - Steve is working to classify data based on his organization’s data classification policies. Which of the following is not a common type of classification?
-A.	Size of the data
-B.	Sensitivity of the data
-C.	Jurisdiction covering the data
-D.	Criticality of the data
+### Question # 14 - Steve is working to classify data based on his organization’s data classification policies. Which of the following is not a common type of classification?    
+A.	Size of the data.   
+B.	Sensitivity of the data.  
+C.	Jurisdiction covering the data.  
+D.	Criticality of the data.   
 
-### Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?
-A.	Data labeling
-B.	Data classification
-C.	Hashing
-D.	Geolocation tagging
+### Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?    
+A.	Data labeling.   
+B.	Data classification.   
+C.	Hashing.    
+D.	Geolocation tagging.   
 
-### Question # 16 - 	Gary is gathering data to support a legal case on behalf of his company. Why might he digitally sign files as they are collected and preserve them along with the data in a documented, validated way?
-A.	To allow for data dispersion
-B.	To ensure the files are not copied
-C.	To keep the files secure by encrypting them
-D.	To support nonrepudiation
+### Question # 16 - 	Gary is gathering data to support a legal case on behalf of his company. Why might he digitally sign files as they are collected and preserve them along with the data in a documented, validated way?    
+A.	To allow for data dispersion.   
+B.	To ensure the files are not copied.  
+C.	To keep the files secure by encrypting them.   
+D.	To support nonrepudiation.   
 
-### Question # 17 - Valerie is performing a risk assessment for her cloud environment and wants to identify risks to her organization’s ephemeral volume- based storage used for system drives in a scalable, virtual machine–based environment. Which of the following is not a threat to ephemeral storage?
-A.	Inadvertent exposure
-B.	Malicious access due to credential theft
-C.	Poor performance due to its ephemeral nature
-D.	Loss of forensic artifacts
+### Question # 17 - Valerie is performing a risk assessment for her cloud environment and wants to identify risks to her organization’s ephemeral volume- based storage used for system drives in a scalable, virtual machine–based environment. Which of the following is not a threat to ephemeral storage?      
+A.	Inadvertent exposure.  
+B.	Malicious access due to credential theft.   
+C.	Poor performance due to its ephemeral nature.   
+D.	Loss of forensic artifacts.   
 
-### Question # 18 - 	Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?
-A.	Ephemeral storage
-B.	Raw storage
-C.	Long-term storage
-D.	Magneto- optical storage
+### Question # 18 - 	Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?    
+A.	Ephemeral storage.   
+B.	Raw storage.   
+C.	Long-term storage.   
+D.	Magneto- optical storage.  
 
-### Question # 19 - Kathleen wants to perform data discovery across a large data set and knows that some data types are more difficult to perform discovery on than others. Which of the following data types is the hardest to perform discovery actions on?
-A.	Unstructured data
-B.	Semi- structured data
-C.	Rigidly structured data
-D.	Structured data
+### Question # 19 - Kathleen wants to perform data discovery across a large data set and knows that some data types are more difficult to perform discovery on than others. Which of the following data types is the hardest to perform discovery actions on?    
+A.	Unstructured data.  
+B.	Semi- structured data.   
+C.	Rigidly structured data.   
+D.	Structured data.   
 
-### Question # 20 - Isaac wants to filter events based on the country of origin for authentications. What log information should he use to perform a best- effort match for logins? A. userID
-B.	IP address
-C.	Geolocation
-D.	MAC address
+### Question # 20 - Isaac wants to filter events based on the country of origin for authentications. What log information should he use to perform a best- effort match for logins?      
+A. userID.   
+B.	IP address.   
+C.	Geolocation.   
+D.	MAC address.   
 
-### Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?
-A.	Hashing
-B.	Shuffling
-C.	Randomization
-D.	Masking
+### Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?    
+A.	Hashing.  
+B.	Shuffling.  
+C.	Randomization.  
+D.	Masking.  
 
 ### Question # 22 - Michelle wants to track deletion of files in an object storage bucket. What potential issue should she be aware of if her organization makes heavy use of object- based storage for storage of ephemeral files?
 A.	The logging may not be accurate.
