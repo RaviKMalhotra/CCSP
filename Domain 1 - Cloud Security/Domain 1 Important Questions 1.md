@@ -2,97 +2,107 @@
 
 Domain 1 of the Certified Cloud Security Professional (CCSP) Exam Outline is an introductory section that touches on almost every other element of the exam outline so you’ll find a wide breadth of content and subject matter ranging over many topics. The questions in this chapter will reflect that broad scope but will also get into some level of detail on certain aspects you’ll find pertinent to the exam.
 
-### Question # 1 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which cloud service model should she most likely consider for her company’s purposes?
-		A. Platform as a service (PaaS)
-		B. Software as a service (SaaS)
-		C. Backup as a service (Baas)
-		D. Infrastructure as a service (IaaS)
+### Question # 1 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which cloud service model should she most likely consider for her company’s purposes?   
+A. Platform as a service (PaaS)  
+B. Software as a service (SaaS)  
+C. Backup as a service (Baas)  
+D. Infrastructure as a service (IaaS)   
 Answer: A. 
 
-PaaS will allow her developers to create and design their software on a variety of operating systems (OSs), increasing the breadth of the market she can sell to. Also, she can use geographically dispersed programmers to work on projects concurrently, and the provider will be responsible for maintaining and updating the OSs as necessary. IaaS is a less attractive option because it would retain the need for Alice’s company to administer the OSs in addition to building their software; it might be less expensive in terms of paying the cloud provider, but the time and effort and personnel necessary to maintain the OSs would offset that cost, probably in a net-negative way. SaaS is not an option; Alice wants her company to build software, not rent it or buy it. Backup as a Service (BaaS) would not be useful for creating, designing, or deploying Alice’s company’s software.
+PaaS will allow her developers to create and design their software on a variety of operating systems (OSs), increasing the breadth of the market she can sell to. Also, she can use geographically dispersed programmers to work on projects concurrently, and the provider will be responsible for maintaining and updating the OSs as necessary. 
 
-### Question # 2 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which aspect of cloud computing should she be most concerned about, in terms of security issues?
-A. Multitenancy
-B. Metered service
-C. Service-level agreement (SLA)
-D. Remote access
+IaaS is a less attractive option because it would retain the need for Alice’s company to administer the OSs in addition to building their software; it might be less expensive in terms of paying the cloud provider, but the time and effort and personnel necessary to maintain the OSs would offset that cost, probably in a net-negative way. SaaS is not an option; Alice wants her company to build software, not rent it or buy it. Backup as a Service (BaaS) would not be useful for creating, designing, or deploying Alice’s company’s software.
+
+### Question # 2 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. Which aspect of cloud computing should she be most concerned about, in terms of security issues?    
+A. Multitenancy   
+B. Metered service    
+C. Service-level agreement (SLA)    
+D. Remote access    
 Answer: A. 
 
-Of these four options, multitenancy poses the greatest risk to software developers in the cloud, because developers need to be concerned with two things: protecting their intellectual property (the software they’re making) and protecting resource calls their software makes to the underlying infrastructure (which, if detectable by other cloud customers, could provide information that constitutes a side-channel attack). Metered service doesn’t pose much of a security risk. The SLA might include some security aspects (such as response time), but it’s usually more of a performance-ensuring tool, and this choice is not as good as option A. Remote access, in this particular case, provides more benefit than risk: Alice can utilize work from developers located across the country or across the planet. While she does have to consider the risks inherent in all remote access, those risks are not as significant as the risks due to multitenancy, so option A is still preferable.
+Of these four options, multitenancy poses the greatest risk to software developers in the cloud, because developers need to be concerned with two things: protecting their intellectual property (the software they’re making) and protecting resource calls their software makes to the underlying infrastructure (which, if detectable by other cloud customers, could provide information that constitutes a side-channel attack). Metered service doesn’t pose much of a security risk. 
 
-### Question # 3 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. In order to protect her company’s intellectual property, Alice might want to consider implementing all these techniques/solutions except ____________.
-A. Egress monitoring
-B. Encryption
-C. Turnstiles
-D. Digital watermarking
-Answer: C. 
+The SLA might include some security aspects (such as response time), but it’s usually more of a performance-ensuring tool, and this choice is not as good as option A. Remote access, in this particular case, provides more benefit than risk: Alice can utilize work from developers located across the country or across the planet. 
 
-Turnstiles are a physical security barrier to prevent piggybacking/tailgating (an unauthorized person coming through an entrance behind someone who is authorized), but they don’t really present much protection for intellectual property in this case. Egress monitoring (often referred to as “DLP” solutions) is a great way to reduce the likelihood of intellectual property leaving the owner’s control in an unexpected/unapproved manner. Likewise, strong encryption is useful in the cloud to reduce the impact of theft either from leakage to other cloud tenants or from insider threats (such as malicious admins in the employ of the cloud provider). Finally, digital watermarks aid protection of intellectual property by proving original ownership, which is essential for enforcing intellectual property rights (in the case of software design, mainly copyright protections).
+While she does have to consider the risks inherent in all remote access, those risks are not as significant as the risks due to multitenancy, so option A is still preferable.
 
-### Question # 4 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. What is probably the biggest factor in her decision?
-A. Network scalability
-B. Off-site backup capability
-C. Global accessibility
-D. Reduced overall cost due to outsourcing administration
-Answer: D. 
+### Question # 3 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. In order to protect her company’s intellectual property, Alice might want to consider implementing all these techniques/solutions except ____________.    
+A. Egress monitoring    
+B. Encryption    
+C. Turnstiles     
+D. Digital watermarking     
+Answer: C.    
+
+Turnstiles are a physical security barrier to prevent piggybacking/tailgating (an unauthorized person coming through an entrance behind someone who is authorized), but they don’t really present much protection for intellectual property in this case. Egress monitoring (often referred to as “DLP” solutions) is a great way to reduce the likelihood of intellectual property leaving the owner’s control in an unexpected/unapproved manner. Likewise, strong encryption is useful in the cloud to reduce the impact of theft either from leakage to other cloud tenants or from insider threats (such as malicious admins in the employ of the cloud provider). 
+
+Finally, digital watermarks aid protection of intellectual property by proving original ownership, which is essential for enforcing intellectual property rights (in the case of software design, mainly copyright protections).
+
+### Question # 4 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. What is probably the biggest factor in her decision?    
+A. Network scalability    
+B. Off-site backup capability    
+C. Global accessibility    
+D. Reduced overall cost due to outsourcing administration     
+Answer: D.     
 
 While all of these are traits of cloud computing and will likely benefit Alice’s company, from her position as senior manager of the organization she is likely to consider the financial benefit first and foremost.
 
-### Question # 5 - In which of the following situations does the data owner have to administer the OS?
-A. IaaS
-B. PaaS
-C. Off-site archive
-D. SaaS
-Answer: A. 
+### Question # 5 - In which of the following situations does the data owner have to administer the OS?    
+A. IaaS    
+B. PaaS    
+C. Off-site archive     
+D. SaaS    
+Answer: A.     
 
-With infrastructure as a service (IaaS), the customer (data owner) will administer the OS and applications. In PaaS, the provider will manage the underlying hardware and the OS. In an on-premises enterprise, the data owner is also the system owner and will be responsible for everything. In an SaaS environment, the cloud provider will handle all aspects of processing, except for adding and manipulating the production data.
+With infrastructure as a service (IaaS), the customer (data owner) will administer the OS and applications. In PaaS, the provider will manage the underlying hardware and the OS. In an on-premises enterprise, the data owner is also the system owner and will be responsible for everything. 
 
-### Question # 6 - You are setting up a cloud implementation for an online retailer who will accept credit card payments. According to the Payment Card Industry Data Security Standard (PCI DSS), what can you never store for any length of time?
-A. Personal data of consumers
-B. The credit card verification (CCV) number
-C. The credit card number
-D. Home address of the customer
-Answer: B. 
+In an SaaS environment, the cloud provider will handle all aspects of processing, except for adding and manipulating the production data.
+
+### Question # 6 - You are setting up a cloud implementation for an online retailer who will accept credit card payments. According to the Payment Card Industry Data Security Standard (PCI DSS), what can you never store for any length of time?     
+A. Personal data of consumers    
+B. The credit card verification (CCV) number     
+C. The credit card number    
+D. Home address of the customer     
+Answer: B.     
 
 PCI DSS requires that the CCV (or, sometimes, “CVV” for “card verification value”) only be used in the transaction, not stored. The data described in all the other options may be stored after the transaction is complete.
 
-### Question # 7 - The Payment Card Industry Data Security Standard (PCI DSS) distinguishes merchants by different tiers, based on ____________.
-A. Number of transactions per year
-B. Dollar value of transactions per year
-C. Geographic location
-D. Jurisdiction
-Answer: A. 
+### Question # 7 - The Payment Card Industry Data Security Standard (PCI DSS) distinguishes merchants by different tiers, based on ____________.    
+A. Number of transactions per year   
+B. Dollar value of transactions per year    
+C. Geographic location     
+D. Jurisdiction     
+Answer: A.      
 
 The four merchant levels in PCI are distinguished by the number of transactions that merchant conducts in a year. The dollar value of transactions per year, geographic location, and jurisdiction are not attributes that are evaluated for PCI DSS tier levels.
 
-### Question # 8 - What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?
-A. BC involves a recovery time objective (RTO), and DR involves a recovery point objective (RPO).
-B. BC is for events caused by humans (like arson or theft), whereas DR is for natural disasters.
-C. BC is about maintaining critical functions during a disruption of normal operations, and DR is about recovering to normal operations after a disruption.
-D. BC involves protecting human assets (personnel, staff, users), whereas DR is about protecting property (assets, data).
-Answer: C . 
+### Question # 8 - What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?    
+A. BC involves a recovery time objective (RTO), and DR involves a recovery point objective (RPO).    
+B. BC is for events caused by humans (like arson or theft), whereas DR is for natural disasters.     
+C. BC is about maintaining critical functions during a disruption of normal operations, and DR is about recovering to normal operations after a disruption.    
+D. BC involves protecting human assets (personnel, staff, users), whereas DR is about protecting property (assets, data).    
+Answer: C .       
 
 Technically, BC efforts are meant to ensure that critical business functions can continue during a disruptive event, and DR efforts are supposed to support the return to normal operations. However, in practice, the efforts often coincide, use the same plans/personnel, and have many of the same procedures.
 Option A is incorrect; both BC and DR use the RTO and RPO as metrics to determine success.
 Option B is incorrect; BC and DR efforts are not specific to the cause of a disruptive event.
 Option D is incorrect; health and human safety should be paramount in all security efforts, with very few exceptions.
 
-### Question # 9 - For business continuity and disaster recovery (BC/DR) purposes, the contract between the primary cloud provider and customer should include all of the following except _______________.
-A. Which party will be responsible for initiating a BC/DR response activity
-B. How a BC/DR response will be initiated
-C. How soon the customer’s data can be ported to a new cloud provider in the event a disruptive event makes the current provider unable to continue service
-D. How much a new cloud provider will charge the customer if data has to be ported from the current cloud provider because of a disruptive event
+### Question # 9 - For business continuity and disaster recovery (BC/DR) purposes, the contract between the primary cloud provider and customer should include all of the following except _______________.    
+A. Which party will be responsible for initiating a BC/DR response activity.      
+B. How a BC/DR response will be initiated.    
+C. How soon the customer’s data can be ported to a new cloud provider in the event a disruptive event makes the current provider unable to continue service.    
+D. How much a new cloud provider will charge the customer if data has to be ported from the current cloud provider because of a disruptive event      
 Answer: D. 
 
 The contract between the cloud customer and current cloud provider has no bearing on what the customer will have to pay to a new provider; that will be governed by the contract between the customer and the new provider.
 All the other options are topics that should be addressed in the contract between the current cloud provider and the cloud customer in order to properly address BCDR needs.
 
-### Question # 10 - When the cloud customer requests modifications to the current contract or service-level agreement (SLA) for business continuity/disaster recovery (BD/DR) purposes, who should absorb the cost of modification?
-A. The customer absorbs the cost.
-B. The provider absorbs the cost.
-C. The cost should be split equally.
-D. Modifications don’t cost anything.
-Answer: A. 
+### Question # 10 - When the cloud customer requests modifications to the current contract or service-level agreement (SLA) for business continuity/disaster recovery (BD/DR) purposes, who should absorb the cost of modification?     
+A. The customer absorbs the cost.    
+B. The provider absorbs the cost.    
+C. The cost should be split equally.      
+D. Modifications don’t cost anything.      
+Answer: A.     
 
 The customer will have to pay for the costs of modification requested by the customer, regardless of purpose.
 All the other options are simply incorrect, especially option D, which is never true.
