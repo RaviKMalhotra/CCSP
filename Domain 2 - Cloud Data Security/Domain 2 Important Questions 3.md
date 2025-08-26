@@ -1,307 +1,307 @@
-### Question # 1.	An email is an example of what type of data? 
+### Question # 1 - An email is an example of what type of data? 
 A.	Structured data
 B.	Semi- structured data
 C.	RFC- defined data
 D.	Unstructured data
 
-##2 Question # 2.	Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. When should data be labeled in his data lifecycle?       
+### Question # 2 - Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. When should data be labeled in his data lifecycle?       
 A.	Creation.  
 B.	Storage.  
 C.	Use.  
 D.	Destruction.  
 
-### Question # 3.	Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization?    A. Lack of data labeling.  
+### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization?    A. Lack of data labeling.  
 B.	Use of encryption for data in transit.  
 C.	Improper data labeling.  
 D.	Use of encryption for data at rest.  
 
-##2 Question # 4.	Susan wants to ensure that super user access in her cloud environment can be properly audited. Which of the following is not a common item required for auditing of privileged user access?    
+### Question # 4 - Susan wants to ensure that super user access in her cloud environment can be properly audited. Which of the following is not a common item required for auditing of privileged user access?    
 A.	The remote IP address.  
 B.	The account used.  
 C.	The password used.  
 D.	The local IP address.  
 
-### Question # 5.	Ben’s organization uses the same data deletion procedure for their on- site systems and their third- party- provided, cloud-h osted systems. Ben believes there is a problem with the process currently in use, which involves performing a single- pass zero- wipe of the disks and volumes in use before they are reused. What problem with this approach should Ben highlight for the cloud environment?   
+### Question # 5 - 	Ben’s organization uses the same data deletion procedure for their on- site systems and their third- party- provided, cloud-h osted systems. Ben believes there is a problem with the process currently in use, which involves performing a single- pass zero- wipe of the disks and volumes in use before they are reused. What problem with this approach should Ben highlight for the cloud environment?   
 A.	Crypto- shredding is a secure option for third- party- hosted cloud platforms.  
 B.	Zero- wiping alone is not sufficient, and random patterns should also be used.  
 C.	Zero- wiping requires multiple passes to ensure that there will be no remnant data.   
 D.	Drives should be degaussed instead of wiped or crypto- shredded to ensure that data is fully destroyed at the physical level.   
 
-### Question # 6.	Jason has been informed that his organization needs to place a legal hold on information related to pending litigation. What action should he take to place the hold?   
+### Question # 6 - Jason has been informed that his organization needs to place a legal hold on information related to pending litigation. What action should he take to place the hold?   
 A.	Restore the files from backups so that they match the dates for the hold request.  
 B.	Search for all files related to the litigation and provide them immediately to opposing counsel.   
 C.	Delete all the files named in the legal hold to limit the scope of litigation.   
 D.	Identify scope files and preserve them until they need to be produced.   
 
-### Question # 7.	Murali is reviewing a customer’s file inside of his organization’s customer relationship management tool and sees the customer’s Social Security number listed as XXX- XX- 8945. What data obfuscation technique has been used?   
+### Question # 7 - Murali is reviewing a customer’s file inside of his organization’s customer relationship management tool and sees the customer’s Social Security number listed as XXX- XX- 8945. What data obfuscation technique has been used?   
 A.	Anonymization.  
 B. Masking.  
 C.	Randomization.  
 D.	Hashing.  
 
-### Question # 8.	An XML file is considered what type of data?    
+### Question # 8 - 	An XML file is considered what type of data?    
 A.	Unstructured data.  
 B.	Restructured data.  
 C.	Semi- structured data.  
 D.	Structured data.  
 
-### Question # 9.	Lucca wants to implement logging in an infrastructure as a service cloud service provider’s environment for his Linux instances. He wants to capture events like creation and destruction of systems, as part of scaling requirements for performance. What logging tool or service should he use to have the most insight into these events?   
+### Question # 9 - Lucca wants to implement logging in an infrastructure as a service cloud service provider’s environment for his Linux instances. He wants to capture events like creation and destruction of systems, as part of scaling requirements for performance. What logging tool or service should he use to have the most insight into these events?   
 A.	Syslog from the Linux systems.  
 B.	The cloud service provider’s built- in logging function.  
 C.	Syslog- NG from the Linux systems.  
 D.	Logs from both the local event log and application log from the Linux systems.  
 
-### Question # 10.	Joanna’s company uses a load balancer to distribute traffic between multiple web servers. What data point is often lost when traffic passes through load balancers to local web servers in a cloud environment?    
+### Question # 10 - Joanna’s company uses a load balancer to distribute traffic between multiple web servers. What data point is often lost when traffic passes through load balancers to local web servers in a cloud environment?    
 A. The source IP address.      
 B.	The destination port.  
 C.	The query string.   
 D.	The destination IP address.   
 
-### Question # 11.	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?
+### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?
 A.	Its ability to be uniquely identified
 B.	The length of the data
 C.	The formatting of the data
 D.	The ability to sort the data based on street number
 
-### Question # 12.	Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?
+### Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?
 A.	Delete all data not in secure storage.
 B.	Store data in more than one location or service.
 C.	Avoid storing data in intact form, requiring data from more than one location to use a data set.
 D.	Geographically separate data by at least 15 miles to ensure that a single natural disaster cannot destroy it.
 
-### Question # 13.	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?
+### Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?
 A.	Long- term storage
 B.	Ephemeral storage
 C.	Raw storage
 D.	Volume- based storage
 
-### Question # 14.	Steve is working to classify data based on his organization’s data classification policies. Which of the following is not a common type of classification?
+### Question # 14 - Steve is working to classify data based on his organization’s data classification policies. Which of the following is not a common type of classification?
 A.	Size of the data
 B.	Sensitivity of the data
 C.	Jurisdiction covering the data
 D.	Criticality of the data
 
-### Question # 15.	Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?
+### Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?
 A.	Data labeling
 B.	Data classification
 C.	Hashing
 D.	Geolocation tagging
 
-### Question # 16.	Gary is gathering data to support a legal case on behalf of his company. Why might he digitally sign files as they are collected and preserve them along with the data in a documented, validated way?
+### Question # 16 - 	Gary is gathering data to support a legal case on behalf of his company. Why might he digitally sign files as they are collected and preserve them along with the data in a documented, validated way?
 A.	To allow for data dispersion
 B.	To ensure the files are not copied
 C.	To keep the files secure by encrypting them
 D.	To support nonrepudiation
 
-### Question # 17.	Valerie is performing a risk assessment for her cloud environment and wants to identify risks to her organization’s ephemeral volume- based storage used for system drives in a scalable, virtual machine–based environment. Which of the following is not a threat to ephemeral storage?
+### Question # 17 - Valerie is performing a risk assessment for her cloud environment and wants to identify risks to her organization’s ephemeral volume- based storage used for system drives in a scalable, virtual machine–based environment. Which of the following is not a threat to ephemeral storage?
 A.	Inadvertent exposure
 B.	Malicious access due to credential theft
 C.	Poor performance due to its ephemeral nature
 D.	Loss of forensic artifacts
 
-### Question # 18.	Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?
+### Question # 18 - 	Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?
 A.	Ephemeral storage
 B.	Raw storage
 C.	Long-term storage
 D.	Magneto- optical storage
 
-##2 Question # 19.	Kathleen wants to perform data discovery across a large data set and knows that some data types are more difficult to perform discovery on than others. Which of the following data types is the hardest to perform discovery actions on?
+### Question # 19 - Kathleen wants to perform data discovery across a large data set and knows that some data types are more difficult to perform discovery on than others. Which of the following data types is the hardest to perform discovery actions on?
 A.	Unstructured data
 B.	Semi- structured data
 C.	Rigidly structured data
 D.	Structured data
 
-### Question # 20.	Isaac wants to filter events based on the country of origin for authentications. What log information should he use to perform a best- effort match for logins? A. userID
+### Question # 20 - Isaac wants to filter events based on the country of origin for authentications. What log information should he use to perform a best- effort match for logins? A. userID
 B.	IP address
 C.	Geolocation
 D.	MAC address
 
-### Question # 21.	Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?
+### Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?
 A.	Hashing
 B.	Shuffling
 C.	Randomization
 D.	Masking
 
-### Question # 22.	Michelle wants to track deletion of files in an object storage bucket. What potential issue should she be aware of if her organization makes heavy use of object- based storage for storage of ephemeral files?
+### Question # 22 - Michelle wants to track deletion of files in an object storage bucket. What potential issue should she be aware of if her organization makes heavy use of object- based storage for storage of ephemeral files?
 A.	The logging may not be accurate.
 B.	Logging may be automatically disabled if too many events occur.
 C.	Creation and deletion events cannot be logged in filesystems.
 D.	The high volume of logging may increase operational costs.
 
-### Question # 23.	Diana is outlining the labeling scheme her organization will use for their data. Which of the following is not a common data label?
+### Question # 23 - Diana is outlining the labeling scheme her organization will use for their data. Which of the following is not a common data label?
 A.	Creation date
 B.	Data monetary value
 C.	Date of scheduled destruction
 D.	Confidentiality level
 
-### Question # 24.	Susan wants to be prepared for legal holds. What organizational policy often accounts for legal holds?
+### Question # 24 - 	Susan wants to be prepared for legal holds. What organizational policy often accounts for legal holds?
 A.	Data classification policy
 B.	Retention policy
 C.	Acceptable use policy
 D.	Data breach response policy
 
-### Question # 25.	Henry wants to follow the OWASP guidelines for key storage. Which of the following is not a best practice for key storage?
+### Question # 25 - 	Henry wants to follow the OWASP guidelines for key storage. Which of the following is not a best practice for key storage?
 A.	Keys must be stored in plaintext to allow for access.
 B.	Keys must be protected in both volatile and persistent memory.
 C.	Keys stored in databases should be encrypted using key encryption keys.
 D.	Keys should be protected in storage to ensure that they are not modified or changed inadvertently.
 
-### Question # 26.	Marco wants to implement an information rights management tool. What phase of the data lifecycle relies heavily on IRM to ensure the organization retains control of its data?
+### Question # 26 - Marco wants to implement an information rights management tool. What phase of the data lifecycle relies heavily on IRM to ensure the organization retains control of its data?
 A.	Create
 B.	Store
 C.	Share
 D.	Destroy
 
-### Question # 27.	JSON is an example of what type of data?
+### Question # 27 - JSON is an example of what type of data?
 A.	Structured data
 B.	Semi- structured data
 C.	Unstructured data
 D.	Labeled data
 
-### Question # 28.	Charleen wants to perform data discovery on her organization’s data, which is stored in archival storage hosted by her organization’s cloud service provider. What issue should she point out about this discovery plan?
+### Question # 28 - 	Charleen wants to perform data discovery on her organization’s data, which is stored in archival storage hosted by her organization’s cloud service provider. What issue should she point out about this discovery plan?
 A.	It may be slow and costly due to how archival storage is designed and priced.
 B.	The data may not exist because it has been archived.
 C.	The discovery process cannot be run against archival storage because it is not online under normal circumstances.
 D.	The data will need to be decrypted before being scanned for discovery purposes.
 
-### Question # 29.	Ujama’s manager has asked him to perform data mapping to prepare for his next task. What will Ujama be doing?
+### Question # 29 - 	Ujama’s manager has asked him to perform data mapping to prepare for his next task. What will Ujama be doing?
 A.	Adding data labels to unstructured data
 B.	Matching fields in one database to fields in another database
 C.	Identifying the storage locations for files of specific types on system drives
 D.	Building a file and folder structure for data storage
 
-### Question # 30.	Lin wants to ensure that her organization’s data labels remain with the data. How should she label her data to give it the best chance of retaining its labels? A. Embed the labels in the filename.
+### Question # 30 - Lin wants to ensure that her organization’s data labels remain with the data. How should she label her data to give it the best chance of retaining its labels? A. Embed the labels in the filename.
 B.	Add the labels to the file’s content at the beginning of the file.
 C.	Add labels to the file metadata.
 D.	Add the labels to the file’s content at the end of the file.
 
-### Question # 31.	Nina’s organization has lost the cryptographic keys associated with one of their cloud- based servers. What can Nina do to recover the data the keys were used to protect? A. Generate new keys to recover the data.
+### Question # 31 - 	Nina’s organization has lost the cryptographic keys associated with one of their cloud- based servers. What can Nina do to recover the data the keys were used to protect? A. Generate new keys to recover the data.
 B. Use the passphrase for the keys to recover the keys. C. Reverse the hash that was used to encrypt the data.
 D. The data is lost and Nina cannot recover it.
 
-### Question # 32.	Madani is planning to perform data discovery on various data sets and files his organization has. On which type of data will discovery be most easily performed?
+### Question # 32 - 	Madani is planning to perform data discovery on various data sets and files his organization has. On which type of data will discovery be most easily performed?
 A.	Unstructured data
 B.	Semi- structured data
 C.	Encrypted data
 D.	Structured data
 
-### Question # 33.	Ashley tracks the handling of a forensic image, including recording who handles it, when it was collected and when each transfer occurs, and why the transfer occurred. What practice is Ashley performing?
+### Question # 33 - 	Ashley tracks the handling of a forensic image, including recording who handles it, when it was collected and when each transfer occurs, and why the transfer occurred. What practice is Ashley performing?
 A.	Documenting chain of custody
 B.	Ensuring repudiation
 C.	A legal hold
 D.	Forensic accounting
 
-### Question # 34.	Which of the following is not a common goal of data classification policies?
+### Question # 34 - 	Which of the following is not a common goal of data classification policies?
 A.	Identifying classification levels
 B.	Assigning responsibilities
 C.	Defining roles
 D.	Mapping data
 
-##2 Question # 35.	Hiroyuki wants to optimize his organization’s data labeling process. How and when should he implement data labeling to be most efficient and effective?
+### Question # 35 - Hiroyuki wants to optimize his organization’s data labeling process. How and when should he implement data labeling to be most efficient and effective?
 A.	Manual labeling at the data creation stage
 B.	Automated labeling at the data creation stage
 C.	Automated labeling at the data use stage
 D.	Manual labeling at the data use stage
 
-### Question # 36.	Jen wants to ensure that keys used by individuals in her organization can be handled properly. Which of the following is not a best practice for handling long- term keys in use by humans?
+### Question # 36 - Jen wants to ensure that keys used by individuals in her organization can be handled properly. Which of the following is not a best practice for handling long- term keys in use by humans?
 A.	Anonymize access using the key
 B.	Identify the key user
 C.	Identify when the key is used
 D.	Uniquely tag the keys
 
-### Question # 37.	Danielle wants to ensure that the data stored in her cloud- hosted datacenter is properly destroyed when it is no longer needed. Which of the following options should she choose?
+### Question # 37 - Danielle wants to ensure that the data stored in her cloud- hosted datacenter is properly destroyed when it is no longer needed. Which of the following options should she choose?
 A.	Physical destruction of the media
 B.	Crypto- shredding
 C.	Degaussing
 D.	Overwriting
 
-### Question # 38.	Charles wants to use tokenization as a security practice for his organization’s data. What technical requirement will he have to meet to accomplish this? A. He will need to encrypt his data.
+### Question # 38 - 	Charles wants to use tokenization as a security practice for his organization’s data. What technical requirement will he have to meet to accomplish this? A. He will need to encrypt his data.
 B.	He will need two distinct databases.
 C.	He will need to use a FIPS 140- 2 capable cryptographic engine to create tokens.
 D.	He will need to deidentify the data.
 
-### Question # 39.	Once Charles has his two databases ready, what step comes next in the tokenization process?
+### Question # 39 - Once Charles has his two databases ready, what step comes next in the tokenization process?
 A.	Data discovery to identify sensitive data
 B.	Tokenization of the index values
 C.	Hashing each item in the database
 D.	Randomization of data in the database to prepare for tokenization
 
-### Question # 40.	Jack wants to understand how data is used in his organization. What tool is often used to help IT professionals understand where and how data is used and moved through an organization? A. Data classification
+### Question # 40 - 	Jack wants to understand how data is used in his organization. What tool is often used to help IT professionals understand where and how data is used and moved through an organization? A. Data classification
 B.	Data mapping
 C.	Dataflow diagrams
 D.	Data policies
 
-### Question # 41.	Annie has a database with a field titled “chosen name” and she has another database with a field titled “name.” She knows that these fields are used for the same purpose in her organization and wants to use data from both databases. What process could she use to match these and other fields to allow her to do so more easily?
+### Question # 41 - 	Annie has a database with a field titled “chosen name” and she has another database with a field titled “name.” She knows that these fields are used for the same purpose in her organization and wants to use data from both databases. What process could she use to match these and other fields to allow her to do so more easily?
 A.	Data mapping
 B.	Column consolidation
 C.	Data labeling
 D.	Columnar aggregation
 
-### Question # 42.	Which of the following items is not commonly included in dataflow diagrams?
+### Question # 42 - Which of the following items is not commonly included in dataflow diagrams?
 A.	Data types or fields
 B.	Services C. Systems
 D. Data lifespan information
 
-### Question # 43.	Jim’s organization wants to implement cryptographic erasure as their primary means of destroying data when they are done with it. What first step is required to support this through the data’s lifecycle?
+### Question # 43 - 	Jim’s organization wants to implement cryptographic erasure as their primary means of destroying data when they are done with it. What first step is required to support this through the data’s lifecycle?
 A.	Hash all of the data at creation.
 B.	Zero- wipe drives before they are used to ensure no previous data is resident.
 C.	Encrypt the drive or volume at creation.
 D.	All of the above.
 
-### Question # 44.	Charles wants to store data in a relational database, which uses columns and tables that describe the data. Which of the following types of data cannot be easily stored in a relational database other than as a text blob?
+### Question # 44 - 	Charles wants to store data in a relational database, which uses columns and tables that describe the data. Which of the following types of data cannot be easily stored in a relational database other than as a text blob?
 A.	Structured data
 B.	Semi- structured data
 C.	Unstructured data
 D.	All of the above
 
-### Question # 45.	Olivia wants to write a data retention policy for her organization. Which list best describes common components of a retention policy?    
+### Question # 45 - Olivia wants to write a data retention policy for her organization. Which list best describes common components of a retention policy?    
 A.	Retention periods, regulatory compliance requirements, data classification, data deletion and lifespan, and archiving and retrieval procedures.     
 B.	Retention periods, logging, data classification, data deletion processes, and compliance requirements.    
 C.	Data classification requirements, regulatory compliance requirements, data creation and tagging requirements, and data retrieval procedures.    
 D.	Regulatory and compliance requirements and mapping to retention periods for the organization, legal hold processes, and data deletion requirements.   
 
-### Question # 46.	Hui wants to revoke a certificate issued by her information rights management (IRM) system. 
+### Question # 46 - Hui wants to revoke a certificate issued by her information rights management (IRM) system. 
 How can she verify that the certificate has been revoked?     
 A.	Issue a new certificate using the same information as the original certificate.    
 B.	Attempt to access the data using her own certificate.     
 C.	Check the IRM’s certificate revocation list.     
 D.	Delete the private keys for the original certificate.    
 
-### Question # 47.	Frank’s organization is preparing to adopt an information rights management tool. What IRM capability focuses on providing rights to individuals based on their roles to ensure appropriate data access?     
+### Question # 47 - 	Frank’s organization is preparing to adopt an information rights management tool. What IRM capability focuses on providing rights to individuals based on their roles to ensure appropriate data access?     
 A.	Tagging.   
 B.	Data labeling.   
 C.	Encryption.  
 D.	Provisioning.   
 
-### Question # 48.	Randy is following his organization’s data classification policy and tags data that was identified in the organization’s business impact analysis. What type of classification is Randy performing?     
+### Question # 48 - Randy is following his organization’s data classification policy and tags data that was identified in the organization’s business impact analysis. What type of classification is Randy performing?     
 A. Criticality.   
 B.	Jurisdiction.   
 C.	Security.   
 D.	Sensitivity.   
 
-### Question # 49.	Susan is concerned that her organization doesn’t understand how a critical application works in their cloud environment. Recent issues indicate that her organization’s developers and cloud architects have different ideas about how systems and services work together. What should Susan prepare to help document and explain how systems and services work together?    
+### Question # 49 - Susan is concerned that her organization doesn’t understand how a critical application works in their cloud environment. Recent issues indicate that her organization’s developers and cloud architects have different ideas about how systems and services work together. What should Susan prepare to help document and explain how systems and services work together?    
 A.	Data classification.   
 B.	A business impact analysis.  
 C.	A dataflow diagram.  
 D.	Data mapping.  
 
-### Question # 50.	Jane is considering data dispersion as a security and availability strategy for her organization. What risk should she highlight as the most significant potential problem if her organization does adopt a multivendor approach to dispersion?     
+### Question # 50 - Jane is considering data dispersion as a security and availability strategy for her organization. What risk should she highlight as the most significant potential problem if her organization does adopt a multivendor approach to dispersion?     
 A.	Data dispersion makes it difficult to encrypt data.    
 B.	Geographic dispersion may impact performance.    
 C.	An outage at a provider may result in data not being available.  
 D.	Most cloud vendors do not offer support for dispersion.   
 
-51.	Selah is implementing an information rights management system. What requirement will she encounter if she wants to control files on workstations and laptops?
-A.	The need to deploy a cloud- native server
-B.	The need to install an agent on endpoint devices
-C.	The need to deploy an on- site server
-D.	The need to install an agent on cloud- based systems
+### Question # 51 - 	Selah is implementing an information rights management system. What requirement will she encounter if she wants to control files on workstations and laptops?   
+A.	The need to deploy a cloud- native server.  
+B.	The need to install an agent on endpoint devices.  
+C.	The need to deploy an on- site server.  
+D.	The need to install an agent on cloud- based systems.   
 
-52.	Audio and video files are examples of what type of data?
-A.	Unstructured data
-B.	Sensitive data
-C.	Labeled data
-D.	Structured data
+### Question # 52 - 	Audio and video files are examples of what type of data?  
+A.	Unstructured data. 
+B.	Sensitive data. 
+C.	Labeled data.   
+D.	Structured data.    
 
 53.	Wayne wants to perform data discovery on a very large data set stored in a cloud service using a tool that is hosted in a different cloud service, which will require copying the data to the cloud where the tool resides. What is the primary cost concern he should consider when evaluating an option like this?
 A.	The cost of the storage tier the data is currently in
