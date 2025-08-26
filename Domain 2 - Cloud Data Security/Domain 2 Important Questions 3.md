@@ -1,8 +1,8 @@
-### Question # 1 - An email is an example of what type of data? 
-A.	Structured data
-B.	Semi- structured data
-C.	RFC- defined data
-D.	Unstructured data
+### Question # 1 - An email is an example of what type of data?     
+A.	Structured data.   
+B.	Semi- structured data.   
+C.	RFC- defined data.   
+D.	Unstructured data.   
 
 ### Question # 2 - Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. When should data be labeled in his data lifecycle?       
 A.	Creation.  
