@@ -23,264 +23,270 @@ B.	Elasticity.
 C.	System	sharing.   
 **D.**	Resource	pooling.    
 
-### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?
-**A.**	On-demand	self-service
-B.	Auto-scaling
-C.	Elasticity
-D.	Customer	self-provisioning
+### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?  
+**A.**	On-demand	self-service   
+B.	Auto-scaling   
+C.	Elasticity    
+D.	Customer	self-provisioning     
+ 
+### Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reuse components	and	services	of	an	application	for	other	purposes?     
+A.	Portability       
+B.	Interoperability    
+**C.**	Resource	pooling      
+D.	Elasticity     
 
-### Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reuse components	and	services	of	an	application	for	other	purposes?
-A.	Portability
-B.	Interoperability
-**C.**	Resource	pooling
-D.	Elasticity
-
-### Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	of an	organization	moving	from	a	traditional	data	center	to	a	cloud environment?
-A.	Insufficient	due	diligence
-**B.**	Data	breach
-C.	Insecure	APIs
-D.	System	vulnerabilities
+### Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	of an	organization	moving	from	a	traditional	data	center	to	a	cloud environment?     
+A.	Insufficient	due	diligence    
+**B.**	Data	breach   
+C.	Insecure	APIs   
+D.	System	vulnerabilities   
 
 ### Question # 8 - Which	of	the	following	types	of	software	is	a	Type	2	hypervisor	dependenton	that	a	Type	1	hypervisor	isn’t?
-A.	VPN
-B.	Firewall
-C.	Operating	system
-D.	IDS
+A.	VPN  
+B.	Firewall  
+C.	Operating	system   
+D.	IDS    
 
-### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?
-A.	IaaS
-B.	SaaS
-C.	PaaS
-D.	DaaS
+### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?  
+A.	IaaS  
+B.	SaaS  
+C.	PaaS  
+D.	DaaS  
 
-### Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutralencryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?
-A.	Public
-B.	Hybrid
-C.	Private
-D.	Community
+### Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutralencryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?   
+A.	Public   
+B.	Hybrid   
+C.	Private  
+D.	Community  
 
-### Question # 11 - Although	encryption	can	help	an	organization	to	effectively	decrease	thepossibility	of	data	breaches,	which	other	type	of	threat	can	it	increase	the chances	of?
-A.	Insecure	interfaces
-B.	Data	loss
-C.	System	vulnerabilities
-D.	Account	hijacking
+### Question # 11 - Although	encryption	can	help	an	organization	to	effectively	decrease	thepossibility	of	data	breaches,	which	other	type	of	threat	can	it	increase	the chances	of?     
+A.	Insecure	interfaces    
+B.	Data	loss   
+C.	System	vulnerabilities   
+D.	Account	hijacking    
 
-### Question # 12 - Which	of	the	following	auditing	or	reporting	types	pertains	ONLY	to financial	statements	and	reporting?
-A.	SOC	1
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	FIPS	140-2
+### Question # 12 - Which	of	the	following	auditing	or	reporting	types	pertains	ONLY	to financial	statements	and	reporting?    
+A.	SOC	1   
+B.	NIST	SP 	800-53   
+C.	SOC	2    
+D.	FIPS	140-2    
 
-### Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	secure
-contracts?
-A.	Cloud	service	manager
-B.	Cloud	service	broker
-C.	Cloud	service	deployment	manager
-D.	Cloud	service	business	manager
+### Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	secure   
+contracts?   
+A.	Cloud	service	manager    
+B.	Cloud	service	broker   
+C.	Cloud	service	deployment	manager    
+D.	Cloud	service	business	manager    
 
-### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisorthat	is	NOT	a	security	concern	of	a	Type	1	hypervisor?
-A.	Operating	system
-B.	Firewall
-C.	VLAN
-D.	Access	controls
+### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisorthat	is	NOT	a	security	concern	of	a	Type	1	hypervisor?    
+A.	Operating	system   
+B.	Firewall   
+C.	VLAN   
+D.	Access	controls   
 
-### Question # 15 - Which	of	the	following	is	NOT	considered	an	effective	method	of mitigation	for	the	systems	vulnerability	threat?
-A.	Patching
-B.	Monitoring
-C.	Scanning
-D.	Virtualization
+### Question # 15 - Which	of	the	following	is	NOT	considered	an	effective	method	of mitigation	for	the	systems	vulnerability	threat?     
+A.	Patching    
+B.	Monitoring    
+C.	Scanning    
+D.	Virtualization      
 
-### Question # 16 - Most	modern	web-based	applications,	especially	those	hosted	within	acloud	environment,	rely	heavily	on	web	services	and	consumable resources.	Which	of	the	following	is	the	most	widely	used	security protocol	to	protect	these	types	of	technologies?
-A.	IPSec
-B.	VPN
-C.	HTTPS
-D.	SSH
+### Question # 16 - Most	modern	web-based	applications,	especially	those	hosted	within	acloud	environment,	rely	heavily	on	web	services	and	consumable resources.	Which	of	the	following	is	the	most	widely	used	security protocol	to	protect	these	types	of	technologies?    
+A.	IPSec    
+B.	VPN   
+C.	HTTPS   
+D.	SSH  
 
-### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focusis	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal? A.		Infrastructure
-B.	Software
-C.	Platform
-D.	Desktop
+### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focusis	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
+A.	Infrastructure     
+B.	Software     
+C.	Platform    
+D.	Desktop     
 
-### Question # 18 - Which	of	the	following	aspects	of	cloud	computing	makes	data	in	transit(DIT)	between	internal	servers	more	of	a	risk	than	in	a	traditional	data center? A.		Multitenancy
-B.	Portability
-C.	Interoperability
-D.	Broad	network	access
+### Question # 18 - Which	of	the	following	aspects	of	cloud	computing	makes	data	in	transit(DIT)	between	internal	servers	more	of	a	risk	than	in	a	traditional	data center?      
+A.	Multitenancy   
+B.	Portability   
+C.	Interoperability    
+D.	Broad	network	access    
 
-### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Whichphase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under? A.		Use
-B.	Share
-C.	Archive
-D.	Modify
+### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Whichphase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under?    
+A.	Use   
+B.	Share   
+C.	Archive   
+D.	Modify   
 
-### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?
-A.	Encryption
-B.	Sandboxing
-C.	VLANs
-D.	Reversibility
+### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?    
+A.	Encryption   
+B.	Sandboxing     
+C.	VLANs   
+D.	Reversibility     
 
-### Question # 21 - Which	of	the	following	data	sanitation	methods	would	be	the	MOST effective	if	you	needed	to	securely	remove	data	as	quickly	as	possible	in	a cloud	environment?
-A.	Zeroing
-B.	Cryptographic	erasure
-C.	Overwriting
-D.	Degaussing
+### Question # 21 - Which	of	the	following	data	sanitation	methods	would	be	the	MOST effective	if	you	needed	to	securely	remove	data	as	quickly	as	possible	in	a cloud	environment?    
+A.	Zeroing    
+B.	Cryptographic	erasure   
+C.	Overwriting   
+D.	Degaussing   
 
-### Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST
-correct?
-A.	It	runs	on	as	an	application	on	top	of	an	operating	system	to	hostvirtual	machines.
-B.	It	runs	on	a	separate	management	server	and	interacts	with	avirtualization	appliance.
-C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layerbetween	the	hardware	and	virtual	machines.
-D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	softwarelayer	to	host	virtual	machines.
+### Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST correct?   
+A.	It	runs	on	as	an	application	on	top	of	an	operating	system	to	hostvirtual	machines.   
+B.	It	runs	on	a	separate	management	server	and	interacts	with	avirtualization	appliance.   
+C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layerbetween	the	hardware	and	virtual	machines.      
+D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	softwarelayer	to	host	virtual	machines.     
 
-### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	andprivileges	that	user	is	granted	within	the	application?
-A.	Authorization
-B.	Authentication
-C.	Provisioning
-D.	Privilege
+### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	andprivileges	that	user	is	granted	within	the	application?    
+A.	Authorization    
+B.	Authentication    
+C.	Provisioning    
+D.	Privilege    
 
-### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemedunsafe	to	use	for	secure	communications	and	data?
-A.	TLS
-B.	AES
-C.	DNS
-D.	SSL
+### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemedunsafe	to	use	for	secure	communications	and	data?    
+A.	TLS     
+B.	AES     
+C.	DNS     
+D.	SSL     
 
-### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?
-A.	Measured	service
-B.	Auto-scaling
-C.	Portability
-D.	Elasticity
+### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?     
+A.	Measured	service    
+B.	Auto-scaling    
+C.	Portability    
+D.	Elasticity     
 
-### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominentfeature	of	PaaS	versus	IaaS?
-A.	Availability
-B.	Auto-scaling
-C.	Portability
-D.	Broad	network	access
+### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominentfeature	of	PaaS	versus	IaaS?    
+A.	Availability    
+B.	Auto-scaling    
+C.	Portability    
+D.	Broad	network	access    
 
-### Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testingof	cloud	services? A.		Cloud	service	user
-B.	Cloud	service	administrator
-C.	Cloud	service	business	manager
-D.	Cloud	service	integrator
+### Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testingof	cloud	services?      
+A.	Cloud	service	user      
+B.	Cloud	service	administrator      
+C.	Cloud	service	business	manager     
+D.	Cloud	service	integrator    
 
-### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloudenvironment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?
-A.	Private
-B.	Community
-C.	Hybrid
-D.	Public
+### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloudenvironment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?     
+A.	Private     
+B.	Community      
+C.	Hybrid     
+D.	Public     
 
-### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	servicein	production	use,	versus	a	local	one?
-A.	The	cloud	provider	will	have	full	control	over	the	keys.
-B.	The	software	may	be	insecure.
-C.	Availability	is	crucial.
-D.	Incompatibility	issues.
+### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	servicein	production	use,	versus	a	local	one?    
+A.	The	cloud	provider	will	have	full	control	over	the	keys.    
+B.	The	software	may	be	insecure.     
+C.	Availability	is	crucial.    
+D.	Incompatibility	issues.    
 
-### Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?
-A.	IaaS
-B.	SaaS
-C.	PaaS
-D.	DaaS
+### Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?    
+A.	IaaS    
+B.	SaaS    
+C.	PaaS    
+D.	DaaS    
 
-### Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?
-A.	Regulations
-B.	Contracts
-C.	Organizational	policies
-D.	Privacy	notices
+### Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?    
+A.	Regulations    
+B.	Contracts    
+C.	Organizational	policies    
+D.	Privacy	notices    
 
-### Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	part	of	the consideration?
-A.	Insufficient	due	diligence
-B.	Malicious	insiders
-C.	Account	hijacking
-D.	Data	loss
+### Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	   part	of	the consideration?    
+A.	Insufficient	due	diligence    
+B.	Malicious	insiders   
+C.	Account	hijacking   
+D.	Data	loss   
 
-### Question # 33 - Which	of	the	following	methods	of	attack,	used	in	a	SaaS	environment,poses	the	biggest	threat	to	the	exposure	of	data	across	different customers? A.		DDoS
-B.	XSS
-C.	JSON
-D.	XSLT
+### Question # 33 - Which	of	the	following	methods	of	attack,	used	in	a	SaaS	environment,poses	the	biggest	threat	to	the	exposure	of	data	across	different customers?     
+A.	DDoS    
+B.	XSS     
+C.	JSON    
+D.	XSLT    
 
-### Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriaterights	to	data	and	functions	within	an	application?
-A.	Authentication
-B.	Authorization
-C.	Privilege
-D.	Provisioning
+### Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriaterights	to	data	and	functions	within	an	application?    
+A.	Authentication    
+B.	Authorization    
+C.	Privilege    
+D.	Provisioning    
 
-### Question # 35 - Which	of	the	following	concepts	would	MOST	likely	apply	specifically	to a	private	cloud	deployment	model?
-A.	Portability
-B.	Reversibility
-C.	Ownership
-D.	Resource	pooling
+### Question # 35 - Which	of	the	following	concepts	would	MOST	likely	apply	specifically	to a	private	cloud	deployment	model?    
+A.	Portability    
+B.	Reversibility    
+C.	Ownership    
+D.	Resource	pooling    
 
-### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	verify	thatproper	controls	and	policies	are	in	place	on	a	system	or	application?
-A.	Auditability
-B.	Governance
-C.	Regulation
-D.	Elasticity
+### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	verify	thatproper	controls	and	policies	are	in	place	on	a	system	or	application?    
+A.	Auditability   
+B.	Governance    
+C.	Regulation    
+D.	Elasticity     
+ 
+### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	beapplied	to	any	type	of	system	or	application?      
+A.	ISO/IEC	27001    
+B.	PCI	DSS     
+C.	FIPS	140-2     
+D.	NIST	SP	800-53      
 
-### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	beapplied	to	any	type	of	system	or	application?
-A.	ISO/IEC	27001
-B.	PCI	DSS
-C.	FIPS	140-2
-D.	NIST	SP	800-53
+### Question # 38 - Which	group	developed,	maintains,	and	controls	the	PCI	DSS	standardsand	controls?      
+A.	NIST    
+B.	ISO/IEC     
+C.	EU    
+D.	Credit	card	companies     
 
-### Question # 38 - Which	group	developed,	maintains,	and	controls	the	PCI	DSS	standardsand	controls? A.		NIST
-B.	ISO/IEC
-C.	EU
-D.	Credit	card	companies
+### Question # 39 - Which	cloud	service	category	offers	the	most	customization	options	andcontrol	to	the	cloud	customer?     
+A.	PaaS    
+B.	IaaS     
+C.	SaaS     
+D.	DaaS      
 
-### Question # 39 - Which	cloud	service	category	offers	the	most	customization	options	andcontrol	to	the	cloud	customer?
-A.	PaaS
-B.	IaaS
-C.	SaaS
-D.	DaaS
+### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	onthe	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?      
+A.	Accountability      
+B.	Governance      
+C.	SLA      
+D.	Auditing       
 
-### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	onthe	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?
-A.	Accountability
-B.	Governance
-C.	SLA
-D.	Auditing
+### Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	useraccess	and	permissions	be	performed?       
+A.	Account	provisioning     
+B.	Throughout	use	of	the	application      
+C.	Immediately	after	authentication      
+D.	As	part	of	the	change	management	process       
 
-### Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	useraccess	and	permissions	be	performed? 
-A.		Account	provisioning
-B.	Throughout	use	of	the	application
-C.	Immediately	after	authentication
-D.	As	part	of	the	change	management	process
+### Question # 42 - Which	of	the	following	would	NOT	be	a	reason	a	customer	could	be “locked	in”	to	a	particular	cloud	provider?     
+A.	Software	versions    
+B.	Developers     
+C.	Application	environments     
+D.	Regulations      
 
-### Question # 42 - Which	of	the	following	would	NOT	be	a	reason	a	customer	could	be “locked	in”	to	a	particular	cloud	provider?
-A.	Software	versions
-B.	Developers
-C.	Application	environments
-D.	Regulations
+### Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?      
+A.	Border	perimeter     
+B.	DMZ     
+C.	Between	VLANs     
+D.	Between	the	data	and	application	zones      
 
-### Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?
-A.	Border	perimeter
-B.	DMZ
-C.	Between	VLANs
-D.	Between	the	data	and	application	zones
+### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	todetermine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?     
+A.	Degaussing     
+B.	Cryptographic	erasure     
+C.	Overwriting     
+D.	Zeroing     
 
-### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	todetermine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?
-A.	Degaussing
-B.	Cryptographic	erasure
-C.	Overwriting
-D.	Zeroing
+### Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	socialengineering	tactics?      
+A.	Data	loss    
+B.	System	vulnerabilities     
+C.	Advanced	persistent	threats      
+D.	Insufficient	due	diligence      
 
-### Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	socialengineering	tactics?
-A.	Data	loss
-B.	System	vulnerabilities
-C.	Advanced	persistent	threats
-D.	Insufficient	due	diligence
+### Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	whichsecurity	framework	will	you	need	to	be	knowledgeable	of	or	familiar with?      
+A.	PCI	DSS     
+B.	NIST	SP	800-53     
+C.	SOC	2      
+D.	ISO/IEC	27001       
 
-### Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	whichsecurity	framework	will	you	need	to	be	knowledgeable	of	or	familiar with? A.		PCI	DSS
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	ISO/IEC	27001
+### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concernsrelated	to	bring	your	own	device	(BYOD)	that	a	cloud	security professional	must	always	be	cognizant	of?     
+A.	Portability     
+B.	Broad	network	access      
+C.	On-demand	self-service      
+D.	Interoperability      
 
-### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concernsrelated	to	bring	your	own	device	(BYOD)	that	a	cloud	security professional	must	always	be	cognizant	of?
-A.	Portability
-B.	Broad	network	access
-C.	On-demand	self-service
-D.	Interoperability
-
-### Question # 48 - Which	of	the	following	is	NOT	considered	a	building	block	technology for	cloud	computing?
-A.	CPU
-B.	Memory
-C.	Storage
-D.	Servers
+### Question # 48 - Which	of	the	following	is	NOT	considered	a	building	block	technology for	cloud	computing?     
+A.	CPU     
+B.	Memory     
+C.	Storage     
+D.	Servers      
 
 ### QUICK	ANSWER	KEY
 1.	C
