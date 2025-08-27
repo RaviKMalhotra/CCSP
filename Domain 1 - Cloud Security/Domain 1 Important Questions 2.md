@@ -335,87 +335,127 @@ D.	Servers
 
 ### Comprehensive	Answers	and	Explanations
 
-### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?
-A.	Interoperability
-B.	Open	source
-C.	Broad	network	access
-D.	Single	sign-on
- 		C.	Broad	network	access	pertains	to	the	availability	of	cloud	resources from	virtually	any	network	location,	and	through	any	type	of	device. This	can	be	from	corporate	networks	or	from	the	public	Internet	on virtually	any	type	of	connection.	In	regard	to	devices,	while	many cloud	services	are	accessed	via	web	browsers	and	mobile	applications, it	is	possible	to	use	any	type	of	thick	or	thin	desktop	client	that	is appropriate	as	well.
- 	A	is	incorrect	because	interoperability	refers	to	the	ease	with	which one	can	move	or	reuse	components	of	an	application	or	service.	For systems	and	applications	with	a	high	level	of	interoperability,	the customer	is	not	bound	or	locked	in	to	a	particular	cloud	provider,	and has	the	option	to	move	between	them.	This	allows	far	great	flexibility for	a	cloud	customer,	and	the	ability	to	continually	shop	for	the	best financial	and	feature	options	from	different	cloud	providers.
- 	B	is	incorrect	because	“open	source”	refers	to	a	style	and	methodology of	software	development	and	distribution,	not	the	manner	in	which	the applications	themselves	are	accessed	once	deployed.	With	open source	software,	the	full	source	code	is	available	for	distribution	to anyone	who	wants	it,	even	if	binary	distributions	are	offered	as	well. This	allows	for	understanding	or	auditing	of	the	source	code,	as	well as	for	those	interested	to	contribute	to	the	software	development.	It also	offers	the	opportunity	for	someone	to	modify	the	source	code	for their	particular	needs.	Many	commonly	used	applications	are	open
+### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?    
+A.	Interoperability    
+B.	Open	source    
+C.	Broad	network	access    
+D.	Single	sign-on     
+Answer: C.	   
+
+Broad	network	access	pertains	to	the	availability	of	cloud	resources from	virtually	any	network	location,	and	through	any	type	of	device. This	can	be	from	corporate	networks	or	from	the	public	Internet	on virtually	any	type	of	connection.	In	regard	to	devices,	while	many cloud	services	are	accessed	via	web	browsers	and	mobile	applications, it	is	possible	to	use	any	type	of	thick	or	thin	desktop	client	that	is appropriate	as	well.
+
+A	is	incorrect	because	interoperability	refers	to	the	ease	with	which one	can	move	or	reuse	components	of	an	application	or	service.	For systems	and	applications	with	a	high	level	of	interoperability,	the customer	is	not	bound	or	locked	in	to	a	particular	cloud	provider,	and has	the	option	to	move	between	them.	This	allows	far	great	flexibility for	a	cloud	customer,	and	the	ability	to	continually	shop	for	the	best financial	and	feature	options	from	different	cloud	providers.
+
+B	is	incorrect	because	“open	source”	refers	to	a	style	and	methodology of	software	development	and	distribution,	not	the	manner	in	which	the applications	themselves	are	accessed	once	deployed.	With	open source	software,	the	full	source	code	is	available	for	distribution	to anyone	who	wants	it,	even	if	binary	distributions	are	offered	as	well. This	allows	for	understanding	or	auditing	of	the	source	code,	as	well as	for	those	interested	to	contribute	to	the	software	development.	It also	offers	the	opportunity	for	someone	to	modify	the	source	code	for their	particular	needs.	Many	commonly	used	applications	are	open
 source,	such	as	Apache,	Perl,	PHP,	MySQL,	and	even	the	Linux operating	system.
- 	D	is	incorrect	because,	although	single	sign-on	is	very	often	a component	of	cloud-based	applications,	it	is	not	a	requirement,	nor does	it	refer	specifically	to	the	manner	in	which	applications	or services	are	accessed.	Single	sign-on	systems	offer	the	ability	for users	to	sign	into	one	source	and	then,	through	cookies,	tokens,	or some	other	method	of	maintaining	state,	pass	from	one	application	to another	without	having	to	authenticate	again	for	each	one.
 
-### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	ofcryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?
-A.	FIPS	140-2
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	ISO/IEC	27001
- 		A.	The	Federal	Information	Processing	Standard	(FIPS)	140-2 publication,	authored	by	the	National	Institutes	of	Standards	and Technology	(NIST)	of	the	United	States,	is	a	process	by	which cryptographic	modules	are	evaluated	and	certified.	It	applies	to	both the	hardware	and	software	components	used	during	cryptographic processes,	and	it’s	based	on	the	particular	needs	for	confidentiality	and integrity	of	the	data	being	protected.	It	is	composed	of	four	levels, with	increasing	intensities	of	security	controls	and	implementations	of them.
- 	B	is	incorrect	because	the	NIST	SP	800-53	is	a	publication	and	set	of guidelines	that	governs	security	controls	for	all	IT	systems	of	the	US federal	government,	except	those	pertaining	to	national	security systems.	It	is	designed	and	intended	to	serve	as	an	aid	for	federal agencies	in	the	governance	of	the	IT	systems	and	data,	specifically	in regard	to	the	implementation	of	federal	laws	and	policies	related	to them.
- 	C	is	incorrect	because	Service	Organization	Controls	(SOC)	Type	2 reports	serve	as	more	general	framework	evaluations	of	the	security controls	and	postures	of	an	organization,	and	not	specifically	focused
+D	is	incorrect	because,	although	single	sign-on	is	very	often	a component	of	cloud-based	applications,	it	is	not	a	requirement,	nor does	it	refer	specifically	to	the	manner	in	which	applications	or services	are	accessed.	Single	sign-on	systems	offer	the	ability	for users	to	sign	into	one	source	and	then,	through	cookies,	tokens,	or some	other	method	of	maintaining	state,	pass	from	one	application	to another	without	having	to	authenticate	again	for	each	one.
+
+### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	ofcryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?    
+A.	FIPS	140-2    
+B.	NIST	SP	800-53    
+C.	SOC	2   
+D.	ISO/IEC	27001    
+Answer: A.	
+
+The	Federal	Information	Processing	Standard	(FIPS)	140-2 publication,	authored	by	the	National	Institutes	of	Standards	and Technology	(NIST)	of	the	United	States,	is	a	process	by	which cryptographic	modules	are	evaluated	and	certified.	It	applies	to	both the	hardware	and	software	components	used	during	cryptographic processes,	and	it’s	based	on	the	particular	needs	for	confidentiality	and integrity	of	the	data	being	protected.	It	is	composed	of	four	levels, with	increasing	intensities	of	security	controls	and	implementations	of them.
+
+B	is	incorrect	because	the	NIST	SP	800-53	is	a	publication	and	set	of guidelines	that	governs	security	controls	for	all	IT	systems	of	the	US federal	government,	except	those	pertaining	to	national	security systems.	It	is	designed	and	intended	to	serve	as	an	aid	for	federal agencies	in	the	governance	of	the	IT	systems	and	data,	specifically	in regard	to	the	implementation	of	federal	laws	and	policies	related	to them.
+
+C	is	incorrect	because	Service	Organization	Controls	(SOC)	Type	2 reports	serve	as	more	general	framework	evaluations	of	the	security controls	and	postures	of	an	organization,	and	not	specifically	focused
 on	the	evaluation	or	certification	of	cryptographic	modules.	SOC	2 reports	focus	on	a	core	collection	of	trust	principles,	including security,	processing	integrity,	availability,	privacy,	and	confidentiality.
- 	D	is	incorrect	because	the	ISO/IEC	27001	is	considered	a	broad	and general	“gold	standard”	for	security	certification	and	guidance.	It comprehensively	covers	all	areas	of	security	controls	and	policies,	and is	not	specifically	focused	on	cryptographic	modules	or	their certification.
 
-### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?
-A.	CPU
-B.	Storage
-C.	Number	of	users
-D.	Memory
- 		C.	Within	a	Software	as	a	Service	(SaaS)	implementation,	cloud customers	are	acquiring	and	paying	for	services	that	are	explicitly	tied to	the	use	of	a	fully	operational	application	package	that	is	completely designed,	maintained,	and	implemented	by	the	cloud	provider.	Billing is	often	measured	based	on	the	number	of	users	or	the	number	of transactions	the	organization	does	with	the	application,	rather	than traditional	computing	resources	associated	with	other	service categories.
- 	A	is	incorrect	because	CPU	resources	are	the	responsibility	of	the cloud	provider	within	a	SaaS	implementation,	to	ensure	they	are sufficiently	allocated	to	support	and	meet	the	requirements	of	the customers.s
- 	B	is	incorrect	for	the	same	reasons	as	CPU.	However,	in	some circumstances,	depending	on	the	actual	software	application	and	the needs	of	the	customer,	there	could	be	incremental	storage	costs,	but these	are	handled	on	a	case-by-case	basis	and	are	not	necessarily something	that	is	universal	across	SaaS	implementations.	The	main exception	to	this	would	be	for	public	SaaS	implementations	such	as iCloud,	Dropbox,	and	OneDrive,	where	the	services	at	a	base	level	are free,	with	incremental	charges	for	additional	storage	capacity.
- 	D	is	incorrect	because	memory	and	CPU,	in	this	sense,	would	be similar	in	that	it	is	incumbent	on	the	cloud	provider	to	ensure appropriate	computing	resources	are	allocated	and	available	to	the applications	and	users.
+D	is	incorrect	because	the	ISO/IEC	27001	is	considered	a	broad	and general	“gold	standard”	for	security	certification	and	guidance.	It comprehensively	covers	all	areas	of	security	controls	and	policies,	and is	not	specifically	focused	on	cryptographic	modules	or	their certification.
 
-### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	andmaintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?
-A.	Co-location
-B.	Elasticity
-C.	System	sharing
-D.	Resource	pooling
- 		D.	Resource	pooling	is	largely	what	separates	a	traditional	data	center from	a	cloud	in	regard	to	computing	resources.	In	a	traditional	data center,	resources	are	allocated	to	specific	systems	or	applications,	and for	the	most	part	are	not	shared.	Within	a	cloud,	the	entire	hardware infrastructure	is	viewed	as	an	aggregate	and	then	allocated accordingly	to	the	various	cloud	customers	and	applications	hosted within	it.	This	is	typically	a	massive	pool	of	resources	that	not	only can	handle	the	typical	operational	load	of	the	hosted	applications,	but also	allow	for	expansion	through	auto-elasticity	or	cyclical	loads	of some	applications.
- 	A	is	incorrect	because	co-location	refers	to	the	hosting	of	multiple applications	or	systems	within	the	same	physical	hardware,	but	not necessarily	through	the	use	of	pooled	and	allocated	resources.	This can	also	be	done	within	a	traditional	data	center,	where	any	level	of hardware	can	be	shared,	including	networking,	physical	floor	space, cooling,	and	power.	The	typically	dedicated	nature	of	resources	within a	co-location	setup	is	what	differentiates	it	from	resource	pooling within	a	cloud	environment.
- 	B	is	incorrect	because	elasticity	refers	to	the	ability	for	systems, services,	and	applications	to	automatically	expand	or	shrink	to	meet actual	needs	at	the	time.	If	the	applications	are	written	to	support elasticity,	then	as	load	changes	are	detected	in	the	environment	and meet	predefined	thresholds,	the	cloud	environment	can	dynamically and	rapidly	resize	the	resources	allocated	to	meet	exactly	what	is needed,	rather	than	having	enormous	resources	on	standby	to	handle any	sudden	increase	in	demand.
- 	C	is	incorrect	because	system	sharing	is	provided	as	an	erroneous answer.	Although	it	is	a	similar	type	of	answer	to	resource	pooling,	it is	not	a	typically	used	or	official	term	for	anything	related	to	cloud computing,	or	this	specific	question.
+### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?    
+A.	CPU    
+B.	Storage    
+C.	Number	of	users     
+D.	Memory   
+Answer: C.	
 
-### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?
-A.	On-demand	self-service
-B.	Auto-scaling
-C.	Elasticity
-D.	Customer	self-provisioning
- 		A.	Cloud	services	can	be	requested,	provisioned,	and	put	into	use	by the	customer	through	automated	means,	without	the	need	to	interact with	support	personnel	of	the	cloud	provider.	This	is	typically	offered to	the	cloud	customer	through	a	web	portal,	but	can	also	be	exposed through	API	calls	or	other	programmatic	means.	As	services	are changed,	billing	is	adjusted	based	on	the	changing	nature	of	the currently	allocated	resources.
- 	B	is	incorrect	because	auto-scaling	refers	to	the	automatic	and programmatic	ability	for	a	cloud	environment	to	dynamically	adjust	to current	demands.	Although	this	is	similar	in	some	ways	to	on-demand self-service,	the	difference	is	with	the	automatic	nature	of	the processes.	On-demand	self-service	is	something	originated	and requested	by	the	cloud	customer	at	the	time,	rather	than	something that	is	programmed	with	thresholds	and	rulesets	to	execute automatically.
- 	C	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
- 	D	is	incorrect	because	customer	self-provisioning	is	an	erroneous answer	that	is	similar	to	the	actual	answer	of	on-demand	self-service. Although	the	terms	sound	very	similar,	it	is	not	the	official	or commonly	used	term	for	such	capabilities.
+Within	a	Software	as	a	Service	(SaaS)	implementation,	cloud customers	are	acquiring	and	paying	for	services	that	are	explicitly	tied to	the	use	of	a	fully	operational	application	package	that	is	completely designed,	maintained,	and	implemented	by	the	cloud	provider.	Billing is	often	measured	based	on	the	number	of	users	or	the	number	of transactions	the	organization	does	with	the	application,	rather	than traditional	computing	resources	associated	with	other	service categories.
 
-### Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reusecomponents	and	services	of	an	application	for	other	purposes?
-A.	Portability
-B.	Interoperability
-C.	Resource	pooling
-D.	Elasticity
- 		B.	Interoperability	is	the	ease	with	which	one	can	move	or	reuse components	of	an	application	or	service.	The	main	concept	is	to	not have	such	dependencies	on	the	underlying	operating	system,	hosting environment,	libraries,	or	APIs	that	lock	in	a	service	to	one	particular set	of	hosts	or	solutions.	Services	with	a	high	degree	of interoperability	can	easily	move	between	cloud	providers,	hosting configurations,	and	cloud	service	categories,	and	give	enormous flexibility	to	an	organization.	This	allows	different	services	to leverage	applications	and	APIs	for	different	purposes,	along	with	the modularization	of	components	for	reuse.
- 	A	is	incorrect	because	portability,	while	similar	to	interoperability, focuses	solely	on	the	ability	to	move	between	cloud	providers,	and	not on	the	ability	to	use	components	or	modules	from	a	particular	service for	other	or	extended	purposes.	For	portability,	the	main	focus	is	not on	reuse	or	repurposing,	but	rather	solely	on	the	ability	to	freely	and easily	move.
- 	C	is	incorrect	because	resource	pooling	refers	to	the	sharing	of resources	within	the	cloud	environment,	where	the	entire	hardware infrastructure	is	viewed	as	an	aggregate	and	then	allocated accordingly	to	the	various	cloud	customers	and	applications	hosted within	it.	This	is	typically	a	massive	pool	of	resources	that	not	only can	handle	the	typical	operational	load	of	the	hosted	applications,	but also	allow	for	expansion	through	auto-elasticity	or	cyclical	loads	of some	applications.
- 	D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
+A	is	incorrect	because	CPU	resources	are	the	responsibility	of	the cloud	provider	within	a	SaaS	implementation,	to	ensure	they	are sufficiently	allocated	to	support	and	meet	the	requirements	of	the customers.s
 
-### Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	ofan	organization	moving	from	a	traditional	data	center	to	a	cloud environment?
-A.	Insufficient	due	diligence
-B.	Data	breach
-C.	Insecure	APIs
-D.	System	vulnerabilities
- 		A.	When	an	organization	is	considering	moving	its	systems	and applications	from	a	traditional	data	center	model	to	a	cloud environment,	it	must	evaluate	a	lot	of	variables	and	factors	to determine	if	the	move	to	a	cloud	system	is	appropriate	or	feasible. Without	proper	and	thorough	evaluation	of	its	systems,	designs,	and controls,	an	organization	may	unintentionally	expose	itself	to	more security	risk	and	vulnerabilities	by	moving	to	a	cloud	environment.
- 	B	is	incorrect	because	a	data	breach	occurs	when	there	is	an unauthorized	exposure	of	sensitive	or	private	data	to	a	party	that	is	not entitled	to	have	it.	This	can	occur	either	from	accidental	exposure	or from	hacking	or	other	malicious	activity.	Within	a	cloud	environment, because	of	multitenancy,	there	is	a	higher	exposure	and	risk	than	in	a traditional	data	center	with	isolated	systems.
- 	C	is	incorrect	because	insecure	APIs	occur	when	there	are	not	proper controls	or	validation	of	services	utilizing	and	accessing	them.	Cloud environments	make	heavy	use	of	APIs	for	everything	from	consumer cloud	services	to	the	backbone	management,	automation,	and orchestration	of	the	cloud,	and	their	security	is	of	the	utmost importance.
- 	D	is	incorrect	because	system	vulnerabilities	are	related	to	the patching,	configuration,	and	monitoring	of	all	IT	systems,	whether	in a	cloud	environment	or	not.	With	any	system	vulnerabilities,	threats can	be	expanded	to	other	services	by	gaining	unauthorized	exposure to	resources,	and	strong	policies	and	practices	are	needed	to	ensure compliance	with	configuration	and	patching	of	systems,	and monitoring	for	noncompliance	is	always	extremely	important.
+B	is	incorrect	for	the	same	reasons	as	CPU.	However,	in	some circumstances,	depending	on	the	actual	software	application	and	the needs	of	the	customer,	there	could	be	incremental	storage	costs,	but these	are	handled	on	a	case-by-case	basis	and	are	not	necessarily something	that	is	universal	across	SaaS	implementations.	The	main exception	to	this	would	be	for	public	SaaS	implementations	such	as iCloud,	Dropbox,	and	OneDrive,	where	the	services	at	a	base	level	are free,	with	incremental	charges	for	additional	storage	capacity.
 
-### Question # 8 - Which	of	the	following	types	of	software	is	a	Type	2	hypervisor	dependenton	that	a	Type	1	hypervisor	isn’t?
-A.	VPN
-B.	Firewall
-C.	Operating	system
-D.	IDS
- 		C.	A	Type	2	hypervisor	runs	on	top	of	a	host	operating	system	as	a software	application,	and	then	the	virtual	machines	are	deployed within	it.	With	a	Type	1	hypervisor,	the	software	is	tied	directly	to	the underlying	hardware	and	does	not	rely	on	a	host	operating	system	to function.
- 	A	is	incorrect	because	a	virtual	private	network	(VPN)	is	a	method	for securing	network	traffic	and	communications,	and	does	not	have	any impact	on	hypervisors	or	the	type	that	is	used.
- 	B	is	incorrect	because	a	firewall	is	used	for	network	security	and	the limiting	of	traffic	across	a	network,	but	is	not	specifically	related	to	a hypervisor	or	the	type	of	hypervisor	used.
- 	D	is	incorrect	because	an	intrusion	detection	system	(IDS)	is	a	network security	device	to	monitor	for	specific	types	of	traffic	or	patterns against	a	set	of	signatures	for	known	attacks	and	vulnerabilities.	It	is not	related	to,	or	dependent	on,	a	hypervisor	or	the	specific	type	of hypervisor	used.
+D	is	incorrect	because	memory	and	CPU,	in	this	sense,	would	be similar	in	that	it	is	incumbent	on	the	cloud	provider	to	ensure appropriate	computing	resources	are	allocated	and	available	to	the applications	and	users.
+
+### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	andmaintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?    
+A.	Co-location   
+B.	Elasticity    
+C.	System	sharing   
+D.	Resource	pooling    
+Answer: D.	
+
+Resource	pooling	is	largely	what	separates	a	traditional	data	center from	a	cloud	in	regard	to	computing	resources.	In	a	traditional	data center,	resources	are	allocated	to	specific	systems	or	applications,	and for	the	most	part	are	not	shared.	Within	a	cloud,	the	entire	hardware infrastructure	is	viewed	as	an	aggregate	and	then	allocated accordingly	to	the	various	cloud	customers	and	applications	hosted within	it.	This	is	typically	a	massive	pool	of	resources	that	not	only can	handle	the	typical	operational	load	of	the	hosted	applications,	but also	allow	for	expansion	through	auto-elasticity	or	cyclical	loads	of some	applications.
+
+A	is	incorrect	because	co-location	refers	to	the	hosting	of	multiple applications	or	systems	within	the	same	physical	hardware,	but	not necessarily	through	the	use	of	pooled	and	allocated	resources.	This can	also	be	done	within	a	traditional	data	center,	where	any	level	of hardware	can	be	shared,	including	networking,	physical	floor	space, cooling,	and	power.	The	typically	dedicated	nature	of	resources	within a	co-location	setup	is	what	differentiates	it	from	resource	pooling within	a	cloud	environment.
+
+B	is	incorrect	because	elasticity	refers	to	the	ability	for	systems, services,	and	applications	to	automatically	expand	or	shrink	to	meet actual	needs	at	the	time.	If	the	applications	are	written	to	support elasticity,	then	as	load	changes	are	detected	in	the	environment	and meet	predefined	thresholds,	the	cloud	environment	can	dynamically and	rapidly	resize	the	resources	allocated	to	meet	exactly	what	is needed,	rather	than	having	enormous	resources	on	standby	to	handle any	sudden	increase	in	demand.
+
+C	is	incorrect	because	system	sharing	is	provided	as	an	erroneous answer.	Although	it	is	a	similar	type	of	answer	to	resource	pooling,	it is	not	a	typically	used	or	official	term	for	anything	related	to	cloud computing,	or	this	specific	question.
+
+### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?  
+A.	On-demand	self-service    
+B.	Auto-scaling    
+C.	Elasticity    
+D.	Customer	self-provisioning    
+Answer: A.	
+
+Cloud	services	can	be	requested,	provisioned,	and	put	into	use	by the	customer	through	automated	means,	without	the	need	to	interact with	support	personnel	of	the	cloud	provider.	This	is	typically	offered to	the	cloud	customer	through	a	web	portal,	but	can	also	be	exposed through	API	calls	or	other	programmatic	means.	As	services	are changed,	billing	is	adjusted	based	on	the	changing	nature	of	the currently	allocated	resources.
+
+B	is	incorrect	because	auto-scaling	refers	to	the	automatic	and programmatic	ability	for	a	cloud	environment	to	dynamically	adjust	to current	demands.	Although	this	is	similar	in	some	ways	to	on-demand self-service,	the	difference	is	with	the	automatic	nature	of	the processes.	On-demand	self-service	is	something	originated	and requested	by	the	cloud	customer	at	the	time,	rather	than	something that	is	programmed	with	thresholds	and	rulesets	to	execute automatically.
+
+C	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
+
+D	is	incorrect	because	customer	self-provisioning	is	an	erroneous answer	that	is	similar	to	the	actual	answer	of	on-demand	self-service. Although	the	terms	sound	very	similar,	it	is	not	the	official	or commonly	used	term	for	such	capabilities.
+
+### Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reusecomponents	and	services	of	an	application	for	other	purposes?    
+A.	Portability    
+B.	Interoperability    
+C.	Resource	pooling    
+D.	Elasticity    
+Answer: B.	
+
+Interoperability	is	the	ease	with	which	one	can	move	or	reuse components	of	an	application	or	service.	The	main	concept	is	to	not have	such	dependencies	on	the	underlying	operating	system,	hosting environment,	libraries,	or	APIs	that	lock	in	a	service	to	one	particular set	of	hosts	or	solutions.	Services	with	a	high	degree	of interoperability	can	easily	move	between	cloud	providers,	hosting configurations,	and	cloud	service	categories,	and	give	enormous flexibility	to	an	organization.	This	allows	different	services	to leverage	applications	and	APIs	for	different	purposes,	along	with	the modularization	of	components	for	reuse.
+
+A	is	incorrect	because	portability,	while	similar	to	interoperability, focuses	solely	on	the	ability	to	move	between	cloud	providers,	and	not on	the	ability	to	use	components	or	modules	from	a	particular	service for	other	or	extended	purposes.	For	portability,	the	main	focus	is	not on	reuse	or	repurposing,	but	rather	solely	on	the	ability	to	freely	and easily	move.
+
+C	is	incorrect	because	resource	pooling	refers	to	the	sharing	of resources	within	the	cloud	environment,	where	the	entire	hardware infrastructure	is	viewed	as	an	aggregate	and	then	allocated accordingly	to	the	various	cloud	customers	and	applications	hosted within	it.	This	is	typically	a	massive	pool	of	resources	that	not	only can	handle	the	typical	operational	load	of	the	hosted	applications,	but also	allow	for	expansion	through	auto-elasticity	or	cyclical	loads	of some	applications.
+
+D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
+
+### Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	ofan	organization	moving	from	a	traditional	data	center	to	a	cloud environment?    
+A.	Insufficient	due	diligence    
+B.	Data	breach    
+C.	Insecure	APIs   
+D.	System	vulnerabilities    
+Answer: A.	
+
+When	an	organization	is	considering	moving	its	systems	and applications	from	a	traditional	data	center	model	to	a	cloud environment,	it	must	evaluate	a	lot	of	variables	and	factors	to determine	if	the	move	to	a	cloud	system	is	appropriate	or	feasible. Without	proper	and	thorough	evaluation	of	its	systems,	designs,	and controls,	an	organization	may	unintentionally	expose	itself	to	more security	risk	and	vulnerabilities	by	moving	to	a	cloud	environment.
+
+B	is	incorrect	because	a	data	breach	occurs	when	there	is	an unauthorized	exposure	of	sensitive	or	private	data	to	a	party	that	is	not entitled	to	have	it.	This	can	occur	either	from	accidental	exposure	or from	hacking	or	other	malicious	activity.	Within	a	cloud	environment, because	of	multitenancy,	there	is	a	higher	exposure	and	risk	than	in	a traditional	data	center	with	isolated	systems.
+
+C	is	incorrect	because	insecure	APIs	occur	when	there	are	not	proper controls	or	validation	of	services	utilizing	and	accessing	them.	Cloud environments	make	heavy	use	of	APIs	for	everything	from	consumer cloud	services	to	the	backbone	management,	automation,	and orchestration	of	the	cloud,	and	their	security	is	of	the	utmost importance.
+
+D	is	incorrect	because	system	vulnerabilities	are	related	to	the patching,	configuration,	and	monitoring	of	all	IT	systems,	whether	in a	cloud	environment	or	not.	With	any	system	vulnerabilities,	threats can	be	expanded	to	other	services	by	gaining	unauthorized	exposure to	resources,	and	strong	policies	and	practices	are	needed	to	ensure compliance	with	configuration	and	patching	of	systems,	and monitoring	for	noncompliance	is	always	extremely	important.
+
+### Question # 8 - Which	of	the	following	types	of	software	is	a	Type	2	hypervisor	dependenton	that	a	Type	1	hypervisor	isn’t?    
+A.	VPN    
+B.	Firewall    
+C.	Operating	system    
+D.	IDS    
+Answer: C.	
+
+A	Type	2	hypervisor	runs	on	top	of	a	host	operating	system	as	a software	application,	and	then	the	virtual	machines	are	deployed within	it.	With	a	Type	1	hypervisor,	the	software	is	tied	directly	to	the underlying	hardware	and	does	not	rely	on	a	host	operating	system	to function.
+
+A	is	incorrect	because	a	virtual	private	network	(VPN)	is	a	method	for securing	network	traffic	and	communications,	and	does	not	have	any impact	on	hypervisors	or	the	type	that	is	used.
+
+B	is	incorrect	because	a	firewall	is	used	for	network	security	and	the limiting	of	traffic	across	a	network,	but	is	not	specifically	related	to	a hypervisor	or	the	type	of	hypervisor	used.
+
+D	is	incorrect	because	an	intrusion	detection	system	(IDS)	is	a	network security	device	to	monitor	for	specific	types	of	traffic	or	patterns against	a	set	of	signatures	for	known	attacks	and	vulnerabilities.	It	is not	related	to,	or	dependent	on,	a	hypervisor	or	the	specific	type	of hypervisor	used.
 
 ### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?
 A.	IaaS
