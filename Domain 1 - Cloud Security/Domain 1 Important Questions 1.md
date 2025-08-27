@@ -1476,11 +1476,11 @@ Due care and diligence can be demonstrated by either internal or external contro
 
 processes; there is no distinction to be made based on where the control is situated.
 
-### Question # 134 - In a Lightweight Directory Access Protocol (LDAP) environment, each entry in a directory server is identified by a _______________.
-A. Domain name (DN)
-B. Distinguished name (DN)
-C. Directory name (DN)
-D. Default name (DN)
+### Question # 134 - In a Lightweight Directory Access Protocol (LDAP) environment, each entry in a directory server is identified by a _______________.     
+A. Domain name (DN)     
+B. Distinguished name (DN)      
+C. Directory name (DN)     
+D. Default name (DN)     
 Answer: B. 
 
 The distinguished name (DN) is the nomenclature for all entries in an LDAP environment.
@@ -1490,41 +1490,41 @@ A domain name is used to identify one or more IP addresses. For instance, Micros
 A directory name is typically associated with a file system structure and not something related to LDAP. Option C is incorrect.
 “Default Name” is not a common term, and is made up. Option D is not the correct answer.
 
-### Question # 135 - Each of the following is an element of the Identification phase of the identity and access management (IAM) process except _______________.
-A. Provisioning
-B. Inversion
-C. Management
-D. Deprovisioning
-Answer: B. 
+### Question # 135 - Each of the following is an element of the Identification phase of the identity and access management (IAM) process except _______________.    
+A. Provisioning      
+B. Inversion     
+C. Management     
+D. Deprovisioning     
+Answer: B.      
 
 Inversion is not part of the IAM process at all and has no meaning in this context. All the other options are elements of identification.
 
-### Question # 136 - Which of the following is true about two-person integrity?
-A. It forces all employees to distrust one another.
-B. It requires two different identity and access management matrices (IAM).
-C. It forces collusion for unauthorized access.
-D. It enables more thieves to gain access to the facility.
-Answer: C. 
+### Question # 136 - Which of the following is true about two-person integrity?      
+A. It forces all employees to distrust one another.       
+B. It requires two different identity and access management matrices (IAM).       
+C. It forces collusion for unauthorized access.       
+D. It enables more thieves to gain access to the facility.      
+Answer: C.      
 
 By creating a need for two identity assertions or authentication elements to access assets, two-person integrity prevents a single person from gaining unauthorized access and forces a would-be criminal to join up with at least one other person to conduct a crime. This reduces the possibility of the crime taking place.
 
 All the other options are simply untrue and are therefore exceedingly poor choices for answers to CCSP test questions.
 
-### Question # 137 - All of the following are statutory regulations except the _______________.
-A. Gramm-Leach-Bliley Act (GLBA)
-B. Health Information Portability and Accountability Act (HIPAA)
-C. Federal Information Systems Management Act (FISMA)
-D. Payment Card Industry Data Security Standard (PCI DSS)
-Answer: D. 
+### Question # 137 - All of the following are statutory regulations except the _______________.       
+A. Gramm-Leach-Bliley Act (GLBA)     
+B. Health Information Portability and Accountability Act (HIPAA)     
+C. Federal Information Systems Management Act (FISMA)     
+D. Payment Card Industry Data Security Standard (PCI DSS)     
+Answer: D.     
 
 The PCI DSS is a voluntary standard, having only contractual obligation. All the other options are statutes, created by lawmaking bodies.
 
-### Question # 138 - A cloud data encryption situation where the cloud customer retains control of the encryption keys and the cloud provider only processes and stores the data could be considered a _______________.
-A. Threat
-B. Risk
-C. Hybrid cloud deployment model
-D. Case of infringing on the rights of the provider
-Answer: C. 
+### Question # 138 - A cloud data encryption situation where the cloud customer retains control of the encryption keys and the cloud provider only processes and stores the data could be considered a _______________.      
+A. Threat     
+B. Risk      
+C. Hybrid cloud deployment model      
+D. Case of infringing on the rights of the provider     
+Answer: C.      
 
 Because the cloud customer will retain ownership of some elements of hardware, software, or both at the customer’s location (for instance, security hardware modules [HSMs]), client-side key management could be considered a hybrid cloud model.
 
@@ -1535,12 +1535,12 @@ actually less risky than sharing their encryption keys with the provider.
 
 Option D is incorrect because the provider does not have a right to the customer’s encryption keys, so, there cannot be an infringement on the provider’s rights.
 
-### Question # 139 - Which of the following is one of the benefits of a private cloud deployment?
-A. Less cost
-B. Higher performance
-C. Retaining control of governance
-D. Reduction in need for maintenance capability on the customer side
-Answer: C. 
+### Question # 139 - Which of the following is one of the benefits of a private cloud deployment?     
+A. Less cost       
+B. Higher performance     
+C. Retaining control of governance     
+D. Reduction in need for maintenance capability on the customer side     
+Answer: C.     
 
 With a private cloud deployment, the customer gets to dictate governance requirements, which is a significant benefit for customers in highly regulated industries.
 
@@ -1550,41 +1550,41 @@ Performance is not necessarily enhanced (or decreased) by any of the cloud deplo
 
 Retaining a higher degree of control over the cloud environment will necessarily require the cloud customer to have more maintenance capability, not less, so option D is incorrect.
 
-### Question # 140 - What are the two general delivery modes for the software as a service (SaaS) model?
-A. Ranked and free
-B. Hosted application management and software on demand
-C. Intrinsic motivation complex and undulating perspective details
-D. Framed and modular
-Answer: B. 
+### Question # 140 - What are the two general delivery modes for the software as a service (SaaS) model?     
+A. Ranked and free      
+B. Hosted application management and software on demand      
+C. Intrinsic motivation complex and undulating perspective details    
+D. Framed and modular   
+Answer: B.      
 
 In SaaS, the cloud provider might license and deliver commercially available software for the customer, via the cloud (hosted application management), or provide the customer access to the provider’s proprietary software (software on demand).
 
 All the other options are incorrect. The options contain legitimate words put together to form gibberish.
 
-### Question # 141 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?
-A. The network admin responsible
-B. The cloud provider
-C. The regulators overseeing your deployment
-D. Your organization
-Answer: D. 
+### Question # 141 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?     
+A. The network admin responsible      
+B. The cloud provider       
+C. The regulators overseeing your deployment      
+D. Your organization     
+Answer: D.    
 
 The cloud customer is ultimately responsible for all legal repercussions involving data security and privacy; the cloud provider might be liable for financial costs related to these responsibilities, but those damages can only be recovered long after the notifications have been made by the cloud customer.
 All the other options are incorrect because they do not correctly identify who is required to make data breach notifications in accordance with all applicable laws. That responsibility rests with the cloud customer.
 
-### Question # 142 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?
-A. Platform as a service (PaaS), community
-B. Infrastructure as a service (IaaS), hybrid
-C. Software as a service (SaaS), public
-D. Infrastructure as a service (IaaS), private
-Answer: D. 
+### Question # 142 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?      
+A. Platform as a service (PaaS), community     
+B. Infrastructure as a service (IaaS), hybrid     
+C. Software as a service (SaaS), public    
+D. Infrastructure as a service (IaaS), private    
+Answer: D.     
 
 An IaaS service model allows an organization to retain the most control of their IT assets in the cloud; the cloud customer is responsible for the operating system, the applications, and the data in the cloud. The private cloud model allows the organization to retain the greatest degree of governance control in the cloud; all the other deployment models would necessitate giving up governance control in an environment with pooled resources.
 
-### Question # 143 - If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?
-A. Platform as a service (PaaS), community
-B. Infrastructure as a service (IaaS), hybrid
-C. Software as a service (SaaS), public
-D. Infrastructure as a service (IaaS), private
+### Question # 143 - If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?     
+A. Platform as a service (PaaS), community     
+B. Infrastructure as a service (IaaS), hybrid     
+C. Software as a service (SaaS), public    
+D. Infrastructure as a service (IaaS), private   
 Answer: C. 
 
 With SaaS, the cloud customer is responsible only for the data in the cloud; the cloud provider is responsible for the underlying IT infrastructure, the operating system, and the applications; maintenance for this service model will be minimal, compared to the others. A public cloud deployment will reduce costs even more, as it is the least expensive of the options—with the least amount of control for the cloud customer.
