@@ -509,12 +509,12 @@ C	is	incorrect	because	system	vulnerabilities	would	always	lead	to	less secure	a
 
 D	is	incorrect	because	account	hijacking	refers	to	situations	where	an attacker	is	able	to	access	a	system	or	cloud	environment	through	a valid	account,	perhaps	not	even	on	the	same	application,	and	then	use that	access	to	eavesdrop	or	to	access	other	data.	This	is	not	unique	to	a cloud	environment,	but	due	to	multitenancy,	the	risk	level	is	higher and	not	under	control	of	an	individual	cloud	customer.
 
-### Question # 12 - Which	of	the	following	auditing	or	reporting	types	pertains	ONLY	to financial	statements	and	reporting?
-A.	SOC	1
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	FIPS	140-2
-Answer: A.	
+### Question # 12 - Which	of	the	following	auditing	or	reporting	types	pertains	ONLY	to financial	statements	and	reporting?     
+A.	SOC	1    
+B.	NIST	SP	800-53    
+C.	SOC	2     
+D.	FIPS	140-2     
+Answer: A.	    
 
 The	Service	Organization	Control	(SOC)	Type	1	reports	focus	on the	controls	in	place	at	an	organization	and	pertain	to	financial reporting	and	the	types	of	information	useful	with	a	financial	audit. SOC	1	focuses	on	the	management	structure	of	the	organization,	the target	customer	base,	and	the	regulations	that	an	audit	would	be guided	by	and	subjected	to.
 
@@ -524,12 +524,12 @@ C	is	incorrect	because	SOC	Type	2	reports	are	structured	by	the	same organizatio
 
 D	is	incorrect	because	FIPS	140-2	is	a	United	States	federal government	publication	that	is	focused	on	the	certification	and validation	of	cryptographic	modules,	and	does	not	pertain	to	financial statements	or	reports	in	any	way.
 
-### Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	securecontracts?
-A.	Cloud	service	manager
-B.	Cloud	service	broker
-C.	Cloud	service	deployment	manager
-D.	Cloud	service	business	manager
-Answer: B.	
+### Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	securecontracts?     
+A.	Cloud	service	manager     
+B.	Cloud	service	broker      
+C.	Cloud	service	deployment	manager     
+D.	Cloud	service	business	manager     
+Answer: B.	       
 
 The	cloud	service	broker	obtains	new	customers,	analyzes	the marketplace,	and	secures	contracts	and	agreements	for	cloud	services.
 
@@ -539,11 +539,11 @@ C	is	incorrect	because	the	cloud	service	deployment	manager	gathers metrics	on	c
 
 D	is	incorrect	because	the	cloud	service	business	manager	oversees business	plans	and	customer	relationships,	as	well	as	processes financial	transactions.
 
-### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisorthat	is	NOT	a	security	concern	of	a	Type	1	hypervisor?
-A.	Operating	system
-B.	Firewall
-C.	VLAN
-D.	Access	controls
+### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisorthat	is	NOT	a	security	concern	of	a	Type	1	hypervisor?   
+A.	Operating	system     
+B.	Firewall    
+C.	VLAN      
+D.	Access	controls      
 Answer: A.	
 
 Rather	than	interacting	directly	with	the	underlying	hardware	as	a Type	1	hypervisor	does,	a	Type	2	hypervisor	runs	on	top	of	an operating	system.	This	creates	an	additional	layer	of	security considerations	because	the	security	of	the	host	operating	system	will also	impact	the	hypervisor	software,	and	the	hypervisor	is	susceptible to	any	security	vulnerabilities	or	threats	to	the	operating	system.	With a	Type	1	hypervisor,	there	is	no	additional	layer,	and	security	can	be tightly	controlled	by	the	vendor.
@@ -554,12 +554,12 @@ C	is	incorrect	because	VLANs	are	logical	network	segments	for organizing,	segreg
 
 D	is	incorrect	because	access	controls	are	a	concern	of	all	hypervisors and	the	hosts	that	run	within	them,	and	would	not	be	impacted	by	the use	of	either	type	of	hypervisor.
 
-### Question # 15 - Which	of	the	following	is	NOT	considered	an	effective	method	of mitigation	for	the	systems	vulnerability	threat?
-A.	Patching
-B.	Monitoring
-C.	Scanning
-D.	Virtualization
-Answer: D.	
+### Question # 15 - Which	of	the	following	is	NOT	considered	an	effective	method	of mitigation	for	the	systems	vulnerability	threat?       
+A.	Patching     
+B.	Monitoring      
+C.	Scanning      
+D.	Virtualization       
+Answer: D.	     
 
 Virtualization	would	not	be	a	method	or	effective	tool	for	the mitigation	of	system	vulnerabilities.	When	running,	a	virtual	machine is	subjected	to	the	same	security	concerns	and	vulnerabilities	as	a physical	server	and	operating	system	would	be.	Additionally,	because the	virtual	machine	is	merely	an	image	residing	in	storage,	there	are extra	vulnerabilities	in	regard	to	securing	the	image,	and	the	reality	is that	an	image	can	be	attacked	or	compromised	even	when	not	running.
 
@@ -569,12 +569,12 @@ B	is	incorrect	because	the	monitoring	of	systems	is	an	effective method	for	miti
 
 C	is	incorrect	because	scanning	is	a	very	common	tool	used	to discover	any	vulnerabilities	on	systems	in	need	of	mitigation. Scanning	is	commonly	used	to	verify	that	patches	have	been	applied, as	well	as	to	verify	what	settings	and	configurations	have	been properly	implemented	to	limit	threats	and	to	disable	unnecessary services	and	access.
 
-### Question # 16 - Most	modern	web-based	applications,	especially	those	hosted	within	a cloud	environment,	rely	heavily	on	web	services	and	consumable resources.	Which	of	the	following	is	the	most	widely	used	security protocol	to	protect	these	types	of	technologies?
-A.	IPSec
-B.	VPN
-C.	HTTPS
-D.	SSH
-Answer: C.	
+### Question # 16 - Most	modern	web-based	applications,	especially	those	hosted	within	a cloud	environment,	rely	heavily	on	web	services	and	consumable resources.	Which	of	the	following	is	the	most	widely	used	security protocol	to	protect	these	types	of	technologies?    
+A.	IPSec     
+B.	VPN     
+C.	HTTPS       
+D.	SSH      
+Answer: C.	      
 
 The	Hypertext	Transfer	Protocol	Secure	(HTTPS)	is	the	most commonly	used	protocol	for	securing	communications	and applications	within	a	cloud	environment,	especially	as	most	are	webbased	systems.	HTTPS	extends	the	traditional	HTTP	protocol	used	for web	communications	by	adding	security	protocols	and	encryption.
 
@@ -584,10 +584,11 @@ B	is	incorrect	because	VPNs	are	often	used	for	administrative	and support	commun
 
 D	is	incorrect	because	SSH	is	used	for	obtaining	secure	shell	access	to servers	for	administration	and	application	support.	In	PaaS	and	SaaS service	categories,	the	cloud	customer	will	typically	not	have	server access	either.	SSH	is	not	commonly	used	to	secure	web	services.
 
-### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focusis	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal? A.		Infrastructure
-B.	Software
-C.	Platform
-D.	Desktop
+### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focusis	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
+A.	Infrastructure      
+B.	Software      
+C.	Platform      
+D.	Desktop      
 Answer: C.	
 
 With	the	Platform	as	a	Service	(PaaS)	service	category,	a development	company	can	focus	exclusively	on	software	development and	deployment,	rather	than	having	to	maintain,	install,	or	configure hosting	systems.	It	also	would	enable	a	development	team	to	quickly try	out	different	hosting	platforms	or	cloud	providers	to	find	what works	best	for	their	applications.
@@ -598,10 +599,11 @@ B	is	incorrect	because	Software	as	a	Service	(SaaS)	offers	a	full application	fo
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	would	not	be appropriate	for	development	and	deployment,	as	it	is	intended	to	host desktop	applications	in	a	cloud	environment.
 
-### Question # 18 - Which	of	the	following	aspects	of	cloud	computing	makes	data	in	transit(DIT)	between	internal	servers	more	of	a	risk	than	in	a	traditional	data center? A.		Multitenancy
-B.	Portability
-C.	Interoperability
-D.	Broad	network	access
+### Question # 18 - Which	of	the	following	aspects	of	cloud	computing	makes	data	in	transit(DIT)	between	internal	servers	more	of	a	risk	than	in	a	traditional	data center?       
+A.	Multitenancy    
+B.	Portability     
+C.	Interoperability     
+D.	Broad	network	access      
 Answer: A.	
 
 Multitenancy,	within	a	cloud	environment,	means	having	different customers,	systems,	and	applications,	all	within	the	same	physical systems	and	networks.	Even	with	the	use	of	secure	communications and	encryption,	this	poses	an	additional	risk	above	a	traditional	data center	because	any	compromise	or	malicious	intent	from	one	system could	impact	the	other	systems.	Threats	such	as	eavesdropping	and internal	attacks	are	a	major	concern	with	cloud	computing	and multitenancy.
@@ -612,12 +614,12 @@ C	is	incorrect	because	interoperability	refers	to	the	capability	of reusing	and	
 
 D	is	incorrect	because	broad	network	access	refers	to	the	capability	of accessing	cloud	services	from	any	location	and	from	a	variety	of devices.	This	would	be	similar	to	accessing	of	services	within	a traditional	data	center,	but	does	not	necessarily	pose	additional security	concerns	by	itself	in	the	way	that	multitenancy	can	expose potential	internal	attacks	from	other	compromised	systems.
 
-### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Whichphase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under? 
-A.	Use
-B.	Share
-C.	Archive
-D.	Modify
-Answer: A.	
+### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Whichphase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under?           
+A.	Use     
+B.	Share     
+C.	Archive      
+D.	Modify     
+Answer: A.	    
 
 During	the	“use”	phase	of	the	cloud	secure	data	lifecycle,	the	data is	consumed	and	possibly	modified	from	its	original	form	by	an application,	either	via	programmatic	means	or	by	the	direct	actions	of a	user	of	the	application.
 
@@ -627,11 +629,11 @@ C	is	incorrect	because	the	“archive”	phase	of	the	cloud	secure	data lifecycl
 
 D	is	incorrect	because	“modify”	is	not	a	phase	of	the	cloud	secure	data lifecycle.	The	concepts	that	would	most	likely	be	placed	under	such	a heading	are	already	found	in	the	“use”	phase.
 
-### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?      
+### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?       
 A.	Encryption     
 B.	Sandboxing     
-C.	VLANs    
-D.	Reversibility    
+C.	VLANs     
+D.	Reversibility          
 Answer: A.	
 
 With	resource	pooling	and	multitenancy,	as	well	as	the	support	staff of	the	cloud	provider	having	privileged	access	throughout	the	entire environment,	encryption	is	of	particular	importance	to	protect	data. With	the	keys	under	the	control	of	the	cloud	customer,	even	if	a
@@ -704,7 +706,7 @@ B	is	incorrect	because	the	Advanced	Encryption	Standard	(AES)	is	a type	of	moder
 C	is	incorrect	because	Domain	Name	Service	(DNS)	is	a	protocol	for mapping	common	names	to	IP	addresses	for	network communications;	it	is	not	a	security	protocol	or	used	to	protect	actual communications.
 
 ### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?       
-A.	Measured	service    
+A.	Measured	service           
 B.	Auto-scaling    
 C.	Portability     
 D.	Elasticity    
