@@ -621,11 +621,11 @@ C	is	incorrect	because	the	“archive”	phase	of	the	cloud	secure	data lifecycl
 
 D	is	incorrect	because	“modify”	is	not	a	phase	of	the	cloud	secure	data lifecycle.	The	concepts	that	would	most	likely	be	placed	under	such	a heading	are	already	found	in	the	“use”	phase.
 
-### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?
-A.	Encryption
-B.	Sandboxing
-C.	VLANs
-D.	Reversibility
+### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?      
+A.	Encryption     
+B.	Sandboxing     
+C.	VLANs    
+D.	Reversibility    
 Answer: A.	
 
 With	resource	pooling	and	multitenancy,	as	well	as	the	support	staff of	the	cloud	provider	having	privileged	access	throughout	the	entire environment,	encryption	is	of	particular	importance	to	protect	data. With	the	keys	under	the	control	of	the	cloud	customer,	even	if	a
@@ -637,12 +637,12 @@ C	is	incorrect	because	VLANs	are	used	for	logical	network segregations,	and	alth
 
 D	is	incorrect	because	reversibility	refers	to	the	ability	of	a	cloud customer	to	remove	all	applications	and	data	from	a	cloud environment,	along	with	assurances	from	the	cloud	provider	that everything	was	securely	removed	from	its	systems.	This	does	not pertain	to	the	security	of	data	during	a	hosting	arrangement.
 
-### Question # 21 - Which	of	the	following	data	sanitation	methods	would	be	the	MOST effective	if	you	needed	to	securely	remove	data	as	quickly	as	possible	in	a cloud	environment?
-A.	Zeroing
-B.	Cryptographic	erasure
-C.	Overwriting
-D.	Degaussing
-Answer: B.	
+### Question # 21 - Which	of	the	following	data	sanitation	methods	would	be	the	MOST effective	if	you	needed	to	securely	remove	data	as	quickly	as	possible	in	a cloud	environment?    
+A.	Zeroing     
+B.	Cryptographic	erasure    
+C.	Overwriting    
+D.	Degaussing   
+Answer: B.	   
 
 Cryptographic	erasure	works	by	destroying	the	keys	that	were	used to	encrypt	the	data.	Although	it	does	not	delete	the	data	in	a	traditional sense,	with	the	keys	destroyed,	the	data	is	unreadable	and unrecoverable,	thus	giving	the	same	effect.	Because	the	focus	is	on	the destruction	of	keys,	it	is	also	something	that	can	be	done	very	quickly and	with	minimal	effort,	whereas	deleting	large	volumes	of	data	and then	verifying	it	has	been	deleted	can	be	a	very	time-consuming process.
 
@@ -653,11 +653,11 @@ C	is	incorrect	because	overwriting	refers	to	the	replacement	of	valid data	with	
 
 D	is	incorrect	because	degaussing	refers	to	the	demagnetizing	of physical	storage	media.	Although	this	is	possible	in	a	traditional	data center,	where	an	organization	owns	the	media	and	can	do	so, degaussing	would	not	be	possible	in	a	cloud	environment	at	all.
 
-### Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST correct?
-A.	It	runs	on	as	an	application	on	top	of	an	operating	system	to	hostvirtual	machines.
-B.	It	runs	on	a	separate	management	server	and	interacts	with	avirtualization	appliance.
-C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layerbetween	the	hardware	and	virtual	machines.
-D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	softwarelayer	to	host	virtual	machines.
+### Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST correct?     
+A.	It	runs	on	as	an	application	on	top	of	an	operating	system	to	hostvirtual	machines.     
+B.	It	runs	on	a	separate	management	server	and	interacts	with	avirtualization	appliance.     
+C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layerbetween	the	hardware	and	virtual	machines.    
+D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	softwarelayer	to	host	virtual	machines.   
 Answer: C.	
 
 A	Type	1	hypervisor	runs	directly	on	top	of	the	underlying hardware	and	is	tightly	tied	to	it,	with	both	hardware	and	software from	the	same	vendor.
@@ -668,11 +668,11 @@ B	is	incorrect	because	it	does	not	describe	a	Type	1	or	Type	2 hypervisor.
 
 D	is	incorrect	because	although	a	Type	1	hypervisor	does	run	directly on	top	of	the	hardware,	it	does	not	need	an	additional	software	layer	to host	virtual	machines.
 
-### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	andprivileges	that	user	is	granted	within	the	application?
-A.	Authorization
-B.	Authentication
-C.	Provisioning
-D.	Privilege
+### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	andprivileges	that	user	is	granted	within	the	application?    
+A.	Authorization   
+B.	Authentication    
+C.	Provisioning   
+D.	Privilege  
 Answer: A.	
 
 Authorization	is	the	process	by	which	a	user	is	granted	roles	and access	to	an	application,	after	successfully	completing	the authentication	process.	It	is	typically	based	on	group	and	role memberships.
@@ -683,13 +683,13 @@ C	is	incorrect	because	provisioning	is	the	process	where	a	user	is identified	an
 
 D	is	incorrect	because	privilege	refers	to	a	level	of	access	a	user	has within	a	system,	but	it’s	a	result	of	the	authorization	process.
 
-### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemedunsafe	to	use	for	secure	communications	and	data?
-A.	TLS
-B.	AES
-C.	DNS
-D.	SSL
-Answer: D.	S
-ecure	sockets	layer	(SSL)	version	3.0	was	deprecated	in	June	2015 by	RFC	7568	because	it	was	considered	insecure,	and	admins	were instructed	to	move	systems	to	TLS.
+### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemedunsafe	to	use	for	secure	communications	and	data?     
+A.	TLS   
+B.	AES   
+C.	DNS   
+D.	SSL     
+Answer: D.    	
+Secure	sockets	layer	(SSL)	version	3.0	was	deprecated	in	June	2015 by	RFC	7568	because	it	was	considered	insecure,	and	admins	were instructed	to	move	systems	to	TLS.
 
 A	is	incorrect	because	Transport	Socket	Layer	(TLS)	has	replaced	SSL and	is	now	the	standard	security	for	network	and	web communications.
 
@@ -697,11 +697,11 @@ B	is	incorrect	because	the	Advanced	Encryption	Standard	(AES)	is	a type	of	moder
 
 C	is	incorrect	because	Domain	Name	Service	(DNS)	is	a	protocol	for mapping	common	names	to	IP	addresses	for	network communications;	it	is	not	a	security	protocol	or	used	to	protect	actual communications.
 
-### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?
-A.	Measured	service
-B.	Auto-scaling
-C.	Portability
-D.	Elasticity
+### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?       
+A.	Measured	service    
+B.	Auto-scaling    
+C.	Portability     
+D.	Elasticity    
 Answer: A.	
 
 Measured	service	refers	to	cloud	customers	paying	only	for	the resources	they	consume,	and	only	for	the	time	they	are	consuming them.	This	would	typically	refer	to	the	building	blocks	of	cloud computing:	CPU,	memory,	storage,	and	possibly	network.	This	differs from	a	traditional	data	center,	where	an	organization	would	need	to have	all	resources	available	at	all	times.
@@ -712,12 +712,12 @@ C	is	incorrect	because	portability	refers	to	the	capability	of	a	cloudbased	syst
 
 D	is	incorrect	because	elasticity	is	the	capability	of	a	cloud-based application	to	grow	to	meet	current	demands	in	an	easy,	and	typically in	a	programmatic	manner.	It	does	not	relate	to	billing	for	services, though	the	invocation	of	elasticity	based	on	load	would	lead	to	a change	in	billing	and	charges	for	services.
 
-### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominentfeature	of	PaaS	versus	IaaS?
-A.	Availability
-B.	Auto-scaling
-C.	Portability
-D.	Broad	network	access
-Answer: B.	
+### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominentfeature	of	PaaS	versus	IaaS?      
+A.	Availability    
+B.	Auto-scaling    
+C.	Portability    
+D.	Broad	network	access    
+Answer: B.	    
 
 With	PaaS	offering	a	full	platform	and	framework,	and	just	needing application	code	and	data	to	function,	auto-scaling	is	a	prominent
 feature	of	the	service	category,	and	it’s	typically	the	service	category being	discussed	with	the	topic.
@@ -728,11 +728,12 @@ C	is	incorrect	because	portability	refers	to	being	able	to	easily	move from	one	
 
 D	is	incorrect	because	broad	network	access	is	one	of	the	core concepts	of	cloud	computing	and	applies	to	all	cloud	service categories	equally.
 
-### Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testingof	cloud	services? A.		Cloud	service	user
-B.	Cloud	service	administrator
-C.	Cloud	service	business	manager
-D.	Cloud	service	integrator
-Answer: B.	
+### Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testingof	cloud	services?      
+A.	Cloud	service	user     
+B.	Cloud	service	administrator        
+C.	Cloud	service	business	manager          
+D.	Cloud	service	integrator       
+Answer: B.	     
 
 One	of	the	key	tasks	of	the	cloud	service	administrator	is	to	test cloud	services,	but	also	to	monitor	services,	administer	security	of services,	provide	usage	reports,	and	address	problem	reports.
 
@@ -742,11 +743,11 @@ C	is	incorrect	because	the	cloud	service	business	manager	oversees business	and	
 
 D	is	incorrect	because	the	cloud	service	integrator	is	responsible	for connecting	and	integrating	existing	systems	and	services	within	a cloud	environment.
 
-### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloudenvironment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?
-A.	Private
-B.	Community
-C.	Hybrid
-D.	Public
+### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloudenvironment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?      
+A.	Private    
+B.	Community    
+C.	Hybrid    
+D.	Public    
 Answer: D.	
 
 Public	cloud	services	are	the	quickest	and	easiest	to	set	up	and begin	using.	Most	public	cloud	systems	will	be	totally	automated	from a	self-service	portal,	with	only	the	need	for	a	credit	card	to	establish an	account	and	begin	allocating	resources.
@@ -757,11 +758,11 @@ B	is	incorrect	because	a	community	cloud	is	established	by	similar organization	
 
 C	is	incorrect	because	a	hybrid	cloud	spans	multiple	hosting	providers and	adds	additional	complexity,	and	would	not	be	something	an organization	could	quickly	establish	and	begin	using.
 
-### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	servicein	production	use,	versus	a	local	one?
-A.	The	cloud	provider	will	have	full	control	over	the	keys.
-B.	The	software	may	be	insecure.
-C.	Availability	is	crucial.
-D.	Incompatibility	issues.
+### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	servicein	production	use,	versus	a	local	one?     
+A.	The	cloud	provider	will	have	full	control	over	the	keys.     
+B.	The	software	may	be	insecure.     
+C.	Availability	is	crucial.    
+D.	Incompatibility	issues.    
 Answer: C.	
 
 A	remote	key	service	is	one	that	is	hosted	apart	and	away	from	the applications	and	systems.	This	gives	an	organization	much	greater control	over	its	keys	and	key	practices,	and	also	allows	a	great	degree of	portability.	However,	having	the	keys	kept	apart	from	the	hosting provider	and	applications	also	means	that	availability	is	crucial.	If	the key	system	were	to	become	unavailable	or	unreachable,	the	systems and	applications	that	rely	on	these	keys	would	effectively	be	down	as far	as	the	users	are	concerned	because	they	would	be	unable	to function.
@@ -772,11 +773,11 @@ B	is	incorrect	because	regardless	of	whether	the	key	management system	is	local	
 
 D	is	incorrect	because	compatibility	concerns	are	an	issue	for	any service,	whether	it	is	hosted	locally	or	remotely,	and	neither	solution would	give	an	inherent	benefit	over	the	other	concerning compatibility.
 
-### Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?
-A.	IaaS
-B.	SaaS
-C.	PaaS
-D.	DaaS
+### Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?    
+A.	IaaS    
+B.	SaaS    
+C.	PaaS   
+D.	DaaS   
 Answer: B.	
 
 A	client-side	key	management	system	is	one	where	the	software	for the	key	management	system	is	supplied	by	the	cloud	provider	but hosted	and	run	from	a	location	chosen	by	the	cloud	customer.	This	is most	common	with	SaaS	implementations,	as	the	cloud	provider would	need	to	supply	the	software	to	ensure	compatibility	with	the application.
@@ -787,12 +788,12 @@ C	is	incorrect	because	a	client-side	key	management	system	is	one typically	tied
 
 D	is	incorrect	because	DaaS	would	typically	look	and	perform	similar to	a	PaaS	implementation,	where	the	cloud	provider	is	responsible	for supplying	the	platform	and	framework,	but	not	the	actual	application or	toolset.
 
-### Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?
-A.	Regulations
-B.	Contracts
-C.	Organizational	policies
-D.	Privacy	notices
-Answer: D.	
+### Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?     
+A.	Regulations     
+B.	Contracts    
+C.	Organizational	policies    
+D.	Privacy	notices    
+Answer: D.	  
 
 Privacy	notices	are	publicly	posted,	on	a	website	typically,	and disclose	to	the	users	of	the	site	how	their	information	is	collected	and used.	They	are	not	part	of	the	account	provisioning	process	at	all	and would	have	no	bearing	on	it.
 
@@ -802,11 +803,11 @@ B	is	incorrect	because	contracts	will	typically	play	a	key	role	in account	provi
 
 C	is	incorrect	because	organizational	policies	also	play	a	key	role	in account	provisioning.	Policies	may	dictate	to	whom	credentials	are provisioned,	as	well	was	what	the	process	is,	what	must	be	verified, and	how	long	credentials	are	valid	for.
 
-### Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	part	of	the consideration?
-A.	Insufficient	due	diligence
-B.	Malicious	insiders
-C.	Account	hijacking
-D.	Data	loss
+### Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	part	of	the consideration?    
+A.	Insufficient	due	diligence     
+B.	Malicious	insiders     
+C.	Account	hijacking    
+D.	Data	loss   
 Answer: B.	
 
 Malicious	insiders	are	typically	individuals	who	have	valid	access and	authorization	to	a	system,	application,	or	data,	and	then	use	that valid	access	for	reasons	outside	the	intended	purpose.	It	is	especially difficult	to	mitigate	against	malicious	insiders	because	they	have	valid credentials	and	authorization	for	what	they	are	accessing,	and	are using	it	for	inappropriate	purposes.
@@ -817,10 +818,11 @@ C	is	incorrect	because	account	hijacking	refers	to	an	attacker	gaining access	to
 
 D	is	incorrect	because	data	loss	refers	to	a	situation	where	an organization	loses	actual	data	or	loses	access	to	it.	This	most commonly	occurs	when	data	is	deleted	or	hardware	fails	and	backups have	not	been	performed,	but	it	can	also	occur	with	encrypted	data should	the	keys	become	lost	or	corrupted	without	backup.
 
-### Question # 33 - Which	of	the	following	methods	of	attack,	used	in	a	SaaS	environment,poses	the	biggest	threat	to	the	exposure	of	data	across	different customers? A.		DDoS
-B.	XSS
-C.	JSON
-D.	XSLT
+### Question # 33 - Which	of	the	following	methods	of	attack,	used	in	a	SaaS	environment,poses	the	biggest	threat	to	the	exposure	of	data	across	different customers?  
+A.	DDoS  
+B.	XSS   
+C.	JSON    
+D.	XSLT   
 Answer: B.	
 
 Cross-site	scripting	(XSS)	poses	a	big	risk	with	any	environment, but	especially	within	a	SaaS	implementation,	where	it	is	very	likely that	data	from	multiple	customers	is	housed	and	accessible	within	the same	software	application.
@@ -833,11 +835,11 @@ D	is	incorrect	because	Extensible	Stylesheet	Language
 Transformations	(XSLT)	is	used	for	transforming	documents	in	XML
 format	to	other	formats,	and	is	not	used	for	security	or	data confidentiality	processes.
 
-### Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriaterights	to	data	and	functions	within	an	application?
-A.	Authentication
-B.	Authorization
-C.	Privilege
-D.	Provisioning
+### Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriaterights	to	data	and	functions	within	an	application?    
+A.	Authentication   
+B.	Authorization   
+C.	Privilege    
+D.	Provisioning    
 Answer: B.	
 
 Authorization,	performed	after	successful	authentication,	is	the process	by	which	appropriate	roles	and	permissions	are	granted	to	the user	or	service	account.	This	is	based	on	the	attributes	of	the	account holders,	such	as	group	membership,	employment	status,	location,	or any	other	type	of	variable,	and	then	is	matched	against	roles	for access.
@@ -848,11 +850,11 @@ C	is	incorrect	because	privilege	refers	to	elevated	(typically administrative)	a
 
 D	is	incorrect	because	provisioning	is	the	process	by	which	credentials are	verified	and	proven,	and	then	an	authentication	object	or	token	is granted	for	access.
 
-### Question # 35 - Which	of	the	following	concepts	would	MOST	likely	apply	specifically	to a	private	cloud	deployment	model?
-A.	Portability
-B.	Reversibility
-C.	Ownership
-D.	Resource	pooling
+### Question # 35 - Which	of	the	following	concepts	would	MOST	likely	apply	specifically	to a	private	cloud	deployment	model?      
+A.	Portability    
+B.	Reversibility    
+C.	Ownership   
+D.	Resource	pooling   
 Answer: C.	
 
 Within	the	private	cloud	service	category,	in	many	circumstance	the cloud	will	be	owned	by	the	organization,	or	done	via	a	contract,	where a	level	of	ownership	is	maintained	over	hardware,	systems,	or processes	that	would	not	be	available	with	other	cloud	service categories.
@@ -863,11 +865,11 @@ B	is	incorrect	because	reversibility	is	a	key	cloud	concept	that	pertains to	the
 
 D	is	incorrect	because	resource	pooling	is	one	of	the	key characteristics	of	cloud	computing	that	relates	to	the	aggregate	system sources	and	their	allocation	among	different	customers	and	services;	it does	not	pertain	to	a	specific	cloud	deployment	model.
 
-### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	verify	thatproper	controls	and	policies	are	in	place	on	a	system	or	application?
-A.	Auditability
-B.	Governance
-C.	Regulation
-D.	Elasticity
+### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	verify	thatproper	controls	and	policies	are	in	place	on	a	system	or	application?    
+A.	Auditability   
+B.	Governance   
+C.	Regulation   
+D.	Elasticity    
 Answer: A.	
 
 Auditing	is	a	process	of	testing	and	verifying	the	security	controls and	configurations	in	place	on	a	system	or	application	and	then comparing	them	to	the	requirements	from	regulations	or	configuration baselines	that	define	what	they	should	be.	How	easy	or	difficult	this type	of	testing	and	verification	on	a	system	is	to	complete	is	the auditability	of	that	system.
@@ -879,11 +881,11 @@ C	is	incorrect	because	regulation	pertains	to	requirements	that	an organization	
 D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	system to	dynamically	change	the	resources	available	to	a	system	or application	based	on	its	current	needs;	it	does	not	pertain	to	the
 auditing	or	evaluation	of	controls	in	any	way.
 
-### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	beapplied	to	any	type	of	system	or	application?
-A.	ISO/IEC	27001
-B.	PCI	DSS
-C.	FIPS	140-2
-D.	NIST	SP	800-53
+### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	beapplied	to	any	type	of	system	or	application?    
+A.	ISO/IEC	27001    
+B.	PCI	DSS    
+C.	FIPS	140-2    
+D.	NIST	SP	800-53    
 Answer: A.	
 
 The	ISO/IEC	27001	standard,	and	its	most	current	iteration ISO/IEC	27001:2013,	serves	as	a	general	security	framework	for	any type	of	system	or	application,	regardless	of	its	purpose	and	specific type	of	data.	It	is	widely	considered	the	“gold	standard”	for international	security	certification,	even	if	it	is	does	not	specifically pertain	to	cloud	computing.
@@ -894,10 +896,11 @@ C	is	incorrect	because	FIPS	140-2	is	a	US	federal	government certification	stand
 
 D	is	incorrect	because	NIST	SP	800-53	is	a	publication	for	US government	security	requirements	for	all	government	IT	systems,	with the	exception	of	national	security	systems.	It	is	not	intended	for	a general	framework	for	security	and	only	pertains	to	government systems	within	the	United	States.
 
-### Question # 38 - Which	group	developed,	maintains,	and	controls	the	PCI	DSS	standardsand	controls? A.		NIST
-B.	ISO/IEC
-C.	EU
-D.	Credit	card	companies
+### Question # 38 - Which	group	developed,	maintains,	and	controls	the	PCI	DSS	standardsand	controls? 
+A.	NIST    
+B.	ISO/IEC    
+C.	EU    
+D.	Credit	card	companies    
 Answer: D.	
 
 The	PCI	DSS	standards	were	developed	and	are	enforced	by	the
@@ -909,11 +912,11 @@ B	is	incorrect	because	although	the	joint	commission	between	the International	O
 
 C	is	incorrect	because	although	the	European	Union	(EU)	does	publish many	pertinent	security	standards	and	regulations,	it	does	not	publish the	PCI	DSS	standards	or	any	other	standard	pertaining	to	proprietary financial	transactions.
 
-### Question # 39 - Which	cloud	service	category	offers	the	most	customization	options	and control	to	the	cloud	customer?
-A.	PaaS
-B.	IaaS
-C.	SaaS
-D.	DaaS
+### Question # 39 - Which	cloud	service	category	offers	the	most	customization	options	and control	to	the	cloud	customer?    
+A.	PaaS    
+B.	IaaS     
+C.	SaaS    
+D.	DaaS    
 Answer: B.	
 
 The	Infrastructure	as	a	Service	(IaaS)	category	allows	for	the	most customization	and	control	by	the	cloud	customer;	the	cloud	provider merely	provides	the	virtualized	environment	to	deploy	virtual machines	and	virtual	network	devices	within,	but	then	leaves	it	to	the cloud	customer	to	deploy	and	configure	those	specific	items.
@@ -924,11 +927,11 @@ C	is	incorrect	because	the	Software	as	a	Service	(SaaS)	category provides	a	full
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	is	very	similar	to the	PaaS	service	category,	where	the	framework	is	provided	within which	to	deploy	applications.	DaaS	does	not	have	the	same	level	of customization	available	as	IaaS.
 
-### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	onthe	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?
-A.	Accountability
-B.	Governance
-C.	SLA
-D.	Auditing
+### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	onthe	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?     
+A.	Accountability     
+B.	Governance    
+C.	SLA    
+D.	Auditing    
 Answer: C.	
 
 The	service	level	agreement	(SLA)	forms	the	basis	for	evaluating control	compliance	between	the	cloud	customer	and	cloud	provider.	It documents	and	articulates	specific	requirements	for	availability, processes,	customer	service,	support,	security	controls,	auditing, reporting,	and	any	other	area	deemed	important	by	company	policy	or regulation	from	the	cloud	customer.
@@ -939,11 +942,11 @@ B	is	incorrect	because	governance	refers	to	the	connection	between	IT management
 
 D	is	incorrect	because	auditing	refers	to	the	process	of	testing	and evaluating	system	controls	and	configurations	against	regulatory requirements	or	policy,	but	not	the	performance	metrics	or	response times	that	would	be	included	with	an	SLA.
 
-### Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	useraccess	and	permissions	be	performed?
-A.	Account	provisioning
-B.	Throughout	use	of	the	application
-C.	Immediately	after	authentication
-D.	As	part	of	the	change	management	process
+### Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	useraccess	and	permissions	be	performed?     
+A.	Account	provisioning    
+B.	Throughout	use	of	the	application    
+C.	Immediately	after	authentication    
+D.	As	part	of	the	change	management	process    
 Answer: B.	
 
 Although	initial	authorization	decisions	are	made	when	a	user authenticates	to	an	application,	optimally	they	should	be	reevaluated as	the	user	accesses	different	functions	or	data	within	the	application. This	will	prevent	attacks	where	users	may	find	ways	to	elevate privileges	after	authentication,	and	it	also	catches	cases	where	a	user’s access	may	have	changed	since	he	initially	authenticated.
@@ -954,11 +957,11 @@ C	is	incorrect	because	authorization	will	typically	be	performed	upon successful
 
 D	is	incorrect	because	the	change	management	process	may	be	used	to grant	roles	and	access	initially,	especially	in	the	case	of	privileged	or administrative	users,	but	it	would	not	play	any	role	in	system operations	as	that	access	is	being	used.
 
-### Question # 42 - Which	of	the	following	would	NOT	be	a	reason	a	customer	could	be “locked	in”	to	a	particular	cloud	provider?
-A.	Software	versions
-B.	Developers
-C.	Application	environments
-D.	Regulations
+### Question # 42 - Which	of	the	following	would	NOT	be	a	reason	a	customer	could	be “locked	in”	to	a	particular	cloud	provider?    
+A.	Software	versions    
+B.	Developers    
+C.	Application	environments    
+D.	Regulations    
 Answer: B.	
 
 A	customer	can	become	“locked	in”	to	a	particular	cloud	provider for	a	variety	of	reasons,	but	the	developers	who	are	responsible	for their	code	and	applications	would	not	be	such	a	reason.	Applications are	designed	to	work	within	specific	frameworks	or	technologies,	not with	specific	hosting	providers.
@@ -970,11 +973,11 @@ C	is	incorrect	because	application	environments	are	required	to	run code	and	run
 
 D	is	incorrect	because	regulations,	especially	ones	specific	to	certain data,	may	dictate	that	specific	cloud	providers,	or	even	a	single	cloud provider,	must	be	used	in	order	to	maintain	compliance.
 
-### Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?
-A.	Border	perimeter
-B.	DMZ
-C.	Between	VLANs
-D.	Between	the	data	and	application	zones
+### Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?     
+A.	Border	perimeter     
+B.	DMZ    
+C.	Between	VLANs    
+D.	Between	the	data	and	application	zones    
 Answer: A.	
 
 In	a	traditional	data	center,	the	border	perimeter	of	the	network	is	a common	place	for	security	devices	and	controls	to	be	implemented,	to stop	traffic	of	certain	types	or	from	certain	origins	from	even	getting to	the	IT	systems	hosted	within	it.	However,	in	a	cloud	environment, especially	with	multitenancy,	the	ability	to	place	anything	at	a	network perimeter	will	likely	be	completely	impossible,	and	even	if	it	is possible,	it	will	be	extremely	limited.
@@ -985,54 +988,79 @@ C	is	incorrect	because	VLAN	segmentation	is	available	and	heavily used	to	logica
 
 D	is	incorrect	because	logical	network	zones	can	be	created	within	a cloud	environment	and	would	be	a	very	common	and	strategic	place for	security	controls	or	devices	to	be	implemented.
 
-### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	todetermine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?
-A.	Degaussing
-B.	Cryptographic	erasure
-C.	Overwriting
-D.	Zeroing
- 		A.	Degaussing	is	the	process	of	physically	altering	or	removing	the magnetic	nature	of	storage	hardware,	and	as	such	would	not	be available	within	a	cloud	environment.	This	is	due	to	resource	pooling and	multitenancy,	as	well	as	the	dynamic	nature	of	a	cloud,	where	data can	be	moved	and	stored	in	different	places	constantly.
- 	B	is	incorrect	because	cryptographic	erasure	involves	the	destruction of	the	keys	used	to	encrypt	the	data,	and	it’s	available	on	any	type	of
+### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	todetermine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?      
+A.	Degaussing     
+B.	Cryptographic	erasure    
+C.	Overwriting    
+D.	Zeroing   
+Answer: A.	
+
+Degaussing	is	the	process	of	physically	altering	or	removing	the magnetic	nature	of	storage	hardware,	and	as	such	would	not	be available	within	a	cloud	environment.	This	is	due	to	resource	pooling and	multitenancy,	as	well	as	the	dynamic	nature	of	a	cloud,	where	data can	be	moved	and	stored	in	different	places	constantly.
+
+B	is	incorrect	because	cryptographic	erasure	involves	the	destruction of	the	keys	used	to	encrypt	the	data,	and	it’s	available	on	any	type	of
 system.	It	is	a	very	commonly	used	method	within	cloud environments	for	secure	deletion	of	data.
- 	C	is	incorrect	because	overwriting	involves	writing	over	the	sectors where	the	data	was	written	and	stored.	Although	this	is	trickier	in	a cloud	environment	based	on	the	dynamic	nature	of	data,	overwriting may	be	available	in	situations	where	physical	destruction	of	media would	not	be.
- 	D	is	incorrect	for	the	same	reasons	as	overwriting,	as	zeroing	is	the same	process	but	involves	writing	null	values	to	data	sectors.
 
-### Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	socialengineering	tactics?
-A.	Data	loss
-B.	System	vulnerabilities
-C.	Advanced	persistent	threats
-D.	Insufficient	due	diligence
- 		C.	Advanced	persistent	threats	occur	when	an	attacker	is	able	to	gain access	to	a	system	and	reside	there	for	a	long	period	of	time	without being	detected.	This	is	usually	done	to	snoop	on	traffic	or	collect information	over	time.	Often	it	is	accomplished	through	social engineering	tactics	to	gain	access	to	valid	and	real	accounts	so	that access	can	be	performed	without	detection.
- 	A	is	incorrect	because	data	loss	refers	to	an	organization	losing	access to	data	or	the	data	becoming	corrupted,	without	appropriate	backups or	means	of	access.	This	typically	occurs	due	to	hardware	or	system failure	or	due	to	the	destruction	or	corruption	of	encryption	keys.
- 	B	is	incorrect	because	system	vulnerabilities	can	occur	based	on misconfigurations	or	poor	patching	practices;	they	do	not	involve	the actions	of	a	malicious	actor.
- 	D	is	incorrect	because	insufficient	due	diligence	occurs	when	an organization	has	not	properly	planned	a	system	deployment	or migration,	and	therefore	has	left	itself	vulnerable	to	security	threats.
+C	is	incorrect	because	overwriting	involves	writing	over	the	sectors where	the	data	was	written	and	stored.	Although	this	is	trickier	in	a cloud	environment	based	on	the	dynamic	nature	of	data,	overwriting may	be	available	in	situations	where	physical	destruction	of	media would	not	be.
 
-### Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	which security	framework	will	you	need	to	be	knowledgeable	of	or	familiar with? A.		PCI	DSS
-B.	NIST	SP	800-53
-C.	SOC	2
-D.	ISO/IEC	27001
- 		B.	The	NIST	SP	800-53	publication	governs	the	requirements	for	the security	of	US	government	systems,	with	the	exception	of	national security	systems.	Anyone	bidding	on	such	contracts	will	need	to	be very	familiar	with	its	requirements	because	they	are	very	specific	in how	hardware	configurations	must	be	done	and	will	be	crucial	for	any contract	proposal.
- 	A	is	incorrect	because	PCI	DSS	applies	only	to	credit	card	payment systems	and	interactions	across	the	networks	and	systems	of	the	major credit	card	companies.	It	does	not	apply	to	government	systems.
- 	C	is	incorrect	because	SOC	Type	2	reports	pertain	to	financial reporting	and	the	security	controls	used	within	them.	They	do	not apply	to	US	government	systems.
- 	D	is	incorrect	because	the	ISO/IEC	27001	security	certification	and framework	is	a	general	security	program	and	does	not	apply	to	US government	systems.
+D	is	incorrect	for	the	same	reasons	as	overwriting,	as	zeroing	is	the same	process	but	involves	writing	null	values	to	data	sectors.
 
-### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concernsrelated	to	bring	your	own	device	(BYOD)	that	a	cloud	security
-professional	must	always	be	cognizant	of?
-A.	Portability
-B.	Broad	network	access
-C.	On-demand	self-service
-D.	Interoperability
- 		B.	Broad	network	access	is	a	key	concept	of	cloud	computing,	where services	and	applications	are	accessible	across	the	public	Internet	and through	a	variety	of	clients	and	devices.	This	particularly	applies	to BYOD	situations	and	the	large	number	of	clients	and	configurations that	may	interact	with	cloud	services	and	data.
- 	A	is	incorrect	because	portability	refers	being	able	to	easily	move services	or	applications	between	different	cloud	providers	and	does not	relate	to	issues	involving	BYOD.
- 	C	is	incorrect	because	on-demand	self-service	pertains	to	a	cloud customer	being	able	to	provision	and	allocate	resources	from	a	portal, without	needing	to	interact	with	cloud	provider	staff.	It	does	not pertain	to	BYOD.
- 	D	is	incorrect	because	interoperability	refers	to	being	able	to	reuse components	or	services	for	other	purposes	and	does	not	pertain	to
+### Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	socialengineering	tactics?     
+A.	Data	loss    
+B.	System	vulnerabilities    
+C.	Advanced	persistent	threats     
+D.	Insufficient	due	diligence    
+Answer: C.	
+
+Advanced	persistent	threats	occur	when	an	attacker	is	able	to	gain access	to	a	system	and	reside	there	for	a	long	period	of	time	without being	detected.	This	is	usually	done	to	snoop	on	traffic	or	collect information	over	time.	Often	it	is	accomplished	through	social engineering	tactics	to	gain	access	to	valid	and	real	accounts	so	that access	can	be	performed	without	detection.
+
+A	is	incorrect	because	data	loss	refers	to	an	organization	losing	access to	data	or	the	data	becoming	corrupted,	without	appropriate	backups or	means	of	access.	This	typically	occurs	due	to	hardware	or	system failure	or	due	to	the	destruction	or	corruption	of	encryption	keys.
+
+B	is	incorrect	because	system	vulnerabilities	can	occur	based	on misconfigurations	or	poor	patching	practices;	they	do	not	involve	the actions	of	a	malicious	actor.
+
+D	is	incorrect	because	insufficient	due	diligence	occurs	when	an organization	has	not	properly	planned	a	system	deployment	or migration,	and	therefore	has	left	itself	vulnerable	to	security	threats.
+
+### Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	which security	framework	will	you	need	to	be	knowledgeable	of	or	familiar with?      
+A.	PCI	DSS     
+B.	NIST	SP	800-53    
+C.	SOC	2    
+D.	ISO/IEC	27001    
+Answer: B.	    
+
+The	NIST	SP	800-53	publication	governs	the	requirements	for	the security	of	US	government	systems,	with	the	exception	of	national security	systems.	Anyone	bidding	on	such	contracts	will	need	to	be very	familiar	with	its	requirements	because	they	are	very	specific	in how	hardware	configurations	must	be	done	and	will	be	crucial	for	any contract	proposal.
+
+A	is	incorrect	because	PCI	DSS	applies	only	to	credit	card	payment systems	and	interactions	across	the	networks	and	systems	of	the	major credit	card	companies.	It	does	not	apply	to	government	systems.
+
+C	is	incorrect	because	SOC	Type	2	reports	pertain	to	financial reporting	and	the	security	controls	used	within	them.	They	do	not apply	to	US	government	systems.
+
+D	is	incorrect	because	the	ISO/IEC	27001	security	certification	and framework	is	a	general	security	program	and	does	not	apply	to	US government	systems.
+
+### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concernsrelated	to	bring	your	own	device	(BYOD)	that	a	cloud	security professional	must	always	be	cognizant	of?    
+A.	Portability     
+B.	Broad	network	access     
+C.	On-demand	self-service    
+D.	Interoperability    
+Answer: B.	
+
+Broad	network	access	is	a	key	concept	of	cloud	computing,	where services	and	applications	are	accessible	across	the	public	Internet	and through	a	variety	of	clients	and	devices.	This	particularly	applies	to BYOD	situations	and	the	large	number	of	clients	and	configurations that	may	interact	with	cloud	services	and	data.
+
+A	is	incorrect	because	portability	refers	being	able	to	easily	move services	or	applications	between	different	cloud	providers	and	does not	relate	to	issues	involving	BYOD.
+
+C	is	incorrect	because	on-demand	self-service	pertains	to	a	cloud customer	being	able	to	provision	and	allocate	resources	from	a	portal, without	needing	to	interact	with	cloud	provider	staff.	It	does	not pertain	to	BYOD.
+
+D	is	incorrect	because	interoperability	refers	to	being	able	to	reuse components	or	services	for	other	purposes	and	does	not	pertain	to
 BYOD.
 
-### Question # 48 - Which	of	the	following	is	NOT	considered	a	building	block	technology for	cloud	computing?
-A.	CPU
-B.	Memory
-C.	Storage
-D.	Servers
- 		D.	Servers	are	not	a	key	building	block	technology	of	a	cloud environment,	because	the	focus	is	on	computing	resources,	not	the number	of	actual	servers	being	used.
- 	A	is	incorrect	because	CPU	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
- 	B	is	incorrect	because	memory	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
- 	C	is	incorrect	because	storage	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
+### Question # 48 - Which	of	the	following	is	NOT	considered	a	building	block	technology for	cloud	computing?     
+A.	CPU    
+B.	Memory    
+C.	Storage   
+D.	Servers   
+Answer: D.	
+
+Servers	are	not	a	key	building	block	technology	of	a	cloud environment,	because	the	focus	is	on	computing	resources,	not	the number	of	actual	servers	being	used.
+
+A	is	incorrect	because	CPU	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
+
+B	is	incorrect	because	memory	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
+
+C	is	incorrect	because	storage	is	a	major	building	block	technology	of cloud	computing	and	is	one	of	the	major	billable	items.
