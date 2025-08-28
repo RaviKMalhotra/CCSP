@@ -1086,7 +1086,7 @@ Not all facilities need to withstand earthquakes; this may be true of data cente
 
 ### Question # 96 - The physical layout of a cloud data center campus should include redundancies of all the following except ___________________.     
 A. Generators    
-B. HVAC units
+B. HVAC units     
 C. Generator fuel storage        
 D. Points of personnel ingress      
 Answer: D.      
@@ -1108,7 +1108,7 @@ Option D is incorrect because any BCDR plan would account for sufficient personn
 
 ### Question # 98 - There are two reasons to conduct a test of the organization’s recovery from backup in an environment other than the primary production environment. Which of the following is one of them?    
 A. It is good to invest in more than one community.    
-B. You want to approximate contingency conditions, which includes not operating in the primary location     .
+B. You want to approximate contingency conditions, which includes not operating in the primary location.      
 C. It is good for your personnel to see other places occasionally.      
 D. Your regulators won’t follow you off-site, so you’ll be unobserved during your test.      
 Answer: B.      
