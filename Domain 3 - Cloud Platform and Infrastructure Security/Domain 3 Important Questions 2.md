@@ -288,12 +288,12 @@ Because	 they originate	from	outside	 the 	data	center,	they	are	considered	exte
 
 D	is	incorrect 	because	 building 	access	points	provide 	staff	access	to internal	layers	of	a	data	center	from	the	outside.	Because	they	provide external	 access	to	the	data	center,	they	are	considered	external redundancies.
 
-### Question # 2 - Limits	 within	a	cloud	environment	can	 be 	either	hard	limits	or	limits capable	of	adjusting 	to	current	demands	 and	circumstances.	Which	of	the following 	concepts	encapsulates 	allowing	a	limit to	adjust	to	current circumstances,	without	 the	actual	limit	 value	changing?  
-A.	Loaning. 
-B.	Borrowing. 
-C.	Adapting. 
-D.	Scaling. 
-Answer: B.
+### Question # 2 - Limits	 within	a	cloud	environment	can	 be 	either	hard	limits	or	limits capable	of	adjusting 	to	current	demands	 and	circumstances.	Which	of	the following 	concepts	encapsulates 	allowing	a	limit to	adjust	to	current circumstances,	without	 the	actual	limit	 value	changing?       
+A.	Loaning.    
+B.	Borrowing.     
+C.	Adapting.     
+D.	Scaling.     
+Answer: B.    
 
 Limits	can	be	set	as	either	hard	or	flexible	within	a	cloud environment.	When	limits	are	flexible,	rather	than	adjusting	 the	actual limits	when	it	is	necessary	to	exceed	them,	the	system	allows customers	 or	other	systems	to	borrow	resources,	which 	are	allocated to	the	customer	or	system	in	need.	
 This	maintains 	the	 actual	 limit	in the	system	going	forward,	but	allows	for	temporary	expansion 	under certain	circumstances.
@@ -308,7 +308,7 @@ D	is	incorrect	because	the	correct	term	is	borrowing,	not	scaling.
 A.	Limit. 
 B.	Reservation. 
 C.	Share.  
-D.	Guarantee.  
+D.	Guarantee.    
 Answer: B.
 
 A	reservation	is	a 	minimum	 resource 	level	guaranteed	to	a	customer within	a	cloud	environment.
