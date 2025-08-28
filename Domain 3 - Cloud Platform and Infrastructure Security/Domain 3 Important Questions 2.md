@@ -1,3 +1,4 @@
+
 ### Question # 1 - Data	centers	have	components	that	are	either	internal	or	externalredundancies.	Which	of	the	following	is	considered	an	internal redundancy?  
 A.	Generators.     
 B.	Power	feeds.    
@@ -28,11 +29,11 @@ B.	VLANs.
 C.	Broad	 network	access.  
 D.	Software-defined	 networking.  
 
-### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?         
-A.	Service	 provider. 
-B.	Service	 party. 
-C.	Relying	 party. 
-D.	Application	provider.       
+### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?                 
+A.	Service	 provider.      
+B.	Service	 party.       
+C.	Relying	 party.       
+D.	Application	provider.             
 
 ### Question # 7 - Which	cloud	 storage	method	utilizes	a 	key	value	to	access	data	from	anapplication	or	client?  
 A.	Object.  
@@ -58,11 +59,11 @@ B.	Reservation.
 C.	Limit. 
 D.	Cap. 
 
-### 11.	One	of	the	 most 	crucial 	metrics	 for	a	BCDR	plan	is	how 	long	it	takes	for services	to	be	restored	to	a	point 	of	satisfaction	for	management.	Which metric	represents	this	point	and	value?  
-A.	RTO. 
-B.	RPO.  
-C.	RSL.  
-D.	SRE.  
+### 11.	One	of	the	 most 	crucial 	metrics	 for	a	BCDR	plan	is	how 	long	it	takes	for services	to	be	restored	to	a	point 	of	satisfaction	for	management.	Which metric	represents	this	point	and	value?        
+A.	RTO.    
+B.	RPO.      
+C.	RSL.      
+D.	SRE.      
 
 ### 12.	When	resource	limitations	surpass	 the	thresholds	determined	by	the	cloud provider	and	shares	need	to	be	invoked,	which	of	the	following 	is	the driving	factor	for	the	determination	of	share 	allocations?     
 A.	Prioritization 	weighting.     
