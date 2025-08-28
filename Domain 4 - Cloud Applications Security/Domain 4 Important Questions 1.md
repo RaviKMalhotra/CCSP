@@ -25,20 +25,21 @@ Each application will have its own ANF, derived from the organization’s ONF. T
 ### Question # 3 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?   
 A. Hypertext Markup Language (HTML).  
 B. X.509.  
-C. Extensible Markup Language (XML).     D. Hypertext Transfer Protocol (HTTP).  
-Answer: C. 
+C. Extensible Markup Language (XML).     
+D. Hypertext Transfer Protocol (HTTP).         
+Answer: C.       
 
 **SOAP necessarily uses XML.**
 HTML is a language used to tag text files so that they can be displayed with different fonts, colors, graphics and hyperlinks. **HTML is not used in SOAP.** Option A is incorrect.
 Option B is incorrect because X.509 is a standard and the question is about a programming language.
 Option D is incorrect because HTTP is protocol and the question is about a programming language.
 
-### [Important] Question # 4 - Typically, representational state transfer (REST) interactions do not require.   _______________.
-A. Credentials.   
+### [Important] Question # 4 - Typically, representational state transfer (REST) interactions do not require.   _______________.         
+A. Credentials.      
 B. Sessions.    
 C. Servers.    
 D. Clients.    
-Answer: B.     
+Answer: B.          
 
 Generally, a REST interaction involves the client asking the server (through an application programming interface [API]) for data, sometimes as the result of processing; the server processes the request and returns the result. 
 **In REST, an enduring session, where the server has to store some temporary data about the client, is not necessary.**
@@ -48,7 +49,8 @@ Using REST does not eliminate the need for credentials, so option A is not corre
 ### Question # 5 - Representational state transfer (REST) application programming interfaces (APIs) use _______________ protocol verbs.     
 A. Hypertext Markup Language (HTML).  
 B. Hypertext Transfer Protocol (HTTP).  
-C. Extensible Markup Language (XML).       D. American Standard Code for Information.  Interchange (ASCII).  
+C. Extensible Markup Language (XML).                                  
+D. American Standard Code for Information.  Interchange (ASCII).                 
 Answer: B.    
 
 Roy Fielding, the author of the PhD dissertation **that created REST, was also the author of HTTP**, so it’s no surprise the command set is the same.
@@ -94,11 +96,11 @@ Answer: B.
 
 All the other options are risks that exist in the traditional environment as well as the cloud.
 
-### Question # 10 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.   
-A. Geographic location, native language. 
-B. Legal restrictions, specific ISP. 
-C. Service model, deployment model.  
-D. Available bandwidth, telecommunications country code.  
+### Question # 10 - When an organization considers cloud migrations, the organization’s software developers will need to know which _______________ and which _______________ the organization will be using, in order to properly and securely create suitable applications.      
+A. Geographic location, native language.     
+B. Legal restrictions, specific ISP.             
+C. Service model, deployment model.               
+D. Available bandwidth, telecommunications country code.          
 Answer: C.   
 
 In order for developers to properly create and secure applications, they will need to understand the extent of resource sharing (public/private/hybrid/community) and level of control (infrastructure as a service [IaaS], platform as a service [PaaS], software as a service [SaaS]) the organization will expect in the cloud environment.
@@ -149,11 +151,11 @@ Performance and security both need to be reviewed for adequacy.
 In this context, quality would be synonymous with performance and requirements, so D is a better answer than A or C.
 Brevity is not a trait we look for in testing, even though it may be desirable in programming, so B is incorrect.
 
-### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?  
-A. Define.  
-B. Design.  
-C. Develop.  
-D. Detect. 
+### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?        
+A. Define.         
+B. Design.          
+C. Develop.          
+D. Detect.                     
 Answer: A. 
 
 In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want.
@@ -277,17 +279,12 @@ Answer: D.
 
 All the other options are untrue and therefore cannot be the correct answer. For test-taking purposes, be very suspicious of words like, “constantly” and “can’t ever” in answer choices.
 
-### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.     
-
-A. Young programmers are not nearly as disciplined in their coding practices as older programmers.                            
-
-B. Some current programmers don’t write code line by line and instead use code component libraries.  
-
-C. Coding languages have not been secure for 20 years. 
-
-D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC).   
-
-Answer: B.   
+### Question # 26 - Some current software developers are not aware of security problems within the programs they’re creating because _______________.        
+A. Young programmers are not nearly as disciplined in their coding practices as older programmers.        
+B. Some current programmers don’t write code line by line and instead use code component libraries.              
+C. Coding languages have not been secure for 20 years.                                                              
+D. Users are not clear in defining their requirements at the outset of the software development lifecycle (SDLC).            
+Answer: B.           
 
 Because many programs are currently constructed from “building block” components found in code libraries, any security issues within specific components may not be understood or identified by coders who don’t know the code inside the component.
 
@@ -341,12 +338,12 @@ System administrators will usually be the literal granters of access, insofar as
 
 However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
 	
-### Question # 31 - All of the following are identity federation standards commonly found in use today except _______________.  
-A. WS-Federation. 
-B. OpenID. 
-C. OAuth (Open Authorization). 
-D. Pretty Good Privacy (PGP). 
-Answer: D. 
+### Question # 31 - All of the following are identity federation standards commonly found in use today except _______________.               
+A. WS-Federation.             
+B. OpenID.                        
+C. OAuth (Open Authorization).               
+D. Pretty Good Privacy (PGP).                 
+Answer: D.               
 
 PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
 	
@@ -373,16 +370,12 @@ Answer: B.
 Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
 All the other options are typical authentication mechanisms and so are incorrect.
 	
-### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?          
-A. Using an automated teller machine (ATM) to get cash with your credit or debit card.   
-
-B. Using a password and personal identification number (PIN) to log into a website.
- 
-C. Presenting a voice sample and fingerprint to access a secure facility.      
-
-D. Displaying a birth certificate and a credit card.    
-
-Answer: A. 
+### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?                          
+A. Using an automated teller machine (ATM) to get cash with your credit or debit card.                       
+B. Using a password and personal identification number (PIN) to log into a website.              
+C. Presenting a voice sample and fingerprint to access a secure facility.                     
+D. Displaying a birth certificate and a credit card.                            
+Answer: A.                  
 
 At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
 A password and PIN are both something you know, 
@@ -393,12 +386,12 @@ Using a voice sample and fingerprint are two forms of something you are,
 so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
 	
-### Question # 35 - Typically, multifactor authentication should be used _______________.      
-A. In every IT transaction.   
-B. For high-risk operations and data that is particularly sensitive.   
-C. When remote users are logging into the cloud environment.    
-D. Only in the traditional environment.     
-Answer: B.    
+### Question # 35 - Typically, multifactor authentication should be used _______________.                
+A. In every IT transaction.                                              
+B. For high-risk operations and data that is particularly sensitive.             
+C. When remote users are logging into the cloud environment.                
+D. Only in the traditional environment.                 
+Answer: B.               
 
 Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
 
@@ -418,11 +411,11 @@ Answer: C.
 A WAF is a Layer 7 tool.
 All the other options are incorrect.
 
-### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.     
-	A. Malicious. 
-	B. Simple Mail Transfer Protocol (SMTP).    
-	C. Internet Control Message Protocol (ICMP).    
-	D. Hypertext Transfer Protocol (HTTP).  
+### Question # 37 - A web application firewall (WAF) can understand and act on _______________ traffic.              
+A. Malicious.                                
+B. Simple Mail Transfer Protocol (SMTP).             
+C. Internet Control Message Protocol (ICMP).             
+D. Hypertext Transfer Protocol (HTTP).           
 Answer: D.    
 
 WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
@@ -444,12 +437,12 @@ WAFs can be used to attenuate the possibility that cross-site scripting attacks 
 WAFs do not protect against social engineering or physical attacks in any way, so options A and B are incorrect.
 Option C is a nonsense term and is therefore incorrect.
 	
-### Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.  
-A. 2. 
-B. 3. 
-C. 7. 
-D. Q. 
-Answer: C. 
+### Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.          
+A. 2.                 
+B. 3.              
+C. 7.                 
+D. Q.                   
+Answer: C.                 
 
 A DAM is a Layer 7 tool.
 All the other options are incorrect.
@@ -467,64 +460,64 @@ DAMs do not protect against cross-site scripting, insecure direct-object referen
 so options B, C, and D are incorrect.
 	
 ### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?    
-A. Web application firewall (WAF).   
-B. Database activity monitor (DAM).   
-C. Extensible Markup Language (XML).   gateway.    
-D. Single sign-on (SSO).    
-Answer: C.   
+A. Web application firewall (WAF).                  
+B. Database activity monitor (DAM).        
+C. Extensible Markup Language (XML) gateway.                 
+D. Single sign-on (SSO).          
+Answer: C.           
 
 The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
 The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
 Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
 	
-### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.   
-A. Extensible Markup Language (XML) gateway. 
-B. Application programming interface (API) gateway. 
-C. Web application firewall (WAF). 
-D. Database activity monitor (DAM). 
-Answer: B. 
+### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.            
+A. Extensible Markup Language (XML) gateway.           
+B. Application programming interface (API) gateway.               
+C. Web application firewall (WAF).              
+D. Database activity monitor (DAM).               
+Answer: B.         
 
 An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
 XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
 	
-### Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.  
-A. Known past behavior in the environment. 
-B. Identity of the malicious user. 
-C. Point of origination. 
-D. Signature matching. 
-Answer: B. 
+### Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.                 
+A. Known past behavior in the environment.                
+B. Identity of the malicious user.               
+C. Point of origination.             
+D. Signature matching.               
+Answer: B.              
 
 While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the attacker doesn’t usually share.
 All the other options are methods firewalls can use to recognize attacks.
 	
-### Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.  
-A. Privacy, security. 
-B. Security, optimization. 
-C. Privacy, integrity. 
-D. Enhancement, privacy. 
+### Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.                 
+A. Privacy, security.                  
+B. Security, optimization.              
+C. Privacy, integrity.                   
+D. Enhancement, privacy.               
 Answer: C. 
 
 TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
 In this context, privacy and security mean much the same thing; privacy is synonymous with confidentiality, which is a subset of the overall topic of security. Therefore, option A is repetitive and not correct.
 TLS does not optimize performance or add any sort of enhancement, so options B and D are incorrect.
 	
-### Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.   
-A. Symmetric key. 
-B. Asymmetric key. 
-C. Public-private key pair. 
-D. Inverse comparison. 
+### Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.             
+A. Symmetric key.               
+B. Asymmetric key.                   
+C. Public-private key pair.              
+D. Inverse comparison.                    
 Answer: A. 
 
 TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made.
 Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used in this portion of the process will not change from session to session, and therefore these options are incorrect.
 Option D is a nonsense term and is therefore incorrect.
 	
-### Question # 46 - A virtual private network (VPN) is used to protect data in transit by _______________.   
-A. Securing each end of a client-server connection. 
-B. Creating an encrypted tunnel between two endpoints. 
-C. Encrypting databases. 
-D. Restricting key access to only eight parties. 
-Answer: B. 
+### Question # 46 - A virtual private network (VPN) is used to protect data in transit by _______________.              
+A. Securing each end of a client-server connection.                
+B. Creating an encrypted tunnel between two endpoints.                 
+C. Encrypting databases.                              
+D. Restricting key access to only eight parties.              
+Answer: B.              
 
 A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
 
@@ -534,42 +527,42 @@ Option C is not correct; VPN is not used for encrypting databases—it is used f
 
 Option D is incorrect; the symmetric key used in VPN is shared only between two parties (the endpoints), and the elements of the asymmetric key pair are either held by only one party (the owner of each private key) or by anyone at all (public key).
 	
-### Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.   
-A. Having the developers review the code. 
-B. Having the developers perform dynamic testing. 
-C. Using automated agents to perform dynamic testing. 
-D. Social engineering. 
-Answer: C. 
+### Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.                
+A. Having the developers review the code.              
+B. Having the developers perform dynamic testing.             
+C. Using automated agents to perform dynamic testing.           
+D. Social engineering.                  
+Answer: C.               
 
 Users may not offer enough coverage for larger software products that have a great deal of functionality; it can be useful to also use automated agents to checks paths that users might not often attempt or utilize.
 The developers should not be involved in any form of testing the software as they have an inherent conflict of interest, so options A and B are incorrect.
 Dynamic testing does not involve social engineering; option D is incorrect.
 	
-### Question # 48 - Why do developers have an inherent conflict of interest in testing software they’ve created?   
-A. They are notoriously bad, as a group, at testing.   
-B. They work for the same department as the testing personnel.   
-C. They have a vested interest in having the software perform well.   
-D. They are never trained on testing procedures.   
-Answer: C. 
+### Question # 48 - Why do developers have an inherent conflict of interest in testing software they’ve created?          
+A. They are notoriously bad, as a group, at testing.                   
+B. They work for the same department as the testing personnel.                 
+C. They have a vested interest in having the software perform well.               
+D. They are never trained on testing procedures.                  
+Answer: C.           
 
 This is the definition of “conflict of interest.”
 All the other answers are incorrect.
 	
-### Question # 49 - Sandboxing can often be used for _______________.   
-A. Optimizing the production environment by moving processes that are not frequently used into the sandbox. 
-B. Allowing secure remote access for users who need resources in the cloud environment.  
-C. Running malware for analysis purposes. 
-D. Creating secure subnets of the production environment. 
-Answer: C. 
+### Question # 49 - Sandboxing can often be used for _______________.                                           
+A. Optimizing the production environment by moving processes that are not frequently used into the sandbox.                
+B. Allowing secure remote access for users who need resources in the cloud environment.                  
+C. Running malware for analysis purposes.                    
+D. Creating secure subnets of the production environment.                  
+Answer: C.              
 
 A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
 Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t perform productive activity there.
 	
-### Question # 50. Sandboxing can often be used for _______________.      
-A. Testing user awareness and training   
-B. Testing security response capabilities    
-C. Testing software before putting it into production    
-D. Testing regulatory response to new configurations and modifications    
+### Question # 50. Sandboxing can often be used for _______________.             
+A. Testing user awareness and training            
+B. Testing security response capabilities                          
+C. Testing software before putting it into production                  
+D. Testing regulatory response to new configurations and modifications                 
 Answer: C. 
 
 Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
