@@ -1168,7 +1168,7 @@ Answer: C.
 The right to be forgotten is the EU’s codification of an individual’s right to have any data store containing their own personal data purged of all personally identifiable information (PII). There are, of course, some obvious exceptions (such as law enforcement databases).
 The other answers are not as accurate; “the right to be forgotten” is a very well-known and important aspect of the GDPR.
 
-### Question # 111 - The Cloud Security Alliance (CSA) has developed a model for cloud privacy frameworks called the Privacy Level Agreement (PLA). Why might a cloud service provider be reluctant to issue or adhere to a PLA?         
+### Question # 112 - The Cloud Security Alliance (CSA) has developed a model for cloud privacy frameworks called the Privacy Level Agreement (PLA). Why might a cloud service provider be reluctant to issue or adhere to a PLA?         
 A. A PLA might limit the provider’s liability.      
 B. A PLA would force the provider to accept more liability.      
 C. A PLA is nonbinding.      
@@ -1180,7 +1180,7 @@ Under current laws and regulations, ultimate liability for the security of priva
 Option A is wrong because the provider’s liability is already limited under current legal schemes; the PLA would not enhance that limitation.
 Options C and D are wrong because agreements (as contracts) are both binding and enforceable, and even if they were not, those are not reasons.
 
-### Question # 112 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following frameworks except _______________.     
+### Question # 113 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following frameworks except _______________.     
 A. ISACA’s Control Objectives for Information and Related Technology (COBIT)     
 B. Payment Card Industry Data Security Standard (PCI DSS)     
 C. The Capability Maturity Model (CMM)     
@@ -1190,7 +1190,7 @@ Answer: C.
 The CMM is not included in the CSA CCM and, indeed, is not even a security framework.
 All the other options are included in the CSA CCM and are therefore not correct answers for this question.
  
-### Question # 113 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following laws except _______________.     
+### Question # 114 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following laws except _______________.     
 A. Health Information Portability and Accountability Act (HIPAA)    
 B. Family Education Rights and Privacy Act (FERPA)     
 C. Personal Information Protection and Electronic Documents Act (PIPEDA)     
@@ -1200,7 +1200,7 @@ Answer: D.
 The DMCA deals with intellectual property and not specifically with personal privacy. It is not included in the CSA CCM.
 All the other answers are laws that are included in the CSA CCM and are therefore not correct answers for this question.
 
-### Question # 114 - Digital rights management (DRM) tools might be used to protect all the following assets except _______________.     
+### Question # 115 - Digital rights management (DRM) tools might be used to protect all the following assets except _______________.     
 A. A trusted device    
 B. Proprietary software     
 C. Medical records     
@@ -1209,7 +1209,7 @@ Answer: A.
 
 DRM solutions are mainly designed to protect intellectual property assets (and mainly those covered by copyright, hence the name), but they can also be used to provide enhanced protection to other electronic information. All the other options are forms of electronic information, while option A is a piece of hardware; DRM does not enhance hardware security, so this is the correct answer.
 
-### Question # 115 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
+### Question # 116 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
 A. User consent and action      
 B. Enhanced security protocols      
 C. Use of the cloud      
@@ -1221,7 +1221,7 @@ DRM is an enhanced security protocol, so option B is incorrect.
 The cloud is not specifically necessary for DRM implementations, even in BYOD environments, so option C is incorrect.
 Any DRM solution involving a BYOD environment must be suitable for all devices, not just a certain selection, because the organization can’t easily mandate which devices are used (otherwise, it’s not BYOD). Option D is incorrect.
 
-### Question # 116 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
+### Question # 117 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
 A. A uniform browser installation   
 B. Platform-agnostic solutions    
 C. Turnstiles    
@@ -1233,7 +1233,7 @@ The organization cannot dictate specific packages in a BYOD environment—otherw
 Turnstiles are for physical access control and have no bearing on BYOD or DRM, so option C is incorrect.
 BYOD and DRM should have no effect on BC/DR vendors (or the numbers thereof), and vice versa, so option D is incorrect.
 
-### Question # 117 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) addresses all the following security architecture elements except _______________.     
+### Question # 118 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) addresses all the following security architecture elements except _______________.     
 A. Physical security    
 B. Infrastructure as a service (IaaS)     
 C. Application security     
@@ -1243,7 +1243,7 @@ Answer: D.
 The CSA CCM does not deal with whether security controls are feasible or correct from a business perspective, only whether they are applicable to an organization under certain regulations.
 All the other answers are incorrect because they are too specific and not required by any regulation/legislation. Therefore, options A, C, and D are poor choices and also incorrect answers.
 
-### Question # 118 - DRM requires that every data resource be provisioned with __________.      
+### Question # 119 - DRM requires that every data resource be provisioned with __________.      
 A. A tracking device     
 B. An access policy     
 C. A hardware security module (HSM)      
@@ -1253,7 +1253,7 @@ Answer: B.
 For DRM to work properly, each resource needs to be outfitted with an access policy so that only authorized entities may make use of that resource.
 All the other answers are distractors.
 
-### Question # 119 - Digital rights management (DRM) tools can be combined with __________ to enhance security capabilities.     
+### Question # 120 - Digital rights management (DRM) tools can be combined with __________ to enhance security capabilities.     
 A. Roaming identity services (RIS)    
 B. Egress monitoring solutions (DLP)     
 C. Internal hardware settings (BIOS)     
@@ -1266,7 +1266,7 @@ RIS is a made-up term, so option A is not correct.
 Adjusting BIOS settings is not particularly relevant to DRM in any way, so option C is incorrect.
 TEMPEST is a program for harvesting data from electromagnetic emanations, so option D is not correct.
 
-### Question # 120 - Digital rights management (DRM) tools should enforce __________, which is the characteristic of access rights following the object, in whatever form or location it might be or move to.     
+### Question # 121 - Digital rights management (DRM) tools should enforce __________, which is the characteristic of access rights following the object, in whatever form or location it might be or move to.     
 A. Continuous audit trail   
 B. Limiting printing output   
 C. Persistence   
@@ -1276,7 +1276,7 @@ Answer: C.
 Access rights following the object in whatever form or location it might be or move to is the definition of persistence, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 121 - Digital rights management (DRM) tools should enforce __________, which is the practice of capturing all relevant system events.      
+### Question # 122 - Digital rights management (DRM) tools should enforce __________, which is the practice of capturing all relevant system events.      
 A. Continuous audit trail     
 B. Limiting printing output     
 C. Persistence     
@@ -1286,7 +1286,7 @@ Answer: A.
 Capturing all relevant system events is the definition of a continuous audit trail, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 122 - Digital rights management (DRM) tools should enforce __________, which is the capability to revoke access based on the decision of the object owner or an administrator action.    
+### Question # 123 - Digital rights management (DRM) tools should enforce __________, which is the capability to revoke access based on the decision of the object owner or an administrator action.    
 A. Integration with email filtering engines    
 B. Disabling screencap capabilities    
 C. Continuous audit trail     
@@ -1296,7 +1296,7 @@ Answer: D.
 The question describes dynamic policy control, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 123 - Digital rights management (DRM) tools should enforce __________, which is the revocation of access based on time.     
+### Question # 124 - Digital rights management (DRM) tools should enforce __________, which is the revocation of access based on time.     
 A. Persistence     
 B. Disabling screencap capabilities      
 C. Automatic expiration    
@@ -1306,7 +1306,7 @@ Answer: C.
 The question describes automatic expiration, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 124 - Digital rights management (DRM) tools should enforce __________, which is interoperability with the organization’s other access control activities.     
+### Question # 125 - Digital rights management (DRM) tools should enforce __________, which is interoperability with the organization’s other access control activities.     
 A. Persistence    
 B. Support for existing authentication security infrastructure     
 C. Continuous audit trail     
@@ -1316,7 +1316,7 @@ Answer: B.
 The question describes support for existing authentication security infrastructure, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 125 - In a data retention policy, what is perhaps the most crucial element?          
+### Question # 126 - In a data retention policy, what is perhaps the most crucial element?          
 A. Location of the data archive     
 B. Frequency of backups     
 C. Security controls in long-term storage     
@@ -1326,7 +1326,7 @@ Answer: D.
 This is not an easy question and requires some interpretation and abstract thought. All of the elements listed are extremely important aspects of the data retention policy. However, using proper data retrieval procedures is the one without which all the others may become superfluous. An organization can perform thorough backups in a timely manner and secure them properly at an excellent location, but if those backups can’t be used to restore the operational environment, they are pointless.
 All the other options are important, but option D is probably the most important.
 
-### Question # 126 - __________ is the practice of taking data out of the production environment and putting it into long-term storage.     
+### Question # 127 - __________ is the practice of taking data out of the production environment and putting it into long-term storage.     
 A. Deletion    
 B. Archiving     
 C. Crypto-shredding      
@@ -1338,7 +1338,7 @@ Deletion involves using the operating system or an application to obscure the lo
 Crypto-shredding is a secure sanitization technique using cryptographic techniques, so option C is wrong.
 Storing is a general term covering all retention of data, so option B is a better answer than option D.
 
-### Question # 127 - In general, all policies within an organization should include each of the following elements except _______________.      
+### Question # 128 - In general, all policies within an organization should include each of the following elements except _______________.      
 A. The date on which the policy will expire      
 B. The assignment of an entity to review the applicability of the possibility occasionally     
 C. The assignment of an entity to monitor and maintain the process described in the policy       
@@ -1348,7 +1348,7 @@ Answer: A.
 Not all policies are temporary or have expected durations; usually, policy is an enduring piece of governance that will continue until such time as it is revoked.
 All the other options are elements that should usually be included in policies.
 
-### Question # 128 - The goals of secure sanitization (or “data destruction”) include all of the following except _______________.     
+### Question # 129 - The goals of secure sanitization (or “data destruction”) include all of the following except _______________.     
 A. Removing data objects or files     
 B. Minimizing or eliminating data remanence      
 C. Removing pointers and metadata about specific files or objects       
@@ -1358,7 +1358,7 @@ Answer: D.
 Secure sanitization is intended to ensure that there is no possible way for the data to be recovered; a backup copy would defeat the entire purpose.
 All the other answers are goals of secure sanitization.
 
-### Question # 129 - Why is deleting a file or object insufficient for secure sanitization purposes?       
+### Question # 130 - Why is deleting a file or object insufficient for secure sanitization purposes?       
 A. Drives and disks must be demagnetized for true secure destruction.     
 B. Physical destruction is the only acceptable method of secure sanitization.     
 C. Deletion usually only removes pointers or indicators of file location.    
@@ -1371,7 +1371,7 @@ Options A and B both include secure destruction methods, but they are not exclus
 
 Option D does not make practical sense; if users could not delete files/objects, common workplace activity would become burdensome and difficult.
 
-### Question # 130 - Data destruction in the cloud is difficult because ____________.     
+### Question # 131 - Data destruction in the cloud is difficult because ____________.     
 A. Cloud data doesn’t have substance     
 B. Regulations prevent it    
 C. The hardware belongs to the provider     
@@ -1381,7 +1381,7 @@ Answer: C.
 The preferred methods of secure sanitization require physical access to (and control of) the hardware on which the data is stored; in the cloud, this belongs to the cloud provider, and the cloud customer will not be allowed to perform destructive procedures.
 Options A, B, and D are incorrect because the question is about the difficulty of performing data destruction in the cloud computing environment. Often, the only reliable form of data destruction is to destroy the hardware where it is stored. None of these options address that question the way that option C does.
 
-### Question # 131 - Data destruction in the cloud is difficult because ____________.      
+### Question # 132 - Data destruction in the cloud is difficult because ____________.      
 A. Data in the cloud is constantly being replicated and backed up     
 B. Delete commands are prohibited in the cloud     
 C. Internet service providers (ISPs) will not allow destruction of data stored in the cloud      
@@ -1394,7 +1394,7 @@ Delete commands are certainly allowed in the cloud. Otherwise, cloud providers w
 Option C is incorrect because ISPs do not have the authority to prohibit the destruction of data by data owners.
 It may be unclear who the “end client” is in option D. If the end client is the individual, then it does not make sense that the individual would prohibit the destruction of data by the cloud provider, given that the cloud provider owns the hardware itself.
 
-### Question # 132 - Data destruction in the cloud is difficult because ____________.      
+### Question # 133 - Data destruction in the cloud is difficult because ____________.      
 A. Only law enforcement is permitted to destroy cloud data      
 B. The largest cloud vendors have prevented customers from destroying data     
 C. Cloud data renews itself automatically      
@@ -1406,7 +1406,7 @@ Law enforcement can destroy their own data, however, law enforcement is not perm
 Option B is incorrect because data destruction is required from time to time in the cloud as part of system maintenance.
 Fortunately, option C is incorrect. If data renewed itself automatically in the cloud then cloud providers would eventually run out of storage space.
 
-### Question # 133 - Which of the following is the best and only completely secure method of data destruction?      
+### Question # 134 - Which of the following is the best and only completely secure method of data destruction?      
 A. Degaussing     
 B. Crypto-shredding     
 C. Physical destruction of resources that store the data      
@@ -1417,7 +1417,7 @@ Destroying the drive, disk, and media where the data resides is the only true, c
 Options A and B are also good methods for data destruction, but neither is the best method.
 Option D is incorrect because a legal order is not a secure method of data destruction and therefore it cannot be the correct answer.
 
-### Question # 134 - Aside from the fact that the cloud customer probably cannot reach the physical storage assets of the cloud provider and that wiping an entire storage space would impact other customers, why would degaussing probably not be an effective means of secure sanitization in the cloud?       
+### Question # 135 - Aside from the fact that the cloud customer probably cannot reach the physical storage assets of the cloud provider and that wiping an entire storage space would impact other customers, why would degaussing probably not be an effective means of secure sanitization in the cloud?       
 A. All the data storage space in the cloud is already gaussed.      
 B. Cloud data storage may not be affected by degaussing.      
 C. Federal law prohibits it in the United States.       
@@ -1429,7 +1429,7 @@ Option A is incorrect because it is untrue. A gauss is a unit of magnetism. Not 
 Federal law does not prohibit degaussing of magnetic media in the United States so option C is incorrect.
 Option D is incorrect because process of degaussing magnetic media does not produce a blast and therefore it does not produce a blast radius.
 
-### Question # 135 - Is overwriting a feasible secure sanitization method in the cloud?     
+### Question # 136 - Is overwriting a feasible secure sanitization method in the cloud?     
 A. Yes, but only if you use multiple passes.    
 B. No, because you can’t get physical access to cloud storage resources.        
 C. Yes, but it requires a final pass with all zeros or ones.         
@@ -1440,7 +1440,7 @@ Overwriting is the practice of filling the entire storage of the target data wit
 
 All the other options are only distractors. Options A and C describe elements of the overwriting process but not reasons why it’s challenging in the cloud. Option B is true, but overwriting does not require physical access, so the option is incorrect.
 
-### Question # 136 - All of the following are reasons overwriting is not a viable secure sanitization method for data stored in the cloud except _______________.      
+### Question # 137 - All of the following are reasons overwriting is not a viable secure sanitization method for data stored in the cloud except _______________.      
 A. Overwriting an entire storage resource would affect other tenants’ data          
 B. Regulators usually frown on the practice        
 C. Locating the specific storage locations of cloud data is almost impossible       
@@ -1450,7 +1450,7 @@ Answer: B.
 Regulators do not disapprove of secure sanitization; it is an acceptable form of secure data destruction if implemented properly.
 All the other answers are actual reasons overwriting is not a viable secure sanitization method in the cloud.
   
-### Question # 137 - Which of the following might make crypto-shredding difficult or useless?      
+### Question # 138 - Which of the following might make crypto-shredding difficult or useless?      
 A. The cloud provider also managing the organization’s keys     
 B. Lack of physical access to the environment     
 C. External attackers      
@@ -1462,7 +1462,7 @@ The lack of physical access to the cloud environment should not affect the crypt
 External attackers should not affect the crypto-shredding process, so option C is incorrect.
 Crypto-shredding should not require input or activity from users, so option D is incorrect.
 
-### Question # 138 - Crypto-shredding requires at least ____ cryptosystem(s).     
+### Question # 139 - Crypto-shredding requires at least ____ cryptosystem(s).     
 A. One     
 B. Two     
 C. Three     
@@ -1472,7 +1472,7 @@ Answer: B.
 The proper procedure for crypto-shredding requires two cryptosystems: one to encrypt the target data, the other to encrypt the resulting data encryption keys.
 All the other answers are wrong and just distractors.
 
-### Question # 139 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
+### Question # 140 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
 A. Ensuring profitability     
 B. Increasing performance      
 C. Motivating users      
@@ -1482,7 +1482,7 @@ Answer: D.
 If users inadvertently erase or modify data, an archived backup copy could be useful for restoring the original, correct version.
 All the other answers are incorrect; archiving does none of those things.
 
-### Question # 140 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.       
+### Question # 141 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.       
 A. Team building and morale    
 B. Forensic investigation     
 C. Choosing security controls     
@@ -1492,7 +1492,7 @@ Answer: B.
 An archived data set could be useful for investigative purposes, especially if it covers a significant period of time and includes multiple copies. The archived versions may be used as a reference to determine when a certain malicious activity occurred, which is useful during an investigation.
 All the other answers are incorrect; archiving does not aid in these functions.
 
-### Question # 141 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
+### Question # 142 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
 A. Compliance/audit    
 B. Monitoring performance     
 C. Gathering investment      
@@ -1504,7 +1504,7 @@ Archived data is not an optimum gauge of performance because it is not “live�
 Archiving has nothing to do with investment; option C is incorrect.
 Archiving may occur as the result of policy but is not an enforcement tool; thus, option D is incorrect.
 
-### Question # 142 -  Who is responsible for performing archiving activities in a managed cloud environment?    
+### Question # 143 -  Who is responsible for performing archiving activities in a managed cloud environment?    
 A. The cloud customer     
 B. The cloud provider    
 C. The customer’s regulator     
@@ -1515,7 +1515,7 @@ Many cloud providers will offer archiving services as a feature of the basic clo
 Either the cloud customer or provider (or both) may perform archiving, depending on the contract terms, so options A and B are incorrect.
 Regulators do not perform archiving; option C is incorrect.
 
-### Question # 143 -  Data archiving and retention policies should include __________.     
+### Question # 144 -  Data archiving and retention policies should include __________.     
 A. How long the data must be kept before destruction     
 B. The depth of underground storage bunkers used for archiving     
 C. The names of specific personnel tasked with restoring data in the event of data loss in the operational environment      
@@ -1527,7 +1527,7 @@ Describing or prescribing the physical specifications of a secure archive facili
 Although it is important to task and train personnel to take part in data restoration from archived data, naming the specific personnel in the policy is not an optimum or useful practice, so option C is incorrect.
 Although management is responsible for publishing and promulgating policy and governance, the name of the specific manager is not the essential element (but their office or position is). Regulators don’t personally approve internal policies of the organizations they oversee, so option D is incorrect.
 
-### Question # 144 -  What should data archiving and retention policies include?     
+### Question # 145 -  What should data archiving and retention policies include?     
 A. Names of personnel allowed to receive backup media, if third-party off-site archiving services are used     
 B. Explicit statement of data formats and types of storage media     
 C. A list of personnel whose data will be archived on a regular basis         
@@ -1540,7 +1540,7 @@ Options A and C are not correct because specific names don’t belong at the pol
 
 Option D is not correct because the particular ISP should not have any bearing on the archiving policy.
 
-### Question # 145 -  If the organization operates in a cloud environment, security operations procedures should include specific contact information for all of the following except _______________.    
+### Question # 146 -  If the organization operates in a cloud environment, security operations procedures should include specific contact information for all of the following except _______________.    
 A. Applicable regulatory entities    
 B. Federal and local law enforcement     
 C. The originator or publisher of the governing policy    
@@ -1550,7 +1550,7 @@ Answer: C.
 Once the policies have been published and put into force, the names and contact information of the people who crafted them are no longer useful or germane.
 All the other options represent entities that the organization may want to contact in the event of a security incident or breach and so should be included in security procedure documentation.
 
-### Question # 146 -  If the organization operates in a cloud environment, security operations procedures should include guidance for all of the following audit or logging processes except _______________.     
+### Question # 147 -  If the organization operates in a cloud environment, security operations procedures should include guidance for all of the following audit or logging processes except _______________.     
 A. Definition of security events and incidents     
 B. The brand or vendor of the cloud provider’s audit or logging tool     
 C. Process for adding new audit or logging rules    
@@ -1559,7 +1559,7 @@ Answer: B.
 
 This is a question that requires some thought. All the answers are processes or elements that should be included in the security operations’ procedures except for option B; the cloud customer will not get to select, or probably even know, what tools and devices the cloud provider has put into place, so this will not be included in the customer’s procedures.
 
-### Question # 147 -  What does nonrepudiation mean?     
+### Question # 148 -  What does nonrepudiation mean?     
 A. Prohibiting certain parties from a private conversation     
 B. Ensuring that a transaction is completed before saving the results     
 C. Ensuring that someone cannot turn off auditing capabilities while performing a function     
