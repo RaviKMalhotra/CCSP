@@ -1004,11 +1004,11 @@ Cryptography for the two main types of APIs is required; this is TLS for represe
 SSL has been deprecated because of severe vulnerabilities; this eliminates options A and C. Whole drive encryption protects against loss or theft of a device but does not secure API access to the data, which eliminates option D.
 
 ### Question # 92. You implement identity and access management (IAM) in order to control access between subjects and objects. What is the ultimate purpose of this effort?    
-A. Identification. Determine who the specific, individual subjects are.
-B. Authentication. Verify and validate any identification assertions.
-C. Authorization. Grant subjects permissions to objects once they’ve been authenticated.
-D. Accountability. Be able to reconstruct a narrative of who accessed what.
-Answer: D. 
+A. Identification. Determine who the specific, individual subjects are.        
+B. Authentication. Verify and validate any identification assertions.                       
+C. Authorization. Grant subjects permissions to objects once they’ve been authenticated.             
+D. Accountability. Be able to reconstruct a narrative of who accessed what.               
+Answer: D.               
 
 Accountability is the end purpose of all IAM efforts; all the other options are the elements of IAM that support this effort.
 
