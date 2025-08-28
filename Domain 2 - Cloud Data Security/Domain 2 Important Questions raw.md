@@ -476,71 +476,71 @@ Because data will move across nodes in the data center and will take different f
 Option C is true for any environment, not just the cloud; all security functions necessarily negatively impact operations and production. Option B is a better answer.
 Option D is also correct; without administrative privileges to the underlying hardware (which customers should not have), the customer may not be able to install monitoring agents everywhere necessary for those tools to work properly.
 
-### Question # 48 - Egress monitoring solutions can aid all of the following security-related efforts except _______________.
-A. Access control
-B. Data exfiltration
-C. E-discovery/forensics
-D. Data categorization/classification
-Answer: A. 
+### Question # 48 - Egress monitoring solutions can aid all of the following security-related efforts except _______________.    
+A. Access control    
+B. Data exfiltration     
+C. E-discovery/forensics     
+D. Data categorization/classification      
+Answer: A.     
 
 Egress monitoring solutions do not facilitate access control efforts in any way.
 Egress monitoring tools do, however, provide all the functions listed in the other options, so those are incorrect.
 
-### Question # 49 - The cloud security professional should be aware that encryption would most likely be necessary in all the following aspects of a cloud deployment except _______________.
-A. Data at rest
-B. Data in motion
-C. Data in use
-D. Data of relief
-Answer: D. 
+### Question # 49 - The cloud security professional should be aware that encryption would most likely be necessary in all the following aspects of a cloud deployment except _______________.     
+A. Data at rest    
+B. Data in motion    
+C. Data in use     
+D. Data of relief    
+Answer: D.     
 
 The term data of relief doesn’t really mean anything and is therefore the correct answer for this question.
 Encryption is used in all other aspects of cloud data.
 
-### Question # 50 - As with the traditional IT environment, cloud data encryption includes all the following elements except _______________.
-A. The user
-B. The data itself
-C. The encryption engine
-D. The encryption keys
-Answer: A. 
+### Question # 50 - As with the traditional IT environment, cloud data encryption includes all the following elements except _______________.     
+A. The user     
+B. The data itself     
+C. The encryption engine       
+D. The encryption keys    
+Answer: A.      
 
 The user is not really an aspect of an encryption deployment, although it may be argued that the user will need to refrain from disclosing their own key(s) to anyone else.
 The other three options are the components of an encryption deployment.
 
-### Question # 51 - Volume storage encryption in an infrastructure as a service (IaaS) arrangement will protect against data loss due to all of the following activities except _______________.
-A. Physical loss or theft of a device
-B. Disgruntled users
-C. Malicious cloud administrators accessing the data
-D. Virtual machine snapshots stolen from storage
-Answer: B. 
+### Question # 51 - Volume storage encryption in an infrastructure as a service (IaaS) arrangement will protect against data loss due to all of the following activities except _______________.     
+A. Physical loss or theft of a device     
+B. Disgruntled users     
+C. Malicious cloud administrators accessing the data     
+D. Virtual machine snapshots stolen from storage     
+Answer: B.      
 
 An authorized user will still be able to access and decrypt the data for which they’ve been granted permissions, so encryption will not offer any protections for that threat.
 Volume storage encryption will, however, protect against all the other threats, because any outsider (that is, a person who does not have access to the volume operating system) will be able to steal only encrypted data, which they should not be able to decrypt in a timely fashion. Therefore, all the other options are incorrect.
 
-### Question # 52 - In an infrastructure as a service (IaaS) arrangement, all of the following are examples of object storage encryption except _______________.
-A. File-level encryption
-B. Digital rights management (DRM)
-C. Application-level encryption
-D. Transport Layer Security (TLS)
+### Question # 52 - In an infrastructure as a service (IaaS) arrangement, all of the following are examples of object storage encryption except _______________.     
+A. File-level encryption    
+B. Digital rights management (DRM)     
+C. Application-level encryption     
+D. Transport Layer Security (TLS)       
 Answer: D. 
 
 TLS is encryption used in a communication session, not a storage volume.
 All the other options are examples of object storage encryption options, so they are incorrect.
 
-### Question # 53 - All of the following are database encryption options that could be used in a platform as a service (PaaS) implementation except _______________.
-A. File-level encryption
-B. Secure Sockets Layer (SSL)
-C. Transparent encryption
-D. Application-level encryption
-Answer: B. 
+### Question # 53 - All of the following are database encryption options that could be used in a platform as a service (PaaS) implementation except _______________.      
+A. File-level encryption     
+B. Secure Sockets Layer (SSL)      
+C. Transparent encryption    
+D. Application-level encryption    
+Answer: B.     
 
 SSL is encryption used in a communication session, not a storage volume.
 All the other options are examples of database encryption options, so they are incorrect.
 
-### Question # 54 - In application-level encryption, where does the encryption engine reside?
-A. In the application accessing the database
-B. In the operating system on which the application is run
-C. Within the database accessed by the application
-D. In the volume where the database resides
+### Question # 54 - In application-level encryption, where does the encryption engine reside?    
+A. In the application accessing the database   
+B. In the operating system on which the application is run    
+C. Within the database accessed by the application    
+D. In the volume where the database resides    
 Answer: A. 
 
 The application contains the encryption engine used in application-level encryption.
@@ -548,98 +548,102 @@ The operating system is responsible for providing the resources an application n
 Option C is incorrect because application-level encryption is performed by the application that interfaces with the database.
 The application-level encryption engine may or may not reside in the same volume as the database engine, so option D is incorrect.
 
-### Question # 55 - Which of the following database encryption techniques can be used to encrypt specific tables within the database?
-A. File-level encryption
-B. Transparent encryption
-C. Application-level encryption
-D. Object-level encryption
-Answer: B. Encrypting specific tables within the database is one of the options of transparent encryption; this is not true of the other options, so they are incorrect.
+### Question # 55 - Which of the following database encryption techniques can be used to encrypt specific tables within the database?    
+A. File-level encryption    
+B. Transparent encryption    
+C. Application-level encryption     
+D. Object-level encryption     
+Answer: B. 
 
-### Question # 56 - Which of the following database encryption techniques makes it difficult to perform database functions (searches, indexing, etc.)?
-A. File-level encryption
-B. Transparent encryption
-C. Application-level encryption
-D. Volume encryption
+Encrypting specific tables within the database is one of the options of transparent encryption; this is not true of the other options, so they are incorrect.
+
+### Question # 56 - Which of the following database encryption techniques makes it difficult to perform database functions (searches, indexing, etc.)?     
+A. File-level encryption    
+B. Transparent encryption    
+C. Application-level encryption     
+D. Volume encryption      
 Answer: C. 
 
 Application-level encryption involves encrypting the data before it enters the fields of the database; it is much more difficult to search and review data that has been encrypted, so this reduces the functionality of the database.
 All the other options are incorrect because they are not database encryption techniques.
 
-### Question # 57 - According to (ISC)2, where should the cloud customer’s encryption keys be stored?
-A. With the cloud customer
-B. With a third-party provider
-C. At the cloud provider data center
-D. Anywhere but with the cloud provider
-Answer: D. Best practice is to not keep the encryption keys alongside the data they’ve been used to encrypt.
+### Question # 57 - According to (ISC)2, where should the cloud customer’s encryption keys be stored?     
+A. With the cloud customer    
+B. With a third-party provider     
+C. At the cloud provider data center     
+D. Anywhere but with the cloud provider       
+Answer: D.      
+
+Best practice is to not keep the encryption keys alongside the data they’ve been used to encrypt.
 Options A and B are both viable but not as good as option D, which is more general and includes them both.
 Option C is clearly incorrect because it is counter to the best practice advice offered by (ISC)2.
 
-### Question # 58 - Which of the following is not used to determine data retention requirements?
-A. Legislation
-B. Business needs
-C. Average media longevity
-D. Contracts
+### Question # 58 - Which of the following is not used to determine data retention requirements?       
+A. Legislation      
+B. Business needs     
+C. Average media longevity     
+D. Contracts     
 Answer: C. Data retention periods should be established in policy regardless of the projected lifetime of the media the data resides on. All the other options do/should influence data retention periods.
 
-### Question # 59 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?
-A. External hacking detection
-B. Prediction of physical device theft
-C. Data classification/categorization issues
-D. Social engineering attacks
+### Question # 59 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?        
+A. External hacking detection     
+B. Prediction of physical device theft     
+C. Data classification/categorization issues      
+D. Social engineering attacks      
 Answer: A. 
 
 Event monitoring tools can help detect external hacking efforts by tracking and reporting on common hack-related activity, such as repeated failed login attempts and scanning. It is unlikely that these tools could predict physical device theft; they could, of course, report on a device that is no longer connected to the environment after it has been removed by noting a lack of event activity, but that’s not quite the same thing. Event monitoring tools don’t aid in data classification/categorization; egress monitoring and digital rights management tools might provide that function, though. Social engineering attacks are mostly transparent to the majority of logical tools (the exception being social engineering efforts combined with IT traffic, such as phishing, which might be detected by email filters and sophisticated firewalls).
 
-### Question # 60 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?
-A. Detecting untrained personnel
-B. Predicting system outages
-C. Sending alerts for conflicts of interest
-D. Enforcing mandatory vacation
-Answer: B. 
+### Question # 60 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?     
+A. Detecting untrained personnel    
+B. Predicting system outages    
+C. Sending alerts for conflicts of interest       
+D. Enforcing mandatory vacation         
+Answer: B.           
 
 Event monitoring tools can be used to predict system outages by noting decreases in performance; repeated performance issues can be an indicator a device is failing. While an event monitoring tool might be able to detect a user who continually conducts unproductive activity or fails to complete certain functions, it is impossible to determine if the source of the problem is lack of training. These tools in no way serve to detect conflict of interest or enforce mandatory vacation, which are managerial/administrative controls.
 
-### Question # 61 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?
-A. Reducing workload for production personnel
-B. Decreasing size of log files
-C. Optimizing performance
-D. Ensuring adequate lighting of workspaces
+### Question # 61 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?    
+A. Reducing workload for production personnel     
+B. Decreasing size of log files     
+C. Optimizing performance     
+D. Ensuring adequate lighting of workspaces     
 Answer: C. 
 
 Event monitoring tools can detect repeated performance issues, which can be used by administrators and architects to enhance performance/productivity. These tools don’t aid in the managerial function of noting individual workload, nor do they reduce log file sizes (indeed, they might add to the size of log files) or have anything to do with lighting.
 
-### Question # 62 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?
-A. Detecting ambient heating, ventilation, and air-conditioning (HVAC) problems
-B. Ensuring proper cloud migration
-C. Deciding risk parameters
-D. Protecting all physical entry points against the threat of fire
+### Question # 62 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?     
+A. Detecting ambient heating, ventilation, and air-conditioning (HVAC) problems           
+B. Ensuring proper cloud migration     
+C. Deciding risk parameters     
+D. Protecting all physical entry points against the threat of fire       
 Answer: A. 
 
 Event monitoring tools can detect repeated performance issues, which can be indicative of improper temperature settings in the data center; also, some system monitoring metrics, such as CPU temperature, can directly indicate inadequate HVAC performance. These tools do not aid in cloud migration (which is the task of architects and administrators) nor in risk decisions (which is the task of senior management); they also don’t provide any kind of assistance with fire.
 
-### Question # 63 - In addition to predictive capabilities, event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) are instrumental in what other security function?
-A. Personnel safety
-B. Vehicle tracking
-C. Incident evidence
-D. Acoustic dampening
+### Question # 63 - In addition to predictive capabilities, event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) are instrumental in what other security function?      
+A. Personnel safety    
+B. Vehicle tracking    
+C. Incident evidence     
+D. Acoustic dampening      
 Answer: C. 
 
 Event logs are used to reconstruct a narrative of activity; they tell the story of what happened, how it happened, and so forth. This is crucial for evidentiary purposes. Event logging tools do not aid in any of the other options (especially acoustic dampening, which is gibberish in this context).
 
-### Question # 64 - Which of the following is one of the benefits of event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM])?
-A. Greater physical security
-B. Psychological deterrence
-C. Cost savings
-D. More logs can be reviewed, at faster speeds
+### Question # 64 - Which of the following is one of the benefits of event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM])?      
+A. Greater physical security    
+B. Psychological deterrence     
+C. Cost savings     
+D. More logs can be reviewed, at faster speeds         
 Answer: D. 
 
 The manual element of log review is tedious and necessarily slow because it requires a trained, knowledgeable person to perform the task; these tools can greatly increase the amount of log data that can be reviewed, in a much shorter amount of time. These tools do not, however, aid in any of the other options.
 
-### Question # 65 - As in a traditional IT environment, proper key management is crucial in the cloud. Which of the following principles is not true regarding key management?
-A. It is good practice to introduce pseudorandom numbers when generating keys.
-B. Public keys should never be shared with anyone.
-C. Losing the keys is equivalent to losing the data.
-D. Symmetric keys should be passed out of band.
+### Question # 65 - As in a traditional IT environment, proper key management is crucial in the cloud. Which of the following principles is not true regarding key management?     
+A. It is good practice to introduce pseudorandom numbers when generating keys.     
+B. Public keys should never be shared with anyone.     
+C. Losing the keys is equivalent to losing the data.     
+D. Symmetric keys should be passed out of band.     
 Answer: B. 
 
 Public keys have to be shared in order for asymmetric cryptography to function properly; that is their purpose. Private keys, on the other hand, must remain secret, known only to the individuals to whom they are assigned.
@@ -647,11 +651,11 @@ Seeding key generation processes with pseudorandom numbers makes decryption that
 Losing keys to encrypted data means that the data stays encrypted, which is a way of applying a denial-of-service attack on yourself, so option C is incorrect.
 Symmetric keys, known as shared secrets, ought to be transmitted to recipients over a different medium than the mode of communication intended for the encrypted traffic. If the users intend to use encrypted email, for instance, they should pass the keys via telephone. Option D is therefore incorrect.
 
-### Question # 66 - Which of the following is a good business case for the use of data masking?
-A. The shipping department should get only a masked version of the customer’s address.
-B. The customer service department should get only a masked version of the customer’s Social Security (SS) number.
-C. The billing department should get only a masked version of the customer’s credit card number.
-D. The Human Resources (HR) department should get only a masked version of the employee’s driver’s license number.
+### Question # 66 - Which of the following is a good business case for the use of data masking?     
+A. The shipping department should get only a masked version of the customer’s address.     
+B. The customer service department should get only a masked version of the customer’s Social Security (SS) number.     
+C. The billing department should get only a masked version of the customer’s credit card number.     
+D. The Human Resources (HR) department should get only a masked version of the employee’s driver’s license number.       
 Answer: B. 
 
 The customer service representative may need to see a partial version of the customer’s SS number to verify that the customer is who they claim to be, but that representative does not need to see the full number, which would create an unnecessary risk.
@@ -659,50 +663,50 @@ The shipping department definitely needs the customer’s address in order to se
 The billing department needs the customer’s full credit card number to process payments, so option C is incorrect.
 HR needs the employee’s full license number in order to verify and validate the employee’s identity, so option D is not correct.
 
-### Question # 67 - All of the following are methods of data masking suggested by (ISC)2 except _______________.
-A. Random substitution
-B. Algorithmic substitution
-C. Deletion
-D. Conflation
+### Question # 67 - All of the following are methods of data masking suggested by (ISC)2 except _______________.     
+A. Random substitution    
+B. Algorithmic substitution     
+C. Deletion     
+D. Conflation     
 Answer: D. Conflation is not a masking technique and is meaningless in this context. All the others are suggested as possible masking techniques.
 
-### Question # 68 - If data masking is being performed for software testing purposes, which of the following is not a good masking technique to use?
-A. Random substitution
-B. Shuffling
-C. Deletion
-D. Algorithmic substitution
-Answer: C. 
+### Question # 68 - If data masking is being performed for software testing purposes, which of the following is not a good masking technique to use?     
+A. Random substitution    
+B. Shuffling     
+C. Deletion     
+D. Algorithmic substitution       
+Answer: C.       
 
 While deletion is a very good way to avoid the possibility of inadvertently disclosing production data in a test environment, it also eliminates the usefulness of the data set as a plausible approximation of the production environment, greatly reducing the quality of the testing.
 The other options modify the raw production data into something that approximates the real environment without disclosing real data, to a greater or lesser extent; some are better than the others, but they are all better than deletion for testing purposes.
 
-### Question # 69 - For which use case would it probably be best to use static masking?
-A. Creating a test environment for a new application
-B. Allowing a customer service representative limited access to account data
-C. Providing detailed reports to regulators
-D. Notifying shareholders
+### Question # 69 - For which use case would it probably be best to use static masking?     
+A. Creating a test environment for a new application     
+B. Allowing a customer service representative limited access to account data     
+C. Providing detailed reports to regulators      
+D. Notifying shareholders        
 Answer: A. 
 
 Static masking involves modification of an entire data set, all at once. This would be a good method to create a sample data set for testing purposes.
 Static testing for customer service use would be overkill; replicating all the customer accounts at once so that the fraction of customers who contact customer service may receive assistance is inefficient and cumbersome, and customer account information is likely to change between static updates, making it less useful. Therefore, option B is incorrect.
 Neither regulators nor shareholders need to see masked data, so both options C and D are incorrect.
 
-### Question # 70 - For which use case would it probably be best to use dynamic masking?
-A. Creating a test environment for a new application
-B. Allowing a customer service representative limited access to account data
-C. Sending incident response notifications
-D. Implementing business continuity and disaster recovery (BC/DR)
-Answer: B. 
+### Question # 70 - For which use case would it probably be best to use dynamic masking?     
+A. Creating a test environment for a new application      
+B. Allowing a customer service representative limited access to account data     
+C. Sending incident response notifications      
+D. Implementing business continuity and disaster recovery (BC/DR)       
+Answer: B.     
 
 Dynamically masking a user’s account information each time a customer service representative accesses that data is an efficient, secure means of masking data as necessary.
 Trying to mask each data element as it is called by an application in a test environment would be unwieldy and not likely to provide accurate test data, so option A is incorrect.
 Neither incident response nor BC/DR purposes need masked data, so both options C and D are incorrect.
 
-### Question # 71 - What is one possible risk associated with the use of algorithmic masking for obscuring a data set?
-A. You could corrupt the production data.
-B. The data could be subject to easy inadvertent disclosure.
-C. Algorithms are two-way operations.
-D. A null set has no test value.
+### Question # 71 - What is one possible risk associated with the use of algorithmic masking for obscuring a data set?      
+A. You could corrupt the production data.     
+B. The data could be subject to easy inadvertent disclosure.     
+C. Algorithms are two-way operations.       
+D. A null set has no test value.       
 Answer: C. 
 
 Using an algorithm to mask data suggests that the same algorithm, if learned or reverse-engineered by an aggressor, could be used on the masked data to reveal the production data.
@@ -711,11 +715,11 @@ Accidental disclosure might be interpreted as the same thing as determining the 
 Option D is about the use of the deletion technique for masking, not algorithmic, so it is incorrect.
 This is not an easy question, and it involves some abstract thought to arrive at the correct answer.
 
-### Question # 72 - ____________ is a direct identifier, and ____________ is an indirect identifier.
-A. Username; password
-B. User’s name; user’s age
-C. User’s IP address; user’s media access control (MAC) address
-D. Location; income level
+### Question # 72 - ____________ is a direct identifier, and ____________ is an indirect identifier.      
+A. Username; password      
+B. User’s name; user’s age      
+C. User’s IP address; user’s media access control (MAC) address        
+D. Location; income level         
 Answer: B. 
 
 The user’s name is a direct identifier, explicitly stating who that person is. The user’s age is not a direct identifier because it doesn’t specify a certain person, but it is a piece of demographic information that could be used to narrow down the user’s identity from a group of users of different ages, so it is an indirect identifier.
@@ -723,53 +727,53 @@ Username and password are identity assertions and authentication credentials, no
 Option C is incorrect because both elements could be considered direct identifiers (depending on the jurisdiction) if the user’s machine is considered a legal representation of the user.
 Option D is incorrect because both elements are indirect identifiers.
 
-### Question # 73 - Anonymization is the process of removing ____________ from data sets.
-A. Access
-B. Cryptographic keys
-C. Numeric values
-D. Identifying information
+### Question # 73 - Anonymization is the process of removing ____________ from data sets.       
+A. Access     
+B. Cryptographic keys       
+C. Numeric values      
+D. Identifying information       
 Answer: D. 
 
 Anonymization is the process of removing identifiers from data sets so that data analysis tools and techniques cannot be used by malicious entities to divine personal or sensitive data from nonsensitive aggregated data sets.
 All the other answers are incorrect because they are not part of the anonymization process.
 
-### Question # 74 - Tokenization is a method of obscuring data that, other than encryption, can be used to comply with ____________ standards.
-A. Gramm-Leach-Bliley Act (GLBA)
-B. Payment Card Industry (PCI)
-C. Child Online Protection Act (COPA)
-D. Sarbanes-Oxley Act (SOX)
+### Question # 74 - Tokenization is a method of obscuring data that, other than encryption, can be used to comply with ____________ standards.      
+A. Gramm-Leach-Bliley Act (GLBA)    
+B. Payment Card Industry (PCI)     
+C. Child Online Protection Act (COPA)     
+D. Sarbanes-Oxley Act (SOX)      
 Answer: B. 
 
 PCI requires that credit card numbers and other cardholder data be obscured when stored for any length of time. Encryption is one approved method; tokenization is another.
 GLBA, COPA, and SOX do not specifically require obscuring stored data, so those options are incorrect.
 
-### Question # 75 - Tokenization requires at least ____ database(s).
-A. One
-B. Two
-C. Three
-D. Four
-Answer: B. 
+### Question # 75 - Tokenization requires at least ____ database(s).     
+A. One    
+B. Two    
+C. Three    
+D. Four    
+Answer: B.     
 
 Tokenization will require, at a minimum, a database for the tokens and another for the stored sensitive data.
 One database will not suffice; a single database holding both the tokens and the sensitive data they represent would not be in compliance with any standard requiring data to be obscured. Option A is thus incorrect.
 Option C might be an answer some readers choose; it is easy to overthink this question. You might consider that the data requires two databases (one for tokens, one for sensitive data), and that access control would require a third database (for authentication credentials); however, the tokenization methodology does not strictly require that access be controlled through an authentication server. Option C is therefore incorrect. Be sure not to read more into the question than appears at face value.
 Option D is incorrect; that’s just too many databases.
 
-### Question # 76 - Data owners might consider using tokenization for all of the following reasons except _______________.
-A. Regulatory or contractual compliance
-B. Inference
-C. Reduced cost of compliance
-D. Mitigating risk from data lost to intrusion
+### Question # 76 - Data owners might consider using tokenization for all of the following reasons except _______________.      
+A. Regulatory or contractual compliance     
+B. Inference    
+C. Reduced cost of compliance     
+D. Mitigating risk from data lost to intrusion       
 Answer: B. 
 
 Inference is an attack strategy, not a reason for implementing tokenization.
 All the other options are good reasons to implement tokenization, and they are therefore not correct.
 
-### Question # 77 - Bit-splitting, also known as data dispersion, might be thought of as ____________ in the cloud.
-A. RAID
-B. BIOS
-C. DDoS
-D. SYN-ACK
+### Question # 77 - Bit-splitting, also known as data dispersion, might be thought of as ____________ in the cloud.      
+A. RAID    
+B. BIOS    
+C. DDoS    
+D. SYN-ACK     
 Answer: A. 
 
 In the traditional environment, a RAID array is a set of disks/drives on which data 
@@ -777,45 +781,49 @@ is spread to enhance the availability, security, and resiliency of the data. In 
 bit-splitting/data dispersion performs this same function in much the same way.
 All the other options have nothing to do with spreading data across multiple storage areas.
 
-### Question # 78 - Bit-splitting also provides security against data breaches by _______________.
-		A. Removing all access to unauthorized parties
-		B. Ensuring that an unauthorized user only gets a useless fragment of data
-		C. Moving data across jurisdictional boundaries
-		D. Tracking all incoming access requests
-Answer:
-B. Bit-splitting involves chopping data sets up into segments and storing those segments in multiple places/devices. An attacker getting access to one segment won’t be gaining anything of value because one segment of the data set would most likely make no sense out of context.
+### Question # 78 - Bit-splitting also provides security against data breaches by _______________.       
+A. Removing all access to unauthorized parties     
+B. Ensuring that an unauthorized user only gets a useless fragment of data     
+C. Moving data across jurisdictional boundaries     
+D. Tracking all incoming access requests    
+Answer: B.     
+
+Bit-splitting involves chopping data sets up into segments and storing those segments in multiple places/devices. An attacker getting access to one segment won’t be gaining anything of value because one segment of the data set would most likely make no sense out of context.
+
 Bit-splitting may or may not function as an access control method; option B is preferable to A.
+
 Bit-splitting may or may not move data across jurisdictions, which may or may not be useful to the data owner; option B is preferable to C.
+
 Bit-splitting does not, in itself, provide access logs; option D is incorrect.
 
-### Question # 79 - If bit-splitting is used to store data sets across multiple jurisdictions, how may this enhance security?
-A. By making seizure of data by law enforcement more difficult
-B. By hiding it from attackers in a specific jurisdiction
-C. By ensuring that users can only accidentally disclose data to one geographic area
-D. By restricting privilege user access
-Answer: A. 
+### Question # 79 - If bit-splitting is used to store data sets across multiple jurisdictions, how may this enhance security?     
+A. By making seizure of data by law enforcement more difficult     
+B. By hiding it from attackers in a specific jurisdiction     
+C. By ensuring that users can only accidentally disclose data to one geographic area     
+D. By restricting privilege user access      
+Answer: A.      
 
 When law enforcement entities wish to seize assets (including data), they must cooperate with other law enforcement agencies in other jurisdictions if the data is not contained fully within their own. This may aid a data owner who is concerned about the risk of losing their data in a multitenant environment if another tenant conducts illicit activity and law enforcement seizes an entire data storage device as part of an investigation, accidentally collecting data belonging to innocent parties.
 Attackers are jurisdiction-agnostic; they don’t care where data is stored or what laws apply. Option B is thus incorrect.
 Authorized users can access bit-split data regardless of the location and can disclose information worldwide; option C is incorrect.
 Bit-splitting does not pertain to types of access roles; option D is incorrect.
 
-### Question # 80 - Which of the following is a possible negative aspect of bit-splitting?
-A. Less security
-B. Greatest risk of unauthorized access
-C. Significantly greater processing overhead
-D. Violating regulatory compliance
-Answer: C. 
+### Question # 80 - Which of the following is a possible negative aspect of bit-splitting?     
+A. Less security    
+B. Greatest risk of unauthorized access    
+C. Significantly greater processing overhead      
+D. Violating regulatory compliance      
+Answer: C.      
 
 Bit-splitting, as with many security methods/technologies, carries a significantly greater overhead than data sets that don’t use this method. Bit-splitting, in particular, takes an extensive amount of processing to perform.
 Bit-splitting should make a data set more secure and decrease the chance of unauthorized access, so options A and B are incorrect.
 It is unlikely that bit-splitting would violate regulatory standards; even if that were to be the case, it is always true that bit-splitting carries greater overhead, so option C is preferable to D.
 
-### Question # 81 - Which of the following is a possible negative aspect of bit-splitting?
-A. It may require trust in additional third parties beyond the primary cloud service provider.
-B. There may be cause for management concern that the technology will violate internal policy.
-C. Users will have far greater difficulty understanding the implementation.
-D. Limited vendors make acquisition and support challenging.
+### Question # 81 - Which of the following is a possible negative aspect of bit-splitting?     
+A. It may require trust in additional third parties beyond the primary cloud service provider.    
+B. There may be cause for management concern that the technology will violate internal policy.    
+C. Users will have far greater difficulty understanding the implementation.    
+D. Limited vendors make acquisition and support challenging.     
 Answer: A. 
 
 This is not a simple question and requires the reader to think through the situation suggested by each answer. Option A is correct because the data owner may opt to perform bit-splitting across multiple cloud services to enhance security (not all the “eggs” will be in one “basket”). When this is the case, the data owner will have additional dependencies: all the vendors involved in storing the various data elements.
@@ -823,11 +831,11 @@ There should be no additional management concern; if bit-splitting is not compli
 Bit-splitting implementations should be transparent to users; option C is incorrect.
 There are plenty of vendors offering bit-splitting solutions; option D is incorrect.
 
-### Question # 82 - Which of the following is a possible negative aspect of bit-splitting?
-A. Greater chance of physical theft of assets
-B. Loss of public image
-C. Some risk to availability, depending on the implementation
-D. A small fire hazard
+### Question # 82 - Which of the following is a possible negative aspect of bit-splitting?     
+A. Greater chance of physical theft of assets    
+B. Loss of public image     
+C. Some risk to availability, depending on the implementation     
+D. A small fire hazard      
 Answer: C. 
 
 Ironically, data dispersion can lead to some additional risk of loss of availability, depending on the method/breadth of the dispersion. If the data is spread across multiple cloud providers, there is a possibility that an outage at one provider will make the data set unavailable to users, regardless of location. However, there are methods for attenuating this threat, and bit-splitting usually provides greater availability of data over traditional storage without dispersion.
@@ -835,197 +843,197 @@ Data dispersion should have no effect on physical theft risks and would actually
 Bit-splitting should have no effect on public image whatsoever; option B is incorrect.
 Bit-splitting does not have an attendant fire risk; option D is incorrect.
 
-### Question # 83 - Which of the following is a theoretical technology that is intended to allow encrypted material to be processed and manipulated without decrypting it first?
-A. Inverse postulation
-B. Homomorphic encryption
-C. Didactic alignment
-D. Obverse reinstantiation
+### Question # 83 - Which of the following is a theoretical technology that is intended to allow encrypted material to be processed and manipulated without decrypting it first?     
+A. Inverse postulation    
+B. Homomorphic encryption     
+C. Didactic alignment     
+D. Obverse reinstantiation      
 Answer: B. 
 
 This is the definition of homomorphic encryption.
 All the other answers are incorrect.
 
-### Question # 84 - Which of the following is a data discovery approach used by e-commerce retailers to discern and predict shoppers’ needs?
-A. Big data
-B. Real-time analytics
-C. Agile analytics
-D. Agile business intelligence
+### Question # 84 - Which of the following is a data discovery approach used by e-commerce retailers to discern and predict shoppers’ needs?     
+A. Big data   
+B. Real-time analytics     
+C. Agile analytics    
+D. Agile business intelligence      
 Answer: B. 
 
 Real-time analytics allows for reactive and predictive operations (such as recommending other, related products) based on customers’ current and past shopping behavior.
 All the other answers are data discovery approaches but not used for this particular application (options C and D are two names for the same thing).
 
-### Question # 85 - Which of the following is a data discovery approach that offers insight to trends of trends, using both historical and predictive approaches?
-A. Obverse polyglotism
-B. Big data
-C. Real-time analytics
-D. Agile analytics/business intelligence
-Answer: D. 
+### Question # 85 - Which of the following is a data discovery approach that offers insight to trends of trends, using both historical and predictive approaches?     
+A. Obverse polyglotism    
+B. Big data     
+C. Real-time analytics      
+D. Agile analytics/business intelligence      
+Answer: D.       
 
 The Agile approach to data analysis offers greater insight and capabilities than previous generations of analytical technologies.
 Options B and C are other data discovery technologies, but neither is the correct answer.
 Option A is incorrect because obverse polyglotism is just a made up term that does not have any relevance as an answer to the question.
 
-### Question # 86 - Which of the following is not a data discovery technique?
-A. Metadata
-B. Labels
-C. Content analysis
-D. Data hover
-Answer: D. 
-
+### Question # 86 - Which of the following is not a data discovery technique?      
+A. Metadata    
+B. Labels    
+C. Content analysis    
+D. Data hover      
+Answer: D.      
+  
 Data hover is a made up term which is not a data discovery technique. All the other answers are actual data discovery techniques.
 
-### Question # 87 - Which of the following data discovery techniques involves using extra information automatically appended/included with the intended data when the data is created?
-A. Metadata
-B. Labels
-C. Content analysis
-D. Data hover
-Answer: A. 
+### Question # 87 - Which of the following data discovery techniques involves using extra information automatically appended/included with the intended data when the data is created?        
+A. Metadata    
+B. Labels     
+C. Content analysis     
+D. Data hover      
+Answer: A.      
 
 This is the definition of metadata: data about data, usually created by systems (hardware and/or software) when the data is captured/collected.
 Options B and C are also data discovery techniques, but not involving metadata.
 Data hover is a made up term and is therefore, not a data discovery technique, so option D is incorrect.
 
-### Question # 88 - When labeling is used as a data discovery technique, who should be applying the labels?
-A. The security office
-B. Users
-C. Data owners
-D. Regulators
-Answer: C. 
+### Question # 88 - When labeling is used as a data discovery technique, who should be applying the labels?    
+A. The security office   
+B. Users   
+C. Data owners     
+D. Regulators     
+Answer: C.      
 
 The data owners, presumably the personnel closest to and most familiar with the data, should be the ones labeling it.
 The other answers are incorrect because they are not the data owners.
 
-### Question # 89 - When data labels are being used in an environment (for discovery and other purposes), when should the labels be applied?
-A. During the risk assessment
-B. As part of the business impact analysis (BIA)
-C. At collection/creation
-D. When the discovery tools are implemented
-Answer: C. 
+### Question # 89 - When data labels are being used in an environment (for discovery and other purposes), when should the labels be applied?     
+A. During the risk assessment     
+B. As part of the business impact analysis (BIA)     
+C. At collection/creation     
+D. When the discovery tools are implemented      
+Answer: C.      
 
 For the most efficient classification/categorization process, and to streamline the application of proper controls, data labeling should be performed when the data is first being collected/created.
 Options A and B are incorrect because they are not part of a data labeling process.
 Option D is incorrect because the discovery tools need to have the data labeled to work properly.
 
-### Question # 90 - Which of the following tools might be useful in data discovery efforts that are based on content analysis?
-A. Egress monitoring solutions
-B. Digital rights management (DRM)
-C. iSCSI
-D. Fibre Channel over Ethernet (FCoE)
-Answer: A. 
+### Question # 90 - Which of the following tools might be useful in data discovery efforts that are based on content analysis?     
+A. Egress monitoring solutions    
+B. Digital rights management (DRM)    
+C. iSCSI    
+D. Fibre Channel over Ethernet (FCoE)    
+Answer: A.     
 
 Egress monitoring tools (often referred to as DLP) are specifically designed to seek out and identify data sets based on content; this is part of how they operate. They can be used for or in conjunction with content-based data discovery efforts.
 Digital rights management (DRM) is an additional access control solution for objects, so option B is incorrect.
 Internet Small Computer System Interface (iSCSI) allows storage controller commands to be sent over a Transmission Control Protocol (TCP) network and has nothing to do with data discovery; thus, option C is incorrect.
 Fibre Channel over Ethernet (FCoE) is a standard for approaching fiber-media speeds of data transfer on an Ethernet network; it has nothing to do with data discovery, so option D is incorrect.
 
-### Question # 91 - All of the following might be used as data discovery characteristics in a content-analysis-based data discovery effort except _______________.
-A. Keywords
-B. Pattern matching
-C. Frequency
-D. Inheritance
-Answer: D. 
+### Question # 91 - All of the following might be used as data discovery characteristics in a content-analysis-based data discovery effort except _______________.       
+A. Keywords     
+B. Pattern matching     
+C. Frequency     
+D. Inheritance     
+Answer: D.      
 
 Inheritance has nothing to do with content analysis; it is usually referring to object-oriented traits derived from originating objects.
 All the other answers are characteristics of content that can be used in content-analysis methods of data discovery.
 
-### Question # 92 - What is the risk to the organization posed by dashboards that display data discovery results?
-A. Increased chance of external penetration
-B. Flawed management decisions based on edited displays
-C. Higher likelihood of inadvertent disclosure
-D. Raised incidence of physical theft
-Answer: B. 
+### Question # 92 - What is the risk to the organization posed by dashboards that display data discovery results?     
+A. Increased chance of external penetration     
+B. Flawed management decisions based on edited displays     
+C. Higher likelihood of inadvertent disclosure      
+D. Raised incidence of physical theft      
+Answer: B.       
 
 Because dashboards are often used for management purposes (graphical representations of technical data), management pressures often result in skewed data dashboarding (“no red!”), which can lead to the “data” being used for fallacious decisions.
 All the other answers are not affected by dashboarding at all and are incorrect.
 
-### Question # 93 - Which of these is most likely to have the greatest negative impact on data discovery effort?
-A. Bandwidth latency issues
-B. Poor physical security of the data center
-C. Severe statutory regulation
-D. Inaccurate or incomplete data
-Answer: D. 
+### Question # 93 - Which of these is most likely to have the greatest negative impact on data discovery effort?     
+A. Bandwidth latency issues    
+B. Poor physical security of the data center     
+C. Severe statutory regulation     
+D. Inaccurate or incomplete data     
+Answer: D.       
 
 A data discovery effort can only be as effective as the veracity and quality of the data it addresses. Bad data will result in ineffective data discovery.
 All the other answers do not impact data discovery efforts and are only distractors. (Poor bandwidth might slow down data discovery, but it won’t have true negative impact, so option D is still better.)
 
-### Question # 94 - Cloud customers performing data discovery efforts will have to ensure that the cloud provider attends to all of the following requirements except _______________.
-A. Allowing sufficient access to large volumes of data
-B. Preserving metadata tags
-C. Assigning labels
-D. Preserving and maintaining the data
+### Question # 94 - Cloud customers performing data discovery efforts will have to ensure that the cloud provider attends to all of the following requirements except _______________.     
+A. Allowing sufficient access to large volumes of data     
+B. Preserving metadata tags     
+C. Assigning labels      
+D. Preserving and maintaining the data      
 Answer: C. 
 
 Label assignment is a task of the data owner—the cloud customer, not the provider.
 All the other answers are requirements for the cloud provider to meet the data discovery needs of the customer and should be negotiated before migration.
 
-### Question # 95 - Where should the cloud provider’s data discovery requirements be listed?
-A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53
-B. Applicable laws and regulations
-C. Payment Card Industry Data Security Standard (PCI DSS)
-D. The managed services contract and SLA
-Answer: D. 
+### Question # 95 - Where should the cloud provider’s data discovery requirements be listed?    
+A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53    
+B. Applicable laws and regulations    
+C. Payment Card Industry Data Security Standard (PCI DSS)     
+D. The managed services contract and SLA     
+Answer: D.      
 
 The cloud customer will have to determine which levels of performance/responsibilities on the part of the provider will be necessary to meet the customer’s needs for data discovery. These should be codified in the contract/service-level agreement (SLA).
 The other answers are general regulations and standards; they will not contain specific guidance for every customer’s needs and are only distractors.
 
-### Question # 96 - Who will determine data classifications for the cloud customer?
-A. The cloud provider
-B. National Institute of Standards and Technology (NIST)
-C. Regulators
-D. The cloud customer
-Answer: D. 
+### Question # 96 - Who will determine data classifications for the cloud customer?     
+A. The cloud provider     
+B. National Institute of Standards and Technology (NIST)    
+C. Regulators     
+D. The cloud customer     
+Answer: D.      
 
 This is a difficult question and requires insight on the practice of classifying data and a good understanding of the material. While the determination of what sorts of data need to be protected may come from external sources (laws, standards, regulations, etc.), the classification of data for each data owner/cloud customer will be specific to that entity. Therefore, the cloud customer will have to impose data classification schema on itself and its own data.
 The other answers represent external entities, some of whom might require that certain information be handled with a certain duty or care (such as Payment Card Industry [PCI] mandates for cardholder information). However, these entities will not impose a classification scheme on the data owner or cloud customer; that responsibility falls on the data owner or cloud customer to do for itself and the data under its control.
 
-### Question # 97 - An organization’s data classification scheme must include which of the following categories?
-A. File size
-B. Origin of the data
-C. Sensitivity of the data
-D. Whatever the data owner decides
-Answer: D. 
+### Question # 97 - An organization’s data classification scheme must include which of the following categories?     
+A. File size    
+B. Origin of the data     
+C. Sensitivity of the data      
+D. Whatever the data owner decides     
+Answer: D.      
 
 This is a difficult, and somewhat tricky, question. Each organization has to decide, for itself, how to classify its own data. With that said, many factors bear on this determination: external regulations and drivers, the type of industry in which the organization operates, and so forth. But the kinds of data the organization uses, and how that data is sorted, will differ for every organization, and each must make its own determination on how to best sort that data.
 All the other answers are factors that an organization might consider when creating a classification scheme, but they are not mandatory for every organization. Option D is still the best answer for this question.
 
-### Question # 98 - Classification is usually considered a facet of data ____________.
-A. Security
-B. Labeling
-C. Control
-D. Markup
-Answer: B. 
+### Question # 98 - Classification is usually considered a facet of data ____________.     
+A. Security    
+B. Labeling    
+C. Control    
+D. Markup   
+Answer: B.    
 
 This is another difficult question. Classification of data is an element of labeling, insofar as labeling is the grouping of data into discrete categories and types. Labels must be affixed to objects and data sets in accordance with an overall policy that lists objective criteria to guide the data owner(s) in assigning the appropriate label; this is a form of classification.
 Option A might be considered apt, as labeling and classification fall generally under the auspices of “security,” but option B is more specific and therefore correct.
 Classification is not considered a facet of data control or data markup. Therefore, options C and D are incorrect.
 
-### Question # 99 - Data classification can be ____________ or ____________.
-A. Inverse or obverse
-B. Automatic or manual
-C. Correct or incorrect
-D. Diurnal or nocturnal
-Answer: B. 
+### Question # 99 - Data classification can be ____________ or ____________.      
+A. Inverse or obverse     
+B. Automatic or manual     
+C. Correct or incorrect     
+D. Diurnal or nocturnal    
+Answer: B.      
 
 An organization could implement an automated tool that assigns labels based on certain criteria (location of the source of the data, time, creator, content, etc.), much like metadata, or the organization could require that data creators/collectors assign labels when the data is first created/collected, according to a policy that includes discrete, objective classification guidance.
 Option A is incorrect because even though the word pair may seem pretty technical, together they are meaningless with respect to data classification.
 It may be true that data classification can be correct or incorrect, however, option C is not as good of an answer as option B. The goal for the data owner is to correctly classify the data and not to incorrectly classify the data. So, option C is incorrect.
 It is difficult to imagine data classification that only takes place at a certain time of day. Therefore, it is not likely to be the correct answer and certainly option D is not as good an answer as option B.
 
-### Question # 100 - Data may need to be reclassified for all the following reasons except _______________.
-A. Color change
-B. Time
-C. Repurposing
-D. Transfer of ownership
+### Question # 100 - Data may need to be reclassified for all the following reasons except _______________.       
+A. Color change      
+B. Time     
+C. Repurposing     
+D. Transfer of ownership     
 Answer: A. 
 
 Color is unlikely to be a characteristic for which data is classified, much less reclassified. Although some exceptions might exist (motion picture production, satellite imagery, paint vendors, etc.), those would be far from the norm, and the other answers are much more general cases and would apply to many more organizations. Therefore, color is the correct answer (in the negative), and the rest are incorrect (because they are true).
 
-### Question # 101 - Proper __________ need(s) to be assigned to each data classification/category.
-A. Dollar values
-B. Metadata
-C. Security controls
-D. Policies
+### Question # 101 - Proper __________ need(s) to be assigned to each data classification/category.     
+A. Dollar values     
+B. Metadata     
+C. Security controls      
+D. Policies      
 Answer: C. 
 
 The purposes of classifying/categorizing data is to create proper associated control sets for each data type and aid the efficiency and cost-effectiveness of applying those controls to that data.
@@ -1033,480 +1041,535 @@ While dollar value may be a good metric for assessing data type in many organiza
 Metadata may or may not be used in a classification/categorization scheme; option B is incorrect.
 Policies are not assigned to data types; a policy will dictate how data classifications/categories are assigned to data. Option D is incorrect.
 
-### Question # 102 - Data transformation in a cloud environment should be of great concern to organizations considering cloud migration because ____________ could affect data classification processes and implementations.
-A. Multitenancy
-B. Virtualization
-C. Remote access
-D. Physical distance
+### Question # 102 - Data transformation in a cloud environment should be of great concern to organizations considering cloud migration because ____________ could affect data classification processes and implementations.      
+A. Multitenancy     
+B. Virtualization      
+C. Remote access      
+D. Physical distance      
 Answer: B. 
 
 Data transforming from raw objects to virtualized instances to snapshotted images back into virtualized instances and then back out to users in the form of raw data may affect the organization’s current classification methodology; classification techniques and tools that were suitable for the traditional IT environment might not withstand the standard cloud environment. This should be a factor of how the organization considers and perceives the risk of cloud migration.
 Multitenancy should be a consideration of cloud migration for the potential risks of data leakage and disclosure but not because of data transformation. Option A is not correct.
 Remote access and physical distance should not include aspects of data transformation that are not already considered in the traditional IT environment, so options C and D are incorrect.
 
-### Question # 103 - Who is ultimately responsible for a data breach that includes personally identifiable information (PII), in the event of negligence on the part of the cloud provider?
-A. The user
-B. The subject
-C. The cloud provider
-D. The cloud customer
-Answer: D. 
+### Question # 103 - Who is ultimately responsible for a data breach that includes personally identifiable information (PII), in the event of negligence on the part of the cloud provider?     
+A. The user     
+B. The subject    
+C. The cloud provider     
+D. The cloud customer      
+Answer: D.     
 
 The cloud customer, as the PII data owner, is ultimately legally responsible for all losses of PII data. The customer may be able to recoup some of the costs of damages related to the breach by placing financial liability on the provider through the use of strong contract terms and conditions, but all legal responsibility falls on the customer, in all cases.
 The other options are parties that may have some partial or contributory responsibility for the breach (especially, in this case, the provider, who was negligent), but the ultimate responsibility lies with the customer.
 
-### Question # 104 - In a personally identifiable information (PII) context, who is the subject?
-A. The cloud customer
-B. The cloud provider
-C. The regulator
-D. The individual
-Answer: D. 
+### Question # 104 - In a personally identifiable information (PII) context, who is the subject?      
+A. The cloud customer    
+B. The cloud provider     
+C. The regulator     
+D. The individual    
+Answer: D.      
 
 The subject is the human being to whom the PII applies.
 The other answers are not data subjects, and are therefore incorrect.
 
-### Question # 105 - In a personally identifiable information (PII) context, who is the processor?
-A. The cloud customer
-B. The cloud provider
-C. The regulator
-D. The individual
+### Question # 105 - In a personally identifiable information (PII) context, who is the processor?     
+A. The cloud customer    
+B. The cloud provider    
+C. The regulator     
+D. The individual      
 Answer: B. 
 
 In a PII context, the processor is any entity that processes data on behalf or at the behest of the data owner. In the case of most managed cloud service arrangements, that will be the cloud service provider. (The cloud customer may also process its own data, but the customer is the data owner/controller.)
 Options A, C, and D are all incorrect. The cloud customer provides the subject’s PII to the cloud provider for processing. The regulator ensures that the PII is protected properly and the individual is the data subject. So, options A, C, and D are incorrect answers.
 
-### Question # 106 - In a personally identifiable information (PII) context, who is the controller?
-A. The cloud customer
-B. The cloud provider
-C. The regulator
-D. The individual
+### Question # 106 - In a personally identifiable information (PII) context, who is the controller?     
+A. The cloud customer    
+B. The cloud provider     
+C. The regulator      
+D. The individual       
 Answer: A. 
 
 In a PII context, the controller is the entity that creates/collects, owns, or manages the data—that is, the data owner. In a managed cloud service arrangement, that would be the cloud customer.
 Options B, C, and D are all incorrect. The cloud provider is the entity that processes the PII data. The regulator ensures that the PII is protected properly and the individual is the data subject.
 
-### Question # 105 - In a personally identifiable information (PII) context, which of the following is not normally considered “processing”?
-		A. Storing
-		B. Viewing
-		C. Destroying
-		D. Printing
-Answer:
-B. This is not a simple question, and it requires a bit of insight into uses of data. The most suitable answer here is “viewing,” as it is entirely passive; the viewer is not performing any action on the data. “Processing,” in a PII context, is any manipulation of the data, to include securing or destroying it, in electronic or hard-copy form. In a “viewing” action, the processor would be displaying the data to the viewer, while the viewer is only receiving it, not storing it or using it. Note that the answer did not involve “using,” which definitely would be a processing action.
+### Question # 105 - In a personally identifiable information (PII) context, which of the following is not normally considered “processing”?      
+A. Storing     
+B. Viewing     
+C. Destroying   
+D. Printing   
+Answer: B. 
+
+This is not a simple question, and it requires a bit of insight into uses of data. The most suitable answer here is “viewing,” as it is entirely passive; the viewer is not performing any action on the data. “Processing,” in a PII context, is any manipulation of the data, to include securing or destroying it, in electronic or hard-copy form. In a “viewing” action, the processor would be displaying the data to the viewer, while the viewer is only receiving it, not storing it or using it. Note that the answer did not involve “using,” which definitely would be a processing action.
 All the other answers are examples of processing and therefore not correct.
 
-### Question # 106 - Which of the following countries does not have a national privacy law that concerns personally identifiable information (PII) and applies to all entities?
-		A. Argentina
-		B. The United States
-		C. Italy
-		D. Australia
-Answer:
-B. The United States has some federal PII laws that apply to specific sectors (the government itself [Privacy Act], medical providers [Health Information Portability and Accountability Act], financial and insurance vendors [Gramm-Leach-Bliley Act], etc.), but not a single, overarching federal law that addresses PII in a uniform, nationwide manner.
+### Question # 106 - Which of the following countries does not have a national privacy law that concerns personally identifiable information (PII) and applies to all entities?      
+A. Argentina      
+B. The United States      
+C. Italy      
+D. Australia     
+Answer: B.     
+
+The United States has some federal PII laws that apply to specific sectors (the government itself [Privacy Act], medical providers [Health Information Portability and Accountability Act], financial and insurance vendors [Gramm-Leach-Bliley Act], etc.), but not a single, overarching federal law that addresses PII in a uniform, nationwide manner.
 All the other options list countries that have such laws, and those options are therefore incorrect.
 
-### Question # 107 - In protections afforded to personally identifiable information (PII) under the U.S. Health Information Portability and Accountability Act (HIPAA), the subject must __________ in order to allow the vendor to share their personal data.
-		A. Opt in
-		B. Opt out
-		C. Undergo screening
-		D. Provide a biometric template
-Answer:
-A. Under HIPAA, the subject must opt in to information sharing—that is, the subject (the patient) must explicitly state, in writing and with a signature, who the vendor is allowed to share personal information with, such as family members, spouses, parents, and children. (Under HIPAA, this personal information is referred to as electronic private health information [ePHI].) The vendor is prohibited from sharing the patient’s data with anyone else.
+### Question # 107 - In protections afforded to personally identifiable information (PII) under the U.S. Health Information Portability and Accountability Act (HIPAA), the subject must __________ in order to allow the vendor to share their personal data.    
+A. Opt in    
+B. Opt out      
+C. Undergo screening      
+D. Provide a biometric template        
+Answer: A.      
+
+Under HIPAA, the subject must opt in to information sharing—that is, the subject (the patient) must explicitly state, in writing and with a signature, who the vendor is allowed to share personal information with, such as family members, spouses, parents, and children. (Under HIPAA, this personal information is referred to as electronic private health information [ePHI].) The vendor is prohibited from sharing the patient’s data with anyone else.
+
 Under HIPAA, the patient does not have to opt out of information sharing; the default situation is to not share patient data. Option B is incorrect.
+
 HIPAA does not require any kind of screening or template, so Options C and D are incorrect.
 
-### Question # 108 - In protections afforded to personally identifiable information (PII) under the U.S. Gramm-Leach-Bliley Act (GLBA), the subject must __________ in order to prevent the vendor from sharing their personal data.
-		A. Opt in
-		B. Opt out
-		C. Undergo screening
-		D. Provide a biometric template
-Answer:
-B. Under GLBA, financial and insurance vendors are allowed to share account holders’ personal data with other entities (including other businesses owned by the same vendor) unless the account holder explicitly states, in writing, that the vendor is not allowed to do so. The vendor is required to provide a form for opting out of data sharing when the account holder creates the account and annually every subsequent year.
+### Question # 108 - In protections afforded to personally identifiable information (PII) under the U.S. Gramm-Leach-Bliley Act (GLBA), the subject must __________ in order to prevent the vendor from sharing their personal data.       
+A. Opt in    
+B. Opt out     
+C. Undergo screening             
+D. Provide a biometric template     
+Answer: B. 
+
+Under GLBA, financial and insurance vendors are allowed to share account holders’ personal data with other entities (including other businesses owned by the same vendor) unless the account holder explicitly states, in writing, that the vendor is not allowed to do so. The vendor is required to provide a form for opting out of data sharing when the account holder creates the account and annually every subsequent year.
+
 Option A is incorrect; under GLBA, the default situation allows banks and insurance providers (owned by the same entity) to share customer data—the customer must opt out of this arrangement if the customer doesn’t want information shared.
 Options C and D are incorrect because they do not relate to the sharing of PII data by a bank or insurer.
 
-### Question # 109 - The European Union (EU), with its implementation of privacy directives and regulations, treats individual privacy as ____________.
-		A. A passing fad
-		B. A human right
-		C. A legal obligation
-		D. A business expense
-Answer:
-B. The EU is probably at the forefront of global efforts to sanctify and enshrine personal privacy; the current statutes and precedents based on court decisions have clearly denoted Europe’s intent to treat individual privacy as a human right.
+### Question # 109 - The European Union (EU), with its implementation of privacy directives and regulations, treats individual privacy as ____________.     
+A. A passing fad      
+B. A human right     
+C. A legal obligation      
+D. A business expense     
+Answer: B. 
+
+The EU is probably at the forefront of global efforts to sanctify and enshrine personal privacy; the current statutes and precedents based on court decisions have clearly denoted Europe’s intent to treat individual privacy as a human right.
 Options A and D are simply incorrect.
+
 It is very possible to consider option C as correct because European businesses are held to strict standards regarding the privacy data under their control. However, option B has more significance and is more general, so it is the proper selection among this list.
 
-### Question # 110 - If your organization collects/creates privacy data associated with European Union (EU) citizens and you operate in the cloud, you must prevent your provider from storing/moving/processing that data where?
-		A. Argentina
-		B. The United States
-		C. Japan
-		D. Israel
-Answer:
-B. The EU regulations associated with personally identifiable information (PII) belonging to EU citizens prohibit that data to be utilized in any way in any country that does not have a national privacy law commensurate with the EU regulations. Of this list, only the United States has no such law. Indeed, the EU regulations might very well be taken to be aimed directly at the United States, and probably for good reason; the United States has not proven to be a good steward of or even recognize the importance of personal privacy.
+### Question # 110 - If your organization collects/creates privacy data associated with European Union (EU) citizens and you operate in the cloud, you must prevent your provider from storing/moving/processing that data where?     
+A. Argentina     
+B. The United States     
+C. Japan     
+D. Israel     
+Answer: B.     
 
-### Question # 111 - European Union (EU) personal privacy protections include the right to be _______________.
-		A. Secure
-		B. Delivered
-		C. Forgotten
-		D. Protected
-Answer:
-C. The right to be forgotten is the EU’s codification of an individual’s right to have any data store containing their own personal data purged of all personally identifiable information (PII). There are, of course, some obvious exceptions (such as law enforcement databases).
+The EU regulations associated with personally identifiable information (PII) belonging to EU citizens prohibit that data to be utilized in any way in any country that does not have a national privacy law commensurate with the EU regulations. Of this list, only the United States has no such law. Indeed, the EU regulations might very well be taken to be aimed directly at the United States, and probably for good reason; the United States has not proven to be a good steward of or even recognize the importance of personal privacy.
+
+### Question # 111 - European Union (EU) personal privacy protections include the right to be _______________.     
+A. Secure    
+B. Delivered     
+C. Forgotten     
+D. Protected       
+Answer: C.       
+
+The right to be forgotten is the EU’s codification of an individual’s right to have any data store containing their own personal data purged of all personally identifiable information (PII). There are, of course, some obvious exceptions (such as law enforcement databases).
 The other answers are not as accurate; “the right to be forgotten” is a very well-known and important aspect of the GDPR.
-	114. The Cloud Security Alliance (CSA) has developed a model for cloud privacy frameworks called the Privacy Level Agreement (PLA). Why might a cloud service provider be reluctant to issue or adhere to a PLA?
-		A. A PLA might limit the provider’s liability.
-		B. A PLA would force the provider to accept more liability.
-		C. A PLA is nonbinding.
-		D. A PLA is not enforceable.
-Answer:
-B. Under current laws and regulations, ultimate liability for the security of privacy data rests on the data controller—that is, the cloud customer. A PLA would require the cloud provider to document expectations for the cloud customer’s data security, which would be an explicit admission of liability. There is little motivation for cloud providers to take on this additional liability (and the costs associated with it) with no mandate or market force pushing them to do so.
+
+### Question # 111 - The Cloud Security Alliance (CSA) has developed a model for cloud privacy frameworks called the Privacy Level Agreement (PLA). Why might a cloud service provider be reluctant to issue or adhere to a PLA?         
+A. A PLA might limit the provider’s liability.      
+B. A PLA would force the provider to accept more liability.      
+C. A PLA is nonbinding.      
+D. A PLA is not enforceable.       
+Answer: B. 
+
+Under current laws and regulations, ultimate liability for the security of privacy data rests on the data controller—that is, the cloud customer. A PLA would require the cloud provider to document expectations for the cloud customer’s data security, which would be an explicit admission of liability. There is little motivation for cloud providers to take on this additional liability (and the costs associated with it) with no mandate or market force pushing them to do so.
+
 Option A is wrong because the provider’s liability is already limited under current legal schemes; the PLA would not enhance that limitation.
 Options C and D are wrong because agreements (as contracts) are both binding and enforceable, and even if they were not, those are not reasons.
 
-### Question # 112 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following frameworks except _______________.
-		A. ISACA’s Control Objectives for Information and Related Technology (COBIT)
-		B. Payment Card Industry Data Security Standard (PCI DSS)
-		C. The Capability Maturity Model (CMM)
-		D. International Organization for Standardization (ISO) 27001
-Answer:
-C. The CMM is not included in the CSA CCM and, indeed, is not even a security framework.
-All the other options are included in the CSA CCM and are therefore not correct answers for this question.
+### Question # 112 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following frameworks except _______________.     
+A. ISACA’s Control Objectives for Information and Related Technology (COBIT)     
+B. Payment Card Industry Data Security Standard (PCI DSS)     
+C. The Capability Maturity Model (CMM)     
+D. International Organization for Standardization (ISO) 27001      
+Answer: C. 
 
-### Question # 113 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following laws except _______________.
-		A. Health Information Portability and Accountability Act (HIPAA)
-		B. Family Education Rights and Privacy Act (FERPA)
-		C. Personal Information Protection and Electronic Documents Act (PIPEDA)
-		D. Digital Millennium Copyright Act (DMCA)
-Answer:
-D. The DMCA deals with intellectual property and not specifically with personal privacy. It is not included in the CSA CCM.
+The CMM is not included in the CSA CCM and, indeed, is not even a security framework.
+All the other options are included in the CSA CCM and are therefore not correct answers for this question.
+ 
+### Question # 113 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) lists security controls from all the following laws except _______________.     
+A. Health Information Portability and Accountability Act (HIPAA)    
+B. Family Education Rights and Privacy Act (FERPA)     
+C. Personal Information Protection and Electronic Documents Act (PIPEDA)     
+D. Digital Millennium Copyright Act (DMCA)    
+Answer: D. 
+
+The DMCA deals with intellectual property and not specifically with personal privacy. It is not included in the CSA CCM.
 All the other answers are laws that are included in the CSA CCM and are therefore not correct answers for this question.
 
-### Question # 114 - Digital rights management (DRM) tools might be used to protect all the following assets except _______________.
-		A. A trusted device
-		B. Proprietary software
-		C. Medical records
-		D. Financial data
-Answer:
-A. DRM solutions are mainly designed to protect intellectual property assets (and mainly those covered by copyright, hence the name), but they can also be used to provide enhanced protection to other electronic information. All the other options are forms of electronic information, while option A is a piece of hardware; DRM does not enhance hardware security, so this is the correct answer.
+### Question # 114 - Digital rights management (DRM) tools might be used to protect all the following assets except _______________.     
+A. A trusted device    
+B. Proprietary software     
+C. Medical records     
+D. Financial data      
+Answer: A.       
 
-### Question # 115 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.
-		A. User consent and action
-		B. Enhanced security protocols
-		C. Use of the cloud
-		D. Newer, upgraded devices
-Answer:
-A. Deploying DRM usually requires installing a local agent on each device intended for use in that environment; with BYOD, that means getting all users to agree and install that agent because they own the devices.
+DRM solutions are mainly designed to protect intellectual property assets (and mainly those covered by copyright, hence the name), but they can also be used to provide enhanced protection to other electronic information. All the other options are forms of electronic information, while option A is a piece of hardware; DRM does not enhance hardware security, so this is the correct answer.
+
+### Question # 115 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
+A. User consent and action      
+B. Enhanced security protocols      
+C. Use of the cloud      
+D. Newer, upgraded devices       
+Answer: A. 
+
+Deploying DRM usually requires installing a local agent on each device intended for use in that environment; with BYOD, that means getting all users to agree and install that agent because they own the devices.
 DRM is an enhanced security protocol, so option B is incorrect.
 The cloud is not specifically necessary for DRM implementations, even in BYOD environments, so option C is incorrect.
 Any DRM solution involving a BYOD environment must be suitable for all devices, not just a certain selection, because the organization can’t easily mandate which devices are used (otherwise, it’s not BYOD). Option D is incorrect.
 
-### Question # 116 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.
-		A. A uniform browser installation
-		B. Platform-agnostic solutions
-		C. Turnstiles
-		D. A secondary business continuity and disaster recovery (BC/DR) vendor
-Answer:
-B. In a BYOD environment, users might bring any number of devices/operating systems to the network, and any DRM solution selected for the purpose must interact well with all of them.
+### Question # 116 - Deploying digital rights management (DRM) tools in a bring-your-own-device (BYOD) environment will require _______________.      
+A. A uniform browser installation   
+B. Platform-agnostic solutions    
+C. Turnstiles    
+D. A secondary business continuity and disaster recovery (BC/DR) vendor     
+Answer: B. 
+
+In a BYOD environment, users might bring any number of devices/operating systems to the network, and any DRM solution selected for the purpose must interact well with all of them.
 The organization cannot dictate specific packages in a BYOD environment—otherwise it is not BYOD—so option A is incorrect.
 Turnstiles are for physical access control and have no bearing on BYOD or DRM, so option C is incorrect.
 BYOD and DRM should have no effect on BC/DR vendors (or the numbers thereof), and vice versa, so option D is incorrect.
 
-### Question # 117 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) addresses all the following security architecture elements except _______________.
-		A. Physical security
-		B. Infrastructure as a service (IaaS)
-		C. Application security
-		D. Business drivers
-Answer:
-D. The CSA CCM does not deal with whether security controls are feasible or correct from a business perspective, only whether they are applicable to an organization under certain regulations.
+### Question # 117 - The Cloud Security Alliance Cloud Controls Matrix (CSA CCM) addresses all the following security architecture elements except _______________.     
+A. Physical security    
+B. Infrastructure as a service (IaaS)     
+C. Application security     
+D. Business drivers     
+Answer: D. 
+
+The CSA CCM does not deal with whether security controls are feasible or correct from a business perspective, only whether they are applicable to an organization under certain regulations.
 All the other answers are incorrect because they are too specific and not required by any regulation/legislation. Therefore, options A, C, and D are poor choices and also incorrect answers.
 
-### Question # 118 - DRM requires that every data resource be provisioned with __________.
-		A. A tracking device
-		B. An access policy
-		C. A hardware security module (HSM)
-		D. A biometric system
-Answer:
-B. For DRM to work properly, each resource needs to be outfitted with an access policy so that only authorized entities may make use of that resource.
+### Question # 118 - DRM requires that every data resource be provisioned with __________.      
+A. A tracking device     
+B. An access policy     
+C. A hardware security module (HSM)      
+D. A biometric system     
+Answer: B. 
+
+For DRM to work properly, each resource needs to be outfitted with an access policy so that only authorized entities may make use of that resource.
 All the other answers are distractors.
 
-### Question # 119 - Digital rights management (DRM) tools can be combined with __________ to enhance security capabilities.
-		A. Roaming identity services (RIS)
-		B. Egress monitoring solutions (DLP)
-		C. Internal hardware settings (BIOS)
-		D. The TEMPEST program
-Answer:
-B. DRM and DLP work well to address complementary security issues—namely, asset classification/categorization and discovery, along with access and dissemination of those assets.
+### Question # 119 - Digital rights management (DRM) tools can be combined with __________ to enhance security capabilities.     
+A. Roaming identity services (RIS)    
+B. Egress monitoring solutions (DLP)     
+C. Internal hardware settings (BIOS)     
+D. The TEMPEST program     
+Answer: B. 
+
+DRM and DLP work well to address complementary security issues—namely, asset classification/categorization and discovery, along with access and dissemination of those assets.
 RIS is a made-up term, so option A is not correct.
+
 Adjusting BIOS settings is not particularly relevant to DRM in any way, so option C is incorrect.
 TEMPEST is a program for harvesting data from electromagnetic emanations, so option D is not correct.
 
-### Question # 120 - Digital rights management (DRM) tools should enforce __________, which is the characteristic of access rights following the object, in whatever form or location it might be or move to.
-		A. Continuous audit trail
-		B. Limiting printing output
-		C. Persistence
-		D. Automatic expiration
-Answer:
-C. Access rights following the object in whatever form or location it might be or move to is the definition of persistence, one of the required traits for a DRM solution of any quality.
+### Question # 120 - Digital rights management (DRM) tools should enforce __________, which is the characteristic of access rights following the object, in whatever form or location it might be or move to.     
+A. Continuous audit trail   
+B. Limiting printing output   
+C. Persistence   
+D. Automatic expiration     
+Answer: C. 
+
+Access rights following the object in whatever form or location it might be or move to is the definition of persistence, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 121 - Digital rights management (DRM) tools should enforce __________, which is the practice of capturing all relevant system events.
-		A. Continuous audit trail
-		B. Limiting printing output
-		C. Persistence
-		D. Automatic expiration
-Answer:
-A. Capturing all relevant system events is the definition of a continuous audit trail, one of the required traits for a DRM solution of any quality.
+### Question # 121 - Digital rights management (DRM) tools should enforce __________, which is the practice of capturing all relevant system events.      
+A. Continuous audit trail     
+B. Limiting printing output     
+C. Persistence     
+D. Automatic expiration     
+Answer: A. 
+
+Capturing all relevant system events is the definition of a continuous audit trail, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 122 - Digital rights management (DRM) tools should enforce __________, which is the capability to revoke access based on the decision of the object owner or an administrator action.
-		A. Integration with email filtering engines
-		B. Disabling screencap capabilities
-		C. Continuous audit trail
-		D. Dynamic policy control
-Answer:
-D. The question describes dynamic policy control, one of the required traits for a DRM solution of any quality.
+### Question # 122 - Digital rights management (DRM) tools should enforce __________, which is the capability to revoke access based on the decision of the object owner or an administrator action.    
+A. Integration with email filtering engines    
+B. Disabling screencap capabilities    
+C. Continuous audit trail     
+D. Dynamic policy control     
+Answer: D.     
+
+The question describes dynamic policy control, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 123 - Digital rights management (DRM) tools should enforce __________, which is the revocation of access based on time.
-		A. Persistence
-		B. Disabling screencap capabilities
-		C. Automatic expiration
-		D. Dynamic policy control
-Answer:
-C. The question describes automatic expiration, one of the required traits for a DRM solution of any quality.
+### Question # 123 - Digital rights management (DRM) tools should enforce __________, which is the revocation of access based on time.     
+A. Persistence     
+B. Disabling screencap capabilities      
+C. Automatic expiration    
+D. Dynamic policy control    
+Answer: C. 
+
+The question describes automatic expiration, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 124 - Digital rights management (DRM) tools should enforce __________, which is interoperability with the organization’s other access control activities.
-		A. Persistence
-		B. Support for existing authentication security infrastructure
-		C. Continuous audit trail
-		D. Dynamic policy control
-Answer:
-B. The question describes support for existing authentication security infrastructure, one of the required traits for a DRM solution of any quality.
+### Question # 124 - Digital rights management (DRM) tools should enforce __________, which is interoperability with the organization’s other access control activities.     
+A. Persistence    
+B. Support for existing authentication security infrastructure     
+C. Continuous audit trail     
+D. Dynamic policy control     
+Answer: B. 
+
+The question describes support for existing authentication security infrastructure, one of the required traits for a DRM solution of any quality.
 All the other answers are traits that should be included in DRM solutions but do not match the definition in the question, so they are incorrect.
 
-### Question # 125 - In a data retention policy, what is perhaps the most crucial element?
-		A. Location of the data archive
-		B. Frequency of backups
-		C. Security controls in long-term storage
-		D. Data recovery procedures
-Answer:
-D. This is not an easy question and requires some interpretation and abstract thought. All of the elements listed are extremely important aspects of the data retention policy. However, using proper data retrieval procedures is the one without which all the others may become superfluous. An organization can perform thorough backups in a timely manner and secure them properly at an excellent location, but if those backups can’t be used to restore the operational environment, they are pointless.
+### Question # 125 - In a data retention policy, what is perhaps the most crucial element?          
+A. Location of the data archive     
+B. Frequency of backups     
+C. Security controls in long-term storage     
+D. Data recovery procedures    
+Answer: D.     
+
+This is not an easy question and requires some interpretation and abstract thought. All of the elements listed are extremely important aspects of the data retention policy. However, using proper data retrieval procedures is the one without which all the others may become superfluous. An organization can perform thorough backups in a timely manner and secure them properly at an excellent location, but if those backups can’t be used to restore the operational environment, they are pointless.
 All the other options are important, but option D is probably the most important.
 
-### Question # 126 - __________ is the practice of taking data out of the production environment and putting it into long-term storage.
-		A. Deletion
-		B. Archiving
-		C. Crypto-shredding
-		D. Storing
-Answer:
-B. The question states the definition of archiving.
+### Question # 126 - __________ is the practice of taking data out of the production environment and putting it into long-term storage.     
+A. Deletion    
+B. Archiving     
+C. Crypto-shredding      
+D. Storing      
+Answer: B.     
+
+The question states the definition of archiving.
 Deletion involves using the operating system or an application to obscure the location of an object or file, so option A is wrong.
 Crypto-shredding is a secure sanitization technique using cryptographic techniques, so option C is wrong.
 Storing is a general term covering all retention of data, so option B is a better answer than option D.
 
-### Question # 127 - In general, all policies within an organization should include each of the following elements except _______________.
-		A. The date on which the policy will expire
-		B. The assignment of an entity to review the applicability of the possibility occasionally
-		C. The assignment of an entity to monitor and maintain the process described in the policy
-		D. A list of the laws, regulations, practices, and/or standards that drove the creation of the policy
-Answer:
-A. Not all policies are temporary or have expected durations; usually, policy is an enduring piece of governance that will continue until such time as it is revoked.
+### Question # 127 - In general, all policies within an organization should include each of the following elements except _______________.      
+A. The date on which the policy will expire      
+B. The assignment of an entity to review the applicability of the possibility occasionally     
+C. The assignment of an entity to monitor and maintain the process described in the policy       
+D. A list of the laws, regulations, practices, and/or standards that drove the creation of the policy       
+Answer: A. 
+
+Not all policies are temporary or have expected durations; usually, policy is an enduring piece of governance that will continue until such time as it is revoked.
 All the other options are elements that should usually be included in policies.
 
-### Question # 128 - The goals of secure sanitization (or “data destruction”) include all of the following except _______________.
-		A. Removing data objects or files
-		B. Minimizing or eliminating data remanence
-		C. Removing pointers and metadata about specific files or objects
-		D. Creating a secure, archived copy for business continuity and disaster recovery (BC/DR) purposes
-Answer:
-D. Secure sanitization is intended to ensure that there is no possible way for the data to be recovered; a backup copy would defeat the entire purpose.
+### Question # 128 - The goals of secure sanitization (or “data destruction”) include all of the following except _______________.     
+A. Removing data objects or files     
+B. Minimizing or eliminating data remanence      
+C. Removing pointers and metadata about specific files or objects       
+D. Creating a secure, archived copy for business continuity and disaster recovery (BC/DR) purposes         
+Answer: D. 
+
+Secure sanitization is intended to ensure that there is no possible way for the data to be recovered; a backup copy would defeat the entire purpose.
 All the other answers are goals of secure sanitization.
 
-### Question # 129 - Why is deleting a file or object insufficient for secure sanitization purposes?
-		A. Drives and disks must be demagnetized for true secure destruction.
-		B. Physical destruction is the only acceptable method of secure sanitization.
-		C. Deletion usually only removes pointers or indicators of file location.
-		D. Only administrators should be allowed to delete files or objects.
-Answer:
-C. Deletion, using basic system assets (usually the operating system), mainly involves removing pointers to and addresses of the files or objects that are the targets of deletion. This leaves the raw data remaining on the storage resource, and it could be recovered later.
+### Question # 129 - Why is deleting a file or object insufficient for secure sanitization purposes?       
+A. Drives and disks must be demagnetized for true secure destruction.     
+B. Physical destruction is the only acceptable method of secure sanitization.     
+C. Deletion usually only removes pointers or indicators of file location.    
+D. Only administrators should be allowed to delete files or objects.      
+Answer: C.      
+
+Deletion, using basic system assets (usually the operating system), mainly involves removing pointers to and addresses of the files or objects that are the targets of deletion. This leaves the raw data remaining on the storage resource, and it could be recovered later.
+
 Options A and B both include secure destruction methods, but they are not exclusive (obviously, because there are two of them), so therefore they are untrue and also incorrect.
+
 Option D does not make practical sense; if users could not delete files/objects, common workplace activity would become burdensome and difficult.
 
-### Question # 130 - Data destruction in the cloud is difficult because ____________.
-		A. Cloud data doesn’t have substance
-		B. Regulations prevent it
-		C. The hardware belongs to the provider
-		D. Most of the data is subterranean
-Answer:
-C. The preferred methods of secure sanitization require physical access to (and control of) the hardware on which the data is stored; in the cloud, this belongs to the cloud provider, and the cloud customer will not be allowed to perform destructive procedures.
+### Question # 130 - Data destruction in the cloud is difficult because ____________.     
+A. Cloud data doesn’t have substance     
+B. Regulations prevent it    
+C. The hardware belongs to the provider     
+D. Most of the data is subterranean     
+Answer: C. 
+
+The preferred methods of secure sanitization require physical access to (and control of) the hardware on which the data is stored; in the cloud, this belongs to the cloud provider, and the cloud customer will not be allowed to perform destructive procedures.
 Options A, B, and D are incorrect because the question is about the difficulty of performing data destruction in the cloud computing environment. Often, the only reliable form of data destruction is to destroy the hardware where it is stored. None of these options address that question the way that option C does.
 
-### Question # 131 - Data destruction in the cloud is difficult because ____________.
-		A. Data in the cloud is constantly being replicated and backed up
-		B. Delete commands are prohibited in the cloud
-		C. Internet service providers (ISPs) will not allow destruction of data stored in the cloud
-		D. The end clients may prevent it
-Answer:
-A. One of the benefits of using managed cloud services is that most providers are constantly performing backup and preservation activities in order to ensure that customers do not lose data. This can make it complicated for customers to even locate all their stored data, much less permanently destroy it.
+### Question # 131 - Data destruction in the cloud is difficult because ____________.      
+A. Data in the cloud is constantly being replicated and backed up     
+B. Delete commands are prohibited in the cloud     
+C. Internet service providers (ISPs) will not allow destruction of data stored in the cloud      
+D. The end clients may prevent it           
+Answer: A. 
+
+One of the benefits of using managed cloud services is that most providers are constantly performing backup and preservation activities in order to ensure that customers do not lose data. This can make it complicated for customers to even locate all their stored data, much less permanently destroy it.
 Delete commands are certainly allowed in the cloud. Otherwise, cloud providers would eventually run out of storage space. Option B is incorrect.
+
 Option C is incorrect because ISPs do not have the authority to prohibit the destruction of data by data owners.
 It may be unclear who the “end client” is in option D. If the end client is the individual, then it does not make sense that the individual would prohibit the destruction of data by the cloud provider, given that the cloud provider owns the hardware itself.
 
-### Question # 132 - Data destruction in the cloud is difficult because ____________.
-		A. Only law enforcement is permitted to destroy cloud data
-		B. The largest cloud vendors have prevented customers from destroying data
-		C. Cloud data renews itself automatically
-		D. The cloud is often a multitenant environment
-Answer:
-D. Secure sanitization would affect storage resources where more than one customer stores their data; truly secure destructive measures would likely result in destroying data belonging to someone else.
+### Question # 132 - Data destruction in the cloud is difficult because ____________.      
+A. Only law enforcement is permitted to destroy cloud data      
+B. The largest cloud vendors have prevented customers from destroying data     
+C. Cloud data renews itself automatically      
+D. The cloud is often a multitenant environment      
+Answer: D. 
+
+Secure sanitization would affect storage resources where more than one customer stores their data; truly secure destructive measures would likely result in destroying data belonging to someone else.
 Law enforcement can destroy their own data, however, law enforcement is not permitted to destroy data that belongs to other individuals. Option A is therefore incorrect.
 Option B is incorrect because data destruction is required from time to time in the cloud as part of system maintenance.
 Fortunately, option C is incorrect. If data renewed itself automatically in the cloud then cloud providers would eventually run out of storage space.
 
-### Question # 133 - Which of the following is the best and only completely secure method of data destruction?
-		A. Degaussing
-		B. Crypto-shredding
-		C. Physical destruction of resources that store the data
-		D. Legal order issued by the prevailing jurisdiction where the data is geographically situated
-Answer:
-C. Destroying the drive, disk, and media where the data resides is the only true, complete method of data destruction.
+### Question # 133 - Which of the following is the best and only completely secure method of data destruction?      
+A. Degaussing     
+B. Crypto-shredding     
+C. Physical destruction of resources that store the data      
+D. Legal order issued by the prevailing jurisdiction where the data is geographically situated     
+Answer: C. 
+
+Destroying the drive, disk, and media where the data resides is the only true, complete method of data destruction.
 Options A and B are also good methods for data destruction, but neither is the best method.
 Option D is incorrect because a legal order is not a secure method of data destruction and therefore it cannot be the correct answer.
 
-### Question # 134 - Aside from the fact that the cloud customer probably cannot reach the physical storage assets of the cloud provider and that wiping an entire storage space would impact other customers, why would degaussing probably not be an effective means of secure sanitization in the cloud?
-		A. All the data storage space in the cloud is already gaussed.
-		B. Cloud data storage may not be affected by degaussing.
-		C. Federal law prohibits it in the United States.
-		D. The blast radius is too wide.
-Answer:
-B. Cloud data storage likely uses solid-state drives (or disks), which are not affected by degaussing because they don’t use magnetic properties to store data.
+### Question # 134 - Aside from the fact that the cloud customer probably cannot reach the physical storage assets of the cloud provider and that wiping an entire storage space would impact other customers, why would degaussing probably not be an effective means of secure sanitization in the cloud?       
+A. All the data storage space in the cloud is already gaussed.      
+B. Cloud data storage may not be affected by degaussing.      
+C. Federal law prohibits it in the United States.       
+D. The blast radius is too wide.        
+Answer: B. 
+
+Cloud data storage likely uses solid-state drives (or disks), which are not affected by degaussing because they don’t use magnetic properties to store data.
 Option A is incorrect because it is untrue. A gauss is a unit of magnetism. Not all data storage devices in the cloud are magnetic. Some storage space does not require magnetism to work. Solid State Drives (SSDs) are an example of a type of storage space that does not rely on magnetism to store data.
 Federal law does not prohibit degaussing of magnetic media in the United States so option C is incorrect.
 Option D is incorrect because process of degaussing magnetic media does not produce a blast and therefore it does not produce a blast radius.
 
-### Question # 135 - Is overwriting a feasible secure sanitization method in the cloud?
-		A. Yes, but only if you use multiple passes.
-		B. No, because you can’t get physical access to cloud storage resources.
-		C. Yes, but it requires a final pass with all zeros or ones.
-		D. No, because the logical location of the stored data is almost impossible to determine.
-Answer:
-D. Overwriting is the practice of filling the entire storage of the target data with randomized characters (usually involving multiple passes and a final pass with a single, repeated character). In the cloud, this is untenable for many reasons, including the fact that cloud data is constantly moving from one storage resource to another and is not kept in a single, identifiable logical location for an extended period of time (which is actually a security benefit). Without you knowing which storage resources to overwrite, overwriting is impossible.
+### Question # 135 - Is overwriting a feasible secure sanitization method in the cloud?     
+A. Yes, but only if you use multiple passes.    
+B. No, because you can’t get physical access to cloud storage resources.        
+C. Yes, but it requires a final pass with all zeros or ones.         
+D. No, because the logical location of the stored data is almost impossible to determine.       
+Answer: D.       
+
+Overwriting is the practice of filling the entire storage of the target data with randomized characters (usually involving multiple passes and a final pass with a single, repeated character). In the cloud, this is untenable for many reasons, including the fact that cloud data is constantly moving from one storage resource to another and is not kept in a single, identifiable logical location for an extended period of time (which is actually a security benefit). Without you knowing which storage resources to overwrite, overwriting is impossible.
+
 All the other options are only distractors. Options A and C describe elements of the overwriting process but not reasons why it’s challenging in the cloud. Option B is true, but overwriting does not require physical access, so the option is incorrect.
 
-### Question # 136 - All of the following are reasons overwriting is not a viable secure sanitization method for data stored in the cloud except _______________.
-		A. Overwriting an entire storage resource would affect other tenants’ data
-		B. Regulators usually frown on the practice
-		C. Locating the specific storage locations of cloud data is almost impossible
-		D. Data is being backed constantly in the cloud; before you finished overwriting an entire data set, it would have been replicated elsewhere
-Answer:
-B. Regulators do not disapprove of secure sanitization; it is an acceptable form of secure data destruction if implemented properly.
-All the other answers are actual reasons overwriting is not a viable secure sanitization method in the cloud.
+### Question # 136 - All of the following are reasons overwriting is not a viable secure sanitization method for data stored in the cloud except _______________.      
+A. Overwriting an entire storage resource would affect other tenants’ data          
+B. Regulators usually frown on the practice        
+C. Locating the specific storage locations of cloud data is almost impossible       
+D. Data is being backed constantly in the cloud; before you finished overwriting an entire data set, it would have been replicated elsewhere      
+Answer: B. 
 
-### Question # 137 - Which of the following might make crypto-shredding difficult or useless?
-		A. The cloud provider also managing the organization’s keys
-		B. Lack of physical access to the environment
-		C. External attackers
-		D. Lack of user training and awareness
-Answer:
-A. Crypto-shredding relies on the eventual destruction of the final keys; if keys are not under the management of the customer, they may be replicated or difficult to dispose of.
+Regulators do not disapprove of secure sanitization; it is an acceptable form of secure data destruction if implemented properly.
+All the other answers are actual reasons overwriting is not a viable secure sanitization method in the cloud.
+  
+### Question # 137 - Which of the following might make crypto-shredding difficult or useless?      
+A. The cloud provider also managing the organization’s keys     
+B. Lack of physical access to the environment     
+C. External attackers      
+D. Lack of user training and awareness      
+Answer: A. 
+
+Crypto-shredding relies on the eventual destruction of the final keys; if keys are not under the management of the customer, they may be replicated or difficult to dispose of.
 The lack of physical access to the cloud environment should not affect the crypto-shredding process, so option B is incorrect.
 External attackers should not affect the crypto-shredding process, so option C is incorrect.
 Crypto-shredding should not require input or activity from users, so option D is incorrect.
 
-### Question # 138 - Crypto-shredding requires at least ____ cryptosystem(s).
-		A. One
-		B. Two
-		C. Three
-		D. Four
-Answer:
-B. The proper procedure for crypto-shredding requires two cryptosystems: one to encrypt the target data, the other to encrypt the resulting data encryption keys.
+### Question # 138 - Crypto-shredding requires at least ____ cryptosystem(s).     
+A. One     
+B. Two     
+C. Three     
+D. Four     
+Answer: B.    
+
+The proper procedure for crypto-shredding requires two cryptosystems: one to encrypt the target data, the other to encrypt the resulting data encryption keys.
 All the other answers are wrong and just distractors.
 
-### Question # 139 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.
-		A. Ensuring profitability
-		B. Increasing performance
-		C. Motivating users
-		D. Correcting accidental errors
-Answer:
-D. If users inadvertently erase or modify data, an archived backup copy could be useful for restoring the original, correct version.
+### Question # 139 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
+A. Ensuring profitability     
+B. Increasing performance      
+C. Motivating users      
+D. Correcting accidental errors      
+Answer: D. 
+
+If users inadvertently erase or modify data, an archived backup copy could be useful for restoring the original, correct version.
 All the other answers are incorrect; archiving does none of those things.
 
-### Question # 140 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.
-		A. Team building and morale
-		B. Forensic investigation
-		C. Choosing security controls
-		D. Enhancing quality
-Answer:
-B. An archived data set could be useful for investigative purposes, especially if it covers a significant period of time and includes multiple copies. The archived versions may be used as a reference to determine when a certain malicious activity occurred, which is useful during an investigation.
+### Question # 140 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.       
+A. Team building and morale    
+B. Forensic investigation     
+C. Choosing security controls     
+D. Enhancing quality       
+Answer: B.    
+
+An archived data set could be useful for investigative purposes, especially if it covers a significant period of time and includes multiple copies. The archived versions may be used as a reference to determine when a certain malicious activity occurred, which is useful during an investigation.
 All the other answers are incorrect; archiving does not aid in these functions.
 
-### Question # 141 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.
-		A. Compliance/audit
-		B. Monitoring performance
-		C. Gathering investment
-		D. Enforcing policy
-Answer:
-A. Archiving may be required by regulation, and archived versions of the environment or data may be used to create deliverables for auditors, especially if the archive included event logs.
+### Question # 141 - In addition to having it for business continuity and disaster recovery (BC/DR) purposes, data archiving might also be useful for _______________.     
+A. Compliance/audit    
+B. Monitoring performance     
+C. Gathering investment      
+D. Enforcing policy    
+Answer: A.       
+
+Archiving may be required by regulation, and archived versions of the environment or data may be used to create deliverables for auditors, especially if the archive included event logs.
 Archived data is not an optimum gauge of performance because it is not “live” data—that is, the archived data is no longer in the operational environment and so is not a useful indicator of how well that environment currently operates. Option B is therefore incorrect.
 Archiving has nothing to do with investment; option C is incorrect.
 Archiving may occur as the result of policy but is not an enforcement tool; thus, option D is incorrect.
 
-### Question # 142 -  Who is responsible for performing archiving activities in a managed cloud environment?
-		A. The cloud customer
-		B. The cloud provider
-		C. The customer’s regulator
-		D. Depends on the contract
-Answer:
-D. Many cloud providers will offer archiving services as a feature of the basic cloud service; realistically, most providers are already performing this function to avoid inadvertent loss of customer data, so marketing it is a logical step. However, because the customer is ultimately responsible for the data, the customer may elect to use another, or an additional, archive method. The contract will stipulate specific terms, such as archive size, duration, and so on.
+### Question # 142 -  Who is responsible for performing archiving activities in a managed cloud environment?    
+A. The cloud customer     
+B. The cloud provider    
+C. The customer’s regulator     
+D. Depends on the contract      
+Answer: D. 
+
+Many cloud providers will offer archiving services as a feature of the basic cloud service; realistically, most providers are already performing this function to avoid inadvertent loss of customer data, so marketing it is a logical step. However, because the customer is ultimately responsible for the data, the customer may elect to use another, or an additional, archive method. The contract will stipulate specific terms, such as archive size, duration, and so on.
 Either the cloud customer or provider (or both) may perform archiving, depending on the contract terms, so options A and B are incorrect.
 Regulators do not perform archiving; option C is incorrect.
 
-### Question # 143 -  Data archiving and retention policies should include __________.
-		A. How long the data must be kept before destruction
-		B. The depth of underground storage bunkers used for archiving
-		C. The names of specific personnel tasked with restoring data in the event of data loss in the operational environment
-		D. The name(s) of regulators approving the policy
-Answer:
-A. The policy for data archiving and retention must include guidance on the length of time data is expected to remain stored.
+### Question # 143 -  Data archiving and retention policies should include __________.     
+A. How long the data must be kept before destruction     
+B. The depth of underground storage bunkers used for archiving     
+C. The names of specific personnel tasked with restoring data in the event of data loss in the operational environment      
+D. The name(s) of regulators approving the policy     
+Answer: A. 
+
+The policy for data archiving and retention must include guidance on the length of time data is expected to remain stored.
 Describing or prescribing the physical specifications of a secure archive facility is probably beyond the responsibility or requirements of a data owner (and belowground storage is not a requirement for archiving and retention), so option B is incorrect.
 Although it is important to task and train personnel to take part in data restoration from archived data, naming the specific personnel in the policy is not an optimum or useful practice, so option C is incorrect.
 Although management is responsible for publishing and promulgating policy and governance, the name of the specific manager is not the essential element (but their office or position is). Regulators don’t personally approve internal policies of the organizations they oversee, so option D is incorrect.
 
-### Question # 144 -  What should data archiving and retention policies include?
-		A. Names of personnel allowed to receive backup media, if third-party off-site archiving services are used
-		B. Explicit statement of data formats and types of storage media
-		C. A list of personnel whose data will be archived on a regular basis
-		D. Which Internet service provider (ISP) should be used for backup procedures
-Answer:
-B. It is important to indicate the data format and media type for long-term storage in order to ensure restoration capability; outdated or obsolete data formats and media may not be useful for restoration of data to the operational environment several years after it has been stored.
+### Question # 144 -  What should data archiving and retention policies include?     
+A. Names of personnel allowed to receive backup media, if third-party off-site archiving services are used     
+B. Explicit statement of data formats and types of storage media     
+C. A list of personnel whose data will be archived on a regular basis         
+D. Which Internet service provider (ISP) should be used for backup procedures      
+Answer: B.       
+
+It is important to indicate the data format and media type for long-term storage in order to ensure restoration capability; outdated or obsolete data formats and media may not be useful for restoration of data to the operational environment several years after it has been stored.
+
 Options A and C are not correct because specific names don’t belong at the policy level of governance; the specific names (or identification credentials) of allowed third-party recipients should be included at the process/procedure level of governance, and a list of offices or departments whose data will be archived can be included in the policy.
+
 Option D is not correct because the particular ISP should not have any bearing on the archiving policy.
 
-### Question # 145 -  If the organization operates in a cloud environment, security operations procedures should include specific contact information for all of the following except _______________.
-		A. Applicable regulatory entities
-		B. Federal and local law enforcement
-		C. The originator or publisher of the governing policy
-		D. The cloud provider’s security response office
-Answer:
-C. Once the policies have been published and put into force, the names and contact information of the people who crafted them are no longer useful or germane.
+### Question # 145 -  If the organization operates in a cloud environment, security operations procedures should include specific contact information for all of the following except _______________.    
+A. Applicable regulatory entities    
+B. Federal and local law enforcement     
+C. The originator or publisher of the governing policy    
+D. The cloud provider’s security response office     
+Answer: C.      
+
+Once the policies have been published and put into force, the names and contact information of the people who crafted them are no longer useful or germane.
 All the other options represent entities that the organization may want to contact in the event of a security incident or breach and so should be included in security procedure documentation.
 
-### Question # 146 -  If the organization operates in a cloud environment, security operations procedures should include guidance for all of the following audit or logging processes except _______________.
-		A. Definition of security events and incidents
-		B. The brand or vendor of the cloud provider’s audit or logging tool
-		C. Process for adding new audit or logging rules
-		D. Process for filtering out false positives by amending the rule set
-Answer:
-B. This is a question that requires some thought. All the answers are processes or elements that should be included in the security operations’ procedures except for option B; the cloud customer will not get to select, or probably even know, what tools and devices the cloud provider has put into place, so this will not be included in the customer’s procedures.
+### Question # 146 -  If the organization operates in a cloud environment, security operations procedures should include guidance for all of the following audit or logging processes except _______________.     
+A. Definition of security events and incidents     
+B. The brand or vendor of the cloud provider’s audit or logging tool     
+C. Process for adding new audit or logging rules    
+D. Process for filtering out false positives by amending the rule set     
+Answer: B.     
 
-### Question # 147 -  What does nonrepudiation mean?
-		A. Prohibiting certain parties from a private conversation
-		B. Ensuring that a transaction is completed before saving the results
-		C. Ensuring that someone cannot turn off auditing capabilities while performing a function
-		D. Preventing any party that participates in a transaction from claiming that it did not
-Answer:
-D. Option D is the definition of nonrepudiation.
+This is a question that requires some thought. All the answers are processes or elements that should be included in the security operations’ procedures except for option B; the cloud customer will not get to select, or probably even know, what tools and devices the cloud provider has put into place, so this will not be included in the customer’s procedures.
+
+### Question # 147 -  What does nonrepudiation mean?     
+A. Prohibiting certain parties from a private conversation     
+B. Ensuring that a transaction is completed before saving the results     
+C. Ensuring that someone cannot turn off auditing capabilities while performing a function     
+D. Preventing any party that participates in a transaction from claiming that it did not    
+Answer: D. 
+
+Option D is the definition of nonrepudiation.
+
 Option A is a description of confidentiality.
+
 Option B is an element of the Atomicity, Consistency, Isolation, Durability (ACID) test to enhance the utility and security of a database.
+
 Option C is a technique to reduce the likelihood of nonrepudiation but not the definition of the term.
-
-
-O
-{<img width="564" height="30633" alt="image" src="https://github.com/user-attachments/assets/215a85cf-1fed-4602-8e9c-6f9f59cf2737" />
-
