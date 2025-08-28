@@ -28,17 +28,17 @@ B.	VLANs.
 C.	Broad	 network	access.  
 D.	Software-defined	 networking.  
 
-### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?  
+### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?         
 A.	Service	 provider. 
 B.	Service	 party. 
 C.	Relying	 party. 
-D.	Application	provider. 
+D.	Application	provider.       
 
 ### Question # 7 - Which	cloud	 storage	method	utilizes	a 	key	value	to	access	data	from	anapplication	or	client?  
 A.	Object.  
 B.	Volume.  
-C.	Structured.  
-D.	Unstructured.  
+C.	Structured.       
+D.	Unstructured.        
 
 ### Question # 8 - 	Which	 of	the	following	is	the	 most	 prominent	potential	 problem	point	 with object	storage	for	systems	that	have	high	data	reading 	and	 writing dependencies?  
 A.	Integrity	of	objects.  
@@ -304,16 +304,16 @@ C	is	incorrect	because	the	correct	term	is	borrowing,	not	adapting.
 
 D	is	incorrect	because	the	correct	term	is	borrowing,	not	scaling.
 
-### Question # 3 - When	 dealing	 with	 a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer	 may	want	contractual	assurances	that sufficient	resources	 to	start 	and	 operate	their	services	will	always	be available.	What	is	this	type	of	assurance 	called?   
-A.	Limit. 
-B.	Reservation. 
-C.	Share.  
-D.	Guarantee.    
-Answer: B.
+### Question # 3 - When	 dealing	 with	 a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer	 may	want	contractual	assurances	that sufficient	resources	 to	start 	and	 operate	their	services	will	always	be available.	What	is	this	type	of	assurance 	called?       
+A.	Limit.         
+B.	Reservation.          
+C.	Share.          
+D.	Guarantee.            
+Answer: B.   
 
 A	reservation	is	a 	minimum	 resource 	level	guaranteed	to	a	customer within	a	cloud	environment.
 A	reservation	can	 pertain	to	the	two	 main aspects	 of	computing:	memory	and	processing.	With	a	reservation	in place,	a	cloud	customer	is	guaranteed	by	the	cloud	provider	to	always have	at	minimum	the	necessary	resources	 available	to	power	on	and operate	 any	of	its	 services.	
-In	large	 cloud	environments	with numerous	customers,	this	feature	 can	be	of	particular	importance	in the	case	of	denial	of	service	attacksv	or	high	utilization	of	resources 	by other 	hosts	 and	systems	 because	it	offers	a	guaranteed	 minimum	 level of	operations	to	all	customers.
+In	large	 cloud	environments	with numerous	customers,	this	feature	 can	be	of	particular	importance	in the	case	of	denial	of	service	attacksv	or	high	utilization	of	resources 	by other 	hosts	 and	systems	because	it	offers	a	guaranteed	 minimum	 level of	operations	to	all	customers.
 
 A	is	incorrect	because	limits	are	put	in	place	to	enforce	the	maximum allowable	utilization	of	memory	or	processing	by	a	cloud	customer. These	limits	can	be	done	at	either	the	virtual	machine	level	or	a comprehensive	level	for	a	customer.	They	are	meant	to	ensure	that enormous	cloud	resources	cannot	be	allocated	to	or	consumed	by	a single	host	or	customer	to	the	detriment	of	other	hosts	and	customers.
 Along	with	cloud	computing	features	such	as	auto-scaling	and	ondemand	self-service,	limits	can	be	either	hard	(or	fixed)	or	flexible and	allowed	to	change	dynamically.	Typically,	when	limits	are allowed	to	change	dynamically	based	on	current	conditions	and consumption,	it	is	done	by	“borrowing”	additional	resources	rather through	a	change	to	the	actual	limits	themselves.
