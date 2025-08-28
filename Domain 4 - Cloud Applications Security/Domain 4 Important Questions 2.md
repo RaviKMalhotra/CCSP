@@ -318,7 +318,7 @@ D	is	incorrect	because	a	system	would	want	network	validation	done before	conten
 A.	Regulations    
 B.	Latency    
 C.	Redundancy    
-D.	Interoperability
+D.	Interoperability                   
 Answer: B.	
 
 **Authentication	systems,	as	a	security	check,	enforce	limited	time requirements	for	authentication	tokens	and	any	checks	to	be performed	and	validated.**	
