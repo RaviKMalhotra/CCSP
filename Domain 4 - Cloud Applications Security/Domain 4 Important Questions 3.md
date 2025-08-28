@@ -196,22 +196,23 @@ B.	FIPS 140-2.
 C.	SSL.   
 D.	SHA- 2.   
 
-### Question # 34 - Megan wants to increase the auditability of the use of privileges in her infrastructure. Which of the following solutions will have the biggest positive impact on auditability?    A. Use shared service accounts.   
+### Question # 34 - Megan wants to increase the auditability of the use of privileges in her infrastructure. Which of the following solutions will have the biggest positive impact on auditability?        
+A. Use shared service accounts.            
 B.	Use multifactor authentication.    
 C.	Use dynamic secrets.     
 D.	Use API keys.    
 
 ### Question # 35 - In the testing phase of the software development life cycle (SDLC), software performance and ___________________ should both be reviewed.    
-A.	Version. 
+A.	Version.         
 B.	Complexity.  
 C.	Size.   
 D.	Security.   
 
-### Question # 36 - Chris wants to use a cloud provider–hosted mechanism to store and manage his organization’s secrets. What type of solution should he look for?     
-A.	KMS. 
-B.	PKI. 
-C.	CA.  
-D.	KCS.     
+### Question # 36 - Chris wants to use a cloud provider–hosted mechanism to store and manage his organization’s secrets. What type of solution should he look for?        
+A.	KMS.       
+B.	PKI.          
+C.	CA.            
+D.	KCS.              
 
 ### Question # 37 - What entity provides authentication services in a federation?     
 A.	IdP.     
@@ -219,17 +220,17 @@ B.	RP.
 C.	SP.    
 D.	SSO.     
 
-### Question # 38 - Docker is an example of what sort of tool?  
-A.	Microservices launcher. 
-B.	Cloud application security broker. 
-C.	A containerization platform. 
-D.	A web application firewall. 
+### Question # 38 - Docker is an example of what sort of tool?           
+A.	Microservices launcher.               
+B.	Cloud application security broker.            
+C.	A containerization platform.            
+D.	A web application firewall.          
 
-### Question # 39 - Yasmine is working with a software as a service vendor. What part of the environment does Yasmine’s company have responsibility for? 
-A. Applications and data storage.   
-B.	The OS, middleware, and runtime.   
-C.	Storage and networking.   
-D.	The vendor is responsible for the environment.   
+### Question # 39 - Yasmine is working with a software as a service vendor. What part of the environment does Yasmine’s company have responsibility for?        
+A. Applications and data storage.           
+B.	The OS, middleware, and runtime.            
+C.	Storage and networking.                            
+D.	The vendor is responsible for the environment.            
 
 ### Question # 40 -	Jason wants to use multifactor authentication. Which of the following lists a valid multifactor set?   
 A.	A username, password, and PIN.  
@@ -274,10 +275,11 @@ B.	A SIEM.
 C.	Sandboxing.    
 D.	Antivirus.    
 
-### Question # 47 - Kieran’s team has deployed a CASB and wants to focus on data protection. Which of the following capabilities will most effectively help protect against third parties accessing data while it travels between Kieran’s on- premises location and their cloud vendors?           A. Encryption.    
-B.	Tokenization.    
-C.	Masking.    
-D.	Upload prevention.    
+### Question # 47 - Kieran’s team has deployed a CASB and wants to focus on data protection. Which of the following capabilities will most effectively help protect against third parties accessing data while it travels between Kieran’s on- premises location and their cloud vendors?              
+A. Encryption.           
+B.	Tokenization.          
+C.	Masking.                
+D.	Upload prevention.                
 
 ### Question # 48 - 	Selah is preparing a container to deploy her application to a cloud service provider’s containerization service. Which of the following components will not be included in the container?       
 A.	The host kernel for the operating system.   
@@ -359,12 +361,11 @@ B.	AES- cert.
 C.	FIPS 140- 2.    
 D.	GLBA validated.     
 
-### Question # 61 - Kwame wants to limit the impact of potentially compromised secrets in his environment. 
-What should he do to most effectively limit the issues compromised secrets can cause?      
-A. Extend secrets lifecycle.     
-B.	Rotate secrets.     
-C.	Replace secrets with tokens.    
-D.	Implement a secret expiration list.    
+### Question # 61 - Kwame wants to limit the impact of potentially compromised secrets in his environment. What should he do to most effectively limit the issues compromised secrets can cause?       
+A. Extend secrets lifecycle.      
+B.	Rotate secrets.                     
+C.	Replace secrets with tokens.              
+D.	Implement a secret expiration list.           
 
 ### Question # 62 - As part of her organization’s SDLC, Olivia is testing whether the business logic in a new application generates correct output. What type of testing is Olivia conducting?    
 A.	Stress testing.    
@@ -453,9 +454,7 @@ B.	Functional testing.
 C.	White box.    
 D.	Nonfunctional testing.    
 
-### Question # 76 - 	Gabriel’s organization wants to ensure that their open source software is properly licensed. 
-What should they were do?     
-
+### Question # 76 - 	Gabriel’s organization wants to ensure that their open source software is properly licensed. What should they were do?     
 A.	Contact the authors of each component to request permission to use them.     
 B.	Engage a third- party license management vendor to ensure compliance with the licenses.      
 C. Pay appropriate licensing fees to the licensing organization for each software component.      
@@ -609,7 +608,7 @@ B.	SAFECode.
 C.	OWASP.    
 D.	SANS/CWE.  
  
-Chapter 4: Domain 4: Cloud Application Security
+### Answers: Chapter 4: Domain 4: Cloud Application Security
 
 1.	D. Mikayla can’t validate third-p arty software’s lack of vulnerabilities or other security issues simply by validating that it is signed, that its hash matches an officially posted hash, or that the checksum matches ensuring the file is intact. She’ll need to test the software herself or identify a third party that she can rely on that does appropriate software testing. Even then, the software could still contain flaws.
 
