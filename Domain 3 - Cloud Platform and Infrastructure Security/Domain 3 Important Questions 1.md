@@ -535,12 +535,13 @@ Identification of personnel is usually verified during the hiring process, when 
 Options A and B include offices that may play a role in the identification process, but it is usually HR that does the actual verification.
 Option D, “Sales” is untrue. If a Sales department exists in an organization, it does not perform the verification part of the provisioning element of the identification process.
 	
-### Question # 48 - Of the following options, which is a reason cloud data center audits are often less easy to verify than traditional audits?   
+### Question # 48 - Of the following options, which is a reason cloud data center audits are often less easy to verify than traditional audits?        
 A. Data in the cloud can’t be audited.    
 B. Controls in the cloud can’t be audited.     
 C. Getting physical access can be difficult.     
-D. There are no regulators for cloud operations.    
-Answer: C. 
+D. There are no regulators for cloud operations.         
+Answer: C.     
+
 Cloud providers may be reluctant to grant physical access, even to their customers, on the assumption that allowing access would disclose information about security controls. In some cases, cloud customers won’t even know the location(s) of the data center(s) where their data is stored.
 The other options are all untrue. Data in the cloud and controls in the cloud can most certainly be audited. So, options A and B are incorrect. D is untrue; there are regulators for all industries, including those that operate in the cloud.
 	
@@ -865,9 +866,9 @@ Option D is a distractor; not all organizations need encrypted communications du
 ### Question # 76 - Why does the physical location of your data backup and/or BC/DR failover environment matter?       
 A. It may affect regulatory compliance.     
 B. Lack of physical security.      
-C. Environmental factors such as humidity     .
+C. Environmental factors such as humidity.      
 D. It doesn’t matter. Data can be saved anywhere without consequence.       
-Answer: A. 
+Answer: A.       
 
 Depending on your industry and the nature of your data, moving information into another jurisdiction may affect or invalidate your regulatory compliance.
 Cloud providers, wherever they are located, should compensate for environmental and physical security factors, so this should have no impact on your potential risk; options B and C are incorrect.
