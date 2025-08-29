@@ -15,7 +15,9 @@ C.	The entity that uses personally identifiable information (PII) on behalf of t
 D.	The entity that regulates personally identifiable information (PII)
 
 Your company is defending itself during a civil trial for a breach of contract case. Personnel from your IT department have performed forensic analysis on event logs that reflect the circumstances related to the case.
-In order for your personnel to present the evidence they collected during forensic analysis as expert witnesses, you should ensure that _________________. A. Their testimony is scripted, and they do not deviate from the script
+
+In order for your personnel to present the evidence they collected during forensic analysis as expert witnesses, you should ensure that _________________. 
+A. Their testimony is scripted, and they do not deviate from the script
 B.	They present only evidence that is favorable to your side of the case
 C.	They are trained and certified in the tools they used
 D.	They are paid for their time while they are appearing in the courtroom
@@ -44,18 +46,18 @@ B.	Health Information Portability and Accountability Act (HIPAA)
 C.	Payment Card Industry Data Security Standards (PCI DSS)
 D.	Family Educational Rights and Privacy Act (FERPA)
 
-Rolando is a risk manager with a large- scale cloud service provider. The firm recently evaluated the risk of California mudslides on its operations in the region and determined that the cost of responding outweighed the benefits of any controls it could implement. The company chose to take no action at this time. What risk management strategy did Rolando’s organization pursue?
+### Rolando is a risk manager with a large- scale cloud service provider. The firm recently evaluated the risk of California mudslides on its operations in the region and determined that the cost of responding outweighed the benefits of any controls it could implement. The company chose to take no action at this time. What risk management strategy did Rolando’s organization pursue?
 A.	Risk avoidance
 B.	Risk mitigation
 C.	Risk transference
 D.	Risk acceptance
 
-Yolanda is the chief privacy officer for a financial institution and is researching privacy requirements related to customer checking accounts. Which one of the following laws is most likely to apply to this situation?
+### Yolanda is the chief privacy officer for a financial institution and is researching privacy requirements related to customer checking accounts. Which one of the following laws is most likely to apply to this situation?
 A.	GLBA
 B.	SOX
 C.	HIPAA D. FERPA
 
-Bill is conducting an audit of a cloud provider under SSAE and ISAE standards. During the audit, he discovers that some records required to complete one of his tests were accidentally destroyed and are not recoverable. There are no alternative tests available for this control objective. What action should Bill take?
+### Bill is conducting an audit of a cloud provider under SSAE and ISAE standards. During the audit, he discovers that some records required to complete one of his tests were accidentally destroyed and are not recoverable. There are no alternative tests available for this control objective. What action should Bill take?
 A.	Describe the limitation in the audit scope statement.
 B.	Postpone the audit for one year until adequate records are available.
 C.	Issue a failing audit report.
@@ -114,82 +116,82 @@ B.	Obtain a SOC 1 report.
 C.	Obtain a SOC 2 report.
 D.	Continue testing only controls at the client and note the use of the cloud provider in her report.
 
-21.	Tony is developing a business continuity plan and is having trouble prioritizing resources because of the difficulty of combining information about tangible and intangible assets. What would be the most effective risk assessment approach for him to use?
+### 	Tony is developing a business continuity plan and is having trouble prioritizing resources because of the difficulty of combining information about tangible and intangible assets. What would be the most effective risk assessment approach for him to use?
 A.	Quantitative risk assessment
 B.	Qualitative risk assessment
 C.	Neither quantitative nor qualitative risk assessment
 D.	Combination of quantitative and qualitative risk assessment
 
-22.	What was the first international privacy standard specifically for cloud providers? A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800- 37
+### 	What was the first international privacy standard specifically for cloud providers? A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800- 37
 B.	Personal Information Protection and Electronic Documents Act
 C.	Payment Card Industry
 D.	ISO 27018
 
-23.	Which one of the following elements of information is not considered a direct identifier that  would trigger most United States (U.S.) state data breach laws?
+### Which one of the following elements of information is not considered a direct identifier that  would trigger most United States (U.S.) state data breach laws?
 A.	Student identification number
 B.	Social Security number
 C.	Driver’s license number
 D.	Credit card number
 
-24.	Which of the following items, included in the contract between a cloud customer and cloud provider, can best aid in reducing vendor lock- in?
+### Which of the following items, included in the contract between a cloud customer and cloud provider, can best aid in reducing vendor lock- in?
 A.	Data format type and structure
 B.	Availability
 C.	Storage space
 D.	List of available OSs
 
-25.	Which of the following contract terms most incentivizes the cloud provider to meet the requirements listed in the service-l evel agreement (SLA)?
+### Which of the following contract terms most incentivizes the cloud provider to meet the requirements listed in the service-l evel agreement (SLA)?
 A.	Regulatory oversight
 B.	Financial penalties
 C.	Performance details
 D.	Desire to maintain customer satisfaction
 
-26.	Fran recently conducted a review of the risk management program in her organization and developed an analysis of all of the risks facing the organization and their quantitative impact. What term best describes this analysis?
+### Fran recently conducted a review of the risk management program in her organization and developed an analysis of all of the risks facing the organization and their quantitative impact. What term best describes this analysis?
 A.	Risk appetite
 B.	Risk tolerance
 C.	Risk controls
 D.	Risk profile
 
-27.	Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?
+### Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?
 A.	ISO 27001 B. ISO 27018
 C.	ISO 27002
 D.	GDPR
 
-28.	You are the security manager for a software company that uses platform as a service (PaaS) in a public cloud service. Your company’s general counsel informs you that they have received a letter from a former employee who is filing a lawsuit against your company. You should immediately issue a(n) _________________ to all personnel and offices within your company.
+### You are the security manager for a software company that uses platform as a service (PaaS) in a public cloud service. Your company’s general counsel informs you that they have received a letter from a former employee who is filing a lawsuit against your company. You should immediately issue a(n) _________________ to all personnel and offices within your company.
 A.	Litigation hold notice
 B.	Audit scoping letter
 C.	Statement of work
 D.	Memorandum of agreement
 
-29.	Gwen is a cybersecurity professional for a financial services firm that maintains records of their customers. These records include personal information about each customer, including the customer’s name, Social Security number, date and place of birth, and mother’s maiden name. What category best describes these records?
+### Gwen is a cybersecurity professional for a financial services firm that maintains records of their customers. These records include personal information about each customer, including the customer’s name, Social Security number, date and place of birth, and mother’s maiden name. What category best describes these records?
 A.	PHI
 B.	Proprietary data
 C.	PII
 D.	EDI
 
-30.	Aaron is concerned about the possibility that a cloud vendor that his organization relies on may go out of business. What term best describes this risk?
+### Aaron is concerned about the possibility that a cloud vendor that his organization relies on may go out of business. What term best describes this risk?
 A.	Vendor lock- in
 B.	Vendor viability
 C.	Vendor lockout
 D.	Vendor diversity
 
-31.	Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing? A. Risk acceptance
+### Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing? A. Risk acceptance
 B.	Risk avoidance
 C.	Risk mitigation
 D.	Risk transference
 
-32.	Viola is planning a user account audit to determine whether accounts have the appropriate level of permissions and that all permissions were approved through a formal process. The organization has approximately 50,000 user accounts and an annual employee turnover rate of 24 percent. Which one of the following sampling approaches would be the most effective use of her time when choosing records for manual review?
+### Viola is planning a user account audit to determine whether accounts have the appropriate level of permissions and that all permissions were approved through a formal process. The organization has approximately 50,000 user accounts and an annual employee turnover rate of 24 percent. Which one of the following sampling approaches would be the most effective use of her time when choosing records for manual review?
 A.	Select all records that have been modified during the past month.
 B.	Ask access administrators to identify the accounts most likely to have issues and audit those.
 C.	Select a random sample of records, either from the entire population or from the population of records that have changed during the audit period.
 D.	Sampling is not effective in this situation, and all accounts should be audited.
 
-33.	Which one of the following issues is not normally addressed in a service- level agreement (SLA)?
+### Which one of the following issues is not normally addressed in a service- level agreement (SLA)?
 A.	Confidentiality of customer information
 B.	Failover time
 C.	Uptime
 D.	Maximum consecutive downtime
 
-34.	Elise is helping her organization prepare to evaluate and adopt a new cloud- based human resource management (HRM) system vendor. What would be the most appropriate minimum security standard for her to require of possible vendors?
+### Elise is helping her organization prepare to evaluate and adopt a new cloud- based human resource management (HRM) system vendor. What would be the most appropriate minimum security standard for her to require of possible vendors?
 A.	Compliance with all laws and regulations
 B.	Handling information in the same manner the organization would
 C.	Elimination of all identified security risks
