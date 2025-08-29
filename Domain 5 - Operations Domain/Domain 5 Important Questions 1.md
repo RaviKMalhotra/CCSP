@@ -722,410 +722,551 @@ Answer: B.
 Auditing is probably even more important during maintenance mode than normal operation because administrator activity is almost always involved.
 
 All the other options are necessary measures for maintenance mode.
-	66. Typically, a cloud customer seeking stand-alone hosting will expect all of the following except _______________.
-		A. More control over governance of the environment
-		B. Greater administrative control of the environment
-		C. Higher overall security of the environment
-		D. Lower costs for the environment
+
+### Question # 66 - Typically, a cloud customer seeking stand-alone hosting will expect all of the following except _______________.
+A. More control over governance of the environment
+B. Greater administrative control of the environment
+C. Higher overall security of the environment
+D. Lower costs for the environment
 Answer: D. 
 
 Almost invariably, stand-alone hosting will cost more than pooled resources and multitenancy.
 
 All the other options are characteristics of stand-alone hosting.
-	67. Methods for achieving “high availability” cloud environments include all of the following except _______________.
-		A. Extreme redundancy
-		B. Multiple system vendors for the same services
-		C. Explicitly documented business continuity and disaster recovery (BC/DR) functions in the service-level agreement (SLA) or contract
-		D. Failover capability back to the customer’s on-premises environment
-Answer:
-D. In many cases, the customer will no longer have an on-premises environment after a cloud migration.
+
+### Question # 67 - Methods for achieving “high availability” cloud environments include all of the following except _______________.
+A. Extreme redundancy
+B. Multiple system vendors for the same services
+C. Explicitly documented business continuity and disaster recovery (BC/DR) functions in the service-level agreement (SLA) or contract
+D. Failover capability back to the customer’s on-premises environment
+Answer: D. 
+
+In many cases, the customer will no longer have an on-premises environment after a cloud migration.
 All the other options are methods cloud providers use to achieve “high availability” environments.
-	68. You are in charge of a cloud migration for your organization. You anticipate attack traffic from various sources, each using a variety of both automated and manual intrusion techniques. In order to deter novel attacks used only against your organization, you would be wise to employ firewalls that use _______________ to detect threats.
-		A. Attack signatures
-		B. Behavioral outliers
-		C. Content filters
-		D. Biometric templates
-Answer:
-B. Behavioral detection looks for activity beyond the norm of the organization’s usual traffic. Unique attacks would most likely fall into this category.
+
+### Question # 68 - You are in charge of a cloud migration for your organization. You anticipate attack traffic from various sources, each using a variety of both automated and manual intrusion techniques. In order to deter novel attacks used only against your organization, you would be wise to employ firewalls that use _______________ to detect threats.
+A. Attack signatures
+B. Behavioral outliers
+C. Content filters
+D. Biometric templates
+Answer: B. 
+
+Behavioral detection looks for activity beyond the norm of the organization’s usual traffic. Unique attacks would most likely fall into this category.
+
 Unique attacks would not be detected by signature matching because no signatures exist for unique attacks; option A is incorrect.
-Content filtering is less a means of detection and more a means of controlling traffic that users/systems are exposed to; while it may be useful for mitigating the possibility of malware infection, it’s less suited to the purpose posed in the question. Option C is incorrect.
+
+Content filtering is less a means of detection and more a means of controlling traffic that users/systems are exposed to; while it may be useful for mitigating the possibility of malware infection, it’s 
+
+less suited to the purpose posed in the question. Option C is incorrect.
+
 Firewalls don’t work with biometrics; option D is a distractor.
-	69. Firewalls can be included in all the following aspects of a cloud environment except _______________.
-		A. The guest OS
-		B. The cloud data center IT architecture
-		C. Bandwidth providers used to connect to the cloud
-		D. Applications used to manipulate data in the cloud
-Answer:
-C. Internet service providers don’t usually offer firewall services.
+
+### Question # 69 - Firewalls can be included in all the following aspects of a cloud environment except _______________.
+A. The guest OS
+B. The cloud data center IT architecture
+C. Bandwidth providers used to connect to the cloud
+D. Applications used to manipulate data in the cloud
+Answer: C. 
+
+Internet service providers don’t usually offer firewall services.
 All the other options are locations/ways to implement firewalls.
-	70. A honeypot can be used for all the following purposes except _______________.
-		A. Gathering threat intelligence
-		B. Luring attackers
-		C. Distracting attackers
-		D. Delaying attackers
-Answer:
-B. It is very important to distinguish the purpose of the honeypot. It is not for luring in attackers; a lure is an invitation, and inviting an attack decreases the organization’s ability to have the attacker prosecuted or conduct successful litigation against the attacker.
+
+### Question # 70 - A honeypot can be used for all the following purposes except _______________.
+A. Gathering threat intelligence
+B. Luring attackers
+C. Distracting attackers
+D. Delaying attackers
+Answer: B. 
+
+It is very important to distinguish the purpose of the honeypot. It is not for luring in attackers; a lure is an invitation, and inviting an attack decreases the organization’s ability to have the attacker prosecuted or conduct successful litigation against the attacker.
 All the other options are purposes of a honeypot.
-	71. Which of the following should honeypots contain?
-		A. Inward-facing connections
-		B. Network schematics
-		C. Production data
-		D. Detection systems
-Answer:
-D. The honeypot is used to gather information about the attacker, the attacker’s tools, and the attacker’s techniques.
+
+### Question # 71 - Which of the following should honeypots contain?
+A. Inward-facing connections
+B. Network schematics
+C. Production data
+D. Detection systems
+Answer: D. 
+
+The honeypot is used to gather information about the attacker, the attacker’s tools, and the attacker’s techniques.
 The honeypot should not contain anything of value; all the other options are incorrect.
-	72. Because all cloud access is remote access, contact between users and the environment should include all of the following except _______________.
-		A. Encryption
-		B. Secure login with complex passwords
-		C. Once in-all in
-		D. Logging and audits
-Answer:
-C. It’s preferable to have compartmentalized zones of trust within the production environment and not allow total access with one set of credentials.
+
+### Question # 72 - Because all cloud access is remote access, contact between users and the environment should include all of the following except _______________.
+A. Encryption
+B. Secure login with complex passwords
+C. Once in-all in
+D. Logging and audits
+Answer: C. 
+
+It’s preferable to have compartmentalized zones of trust within the production environment and not allow total access with one set of credentials.
 All the other options are aspects that should be used in cloud access.
-	73. Most attacks that overcome encryption protections exploit _______________.
-		A. Mathematical principles
-		B. Misconfigurations
-		C. Supercomputers
-		D. Statistical probabilities
-Answer:
-B. Historically, when encryption had been used as a security mechanism, it was not defeated by attacking the encryption directly but rather by subverting the encryption implementation.
+
+### Question # 73 - Most attacks that overcome encryption protections exploit _______________.
+A. Mathematical principles
+B. Misconfigurations
+C. Supercomputers
+D. Statistical probabilities
+Answer: B. 
+
+Historically, when encryption had been used as a security mechanism, it was not defeated by attacking the encryption directly but rather by subverting the encryption implementation.
 All the other options are actual methods for breaking encryption but are not the best answer for this question.
-	74. Administrators and engineers who work for cloud service providers will have a significant amount of control over multiple customer environments and therefore pose a severe risk. Which of the following is not a technique used to mitigate this level of increased risk from privileged users in the cloud data center?
-		A. Two-person control
-		B. Enhanced logging of administrative activity
-		C. Granting privileged access only on a temporary basis
-		D. Assigning permanent administrators to select customer accounts
-Answer:
-D. Cloud vendors do not typically assign individual administrators permanently to specific accounts. All the other options (A–C) are methods used to reduce risks associated with privileged accounts.
-	75. Which of these is a vital action to determine whether the business continuity and disaster recovery (BC/DR) effort has a chance of being successful?
-		A. Perform an integrity check on archived data to ensure that the backup process is not corrupting the data.
-		B. Encrypt all archived data to ensure that it can’t be exposed while at rest in the long term.
-		C. Periodically restore from backups.
-		D. Train all personnel on BC/DR actions they should take to preserve health and human safety.
-Answer:
-C. All the options are useful for enhancing the security and efficacy of the BC/DR effort, but only option C ensures that the BC/DR has a likely chance of success.
-	76. Patches do all the following except _______________.
-		A. Address newly discovered vulnerabilities
-		B. Solve cloud interoperability problems
-		C. Add new features and capabilities to existing systems
-		D. Address performance issues
-Answer:
-B. Patches can, and often do, create interoperability problems.
+
+### Question # 74 - Administrators and engineers who work for cloud service providers will have a significant amount of control over multiple customer environments and therefore pose a severe risk. Which of the following is not a technique used to mitigate this level of increased risk from privileged users in the cloud data center?
+A. Two-person control
+B. Enhanced logging of administrative activity
+C. Granting privileged access only on a temporary basis
+D. Assigning permanent administrators to select customer accounts
+Answer: D. 
+
+Cloud vendors do not typically assign individual administrators permanently to specific accounts. All the other options (A–C) are methods used to reduce risks associated with privileged accounts.
+
+### Question # 75 - Which of these is a vital action to determine whether the business continuity and disaster recovery (BC/DR) effort has a chance of being successful?
+A. Perform an integrity check on archived data to ensure that the backup process is not corrupting the data.
+B. Encrypt all archived data to ensure that it can’t be exposed while at rest in the long term.
+C. Periodically restore from backups.
+D. Train all personnel on BC/DR actions they should take to preserve health and human safety.
+Answer: C. 
+
+All the options are useful for enhancing the security and efficacy of the BC/DR effort, but only option C ensures that the BC/DR has a likely chance of success.
+
+### Question # 76 - Patches do all the following except _______________.
+A. Address newly discovered vulnerabilities
+B. Solve cloud interoperability problems
+C. Add new features and capabilities to existing systems
+D. Address performance issues
+Answer: B. 
+
+Patches can, and often do, create interoperability problems.
 All the other options are functions offered by patching.
-	77. When applying patches, it is necessary to do all of the following except _______________.
-		A. Test the patch in a sandbox that simulates the production environment
-		B. Put the patch through the formal change management process
-		C. Be prepared to roll back to the last known good build
-		D. Inform users of any impact or interruptions
-Answer:
-B. In many cases, patches are released to deal with an imminent vulnerability/risk. Some organizations will give blanket preapproval for applying these patches and having the formal change management process approve the patch after the fact.
+
+### Question # 77 - When applying patches, it is necessary to do all of the following except _______________.
+A. Test the patch in a sandbox that simulates the production environment
+B. Put the patch through the formal change management process
+C. Be prepared to roll back to the last known good build
+D. Inform users of any impact or interruptions
+Answer: B. 
+
+In many cases, patches are released to deal with an imminent vulnerability/risk. Some organizations will give blanket preapproval for applying these patches and having the formal change management process approve the patch after the fact.
+
 All the other options are activities that should take place with patching.
-	78. Which of the following is a risk associated with automated patching?
-		A. Users can be leveraged by intruders.
-		B. A patch may not be applicable to a given environment.
-		C. Patches can come loaded with malware, in a Trojan horse attack.
-		D. Automated patching is slow and inefficient.
-Answer:
-B. Not all patches are necessary for all environments. Automated patching won’t always account for variations in organizations and could cause interoperability problems in some.
+
+### Question # 78 - Which of the following is a risk associated with automated patching?
+A. Users can be leveraged by intruders.
+B. A patch may not be applicable to a given environment.
+C. Patches can come loaded with malware, in a Trojan horse attack.
+D. Automated patching is slow and inefficient.
+Answer: B. 
+
+Not all patches are necessary for all environments. Automated patching won’t always account for variations in organizations and could cause interoperability problems in some.
+
 Users don’t usually apply patches and aren’t involved in automatic patching; option A is incorrect.
+
 It is rare that an automated patch tool will be exploited to install malware; option C is incorrect.
+
 Automated patching is faster and more efficient than manual patching; option D is incorrect.
-	79. Which of the following is a risk associated with automated patching, especially in the cloud?
-		A. Snapshot/saved virtual machine (VM) images won’t take a patch.
-		B. Remote access disallows patching.
-		C. Cloud service providers aren’t responsible for patching.
-		D. Patches aren’t applied among all cloud data centers.
-Answer:
-A. When a VM instance is inactive, it is saved as a snapshot image in a file; patches can’t be applied until the instance is running. Automated patching set to a certain scheduled time may miss inactive VMs.
+
+### Question # 79 - Which of the following is a risk associated with automated patching, especially in the cloud?
+A. Snapshot/saved virtual machine (VM) images won’t take a patch.
+B. Remote access disallows patching.
+C. Cloud service providers aren’t responsible for patching.
+D. Patches aren’t applied among all cloud data centers.
+Answer: A. 
+
+When a VM instance is inactive, it is saved as a snapshot image in a file; patches can’t be applied until the instance is running. Automated patching set to a certain scheduled time may miss inactive VMs.
+
 Patches can be applied remotely or locally; option B is not true or correct.
+
 Patching may be the responsibility of the cloud customer or provider, depending on the service model, type, and contract. Option C is incorrect.
+
 Cloud service providers should apply patches ubiquitously throughout their service environment; option D is incorrect.
-	80. Which of the following is a risk associated with automated patching, especially in the cloud?
-		A. Patches may interfere with some tenants’ production environments.
-		B. Patches don’t work with software as a service (SaaS) service models.
-		C. Patches don’t work with private cloud builds.
-		D. Vendors don’t issue patches to cloud providers.
-Answer:
-A. Because a multitenant environment may have a variety of different configurations for various customers, a given patch might interfere with a certain number of customers due to interoperability problems.
+
+### Question # 80 - Which of the following is a risk associated with automated patching, especially in the cloud?
+A. Patches may interfere with some tenants’ production environments.
+B. Patches don’t work with software as a service (SaaS) service models.
+C. Patches don’t work with private cloud builds.
+D. Vendors don’t issue patches to cloud providers.
+Answer: A. 
+
+Because a multitenant environment may have a variety of different configurations for various customers, a given patch might interfere with a certain number of customers due to interoperability problems.
+
 Option B is untrue. Patches do work with SaaS models. Option B is incorrect.
+
 Option C is untrue. Patches do work with private cloud builds. Option C is incorrect.
+
 On the contrary, vendors do issue patches to cloud providers. Option D is incorrect.
-	81. Which of the following is a risk associated with manual patching, especially in the cloud?
-		A. It can happen too quickly.
-		B. Vendors release patches that work only with their proprietary automated tools.
-		C. It’s not scalable.
-		D. Users can be tricked into installing malware that looks like a patch.
-Answer:
-C. Manual patching requires a significant degree of effort and time and is simply not feasible in a large enterprise, much less in the vast environment of the cloud.
+
+### Question # 81 - Which of the following is a risk associated with manual patching, especially in the cloud?
+A. It can happen too quickly.
+B. Vendors release patches that work only with their proprietary automated tools.
+C. It’s not scalable.
+D. Users can be tricked into installing malware that looks like a patch.
+Answer: C. 
+
+Manual patching requires a significant degree of effort and time and is simply not feasible in a large enterprise, much less in the vast environment of the cloud.
+
 Manual patching is slower than automated patching. Option A is incorrect.
+
 Option B is incorrect; this is true in both traditional and cloud environments.
+
 Option D is incorrect; users should not be performing patching.
-	82. Which of the following is a risk associated with manual patching especially in the cloud?
-		A. No notice before the impact is realized
-		B. There is a lack of applicability to the environment.
-		C. Patches may or may not address the vulnerability they were designed to fix.
-		D. The possibility for human error exists.
-Answer:
-D. Patching is a mundane, repetitive process, and people have trouble focusing on such tasks, especially for the number of times necessary to patch a cloud environment. Automation can aid in addressing this aspect of patching.
+
+### Question # 82 - Which of the following is a risk associated with manual patching especially in the cloud?
+A. No notice before the impact is realized
+B. There is a lack of applicability to the environment.
+C. Patches may or may not address the vulnerability they were designed to fix.
+D. The possibility for human error exists.
+Answer: D. 
+
+Patching is a mundane, repetitive process, and people have trouble focusing on such tasks, especially for the number of times necessary to patch a cloud environment. Automation can aid in addressing this aspect of patching.
+
 With human involvement in patching, there is an opportunity to be aware of imminent patch impacts and to determine applicability of the patch before it is applied; options A and B are incorrect.
 Option C is a risk involved with all patching and not limited to manual patching; option D is preferable as it is specific to the question.
-	83. You are the security manager for an organization that uses the cloud for its production environment. According to your contract with the cloud provider, your organization is responsible for patching. A new patch is issued by one of your vendors. You decide not to apply it immediately for fear of interoperability problems. What additional risk are you accepting?
-		A. The cloud provider will suspend your access for violating its terms of service.
-		B. The cloud provider may sue your organization for breach of contract.
-		C. Your organization is subject to the vulnerability the patch addresses.
-		D. Your end clients will no longer trust your organization, and this will hurt your revenue flow.
-Answer:
-C. It is perfectly reasonable to not want to use the first version of a patch as there may be interoperability problems or even additional vulnerabilities contingent with its implementation. However, for as long as your environment remains unpatched, you are subject to attack through that new vulnerability.
+
+### Question # 83 - You are the security manager for an organization that uses the cloud for its production environment. According to your contract with the cloud provider, your organization is responsible for patching. A new patch is issued by one of your vendors. You decide not to apply it immediately for fear of interoperability problems. What additional risk are you accepting?
+A. The cloud provider will suspend your access for violating its terms of service.
+B. The cloud provider may sue your organization for breach of contract.
+C. Your organization is subject to the vulnerability the patch addresses.
+D. Your end clients will no longer trust your organization, and this will hurt your revenue flow.
+Answer: C. 
+
+It is perfectly reasonable to not want to use the first version of a patch as there may be interoperability problems or even additional vulnerabilities contingent with its implementation. However, for as long as your environment remains unpatched, you are subject to attack through that new vulnerability.
+
 All the other options are untrue.
+
 The cloud provider will not suspend your access or sue your organization if you delay patching because of concerns about interoperability afterwards. Options A and B are incorrect.
 Option D is incorrect. The opposite may actually be true. Your end clients may appreciate that you delay or test the patch before installing it on production systems.
-	84. You are the security manager for an organization that uses the cloud for its production environment. According to your contract with the cloud provider, your organization is responsible for patching. A new patch is issued by one of your vendors. You decide not to apply it immediately for fear of interoperability problems. Who may impose penalties on your organization for this decision if the vulnerability is exploited?
-		A. The cloud provider
-		B. Regulators
-		C. Your end clients
-		D. Your Internet service provider (ISP)
-Answer:
-B. If your organization doesn’t apply a patch for a known vulnerability, regulators may claim the organization was not performing adequate due diligence and penalize it accordingly.
+
+### Question # 84 - You are the security manager for an organization that uses the cloud for its production environment. According to your contract with the cloud provider, your organization is responsible for patching. A new patch is issued by one of your vendors. You decide not to apply it immediately for fear of interoperability problems. Who may impose penalties on your organization for this decision if the vulnerability is exploited?
+A. The cloud provider
+B. Regulators
+C. Your end clients
+D. Your Internet service provider (ISP)
+Answer: B. 
+
+If your organization doesn’t apply a patch for a known vulnerability, regulators may claim the organization was not performing adequate due diligence and penalize it accordingly.
+
 None of the other entities listed in the other options can assess penalties, so they are incorrect. (End clients may try to recover damages realized from an attack through a known vulnerability, but those penalties will be imposed by a court if the end clients conduct successful litigation.)
-	85. Which of the following aspects of a cloud environment is most likely to add risk to the patch management process?
-		A. Variations in user training and familiarity with the cloud
-		B. A cloud services contract that specifies which parties are responsible for which aspects of patching
-		C. VMs located physically in one location but operating in different time zones
-		D. The prevalence of attacker activity at the time the patch is applied
-Answer:
-C. If patches are rolled out across an environment where users are operating virtual machines (VMs) at different times, there is a possibility that VMs will not be patched uniformly, which could lead to data disruption.
+
+### Question # 85 - Which of the following aspects of a cloud environment is most likely to add risk to the patch management process?
+A. Variations in user training and familiarity with the cloud
+B. A cloud services contract that specifies which parties are responsible for which aspects of patching
+C. VMs located physically in one location but operating in different time zones
+D. The prevalence of attacker activity at the time the patch is applied
+Answer: C. 
+
+If patches are rolled out across an environment where users are operating virtual machines (VMs) at different times, there is a possibility that VMs will not be patched uniformly, which could lead to data disruption.
+
 Option A is incorrect. Users should not be performing patching.
+
 Option B is incorrect; a contract specifying who is responsible for specific patching activities actually reduces risk by enhancing the probability of proper patch application.
+
 Option D is incorrect; attacker activity should be irrelevant to the patch process.
-	86. Which type of web application monitoring most closely measures actual activity?
-		A. Synthetic performance monitoring
-		B. Real-user monitoring (RUM)
-		C. Security information and event management (SIEM)
-		D. Database application monitor (DAM)
-Answer:
-B. RUM harvests information from actual user activity, making it the most realistic depiction of user behavior.
+
+### Question # 86 - Which type of web application monitoring most closely measures actual activity?
+A. Synthetic performance monitoring
+B. Real-user monitoring (RUM)
+C. Security information and event management (SIEM)
+D. Database application monitor (DAM)
+Answer: B. 
+
+RUM harvests information from actual user activity, making it the most realistic depiction of user behavior.
+
 Synthetic monitoring approximates user activity but is not as exact as RUM; option A is incorrect.
+
 SIEM monitors more than web applications, so option C is not ideal for this question.
+
 DAM is an OSI Layer 7 tool for monitoring database activity, specifically, so it is not the ideal answer for this question.
-	87. When using real-user monitoring (RUM) for web application activity analysis, which of the following do you need to take into account?
-		A. False positives
-		B. Attacker baseline actions
-		C. Privacy concerns
-		D. Sandboxed environments
-Answer:
-C. Depending on the jurisdiction, RUM may entail unlawful surveillance, so the practitioner must take this into account and plan accordingly.
+
+### Question # 87 - When using real-user monitoring (RUM) for web application activity analysis, which of the following do you need to take into account?
+A. False positives
+B. Attacker baseline actions
+C. Privacy concerns
+D. Sandboxed environments
+Answer: C. 
+
+Depending on the jurisdiction, RUM may entail unlawful surveillance, so the practitioner must take this into account and plan accordingly.
+
 Option A is incorrect. False positives are typical for real-user monitoring systems.
+
 Option B has no relevance in this context. Option B is incorrect.
+
 Sandboxed environments are not a concern when using real-user monitoring for web application activity analysis. Option D is incorrect.
-	88. Synthetic performance monitoring may be preferable to real-user monitoring (RUM) because _______________.
-		A. It costs less
-		B. It is a more accurate depiction of user behavior
-		C. It is more comprehensive
-		D. It can take place in the cloud
-Answer:
-C. Synthetic agents can simulate user activity in a much faster, broader manner and perform these actions 24/7 without rest.
+
+### Question # 88 - Synthetic performance monitoring may be preferable to real-user monitoring (RUM) because _______________.
+A. It costs less
+B. It is a more accurate depiction of user behavior
+C. It is more comprehensive
+D. It can take place in the cloud
+Answer: C. 
+
+Synthetic agents can simulate user activity in a much faster, broader manner and perform these actions 24/7 without rest.
 All the other options are incorrect; synthetic agents may cost more than RUM, are less accurate than actual user activity, and both can take place on the cloud.
-	89. You are the security manager for an organization with a cloud-based production environment. You are tasked with setting up the event monitoring and logging systems. In your jurisdiction, private entities are allowed to monitor all activity involving their systems, without exception. Which of the following best describes a logging scheme you would recommend?
-		A. Logging every event, at all levels of granularity, including continual screen shots, keystroke logging, and browser history
-		B. Sufficient logging to reconstruct a narrative of events at some later date
-		C. Logging only data related to incidents after they have occurred
-		D. Logging specific data sets recommended by industry standards and guidelines
-Answer:
-B. Logging should suffice for the purpose of reconstructing the pertinent information (who, what, where, when, etc.) necessary to form a narrative of what transpired. This will be different for every organization and environment (so option D is incorrect). You will have to make this determination for your organization.
+
+### Question # 89 - You are the security manager for an organization with a cloud-based production environment. You are tasked with setting up the event monitoring and logging systems. In your jurisdiction, private entities are allowed to monitor all activity involving their systems, without exception. Which of the following best describes a logging scheme you would recommend?
+A. Logging every event, at all levels of granularity, including continual screen shots, keystroke logging, and browser history
+B. Sufficient logging to reconstruct a narrative of events at some later date
+C. Logging only data related to incidents after they have occurred
+D. Logging specific data sets recommended by industry standards and guidelines
+Answer: B. 
+
+Logging should suffice for the purpose of reconstructing the pertinent information (who, what, where, when, etc.) necessary to form a narrative of what transpired. This will be different for every organization and environment (so option D is incorrect). You will have to make this determination for your organization.
+
 Logging everything would result in log storage that exceeds the amount of data in the production environment and would actually make it more difficult to locate pertinent information. Option A is incorrect.
+
 Option C is incorrect. Logging data after the fact is impossible.
-	90. Who should be performing log review?
-		A. Only certified, trained log review professionals with a great deal of experience with the logging tool
-		B. The internal audit body
-		C. External audit providers
-		D. Someone with knowledge of the operation and a security background
-Answer:
-D. It is important for the log review to be performed by someone who understands the normal operations of the organization so that they can discern between regular activity and anomalous behavior. This person also needs a security background so they can recognize common attack patterns/activity.
+
+### Question # 90 - Who should be performing log review?
+A. Only certified, trained log review professionals with a great deal of experience with the logging tool
+B. The internal audit body
+C. External audit providers
+D. Someone with knowledge of the operation and a security background
+Answer: D. 
+
+It is important for the log review to be performed by someone who understands the normal operations of the organization so that they can discern between regular activity and anomalous behavior. This person also needs a security background so they can recognize common attack patterns/activity.
+
 Option A sounds great, but the better answer is option D. A person with knowledge of the operation is a better fit than someone who is trained to review logs.
+
 Options B and C are incorrect. Auditors are not the ones who should be reviewing logs for an organization.
-	91. Which of these subsystems is probably most important for acquiring useful log information?
-		A. Fan
-		B. RAM
-		C. Clock
-		D. Uninterruptible power supply (UPS)
-Answer:
-C. The clock needs to be synched throughout the environment so that all activity can be contextualized and mapped and a true narrative of events can be reconstructed later.
+
+### Question # 91 - Which of these subsystems is probably most important for acquiring useful log information?
+A. Fan
+B. RAM
+C. Clock
+D. Uninterruptible power supply (UPS)
+Answer: C. 
+
+The clock needs to be synched throughout the environment so that all activity can be contextualized and mapped and a true narrative of events can be reconstructed later.
 All the other options are incorrect because they are simply IT terms. When it comes to useful logs, having the correct time relevant to all logged activity is vital.
-	92. A SIEM (security information and event management) system does not eliminate the need for human participation in _______________.
-		A. Log collection
-		B. Responding to alerts
-		C. Mathematical normalization of different logs
-		D. Detecting and alerts
-Answer:
-B. Response to anomalous activity detected by the SIEM tool will still require human involvement.
+
+### Question # 92 - A SIEM (security information and event management) system does not eliminate the need for human participation in _______________.
+A. Log collection
+B. Responding to alerts
+C. Mathematical normalization of different logs
+D. Detecting and alerts
+Answer: B. 
+
+Response to anomalous activity detected by the SIEM tool will still require human involvement.
+
 All the other options are functions that the SIEM system can perform on its own as automated tasks.
-	93. Log data should be protected _______________.
-		A. One level below the sensitivity level of the systems from which it was collected
-		B. At least at the same sensitivity level as the systems from which it was collected
-		C. With encryption in transit, at rest, and in use
-		D. According to National Institute of Standards and Technology (NIST) guidelines
-Answer:
-B. Because the logs are essential to reconstructing a record of what occurred within the environment, they are a valuable target for attackers. They therefore need a sufficient level of protection commensurate with the data/systems they are about.
+
+### Question # 93 - Log data should be protected _______________.
+A. One level below the sensitivity level of the systems from which it was collected
+B. At least at the same sensitivity level as the systems from which it was collected
+C. With encryption in transit, at rest, and in use
+D. According to National Institute of Standards and Technology (NIST) guidelines
+Answer: B. 
+
+Because the logs are essential to reconstructing a record of what occurred within the environment, they are a valuable target for attackers. They therefore need a sufficient level of protection commensurate with the data/systems they are about.
+
 We don’t want to have less protection on the logs than on the systems they monitor; the controls on those systems were chosen according to what threats and risks they may be exposed to—the level of security provided by those controls are, at a minimum, required for the log data. Option A is incorrect.
+
 Encryption may or may not be used for securing log data, depending on the level of sensitivity of the systems/data they are protecting; option C is too specific and thus incorrect.
 NIST guidelines are not suitable for all organizations and uses; option D is too broad and incorrect.
-	94. Risk is usually viewed with consideration for all the following elements except _______________.
-		A. Impact that could occur if a given circumstance is realized
-		B. The likelihood or probability a circumstance will occur
-		C. In the context of specific threats to an organization
-		D. According to risks recently realized by other organizations in the same industry
-Answer:
-D. While historical information, especially that specific to the organization’s industry, can be useful in assessing threats, risk must be considered independently from other occurrences; whether something has occurred elsewhere does not necessarily directly affect the likelihood it will or will not occur for a certain target.
+
+### Question # 94 - Risk is usually viewed with consideration for all the following elements except _______________.
+A. Impact that could occur if a given circumstance is realized
+B. The likelihood or probability a circumstance will occur
+C. In the context of specific threats to an organization
+D. According to risks recently realized by other organizations in the same industry
+Answer: D. 
+
+While historical information, especially that specific to the organization’s industry, can be useful in assessing threats, risk must be considered independently from other occurrences; whether something has occurred elsewhere does not necessarily directly affect the likelihood it will or will not occur for a certain target.
+
 All the other options are elements typically considered in the risk context.
-	95. Risk management entails evaluating all of the following except _______________.
-		A. Threats
-		B. Vulnerabilities
-		C. Countermeasures
-		D. Customers
-Answer:
-D. We usually do not evaluate our customer base as an aspect of risk management. All the other options are aspects of common risk management practices.
-	96. Impact resulting from risk being realized is often measured in terms of _______________.
-		A. Amount of data lost
-		B. Money
-		C. Amount of property lost
-		D. Number of people affected
-Answer:
-B. While all the options are somewhat true, because all of that information can be used to provide the most comprehensive risk picture, the best answer among those listed is money; it is a discrete, numeric metric that can be used both for comparison to countermeasure/control cost and for recompense efforts (insurance claims, lawsuits, etc.).
-	97. You are the security officer for a small nonprofit organization. You are tasked with performing a risk assessment for your organization; you have one month to complete it. The IT personnel you work with have been with the organization for many years and have built the systems and infrastructure from the ground up. They have little training and experience in the field of risk. Which type of risk assessment would you choose to conduct?
-		A. Quantitative
-		B. Qualitative
-		C. Pro forma
-		D. Informal
-Answer:
-B. Qualitative risk assessments are preferable in situations where the organization has personnel who understand the IT environment but may not have a lot of experience with risk functions and where the organization does not have a great deal of time or money to spend on the project.
+
+### Question # 95 - Risk management entails evaluating all of the following except _______________.
+A. Threats
+B. Vulnerabilities
+C. Countermeasures
+D. Customers
+Answer: D. 
+
+We usually do not evaluate our customer base as an aspect of risk management. All the other options are aspects of common risk management practices.
+
+### Question # 96 - Impact resulting from risk being realized is often measured in terms of _______________.
+A. Amount of data lost
+B. Money
+C. Amount of property lost
+D. Number of people affected
+Answer: B. 
+
+While all the options are somewhat true, because all of that information can be used to provide the most comprehensive risk picture, the best answer among those listed is money; it is a discrete, numeric metric that can be used both for comparison to countermeasure/control cost and for recompense efforts (insurance claims, lawsuits, etc.).
+
+### Question # 97 - You are the security officer for a small nonprofit organization. You are tasked with performing a risk assessment for your organization; you have one month to complete it. The IT personnel you work with have been with the organization for many years and have built the systems and infrastructure from the ground up. They have little training and experience in the field of risk. Which type of risk assessment would you choose to conduct?
+A. Quantitative
+B. Qualitative
+C. Pro forma
+D. Informal
+Answer: B. 
+
+Qualitative risk assessments are preferable in situations where the organization has personnel who understand the IT environment but may not have a lot of experience with risk functions and where the organization does not have a great deal of time or money to spend on the project.
+
 A quantitative risk assessment requires a significant budget of time and money as well as well-trained, experience personnel familiar with risk; option A is not correct.
 Options C and D 
-		E. are incorrect; these are not types of risk assessments.
-	98. Which of the following is most useful in determining the single loss expectancy (SLE) of an asset?
-		A. The frequency with which you expect that type of loss to occur
-		B. The dollar value of the asset
-		C. The sensitivity of the asset
-		D. The size and scope of the asset
-Answer:
-B. The monetary value of the asset is the most objective, discrete metric possible and the most accurate for the purposes of SLE determination.
+E. are incorrect; these are not types of risk assessments.
+
+### Question # 98 - Which of the following is most useful in determining the single loss expectancy (SLE) of an asset?
+A. The frequency with which you expect that type of loss to occur
+B. The dollar value of the asset
+C. The sensitivity of the asset
+D. The size and scope of the asset
+Answer: B. 
+
+The monetary value of the asset is the most objective, discrete metric possible and the most accurate for the purposes of SLE determination.
 The other options are factors that may bear on how you determine the dollar value of the asset but are not as useful as option B.
-	99. Which of the following will likely best help you predict the annualized rate of occurrence (ARO) of a specific loss?
-		A. Threat intelligence data
-		B. Historical data
-		C. Vulnerability scans
-		D. Aggregation analysis
-Answer:
-B. While previous activity is not a great predictor of future outcomes (especially in the field of IT security), it is the best source we have.
+
+### Question # 99 - Which of the following will likely best help you predict the annualized rate of occurrence (ARO) of a specific loss?
+A. Threat intelligence data
+B. Historical data
+C. Vulnerability scans
+D. Aggregation analysis
+Answer: B. 
+
+While previous activity is not a great predictor of future outcomes (especially in the field of IT security), it is the best source we have.
+
 Threat intelligence information is useful but not as good as historical data in predicting ARO; option A is not as good as option B.
+
 Vulnerability scans and aggregation do not really aid in predicting rate of occurrence at all; options C and D are incorrect.
-	100. Which of the following has the most effect on exposure factor (EF)?
-		A. The type of threat vector
-		B. The source location of the attack
-		C. The target of the attack
-		D. The jurisdiction where the attack takes place
-Answer:
-A. The threat vector is the multiplier involved in determining exposure factor; of the options listed, this is the best answer (and, other than C, the only one that actually has bearing on EF).
-	101. You are a consultant, performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. What is the annual rate of occurrence (ARO) in this scenario?
-		A. 12
-		B. $24 million
-		C. 1
-		D. $10 million
-Answer:
-C. Absent any other information about a total physical loss, we can consider the rate of occurrence as 1: We would not expect the plant to burn down more than once in a year. In fact, we would expect that unless the plant was involved in some particularly flammable activity, the ARO would be less than 1 (that is, a fire is not expected every year) due to controls involved in the planning and building process of the plant (location of flammable material, fire-resistant construction techniques, etc.).
+
+### Question # 100 - Which of the following has the most effect on exposure factor (EF)?
+A. The type of threat vector
+B. The source location of the attack
+C. The target of the attack
+D. The jurisdiction where the attack takes place
+Answer: A. 
+
+The threat vector is the multiplier involved in determining exposure factor; of the options listed, this is the best answer (and, other than C, the only one that actually has bearing on EF).
+
+### Question # 101 - You are a consultant, performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. What is the annual rate of occurrence (ARO) in this scenario?
+A. 12
+B. $24 million
+C. 1
+D. $10 million
+Answer: C. 
+
+Absent any other information about a total physical loss, we can consider the rate of occurrence as 1: We would not expect the plant to burn down more than once in a year. In fact, we would expect that unless the plant was involved in some particularly flammable activity, the ARO would be less than 1 (that is, a fire is not expected every year) due to controls involved in the planning and building process of the plant (location of flammable material, fire-resistant construction techniques, etc.).
+
 Options B and D are incorrect. The ARO is a number, not a dollar amount.
+
 It is unlikely that the plant would burn down 12 times a year or every month. Option A is incorrect.
-	102. You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. What would you recommend?
-		A. Accept the risk of fire, and save money by not spending anything on controls/countermeasures.
-		B. Get the fire suppression system.
-		C. Get the insurance policy.
-		D. It is impossible to decide from this information.
-Answer:
-D. What we can’t determine from the available information is the actual annualized loss expectancy (ALE); the cost of the physical plant itself is not the actual value of the asset, so it’s impossible to determine the ALE and therefore impossible to compare the ALE against the cost of possible controls and countermeasures.
+
+### Question # 102 - You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. What would you recommend?
+A. Accept the risk of fire, and save money by not spending anything on controls/countermeasures.
+B. Get the fire suppression system.
+C. Get the insurance policy.
+D. It is impossible to decide from this information.
+Answer: D. 
+
+What we can’t determine from the available information is the actual annualized loss expectancy (ALE); the cost of the physical plant itself is not the actual value of the asset, so it’s impossible to determine the ALE and therefore impossible to compare the ALE against the cost of possible controls and countermeasures.
+
 All the other options are incorrect; we can’t make a suitable choice from the available information.
-	103. You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. In order to establish the true annualized loss expectancy (ALE), you would need all of the following information except _______________.
-		A. The amount of revenue generated by the plant
-		B. The rate at which the plant generates revenue
-		C. The length of time it would take to rebuild the plant
-		D. The amount of product the plant creates
-Answer:
-D. Unless this number is being used to determine the measures of options A or B, or we’re trying to better estimate the cost of the impact of the first occurrence (i.e., including the value of lost product in the single loss expectancy [SLE]), the amount of product the plant creates is not as important as the attendant revenue that amount generates for the company.
+
+### Question # 103 - You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. In order to establish the true annualized loss expectancy (ALE), you would need all of the following information except _______________.
+A. The amount of revenue generated by the plant
+B. The rate at which the plant generates revenue
+C. The length of time it would take to rebuild the plant
+D. The amount of product the plant creates
+Answer: D. 
+
+Unless this number is being used to determine the measures of options A or B, or we’re trying to better estimate the cost of the impact of the first occurrence (i.e., including the value of lost product in the single loss expectancy [SLE]), the amount of product the plant creates is not as important as the attendant revenue that amount generates for the company.
+
 All the other options are factors we need to know: The amount of revenue and the pace at which it is generated by the plant and the duration of downtime for the plant in the event of fire (so as to calculate possible lost revenue) will help us arrive at the annualized loss expectancy (ALE). In fact, additional information would also be useful, such as potential loss of market share if product was not delivered for the duration of the downtime, etc.
-	104. You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. The plant generates $2 million of revenue each month. The time to rebuild the plant at the current location is six months. What should you recommend?
-		A. Accept the risk of fire, and save money by not spending anything on controls and countermeasures.
-		B. Get the fire suppression system.
-		C. Get the insurance policy.
-		D. It is impossible to decide from this information.
-Answer:
-B. The fire suppression system is the most cost-effective, reasonable means of dealing with the risk, if we use the formula for determining annualized loss expectancy (ALE).
+
+### Question # 104 - You are a consultant performing an external security review on a large manufacturing firm. You determine that its newest assembly plant, which cost $24 million, could be completely destroyed by a fire but that a fire suppression system could effectively protect the plant. The fire suppression system costs $15 million. An insurance policy that would cover the full replacement cost of the plant costs $1 million per month. The plant generates $2 million of revenue each month. The time to rebuild the plant at the current location is six months. What should you recommend?
+A. Accept the risk of fire, and save money by not spending anything on controls and countermeasures.
+B. Get the fire suppression system.
+C. Get the insurance policy.
+D. It is impossible to decide from this information.
+Answer: B. 
+
+The fire suppression system is the most cost-effective, reasonable means of dealing with the risk, if we use the formula for determining annualized loss expectancy (ALE).
 First, we need to determine the single loss expectancy (SLE) and annualized rate of occurrence (ARO). ARO can be assumed to be 1; absent any other information about the plant, we don’t expect more than one fire per year (and perhaps less, but we don’t have that information, either). The SLE is $36 million ($24 million for the cost of rebuilding the plant, assuming no increase in costs over the previous construction, plus $2 million per month of lost revenue, for the six months it will take to rebuild).
 Therefore, the ALE is $36 million (36 [SLE] × 1 [ARO]).
+
 Either the fire suppression system or the insurance policy would be appealing, from a strictly financial standpoint, if we only compared the ALE to the annualized cost of the countermeasure ($15 million for the suppression system, $12 million for the insurance policy).
+
 However, other factors have a bearing on this consideration too. For instance, fire poses a threat to health and human safety; obviating such risks should be a paramount concern to senior management. An insurance policy doesn’t truly protect people, it only offsets the damages people experience through loss. Also, the insurance policy would be a recurring, continual cost; it costs less than the fire suppression system in the first year of the plant’s operation ($12 million for insurance versus $15 million for the system), but once the system is purchased, though it may need upkeep and maintenance, we can assume it won’t cost the same amount in future years, and it probably won’t cost anywhere near as much as the continual costs of the insurance.
 All the other options are not as good as B.
-	105. Risk mitiga tion must always also entail which other method of addressing risk?
-		A. Risk acceptance
-		B. Risk avoidance
-		C. Risk transfer
-		D. Risk attenuation
-Answer:
-A. Because risk can never be mitigated to zero (there is no such thing as “no risk” or “perfect security”), there will always be some residual risk after risk mitigation; this residual risk must be accepted.
+
+### Question # 105 - Risk mitiga tion must always also entail which other method of addressing risk?
+A. Risk acceptance
+B. Risk avoidance
+C. Risk transfer
+D. Risk attenuation
+Answer: A. 
+
+Because risk can never be mitigated to zero (there is no such thing as “no risk” or “perfect security”), there will always be some residual risk after risk mitigation; this residual risk must be accepted.
 Risk mitigation does not always involve risk transfer, or risk avoidance. “Risk attenuation” is not an industry-standard term associated with risk management Options B, C, and D are incorrect.
-	106. Which of the following poses a secondary risk?
-		A. Fire exit signs
-		B. Oxygen-displacing fire suppression
-		C. Automated fire detection systems
-		D. Fail-safe fire egress paths
-Answer:
-B. Secondary risk is any risk resulting from enacting a control/countermeasure to the original risk. In this case, a fire suppression system that displaces oxygen is a means to mitigate the original risk (fire) but adds a new risk (suffocating people).
+
+### Question # 106 - Which of the following poses a secondary risk?
+A. Fire exit signs
+B. Oxygen-displacing fire suppression
+C. Automated fire detection systems
+D. Fail-safe fire egress paths
+Answer: B. 
+
+Secondary risk is any risk resulting from enacting a control/countermeasure to the original risk. In this case, a fire suppression system that displaces oxygen is a means to mitigate the original risk (fire) but adds a new risk (suffocating people).
 All the other options are not causes of secondary risk (except if we draw out unreasonable conclusions from the most extreme, ridiculous cases, for example, “the secondary risk is the risk that the control doesn’t work”).
-	107. Which of the following is not true about risk mitigation?
-		A. A given control/countermeasure should never cost more than the impact of the risk it mitigates.
-		B. Risk cannot be reduced to zero.
-		C. The end state of risk mitigation is risk at a tolerable level.
-		D. Risk mitigation is always the best means to address risk.
-Answer:
-D. The best means to address risk is completely dependent on the business needs of the specific entity and process. Mitigation may or may not be the optimum choice.
+
+### Question # 107 - Which of the following is not true about risk mitigation?
+A. A given control/countermeasure should never cost more than the impact of the risk it mitigates.
+B. Risk cannot be reduced to zero.
+C. The end state of risk mitigation is risk at a tolerable level.
+D. Risk mitigation is always the best means to address risk.
+Answer: D. 
+
+The best means to address risk is completely dependent on the business needs of the specific entity and process. Mitigation may or may not be the optimum choice.
 All the other options are true statements about risk mitigation.
-	108. Which of the following is not true about risk mitigation?
-		A. The cost of the control/countermeasure per year is simple: the overall cost (of acquisition, implementation, and maintenance) divided by life span, in years.
-		B. Ignoring risk is not risk mitigation; ignoring risk is risk acceptance.
-		C. The cost of mitigation can be compared against the cost of a control/countermeasure to determine the optimum course of action.
-		D. Risk is fluid, so all risk assessments are pointless.
-Answer:
-D. A risk assessment may, indeed, be an estimate of a moving target, but it is invaluable in terms of measuring risk at any given point in time.
-	109. Which comes first?
-		A. Accreditation
-		B. Operation
-		C. Maintenance
-		D. Certification
-Answer:
-D. In the certification/accreditation model of system approval, certification is the fundamental step.
+
+### Question # 108 - Which of the following is not true about risk mitigation?
+A. The cost of the control/countermeasure per year is simple: the overall cost (of acquisition, implementation, and maintenance) divided by life span, in years.
+B. Ignoring risk is not risk mitigation; ignoring risk is risk acceptance.
+C. The cost of mitigation can be compared against the cost of a control/countermeasure to determine the optimum course of action.
+D. Risk is fluid, so all risk assessments are pointless.
+Answer: D. 
+
+A risk assessment may, indeed, be an estimate of a moving target, but it is invaluable in terms of measuring risk at any given point in time.
+
+### Question # 109 - Which comes first?
+A. Accreditation
+B. Operation
+C. Maintenance
+D. Certification
+Answer: D. 
+
+In the certification/accreditation model of system approval, certification is the fundamental step.
 All other options are incorrect because certification comes first in the certification/accreditation model of system approval.
-	110. The National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) is required for federal agencies in the United States. Which of the following is not a characteristic of the RMF?
-		A. Automation of controls wherever possible
-		B. Focuses on continual improvement and near real-time risk management
-		C. Is based on cost metrics and perceived threats
-		D. Links risk management at the process level to risk management at the managerial level
-Answer:
-C. The RMF is based on perceived risk as opposed to threats (threats may factor into risk assessment but are not the driver for the RMF).
+
+### Question # 110 - The National Institute of Standards and Technology (NIST) Risk Management Framework (RMF) is required for federal agencies in the United States. Which of the following is not a characteristic of the RMF?
+A. Automation of controls wherever possible
+B. Focuses on continual improvement and near real-time risk management
+C. Is based on cost metrics and perceived threats
+D. Links risk management at the process level to risk management at the managerial level
+Answer: C. 
+
+The RMF is based on perceived risk as opposed to threats (threats may factor into risk assessment but are not the driver for the RMF).
 All the other options are true regarding the RMF.
-	111. Symmetric encryption involves _______________.
-		A. Two key pairs, mathematically related
-		B. Unknown parties, sharing information
-		C. Signed certificates
-		D. A shared secret
-Answer:
-D. In symmetric encryption, a single key is used to both encrypt and decrypt a message. This is often referred to as a shared secret.
+
+### Question # 111 - Symmetric encryption involves _______________.
+A. Two key pairs, mathematically related
+B. Unknown parties, sharing information
+C. Signed certificates
+D. A shared secret
+Answer: D. 
+
+In symmetric encryption, a single key is used to both encrypt and decrypt a message. This is often referred to as a shared secret.
 Two key pairs are not used in symmetric encryption; option A is incorrect.
 Parties most often must be known to each other using symmetric encryption; option B is incorrect.
 Certificates require public-private key pairs, which is not an element of symmetric encryption; option C is incorrect.
-	112. Symmetric encryption involves _______________.
-		A. The Diffie-Hellman key exchange
-		B. Passing keys out of band
-		C. Mathematically related key pairs
-		D. A one-way mathematical algorithm for validating messages
-Answer:
-B. In symmetric encryption, the key must usually be passed through a different medium than will be used for sending and receiving the encrypted messages.
+
+### Question # 112 - Symmetric encryption involves _______________.
+A. The Diffie-Hellman key exchange
+B. Passing keys out of band
+C. Mathematically related key pairs
+D. A one-way mathematical algorithm for validating messages
+Answer: B. 
+
+In symmetric encryption, the key must usually be passed through a different medium than will be used for sending and receiving the encrypted messages.
 DH is usually used for asymmetric encryption, to establish a temporary symmetric key; option A is incorrect.
 Option C describes asymmetric encryption and is therefore incorrect.
 Option D describes hashing and is therefore incorrect.
