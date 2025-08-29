@@ -220,390 +220,517 @@ Oddly enough, because of the very limited need for personnel within modern data 
 B is not correct.
 
 One of the appeals of a rural setting is that building codes are often rudimentary or nonexistent. Option D is incorrect.
-	21. All tiers of the Uptime Institute standards for data centers require _______________ hours of on-site generator fuel.
-		A. 6
-		B. 10
-		C. 12
-		D. 15
-Answer:
-C. All the other options are incorrect.
-	22. The American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for internal environmental conditions within a data center suggest that a temperature setting of _______________ degrees (F) would be too high.
-		A. 93
-		B. 80
-		C. 72
-		D. 32
-Answer:
-A. The range suggested by the ASHRAE Technical Committee 9.9 is 64 to 81 degrees Fahrenheit. All the other options are distractors (although D is particularly distracting, because it is lower than the recommended range, but that is not what the question is asking).
-	23. Internal data center conditions that exceed the American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for humidity could lead to an increase of the potential for all of the following except _______________.
-		A. Biological intrusion
-		B. Electrical shorting
-		C. Corrosion/oxidation
-		D. Social engineering
-Answer:
-D. Being damp does not make people more susceptible to trickery.
+### Question # 21 - All tiers of the Uptime Institute standards for data centers require _______________ hours of on-site generator fuel.                
+A. 6           
+B. 10             
+C. 12          
+D. 15        
+Answer: C. 
+
+All the other options are incorrect.
+
+### Question # 22 - The American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for internal environmental conditions within a data center suggest that a temperature setting of _______________ degrees (F) would be too high.                 
+A. 93            
+B. 80              
+C. 72             
+D. 32             
+Answer: A.              
+
+The range suggested by the ASHRAE Technical Committee 9.9 is 64 to 81 degrees Fahrenheit. All the other options are distractors (although D is particularly distracting, because it is lower than the recommended range, but that is not what the question is asking).
+
+### Question # 23 - Internal data center conditions that exceed the American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for humidity could lead to an increase of the potential for all of the following except _______________.              
+A. Biological intrusion                
+B. Electrical shorting                    
+C. Corrosion/oxidation                   
+D. Social engineering                  
+Answer: D.                
+
+Being damp does not make people more susceptible to trickery.
 Moisture in the air can, however, create mold/mildew, short circuits, and rust, so all the other options are incorrect.
-	24. Setting thermostat controls by measuring the _______________ temperature will result in the highest energy costs.
-		A. Server inlet
-		B. Return air
-		C. Under-floor
-		D. External ambient
-Answer:
-B. The return air temperature will be slightly higher than anywhere else inside the data center because the air has been warmed by passing through the equipment (thus cooling the equipment but warming the air). Using this as a temperature set point will result in much cooler air feeding the server inlets, which takes more energy, which will be more expensive.
+
+### Question # 24 - Setting thermostat controls by measuring the _______________ temperature will result in the highest energy costs.              
+A. Server inlet               
+B. Return air              
+C. Under-floor                
+D. External ambient              
+Answer: B.            
+
+The return air temperature will be slightly higher than anywhere else inside the data center because the air has been warmed by passing through the equipment (thus cooling the equipment but warming the air). Using this as a temperature set point will result in much cooler air feeding the server inlets, which takes more energy, which will be more expensive.
+
 Options A and C are incorrect because that air is already cold; using these locations as set points will not consume as much energy and may result in somewhat warmer air entering the servers. This will be less expensive than option B.
+
 Option D is an outlying distractor; if you set your heating, ventilation, and air conditioning (HVAC) controls to respond to the temperature outside the data center, your HVAC units are responding to temperatures that have nothing to do with the internal environment. In effect, you’d be trying to adjust the temperature of the outside world, which is ridiculous.
-	25. Heating, ventilation, and air conditioning (HVAC) systems cool the data center by pushing warm air into _______________.
-		A. The server inlets
-		B. Underfloor plenums
-		C. HVAC intakes
-		D. The outside world
-Answer:
-D. The HVAC system is a heat exchange, swapping warm internal air from the data center to the outside world and drawing fresh air through the HVAC chillers to feed the internal environment.
+
+### Question # 25 - Heating, ventilation, and air conditioning (HVAC) systems cool the data center by pushing warm air into _______________.            
+A. The server inlets            
+B. Underfloor plenums           
+C. HVAC intakes              
+D. The outside world             
+Answer: D.              
+
+The HVAC system is a heat exchange, swapping warm internal air from the data center to the outside world and drawing fresh air through the HVAC chillers to feed the internal environment.
 All the other options are incorrect because they will have the opposite effect by pushing warm air into those areas that cools air is supposed to be.
-	26. It is important to include _______________ in the design of underfloor plenums if they are also used for wiring.
-		A. Mantraps
-		B. Sequestered channels
-		C. Heat sinks
-		D. Tight gaskets
-Answer:
-D. When cables come up through a raised floor used as a cold air feed, we don’t want cold air bleeding around the cables in an unplanned manner; this can cause inefficiencies in airflow control. Gaskets are required at all points where cable comes through the floor, to restrict airflow and reduce the possibility of cold air escaping.
+
+### Question # 26 - It is important to include _______________ in the design of underfloor plenums if they are also used for wiring.              
+A. Mantraps                  
+B. Sequestered channels             
+C. Heat sinks             
+D. Tight gaskets                    
+Answer: D. 
+
+When cables come up through a raised floor used as a cold air feed, we don’t want cold air bleeding around the cables in an unplanned manner; this can cause inefficiencies in airflow control. Gaskets are required at all points where cable comes through the floor, to restrict airflow and reduce the possibility of cold air escaping.
 All the other options are incorrect because we want to minimize obstructions in underfloor plenums we use for airflow. Options A, B, and C do not accomplish this.
-	27. Cable management includes all of the following except _______________.
-		A. Tagging cables
-		B. Removing unused/obsolete cables
-		C. Banding and bundling cables
-		D. Removing unused machines
-Answer:
-D. While minimizing equipment in the operational environment can aid in many efforts, including cable management, it is not strictly an aspect of cable management, so this is the best choice from those available. All the other options are definitely aspects of cable management.
-	28. How often should cable management efforts take place?
-		A. Annually
-		B. Continually
-		C. Quarterly
-		D. Weekly
-Answer:
-B. Cable management is an ongoing process. All the other options are incorrect because they are time based intervals rather than continuous.
-	29. You are designing a private cloud data center for an insurance underwriter, to be located in a major metropolitan area. Which of the following airflow management schemes is preferable?
-		A. Hot aisle
-		B. Cold aisle
-		C. Either hot aisle or cold aisle
-		D. Free flow
-Answer:
-C. It shouldn’t matter which design you use as long as airflow is managed. Neither hot nor cold aisle containment is preferable to the other, so options A and B are incorrect. Airflow does need to be managed, though, so option D is incorrect as well.
-	30. Which of the following factors will probably have the most impact on the cost of running your heating, ventilation, and air conditioning (HVAC) systems?
-		A. Whether you choose hot or cold aisle containment
-		B. The external ambient environment
-		C. The initial cost of the HVAC systems
-		D. Proper cable maintenance
-Answer:
-B. This is a difficult question because almost all of the options are true—they will all have an effect on the cost of running HVAC systems.
+
+### Question # 27 - Cable management includes all of the following except _______________.           
+A. Tagging cables                   
+B. Removing unused/obsolete cables            
+C. Banding and bundling cables              
+D. Removing unused machines             
+Answer: D.              
+
+While minimizing equipment in the operational environment can aid in many efforts, including cable management, it is not strictly an aspect of cable management, so this is the best choice from those available. All the other options are definitely aspects of cable management.
+
+### Question # 28 - How often should cable management efforts take place?               
+A. Annually              
+B. Continually              
+C. Quarterly               
+D. Weekly               
+Answer: B.                
+
+Cable management is an ongoing process. All the other options are incorrect because they are time based intervals rather than continuous.
+
+### Question # 29 - You are designing a private cloud data center for an insurance underwriter, to be located in a major metropolitan area. Which of the following airflow management schemes is preferable?                 
+A. Hot aisle          
+B. Cold aisle                    
+C. Either hot aisle or cold aisle             
+D. Free flow                
+Answer: C.                   
+
+It shouldn’t matter which design you use as long as airflow is managed. Neither hot nor cold aisle containment is preferable to the other, so options A and B are incorrect. Airflow does need to be managed, though, so option D is incorrect as well.
+
+### Question # 30 - Which of the following factors will probably have the most impact on the cost of running your heating, ventilation, and air conditioning (HVAC) systems?            
+A. Whether you choose hot or cold aisle containment               
+B. The external ambient environment               
+C. The initial cost of the HVAC systems               
+D. Proper cable maintenance               
+Answer: B.              
+
+This is a difficult question because almost all of the options are true—they will all have an effect on the cost of running HVAC systems.
 Because HVAC operates as a heat exchange, the outside environment will dictate how much power is needed to force warm air out of the data center. The warmer the climate in the location of the data center, the more energy it will take to exchange the heat, and the more costly the HVAC operation. This is the most significant factor.
+
 Option A is incorrect and it is the only choice that does not affect energy costs; hot and cold aisle containment should be equivalent in terms of operational costs.
-The initial cost of the HVAC units themselves will probably have an effect on operational costs because better equipment will cost more money, but it will also be more efficient and therefore less expensive to operate than cheaper alternatives. However, the effect still won’t be as significant as the external climate, so option C is still not as good as option B.
+The initial cost of the HVAC units themselves will probably have an effect on operational costs because better equipment will cost more money, but it will also be more efficient and therefore less expensive to operate than 
+
+cheaper alternatives. However, the effect still won’t be as significant as the external climate, so option C is still not as good as option B.
 Good cable management will make airflow more efficient and therefore make HVAC less expensive, but this will not be as dramatic in impact on operating costs as the external environment. Once again, option B is preferable to option D.
-	31. You are designing a Tier 4 data center for a large hospital. In order to plan for the possibility of losing utility power, in addition to having sufficient generators, you should plan to locate the data center _______________.
-		A. In an urban setting
-		B. In a rural environment
-		C. Near a coast
-		D. At the border of different counties, regions, or states
-Answer:
-D. Usually, different political regions are served by different utility providers; placing your data center on such a boundary may make it feasible to have redundant, overlapping power providers.
+
+### Question # 31 - You are designing a Tier 4 data center for a large hospital. In order to plan for the possibility of losing utility power, in addition to having sufficient generators, you should plan to locate the data center _______________.             
+A. In an urban setting           
+B. In a rural environment             
+C. Near a coast           
+D. At the border of different counties, regions, or states           
+Answer: D.          
+
+Usually, different political regions are served by different utility providers; placing your data center on such a boundary may make it feasible to have redundant, overlapping power providers.
 Municipalities typically limit selection of power providers by granting an artificial monopoly to a single provider; option A is incorrect.
 Rural settings are often only served by a single provider because the demand is not sufficient to support competition; option B is incorrect.
 Coasts do not affect the availability of multiple power providers; option C is a distractor.
-	32. Because most cloud environments rely heavily on virtualization, it is important to lock down or harden the virtualization software, or any software involved in virtualization. Which of the following is not an element of hardening software?
-		A. Removing unused services and libraries
-		B. Maintaining a strict license catalog
-		C. Patching and updating as necessary
-		D. Removing default accounts
-Answer:
-B. While maintaining a library of software licenses is important, it is not part of the practice we ordinarily consider “hardening.”
+
+### Question # 32 - Because most cloud environments rely heavily on virtualization, it is important to lock down or harden the virtualization software, or any software involved in virtualization. Which of the following is not an element of hardening software?          
+A. Removing unused services and libraries          
+B. Maintaining a strict license catalog             
+C. Patching and updating as necessary                 
+D. Removing default accounts              
+Answer: B.            
+
+While maintaining a library of software licenses is important, it is not part of the practice we ordinarily consider “hardening.”
 The other options are all aspects of software hardening.
-	33. Which of the following is not an aspect of host hardening?
-		A. Removing all unnecessary software and services
-		B. Patching and updating as needed
-		C. Performing more frequent and thorough audits on the host
-		D. Installing a host-based firewall and an intrusion detection system (IDS)
-Answer:
-C. Audits usually aren’t considered an element of hardening. Hardening is the process of provisioning a specific element (in this case, a host) against attack. Audits don’t protect against attack; they only detect and direct response to attacks.
+
+### Question # 33 - Which of the following is not an aspect of host hardening?            
+A. Removing all unnecessary software and services              
+B. Patching and updating as needed                              
+C. Performing more frequent and thorough audits on the host                     
+D. Installing a host-based firewall and an intrusion detection system (IDS)              
+Answer: C. 
+
+Audits usually aren’t considered an element of hardening. Hardening is the process of provisioning a specific element (in this case, a host) against attack. Audits don’t protect against attack; they only detect and direct response to attacks.
 All the other options are aspects of host hardening.
-	34. Which of the following is not an element of ongoing configuration maintenance?
-		A. Penetration tests of guest OSs and hosts
-		B. Social engineering tests of all users
-		C. Patch management of guest OSs, hosts, and applications
-		D. Vulnerability scans of guest OSs and hosts
-Answer:
-B. Users are not an aspect of configuration management.
+
+### Question # 34 - Which of the following is not an element of ongoing configuration maintenance?              
+A. Penetration tests of guest OSs and hosts              
+B. Social engineering tests of all users                       
+C. Patch management of guest OSs, hosts, and applications                
+D. Vulnerability scans of guest OSs and hosts                   
+Answer: B. 
+
+Users are not an aspect of configuration management.
 All the other options are elements of secure configuration management.
-	35. Storage controllers will be used in conjunction with all the following protocols except _______________.
-		A. HTTPS
-		B. Internet Small Computer Systems Interface (iSCSI)
-		C. Fibre Channel
-		D. Fibre Channel over Ethernet
-Answer:
-A. HTTPS is not a storage protocol. All the other options are.
-	36. Which of these characteristics of a virtualized network adds risks to the cloud environment?
-		A. Redundancy
-		B. Scalability
-		C. Pay-per-use
-		D. Self-service
-Answer:
-B. Virtual switches are widely used in virtualized networks. Unlike physical switches, which only lose one connection if a connecting cable is lost, virtual switches can be connected to multiple virtual machines via a single cable; if a cable is lost in a virtualized network, that can affect tens or dozens of devices. In this context, the benefits offered by scalability come with attendant risks.
+
+### Question # 35 - Storage controllers will be used in conjunction with all the following protocols except _______________.       
+A. HTTPS                                               
+B. Internet Small Computer Systems Interface (iSCSI)              
+C. Fibre Channel                  
+D. Fibre Channel over Ethernet               
+Answer: A.                 
+
+HTTPS is not a storage protocol. All the other options are.
+
+### Question # 36 - Which of these characteristics of a virtualized network adds risks to the cloud environment?            
+A. Redundancy           
+B. Scalability              
+C. Pay-per-use            
+D. Self-service                
+Answer: B.          
+
+Virtual switches are widely used in virtualized networks. Unlike physical switches, which only lose one connection if a connecting cable is lost, virtual switches can be connected to multiple virtual machines via a single cable; if a cable is lost in a virtualized network, that can affect tens or dozens of devices. In this context, the benefits offered by scalability come with attendant risks.
 The other options are characteristics that don’t cause additional risk to the environment; in fact, redundancy reduces risk.
-	37. Security best practices in a virtualized network environment would include which of the following?
-		A. Using distinct ports and port groups for various virtual local area networks (VLANs) on a virtual switch rather than running them through the same port
-		B. Running Internet Small Computer Systems Interface (iSCSI) traffic unencrypted in order to have it observed and monitored by a network intrusion detection system (NIDS)
-		C. Adding a host-based intrusion detection system (HIDS) to all virtual guests
-		D. Hardening all outward-facing firewalls in order to make them resistant to attack
-Answer:
-A. It is possible to route multiple VLANs through a switch port (physical or virtual) with proper frame tagging. However, to optimize isolation of subnets and processes in a virtual network environment, it is better to use different ports instead.
+
+### Question # 37 - Security best practices in a virtualized network environment would include which of the following?                                      
+A. Using distinct ports and port groups for various virtual local area networks (VLANs) on a virtual switch rather than running them through the same port                    
+B. Running Internet Small Computer Systems Interface (iSCSI) traffic unencrypted in order to have it observed and monitored by a network intrusion detection system (NIDS)             
+C. Adding a host-based intrusion detection system (HIDS) to all virtual guests             
+D. Hardening all outward-facing firewalls in order to make them resistant to attack             
+Answer: A.          
+
+It is possible to route multiple VLANs through a switch port (physical or virtual) with proper frame tagging. However, to optimize isolation of subnets and processes in a virtual network environment, it is better to use different ports instead.
 iSCSI traffic should be encrypted as another layer of defense within the environment; option B is wrong.
 HIDSs may or may not be cost-effective, depending on the value and sensitivity of the data on each guest; the additional overhead may not justify their use. Option C is incorrect.
 Firewalls should be hardened regardless of the nature of the network whether virtual or physical.
-	38. In order to enhance virtual environment isolation and security, a best practice is to _______________.
-		A. Ensure that all virtual switches are not connected to the physical network
-		B. Ensure that management systems are connected to a different physical network than the production systems
-		C. Never connect a virtual switch to a physical host
-		D. Connect physical devices only with virtual switches
-Answer:
-B. The management systems control the entirety of the virtual environment and are therefore extremely valuable and need to be protected accordingly. When possible, isolating those management systems, both physically and virtually, is optimum.
+
+### Question # 38 - In order to enhance virtual environment isolation and security, a best practice is to _______________.           
+A. Ensure that all virtual switches are not connected to the physical network                                     
+B. Ensure that management systems are connected to a different physical network than the production systems              
+C. Never connect a virtual switch to a physical host            
+D. Connect physical devices only with virtual switches                  
+Answer: B.                
+
+The management systems control the entirety of the virtual environment and are therefore extremely valuable and need to be protected accordingly. When possible, isolating those management systems, both physically and virtually, is optimum.
 All the other options are incorrect because they imply that virtual and physical cannot coexist when in fact they need to coexist to work correctly.
-	39. Which of the following is a risk that stems from a virtualized environment?
-		A. Live virtual machines in the production environment are moved from one host to another in the clear.
-		B. Cloud data centers can become a single point of failure.
-		C. It is difficult to find and contract with multiple utility providers of the same type (electric, water, etc.).
-		D. Modern service level-agreement (SLA) demands are stringent and very hard to meet.
-Answer:
-A. When an active virtual machine is moved from a given host to another (for instance, when the host is going into maintenance state), it is passed along the network without encryption. Theoretically, an insider threat observing the line along which the virtual machine is moving could capture/copy it in its entirety.
+ 
+### Question # 39 - Which of the following is a risk that stems from a virtualized environment?                      
+A. Live virtual machines in the production environment are moved from one host to another in the clear.                    
+B. Cloud data centers can become a single point of failure.                                                           
+C. It is difficult to find and contract with multiple utility providers of the same type (electric, water, etc.).                 
+D. Modern service level-agreement (SLA) demands are stringent and very hard to meet.                     
+Answer: A. 
+
+When an active virtual machine is moved from a given host to another (for instance, when the host is going into maintenance state), it is passed along the network without encryption. Theoretically, an insider threat observing the line along which the virtual machine is moving could capture/copy it in its entirety.
 All the other options are not risks specific to a virtualized environment and are therefore incorrect.
-	40. Which of the following is a risk that stems from a pooled-resources environment?
-		A. Loss of data to widespread phishing attacks
-		B. Loss of availability due to widespread distributed denial of service (DDoS) attacks
-		C. Loss of data to widespread insider threat
-		D. Loss of data to law enforcement seizure of neighboring assets
-Answer:
-D. In a pooled environment, law enforcement may acquire physical or logical assets (drives, data stores, etc.) that include your organization’s data, even if your organization was not the target of the investigation.
+
+### Question # 40 - Which of the following is a risk that stems from a pooled-resources environment?                                  
+A. Loss of data to widespread phishing attacks                                                            
+B. Loss of availability due to widespread distributed denial of service (DDoS) attacks                      
+C. Loss of data to widespread insider threat                                         
+D. Loss of data to law enforcement seizure of neighboring assets                     
+Answer: D. 
+
+In a pooled environment, law enforcement may acquire physical or logical assets (drives, data stores, etc.) that include your organization’s data, even if your organization was not the target of the investigation.
+
 All the other options are not risks due to pooled resources; they exist in all environments. These options are not correct.
-	41. Modern managed cloud service providers will often use secure keyboard/video/mouse (KVM) devices within their data centers. These devices are extremely expensive compared to their non-secured counterparts. Which of the following is one of the reasons cloud service providers do this?
-		A. They have plenty of revenue and can afford it.
-		B. They have invested heavily in the secure KVM market.
-		C. Cloud data centers need very few of these devices.
-		D. Managed cloud providers often manufacture their own devices as well.
-Answer:
-C. The cost of each device is spread across many machines in the data center; unlike a desktop-based environment, where every user and every machine need their own KVM setup, just a few devices can serve an entire data center.
+
+### Question # 41 - Modern managed cloud service providers will often use secure keyboard/video/mouse (KVM) devices within their data centers. These devices are extremely expensive compared to their non-secured counterparts. Which of the following is one of the reasons cloud service providers do this?                       
+A. They have plenty of revenue and can afford it.                                
+B. They have invested heavily in the secure KVM market.           
+C. Cloud data centers need very few of these devices.          
+D. Managed cloud providers often manufacture their own devices as well.                    
+Answer: C. 
+
+The cost of each device is spread across many machines in the data center; unlike a desktop-based environment, where every user and every machine need their own KVM setup, just a few devices can serve an entire data center.
 While the cloud provider may generate a great deal of revenue, no company likes to throw away money unnecessarily; option A is incorrect.
 Cloud providers are not typically invested in KVM vendors. Option B is incorrect.
+
 Option D is simply incorrect.
-	42. The American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for internal environmental conditions within a data center suggest that a temperature setting of _______________ degrees (F) would be too low.
-		A. 93
-		B. 80
-		C. 72
-		D. 32
-Answer:
-D. The range suggested by the ASHRAE Technical Committee 9.9 is 64 to 81 degrees Fahrenheit. All the other options are incorrect (although A is particularly distracting, because it is higher than the recommended range, but that is not what the question is asking).
-	43. Modern managed cloud service providers will often use secure keyboard/video/mouse (KVM) devices within their data centers. These devices are extremely expensive compared to their non-secured counterparts. Which of the following is one of the reasons cloud service providers do this?
-		A. The risk of transferring data from one customer to another is significant.
-		B. The risk of devices leaving the cloud data center is significant.
-		C. It makes physical inventories much easier to maintain.
-		D. Audit purposes
-Answer:
-A. Secure KVMs support drastically isolated operations; they cut down on the possibility of data being inadvertently shared from one customer to another.
+
+### Question # 42 - The American Society of Heating, Refrigeration, and Air Conditioning Engineers (ASHRAE) guidelines for internal environmental conditions within a data center suggest that a temperature setting of _______________ degrees (F) would be too low.                              
+A. 93               
+B. 80             
+C. 72               
+D. 32          
+Answer: D.              
+
+The range suggested by the ASHRAE Technical Committee 9.9 is 64 to 81 degrees Fahrenheit. All the other options are incorrect (although A is particularly distracting, because it is higher than the recommended range, but that is not what the question is asking).
+
+### Question # 43 - Modern managed cloud service providers will often use secure keyboard/video/mouse (KVM) devices within their data centers. These devices are extremely expensive compared to their non-secured counterparts. Which of the following is one of the reasons cloud service providers do this?                    
+A. The risk of transferring data from one customer to another is significant.          
+B. The risk of devices leaving the cloud data center is significant.             
+C. It makes physical inventories much easier to maintain.            
+D. Audit purposes         
+Answer: A.           
+
+Secure KVMs support drastically isolated operations; they cut down on the possibility of data being inadvertently shared from one customer to another.
+
 Option B is incorrect because devices will not leave the cloud data center simply because they are not managed by secure KVMs.
+
 Option C is incorrect because using secure KVMs will not have an effect on physical inventories.
+
 Option D does contain enough information to be the correct answer. “Audit purposes” is ambiguous.
-	44. A truly air-gapped machine selector will _______________.
-		A. Terminate a connection before creating a new connection
-		B. Be made of composites and not metal
-		C. Have total Faraday properties
-		D. Not be portable
-Answer:
-A. Referred to as “break before make,” these devices often take the form of manual pushbutton controls; as the button is pushed, the current connection is forced to physically separate, and when the button is fully engaged, the new connection is made.
+
+### Question # 44 - A truly air-gapped machine selector will _______________.           
+A. Terminate a connection before creating a new connection           
+B. Be made of composites and not metal           
+C. Have total Faraday properties           
+D. Not be portable           
+Answer: A.           
+
+Referred to as “break before make,” these devices often take the form of manual pushbutton controls; as the button is pushed, the current connection is forced to physically separate, and when the button is fully engaged, the new connection is made.
+
 Options B and C have more to do with risks of electromagnetic emanations than with air-gapped selectivity; even air-gapped devices can leak data through emanations.
+
 Option D is incorrect because portability is not a property we seek in device selectors.
-	45. Which of the following cloud data center functions do not have to be performed on isolated networks?
-		A. Customer access provision
-		B. Management system control interface
-		C. Storage controller access
-		D. Customer production activities
-Answer:
-D. The production activities will make full use of pooled resources, so they will not be isolated (unless the customer is paying for that specific characteristic of service).
+
+### Question # 45 - Which of the following cloud data center functions do not have to be performed on isolated networks?          
+A. Customer access provision       
+B. Management system control interface        
+C. Storage controller access            
+D. Customer production activities      
+Answer: D.       
+
+The production activities will make full use of pooled resources, so they will not be isolated (unless the customer is paying for that specific characteristic of service).
 All the other options are functions that should take place on isolated networks/segments.
-	46. Which of the following is not a characteristic of a virtual local area network (VLAN)?
-		A. Broadcast packets sent by a machine inside the VLAN will reach all other machines in that VLAN.
-		B. Broadcast packets sent from outside the VLAN will not reach other machines outside the VLAN.
-		C. Broadcast packets sent from a machine outside the VLAN will not reach machines inside the VLAN.
-		D. Broadcast packets sent by a machine inside the VLAN will not reach machines outside the VLAN.
-Answer:
-B. Broadcast packets sent by machines outside the VLAN will reach machines outside the VLAN that are on the same network/segment.
+
+### Question # 46 - Which of the following is not a characteristic of a virtual local area network (VLAN)?                          
+A. Broadcast packets sent by a machine inside the VLAN will reach all other machines in that VLAN.            
+B. Broadcast packets sent from outside the VLAN will not reach other machines outside the VLAN.            
+C. Broadcast packets sent from a machine outside the VLAN will not reach machines inside the VLAN.              
+D. Broadcast packets sent by a machine inside the VLAN will not reach machines outside the VLAN.                
+Answer: B. 
+
+Broadcast packets sent by machines outside the VLAN will reach machines outside the VLAN that are on the same network/segment.
 All the other options are characteristics of a VLAN.
-	47. In order for communications from inside a virtual local area network (VLAN) to reach endpoints outside the VLAN, _______________.
-		A. The communications must go through a gateway
-		B. The traffic must be encrypted
-		C. A repeater must be used
-		D. The external endpoint must be in receive mode
-Answer:
-A. Gateway devices enforce the VLAN rules and can allow or deny outbound traffic.
+
+### Question # 47 - In order for communications from inside a virtual local area network (VLAN) to reach endpoints outside the VLAN, _______________.                     
+A. The communications must go through a gateway             
+B. The traffic must be encrypted           
+C. A repeater must be used                        
+D. The external endpoint must be in receive mode               
+Answer: A.           
+
+Gateway devices enforce the VLAN rules and can allow or deny outbound traffic.
+
 Communications traffic from a VLAN may or may not be encrypted; option B is incorrect.
+
 Repeaters are used to enhance signals along a line over a certain distance; they have nothing to do with VLANs. Option C is incorrect.
+
 Option D makes no sense in this context.
-	48. Transport Layer Security (TLS) uses _______________ to authenticate a connection and create a shared secret for the duration of the session.
-		A. Security Assertion Markup Language (SAML) 2.0
-		B. X.509 certificates
-		C. 802.11X
-		D. The Diffie-Hellman process
-Answer:
-B. TLS uses X.509 certificates to establish a connection and create a symmetric key that lasts for only one session.
+
+### Question # 48 - Transport Layer Security (TLS) uses _______________ to authenticate a connection and create a shared secret for the duration of the session.                         
+A. Security Assertion Markup Language (SAML) 2.0         
+B. X.509 certificates          
+C. 802.11X                        
+D. The Diffie-Hellman process          
+Answer: B. 
+
+TLS uses X.509 certificates to establish a connection and create a symmetric key that lasts for only one session.
+
 SAML is used for federation authentication/identification; option A is incorrect.
+
 802.11 is the suite of wireless standards; option C is incorrect.
+
 Diffie-Hellman uses asymmetric key pairs to create a symmetric key; option D is incorrect.
-	49. Halon is now illegal to use for data center fire suppression. What is the reason it was outlawed?
-		A. It poses a threat to health and human safety when deployed.
-		B. It can harm the environment.
-		C. It does not adequately suppress fires.
-		D. It causes undue damage to electronic systems.
-Answer:
-B. This question is an outlier because it is one of the few such questions where the answer is not that it poses a threat to health and human safety (although, in fact, it does; option A is true, but incorrect). Halon was not prohibited because of this property. Halon was outlawed because it, like other CFCs (chlorofluorocarbons), was blamed for depleting the earth’s ozone layer. Halon is still allowed in some very specialized cases (such as fire-suppression systems on aircraft), but this is an exception.
+
+### Question # 49 - Halon is now illegal to use for data center fire suppression. What is the reason it was outlawed?             
+A. It poses a threat to health and human safety when deployed.            
+B. It can harm the environment.                
+C. It does not adequately suppress fires.           
+D. It causes undue damage to electronic systems.              
+Answer: B. 
+
+This question is an outlier because it is one of the few such questions where the answer is not that it poses a threat to health and human safety (although, in fact, it does; option A is true, but incorrect). Halon was not prohibited because of this property. Halon was outlawed because it, like other CFCs (chlorofluorocarbons), was blamed for depleting the earth’s ozone layer. Halon is still allowed in some very specialized cases (such as fire-suppression systems on aircraft), but this is an exception.
 Options C and D are incorrect and untrue.
-	50. When cloud computing professionals use the term ping, power, pipe, which of the following characteristics is not being described?
-		A. Logical connectivity
-		B. Human interaction
-		C. Electricity
-		D. Heating, ventilation, and air conditioning (HVAC)
-Answer:
-B. User interaction with the cloud is not described in this term. All the other options are characteristics of cloud computing mentioned in ping, power, pipe.
-	51. Which of the following is not a goal of a site survey?
-		A. Threat definition
-		B. Target identification
-		C. Penetration testing
-		D. Facility characteristics
-Answer:
-C. The penetration test is not part of the site survey, which is one of the initial steps in securing/auditing a facility. The penetration test will, however, probably make use of the site survey information later.
+
+### Question # 50 - When cloud computing professionals use the term ping, power, pipe, which of the following characteristics is not being described?           
+A. Logical connectivity          
+B. Human interaction           
+C. Electricity                
+D. Heating, ventilation, and air conditioning (HVAC)              
+Answer: B.             
+User interaction with the cloud is not described in this term. All the other options are characteristics of cloud computing mentioned in ping, power, pipe.
+
+### Question # 51 - Which of the following is not a goal of a site survey?             
+A. Threat definition              
+B. Target identification           
+C. Penetration testing            
+D. Facility characteristics            
+Answer: C.                
+
+The penetration test is not part of the site survey, which is one of the initial steps in securing/auditing a facility. The penetration test will, however, probably make use of the site survey information later.
+
 All the other options are goals of the site survey.
-	52. Designing system redundancy into a cloud data center allows all the following capabilities except _______________.
-		A. Incorporating additional hardware into the production environment
-		B. Preventing any chance of service interruption
-		C. Load-sharing/balancing
-		D. Planned, controlled failover during contingency operations
-Answer:
-B. There is no such thing as zero risk; there will always be some chance of service interruption, no matter how minimized.
+
+### Question # 52 - Designing system redundancy into a cloud data center allows all the following capabilities except _______________.              
+A. Incorporating additional hardware into the production environment         
+B. Preventing any chance of service interruption            
+C. Load-sharing/balancing                                           
+D. Planned, controlled failover during contingency operations             
+Answer: B. 
+
+There is no such thing as zero risk; there will always be some chance of service interruption, no matter how minimized.
+
 All the other options are capabilities allowed by redundancy.
-	53. Gaseous fire suppression systems that function by displacing oxygen need to be installed in conjunction with _______________.
-		A. Water cooling
-		B. Filters
-		C. Occupant training
-		D. Failsafe or “last person out” switches
-Answer:
-D. Before flooding an enclosed space with a gas that will displace oxygen, it is important to ensure that all personnel are out of the area. While this requires personnel training, such training is ineffective without a system to support this capability. Option C is true, but not as accurate as option D.
+
+### Question # 53 - Gaseous fire suppression systems that function by displacing oxygen need to be installed in conjunction with _______________.        
+A. Water cooling         
+B. Filters                
+C. Occupant training                         
+D. Failsafe or “last person out” switches           
+Answer: D. 
+
+Before flooding an enclosed space with a gas that will displace oxygen, it is important to ensure that all personnel are out of the area. While this requires personnel training, such training is ineffective without a system to support this capability. Option C is true, but not as accurate as option D.
+
 Options A and B are incorrect because they do not make senses given the question is about a system that displaces oxygen in the facility.
-	54. What aspect of data center planning occurs first?
-		A. Logical design
-		B. Physical design
-		C. Audit
-		D. Policy revision
-Answer:
-A. The logical design should come before the physical design; function dictates form. Audit and revision come after creation.
-	55. Which of the following are not examples of personnel controls?
-		A. Background checks
-		B. Reference checks
-		C. Strict access control mechanisms
-		D. Continuous security training
-Answer:
-C. While physical controls that inhibit movement affect personnel, they are not regarded as personnel controls. All the other options are examples of personnel controls.
-	56. Updating virtual machine management tools will require _______________.
-		A. An infusion of capital
-		B. An alternate data center
-		C. Sufficient redundancy
-		D. Peer review
-Answer:
-C. Because updating the virtualization toolset may require server downtime, it is essential to have a sufficient amount of redundant machines to roll out the update over the environment without significant disruption of operations.
+
+### Question # 54 - What aspect of data center planning occurs first?                          
+A. Logical design            
+B. Physical design             
+C. Audit              
+D. Policy revision            
+Answer: A. 
+
+The logical design should come before the physical design; function dictates form. Audit and revision come after creation.
+
+### Question # 55 - Which of the following are not examples of personnel controls?           
+A. Background checks         
+B. Reference checks                    
+C. Strict access control mechanisms            
+D. Continuous security training          
+Answer: C. 
+
+While physical controls that inhibit movement affect personnel, they are not regarded as personnel controls. All the other options are examples of personnel controls.
+
+### Question # 56 - Updating virtual machine management tools will require _______________.               
+A. An infusion of capital               
+B. An alternate data center               
+C. Sufficient redundancy             
+D. Peer review               
+Answer: C. 
+
+Because updating the virtualization toolset may require server downtime, it is essential to have a sufficient amount of redundant machines to roll out the update over the environment without significant disruption of operations.
+
 Option A assumes that there isn’t already enough of whatever the infusion of capital will purchase. Option A is incorrect.
+
 Thankfully, option B is incorrect. It would be costly to obtain an alternate data center each time the virtual machine management tools are updated.
+
 Peer review is not required when updating virtual machine management tools. Option D is incorrect.
-	57. Access control to virtualization management tools should be _______________.
-		A. Rule-based
-		B. Role-based
-		C. User-based
-		D. Discretionary
-Answer:
-B. It is important to limit access to the virtualization toolset to those administrators, engineers, and architects who are vital for supporting the virtualized environment and nobody else.
+
+### Question # 57 - Access control to virtualization management tools should be _______________.           
+A. Rule-based           
+B. Role-based          
+C. User-based          
+D. Discretionary       
+Answer: B. 
+
+It is important to limit access to the virtualization toolset to those administrators, engineers, and architects who are vital for supporting the virtualized environment and nobody else.
+
 The other options are incorrect because they do not restrict access to the virtualization management tool set as specifically as role-based access control does. If someone’s role changes and they no longer require access, then their access should be terminated.
-	58. Before deploying a specific brand of virtualization toolset, it is important to configure it according to _______________.
-		A. Industry standards
-		B. Prevailing law of that jurisdiction
-		C. Vendor guidance
-		D. Expert opinion
-Answer:
-C. Toolset vendors will specify secure configurations of their products; these must be followed in order to fulfill due care requirements.
+
+### Question # 58 - Before deploying a specific brand of virtualization toolset, it is important to configure it according to _______________.                
+A. Industry standards                       
+B. Prevailing law of that jurisdiction           
+C. Vendor guidance            
+D. Expert opinion          
+Answer: C.         
+
+Toolset vendors will specify secure configurations of their products; these must be followed in order to fulfill due care requirements.
 Standards and laws don’t usually specify builds for products or brands, so options A and B are incorrect.
 Expert opinion, while useful, is not sufficient to demonstrate due care in many cases; option D is not the best response.
-	59. Which of the following is essential for getting full security value from your system baseline?
-		A. Personnel training
-		B. Documentation
-		C. Host-based intrusion detection system (HIDS)
-		D. Encryption
-Answer:
-B. In order to understand, optimize, and re-create your secure baseline, proper and full documentation is absolutely essential.
+
+### Question # 59 - Which of the following is essential for getting full security value from your system baseline?          
+A. Personnel training           
+B. Documentation            
+C. Host-based intrusion detection system (HIDS)            
+D. Encryption               
+Answer: B. 
+
+In order to understand, optimize, and re-create your secure baseline, proper and full documentation is absolutely essential.
+
 Personnel training is important for secure system use, but it is not an element of baselining. Option A is incorrect.
+
 A secure baseline for a given system may include HIDS and/or encryption, but they are not essential elements, so options C and D are incorrect.
-	60. Which of the following is essential for getting full security value from your system baseline?
-		A. Capturing and storing an image of the baseline
-		B. Keeping a copy of upcoming suggested modifications to the baseline
-		C. Having the baseline vetted by an objective third party
-		D. Using a baseline from another industry member so as not to engage in repetitious efforts
-Answer:
-A. An image of the baseline should be stored securely, preferably in more than one location (to include the archive, the disaster kit, and any alternate site, to name a few). It is essential to have a copy on hand for reconstructing the environment during contingency operations, and it is also useful for audit/review purposes.
+
+### Question # 60 - Which of the following is essential for getting full security value from your system baseline?           
+A. Capturing and storing an image of the baseline                        
+B. Keeping a copy of upcoming suggested modifications to the baseline            
+C. Having the baseline vetted by an objective third party                                     
+D. Using a baseline from another industry member so as not to engage in repetitious efforts            
+Answer: A. 
+
+An image of the baseline should be stored securely, preferably in more than one location (to include the archive, the disaster kit, and any alternate site, to name a few). It is essential to have a copy on hand for reconstructing the environment during contingency operations, and it is also useful for audit/review purposes.
+
 Option B is incorrect because planned modifications are not yet part of the actual baseline.
+
 Option C may be a good answer in some situations; however, it is not essential, and option A is still a better answer.
+
 Option D is incorrect because every environment (and, therefore, the baseline used in that environment) should be exclusively tailored for the organization using that environment.
-	61. Patching can be viewed as a configuration modification and therefore subject to the organization’s configuration management program and methods. What may also be an aspect of patching in terms of configuration management?
-		A. Patching doesn’t need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications.
-		B. Any patches suggested or required by vendors to maintain compliance with service contracts must be made immediately, regardless of internal process restrictions.
-		C. Any patches suggested by third parties should not be considered as they may invalidate service contracts or warranties and negatively affect the organization’s security posture.
-		D. The configuration or change management committee or board may grant blanket approval for patches (at a certain impact level) without the need to go through the formal change process.
-Answer:
-D. In order to ensure timely application of patches, patching may receive blanket approval and only be reviewed by the committee or board after the fact for final approval.
+
+### Question # 61 - Patching can be viewed as a configuration modification and therefore subject to the organization’s configuration management program and methods. What may also be an aspect of patching in terms of configuration management?                 
+A. Patching doesn’t need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications.                      
+B. Any patches suggested or required by vendors to maintain compliance with service contracts must be made immediately, regardless of internal process restrictions.                     
+C. Any patches suggested by third parties should not be considered as they may invalidate service contracts or warranties and negatively affect the organization’s security posture.           
+D. The configuration or change management committee or board may grant blanket approval for patches (at a certain impact level) without the need to go through the formal change process.         
+Answer: D. 
+
+In order to ensure timely application of patches, patching may receive blanket approval and only be reviewed by the committee or board after the fact for final approval.
+
 Requiring normalized processing for patching may delay patching and expose the organization to undue risk; option A is thus incorrect.
+
 Patching still needs to involve testing and confirmation to avoid interoperability and additional security problems, making option B incorrect.
+
 Third parties can identify security problems as well as vendors; external patches need to be considered as well as vendor patches. Option C is thus incorrect.
-	62. Clustering hosts allows you to do all the following except _______________.
-		A. Meet high-availability demands
-		B. Optimize performance with load balancing
-		C. Enhance scalability
-		D. Apply updates, patches, or configuration modifications instantly
-Answer:
-D. Clustering does not preclude the time and diligence necessary to perform patching or updates.
+
+### Question # 62 - Clustering hosts allows you to do all the following except _______________.          
+A. Meet high-availability demands                 
+B. Optimize performance with load balancing            
+C. Enhance scalability                                                 
+D. Apply updates, patches, or configuration modifications instantly            
+Answer: D.           
+
+Clustering does not preclude the time and diligence necessary to perform patching or updates.
 All the other options are attributes provided by host clustering.
-	63. Which of the following is not a way to apportion resources in a pooled environment?
-		A. Reservations
-		B. Limits
-		C. Tokens
-		D. Shares
-Answer:
-C. Tokenization is a method for obscuring or protecting data using two distinct databases, not a resource allocation method.
+
+### Question # 63 - Which of the following is not a way to apportion resources in a pooled environment?        
+A. Reservations          
+B. Limits           
+C. Tokens            
+D. Shares      
+Answer: C.      
+
+Tokenization is a method for obscuring or protecting data using two distinct databases, not a resource allocation method.
 All the other options are methods for allocating shared resources.
-	64. A loosely coupled storage cluster will have performance and capacity limitations based on the _______________.
-		A. Physical backplane connecting it
-		B. Total number of nodes in the cluster
-		C. Amount of usage demanded
-		D. The performance and capacity in each node
-Answer:
-D. In a loosely coupled storage cluster, each node acts as an independent data store that can be added or removed from the cluster without affecting other nodes. This, however, means that the overall cluster’s performance/capacity depends on each node’s own maximum performance/capacity.
+
+### Question # 64 - A loosely coupled storage cluster will have performance and capacity limitations based on the _______________.        
+A. Physical backplane connecting it            
+B. Total number of nodes in the cluster         
+C. Amount of usage demanded                     
+D. The performance and capacity in each node          
+Answer: D. 
+
+In a loosely coupled storage cluster, each node acts as an independent data store that can be added or removed from the cluster without affecting other nodes. This, however, means that the overall cluster’s performance/capacity depends on each node’s own maximum performance/capacity.
+
 The physical backplane can be a limiting factor in a tightly coupled architecture but has less effect in a loosely coupled cluster; option A is incorrect.
+
 Because each node in a loosely coupled cluster has its own limitations, the number of nodes will not affect overall performance. Option B is incorrect.
+
 Option C is incorrect because “usage demanded” is not a factor in performance and capacity of a loosely coupled storage cluster.
-	65. When putting a system into maintenance mode, it’s important to do all of the following except _______________.
-		A. Transfer any live virtual guests off the host
-		B. Turn off logging
-		C. Lock out the system from accepting any new guests
-		D. Notify customers if there are any interruptions
-Answer:
-B. Auditing is probably even more important during maintenance mode than normal operation because administrator activity is almost always involved.
+
+### Question # 65 - When putting a system into maintenance mode, it’s important to do all of the following except _______________.       
+A. Transfer any live virtual guests off the host          
+B. Turn off logging                                    
+C. Lock out the system from accepting any new guests          
+D. Notify customers if there are any interruptions               
+Answer: B. 
+
+Auditing is probably even more important during maintenance mode than normal operation because administrator activity is almost always involved.
+
 All the other options are necessary measures for maintenance mode.
 	66. Typically, a cloud customer seeking stand-alone hosting will expect all of the following except _______________.
 		A. More control over governance of the environment
 		B. Greater administrative control of the environment
 		C. Higher overall security of the environment
 		D. Lower costs for the environment
-Answer:
-D. Almost invariably, stand-alone hosting will cost more than pooled resources and multitenancy.
+Answer: D. 
+
+Almost invariably, stand-alone hosting will cost more than pooled resources and multitenancy.
+
 All the other options are characteristics of stand-alone hosting.
 	67. Methods for achieving “high availability” cloud environments include all of the following except _______________.
 		A. Extreme redundancy
