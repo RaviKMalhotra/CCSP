@@ -1,16 +1,16 @@
-1.	Which	TLS	protocol	is	responsible	for	performing	authentication	betweenparties	and	determining	encryption	algorithms?
+### Question # 1 - 	Which	TLS	protocol	is	responsible	for	performing	authentication	betweenparties	and	determining	encryption	algorithms?
 A.	Record
 B.	Negotiation
 C.	Handshake
 D.	Transmission
 
-2.	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?
+### Question # 1 - 	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?
 A.	BISCI
 B.	IDCA
 C.	NFPA
 D.	Uptime	Institute
 
-3.	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
+##At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
 A.	Network
 B.	Application
 C.	Transport
