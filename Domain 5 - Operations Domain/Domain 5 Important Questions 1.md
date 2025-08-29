@@ -1267,7 +1267,9 @@ D. A one-way mathematical algorithm for validating messages
 Answer: B. 
 
 In symmetric encryption, the key must usually be passed through a different medium than will be used for sending and receiving the encrypted messages.
+
 DH is usually used for asymmetric encryption, to establish a temporary symmetric key; option A is incorrect.
+
 Option C describes asymmetric encryption and is therefore incorrect.
+
 Option D describes hashing and is therefore incorrect.
-<img width="640" height="26966" alt="image" src="https://github.com/user-attachments/assets/88f459a1-464c-44ad-b69c-b5d1c30f32f0" />
