@@ -372,14 +372,14 @@ C	is	incorrect	because	the	National	Fire	Protection	Association (NFPA)	publishes
 
 D	is	incorrect	because	Building	Industry	Consulting	Services International	(BISCI)	issues	certifications	and	develops	standards	in the	area	of	complex	cabling	for	data	systems.	The	standards	are focused	on	cabling	design	and	setups	includes	specifications	on power,	energy,	efficiency,	and	hot/cold	aisle	setups.
 
-### Question # 8 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?                       
-A.	IP	address                  
+### Question # 8 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?   
+A.	IP	address                          
 B.	Hostname                       
 C.	MAC	address                         
 D.	Gateway                           
-Answer:                            
+Answer: B.	
 
-B.	Hostname	resolution	is	provided	via	the	Domain	Name	System (DNS)	and	is	not	provided	as	part	of	the	network	configuration	for	a specific	server.
+Hostname	resolution	is	provided	via	the	Domain	Name	System (DNS)	and	is	not	provided	as	part	of	the	network	configuration	for	a specific	server.
 
 A	is	incorrect	because	the	IP	address	is	one	of	the	core	network configuration	items	provided	via	DHCP	to	a	server.
 
@@ -599,9 +599,9 @@ B	is	incorrect	because	maintenance	is	a	major	concern	within	a	cloud environment
 C	is	incorrect	because	orchestration	is	a	major	component	of	a	cloud management	plan.	It	relates	to	the	automation	processes	used	for provisioning,	auto-scaling,	billing,	and	reporting.	Orchestration	is	a top	concern	within	a	cloud	environment	because	almost	all	customer and	user	services	depend	on	it	being	available,	with	customers	able	to make	changes	at	any	time.
 	
 
-### Question # 23 - Which	of	the	following	is	a	major	concern	with	cloud	storage communications	over	iSCSI	that	must	be	addressed	through	additional technologies?                           
-A.	Confidentiality                     
-B.	Integrity              
+### Question # 23 - Which	of	the	following	is	a	major	concern	with	cloud	storage communications	over	iSCSI	that	must	be	addressed	through	additional technologies?                                    
+A.	Confidentiality                              
+B.	Integrity                      
 C.	Availability              
 D.	Provisioning 
 Answer: A.	                       
@@ -811,11 +811,11 @@ C	is	incorrect	because	measured	service	refers	to	cloud	customers incurring	cost
 
 D	is	incorrect	because	although	availability	might	be	impacted	during a	successful	exploit	and	its	remediation,	it	will	have	not	have	a	longlasting	impact	beyond	the	restoration	of	services.
 
-### Question # 37 - 	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvement from	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?
-A.	PaaS
-B.	IaaS
-C.	SaaS
-D.	DaaS
+### Question # 37 - 	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvement from	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?                   
+A.	PaaS      
+B.	IaaS        
+C.	SaaS        
+D.	DaaS     
 Answer: B.	
 
 Within	Infrastructure	as	a	Service	(IaaS),	the	cloud	customer	is responsible	for	managing	its	own	systems	and	virtual	appliances. Therefore,	with	full	administrative	access,	the	customer	would	by default	have	access	to	all	event	data	and	logs	from	its	systems.	The only	involvement	necessary	from	the	cloud	provider	would	be	when logs	from	an	infrastructure	level,	outside	the	control	of	the	cloud customer,	are	required.
