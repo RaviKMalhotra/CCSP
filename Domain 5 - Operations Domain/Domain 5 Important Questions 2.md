@@ -10,192 +10,222 @@ B.	IDCA
 C.	NFPA
 D.	Uptime	Institute
 
-##At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
+### Question # 1 - 	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
 A.	Network
 B.	Application
 C.	Transport
 D.	Data	link
 
-4.	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?
+### Question # 1 - 	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?
 A.	IDCA
 B.	NFPA
 C.	BISCI
 D.	Uptime	Institute
 
-5.	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	when
+### Question # 1 - 	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	when
 would	the	optimal	time	be	to	apply	baselines	to	systems?
 A.	Immediately	after	enabling	a	virtual	machine
 B.	Before	penetration	testing	is	done
 C.	Immediately	prior	to	putting	the	system	into	production
 D.	Before	the	image	is	created
 
-6.	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?
+### Question # 1 - 	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?
 A.	Certificates
 B.	Tickets
 C.	Tokens
 D.	SAML
 
-7.	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?
+### Question # 1 - 	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?
 A.	Uptime	Institute
 B.	IDCA
 C.	NPFA
 D.	BISCI
 
-8.	DHCP	is	heavily	used	within	cloud	environments	to	maintain	networkconfigurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?
+### Question # 1 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	networkconfigurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?
 A.	IP	address
 B.	Hostname
 C.	MAC	address
 D.	Gateway
 
-9.	Which	component	of	the	ITIL	framework	includes	dependency	checks?
+### Question # 1 - 	Which	component	of	the	ITIL	framework	includes	dependency	checks?
 A.	Change	management
 B.	Continuity	management
 C.	Release	management
 D.	Availability	management
 
-10.	Which	process	is	used	to	properly	maintain	balanced	resources	across	acloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?
+### Question # 1 - 	Which	process	is	used	to	properly	maintain	balanced	resources	across	acloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?
 A.	DCOM
 B.	Distributed	optimization
 C.	Dynamic	optimization
 D.	Elasticity
 
-11.	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?
+### Question # 1 - 	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?
 A.	Handshake
 B.	Transmission
 C.	Negotiation
 D.	Record
 
-12.	DNSSEC	relies	on	digital	signatures	and	allows	a	client	lookup	to	validate a	DNS	resolution	back	to	its	authoritative	source.	What	is	this	process called? A.		Zone	signing
+### Question # 1 - 	DNSSEC	relies	on	digital	signatures	and	allows	a	client	lookup	to	validate a	DNS	resolution	back	to	its	authoritative	source.	What	is	this	process called? A.		Zone	signing
 B.	Authentication
 C.	Realm	signing
 D.	Domain	signing
 
-13.	A	host-based	IDS	can	suffer	from	security	vulnerabilities	if	the	host	itselfis	compromised.	Which	of	the	following	concepts	can	be	best	used	to mitigate	risk	with	an	HIDS? A.		Administrative	privileges
+### Question # 1 - 	A	host-based	IDS	can	suffer	from	security	vulnerabilities	if	the	host	itselfis	compromised.	Which	of	the	following	concepts	can	be	best	used	to mitigate	risk	with	an	HIDS? A.		Administrative	privileges
 B.	Read-only	storage
 C.	Baselines
 D.	Encryption
 
-14.	Clusters	can	bring	many	benefits	to	a	computing	environment,	both	foradministrators	and	users.	Which	of	the	following	is	NOT	something	that will	be	increased	through	the	use	of	clustering?
+### Question # 1 - 	Clusters	can	bring	many	benefits	to	a	computing	environment,	both	foradministrators	and	users.	Which	of	the	following	is	NOT	something	that will	be	increased	through	the	use	of	clustering?
 A.	Availability
 B.	Redundancy
 C.	Integrity
 D.	Failover
 
-15.	Which	of	the	following	is	commonly	used	by	cloud	providers	to	assurecustomers	about	security	practices	or	to	entice	new	customers	to	their services? A.		Audits
+### Question # 1 - 	Which	of	the	following	is	commonly	used	by	cloud	providers	to	assurecustomers	about	security	practices	or	to	entice	new	customers	to	their services? A.		Audits
 B.	Baselines
 C.	Vulnerability	assessments
 D.	Certifications
 
-16.	Within	a	cloud	environment,	what	is	the	most	widely	used	protocol	forcommunication	with	storage	devices?
+### Question # 1 - 	Within	a	cloud	environment,	what	is	the	most	widely	used	protocol	forcommunication	with	storage	devices?
 A.	SATA
 B.	SCSI
 C.	WAN
 D.	iSCSI
-17.	Which	of	the	following	is	NOT	one	of	the	types	of	unexpected	events	that continuity	management	deals	with?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	one	of	the	types	of	unexpected	events	that continuity	management	deals	with?
 A.	Incidents
 B.	Changes
 C.	Outages
 D.	Disaster
-18.	Which	type	of	assessment	is	based	on	data	and	numbers	rather	than	ondocumentation	and	observation?
+
+### Question # 1 - 	Which	type	of	assessment	is	based	on	data	and	numbers	rather	than	ondocumentation	and	observation?
 A.	Qualitative
 B.	Numeric
 C.	Quantitative
 D.	Metric
-19.	What	does	the	risk	assessment–related	acronym	SLE	stand	for?
+
+### Question # 1 - 	What	does	the	risk	assessment–related	acronym	SLE	stand	for?
 A.	Single	loss	expectancy
 B.	System	loss	emergency
 C.	Service	loss	emergency
 D.	Service	loss	expectancy
-20.	Which	of	the	following	core	concepts	of	cloud	computing	is	NOT something	that	orchestration	would	play	a	role	in?
+
+### Question # 1 - 	Which	of	the	following	core	concepts	of	cloud	computing	is	NOT something	that	orchestration	would	play	a	role	in?
 A.	Auto-scaling
 B.	Portability
 C.	Customer	billing
 D.	Provisioning
-21.	Monitoring	is	essential	in	a	cloud	environment	to	ensure	that	SLArequirements	from	all	the	tenants	will	be	met	satisfactorily.	Which	of	the following	groupings	represents	the	common	four	essential	metrics?
+
+### Question # 1 - 	Monitoring	is	essential	in	a	cloud	environment	to	ensure	that	SLArequirements	from	all	the	tenants	will	be	met	satisfactorily.	Which	of	the following	groupings	represents	the	common	four	essential	metrics?
 A.	CPU,	disk,	memory,	network
 B.	Disk,	network,	CPU,	bandwidth
 C.	Memory,	network,	users,	disk
 D.	Users,	network,	memory,	CPU
-22.	Which	of	the	following	is	NOT	a	core	component	of	an	operational management	plan	for	a	cloud	environment?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	a	core	component	of	an	operational management	plan	for	a	cloud	environment?
 A.	Scheduling
 B.	Maintenance
 C.	Orchestration
 D.	Integration
-23.	Which	of	the	following	is	a	major	concern	with	cloud	storage communications	over	iSCSI	that	must	be	addressed	through	additional technologies? A.		Confidentiality
+
+### Question # 1 - 	Which	of	the	following	is	a	major	concern	with	cloud	storage communications	over	iSCSI	that	must	be	addressed	through	additional technologies? 
+A.		Confidentiality
 B.	Integrity
 C.	Availability
 D.	Provisioning
-24.	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategyfor	an	organization?
+
+### Question # 1 - 	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategyfor	an	organization?
 A.	Acceptance
 B.	Avoidance
 C.	Transference
 D.	Mitigation
-25.	During	the	assessment	phase	of	a	risk	evaluation,	what	are	the	two	typesof	tests	that	are	performed? A.		Internal	and	external
+
+### Question # 1 - 	During	the	assessment	phase	of	a	risk	evaluation,	what	are	the	two	typesof	tests	that	are	performed? 
+A.	Internal	and	external
 B.	Technical	and	managerial
 C.	Physical	and	logical
 D.	Qualitative	and	quantitative
-26.	The	single	loss	expectancy	(SLE)	takes	into	consideration	the	value	of	theasset	and	the	exposure	factor.	What	is	the	exposure	factor? A.		Loss	due	to	successful	exploit,	as	a	percentage
+
+### Question # 1 - 	The	single	loss	expectancy	(SLE)	takes	into	consideration	the	value	of	theasset	and	the	exposure	factor.	What	is	the	exposure	factor? 
+A.	Loss	due	to	successful	exploit,	as	a	percentage
 B.	Estimated	number	of	times	a	threat	will	be	successful
 C.	Loss	due	to	successful	exploit,	as	a	dollar	amount
 D.	Number	of	times	the	asset	was	successfully	exploited	in	the	previousyear
-27.	Which	of	the	following	technologies	is	commonly	used	to	learn	about	themethods	or	sources	attackers	are	using	against	a	system	in	order	to	find better	configurations	or	security	strategies	to	use	for	protection?
+
+### Question # 1 - 	Which	of	the	following	technologies	is	commonly	used	to	learn	about	themethods	or	sources	attackers	are	using	against	a	system	in	order	to	find better	configurations	or	security	strategies	to	use	for	protection?
 A.	Firewall
 B.	WAF
 C.	Honeypot
 D.	IDS
-28.	Which	quality	of	a	SIEM	solution	allows	administrators	to	find	broadattacks	against	an	infrastructure	that	may	go	unnoticed	if	they’re	only looking	at	a	single	host?
+
+### Question # 1 - 	Which	quality	of	a	SIEM	solution	allows	administrators	to	find	broadattacks	against	an	infrastructure	that	may	go	unnoticed	if	they’re	only looking	at	a	single	host?
 A.	Correlation
 B.	Aggregation
 C.	Monitoring
 D.	Consolidation
-29.	The	use	of	baseline	images,	especially	with	the	auto-scaling	capabilitiesof	cloud	environments,	is	crucial	for	secure	operations.	What	is	the	first step	undertaken	when	creating	a	new	baseline	image? A.		Clean	the	operating	system	install.
+
+### Question # 1 - 	The	use	of	baseline	images,	especially	with	the	auto-scaling	capabilitiesof	cloud	environments,	is	crucial	for	secure	operations.	What	is	the	first step	undertaken	when	creating	a	new	baseline	image? 
+A.		Clean	the	operating	system	install.
 B.	Update	all	software	on	the	install.
 C.	Disable	or	remove	all	nonessential	services.
 D.	Bring	patching	up	the	latest	level.
-30.	In	order	to	maintain	proper	utilization	and	balancing	of	resources	within	acloud	environment,	distributed	resource	scheduling	(DRS)	is	heavily
+
+### Question # 1 - 	In	order	to	maintain	proper	utilization	and	balancing	of	resources	within	acloud	environment,	distributed	resource	scheduling	(DRS)	is	heavily
 used.	What	resources	is	DRS	NOT	used	with?
 A.	Virtual	machines
 B.	Physical	servers
 C.	Storage	solutions
 D.	Clusters
-31.	What	concept	is	used	for	network	segregation	and	isolation	within	a	cloudenvironment? A.		VPN
+
+### Question # 1 - 	What	concept	is	used	for	network	segregation	and	isolation	within	a	cloudenvironment? 
+A.		VPN
 B.	LAN
 C.	VLAN
 D.	Cabling
-32.	Which	of	the	following	is	NOT	a	capability	of	the	TLS	record	protocol?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	a	capability	of	the	TLS	record	protocol?
 A.	Sending	data
 B.	Holding	an	open	communications	channel
 C.	Authenticating	connections
 D.	Receiving	data
-33.	Firewalls	are	used	to	control	access	to	networks	based	on	origin,	ports,destination,	and	protocols	used.	Which	of	the	following	is	NOT	a	typical origin	or	destination	designation	used?
+
+### Question # 1 - 	Firewalls	are	used	to	control	access	to	networks	based	on	origin,	ports,destination,	and	protocols	used.	Which	of	the	following	is	NOT	a	typical origin	or	destination	designation	used?
 A.	VLAN
 B.	Physical	network
 C.	IP	address
 D.	IP	range
-34.	Which	of	the	following	is	a	very	common	complaint	concerning	the	use of	an	IDS? A.		False	positives
+
+### Question # 1 - 	Which	of	the	following	is	a	very	common	complaint	concerning	the	use of	an	IDS? 
+A.		False	positives
 B.	Latency
 C.	Incorrect	blocking
 D.	Dropping	packets
-35.	Which	component	of	ITIL	involves	the	constant	evaluation	of	thecorrectness	of	the	level	of	provisioned	resources?
+
+### Question # 1 - 	Which	component	of	ITIL	involves	the	constant	evaluation	of	thecorrectness	of	the	level	of	provisioned	resources?
 A.	Availability	management
 B.	Capacity	management
 C.	Continuity	management
 D.	Configuration	management
-36.	Which	of	the	following	can	add	significant	costs	to	an	organizationfollowing	a	successful	exploit?
+
+### Question # 1 - 	Which	of	the	following	can	add	significant	costs	to	an	organizationfollowing	a	successful	exploit?
 A.	Regulations
 B.	Interoperability
 C.	Measured	service
 D.	Availability
-37.	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvementfrom	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?
+
+### Question # 1 - 	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvementfrom	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?
 A.	PaaS
 B.	IaaS
 C.	SaaS
 D.	DaaS
-38.	Although	traditionally	data	centers	have	relied	on	a	tiered	topology	forlayers	of	redundancy,	which	organization	publishes	the	Infinity	Paradigm, which	shifts	away	from	a	tiered	topology	in	favor	of	a	macro-level approach? A.		Uptime	Institute
+
+### Question # 1 - 	Although	traditionally	data	centers	have	relied	on	a	tiered	topology	forlayers	of	redundancy,	which	organization	publishes	the	Infinity	Paradigm, which	shifts	away	from	a	tiered	topology	in	favor	of	a	macro-level approach? 
+A.	Uptime	Institute
 B.	BISCI
 C.	IDCA
 D.	NFPA
-	QUICK	ANSWER	KEY
+	
+### QUICK	ANSWER	KEY
 1.	C
 2.	A
 3.	A
@@ -233,9 +263,10 @@ D.	NFPA
 36.	A
 37.	B
 38.	C 
-	ANSWERS
-Comprehensive	Answers	and	Explanations
-1.	Which	TLS	protocol	is	responsible	for	performing	authentication	betweenparties	and	determining	encryption	algorithms?
+
+### ANSWERS - Comprehensive	Answers	and	Explanations
+
+### Question # 1 - 	Which	TLS	protocol	is	responsible	for	performing	authentication	betweenparties	and	determining	encryption	algorithms?
 A.	Record
 B.	Negotiation
 C.	Handshake
@@ -244,7 +275,8 @@ D.	Transmission
  	A	is	incorrect	because	the	record	protocol	of	TLS	entails	the encryption	and	authentication	of	the	actual	packets	used	for transmission	of	data	over	the	secure	channel,	but	it’s	only	capable	of the	actual	transmission	and	is	not	involved	with	the	establishing	or negotiation	of	the	connection.
  	B	is	incorrect	because	negotiation	is	a	component	of	the	handshake protocol,	but	it’s	only	one	portion	of	it	and	is	not	a	protocol	by	itself.
  	D	is	incorrect	because	the	transmission	of	data	is	a	component	of	the record	protocol	but	is	not	a	protocol	of	TLS	by	itself.
-2.	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?
+
+### Question # 1 - 	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?
 A.	BISCI
 B.	IDCA
 C.	NFPA
@@ -253,7 +285,8 @@ D.	Uptime	Institute
  	B	is	incorrect	because	the	International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embracing	a	macro-level	approach, where	the	entire	data	center	is	considered	as	a	whole.
  	C	is	incorrect	because	the	National	Fire	Protection	Association (NFPA)	publishes	a	large	collection	of	standards	regarding	fire protection	for	almost	any	type	of	facility,	although	it	does	offer	ones specifically	focused	on	data	centers.
  	D	is	incorrect	because	the	Uptime	Institute	publishes	the	most	widely used	standard	for	data	center	design	based	on	a	tiered-topology approach.	This	standard	has	four	tiers,	each	progressively	adding layers	and	requirements	for	redundancy	and	fault	tolerance.
-3.	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
+
+### Question # 1 - 	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?
 A.	Network
 B.	Application
 C.	Transport
@@ -262,7 +295,8 @@ D.	Data	link
  	B	is	incorrect	because	the	application	layer	provides	application	and end-user	processes,	such	as	file	transfers,	web	browsing,	and	e-mail.
  	C	is	incorrect	because	the	transport	layer	provides	data	transmissions similar	to	what	IPSec	is	used	for,	but	it	operates	at	a	higher	level	with more	capabilities	than	are	used	for	IPSec.
  	D	is	incorrect	because	the	data-link	layer	provides	packet	encoding and	decoding	as	well	as	handles	errors	from	the	physical	layer,	but	it does	not	contain	the	routing	and	forwarding	capabilities	necessary	for IPSec.
-4.	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?
+
+### Question # 1 - 	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?
 A.	IDCA
 B.	NFPA
 C.	BISCI
@@ -271,7 +305,8 @@ D.	Uptime	Institute
  	A	is	incorrect	because	the	International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embracing	a	macro-level	approach, where	the	entire	data	center	is	considered	as	a	whole.
  	C	is	incorrect	because	Building	Industry	Consulting	Services International	(BISCI)	issues	certifications	and	develops	standards	in the	area	of	complex	cabling	for	data	systems.	The	standards	are focused	on	cabling	design	and	setups,	and	includes	specifications	on power,	energy,	efficiency,	and	hot/cold	aisle	setups.
  	D	is	incorrect	because	the	Uptime	Institute	publishes	the	most	widely used	standard	for	data	center	design	based	on	a	tiered	topology approach.	This	standard	has	four	tiers,	each	progressively	adding layers	and	requirements	for	redundancy	and	fault	tolerance.
-5.	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	whenwould	the	optimal	time	be	to	apply	baselines	to	systems?
+
+### Question # 1 - 	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	whenwould	the	optimal	time	be	to	apply	baselines	to	systems?
 A.	Immediately	after	enabling	a	virtual	machine
 B.	Before	penetration	testing	is	done
 C.	Immediately	prior	to	putting	the	system	into	production
@@ -280,7 +315,8 @@ D.	Before	the	image	is	created
  	A	is	incorrect	because	applying	baselines	after	a	virtual	machine	is brought	online	would	dramatically	delay	the	availability	of	the	new system	and	create	additional	work	and	processing	before	it	can	be used.	This	would	negate	the	intended	goal	and	purposes	of	autoscaling.
  	B	is	incorrect	because	penetration	testing	would	not	be	done immediately	upon	new	systems	being	enabled	via	auto-scaling. Certainly	penetration	testing	against	the	image	before	it	is	created	and finalized	for	use	with	auto-scaling	is	desirable,	but	the	correct	time	is not	immediately	after	a	system	is	enabled.
  	C	is	incorrect	because	performing	baseline	applications	after	a	new virtual	machine	is	enabled	would	negate	the	benefits	and	speed	of auto-scaling,	and	with	the	use	of	an	image	for	all	new	systems,	it would	create	redundant	work	versus	a	baseline	application	before	the image	is	finalized.
-6.	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?
+
+### Question # 1 - 	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?
 A.	Certificates
 B.	Tickets
 C.	Tokens
@@ -289,7 +325,8 @@ D.	SAML
  	B	is	incorrect	because	tickets	are	not	used	with	the	TLS	protocol	but rather	are	commonly	used	with	other	systems	such	as	Kerberos.
  	C	is	incorrect	because	tokens	are	not	used	with	TLS	but	rather	are commonly	used	with	other	systems	such	as	multifactor	authentication schemes.
  	D	is	incorrect	because	the	Security	Assertion	Markup	Language (SAML)	is	commonly	used	for	exchanging	authentication	and authorization	information	between	two	parties,	but	it	is	not	used	with TLS.
-7.	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?
+
+### Question # 1 - 	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?
 A.	Uptime	Institute
 B.	IDCA
 C.	NPFA
@@ -298,7 +335,8 @@ D.	BISCI
  	B	is	incorrect	because	the	International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embraces	a	macro-level	approach where	the	entire	data	center	is	considered	as	a	whole.
  	C	is	incorrect	because	the	National	Fire	Protection	Association (NFPA)	publishes	a	large	collection	of	standards	regarding	fire protection	for	almost	any	type	of	facility,	and	it	does	offer	ones specifically	focused	on	data	centers.	These	standards	cover	the	overall electrical	systems	within	data	centers,	including	emergency procedures	and	requirements	for	the	immediate	cutting	of	power	in case	of	an	emergency.
  	D	is	incorrect	because	Building	Industry	Consulting	Services International	(BISCI)	issues	certifications	and	develops	standards	in the	area	of	complex	cabling	for	data	systems.	The	standards	are focused	on	cabling	design	and	setups	includes	specifications	on power,	energy,	efficiency,	and	hot/cold	aisle	setups.
-8.	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?
+
+### Question # 1 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?
 A.	IP	address
 B.	Hostname
 C.	MAC	address
@@ -307,7 +345,8 @@ D.	Gateway
  	A	is	incorrect	because	the	IP	address	is	one	of	the	core	network configuration	items	provided	via	DHCP	to	a	server.
  	C	is	incorrect	because	the	MAC	address	is	what	the	DHCP	servers	use to	track	and	maintain	network	configuration	settings	for	a	host.
  	D	is	incorrect	because	a	gateway	address	would	be	assigned	by	a DHCP	server	as	part	of	the	network	configuration	given	to	the	host.
-9.	Which	component	of	the	ITIL	framework	includes	dependency	checks?
+
+### Question # 1 - 	Which	component	of	the	ITIL	framework	includes	dependency	checks?
 A.	Change	management
 B.	Continuity	management
 C.	Release	management
@@ -317,7 +356,8 @@ D.	Availability	management
  	C	is	incorrect	because	release	management	is	focused	on	the	actual execution	of	a	production	release,	including	validation.	The	main focus	is	on	properly	mapping	out	all	steps	required	for	a	release	and then	configuring	and	deploying	it.	Although	dependency	validations will	be	part	of	a	release	management	process,	they	are	performed	after
 the	checks	will	have	been	done	as	part	of	the	change	management process.
  	D	is	incorrect	because	availability	management	is	focused	on	making sure	system	resources,	processes,	personnel,	and	toolsets	are	properly allocated	and	secured	to	meet	SLA	requirements	for	performance.
-10.	Which	process	is	used	to	properly	maintain	balanced	resources	across	a cloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?
+
+### Question # 1 - 	Which	process	is	used	to	properly	maintain	balanced	resources	across	a cloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?
 A.	DCOM
 B.	Distributed	optimization
 C.	Dynamic	optimization
@@ -326,7 +366,8 @@ D.	Elasticity
  	A	is	incorrect	because	DCOM	refers	to	the	Distributed	Component Object	Model,	which	is	a	set	of	Microsoft	interfaces	and	services	that can	be	requested	by	systems	throughout	a	network.
  	B	is	incorrect	because	distributed	optimization	is	a	distractor	term	that sounds	similar	to	the	correct	answer.
  	D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud environment	to	resize	resources	to	meet	current	demand,	either through	increasing	or	decreasing	them;	however,	dynamic optimization	is	the	more	correct	answer	in	this	case	because	it	refers to	analysis	and	determination,	not	just	the	ability	to	adjust	resource levels.
-11.	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?
+
+### Question # 1 - 	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?
 A.	Handshake
 B.	Transmission
 C.	Negotiation
@@ -335,7 +376,8 @@ D.	Record
  	A	is	incorrect	because	the	handshake	protocol	of	TLS	negotiates	and establishes	the	connection	between	two	parties	and	enables	the	secure communications	channel	that	will	then	handle	secure	data transmission.	The	protocol	exchanges	all	information	needed	to authenticate	and	negotiate	the	encryption	algorithms	to	be	used	as well	as	to	create	the	session	ID	for	the	transaction.
  	B	is	incorrect	because	although	transmission	is	certainly	a	key	function of	TLS	and	the	record	protocol,	it	is	not	the	name	of	a	protocol	itself.
  	C	is	incorrect	because	negotiation	is	a	component	of	the	handshake protocol;	it	is	not	the	name	of	a	protocol	itself.
-12.	DNSSEC	relies	on	digital	signatures	and	allows	a	client	lookup	to	validate a	DNS	resolution	back	to	its	authoritative	source.	What	is	this	process called? A.		Zone	signing
+
+### Question # 1 - 	DNSSEC	relies	on	digital	signatures	and	allows	a	client	lookup	to	validate a	DNS	resolution	back	to	its	authoritative	source.	What	is	this	process called? A.		Zone	signing
 B.	Authentication
 C.	Realm	signing
 D.	Domain	signing
@@ -345,7 +387,8 @@ D.	Domain	signing
 DNSSEC.
  	D	is	incorrect	because	domain	signing	is	provided	as	a	similar	term	to zone	signing	but	is	not	an	applicable	term	here,	nor	is	it	pertinent	to
 DNSSEC.
-13.	A	host-based	IDS	can	suffer	from	security	vulnerabilities	if	the	host	itselfis	compromised.	Which	of	the	following	concepts	can	be	best	used	to mitigate	risk	with	an	HIDS? A.		Administrative	privileges
+
+### Question # 1 - 	A	host-based	IDS	can	suffer	from	security	vulnerabilities	if	the	host	itselfis	compromised.	Which	of	the	following	concepts	can	be	best	used	to mitigate	risk	with	an	HIDS? A.		Administrative	privileges
 B.	Read-only	storage
 C.	Baselines
 D.	Encryption
@@ -353,7 +396,8 @@ D.	Encryption
  	A	is	incorrect	because	although	administrative	privileges	are	important to	the	protection	of	any	system,	if	a	malicious	actor	is	able	to compromise	a	host	and	obtain	access,	it	is	very	likely	he	will	be	able to	elevate	privileges	and	overcome	administrative	controls.
  	C	is	incorrect	because	although	baselines	are	crucial	to	ensuring	that systems	meet	expected	configurations	and	that	policies	are	enforced, if	a	system	is	compromised,	the	settings	applied	at	the	time	of	the baselines	are	susceptible	to	alteration	or	overriding	by	the	attacker.
  	D	is	incorrect	because	encryption	is	not	used	to	protect	an	HIDS.	In fact,	encryption	is	actually	a	big	impediment	to	HIDS	analyzing	traffic because	it	won’t	be	able	to	read	the	encrypted	packets.
-14.	Clusters	can	bring	many	benefits	to	a	computing	environment,	both	for administrators	and	users.	Which	of	the	following	is	NOT	something	that will	be	increased	through	the	use	of	clustering?
+
+### Question # 1 - 	Clusters	can	bring	many	benefits	to	a	computing	environment,	both	for administrators	and	users.	Which	of	the	following	is	NOT	something	that will	be	increased	through	the	use	of	clustering?
 A.	Availability
 B.	Redundancy
 C.	Integrity
@@ -362,7 +406,8 @@ D.	Failover
  	A	is	incorrect	because	availability	is	a	key	feature	and	goal	of clustering	because	it	eliminates	having	a	single	point	of	failure	within systems.
  	B	is	incorrect	because	redundancy	is	a	key	component	and	goal	of clustering	because	it	enables	multiple	systems	to	be	available	to service	requests	if	needed.
  	D	is	incorrect	because	failover	is	a	key	concept	of	clustering	and	is	the most	common	configuration	with	active	and	passive	nodes	of	a system.
-15.	Which	of	the	following	is	commonly	used	by	cloud	providers	to	assurecustomers	about	security	practices	or	to	entice	new	customers	to	their services? A.		Audits
+
+### Question # 1 - 	Which	of	the	following	is	commonly	used	by	cloud	providers	to	assurecustomers	about	security	practices	or	to	entice	new	customers	to	their services? A.		Audits
 B.	Baselines
 C.	Vulnerability	assessments
 D.	Certifications
@@ -370,7 +415,8 @@ D.	Certifications
  	A	is	incorrect	because	although	audits	serve	a	prominent	role	in	the evaluation	of	security	practices	of	a	cloud	provider,	they	are	unlikely to	ever	be	seen	by	a	cloud	customer	because	they	contained	detailed information	on	vulnerabilities	and	practices.
  	B	is	incorrect	because	although	baselines	form	the	basis	for	securing systems,	they	are	also	highly	subjective	to	the	particular	host	and	its intended	purpose.	With	IaaS	implementations,	the	baselines	are	the responsibility	of	the	cloud	customer.	Also,	with	PaaS	and	SaaS implementations,	baselines	serve	as	the	starting	point	for	security	and would	ultimately	need	audits	or	certifications	to	be	meaningful	to	and trusted	by	customers.
  	C	is	incorrect	because	vulnerability	assessments	are	only	a	piece	of	the overall	security	assurance	puzzle,	and	they	are	not	appropriate	to	share with	customers	or	potential	customers.	They	can	play	a	role	in	audits and	certifications,	though.
-16.	Within	a	cloud	environment,	what	is	the	most	widely	used	protocol	forcommunication	with	storage	devices?
+
+### Question # 1 - 	Within	a	cloud	environment,	what	is	the	most	widely	used	protocol	forcommunication	with	storage	devices?
 A.	SATA
 B.	SCSI
 C.	WAN
@@ -379,7 +425,8 @@ D.	iSCSI
  	A	is	incorrect	because	SATA	is	a	computer	bus	interface	that	connects systems	to	physical	storage	devices	such	as	hard	drives.	Within	a cloud	environment,	this	would	not	be	possible	because	all	systems	are virtualized.
  	B	is	incorrect	because	SCSI	is	a	standard	for	connecting	peripherals such	as	hard	drives	to	computers.	With	the	virtualized	nature	of	cloud computing,	this	would	not	be	pertinent	or	even	possible.
  	C	is	incorrect	because	a	wide	area	network	(WAN)	is	a	private network	that	extends	across	large	geographical	regions.	It	is	not specifically	related	to	storage	devices	or	communication	with	them, nor	is	it	specifically	related	to	cloud	computing	and	storage.
-17.	Which	of	the	following	is	NOT	one	of	the	types	of	unexpected	events	that continuity	management	deals	with?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	one	of	the	types	of	unexpected	events	that continuity	management	deals	with?
 A.	Incidents
 B.	Changes
 C.	Outages
@@ -388,7 +435,8 @@ D.	Disaster
  	A	is	incorrect	because	incidents,	which	are	defined	as	events	that disrupt	the	delivery	of	services,	are	a	key	concern	and	consideration	of continuity	management.
  	C	is	incorrect	because	outages,	and	the	expedient	restoration	of services,	are	a	key	component	of	continuing	management.	An	outage is	any	unexpected	or	unplanned	loss	of	systems,	services,	or communications.
  	D	is	incorrect	because	a	disaster	is	an	outage	caused	by	the	loss	of physical	assets	or	facilities,	such	as	those	caused	by	fires,	natural disasters,	and	other	similar	types	of	events,	versus	simple	hardware failures	or	outages.
-18.	Which	type	of	assessment	is	based	on	data	and	numbers	rather	than	ondocumentation	and	observation?
+
+### Question # 1 - 	Which	type	of	assessment	is	based	on	data	and	numbers	rather	than	ondocumentation	and	observation?
 A.	Qualitative
 B.	Numeric
 C.	Quantitative
@@ -397,7 +445,8 @@ D.	Metric
  	A	is	incorrect	because	qualitative	assessments	are	done	with nonnumeric	data	and	are	descriptive	in	nature.	They	typically	involve reviews	of	documentation	and	interviews	with	system	maintainers, developers,	and	security	personnel.	Many	times,	qualitative assessments	are	done	when	an	organization	lacks	the	time,	money,	or sophistication	to	conduct	a	quantitative	assessment.
  	B	is	incorrect	because	although	numeric	sounds	similar	to	quantitative and	encapsulates	key	aspects	of	that	assessment	type,	it	is	not	an official	term	for	a	type	of	assessment.
  	D	is	incorrect	because	although	metric	is	a	type	of	value	and	measure used	with	quantitative	assessments,	it	is	not	a	type	of	assessment itself.
-19.	What	does	the	risk	assessment–related	acronym	SLE	stand	for?
+
+### Question # 1 - 	What	does	the	risk	assessment–related	acronym	SLE	stand	for?
 A.	Single	loss	expectancy
 B.	System	loss	emergency
 C.	Service	loss	emergency
@@ -406,7 +455,8 @@ D.	Service	loss	expectancy
  	B	is	incorrect	because	the	acronym	SLE	stands	for	single	loss expectancy	and	not	system	loss	emergency.
  	C	is	incorrect	because	the	acronym	SLE	stands	for	single	loss expectancy	and	not	service	loss	emergency.
  	D	is	incorrect	because	the	acronym	SLE	stands	for	single	loss expectancy	and	not	service	loss	expectancy.
-20.	Which	of	the	following	core	concepts	of	cloud	computing	is	NOT something	that	orchestration	would	play	a	role	in?
+
+### Question # 1 - 	Which	of	the	following	core	concepts	of	cloud	computing	is	NOT something	that	orchestration	would	play	a	role	in?
 A.	Auto-scaling
 B.	Portability
 C.	Customer	billing
@@ -415,7 +465,8 @@ D.	Provisioning
  	A	is	incorrect	because	auto-scaling	is	a	major	utilizer	of	orchestration within	a	cloud	environment	because	resources	can	be	changed programmatically	to	meet	current	demand	for	services	without	the need	for	staff	intervention.
  	C	is	incorrect	because	orchestration	handles	many	of	the	customer billing	operations	within	a	cloud	environment.	Because	automatic processes	handle	the	provisioning	of	services	and	resources	within	the environment,	orchestration	will	automatically	update	billing	for	the cloud	customer	as	part	of	measured	service	offerings.
  	D	is	incorrect	because	the	provisioning	of	resources	throughout	the cloud	environment	is	handled	almost	entirely	through	orchestration	as well	as	automatic	and	programmatic	processes.
-21.	Monitoring	is	essential	in	a	cloud	environment	to	ensure	that	SLArequirements	from	all	the	tenants	will	be	met	satisfactorily.	Which	of	the following	groupings	represents	the	common	four	essential	metrics?
+
+### Question # 1 - 	Monitoring	is	essential	in	a	cloud	environment	to	ensure	that	SLArequirements	from	all	the	tenants	will	be	met	satisfactorily.	Which	of	the following	groupings	represents	the	common	four	essential	metrics?
 A.	CPU,	disk,	memory,	network
 B.	Disk,	network,	CPU,	bandwidth
 C.	Memory,	network,	users,	disk
@@ -424,7 +475,8 @@ D.	Users,	network,	memory,	CPU
  	B	is	incorrect	because	bandwidth	is	similar	to	networking	and	is	not	a key	metric.	In	this	case,	disk	would	replace	bandwidth	to	arrive	at	the correct	answer.
  	C	is	incorrect	because	users	would	not	be	a	metric	under	SLA requirements	or	impact	billing	as	a	sole	metric.	In	this	case,	CPU would	replace	users	to	arrive	at	the	correct	answer.
  	D	is	incorrect	because	users	would	not	be	a	metric	under	SLA requirements	or	impact	billing	as	a	sole	metric.	In	this	case,	disk would	replace	users	to	arrive	at	the	correct	answer.
-22.	Which	of	the	following	is	NOT	a	core	component	of	an	operational management	plan	for	a	cloud	environment?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	a	core	component	of	an	operational management	plan	for	a	cloud	environment?
 A.	Scheduling
 B.	Maintenance
 C.	Orchestration
@@ -433,8 +485,8 @@ D.	Integration
  	A	is	incorrect	because	scheduling	is	a	core	component	of	a management	plan	for	a	cloud	provider.	With	a	cloud	environment hosting	many	different	tenants	and	services,	it	is	highly	unlikely	that there	will	ever	be	a	time	when	all	systems	can	tolerate	interruptions for	system	maintenance.	The	cloud	provider	will	have	to	take	into account	the	needs	and	requirements	from	their	tenants	for	any maintenance	that	entails	downtime	or	degradation	in	services,	with comprehensive	communication	being	absolutely	essential.
  	B	is	incorrect	because	maintenance	is	a	major	concern	within	a	cloud environment	due	to	multitenancy	and	the	uptime	requirements	of modern	services.	With	cloud	services	being	virtualized,	it	is	usual practice	to	move	around	virtual	machines	so	that	work	on	the underlying	physical	systems	can	be	performed	without	any	impact	to customers.	The	one	major	concern	within	a	cloud	relates	to	selfservice	provisioning	and	auto-scaling.	The	cloud	provider	needs	to ensure	at	any	time	when	physical	servers	are	offline	for	maintenance that	the	cloud	provider	has	enough	resources	available	to	handle contingencies.
  	C	is	incorrect	because	orchestration	is	a	major	component	of	a	cloud management	plan.	It	relates	to	the	automation	processes	used	for provisioning,	auto-scaling,	billing,	and	reporting.	Orchestration	is	a top	concern	within	a	cloud	environment	because	almost	all	customer and	user	services	depend	on	it	being	available,	with	customers	able	to make	changes	at	any	time.
-23.	Which	of	the	following	is	a	major	concern	with	cloud	storage communications	over	iSCSI	that	must	be	addressed	through	additional technologies? A.		Confidentiality
-B.	Integrity
+23.	
+### Question # 1 - 	B.	Integrity
 C.	Availability
 D.	Provisioning
  	A.	iSCSI	allows	for	the	use	of	SCSI	commands	over	a	TCP	network, and	is	vital	for	storage	communications	with	a	completely	virtualized environment	like	a	cloud.	However,	iSCSI	does	not	have	the	ability	to do	encryption	or	secure	communications	by	itself,	and	must	rely	on	an external	technology	or	configuration	to	secure	the	actual	transmission and	communications	and	ensure	confidentiality	is	maintained.
@@ -442,7 +494,8 @@ D.	Provisioning
 the	data	presented	is	correct	from	its	source.
  	C	is	incorrect	because	availability	is	a	factor	of	the	overall environment,	and	not	one	specifically	related	to	iSCSI.	Also,	iSCSI does	not	present	unique	concerns	as	it	relates	to	availability.
  	D	is	incorrect	because	provisioning	is	not	a	concern	as	it	relates	to iSCSI	at	all	and	only	pertains	to	other	operational	concerns	within	the cloud	environment.
-24.	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategyfor	an	organization?
+
+### Question # 1 - 	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategyfor	an	organization?
 A.	Acceptance
 B.	Avoidance
 C.	Transference
@@ -451,7 +504,8 @@ D.	Mitigation
  	A	is	incorrect	because	risk	acceptance	is	when	an	organization	decides to	not	mitigate	a	risk,	but	instead	accept	it	and	deal	with	any consequences	should	they	occur.	This	is	typically	only	done	with	lowlevel	risks,	and	ones	where	the	organization	has	undertaken	a comprehensive	analysis	and	determined	the	costs	of	having	the	risk exploited	are	lower	than	the	costs	to	prevent	it	from	happening.
  	B	is	incorrect	because	risk	avoidance	typically	involves	the	disabling of	services	or	functions	so	that	those	vulnerable	are	not	exposed	or accessible.	This	is	typically	the	least	desirable	option	for	addressing risk,	as	it	means	degradation	of	services	or	loss	of	business	in	most cases.
  	D	is	incorrect	because	mitigation	involves	fixing	the	exploit	or	putting in	place	appropriate	countermeasures	to	prevent	the	exploit.	This	is the	most	common	approach	to	handling	risk	and	vulnerabilities.
-25.	During	the	assessment	phase	of	a	risk	evaluation,	what	are	the	two	typesof	tests	that	are	performed?
+
+### Question # 1 - 	During	the	assessment	phase	of	a	risk	evaluation,	what	are	the	two	typesof	tests	that	are	performed?
 A.	Internal	and	external
 B.	Technical	and	managerial
 C.	Physical	and	logical
@@ -460,7 +514,8 @@ D.	Qualitative	and	quantitative
  	A	is	incorrect	because	internal	and	external	are	typical	types	of	audits that	are	performed	but	are	not	types	of	risk	assessment	tests.
  	B	is	incorrect	because	technical	and	managerial,	although	types	of operations	and	evaluations,	are	not	risk	assessment	tests.
  	C	is	incorrect	because	physical	and	logical	are	types	of	systems	and controls	but	are	not	risk	assessment	test	types.
-26.	The	single	loss	expectancy	(SLE)	takes	into	consideration	the	value	of	theasset	and	the	exposure	factor.	What	is	the	exposure	factor? A.		Loss	due	to	successful	exploit,	as	a	percentage
+
+### Question # 1 - 	The	single	loss	expectancy	(SLE)	takes	into	consideration	the	value	of	theasset	and	the	exposure	factor.	What	is	the	exposure	factor? A.		Loss	due	to	successful	exploit,	as	a	percentage
 B.	Estimated	number	of	times	a	threat	will	be	successful
 C.	Loss	due	to	successful	exploit,	as	a	dollar	amount
 D.	Number	of	times	the	asset	was	successfully	exploited	in	the	previousyear
@@ -468,7 +523,8 @@ D.	Number	of	times	the	asset	was	successfully	exploited	in	the	previousyear
  	B	is	incorrect	because	the	estimated	number	of	times	a	threat	will	be successful,	which	actually	pertains	to	an	estimate	for	a	single	yearlong	period,	is	actually	the	definition	of	the	annualized	rate	of occurrence	(ARO).
  	C	is	incorrect	because	loss	due	to	a	successful	exploit,	as	a	dollar amount,	is	essentially	the	same	as	the	single	loss	expectancy	value itself.
  	D	is	incorrect	because	the	number	of	times	an	asset	was	successfully exploited	in	the	previous	year	is	not	a	value	that	is	used	in	any	of	the quantitative	risk	assessment	calculations.
-27.	Which	of	the	following	technologies	is	commonly	used	to	learn	about	themethods	or	sources	attackers	are	using	against	a	system	in	order	to	find better	configurations	or	security	strategies	to	use	for	protection?
+
+### Question # 1 - 	Which	of	the	following	technologies	is	commonly	used	to	learn	about	themethods	or	sources	attackers	are	using	against	a	system	in	order	to	find better	configurations	or	security	strategies	to	use	for	protection?
 A.	Firewall
 B.	WAF
 C.	Honeypot
@@ -477,7 +533,8 @@ D.	IDS
  	A	is	incorrect	because	a	firewall	can	be	used	to	allow	or	deny	network communications	between	two	systems	based	on	IP	address,	port,	or protocol.	It	is	based	on	predefined	variables	and	is	not	used	in	the same	sense	as	a	honeypot	to	learn	about	attack	methods	and	improve security.
  	B	is	incorrect	because	a	web	application	firewall	(WAF)	is	an application-based	firewall	that	can	be	used	to	block	a	more	extensive set	of	conditions	present	with	web-based	applications	(for	example, XSS	and	SQL	injection	attacks).	It	is	designed	to	block	on	the application	layer	in	the	same	way	a	traditional	firewall	blocks	on	the network	layer.	Unlike	a	honeypot,	it	is	not	intended	to	be	used	to entice	attackers	in	order	to	learn	about	their	methods.
  	D	is	incorrect	because	an	IDS	monitors	traffic	to	already	existing systems	and	applications	across	the	network,	and	it	alerts	staff	to	any suspicious-looking	traffic.	Although	an	IDS	can	be	used	to	glean information	about	attack	methods	and	threats	facing	an	application, honeypot	is	the	best	answer	in	this	case	because	that	is	its	intended purpose.
-28.	Which	quality	of	a	SIEM	solution	allows	administrators	to	find	broadattacks	against	an	infrastructure	that	may	go	unnoticed	if	they’re	only looking	at	a	single	host?
+
+### Question # 1 - 	Which	quality	of	a	SIEM	solution	allows	administrators	to	find	broadattacks	against	an	infrastructure	that	may	go	unnoticed	if	they’re	only looking	at	a	single	host?
 A.	Correlation
 B.	Aggregation
 C.	Monitoring
@@ -486,7 +543,8 @@ D.	Consolidation
  	A	is	incorrect	because	correlation	refers	to	the	ability	to	look	at	logs from	different	kinds	of	devices	and	tie	together	attacks	or	attempts	as they	move	through	the	enterprise.	Although	correlation	is	similar	to aggregation	in	that	it	looks	at	more	than	one	type	of	device,	it	is	not the	best	answer	in	this	case.
  	C	is	incorrect	because	monitoring	refers	to	a	SIEM	solution	having	the ability	to	detect	event	data	signatures	from	predefined	parameters	and alert	administrators	to	them.	This	works	much	like	an	IDS	would	on network	traffic,	but	it	can	cover	a	far	broader	and	heterogeneous	range of	devices.
  	D	is	incorrect	because	although	consolidation	is	a	similar	term	to aggregation,	it	is	not	the	official	term	used.
-29.	The	use	of	baseline	images,	especially	with	the	auto-scaling	capabilitiesof	cloud	environments,	is	crucial	for	secure	operations.	What	is	the	first step	undertaken	when	creating	a	new	baseline	image? A.		Clean	the	operating	system	install.
+
+### Question # 1 - 	The	use	of	baseline	images,	especially	with	the	auto-scaling	capabilitiesof	cloud	environments,	is	crucial	for	secure	operations.	What	is	the	first step	undertaken	when	creating	a	new	baseline	image? A.		Clean	the	operating	system	install.
 B.	Update	all	software	on	the	install.
 C.	Disable	or	remove	all	nonessential	services.
 D.	Bring	patching	up	the	latest	level.
@@ -494,7 +552,8 @@ D.	Bring	patching	up	the	latest	level.
  	B	is	incorrect	because	you	would	not	update	all	software	on	a	baseline image	until	after	you	perform	a	clean	install	and	have	evaluated	each software	package	for	the	correct	version	and	feature	set	to	be	included with	the	image.	Updating	software	without	a	clean	install,	or	without analyzing	which	versions	and	features	are	necessary	and	required,	can lead	to	inadvertent	configurations	or	services	on	the	final	image.
  	C	is	incorrect	because	disabling	or	removing	all	nonessential	services is	crucial.	This	would	be	done	after	a	clean,	default	install	was performed	and	a	known	state	was	achieved	on	the	system.
  	D	is	incorrect	because	bringing	patching	up	the	latest	level	is	crucial, but	only	when	applied	to	a	clean	installation	where	the	patching	can be	properly	tracked	and	verified.
-30.	In	order	to	maintain	proper	utilization	and	balancing	of	resources	within	acloud	environment,	distributed	resource	scheduling	(DRS)	is	heavily used.	What	resources	is	DRS	NOT	used	with?
+
+### Question # 1 - 	In	order	to	maintain	proper	utilization	and	balancing	of	resources	within	acloud	environment,	distributed	resource	scheduling	(DRS)	is	heavily used.	What	resources	is	DRS	NOT	used	with?
 A.	Virtual	machines
 B.	Physical	servers
 C.	Storage	solutions
@@ -503,7 +562,8 @@ D.	Clusters
  	A	is	incorrect	because	virtual	servers	are	one	of	the	key	components	of a	cloud	environment	that	DRS	monitors	and	moves	to	maintain balance	and	available	resources.	As	physical	servers’	loads	and demands	change,	virtual	machines	can	be	moved	among	them	to maintain	proper	balance	and	distribution	of	processes	and	resources.
  	C	is	incorrect	because	storage	solutions	within	a	cloud	environment are	constantly	monitored	as	part	of	DRS	to	ensure	adequate	storage	is available	between	physical	hosts.	As	storage	demands	change,	DRS will	balance	and	migrate	storage	among	physical	locations	to	maintain the	proper	use	of	resources.
  	D	is	incorrect	because	clusters,	and	the	virtual	components	that comprise	their	systems	and	storage,	are	constantly	monitored	by	DRS to	ensure	proper	balancing	and	availability	of	resources.	Although	a cluster	is	special	in	regard	to	its	redundant	nature,	the	underlying storage	and	virtual	machines	still	must	be	maintained	by	the	cloud environment	and	balanced	with	other	similar	systems.
-31.	What	concept	is	used	for	network	segregation	and	isolation	within	a	cloudenvironment? A.		VPN
+
+### Question # 1 - 	What	concept	is	used	for	network	segregation	and	isolation	within	a	cloudenvironment? A.		VPN
 B.	LAN
 C.	VLAN
 D.	Cabling
@@ -511,7 +571,8 @@ D.	Cabling
  	A	is	incorrect	because	a	VPN	is	used	for	creating	a	secure communications	channel	from	a	device	into	a	network.	It	is	not	a concept	that	allows	for	network	segregation	and	isolation.	A	VPN	is crucial	to	working	with	isolated	and	segregated	networks	in	a	secure manner,	but	it	does	not	facilitate	the	separation	itself.
  	B	is	incorrect	because	a	local	area	network	(LAN)	relates	to	networked devices	within	a	limited	area.	Although	this	area	can	be	something	as large	as	a	university	or	even	a	company,	it	does	not	relate	directly	to	a cloud	environment	and	its	wider	distributed	nature.
  	D	is	incorrect	because	cabling	within	a	cloud	environment	would	not be	used	to	segregate	network	traffic—nor	would	any	other	physical means,	due	to	the	nature	of	virtualization	and	resource	pooling.
-32.	Which	of	the	following	is	NOT	a	capability	of	the	TLS	record	protocol?
+
+### Question # 1 - 	Which	of	the	following	is	NOT	a	capability	of	the	TLS	record	protocol?
 A.	Sending	data
 B.	Holding	an	open	communications	channel
 C.	Authenticating	connections
@@ -520,7 +581,8 @@ D.	Receiving	data
  	A	is	incorrect	because	sending	data	is	a	primary	function	performed	by the	limited	record	protocol.
  	B	is	incorrect	because	holding	open	a	communications	channel	for	the transmission	of	packets	is	a	primary	function	performed	by	the	limited record	protocol.
  	D	is	incorrect	because	receiving	data	is	a	primary	function	performed by	the	limited	record	protocol.
-33.	Firewalls	are	used	to	control	access	to	networks	based	on	origin,	ports, destination,	and	protocols	used.	Which	of	the	following	is	NOT	a	typical origin	or	destination	designation	used?
+
+### Question # 1 - 	Firewalls	are	used	to	control	access	to	networks	based	on	origin,	ports, destination,	and	protocols	used.	Which	of	the	following	is	NOT	a	typical origin	or	destination	designation	used?
 A.	VLAN
 B.	Physical	network
 C.	IP	address
@@ -530,7 +592,8 @@ for	a	firewall	to	make	a	physical-versus-logical	determination.
  	A	is	incorrect	because	a	VLAN,	and	the	parameters	that	define	it	via	IP blocks	and	ranges,	would	be	a	variable	a	firewall	could	use	to	make	a determination	to	allow	or	reject	traffic.
  	C	is	incorrect	because	an	IP	address	would	provide	a	single	source	or destination	address	that	a	firewall	could	utilize	to	determine	whether to	allow	or	deny	packets.
  	D	is	incorrect	because	an	IP	range	would	provide	a	group	of	IP addresses	to	be	used	as	a	source	or	destination	address	that	a	firewall could	utilize	to	determine	whether	to	allow	or	deny	packets.
-34.	Which	of	the	following	is	a	very	common	complaint	concerning	the	useof	an	IDS? A.		False	positives
+
+### Question # 1 - 	Which	of	the	following	is	a	very	common	complaint	concerning	the	useof	an	IDS? A.		False	positives
 B.	Latency
 C.	Incorrect	blocking
 D.	Dropping	packets
@@ -538,7 +601,8 @@ D.	Dropping	packets
  	B	is	incorrect	because	an	IDS	is	a	passive	device	on	a	network	and should	not	impact	the	transmission	of	packets	between	systems	as they	flow	through	the	IDS	for	inspection.
  	C	is	incorrect	because	an	IDS	is	only	used	to	inspect	and	alert	on suspicious	traffic.	It	does	not	have	the	ability	actually	block	traffic.
  	D	is	incorrect	because	an	IDS	is	a	passive	device	on	a	network	and	is not	involved	with	the	routing	or	blocking	of	packets,	which	could	lead to	packets	being	dropped	or	lost.
-35.	Which	component	of	ITIL	involves	the	constant	evaluation	of	the correctness	of	the	level	of	provisioned	resources?
+
+### Question # 1 - 	Which	component	of	ITIL	involves	the	constant	evaluation	of	the correctness	of	the	level	of	provisioned	resources?
 A.	Availability	management
 B.	Capacity	management
 C.	Continuity	management
@@ -547,7 +611,8 @@ D.	Configuration	management
  	A	is	incorrect	because	availability	management	is	focused	on resources	being	available	to	users	and	services	when	they	are	needed; it’s	primarily	concerned	with	uptime	and	accessibility	from	the	correct locations.
  	C	is	incorrect	because	continuity	management	is	focused	on	the restoration	of	services	and	continuity	of	operations	following	an unexpected	outage	or	disaster.
  	D	is	incorrect	because	configuration	management	is	focused	on tracking	all	devices	and	services	within	the	enterprise	and	maintaining information	on	their	provisioning	and	level	of	resources.
-36.	Which	of	the	following	can	add	significant	costs	to	an	organizationfollowing	a	successful	exploit?
+
+### Question # 1 - 	Which	of	the	following	can	add	significant	costs	to	an	organizationfollowing	a	successful	exploit?
 A.	Regulations
 B.	Interoperability
 C.	Measured	service
@@ -557,7 +622,8 @@ D.	Availability
  	C	is	incorrect	because	measured	service	refers	to	cloud	customers incurring	costs	and	billing	for	only	those	services	they	consume,	and for	the	duration	they	are	consuming	them.	A	successful	exploit	of	a system	would	not	have	any	lasting	ramifications	for	measured	service.
  	D	is	incorrect	because	although	availability	might	be	impacted	during
 a	successful	exploit	and	its	remediation,	it	will	have	not	have	a	longlasting	impact	beyond	the	restoration	of	services.
-37.	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvement from	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?
+
+### Question # 1 - 	Which	type	of	cloud	deployment	requires	the	least	amount	of	involvement from	the	cloud	provider	to	make	logs	available	to	the	cloud	customer?
 A.	PaaS
 B.	IaaS
 C.	SaaS
@@ -566,7 +632,8 @@ D.	DaaS
  	A	is	incorrect	because	Platform	as	a	Service	(PaaS)	is	maintained	from the	application	down	by	the	cloud	provider,	and	typically	without	the cloud	customer	having	any	type	of	administrative	access.	With	PaaS, the	event	data	often	needs	to	be	exposed	by	the	cloud	provider	in order	for	the	cloud	customer	to	access	it.
  	C	is	incorrect	because	Software	as	a	Service	(SaaS)	is	completely closed	and	the	application	entirely	maintained	by	the	cloud	provider. Any	access	to	event	or	log	data	will	need	to	be	facilitated	by	the	cloud provider.
  	D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	is	completely closed	and	the	application	entirely	maintained	by	the	cloud	provider. Any	access	to	event	or	log	data	will	need	to	be	facilitated	by	the	cloud provider.
-38.	Although	traditionally	data	centers	have	relied	on	a	tiered	topology	forlayers	of	redundancy,	which	organization	publishes	the	Infinity	Paradigm, which	shifts	away	from	a	tiered	topology	in	favor	of	a	macro-level approach? A.		Uptime	Institute
+
+### Question # 1 - 	Although	traditionally	data	centers	have	relied	on	a	tiered	topology	forlayers	of	redundancy,	which	organization	publishes	the	Infinity	Paradigm, which	shifts	away	from	a	tiered	topology	in	favor	of	a	macro-level approach? A.		Uptime	Institute
 B.	BISCI
 C.	IDCA
 D.	NFPA
