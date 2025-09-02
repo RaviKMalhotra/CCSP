@@ -1,5 +1,5 @@
 
-### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?  
+### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloud customer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?  
 A.	Interoperability     
 B.	Open	source      
 **C.**	Broad	network	access  
@@ -341,7 +341,7 @@ D.	Servers
 
 ### Comprehensive	Answers	and	Explanations
 
-### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloudcustomer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?    
+### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloud customer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?    
 A.	Interoperability    
 B.	Open	source    
 C.	Broad	network	access    
@@ -357,7 +357,7 @@ source,	such	as	Apache,	Perl,	PHP,	MySQL,	and	even	the	Linux operating	system.
 
 D	is	incorrect	because,	although	single	sign-on	is	very	often	a component	of	cloud-based	applications,	it	is	not	a	requirement,	nor does	it	refer	specifically	to	the	manner	in	which	applications	or services	are	accessed.	Single	sign-on	systems	offer	the	ability	for users	to	sign	into	one	source	and	then,	through	cookies,	tokens,	or some	other	method	of	maintaining	state,	pass	from	one	application	to another	without	having	to	authenticate	again	for	each	one.
 
-### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	ofcryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?    
+### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	of cryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?    
 A.	FIPS	140-2    
 B.	NIST	SP	800-53    
 C.	SOC	2   
@@ -388,7 +388,7 @@ B	is	incorrect	for	the	same	reasons	as	CPU.	However,	in	some circumstances,	depe
 
 D	is	incorrect	because	memory	and	CPU,	in	this	sense,	would	be similar	in	that	it	is	incumbent	on	the	cloud	provider	to	ensure appropriate	computing	resources	are	allocated	and	available	to	the applications	and	users.
 
-### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	andmaintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?    
+### Question # 4 - In	a	traditional	data	center,	resources	are	owned,	controlled,	and maintained	by	a	single	entity	for	their	exclusive	use	for	services	and systems.	Within	a	cloud	environment,	this	infrastructure	is	shared	among many	different	customers.	What	is	this	concept	called?    
 A.	Co-location   
 B.	Elasticity    
 C.	System	sharing   
@@ -418,14 +418,16 @@ C	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or applicatio
 
 D	is	incorrect	because	customer	self-provisioning	is	an	erroneous answer	that	is	similar	to	the	actual	answer	of	on-demand	self-service. Although	the	terms	sound	very	similar,	it	is	not	the	official	or commonly	used	term	for	such	capabilities.
 
-### Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reusecomponents	and	services	of	an	application	for	other	purposes?    
+### [important] Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reuse components	and	services	of	an	application	for	other	purposes?    
 A.	Portability    
 B.	Interoperability    
 C.	Resource	pooling    
 D.	Elasticity    
 Answer: B.	
 
-Interoperability	is	the	ease	with	which	one	can	move	or	reuse components	of	an	application	or	service.	The	main	concept	is	to	not have	such	dependencies	on	the	underlying	operating	system,	hosting environment,	libraries,	or	APIs	that	lock	in	a	service	to	one	particular set	of	hosts	or	solutions.	Services	with	a	high	degree	of interoperability	can	easily	move	between	cloud	providers,	hosting configurations,	and	cloud	service	categories,	and	give	enormous flexibility	to	an	organization.	This	allows	different	services	to leverage	applications	and	APIs	for	different	purposes,	along	with	the modularization	of	components	for	reuse.
+Interoperability	is	the	ease	with	which	one	can	move	or	reuse components	of	an	application	or	service.	
+The	main	concept	is	to	not have	such	dependencies	on	the	underlying	operating	system,	hosting environment,	libraries,	or	APIs	that	lock	in	a	service	to	one	particular set	of	hosts	or	solutions.	Services	with	a	high	degree	of interoperability	can	easily	move	between	cloud	providers,	hosting configurations,	and	cloud	service	categories,	and	give	enormous flexibility	to	an	organization.	
+This	allows	different	services	to leverage	applications	and	APIs	for	different	purposes,	along	with	the modularization	of	components	for	reuse.
 
 A	is	incorrect	because	portability,	while	similar	to	interoperability, focuses	solely	on	the	ability	to	move	between	cloud	providers,	and	not on	the	ability	to	use	components	or	modules	from	a	particular	service for	other	or	extended	purposes.	For	portability,	the	main	focus	is	not on	reuse	or	repurposing,	but	rather	solely	on	the	ability	to	freely	and easily	move.
 
@@ -433,7 +435,7 @@ C	is	incorrect	because	resource	pooling	refers	to	the	sharing	of resources	withi
 
 D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
 
-### Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	ofan	organization	moving	from	a	traditional	data	center	to	a	cloud environment?    
+### [important] Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	ofan	organization	moving	from	a	traditional	data	center	to	a	cloud environment?    
 A.	Insufficient	due	diligence    
 B.	Data	breach    
 C.	Insecure	APIs   
@@ -448,14 +450,15 @@ C	is	incorrect	because	insecure	APIs	occur	when	there	are	not	proper controls	or
 
 D	is	incorrect	because	system	vulnerabilities	are	related	to	the patching,	configuration,	and	monitoring	of	all	IT	systems,	whether	in a	cloud	environment	or	not.	With	any	system	vulnerabilities,	threats can	be	expanded	to	other	services	by	gaining	unauthorized	exposure to	resources,	and	strong	policies	and	practices	are	needed	to	ensure compliance	with	configuration	and	patching	of	systems,	and monitoring	for	noncompliance	is	always	extremely	important.
 
-### Question # 8 - Which	of	the	following	types	of	software	is	a	Type	2	hypervisor	dependenton	that	a	Type	1	hypervisor	isn’t?    
+### Question # 8 - Which	of	the	following	types	of	software	is	a	Type	2	hypervisor	dependent on	that	a	Type	1	hypervisor	isn’t?    
 A.	VPN    
 B.	Firewall    
 C.	Operating	system    
 D.	IDS    
 Answer: C.	
 
-A	Type	2	hypervisor	runs	on	top	of	a	host	operating	system	as	a software	application,	and	then	the	virtual	machines	are	deployed within	it.	With	a	Type	1	hypervisor,	the	software	is	tied	directly	to	the underlying	hardware	and	does	not	rely	on	a	host	operating	system	to function.
+**A	Type	2	hypervisor	runs	on	top	of	a	host	operating	system	as	a software	application,	and	then	the	virtual	machines	are	deployed within	it**.	
+With	a	**Type	1	hypervisor**,	the	software	**is	tied	directly	to	the underlying	hardware**	**and	does	not	rely	on	a	host	operating	system	to function.**
 
 A	is	incorrect	because	a	virtual	private	network	(VPN)	is	a	method	for securing	network	traffic	and	communications,	and	does	not	have	any impact	on	hypervisors	or	the	type	that	is	used.
 
@@ -463,14 +466,15 @@ B	is	incorrect	because	a	firewall	is	used	for	network	security	and	the limiting	
 
 D	is	incorrect	because	an	intrusion	detection	system	(IDS)	is	a	network security	device	to	monitor	for	specific	types	of	traffic	or	patterns against	a	set	of	signatures	for	known	attacks	and	vulnerabilities.	It	is not	related	to,	or	dependent	on,	a	hypervisor	or	the	specific	type	of hypervisor	used.
 
-### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?   
+### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startup costs,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?   
 A.	IaaS    
 B.	SaaS    
 C.	PaaS    
 D.	DaaS    
 Answer: B.	
 
-A	Software	as	a	Service	(SaaS)	solution	will	typically	have	the highest	startup	and	licensing	costs,	as	the	customer	is	buying	a	fully developed,	integrated,	secured,	and	production-ready	software application.	This	means	that	the	upfront	costs	are	directly	financial (and	not	as	staff	intensive	as	the	others),	but	over	its	lifetime	an	SaaS solution	will	have	the	lowest	costs	in	support	staff	and	maintenance because	the	cloud	provider	will	be	responsible	for	those	activities.
+**A	Software	as	a	Service	(SaaS)	solution	will	typically	have	the highest	startup	and	licensing	costs,	as	the	customer	is	buying	a	fully developed,	integrated,	secured,	and	production-ready	software application.**	
+This	means	that	the	upfront	costs	are	directly	financial (and	not	as	staff	intensive	as	the	others),	but	over	its	lifetime	an	SaaS solution	will	have	the	lowest	costs	in	support	staff	and	maintenance because	the	cloud	provider	will	be	responsible	for	those	activities.
 
 A	is	incorrect	because	Infrastructure	as	a	Service	(IaaS)	will	have	the lowest	financial	costs	upfront,	as	most	of	the	activities	related	to getting	a	system	up	and	running	involve	staff.	It	is	the	responsibility of	the	cloud	customer	to	configure	and	deploy	the	virtual	machines and	all	components,	but	also	the	application	and	its	security.	Over	the lifetime	of	the	hosting	arrangement,	the	staff	costs	will	be	the	highest with	IaaS	implementations,	while	the	actual	licensing	and	hosting costs	from	a	purely	financial	standpoint	will	be	the	lowest.
 
@@ -478,7 +482,7 @@ C	is	incorrect	because	Platform	as	a	Service	(PaaS)	represents	a balance	between
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	is	very	similar	to PaaS,	in	that	the	cloud	provider	delivers	the	framework	and	platform, but	it	is	up	to	the	cloud	customer	to	deploy	and	configure	its	specific applications	and	services	that	will	run	within	the	framework.
 
-### Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutralencryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?  
+### [important] Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutral encryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?  
 A.	Public   
 B.	Hybrid   
 C.	Private    
@@ -524,14 +528,14 @@ C	is	incorrect	because	SOC	Type	2	reports	are	structured	by	the	same organizatio
 
 D	is	incorrect	because	FIPS	140-2	is	a	United	States	federal government	publication	that	is	focused	on	the	certification	and validation	of	cryptographic	modules,	and	does	not	pertain	to	financial statements	or	reports	in	any	way.
 
-### Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	securecontracts?     
+### [important] Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	secure contracts?     
 A.	Cloud	service	manager     
 B.	Cloud	service	broker      
 C.	Cloud	service	deployment	manager     
 D.	Cloud	service	business	manager     
 Answer: B.	       
 
-The	cloud	service	broker	obtains	new	customers,	analyzes	the marketplace,	and	secures	contracts	and	agreements	for	cloud	services.
+**The	cloud	service	broker	obtains	new	customers,	analyzes	the marketplace,	and	secures	contracts	and	agreements	for	cloud	services**.
 
 A	is	incorrect	because	the	cloud	service	manager	delivers,	provisions, and	manages	cloud	services.
 
@@ -539,7 +543,7 @@ C	is	incorrect	because	the	cloud	service	deployment	manager	gathers metrics	on	c
 
 D	is	incorrect	because	the	cloud	service	business	manager	oversees business	plans	and	customer	relationships,	as	well	as	processes financial	transactions.
 
-### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisorthat	is	NOT	a	security	concern	of	a	Type	1	hypervisor?   
+### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisor that	is	NOT	a	security	concern	of	a	Type	1	hypervisor?   
 A.	Operating	system     
 B.	Firewall    
 C.	VLAN      
@@ -584,14 +588,14 @@ B	is	incorrect	because	VPNs	are	often	used	for	administrative	and support	commun
 
 D	is	incorrect	because	SSH	is	used	for	obtaining	secure	shell	access	to servers	for	administration	and	application	support.	In	PaaS	and	SaaS service	categories,	the	cloud	customer	will	typically	not	have	server access	either.	SSH	is	not	commonly	used	to	secure	web	services.
 
-### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focusis	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
+### Question # [important] 17 - Your	company	is	focused	on	software	development,	and	your	main	focus is	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
 A.	Infrastructure      
 B.	Software      
 C.	Platform      
 D.	Desktop      
 Answer: C.	
 
-With	the	Platform	as	a	Service	(PaaS)	service	category,	a development	company	can	focus	exclusively	on	software	development and	deployment,	rather	than	having	to	maintain,	install,	or	configure hosting	systems.	It	also	would	enable	a	development	team	to	quickly try	out	different	hosting	platforms	or	cloud	providers	to	find	what works	best	for	their	applications.
+**With	the	Platform	as	a	Service	(PaaS)	service	category,	a development	company	can	focus	exclusively	on	software	development and	deployment,	rather	than	having	to	maintain,	install,	or	configure hosting	systems.	It	also	would	enable	a	development	team	to	quickly try	out	different	hosting	platforms	or	cloud	providers	to	find	what works	best	for	their	applications**.
 
 A	is	incorrect	because	although	the	startup	costs	with	the	cloud provider	will	be	lower	for	Infrastructure	as	a	Service	(IaaS)	than	with PaaS,	the	costs	with	staff	and	time	to	build,	install,	configure,	and secure	virtual	machines	will	be	enormous.	Having	to	build	out	and maintain	infrastructure	would	take	the	developers	away	from	their core	focus.
 
@@ -606,7 +610,8 @@ C.	Interoperability
 D.	Broad	network	access      
 Answer: A.	
 
-Multitenancy,	within	a	cloud	environment,	means	having	different customers,	systems,	and	applications,	all	within	the	same	physical systems	and	networks.	Even	with	the	use	of	secure	communications and	encryption,	this	poses	an	additional	risk	above	a	traditional	data center	because	any	compromise	or	malicious	intent	from	one	system could	impact	the	other	systems.	Threats	such	as	eavesdropping	and internal	attacks	are	a	major	concern	with	cloud	computing	and multitenancy.
+Multitenancy,	within	a	cloud	environment,	means	having	different customers,	systems,	and	applications,	all	within	the	same	physical systems	and	networks.	
+Even	with	the	use	of	secure	communications and	encryption,	this	poses	an	additional	risk	above	a	traditional	data center	because	any	compromise	or	malicious	intent	from	one	system could	impact	the	other	systems.	Threats	such	as	eavesdropping	and internal	attacks	are	a	major	concern	with	cloud	computing	and multitenancy.
 
 B	is	incorrect	because	portability	refers	to	the	capability	to	easily move	between	different	cloud	providers	and	hosting	arrangements.	It does	not	pose	any	security	concerns	in	relation	to	data	in	transit,	no with	any	production	runtime	systems.
 
@@ -614,7 +619,7 @@ C	is	incorrect	because	interoperability	refers	to	the	capability	of reusing	and	
 
 D	is	incorrect	because	broad	network	access	refers	to	the	capability	of accessing	cloud	services	from	any	location	and	from	a	variety	of devices.	This	would	be	similar	to	accessing	of	services	within	a traditional	data	center,	but	does	not	necessarily	pose	additional security	concerns	by	itself	in	the	way	that	multitenancy	can	expose potential	internal	attacks	from	other	compromised	systems.
 
-### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Whichphase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under?           
+### Question # 19 - Data	is	modified	from	its	original	form	by	an	application	or	user.	Which phase	of	the	cloud	secure	data	lifecycle	would	this	action	be	classified under?           
 A.	Use     
 B.	Share     
 C.	Archive      
@@ -627,17 +632,17 @@ B	is	incorrect	because	the	“share”	phase	of	the	cloud	secure	data lifecycle	
 
 C	is	incorrect	because	the	“archive”	phase	of	the	cloud	secure	data lifecycle	pertains	to	the	data	being	removed	from	active	access	and availability	and	then	placed	into	a	static	state	where	it	is	preserved	for a	predefined	period	of	time.
 
-D	is	incorrect	because	“modify”	is	not	a	phase	of	the	cloud	secure	data lifecycle.	The	concepts	that	would	most	likely	be	placed	under	such	a heading	are	already	found	in	the	“use”	phase.
+**D	is	incorrect	because	“modify”	is	not	a	phase	of	the	cloud	secure	data lifecycle**.	The	concepts	that	would	most	likely	be	placed	under	such	a heading	are	already	found	in	the	“use”	phase.
 
-### Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	haveaccess	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?       
+### [very important] Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	have access	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?       
 A.	Encryption     
 B.	Sandboxing     
 C.	VLANs     
 D.	Reversibility          
 Answer: A.	
 
-With	resource	pooling	and	multitenancy,	as	well	as	the	support	staff of	the	cloud	provider	having	privileged	access	throughout	the	entire environment,	encryption	is	of	particular	importance	to	protect	data. With	the	keys	under	the	control	of	the	cloud	customer,	even	if	a
-system	is	compromised,	the	data	will	be	protected,	which	would	also apply	to	virtual	images	that	could	be	accessed	via	storage	systems.
+**With	resource	pooling	and	multitenancy,	as	well	as	the	support	staff of	the	cloud	provider	having	privileged	access	throughout	the	entire environment,	encryption	is	of	particular	importance	to	protect	data**. 
+**With	the	keys	under	the	control	of	the	cloud	customer,	even	if	a system	is	compromised,	the	data	will	be	protected,	which	would	also apply	to	virtual	images	that	could	be	accessed	via	storage	systems**.
 
 B	is	incorrect	because	sandboxing	is	a	way	of	segregating	systems	or applications	for	testing	or	security	reasons,	but	would	not	provide additional	protection	for	data	on	systems.	It	is	mostly	used	to	keep web	services	from	interacting	and	to	keep	production	and	nonproduction	systems	from	mixing	together.
 
@@ -652,7 +657,8 @@ C.	Overwriting
 D.	Degaussing   
 Answer: B.	   
 
-Cryptographic	erasure	works	by	destroying	the	keys	that	were	used to	encrypt	the	data.	Although	it	does	not	delete	the	data	in	a	traditional sense,	with	the	keys	destroyed,	the	data	is	unreadable	and unrecoverable,	thus	giving	the	same	effect.	Because	the	focus	is	on	the destruction	of	keys,	it	is	also	something	that	can	be	done	very	quickly and	with	minimal	effort,	whereas	deleting	large	volumes	of	data	and then	verifying	it	has	been	deleted	can	be	a	very	time-consuming process.
+**Cryptographic	erasure	works	by	destroying	the	keys	that	were	used to	encrypt	the	data.	Although	it	does	not	delete	the	data	in	a	traditional sense,	with	the	keys	destroyed,	the	data	is	unreadable	and unrecoverable,	thus	giving	the	same	effect**.	
+**Because	the	focus	is	on	the destruction	of	keys,	it	is	also	something	that	can	be	done	very	quickly and	with	minimal	effort,	whereas	deleting	large	volumes	of	data	and then	verifying	it	has	been	deleted	can	be	a	very	time-consuming process**.
 
 A	is	incorrect	because	zeroing	data	refers	to	overwriting	all	data sectors	with	null	values.	Within	a	traditional	data	center	with	physical hardware,	this	is	typically	possible,	but	within	a	cloud	environment and	the	way	data	is	very	dispersed,	or	in	the	case	of	object	storage housed	externally,	zeroing	data	may	not	be	possible.	Even	if	it	is
 possible,	the	process	is	very	long,	time	consuming,	and	resource intensive.
@@ -661,14 +667,14 @@ C	is	incorrect	because	overwriting	refers	to	the	replacement	of	valid data	with	
 
 D	is	incorrect	because	degaussing	refers	to	the	demagnetizing	of physical	storage	media.	Although	this	is	possible	in	a	traditional	data center,	where	an	organization	owns	the	media	and	can	do	so, degaussing	would	not	be	possible	in	a	cloud	environment	at	all.
 
-### Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST correct?     
+### [important] Question # 22 - Which	of	the	following	descriptions	of	a	Type	1	Hypervisor	is	MOST correct?     
 A.	It	runs	on	as	an	application	on	top	of	an	operating	system	to	hostvirtual	machines.     
-B.	It	runs	on	a	separate	management	server	and	interacts	with	avirtualization	appliance.     
-C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layerbetween	the	hardware	and	virtual	machines.    
-D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	softwarelayer	to	host	virtual	machines.   
+B.	It	runs	on	a	separate	management	server	and	interacts	with	a virtualization	appliance.     
+C.	It	runs	directly	on	top	of	the	hardware	and	serves	as	the	sole	layer between	the	hardware	and	virtual	machines.    
+D.	It	runs	directly	on	top	of	the	hardware	and	runs	an	additional	software layer	to	host	virtual	machines.   
 Answer: C.	
 
-A	Type	1	hypervisor	runs	directly	on	top	of	the	underlying hardware	and	is	tightly	tied	to	it,	with	both	hardware	and	software from	the	same	vendor.
+**A	Type	1	hypervisor	runs	directly	on	top	of	the	underlying hardware	and	is	tightly	tied	to	it,	with	both	hardware	and	software from	the	same	vendor**.
 
 A	is	incorrect	because	the	answer	is	describing	a	Type	2	hypervisor that	runs	on	top	of	an	operating	system,	not	one	tied	directly	to	the underlying	hardware.
 
@@ -676,14 +682,14 @@ B	is	incorrect	because	it	does	not	describe	a	Type	1	or	Type	2 hypervisor.
 
 D	is	incorrect	because	although	a	Type	1	hypervisor	does	run	directly on	top	of	the	hardware,	it	does	not	need	an	additional	software	layer	to host	virtual	machines.
 
-### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	andprivileges	that	user	is	granted	within	the	application?    
+### Question # 23 - When	a	user	accesses	a	system,	what	process	determines	the	roles	and privileges	that	user	is	granted	within	the	application?    
 A.	Authorization   
 B.	Authentication    
 C.	Provisioning   
 D.	Privilege  
 Answer: A.	
 
-Authorization	is	the	process	by	which	a	user	is	granted	roles	and access	to	an	application,	after	successfully	completing	the authentication	process.	It	is	typically	based	on	group	and	role memberships.
+**Authorization	is	the	process	by	which	a	user	is	granted	roles	and access	to	an	application,	after	successfully	completing	the authentication	process**.	It	is	typically	based	on	group	and	role memberships.
 
 B	is	incorrect	because	authentication	is	the	process	where	a	user proves	and	validates	his	identity,	but	it	does	not	confer	access	or	roles.
 
@@ -691,13 +697,14 @@ C	is	incorrect	because	provisioning	is	the	process	where	a	user	is identified	an
 
 D	is	incorrect	because	privilege	refers	to	a	level	of	access	a	user	has within	a	system,	but	it’s	a	result	of	the	authorization	process.
 
-### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemedunsafe	to	use	for	secure	communications	and	data?     
+### Question # 24 - Which	of	the	following	technologies	has	been	deprecated	and	deemed unsafe	to	use	for	secure	communications	and	data?     
 A.	TLS   
 B.	AES   
 C.	DNS   
 D.	SSL     
-Answer: D.    	
-Secure	sockets	layer	(SSL)	version	3.0	was	deprecated	in	June	2015 by	RFC	7568	because	it	was	considered	insecure,	and	admins	were instructed	to	move	systems	to	TLS.
+Answer: D.
+
+**Secure	sockets	layer	(SSL)	version	3.0	was	deprecated**	in	June	2015 by	RFC	7568	because	it	was	considered	insecure,	and	admins	were instructed	to	move	systems	to	TLS.
 
 A	is	incorrect	because	Transport	Socket	Layer	(TLS)	has	replaced	SSL and	is	now	the	standard	security	for	network	and	web communications.
 
@@ -705,7 +712,7 @@ B	is	incorrect	because	the	Advanced	Encryption	Standard	(AES)	is	a type	of	moder
 
 C	is	incorrect	because	Domain	Name	Service	(DNS)	is	a	protocol	for mapping	common	names	to	IP	addresses	for	network communications;	it	is	not	a	security	protocol	or	used	to	protect	actual communications.
 
-### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resourcesthey	use	and	consume,	and	only	for	the	duration	they	are	using	them?       
+### Question # 25 - Which	concept	pertains	to	cloud	customers	paying	only	for	the	resources they	use	and	consume,	and	only	for	the	duration	they	are	using	them?       
 A.	Measured	service           
 B.	Auto-scaling    
 C.	Portability     
@@ -720,9 +727,9 @@ C	is	incorrect	because	portability	refers	to	the	capability	of	a	cloudbased	syst
 
 D	is	incorrect	because	elasticity	is	the	capability	of	a	cloud-based application	to	grow	to	meet	current	demands	in	an	easy,	and	typically in	a	programmatic	manner.	It	does	not	relate	to	billing	for	services, though	the	invocation	of	elasticity	based	on	load	would	lead	to	a change	in	billing	and	charges	for	services.
 
-### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominentfeature	of	PaaS	versus	IaaS?      
+### Question # 26 - Which	of	the	following	aspects	of	cloud	computing	is	a	more	prominent feature	of	PaaS	versus	IaaS?      
 A.	Availability    
-B.	Auto-scaling    
+B.	Auto-scaling     
 C.	Portability    
 D.	Broad	network	access    
 Answer: B.	    
@@ -736,7 +743,7 @@ C	is	incorrect	because	portability	refers	to	being	able	to	easily	move from	one	
 
 D	is	incorrect	because	broad	network	access	is	one	of	the	core concepts	of	cloud	computing	and	applies	to	all	cloud	service categories	equally.
 
-### Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testingof	cloud	services?      
+### [important] Question # 27 - Which	role,	on	behalf	of	the	cloud	customer,	is	responsible	for	the	testing of	cloud	services?      
 A.	Cloud	service	user     
 B.	Cloud	service	administrator        
 C.	Cloud	service	business	manager          
@@ -751,14 +758,15 @@ C	is	incorrect	because	the	cloud	service	business	manager	oversees business	and	
 
 D	is	incorrect	because	the	cloud	service	integrator	is	responsible	for connecting	and	integrating	existing	systems	and	services	within	a cloud	environment.
 
-### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloudenvironment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?      
+### Question # 28 - Your	company	has	undertaken	a	full	study	of	moving	services	to	a	cloud environment,	but	due	to	budget	constraints,	the	project	has	been	delayed. You	now	have	received	budget	money	and	a	demand	that	the	cloud services	be	set	up	as	soon	as	possible.	Which	cloud	service	category would	be	your	best	option	under	the	circumstances?      
 A.	Private    
 B.	Community    
 C.	Hybrid    
 D.	Public    
 Answer: D.	
 
-Public	cloud	services	are	the	quickest	and	easiest	to	set	up	and begin	using.	Most	public	cloud	systems	will	be	totally	automated	from a	self-service	portal,	with	only	the	need	for	a	credit	card	to	establish an	account	and	begin	allocating	resources.
+**Public	cloud	services	are	the	quickest	and	easiest	to	set	up	and begin	using**.	
+Most	public	cloud	systems	will	be	totally	automated	from a	self-service	portal,	with	only	the	need	for	a	credit	card	to	establish an	account	and	begin	allocating	resources.
 
 A	is	incorrect	because	a	private	cloud	would	be	offered	by	an organization	for	its	own	internal	services,	or	it	would	something	that’s procured	via	contract	with	a	provider.	It	is	not	something	that	could	be established	as	quickly	and	easily	as	a	public	cloud	would.
 
@@ -766,14 +774,17 @@ B	is	incorrect	because	a	community	cloud	is	established	by	similar organization	
 
 C	is	incorrect	because	a	hybrid	cloud	spans	multiple	hosting	providers and	adds	additional	complexity,	and	would	not	be	something	an organization	could	quickly	establish	and	begin	using.
 
-### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	servicein	production	use,	versus	a	local	one?     
+### Question # 29 - What	is	the	main	drawback	to	having	a	remote	key	management	service in	production	use,	versus	a	local	one?     
 A.	The	cloud	provider	will	have	full	control	over	the	keys.     
 B.	The	software	may	be	insecure.     
 C.	Availability	is	crucial.    
 D.	Incompatibility	issues.    
 Answer: C.	
 
-A	remote	key	service	is	one	that	is	hosted	apart	and	away	from	the applications	and	systems.	This	gives	an	organization	much	greater control	over	its	keys	and	key	practices,	and	also	allows	a	great	degree of	portability.	However,	having	the	keys	kept	apart	from	the	hosting provider	and	applications	also	means	that	availability	is	crucial.	If	the key	system	were	to	become	unavailable	or	unreachable,	the	systems and	applications	that	rely	on	these	keys	would	effectively	be	down	as far	as	the	users	are	concerned	because	they	would	be	unable	to function.
+**A	remote	key	service	is	one	that	is	hosted	apart	and	away	from	the applications	and	systems**.	
+**This	gives	an	organization	much	greater control	over	its	keys	and	key	practices,	and	also	allows	a	great	degree of	portability**.	
+**However,	having	the	keys	kept	apart	from	the	hosting provider	and	applications	also	means	that	availability	is	crucial**.	
+**If	the key	system	were	to	become	unavailable	or	unreachable,	the	systems and	applications	that	rely	on	these	keys	would	effectively	be	down	as far	as	the	users	are	concerned	because	they	would	be	unable	to function**.
 
 A	is	incorrect	because	the	entire	premise	of	having	a	remote	key management	system	is	for	the	cloud	customer	to	maintain	control	over the	keys,	usage,	and	signing	practices.
 
@@ -781,7 +792,7 @@ B	is	incorrect	because	regardless	of	whether	the	key	management system	is	local	
 
 D	is	incorrect	because	compatibility	concerns	are	an	issue	for	any service,	whether	it	is	hosted	locally	or	remotely,	and	neither	solution would	give	an	inherent	benefit	over	the	other	concerning compatibility.
 
-### Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?    
+### [important] Question # 30 - Which	cloud	service	category	is	MOST	likely	to	use	a	client-side	key management	system?    
 A.	IaaS    
 B.	SaaS    
 C.	PaaS   
@@ -796,7 +807,7 @@ C	is	incorrect	because	a	client-side	key	management	system	is	one typically	tied
 
 D	is	incorrect	because	DaaS	would	typically	look	and	perform	similar to	a	PaaS	implementation,	where	the	cloud	provider	is	responsible	for supplying	the	platform	and	framework,	but	not	the	actual	application or	toolset.
 
-### Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?     
+### [important] Question # 31 - Which	of	the	following	is	NOT	part	of	the	determination	of	the	account provisioning	process?     
 A.	Regulations     
 B.	Contracts    
 C.	Organizational	policies    
@@ -981,7 +992,7 @@ C	is	incorrect	because	application	environments	are	required	to	run code	and	run
 
 D	is	incorrect	because	regulations,	especially	ones	specific	to	certain data,	may	dictate	that	specific	cloud	providers,	or	even	a	single	cloud provider,	must	be	used	in	order	to	maintain	compliance.
 
-### Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?     
+### [important] Question # 43 - Within	a	cloud	environment,	which	network	location	would	be	the	LEAST effective	for	a	cloud	customer	to	expect	the	implementation	of	security controls?     
 A.	Border	perimeter     
 B.	DMZ    
 C.	Between	VLANs    
@@ -996,14 +1007,15 @@ C	is	incorrect	because	VLAN	segmentation	is	available	and	heavily used	to	logica
 
 D	is	incorrect	because	logical	network	zones	can	be	created	within	a cloud	environment	and	would	be	a	very	common	and	strategic	place for	security	controls	or	devices	to	be	implemented.
 
-### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	todetermine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?      
+### Question # 44 - Your	IT	security	director	has	asked	you	to	evaluate	a	cloud	provider	to determine	whether	its	security	practices	match	with	current	organizational policy	in	regard	to	data	sanitation	processes.	Compared	to	your	traditional data	center,	which	of	the	following	options	is	unlikely	to	be	available	with a	cloud	provider?      
 A.	Degaussing     
 B.	Cryptographic	erasure    
 C.	Overwriting    
 D.	Zeroing   
 Answer: A.	
 
-Degaussing	is	the	process	of	physically	altering	or	removing	the magnetic	nature	of	storage	hardware,	and	as	such	would	not	be available	within	a	cloud	environment.	This	is	due	to	resource	pooling and	multitenancy,	as	well	as	the	dynamic	nature	of	a	cloud,	where	data can	be	moved	and	stored	in	different	places	constantly.
+**Degaussing	is	the	process	of	physically	altering	or	removing	the magnetic	nature	of	storage	hardware,	and	as	such	would	not	be available	within	a	cloud	environment**.	
+**This	is	due	to	resource	pooling and	multitenancy,	as	well	as	the	dynamic	nature	of	a	cloud,	where	data can	be	moved	and	stored	in	different	places	constantly**.
 
 B	is	incorrect	because	cryptographic	erasure	involves	the	destruction of	the	keys	used	to	encrypt	the	data,	and	it’s	available	on	any	type	of
 system.	It	is	a	very	commonly	used	method	within	cloud environments	for	secure	deletion	of	data.
@@ -1012,14 +1024,14 @@ C	is	incorrect	because	overwriting	involves	writing	over	the	sectors where	the	d
 
 D	is	incorrect	for	the	same	reasons	as	overwriting,	as	zeroing	is	the same	process	but	involves	writing	null	values	to	data	sectors.
 
-### Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	socialengineering	tactics?     
+### [important] Question # 45 - Which	of	the	following	types	of	threats	is	often	made	possible	via	social engineering	tactics?     
 A.	Data	loss    
 B.	System	vulnerabilities    
 C.	Advanced	persistent	threats     
 D.	Insufficient	due	diligence    
 Answer: C.	
 
-Advanced	persistent	threats	occur	when	an	attacker	is	able	to	gain access	to	a	system	and	reside	there	for	a	long	period	of	time	without being	detected.	This	is	usually	done	to	snoop	on	traffic	or	collect information	over	time.	Often	it	is	accomplished	through	social engineering	tactics	to	gain	access	to	valid	and	real	accounts	so	that access	can	be	performed	without	detection.
+**Advanced	persistent	threats	occur	when	an	attacker	is	able	to	gain access	to	a	system	and	reside	there	for	a	long	period	of	time	without being	detected.	This	is	usually	done	to	snoop	on	traffic	or	collect information	over	time.	Often	it	is	accomplished	through	social engineering	tactics	to	gain	access	to	valid	and	real	accounts	so	that access	can	be	performed	without	detection**.
 
 A	is	incorrect	because	data	loss	refers	to	an	organization	losing	access to	data	or	the	data	becoming	corrupted,	without	appropriate	backups or	means	of	access.	This	typically	occurs	due	to	hardware	or	system failure	or	due	to	the	destruction	or	corruption	of	encryption	keys.
 
@@ -1042,7 +1054,7 @@ C	is	incorrect	because	SOC	Type	2	reports	pertain	to	financial reporting	and	the
 
 D	is	incorrect	because	the	ISO/IEC	27001	security	certification	and framework	is	a	general	security	program	and	does	not	apply	to	US government	systems.
 
-### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concernsrelated	to	bring	your	own	device	(BYOD)	that	a	cloud	security professional	must	always	be	cognizant	of?    
+### Question # 47 - Which	of	the	following	cloud	concepts	encapsulates	the	security	concerns related	to	bring	your	own	device	(BYOD)	that	a	cloud	security professional	must	always	be	cognizant	of?    
 A.	Portability     
 B.	Broad	network	access     
 C.	On-demand	self-service    
