@@ -1,4 +1,4 @@
- 
+
 ### Question # 1 - Matthew is reviewing a new cloud service offering that his organization plans to adopt. In this offering, a cloud provider will create virtual server instances under the multitenancy model. Each server instance will be accessible only to Matthew’s company. What cloud deployment model is being used?
 A.	Hybrid cloud  
 B.	Public cloud  
