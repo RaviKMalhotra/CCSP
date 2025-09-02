@@ -598,9 +598,13 @@ D.	BC involves protecting human assets (personnel, staff, users), whereas DR is 
 
 2.	A. Cryptographic erasure is a strong sanitization technique that involves encrypting the data with a strong encryption engine and then taking the keys generated in that process, encrypting them with a different encryption engine, and destroying the resulting keys of the second round of encryption. This technique is effective on both magnetic and solid- state drives. Degaussing and overwriting are not effective on SSDs. Physical destruction would effectively sanitize the media but would prevent Zeke from reusing the drives.
 
-3.	A. Containers do not provide easy portability because they are dependent upon the host operating system. Hypervisors are used to host virtual machines on a device, so that is another incorrect answer. Serverless computing is a platform as a service model that allows cloud customers to run their own code on the provider’s platform without provisioning servers, so that is also incorrect. Virtual machines are self- contained and have their own internal operating system, so it is possible to move them between different host operating systems.
+3.	A. Containers do not provide easy portability because they are dependent upon the host operating system. 
+   Hypervisors are used to host virtual machines on a device, so that is another incorrect answer. 
+   Serverless computing is a platform as a service model that allows cloud customers to run their own code on the provider’s platform without provisioning servers, so that is also incorrect. 
+   **Virtual machines are self- contained and have their own internal operating system, so it is possible to move them between different host operating systems**.
 
-4.	B. Under the cloud reference architecture, the activities of customers are to use cloud services, perform service trials, monitor services, administer service security, provide billing and usage reports, handle problem reports, administer tenancies, perform business administration, select and purchase service, and request audit reports. Preparing systems is one of the responsibilities of cloud service providers.
+4.	B. Under the cloud reference architecture, the activities of customers are to use cloud services, perform service trials, monitor services, administer service security, provide billing and usage      reports, handle problem reports, administer tenancies, perform business administration, select and purchase service, and request audit reports. 
+   **Preparing systems is one of the responsibilities of cloud service providers**.
 
 5.	C. The reality is that Seth will likely achieve all of these goals, but the most relevant one is elasticity. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink.
 
