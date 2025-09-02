@@ -141,7 +141,7 @@ D.	Hybrid cloud
 A.	Network capacity                
 B.	Hosted email                
 C.	Block storage                   
-D.	Serverless computing                      
+D.	Serverless computing                                        
 
 ### Question # 25 - What activity are cloud providers able to engage in because not all users will access the full capacity of their service offering simultaneously?             
 A.	Oversubscription            
@@ -173,13 +173,13 @@ B. The point in time to which data must be recovered after a disruption.
 C. The exact time the system must be restored during testing.             
 D. The average time to restore services after a failure.       
 
-### Question # 28.2 If a system has an MTD of 6 hours and an RTO of 8 hours, what does this mean?                
+### Question # 28.2 If a system has an MTD of 6 hours and an RTO of 8 hours, what does this mean?                            
 A. The system is adequately protected.               
 B. The RTO must be reduced, since it exceeds MTD.            
 C. The RTO must be increased to align with MTD.              
 D. The MTD is irrelevant to recovery planning.             
 
-### Question # 28.3 Which of the following is the correct sequence of planning for business continuity?
+### Question # 28.3 Which of the following is the correct sequence of planning for business continuity?                       
 A. Identify critical functions → Define MTD → Set RTO & RPO → Select recovery strategies             
 B. Set RPO → Identify critical functions → Define MTD → Test DR plan                      
 C. Define RTO & RPO → Select DR site → Draft BCP → Train employees               
@@ -191,66 +191,65 @@ B. Acceptable downtime
 C. System resilience            
 D. Probability of regulatory fines                 
 
-### Question # 28.5 Which of the following BEST describes the relationship between RTO and MTD?
-A. RTO can be equal to or greater than MTD.
-B. RTO must always be less than or equal to MTD.
-C. RTO is unrelated to MTD.
-D. RTO defines how much data loss is acceptable.
+### Question # 28.5 Which of the following BEST describes the relationship between RTO and MTD?                   
+A. RTO can be equal to or greater than MTD.              
+B. RTO must always be less than or equal to MTD.               
+C. RTO is unrelated to MTD.                         
+D. RTO defines how much data loss is acceptable.                  
 
-### Question # 28.6 An organization defines its RPO as 4 hours for a mission-critical database. What does this imply?              
-A. The system must be restored within 4 hours.              
+### Question # 28.6 An organization defines its RPO as 4 hours for a mission-critical database. What does this imply?                               
+A. The system must be restored within 4 hours.               
 B. No more than 4 hours of data can be lost.            
 C. The MTD must be greater than 4 hours.              
 D. Backups must be performed every 4 hours.             
 
-### Question # 28.7 Which of the following BEST defines the Work Recovery Time (WRT)?              
-A. The time it takes IT to restore systems to an operational state.                        
-B. The time required by business users to validate restored systems and resume work.              
-C. The maximum acceptable downtime for a system.                            
-D. The time between a disaster occurring and services being back online.                
+### Question # 28.7 Which of the following BEST defines the Work Recovery Time (WRT)?                          
+A. The time it takes IT to restore systems to an operational state.                           
+B. The time required by business users to validate restored systems and resume work.               
+C. The maximum acceptable downtime for a system.                             
+D. The time between a disaster occurring and services being back online.                 
 
-### Question # 28.8 If a company sets MTD = 24 hours, RTO = 6 hours, RPO = 2 hours, which statement is correct?
-A. The organization can lose up to 24 hours of data.
-B. The system must be restored within 24 hours.
-C. Data loss cannot exceed 2 hours, and recovery must complete in 6 hours.
-D. RTO is not achievable because it is less than MTD.
+### Question # 28.8 If a company sets MTD = 24 hours, RTO = 6 hours, RPO = 2 hours, which statement is correct?             
+A. The organization can lose up to 24 hours of data.               
+B. The system must be restored within 24 hours.                                
+C. Data loss cannot exceed 2 hours, and recovery must complete in 6 hours.                
+D. RTO is not achievable because it is less than MTD.              
 
-### Question # 23.9 Which of the following is a direct outcome of setting an extremely low RPO (near zero)?
-A. Reduced dependency on continuous replication.
-B. Increased costs due to real-time backup or mirroring.
-C. Increased tolerance for data loss.
-D. Lower costs of disaster recovery.
+### Question # 23.9 Which of the following is a direct outcome of setting an extremely low RPO (near zero)?              
+A. Reduced dependency on continuous replication.              
+B. Increased costs due to real-time backup or mirroring.             
+C. Increased tolerance for data loss.               
+D. Lower costs of disaster recovery.              
 
-### Question # 23.10 Which of the following metrics would be MOST relevant when deciding the frequency of data backups?
-A. MTD
-B. RPO
-C. RTO
-D. WRT
+### Question # 23.10 Which of the following metrics would be MOST relevant when deciding the frequency of data backups?            
+A. MTD           
+B. RPO            
+C. RTO              
+D. WRT             
 
-### Question # 23.11 During a DR test, a system was restored in 5 hours, but the users needed another 3 hours to validate and resume work. If MTD = 10 hours, which statement is TRUE?
-A. Recovery objectives were not met.
-B. RTO = 8 hours, WRT = 5 hours.
-C. RTO = 5 hours, WRT = 3 hours, total downtime = 8 hours, within MTD.
-D. WRT = 8 hours, total downtime = 5 hours.
+### Question # 23.11 During a DR test, a system was restored in 5 hours, but the users needed another 3 hours to validate and resume work. If MTD = 10 hours, which statement is TRUE?        
+A. Recovery objectives were not met.           
+B. RTO = 8 hours, WRT = 5 hours.                                        
+C. RTO = 5 hours, WRT = 3 hours, total downtime = 8 hours, within MTD.            
+D. WRT = 8 hours, total downtime = 5 hours.                
 
-### Question # 23.12 Which of the following disaster recovery strategies provides the shortest RTO?
-A. Warm site
-B. Hot site
-C. Cold site
-D. Backup tapes stored offsite
+### Question # 23.12 Which of the following disaster recovery strategies provides the shortest RTO?                    
+A. Warm site             
+B. Hot site                
+C. Cold site                      
+D. Backup tapes stored offsite                 
 
-### Question # 23.13 An organization’s payroll system has the following:
-MTD = 72 hours
-RTO = 24 hours
-RPO = 12 hours
-Which DR solution is MOST aligned?
-A. Weekly tape backups + cold site
-B. Daily backups + warm site
-C. Continuous replication + hot site
-D. Manual payroll processing + offsite tape storage
+### Question # 23.13 An organization’s payroll system has the following:                  
+MTD = 72 hours                  
+RTO = 24 hours                 
+RPO = 12 hours                           
+Which DR solution is MOST aligned?               
+A. Weekly tape backups + cold site               
+B. Daily backups + warm site              
+C. Continuous replication + hot site                  
+D. Manual payroll processing + offsite tape storage             
 
-### Question # 29 - 	Alice and Bob would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority.
-When Bob receives an encrypted message from Alice, what key does he use to decrypt the plaintext message’s contents?
+### Question # 29 - 	Alice and Bob would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority. When Bob receives an encrypted message from Alice, what key does he use to decrypt the plaintext message’s contents?
 A.	Alice’s public key
 B.	Alice’s private key
 C.	Bob’s public key
@@ -803,161 +802,161 @@ Question # 28.12 B. Hot site
 
 Question # 28.13 B. Because daily backups satisfy RPO = 12h (approx), and warm site supports RTO < 24h.
 
-29.	D. The recipient of a message that was encrypted using asymmetric cryptography always decrypts that message using their own private key. The sender of the message would have previously encrypted it using the recipient’s public key. The sender’s public and private keys are not used in this process.
+Question # 29.	D. The recipient of a message that was encrypted using asymmetric cryptography always decrypts that message using their own private key. The sender of the message would have previously encrypted it using the recipient’s public key. The sender’s public and private keys are not used in this process.
 
-30.	B. Jen’s organization is a cloud service partner— an organization that helps cloud service customers use the services offered by cloud service providers. In this case, Jen’s clients are cloud service customers and they are moving to services offered by cloud service providers. Cloud service brokers are cloud service providers who offer a managed identity and access management service to cloud customers that integrates security requirements across cloud services.
+Question # 30.	B. Jen’s organization is a cloud service partner— an organization that helps cloud service customers use the services offered by cloud service providers. In this case, Jen’s clients are cloud service customers and they are moving to services offered by cloud service providers. Cloud service brokers are cloud service providers who offer a managed identity and access management service to cloud customers that integrates security requirements across cloud services.
 
-31.	D. This is a tricky question because all of these publications may have some relevance to Carla’s work. NIST 800- 53 provides general cybersecurity standards for federal agencies, whereas NIST 800- 171 applies specifically to the use of controlled unclassified information (CUI). The Common Criteria (CC) provide a certification process for hardware and software products. However, the most relevant standards are FIPS 140-2 , the Security Requirements for Cryptographic Modules. This guidance is specific to the cryptographic requirements of systems such as HSMs and would have the most directly relevant guidance.
+Question # 31.	D. This is a tricky question because all of these publications may have some relevance to Carla’s work. NIST 800- 53 provides general cybersecurity standards for federal agencies, whereas NIST 800- 171 applies specifically to the use of controlled unclassified information (CUI). The Common Criteria (CC) provide a certification process for hardware and software products. However, the most relevant standards are FIPS 140-2 , the Security Requirements for Cryptographic Modules. This guidance is specific to the cryptographic requirements of systems such as HSMs and would have the most directly relevant guidance.
 
-32.	A. The greatest risk in this situation is that the service offering will depend on features provided only by a single vendor, preventing Ryan’s organization from moving to a different vendor and locking them into their current provider. Interoperability is the concern that services should be able to integrate and work well together. There is no indication that interoperability is at risk in this scenario. There is also no indication that the use of this vendor creates any special auditability or confidentiality concerns.
+Question # 32.	A. The greatest risk in this situation is that the service offering will depend on features provided only by a single vendor, preventing Ryan’s organization from moving to a different vendor and locking them into their current provider. Interoperability is the concern that services should be able to integrate and work well together. There is no indication that interoperability is at risk in this scenario. There is also no indication that the use of this vendor creates any special auditability or confidentiality concerns.
 
-33.	D. EAL7 is the highest level of assurance under the Common Criteria. It applies when a system has been formally verified, designed, and tested.
+Question # 33.	D. EAL7 is the highest level of assurance under the Common Criteria. It applies when a system has been formally verified, designed, and tested.
 
-34.	B. The blockchain is technology that uses cryptography to create a distributed immutable ledger. It is the technical foundation behind cryptocurrency and many other applications. Quantum computing is an emerging technology that uses principles of particle physics to perform computing. Edge computing moves compute power to Internet of Things (IoT) devices located at the “edge” of the network. Confidential computing is an area of research into methods for protecting data in use through the protection provided by a trusted execution environment (TEE).
+Question # 34.	B. The blockchain is technology that uses cryptography to create a distributed immutable ledger. It is the technical foundation behind cryptocurrency and many other applications. Quantum computing is an emerging technology that uses principles of particle physics to perform computing. Edge computing moves compute power to Internet of Things (IoT) devices located at the “edge” of the network. Confidential computing is an area of research into methods for protecting data in use through the protection provided by a trusted execution environment (TEE).
 
-35.	C. The verification process is similar to the certification process in that it validates security controls. Verification may go a step further by involving a third- party testing service and compiling results that may be trusted by many different organizations. Accreditation is the act of management formally accepting an evaluating system, not evaluating the system itself.
+Question # 35.	C. The verification process is similar to the certification process in that it validates security controls. Verification may go a step further by involving a third- party testing service and compiling results that may be trusted by many different organizations. Accreditation is the act of management formally accepting an evaluating system, not evaluating the system itself.
 
-36.	C. One of the core capabilities of infrastructure as a service is providing servers on a vendor- managed virtualization platform. Web- based payroll and email systems are examples of software as a service. An application platform managed by a vendor that runs customer code is an example of platform as a service.
+Question # 36.	C. One of the core capabilities of infrastructure as a service is providing servers on a vendor- managed virtualization platform. Web- based payroll and email systems are examples of software as a service. An application platform managed by a vendor that runs customer code is an example of platform as a service.
 
-37.	D. The brand associated with the cloud provider should not influence the cost–benefit analysis; the cloud provider’s brand (and even which cloud provider an organization uses) will most likely not even be known to the consumers who have a business relationship with the organization.
+Question # 37.	D. The brand associated with the cloud provider should not influence the cost–benefit analysis; the cloud provider’s brand (and even which cloud provider an organization uses) will most likely not even be known to the consumers who have a business relationship with the organization.
 The provider does not absorb the cost when the customer requests a modification of the SLA. Though an even split of the cost between customer and provider may seem fair, the customer pays for all costs associated with modifications to the SLA by the customer. Finally, customer modifications to their SLA are chargeable expenses that will almost certainly be paid for by the customer.
 
-38.	C. Ephemeral computing means that you can create computing resources, such as servers and storage spaces, to solve a particular problem and then get rid of them as soon as you no longer need them. There is no indication in the scenario that Barry will be using confidential computing, quantum computing, or parallel processing.
+Question # 38.	C. Ephemeral computing means that you can create computing resources, such as servers and storage spaces, to solve a particular problem and then get rid of them as soon as you no longer need them. There is no indication in the scenario that Barry will be using confidential computing, quantum computing, or parallel processing.
 
-39.	A. This type of provision is best described as an availability commitment because the service provider is guaranteeing that the service will be available 99.9% of the time. It could also be described as a security provision because availability is a subset of security, but availability is a more specific term and, therefore, a better answer. Resiliency is the ability of a system to withstand failures and, while related to availability, is not what is guaranteed in this agreement. There is no discussion of privacy- related concerns.
+Question # 39.	A. This type of provision is best described as an availability commitment because the service provider is guaranteeing that the service will be available 99.9% of the time. It could also be described as a security provision because availability is a subset of security, but availability is a more specific term and, therefore, a better answer. Resiliency is the ability of a system to withstand failures and, while related to availability, is not what is guaranteed in this agreement. There is no discussion of privacy- related concerns.
 
-40.	C. Users have the most control over environments hosted on an IaaS platform because they are able to manually adjust the resources assigned to the application. Users do not have this configurability in the SaaS, FaaS, or PaaS environment.
+Question # 40.	C. Users have the most control over environments hosted on an IaaS platform because they are able to manually adjust the resources assigned to the application. Users do not have this configurability in the SaaS, FaaS, or PaaS environment.
 
-41.	C. ISO 27017 provides guidance on the security controls that should be implemented by cloud service providers and would be useful to Gavin in evaluating such a provider. ISO 27001 is a general description of controls appropriate for a cybersecurity program, whereas ISO 27701 provides control guidance for privacy programs. ISO 17789 provides a cloud reference architecture and does not offer specific security guidance.
+Question # 41.	C. ISO 27017 provides guidance on the security controls that should be implemented by cloud service providers and would be useful to Gavin in evaluating such a provider. ISO 27001 is a general description of controls appropriate for a cybersecurity program, whereas ISO 27701 provides control guidance for privacy programs. ISO 17789 provides a cloud reference architecture and does not offer specific security guidance.
 
-42.	D. The Payment Card Industry Data Security Standard (PCI DSS) is overseen by the Payment Card Industry Security Standards Council (PCI SSC). This is not the responsibility of the Securities and Exchange Commission (SEC), the Food and Drug Administration (FDA), or the Federal Trade Commission (FTC).
+Question # 42.	D. The Payment Card Industry Data Security Standard (PCI DSS) is overseen by the Payment Card Industry Security Standards Council (PCI SSC). This is not the responsibility of the Securities and Exchange Commission (SEC), the Food and Drug Administration (FDA), or the Federal Trade Commission (FTC).
 
-43.	B. Cloud computing systems where the customer only provides application code for execution on a vendor- supplied computing platform are examples of platform as a service (PaaS) computing. Software as a service (SaaS) offerings provide a fully functional application to customers as a cloud service. Infrastructure as a service (IaaS) offerings provide basic infrastructure building blocks to customers. CaaS is a subcategory of IaaS for computing resources provided as a service.
+Question # 43.	B. Cloud computing systems where the customer only provides application code for execution on a vendor- supplied computing platform are examples of platform as a service (PaaS) computing. Software as a service (SaaS) offerings provide a fully functional application to customers as a cloud service. Infrastructure as a service (IaaS) offerings provide basic infrastructure building blocks to customers. CaaS is a subcategory of IaaS for computing resources provided as a service.
 
-44.	C. In a risk acceptance strategy, the 
+Question # 44.	C. In a risk acceptance strategy, the 
 organization chooses to take no action other than documenting the risk. Purchasing insurance would be an example of risk transference. Relocating the datacenter would be risk avoidance. Reengineering the facility is an example of a risk mitigation strategy.
 
-45.	D. Predictive analytics seek to use our existing data to predict future events. In this case, Matthew is seeking to predict the likelihood that a customer will place an order, so he is performing predictive analytics. Descriptive analytics simply seeks to describe our data. Prescriptive analytics seek to optimize our behavior by simulating many scenarios. Neither prescriptive nor descriptive analytics are being used in this scenario. Optimal analytics is not a class of analytics techniques.
+Question # 45.	D. Predictive analytics seek to use our existing data to predict future events. In this case, Matthew is seeking to predict the likelihood that a customer will place an order, so he is performing predictive analytics. Descriptive analytics simply seeks to describe our data. Prescriptive analytics seek to optimize our behavior by simulating many scenarios. Neither prescriptive nor descriptive analytics are being used in this scenario. Optimal analytics is not a class of analytics techniques.
 
-46.	B. Resource pooling is the characteristic that allows the cloud provider to meet various demands from customers while remaining financially viable. The cloud provider can make capital investments that greatly exceed what any single customer could provide on their own and can apportion these resources as needed so that the resources are not underutilized (which would mean a wasteful investment) or overtaxed (which would mean a decrease in level of service). Elasticity and scalability allows the customer to grow or shrink the IT footprint (number of users, number of machines, size of storage, and so on) as necessary to meet operational needs without excess capacity. On- demand self- service refers to the model that allows customers to scale their compute and/or storage needs with little or no intervention from or prior communication with the provider.
+Question # 46.	B. Resource pooling is the characteristic that allows the cloud provider to meet various demands from customers while remaining financially viable. The cloud provider can make capital investments that greatly exceed what any single customer could provide on their own and can apportion these resources as needed so that the resources are not underutilized (which would mean a wasteful investment) or overtaxed (which would mean a decrease in level of service). Elasticity and scalability allows the customer to grow or shrink the IT footprint (number of users, number of machines, size of storage, and so on) as necessary to meet operational needs without excess capacity. On- demand self- service refers to the model that allows customers to scale their compute and/or storage needs with little or no intervention from or prior communication with the provider.
 
-47.	A. The risk assessment team should pay the most immediate attention to those risks that appear in quadrant I. These are the risks with a high probability of occurring and a high impact on the organization if they do occur.
+Question # 47.	A. The risk assessment team should pay the most immediate attention to those risks that appear in quadrant I. These are the risks with a high probability of occurring and a high impact on the organization if they do occur.
 
-48.	A. The service- level agreement (SLA) is between a service provider and a customer and documents in a formal manner expectations for availability, performance, and other parameters. An MOU may cover the same items but is not as formal a document. An OLA is between internal service organizations and does not involve customers. An SOW is an addendum to a contract describing work to be performed.
+Question # 48.	A. The service- level agreement (SLA) is between a service provider and a customer and documents in a formal manner expectations for availability, performance, and other parameters. An MOU may cover the same items but is not as formal a document. An OLA is between internal service organizations and does not involve customers. An SOW is an addendum to a contract describing work to be performed.
 
-49.	A. Bianca’s concern in this situation is reversibility— the ability to back out the change if it does not go well. Portability is the capability to move workloads easily between environments but would only apply after the services are up and running. Similarly, resiliency is the ability of an environment to withstand disruptions and is not a primary concern in the middle of a migration. There are no regulatory concerns raised in this scenario.
+Question # 49.	A. Bianca’s concern in this situation is reversibility— the ability to back out the change if it does not go well. Portability is the capability to move workloads easily between environments but would only apply after the services are up and running. Similarly, resiliency is the ability of an environment to withstand disruptions and is not a primary concern in the middle of a migration. There are no regulatory concerns raised in this scenario.
 
-50.	B. The FBI does not produce cloud security guidance documents. The SANS Institute, Cloud Security Alliance, and vendors such as Microsoft all produce cloud security guidance documents.
+Question # 50.	B. The FBI does not produce cloud security guidance documents. The SANS Institute, Cloud Security Alliance, and vendors such as Microsoft all produce cloud security guidance documents.
 
-51.	D. Measured service means that almost everything you do in the cloud is metered. Cloud providers measure the number of seconds you use a virtual server, the amount of disk space you consume, the number of function calls you make, and many other measures. This allows them to charge you for precisely the services you use— no more and no less. Elasticity and scalability allows the customer to grow or shrink the IT footprint (number of users, number of machines, size of storage, and so on) as necessary to meet operational needs without excess capacity. On- demand self- service refers to the model that allows customers to scale their compute and/or storage needs with little or no intervention from or prior communication with the provider.
+Question # 51.	D. Measured service means that almost everything you do in the cloud is metered. Cloud providers measure the number of seconds you use a virtual server, the amount of disk space you consume, the number of function calls you make, and many other measures. This allows them to charge you for precisely the services you use— no more and no less. Elasticity and scalability allows the customer to grow or shrink the IT footprint (number of users, number of machines, size of storage, and so on) as necessary to meet operational needs without excess capacity. On- demand self- service refers to the model that allows customers to scale their compute and/or storage needs with little or no intervention from or prior communication with the provider.
 
-52.	D. Operating systems do exist in PaaS environments where they are maintained by the service provider. The customer has no access to or ability to maintain the operating system in a PaaS environment.
+Question # 52.	D. Operating systems do exist in PaaS environments where they are maintained by the service provider. The customer has no access to or ability to maintain the operating system in a PaaS environment.
 
-53.	A. Organizations moving from an on- premises datacenter to the cloud should expect to see a reduction in utility expenses due to the reduction in on- site equipment. Software licensing fees are unlikely to change. Security expenses may increase or decrease depending on the nature of the transition. There is no reason to believe that executive compensation will change.
+Question # 53.	A. Organizations moving from an on- premises datacenter to the cloud should expect to see a reduction in utility expenses due to the reduction in on- site equipment. Software licensing fees are unlikely to change. Security expenses may increase or decrease depending on the nature of the transition. There is no reason to believe that executive compensation will change.
 
-54.	B. Block storage is used to provide disk volumes and is the appropriate choice in this situation. Object storage is used to store individual files but cannot be mounted as a disk. There is no indication that Devon needs to use a database in this scenario. Archival storage should only be used in cases where data does not need to be frequently accessed and is not appropriate for a disk attached to a server instance.
+Question # 54.	B. Block storage is used to provide disk volumes and is the appropriate choice in this situation. Object storage is used to store individual files but cannot be mounted as a disk. There is no indication that Devon needs to use a database in this scenario. Archival storage should only be used in cases where data does not need to be frequently accessed and is not appropriate for a disk attached to a server instance.
 
-55.	C. The first thing Casey should do is notify her management, but after that, replacing the certificate and using proper key management practices with the new certificate’s key should be at the top of her list.
+Question # 55.	C. The first thing Casey should do is notify her management, but after that, replacing the certificate and using proper key management practices with the new certificate’s key should be at the top of her list.
 
-56.	D. The checklist review is the least disruptive type of disaster recovery test. During a checklist review, team members each review the contents of their disaster recovery checklists on their own and suggest any necessary changes. During a tabletop exercise, team members come together and walk through a scenario without making any changes to information systems. During a parallel test, the team actually activates the disaster recovery site for testing but the primary site remains operational. During a full interruption test, the team takes down the primary site and confirms that the disaster recovery site is capable of handling regular operations. The full interruption test is the most thorough test but also the most disruptive.
+Question # 56.	D. The checklist review is the least disruptive type of disaster recovery test. During a checklist review, team members each review the contents of their disaster recovery checklists on their own and suggest any necessary changes. During a tabletop exercise, team members come together and walk through a scenario without making any changes to information systems. During a parallel test, the team actually activates the disaster recovery site for testing but the primary site remains operational. During a full interruption test, the team takes down the primary site and confirms that the disaster recovery site is capable of handling regular operations. The full interruption test is the most thorough test but also the most disruptive.
 
-57.	D. In a software as a service solution, the vendor manages both the physical infrastructure and the complete application stack, providing the customer with access to a fully managed application. Infrastructure as a service (IaaS) offerings provide customers with basic technology building blocks. Platform as a service (PaaS) offerings provide customers with an environment where they can execute their own code. CaaS is a subcategory of IaaS for computing resources provided as a service.
+Question # 57.	D. In a software as a service solution, the vendor manages both the physical infrastructure and the complete application stack, providing the customer with access to a fully managed application. Infrastructure as a service (IaaS) offerings provide customers with basic technology building blocks. Platform as a service (PaaS) offerings provide customers with an environment where they can execute their own code. CaaS is a subcategory of IaaS for computing resources provided as a service.
 
-58.	C. Security baselines provide a starting point to scope and tailor security controls to your organization’s needs. They aren’t always appropriate to specific organizational needs, they cannot ensure that systems are always in a secure state, and they do not prevent liability.
+Question # 58.	C. Security baselines provide a starting point to scope and tailor security controls to your organization’s needs. They aren’t always appropriate to specific organizational needs, they cannot ensure that systems are always in a secure state, and they do not prevent liability.
 
-59.	C. The DevOps approach to technology management seeks to integrate software development, operations, and quality assurance in a seamless approach that builds collaboration between the three disciplines. Agile is a development methodology often used in DevOps environments. Lean is a process improvement strategy. The IT Infrastructure Library (ITIL) is a collection of best practices for managing IT organizations.
+Question # 59.	C. The DevOps approach to technology management seeks to integrate software development, operations, and quality assurance in a seamless approach that builds collaboration between the three disciplines. Agile is a development methodology often used in DevOps environments. Lean is a process improvement strategy. The IT Infrastructure Library (ITIL) is a collection of best practices for managing IT organizations.
 
-60.	B. In all likelihood, the vendor will immediately deny this request because customers should not have access to underlying infrastructure in a PaaS environment. If Stacey truly needs this access, she should consider an IaaS offering instead of a PaaS offering.
+Question # 60.	B. In all likelihood, the vendor will immediately deny this request because customers should not have access to underlying infrastructure in a PaaS environment. If Stacey truly needs this access, she should consider an IaaS offering instead of a PaaS offering.
 
-61.	D. Installing a device that will block attacks is an attempt to lower risk by reducing the likelihood of a successful application attack. Controls that lower the impact of a risk attempt to reduce the amount of damage caused when a risk materializes. The recovery point objective (RPO) addresses the amount of data loss that is acceptable due to an incident. The maximum tolerable outage (MTO) is the amount of downtime that the business can safely withstand.
+Question # 61.	D. Installing a device that will block attacks is an attempt to lower risk by reducing the likelihood of a successful application attack. Controls that lower the impact of a risk attempt to reduce the amount of damage caused when a risk materializes. The recovery point objective (RPO) addresses the amount of data loss that is acceptable due to an incident. The maximum tolerable outage (MTO) is the amount of downtime that the business can safely withstand.
 
-62.	A. OpenID Connect is an authentication layer that works with OAuth 2.0 as its underlying authorization framework. It has been widely adopted by cloud service providers and is widely supported. SAML, RADIUS, and Kerberos are alternative authentication technologies but do not have the same level of seamless 
+Question # 62.	A. OpenID Connect is an authentication layer that works with OAuth 2.0 as its underlying authorization framework. It has been widely adopted by cloud service providers and is widely supported. SAML, RADIUS, and Kerberos are alternative authentication technologies but do not have the same level of seamless 
 integration with OAuth.
 
-63.	B. The most appropriate standard to use as a baseline when evaluating vendors is to determine whether the vendor’s security controls meet the organization’s own standards. Compliance with laws and regulations should be included in that requirement and are a necessary, but not sufficient, condition for working with the vendor. Vendor compliance with their own policies also fits into the category of necessary, but not sufficient, controls, as the vendor’s policy may be weaker than the organization’s own requirements. The elimination of all identified security risks is an impossible requirement for a potential vendor to meet.
+Question # 63.	B. The most appropriate standard to use as a baseline when evaluating vendors is to determine whether the vendor’s security controls meet the organization’s own standards. Compliance with laws and regulations should be included in that requirement and are a necessary, but not sufficient, condition for working with the vendor. Vendor compliance with their own policies also fits into the category of necessary, but not sufficient, controls, as the vendor’s policy may be weaker than the organization’s own requirements. The elimination of all identified security risks is an impossible requirement for a potential vendor to meet.
 
-64.	A. This is an example of a vendor offering a fully functional application as a web- based service. Therefore, it fits under the definition of software as a service (SaaS). In infrastructure as a service (IaaS), compute as a service (CaaS), and platform as a service (PaaS) approaches, the customer provides their own software. In this example, the vendor is providing the email software, so none of those choices is appropriate.
+Question # 64.	A. This is an example of a vendor offering a fully functional application as a web- based service. Therefore, it fits under the definition of software as a service (SaaS). In infrastructure as a service (IaaS), compute as a service (CaaS), and platform as a service (PaaS) approaches, the customer provides their own software. In this example, the vendor is providing the email software, so none of those choices is appropriate.
 
-65.	B. In this case, most cloud service models (including IaaS, SaaS, and serverless/FaaS) would require transmitting most information back to the cloud. The edge computing service model would be far more appropriate, as it places computing power at the sensor, minimizing the data that must be sent back to the cloud over limited connectivity network links.
+Question # 65.	B. In this case, most cloud service models (including IaaS, SaaS, and serverless/FaaS) would require transmitting most information back to the cloud. The edge computing service model would be far more appropriate, as it places computing power at the sensor, minimizing the data that must be sent back to the cloud over limited connectivity network links.
 
-66.	C. Security Assertion Markup Language (SAML) is the best choice for providing authentication and authorization information, particularly for browser- based SSO. HTML is primarily used for web pages, SPML is used to exchange user information for SSO, and XACML is used for access control policy markup.
+Question # 66.	C. Security Assertion Markup Language (SAML) is the best choice for providing authentication and authorization information, particularly for browser- based SSO. HTML is primarily used for web pages, SPML is used to exchange user information for SSO, and XACML is used for access control policy markup.
 
-67.	A. In an IaaS server environment, the customer retains responsibility for most server security operations under the shared responsibility model. This includes managing OS security settings, maintaining host firewalls, and configuring server access control. The vendor would be responsible for all security mechanisms at the hypervisor layer and below.
+Question # 67.	A. In an IaaS server environment, the customer retains responsibility for most server security operations under the shared responsibility model. This includes managing OS security settings, maintaining host firewalls, and configuring server access control. The vendor would be responsible for all security mechanisms at the hypervisor layer and below.
 
-68.	C. This is an example of providing a fully developed and hosted application to a customer, so it is an example of software as a service (SaaS) computing. In a platform as a service (PaaS) offering, the customer provides application code for execution on a vendor-s upplied computing platform. Infrastructure as a service (IaaS) offerings provide basic infrastructure building blocks to customers. Function as a service (FaaS) offerings are a subcategory of PaaS for serverless computing applications.
+Question # 68.	C. This is an example of providing a fully developed and hosted application to a customer, so it is an example of software as a service (SaaS) computing. In a platform as a service (PaaS) offering, the customer provides application code for execution on a vendor-s upplied computing platform. Infrastructure as a service (IaaS) offerings provide basic infrastructure building blocks to customers. Function as a service (FaaS) offerings are a subcategory of PaaS for serverless computing applications.
 
-69.	C. The DevOps and DevSecOps philosophies are closely linked to the Agile method of software development. The waterfall, modified waterfall, and spiral models are more traditional approaches that are not commonly used with DevOps and DevSecOps.
+Question # 69.	C. The DevOps and DevSecOps philosophies are closely linked to the Agile method of software development. The waterfall, modified waterfall, and spiral models are more traditional approaches that are not commonly used with DevOps and DevSecOps.
 
-70.	C. Cloud access security brokers (CASBs) are designed to enforce security policies consistently across cloud services and would best meet Bailey’s needs. Data loss prevention (DLP) and digital rights management (DRM) solutions may be able to detect, block, and control some use of information in the cloud, but they would not provide a way to consistently enforce security policies across cloud platforms. Intrusion prevention systems (IPSs) are designed to detect and block malicious activity and would not be relevant in this scenario.
+Question # 70.	C. Cloud access security brokers (CASBs) are designed to enforce security policies consistently across cloud services and would best meet Bailey’s needs. Data loss prevention (DLP) and digital rights management (DRM) solutions may be able to detect, block, and control some use of information in the cloud, but they would not provide a way to consistently enforce security policies across cloud platforms. Intrusion prevention systems (IPSs) are designed to detect and block malicious activity and would not be relevant in this scenario.
 
-71.	C. In an infrastructure as a service environment, the vendor is responsible for hardware- and network- related responsibilities. These include configuring network firewalls, maintaining the hypervisor, and managing physical equipment. The customer retains responsibility for patching operating systems on its virtual machine instances.
+Question # 71.	C. In an infrastructure as a service environment, the vendor is responsible for hardware- and network- related responsibilities. These include configuring network firewalls, maintaining the hypervisor, and managing physical equipment. The customer retains responsibility for patching operating systems on its virtual machine instances.
 
-72.	A. In the public cloud computing model, the vendor builds a single platform that is shared among many different customers. This is also known as the multitenancy model.
+Question # 72.	A. In the public cloud computing model, the vendor builds a single platform that is shared among many different customers. This is also known as the multitenancy model.
 
-73.	C. A cloud IaaS vendor will allow Kristen to set up infrastructure as quickly as she can deploy and pay for it. A PaaS vendor provides a platform that would require her to migrate her custom application to it, likely taking longer than a hosted datacenter provider. A  datacenter vendor that provides rack, power, and remote hands assistance fails the test based on Kristen’s desire to not have to acquire or ship hardware.
+Question # 73.	C. A cloud IaaS vendor will allow Kristen to set up infrastructure as quickly as she can deploy and pay for it. A PaaS vendor provides a platform that would require her to migrate her custom application to it, likely taking longer than a hosted datacenter provider. A  datacenter vendor that provides rack, power, and remote hands assistance fails the test based on Kristen’s desire to not have to acquire or ship hardware.
 
-74.	B. IaaS networking is generally configurable by the end customer through the use of network security groups, bandwidth provisioning, and similar mechanisms. Security groups are the equivalent of firewall rules for IaaS networking. PaaS and SaaS networking are managed by the cloud service provider. Customers may connect to cloud service provider networks using a VPN.
+Question # 74.	B. IaaS networking is generally configurable by the end customer through the use of network security groups, bandwidth provisioning, and similar mechanisms. Security groups are the equivalent of firewall rules for IaaS networking. PaaS and SaaS networking are managed by the cloud service provider. Customers may connect to cloud service provider networks using a VPN.
 
-75.	D. In a serverless computing model, the vendor does not expose details of the operating system to its customers. Therefore, the vendor retains full responsibility for configuring it securely under the shared responsibility model of cloud computing.
+Question # 75.	D. In a serverless computing model, the vendor does not expose details of the operating system to its customers. Therefore, the vendor retains full responsibility for configuring it securely under the shared responsibility model of cloud computing.
 
-76.	C. ISO 27001 is an international standard for the creation of an information security management system (ISMS). NIST SP 800- 37 is the Risk Management Framework created by the U.S. government for assessing the security of systems. NIST SP 800- 53 is the list of security controls approved for use by U.S. government agencies and a means to map them to the Risk Management Framework. The Payment Card Industry Data Security Standard (PCI DSS) is the payment card industry’s framework of compliance for all entities accepting or processing credit card payments.
+Question # 76.	C. ISO 27001 is an international standard for the creation of an information security management system (ISMS). NIST SP 800- 37 is the Risk Management Framework created by the U.S. government for assessing the security of systems. NIST SP 800- 53 is the list of security controls approved for use by U.S. government agencies and a means to map them to the Risk Management Framework. The Payment Card Industry Data Security Standard (PCI DSS) is the payment card industry’s framework of compliance for all entities accepting or processing credit card payments.
 
-77.	A. This is the definition of cloud migration interoperability challenges. Portability is the measure of how difficult it might be to move the organization’s systems/data from a given cloud host to another cloud host. Stability has no specific meaning here and is just a distractor. Security might be an element of this challenge but is not the optimum answer; the question posed a concern about functionality, not disclosure or tainting the information.
+Question # 77.	A. This is the definition of cloud migration interoperability challenges. Portability is the measure of how difficult it might be to move the organization’s systems/data from a given cloud host to another cloud host. Stability has no specific meaning here and is just a distractor. Security might be an element of this challenge but is not the optimum answer; the question posed a concern about functionality, not disclosure or tainting the information.
 
-78.	D. Mike’s concern in this situation is portability—t he capability to move workloads easily between environments. Reversibility is the ability to back out the change if it does not go well. Resiliency is the ability of an environment to withstand disruptions and is not a primary concern in the middle of a migration. There are no regulatory concerns raised in this scenario.
+Question # 78.	D. Mike’s concern in this situation is portability—t he capability to move workloads easily between environments. Reversibility is the ability to back out the change if it does not go well. Resiliency is the ability of an environment to withstand disruptions and is not a primary concern in the middle of a migration. There are no regulatory concerns raised in this scenario.
 
-79.	C. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink. Services that are elastic must also be scalable, but services that are scalable are not necessarily elastic.
+Question # 79.	C. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink. Services that are elastic must also be scalable, but services that are scalable are not necessarily elastic.
 
-80.	D. In an IaaS configuration, the customer still has to maintain the OS, so option D is the only answer that is not a direct benefit for the cloud customer.
+Question # 80.	D. In an IaaS configuration, the customer still has to maintain the OS, so option D is the only answer that is not a direct benefit for the cloud customer.
 
-81.	B. Encryption consumes processing power and time; as with all security controls, additional security means measurably less operational capability— there is always a trade- off between security and productivity. Option A is gibberish and only a distractor. Option C is incorrect because vendor lockout does not result from encryption; it is what might happen if the cloud provider goes out of business while holding your data. Data subjects are the individuals whose personally identifiable information (PII) an organization holds; usually, they will not know or care if something is encrypted (unless there is a breach of that PII, and then investigators will want to determine how that PII was protected) and would probably welcome total encryption, even though that might mean a decrease in operational capability.
+Question # 81.	B. Encryption consumes processing power and time; as with all security controls, additional security means measurably less operational capability— there is always a trade- off between security and productivity. Option A is gibberish and only a distractor. Option C is incorrect because vendor lockout does not result from encryption; it is what might happen if the cloud provider goes out of business while holding your data. Data subjects are the individuals whose personally identifiable information (PII) an organization holds; usually, they will not know or care if something is encrypted (unless there is a breach of that PII, and then investigators will want to determine how that PII was protected) and would probably welcome total encryption, even though that might mean a decrease in operational capability.
 
-82.	A. Due care is the minimal level of effort necessary to perform your duty to others; in cloud security, that is often the care that the cloud customer is required to demonstrate in order to protect the data it owns. Due diligence is any activity taken in support or furtherance of due care. This answer, then, is optimum: the due care is set out by the policy, and activities that support the policy (here, auditing the controls the policy requires) are a demonstration of due diligence.
+Question # 82.	A. Due care is the minimal level of effort necessary to perform your duty to others; in cloud security, that is often the care that the cloud customer is required to demonstrate in order to protect the data it owns. Due diligence is any activity taken in support or furtherance of due care. This answer, then, is optimum: the due care is set out by the policy, and activities that support the policy (here, auditing the controls the policy requires) are a demonstration of due diligence.
 The General Data Protection Regulation (GDPR) and GLBA are both legislative mandates; these might dictate a standard of due care, but they are not the due care or due diligence, specifically.
 Door locks and turnstiles are physical security controls; they both might be examples of due care efforts, but neither demonstrates due diligence.
 Due care and diligence can be demonstrated by either internal or external controls/processes; there is no distinction to be made based on where the control is situated.
 
-83.	A. Confidential computing protects data in use by using a trusted execution environment (TEE). Confidential computing environments may also make use of other security technologies, including trusted platform modules (TPMs), hardware security modules (HSMs), and public key infrastructure (PKI), but those technologies do not protect data in use and are not, therefore, required for a confidential computing environment.
+Question # 83.	A. Confidential computing protects data in use by using a trusted execution environment (TEE). Confidential computing environments may also make use of other security technologies, including trusted platform modules (TPMs), hardware security modules (HSMs), and public key infrastructure (PKI), but those technologies do not protect data in use and are not, therefore, required for a confidential computing environment.
 
-84.	C. The Common Criteria provide a general certification process for computing hardware that might be used in government applications. FIPS 140- 2 provides similar guidance but is specific to cryptographic modules and is not used for generalized hardware. NIST 800- 53 provides security control guidance but is not a certification process. FedRAMP provides a certification process for cloud computing services but not for hardware.
+Question # 84.	C. The Common Criteria provide a general certification process for computing hardware that might be used in government applications. FIPS 140- 2 provides similar guidance but is specific to cryptographic modules and is not used for generalized hardware. NIST 800- 53 provides security control guidance but is not a certification process. FedRAMP provides a certification process for cloud computing services but not for hardware.
 
-85.	B. The distinguished name (DN) is the nomenclature for all entries in an LDAP environment. A domain name is used to identify one or more IP addresses. For instance, Microsoft.com and google.com are domain names. Option A is incorrect.
+Question # 85.	B. The distinguished name (DN) is the nomenclature for all entries in an LDAP environment. A domain name is used to identify one or more IP addresses. For instance, Microsoft.com and google.com are domain names. Option A is incorrect.
 A directory name is typically associated with a filesystem structure and not something related to LDAP. Option C is incorrect.
 “Default Name” is not a common term and is made up. Option D is not the correct answer.
 
-86.	C. Databases are used to store information that is collected into related tables. Storage could also be used for this purpose, but it does not provide the table structure of a database, so it would not be the best solution. Networking and virtualization technologies are not used to store data.
+Question # 86.	C. Databases are used to store information that is collected into related tables. Storage could also be used for this purpose, but it does not provide the table structure of a database, so it would not be the best solution. Networking and virtualization technologies are not used to store data.
 
-87.	B. Confidential computing is an emerging technology designed to support the protection of data that is actively stored in memory.
+Question # 87.	B. Confidential computing is an emerging technology designed to support the protection of data that is actively stored in memory.
 
-88.	D. The cloud customer is ultimately responsible for all legal repercussions involving data security and privacy; the cloud provider might be liable for financial costs related to these responsibilities, but those damages can only be recovered long after the notifications have been made by the cloud customer.
+Question # 88.	D. The cloud customer is ultimately responsible for all legal repercussions involving data security and privacy; the cloud provider might be liable for financial costs related to these responsibilities, but those damages can only be recovered long after the notifications have been made by the cloud customer.
 All the other options are incorrect because they do not correctly identify who is required to make data breach notifications in accordance with all applicable laws. That responsibility rests with the cloud customer.
 
-89.	D. An IaaS service model allows an organization to retain the most control of their IT assets in the cloud; the cloud customer is responsible for the operating system, the applications, and the data in the cloud. The private cloud model allows the organization to retain the greatest degree of governance control in the cloud; all the other deployment models would necessitate giving up governance control in an environment with pooled resources.
+Question # 89.	D. An IaaS service model allows an organization to retain the most control of their IT assets in the cloud; the cloud customer is responsible for the operating system, the applications, and the data in the cloud. The private cloud model allows the organization to retain the greatest degree of governance control in the cloud; all the other deployment models would necessitate giving up governance control in an environment with pooled resources.
 
-90.	D. Henry’s biggest concern should be the long- term security and supportability of the IoT devices. As these devices are increasingly embedded in buildings and infrastructure, it is important to understand the support model and the security model. Both the lack of separate administrative access and the lack of strong encryption can be addressed by placing the IoT devices on a dedicated subnet or network that prevents other users from accessing the devices directly. This will help limit the risk without undue expense or complexity and is a common practice. Finally, lack of storage space can be a concern, but it is not the most important when looking at the risks IoT devices can create.
+Question # 90.	D. Henry’s biggest concern should be the long- term security and supportability of the IoT devices. As these devices are increasingly embedded in buildings and infrastructure, it is important to understand the support model and the security model. Both the lack of separate administrative access and the lack of strong encryption can be addressed by placing the IoT devices on a dedicated subnet or network that prevents other users from accessing the devices directly. This will help limit the risk without undue expense or complexity and is a common practice. Finally, lack of storage space can be a concern, but it is not the most important when looking at the risks IoT devices can create.
 
-91.	B. In the private cloud computing model, the cloud computing environment is dedicated to a single organization and does not follow the shared tenancy model. The environment may be built by the company in its own datacenter or built by a vendor at a colocation site. Public cloud computing makes use of vendor datacenters. Hybrid cloud computing combines the use of public and private cloud resources. Shared cloud computing is not a cloud service model.
+Question # 91.	B. In the private cloud computing model, the cloud computing environment is dedicated to a single organization and does not follow the shared tenancy model. The environment may be built by the company in its own datacenter or built by a vendor at a colocation site. Public cloud computing makes use of vendor datacenters. Hybrid cloud computing combines the use of public and private cloud resources. Shared cloud computing is not a cloud service model.
 
-92.	A. Hypervisors enforce isolation between virtual machines and are, therefore, most susceptible to escape attacks. Hardware security modules and trusted platform modules store and manage cryptographic keys and are not vulnerable to escape attacks. Databases may be hosted on a virtual platform that is vulnerable to an escape attack, but the database itself is not vulnerable to that attack.
+Question # 92.	A. Hypervisors enforce isolation between virtual machines and are, therefore, most susceptible to escape attacks. Hardware security modules and trusted platform modules store and manage cryptographic keys and are not vulnerable to escape attacks. Databases may be hosted on a virtual platform that is vulnerable to an escape attack, but the database itself is not vulnerable to that attack.
 
-93.	A. Traffic inspection technology would allow Steve to examine the contents of encrypted HTTPS traffic and detect sensitive information. Port blocking may be used to stop HTTPS traffic entirely, but that would not detect a security violation. Patching and geofencing technologies would play no role in this scenario.
+Question # 93.	A. Traffic inspection technology would allow Steve to examine the contents of encrypted HTTPS traffic and detect sensitive information. Port blocking may be used to stop HTTPS traffic entirely, but that would not detect a security violation. Patching and geofencing technologies would play no role in this scenario.
 
-94.	B. Hot sites, cold sites, and warm sites all require a significant investment in physical facilities. Hot sites and warm sites also require investments in hardware and/or software. Using the cloud provides a way to minimize costs by configuring but not activating resources until they are actually needed.
+Question # 94.	B. Hot sites, cold sites, and warm sites all require a significant investment in physical facilities. Hot sites and warm sites also require investments in hardware and/or software. Using the cloud provides a way to minimize costs by configuring but not activating resources until they are actually needed.
 
-95.	A. Authentication is verifying that the user is who they claim to be and assigning them an identity assertion (usually a user ID) based on that identity.
+Question # 95.	A. Authentication is verifying that the user is who they claim to be and assigning them an identity assertion (usually a user ID) based on that identity.
 Authorization is granting access based on permissions allocated to a particular user/valid identity assertion.
 Nonrepudiation is the security concept of not allowing a participant in a transaction to deny that they participated.
 Regression is a statistical concept not relevant to the question in any way.
 
-96.	A. Software as a service (SaaS) models place the primary burden of security (and other administration) on the service provider. Platform as a service (PaaS) and infrastructure as a service (IaaS) shift some responsibility from the provider to the customer under the shared responsibility model. Function as a service (FaaS) is a subcategory of PaaS.
+Question # 96.	A. Software as a service (SaaS) models place the primary burden of security (and other administration) on the service provider. Platform as a service (PaaS) and infrastructure as a service (IaaS) shift some responsibility from the provider to the customer under the shared responsibility model. Function as a service (FaaS) is a subcategory of PaaS.
 
-97.	A. In a symmetric encryption algorithm, all data is encrypted and decrypted with the same shared secret key. This key is the only key required for the communication.
+Question # 97.	A. In a symmetric encryption algorithm, all data is encrypted and decrypted with the same shared secret key. This key is the only key required for the communication.
 
-98.	C. When an individual receives a copy of a digital certificate, the person verifies the authenticity of that certificate by using the CA’s public key to validate the digital signature contained on the certificate.
+Question # 98.	C. When an individual receives a copy of a digital certificate, the person verifies the authenticity of that certificate by using the CA’s public key to validate the digital signature contained on the certificate.
 
-99.	C. Quantum computing uses advanced particle physics to perform computing tasks in a revolutionary manner that might render modern encryption algorithms insecure. Ephemeral computing refers to the use of computing assets on a temporary basis. Confidential computing uses trusted execution environments (TEE) to protect data in use. Parallel computing uses multiple processors to perform different parts of a calculation simultaneously.
+Question # 99.	C. Quantum computing uses advanced particle physics to perform computing tasks in a revolutionary manner that might render modern encryption algorithms insecure. Ephemeral computing refers to the use of computing assets on a temporary basis. Confidential computing uses trusted execution environments (TEE) to protect data in use. Parallel computing uses multiple processors to perform different parts of a calculation simultaneously.
 
-100.	C. Technically, BC efforts are meant to ensure that critical business functions can continue during a disruptive event, and DR efforts are supposed to support the return to normal operations. However, in practice, the efforts often coincide, use the same plans/personnel, and have many of the same procedures.
+Question # 100.	C. Technically, BC efforts are meant to ensure that critical business functions can continue during a disruptive event, and DR efforts are supposed to support the return to normal operations. However, in practice, the efforts often coincide, use the same plans/personnel, and have many of the same procedures.
 Option A is incorrect; both BC and DR use the RTO and RPO as metrics to determine success.
 Option B is incorrect; BC and DR efforts are not specific to the cause of a disruptive event.
 Option D is incorrect; health and human safety should be paramount in all security efforts, with very few exceptions.
