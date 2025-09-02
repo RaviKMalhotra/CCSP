@@ -4,7 +4,6 @@ A.	Hybrid cloud
 B.	Public cloud  
 C.	Private cloud  
 D.	Community cloud  
-Answer: B
 
 ### Question # 2 - Zeke is responsible for sanitizing a set of solid- state drives (SSDs) removed from servers in his organization’s datacenter. The drives will be reused on a different project. Which one of the following sanitization techniques would be most effective?   
 A.	Cryptographic erasure  
@@ -120,52 +119,135 @@ B.	PCI DSS
 C.	SOX                
 D.	GLBA                  
 
-### Question # 21 - What type of effort attempts to bring all of an organization’s cloud activities under more  centralized control?
-A.	Cloud access service broker
-B.	Cloud orchestration
-C.	Cloud governance
-D.	Cloud migration
+### Question # 21 - What type of effort attempts to bring all of an organization’s cloud activities under more  centralized control?           
+A.	Cloud access service broker            
+B.	Cloud orchestration               
+C.	Cloud governance              
+D.	Cloud migration                
 
-### Question # 22 - 	Chris is designing a cryptographic system for use within his company. The company has 1,000 employees, and they plan to use an asymmetric encryption system. They would like the system to be set up so that any pair of arbitrary users may communicate privately. How many total keys will they need?
-A.	500
-B.	1,000 
-C. 2,000
-D. 4,950
+### Question # 22 - 	Chris is designing a cryptographic system for use within his company. The company has 1,000 employees, and they plan to use an asymmetric encryption system. They would like the system to be set up so that any pair of arbitrary users may communicate privately. How many total keys will they need?           
+A.	500              
+B.	1,000            
+C. 2,000               
+D. 4,950               
 
-### Question # 23 - 	Erin is concerned about the risk that a cloud provider used by her organization will fail, so she is creating a strategy that will combine resources from multiple public cloud providers. What term best describes this strategy?
-A.	Community cloud
-B.	Multicloud
-C.	Private cloud
-D.	Hybrid cloud
+### Question # 23 - 	Erin is concerned about the risk that a cloud provider used by her organization will fail, so she is creating a strategy that will combine resources from multiple public cloud providers. What term best describes this strategy?            
+A.	Community cloud           
+B.	Multicloud               
+C.	Private cloud             
+D.	Hybrid cloud              
 
-### Question # 24 - Which one of the following would normally be considered an application capability of a cloud service provider?
-A.	Network capacity
-B.	Hosted email
-C.	Block storage
-D.	Serverless computing
+### [important] Question # 24 - Which one of the following would normally be considered an application capability of a cloud service provider?                       
+A.	Network capacity                
+B.	Hosted email                
+C.	Block storage                   
+D.	Serverless computing                      
 
-### Question # 25 - What activity are cloud providers able to engage in because not all users will access the full capacity of their service offering simultaneously?
-A.	Oversubscription
-B.	Overprovisioning
-C.	Underprovisioning
-D.	Undersubscription
+### Question # 25 - What activity are cloud providers able to engage in because not all users will access the full capacity of their service offering simultaneously?             
+A.	Oversubscription            
+B.	Overprovisioning               
+C.	Underprovisioning               
+D.	Undersubscription                  
 
-### Question # 26 - 	Brian recently joined an organization that runs the majority of its services on a virtualization platform located in its own datacenter but also leverages an IaaS provider for hosting its web services and an SaaS email system. What term best describes the type of cloud environment this organization uses? A. Public cloud
-B.	Dedicated cloud
-C.	Private cloud
-D.	Hybrid cloud
+### Question # 26 - 	Brian recently joined an organization that runs the majority of its services on a virtualization platform located in its own datacenter but also leverages an IaaS provider for hosting its web services and an SaaS email system. What term best describes the type of cloud environment this organization uses?          
+A. Public cloud             
+B.	Dedicated cloud              
+C.	Private cloud              
+D.	Hybrid cloud              
 
-### Question # 27 - 	In an infrastructure as a service (IaaS) environment where a vendor supplies a customer with access to storage services, who is normally responsible for removing sensitive data from drives that are taken out of service?
-A.	Customer’s security team
-B.	Customer’s storage team
-C.	Customer’s vendor management team
-D.	Vendor
+### Question # 27 - 	In an infrastructure as a service (IaaS) environment where a vendor supplies a customer with access to storage services, who is normally responsible for removing sensitive data from drives that are taken out of service?          
+A.	Customer’s security team          
+B.	Customer’s storage team                
+C.	Customer’s vendor management team            
+D.	Vendor                
 
-### Question # 28 - Lucca is reviewing his organization’s disaster recovery process data and notes that the MTD for the business’s main website is two hours. What does he know about the RTO for the site when he does testing and validation?
-A.	It needs to be less than two hours.
-B.	It needs to be at least two hours.
-C.	The MTD is too short and needs to be longer.
-D.	The RTO is too short and needs to be longer.
+### Question # 28 - Lucca is reviewing his organization’s disaster recovery process data and notes that the MTD for the business’s main website is two hours. What does he know about the RTO for the site when he does testing and validation?                  
+A.	It needs to be less than two hours.                 
+B.	It needs to be at least two hours.                
+C.	The MTD is too short and needs to be longer.             
+D.	The RTO is too short and needs to be longer.      
+
+### Question # 28.1 - Which of the following BEST defines RPO (Recovery Point Objective)?            
+A. The maximum acceptable downtime for a system or process.                     
+B. The point in time to which data must be recovered after a disruption.            
+C. The exact time the system must be restored during testing.             
+D. The average time to restore services after a failure.       
+
+### Question # 28.2 If a system has an MTD of 6 hours and an RTO of 8 hours, what does this mean?                
+A. The system is adequately protected.               
+B. The RTO must be reduced, since it exceeds MTD.            
+C. The RTO must be increased to align with MTD.              
+D. The MTD is irrelevant to recovery planning.             
+
+### Question # 28.3 Which of the following is the correct sequence of planning for business continuity?
+A. Identify critical functions → Define MTD → Set RTO & RPO → Select recovery strategies             
+B. Set RPO → Identify critical functions → Define MTD → Test DR plan                      
+C. Define RTO & RPO → Select DR site → Draft BCP → Train employees               
+D. Test plan → Define MTD → Identify functions → Set RTO                  
+
+### Question # 28.4 If the RPO is set too aggressively (very low), which of the following is most likely to increase?              
+A. Cost of recovery solutions             
+B. Acceptable downtime              
+C. System resilience            
+D. Probability of regulatory fines                 
+
+### Question # 28.5 Which of the following BEST describes the relationship between RTO and MTD?
+A. RTO can be equal to or greater than MTD.
+B. RTO must always be less than or equal to MTD.
+C. RTO is unrelated to MTD.
+D. RTO defines how much data loss is acceptable.
+
+### Question # 28.6 An organization defines its RPO as 4 hours for a mission-critical database. What does this imply?              
+A. The system must be restored within 4 hours.              
+B. No more than 4 hours of data can be lost.            
+C. The MTD must be greater than 4 hours.              
+D. Backups must be performed every 4 hours.             
+
+### Question # 28.7 Which of the following BEST defines the Work Recovery Time (WRT)?              
+A. The time it takes IT to restore systems to an operational state.                        
+B. The time required by business users to validate restored systems and resume work.              
+C. The maximum acceptable downtime for a system.                            
+D. The time between a disaster occurring and services being back online.                
+
+### Question # 28.8 If a company sets MTD = 24 hours, RTO = 6 hours, RPO = 2 hours, which statement is correct?
+A. The organization can lose up to 24 hours of data.
+B. The system must be restored within 24 hours.
+C. Data loss cannot exceed 2 hours, and recovery must complete in 6 hours.
+D. RTO is not achievable because it is less than MTD.
+
+### Question # 23.9 Which of the following is a direct outcome of setting an extremely low RPO (near zero)?
+A. Reduced dependency on continuous replication.
+B. Increased costs due to real-time backup or mirroring.
+C. Increased tolerance for data loss.
+D. Lower costs of disaster recovery.
+
+### Question # 23.10 Which of the following metrics would be MOST relevant when deciding the frequency of data backups?
+A. MTD
+B. RPO
+C. RTO
+D. WRT
+
+### Question # 23.11 During a DR test, a system was restored in 5 hours, but the users needed another 3 hours to validate and resume work. If MTD = 10 hours, which statement is TRUE?
+A. Recovery objectives were not met.
+B. RTO = 8 hours, WRT = 5 hours.
+C. RTO = 5 hours, WRT = 3 hours, total downtime = 8 hours, within MTD.
+D. WRT = 8 hours, total downtime = 5 hours.
+
+### Question # 23.12 Which of the following disaster recovery strategies provides the shortest RTO?
+A. Warm site
+B. Hot site
+C. Cold site
+D. Backup tapes stored offsite
+
+### Question # 23.13 An organization’s payroll system has the following:
+MTD = 72 hours
+RTO = 24 hours
+RPO = 12 hours
+Which DR solution is MOST aligned?
+A. Weekly tape backups + cold site
+B. Daily backups + warm site
+C. Continuous replication + hot site
+D. Manual payroll processing + offsite tape storage
 
 ### Question # 29 - 	Alice and Bob would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority.
 When Bob receives an encrypted message from Alice, what key does he use to decrypt the plaintext message’s contents?
@@ -666,22 +748,60 @@ Databases are a cloud service offering that allows for the organized storage of 
 
 Question # 20.	B. The Payment Card Industry Data Security Standard (PCI DSS) governs the storage, processing, and transmission of credit card information. The Health Insurance Portability and Accountability Act (HIPAA) governs protected health information. The Sarbanes–Oxley (SOX) Act regulates the financial reporting of publicly traded corporations. The Gramm– Leach–Bliley Act (GLBA) protects personal financial information.
 
-21.	C. Cloud governance programs try to bring all of an organization’s cloud activities under more centralized control. They serve as a screening body helping to ensure that cloud services used by the organization meet technical, functional, and security requirements. They also provide a centralized point of monitoring for duplicative services, preventing different business units from spending money on similar services when consolidation would reduce both costs and the complexity of the operating environment. Cloud orchestration tools are designed to manage workloads and seamlessly shift them between cloud service providers. Cloud access service brokers (CASBs) allow for the consistent enforcement of security policies across cloud providers. Cloud migration is the transition from an on-p remises environment to a cloud environment or between two cloud environments.
+Question # 21.	C. Cloud governance programs try to bring all of an organization’s cloud activities under more centralized control. 
+They serve as a screening body helping to ensure that cloud services used by the organization meet technical, functional, and security requirements. 
+They also provide a centralized point of monitoring for duplicative services, preventing different business units from spending money on similar services when consolidation would reduce both costs and the complexity of the operating environment. 
+**Cloud orchestration tools** are **designed to manage workloads** and **seamlessly shift them between cloud service providers**. 
+Cloud access service brokers (CASBs) allow for the consistent enforcement of security policies across cloud providers. Cloud migration is the transition from an on-p remises environment to a cloud environment or between two cloud environments.
 
-22.	C. Asymmetric cryptosystems use a pair of keys for each user. In this case, with 1,000 users, the system will require 2,000 keys.
+Question # 22.	C. **Asymmetric cryptosystems use a pair of keys for each user. In this case, with 1,000 users, the system will require 2,000 keys**.
 
-23.	B. The use of multiple public cloud providers to achieve diversity is known as a multicloud strategy. That is the scenario that Erin is creating. Community clouds are shared cloud resources open to members of an affinity group. Private cloud resources are limited to the use of a single organization. Hybrid cloud strategies combine public and private cloud resources, not resources from multiple public cloud providers.
+Question # 23.	B. **The use of multiple public cloud providers to achieve diversity is known as a multicloud strateg**y. That is the scenario that Erin is creating. 
+**Community clouds are shared cloud resources open to members of an affinity group**. 
+Private cloud resources are limited to the use of a single organization. 
+Hybrid cloud strategies combine public and private cloud resources, not resources from multiple public cloud providers.
 
-24.	B. Email is an application- level service that is offered by cloud providers as a software as a service (SaaS) capability. Block storage and network capacity are infrastructure as a service (IaaS) offerings and are infrastructure capabilities. Serverless computing is a platform as a service (PaaS) offering and is a platform capability.
+Question # 24.	B. Email is an application- level service that is offered by cloud providers as a software as a service (SaaS) capability. 
+**Block storage and network capacity are infrastructure as a service (IaaS) offerings** and are infrastructure capabilities. 
+**Serverless computing is a platform as a service (PaaS)** offering and is a platform capability.
 
-25.	A. Oversubscription means that cloud providers can sell customers a total capacity that exceeds the actual physical capacity of their infrastructure because, in the big picture, customers will never use all of that capacity simultaneously. Undersubscription would be when a cloud provider does not sell all of their available capacity and this would not require that users not access services simultaneously. Overprovisioning occurs when a customer (not a service provider) purchases more capacity than they need. Similarly, underprovisioning occurs when a customer does not purchase enough capacity to meet their needs.
+Question # 25.	A. **Oversubscription means that cloud providers can sell customers a total capacity that exceeds the actual physical capacity of their infrastructure because, in the big picture, customers will never use all of that capacity simultaneously. 
+Undersubscription would be when a cloud provider does not sell all of their available capacity and this would not require that users not access services simultaneously. 
+Overprovisioning occurs when a customer (not a service provider) purchases more capacity than they need. 
+Similarly, underprovisioning occurs when a customer does not purchase enough capacity to meet their needs**.
 
-26.	D. The scenario describes a mix of public cloud and private cloud services. This is an example of a hybrid cloud environment.
+Question # 26.	D. The scenario describes a mix of public cloud and private cloud services. This is an example of a hybrid cloud environment.
 
-27.	D. In an infrastructure as a service environment, security duties follow a shared responsibility model. Since the vendor is responsible for managing the storage hardware, the vendor would retain responsibility for destroying or wiping drives as they are taken out of service. However, it is still the customer’s responsibility to validate that the vendor’s sanitization procedures meet their requirements prior to utilizing the vendor’s storage services.
+Question # 27.	D. **In an infrastructure as a service environment, security duties follow a shared responsibility model. Since the vendor is responsible for managing the storage hardware, the vendor would retain responsibility for destroying or wiping drives as they are taken out of service. 
+However, it is still the customer’s responsibility to validate that the vendor’s sanitization procedures meet their requirements prior to utilizing the vendor’s storage services.**
 
-28.	A. When Lucca reviews the recovery time 
-objective (RTO) data, he needs to ensure that the organization can recover from an outage in less than two hours based on the maximum tolerable downtime (MTD) of two hours.
+Question # 28.	A. **When Lucca reviews the recovery time objective (RTO) data, he needs to ensure that the organization can recover from an outage in less than two hours based on the maximum tolerable downtime (MTD) of two hours.**
+
+Question # 28.1 B. Example: If RPO = 30 minutes, you can only afford to lose 30 minutes of data.
+
+Question # 28.2 B. RTO can never exceed the MTD
+
+Question # 28.3 A. Identify critical functions → Define MTD → Set RTO & RPO → Select recovery strategies
+
+Question # 28.4 A. Lower RPO = frequent backups / replication → higher cost.
+
+Question # 28.5 B. RTO must always be less than or equal to MTD.
+
+Question # 28.6 B. Though practically, it often means backups at least every 4 hours.
+
+Question # 28.7 B. The time required by business users to validate restored systems and resume work.
+
+Question # 28.8 C. Data loss cannot exceed 2 hours, and recovery must complete in 6 hours.
+
+Question # 28.9 B. Increased costs due to real-time backup or mirroring.
+
+Question # 28.10 B. RPO directly defines how much data can be lost.
+
+Question # 28.11 C. RTO = 5 hours, WRT = 3 hours, total downtime = 8 hours, within MTD.
+
+Question # 28.12 B. Hot site
+
+Question # 28.13 B. Because daily backups satisfy RPO = 12h (approx), and warm site supports RTO < 24h.
 
 29.	D. The recipient of a message that was encrypted using asymmetric cryptography always decrypts that message using their own private key. The sender of the message would have previously encrypted it using the recipient’s public key. The sender’s public and private keys are not used in this process.
 
