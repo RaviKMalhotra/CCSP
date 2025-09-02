@@ -37,91 +37,88 @@ C.	Geolocation.
 D.	Nature of requested access.   
 
 ### Question # 7 - Which one of the following hypervisor models is the most resistant to attack?   
-A. Type 1.     
-B. Type 2.      
-C. Type 3.   
-D. Type 4.  
+A. Type 1.                
+B. Type 2.              
+C. Type 3.           
+D. Type 4.    
 
-Answer: A. 
+### Question # 8 - Joe is using a virtual server instance running on a public cloud provider and would like to restrict the ports on that server accessible from the internet. What security control would best allow him to meet this need?             
+A.	Geofencing                              
+B.	Traffic inspection               
+C.	Network firewall              
+D.	Network security groups           
 
-If a cloud provider is able to choose between types of hypervisors, the bare-m etal (Type 1) hypervisor is preferable to the hypervisor that runs off the OS (Type 2) because it will offer less attack surface. Type 3 and 4 hypervisors do not exist.
+### [important] Question # 9 - Which one of the following cybersecurity threats is least likely to directly affect an object storage service?        
+A. Disk failure               
+B.	User error              
+C.	Ransomware              
+D.	Virus             
 
-### Question # 8 - Joe is using a virtual server instance running on a public cloud provider and would like to restrict the ports on that server accessible from the internet. What security control would best allow him to meet this need?
-A.	Geofencing
-B.	Traffic inspection
-C.	Network firewall
-D.	Network security groups
-
-### Question # 9 - Which one of the following cybersecurity threats is least likely to directly affect an object storage service? A. Disk failure
-B.	User error
-C.	Ransomware
-D.	Virus
-
-### Question # 10 - 	Vince would like to be immediately alerted whenever a user with access to a sensitive cloud service leaves a defined physical area. What type of security control should he implement?
+### [important] Question # 10 - 	Vince would like to be immediately alerted whenever a user with access to a sensitive cloud service leaves a defined physical area. What type of security control should he implement?
 A.	Intrusion prevention system
 B.	Geofencing
 C.	Firewall rule
 D.	Geotagging
 
-##₹ Question # 11 - Which one of the following characteristics is not a component of the standard definition of cloud computing? A. Broad network access
+### Question # 11 - Which one of the following characteristics is not a component of the standard definition of cloud computing? 
+A. Broad network access
 B.	Rapid provisioning
 C.	Multitenancy
 D.	On- demand self service
 
-### Question # 12 - Which one of the following sources provides a set of vendor- neutral design patterns for cloud 
-security?
+### Question # 12 - Which one of the following sources provides a set of vendor- neutral design patterns for cloud security?
 A.	Cloud Security Alliance
 B.	Amazon Web Services
 C.	Microsoft
 D.	(ISC)2
 
-### Question # 13 - 	Lori is using an API to access sensitive information stored in a cloud service. What cloud secure data lifecycle activity is Lori engaged in?
-A.	Store
-B.	Use
-C.	Destroy
-D.	Create
+### Question # 13 - 	Lori is using an API to access sensitive information stored in a cloud service. What cloud secure data lifecycle activity is Lori engaged in?      
+A.	Store        
+B.	Use          
+C.	Destroy           
+D.	Create           
 
-### Question # 14 - 	Helen would like to provision a disk volume in the cloud that is mountable from a server. What cloud capability does she want?
-A.	Virtualized server
-B.	Object storage
-C.	Network capacity
-D.	Block storage
+### Question # 14 - 	Helen would like to provision a disk volume in the cloud that is mountable from a server. What cloud capability does she want?          
+A.	Virtualized server          
+B.	Object storage            
+C.	Network capacity             
+D.	Block storage              
 
-### Question # 15 - 	Ben is using the sudo command to carry out operations on a Linux server. What type of access is he using?
-A.	Service access
-B.	Unauthorized access
-C.	User access
-D.	Privileged access
+### Question # 15 - 	Ben is using the sudo command to carry out operations on a Linux server. What type of access is he using?               
+A.	Service access                  
+B.	Unauthorized access                  
+C.	User access                      
+D.	Privileged access              
 
-### Question # 16 - Which one of the following cryptographic goals protects against the risks posed when a device is lost or stolen?
-A.	Nonrepudiation
-B.	Authentication
-C.	Integrity
-D.	Confidentiality
+### Question # 16 - Which one of the following cryptographic goals protects against the risks posed when a device is lost or stolen?               
+A.	Nonrepudiation        
+B.	Authentication          
+C.	Integrity            
+D.	Confidentiality                
 
-### Question # 17 - 	Which type of business impact assessment tool is most appropriate when attempting to evaluate the impact of a failure on customer confidence?
-A.	Quantitative
-B.	Qualitative
-C.	Annualized loss expectancy
-D.	Single loss expectancy
+### Question # 17 - 	Which type of business impact assessment tool is most appropriate when attempting to evaluate the impact of a failure on customer confidence?            
+A.	Quantitative           
+B.	Qualitative                      
+C.	Annualized loss expectancy            
+D.	Single loss expectancy       
 
-### Question # 18 - Robert is reviewing a system that has been assigned the EAL2 evaluation assurance level under the Common Criteria. What is the highest level of assurance that he may have about the system?
-A.	It has been functionally tested.
-B.	It has been structurally tested.
-C.	It has been formally verified, designed, and tested.
-D.	It has been semi- formally designed and tested.
+### Question # 18 - Robert is reviewing a system that has been assigned the EAL2 evaluation assurance level under the Common Criteria. What is the highest level of assurance that he may have about the system?                              
+A.	It has been functionally tested.          
+B.	It has been structurally tested.                               
+C.	It has been formally verified, designed, and tested.            
+D.	It has been semi- formally designed and tested.           
 
-### Question # 19 - Jake would like to use a third- party platform to automatically move workloads between cloud service providers. What type of tool would best meet this need?
-A.	Cloud access service broker
-B.	Database
-C.	Virtualization
-D.	Orchestration
+### [important] Question # 19 - Jake would like to use a third- party platform to automatically move workloads between cloud service providers. What type of tool would best meet this need?                 
+A.	Cloud access service broker                                
+B.	Database                        
+C.	Virtualization                  
+D.	Orchestration               
 
-### Question # 20 - Robert is responsible for securing systems used to process credit card information. What security control framework should guide his actions?
-A.	HIPAA
-B.	PCI DSS
-C.	SOX
-D.	GLBA
+### Question # 20 - Robert is responsible for securing systems used to process credit card information. What security control framework should guide his actions?           
+A.	HIPAA              
+B.	PCI DSS              
+C.	SOX                
+D.	GLBA                  
 
 ### Question # 21 - What type of effort attempts to bring all of an organization’s cloud activities under more  centralized control?
 A.	Cloud access service broker
@@ -594,49 +591,80 @@ D.	BC involves protecting human assets (personnel, staff, users), whereas DR is 
  
 ### Chapter 1: Domain 1: Cloud Concepts, Architecture, and Design
 
-1.	B. The key to answering this question is recognizing that the multitenancy model involves many different customers accessing cloud resources hosted on shared hardware. That makes this a public cloud deployment, regardless of the fact that access to a particular server instance is limited to Matthew’s company. In a private cloud deployment, only Matthew’s company would have access to any resources hosted on the same physical hardware. This is not multitenancy. There is no indication that Matthew’s organization is combining resources of public and private cloud computing, which would be a hybrid cloud, or that the resource use is limited to members of a particular group, which would be a community cloud.
+Question # 1.	B. The key to answering this question is recognizing that the multitenancy model involves many different customers accessing cloud resources hosted on shared hardware. That makes this a public cloud deployment, regardless of the fact that access to a particular server instance is limited to Matthew’s company. In a private cloud deployment, only Matthew’s company would have access to any resources hosted on the same physical hardware. This is not multitenancy. There is no indication that Matthew’s organization is combining resources of public and private cloud computing, which would be a hybrid cloud, or that the resource use is limited to members of a particular group, which would be a community cloud.
 
-2.	A. Cryptographic erasure is a strong sanitization technique that involves encrypting the data with a strong encryption engine and then taking the keys generated in that process, encrypting them with a different encryption engine, and destroying the resulting keys of the second round of encryption. This technique is effective on both magnetic and solid- state drives. Degaussing and overwriting are not effective on SSDs. Physical destruction would effectively sanitize the media but would prevent Zeke from reusing the drives.
+Question # 2.	A. Cryptographic erasure is a strong sanitization technique that involves encrypting the data with a strong encryption engine and then taking the keys generated in that process, encrypting them with a different encryption engine, and destroying the resulting keys of the second round of encryption. This technique is effective on both magnetic and solid- state drives. Degaussing and overwriting are not effective on SSDs. Physical destruction would effectively sanitize the media but would prevent Zeke from reusing the drives.
 
-3.	A. Containers do not provide easy portability because they are dependent upon the host operating system. 
+Question # 3.	A. Containers do not provide easy portability because they are dependent upon the host operating system. 
    Hypervisors are used to host virtual machines on a device, so that is another incorrect answer. 
    Serverless computing is a platform as a service model that allows cloud customers to run their own code on the provider’s platform without provisioning servers, so that is also incorrect. 
    **Virtual machines are self- contained and have their own internal operating system, so it is possible to move them between different host operating systems**.
 
-4.	B. Under the cloud reference architecture, the activities of customers are to use cloud services, perform service trials, monitor services, administer service security, provide billing and usage      reports, handle problem reports, administer tenancies, perform business administration, select and purchase service, and request audit reports. 
+Question # 4.	B. Under the cloud reference architecture, the activities of customers are to use cloud services, perform service trials, monitor services, administer service security, provide billing and usage      reports, handle problem reports, administer tenancies, perform business administration, select and purchase service, and request audit reports. 
    **Preparing systems is one of the responsibilities of cloud service providers**.
 
-5.	C. The reality is that Seth will likely achieve all of these goals, but the most relevant one is elasticity. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink.
+Question # 5.	C. The reality is that Seth will likely achieve all of these goals, but the most relevant one is elasticity. 
+   Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. 
+   Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink.
 
-6.	B. The defining characteristic of zero- trust network architecture is that trust decisions are not based on network location, such as IP address. It is appropriate to use other characteristics, such as a user’s identity, the nature of the requested access, and the user’s geographic (not network!) location.
+Question # 6.	B. **The defining characteristic of zero- trust network architecture is that trust decisions are not based on network location, such as IP address**. It is appropriate to use other characteristics, such as a user’s identity, the nature of the requested access, and the user’s geographic (not network!) location.
 
-7.	A. If a cloud provider is able to choose between types of hypervisors, the bare-m etal (Type 1) hypervisor is preferable to the hypervisor that runs off the OS (Type 2) because it will offer less attack surface. Type 3 and 4 hypervisors do not exist.
+Question # 7.	A. If a cloud provider is able to choose between types of hypervisors, the bare-m etal (Type 1) hypervisor is preferable to the hypervisor that runs off the OS (Type 2) because it will offer less attack surface. Type 3 and 4 hypervisors do not exist.
 
-8.	D. Network security groups provide functionality equivalent to network firewalls for cloud- hosted server instances. They allow the restriction of traffic that may reach a server instance. Joe would not be able to modify the network firewall rules because those are only available to the cloud provider. Geofencing would restrict the geographic locations from which users may access the servers, which is not Joe’s requirement. Traffic inspection may be used to examine the traffic reaching the instance but is not normally used to create port- based restrictions.
+Question # 8.	D. Network security groups provide functionality equivalent to network firewalls for cloud- hosted server instances. They allow the restriction of traffic that may reach a server instance. Joe would not be able to modify the network firewall rules because those are only available to the cloud provider. Geofencing would restrict the geographic locations from which users may access the servers, which is not Joe’s requirement. Traffic inspection may be used to examine the traffic reaching the instance but is not normally used to create port- based restrictions.
 
-9.	D. Object storage services are susceptible to disk failures and user error that may unintentionally destroy or modify data. They are also vulnerable to ransomware attacks that infect systems with access to the object store and then encrypt data stored on the service. They are unlikely to be affected by traditional viruses because they do not have a runtime environment.
+Question # 9.	D. **Object storage services are susceptible to disk failures and user error that may unintentionally destroy or modify data**. 
+**They are also vulnerable to ransomware attacks** that infect systems with access to the object store and then encrypt data stored on the service. 
+**They are unlikely to be affected by traditional viruses because they do not have a runtime environment**.
 
-10.	B. Geofencing may be used to trigger actions, such as an alert, when a user or device leaves a defined geographic area. Firewalls and intrusion prevention systems may incorporate geographic information into their decision- making processes but would not provide the immediate notification that Vince desires. Geotagging simply annotates log records or other data with the geographic location of the user performing an action but does not directly provide alerting based on geographic location.
+Question # 10.	B. **Geofencing may be used to trigger actions, such as an alert, when a user or device leaves a defined geographic area**. 
+**Firewalls and intrusion prevention systems may incorporate geographic information into their decision- making processes but would not provide the immediate notification that Vince desires**. 
+**Geotagging simply annotates log records or other data with the geographic location of the user performing an action but does not directly provide alerting based on geographic location**.
 
-11.	C. Cloud computing is a model for enabling ubiquitous, convenient, on- demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. This definition does not include multitenancy, which is a characteristic of public cloud computing but not all cloud computing models.
+Question # 11.	C. **Cloud computing is a model for enabling ubiquitous, convenient, on- demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.** 
+**This definition does not include multitenancy**, which is a characteristic of public cloud computing but not all cloud computing models.
+💡 Explanation: **The NIST definition of cloud computing includes 5 essential characteristics**:
+**On-demand self-service** – Users can provision resources automatically.
+**Broad network access** – Accessible over networks via standard mechanisms.
+**RQuestesource pooling** – Provider resources are pooled (which enables multitenancy but does not name it explicitly).
+**Rapid elasticity** – Resources can expand/contract dynamically.
+**Measured service** – Usage is metered and billed accordingly.
 
-12.	A. The Cloud Security Alliance (CSA) provides an enterprise architecture reference guide that offers vendor- neutral design patterns for cloud security. Amazon Web Services (AWS) and Microsoft do provide cloud design patterns but they are specific to the service offerings of those vendors. (ISC)2 does not provide cloud design patterns.
+⚡ CCSP Quick Tip: For exam memory → remember the 5 NIST pillars = **BROMS**
+Broad network access
+Rapid elasticity
+On-demand self-service
+Measured service
+Shared resource pooling 
 
-13.	B. The use of an API is an example of accessing data programmatically during the Use phase of the lifecycle. If Lori were simply placing data into a cloud service or maintaining data there, that would be an example of the Store phase. Lori is not creating or destroying data; she is simply using the data that is already stored in the cloud service.
+Question # 12.	A. The Cloud Security Alliance (CSA) provides an enterprise architecture reference guide that offers vendor- neutral design patterns for cloud security. 
+Amazon Web Services (AWS) and Microsoft do provide cloud design patterns but they are specific to the service offerings of those vendors. (ISC)2 does not provide cloud design patterns.
 
-14.	D. This is an example of block storage, storage that is available as disk volumes. Object storage maintains files in buckets. Virtualized servers are compute capabilities, not storage capabilities. Network capacity is used to connect servers to each other and the internet and is not used for the storage of data.
+Question # 13.	B. The use of an API is an example of accessing data programmatically during the Use phase of the lifecycle. If Lori were simply placing data into a cloud service or maintaining data there, that would be an example of the Store phase. Lori is not creating or destroying data; she is simply using the data that is already stored in the cloud service.
 
-15.	D. The sudo command allows a normal user account to execute administrative commands and is an example of privileged access, not standard user access. There is no indication in the scenario that Ben lacks proper authorization for this access. Service access is the access to resources by system services, rather than individual people.
+Question # 14.	D. This is an example of block storage, storage that is available as disk volumes. 
+Object storage maintains files in buckets. 
+Virtualized servers are compute capabilities, not storage capabilities. Network capacity is used to connect servers to each other and the internet and is not used for the storage of data.
 
-16.	D. The greatest risk when a device is lost or stolen is that sensitive data contained on the device will fall into the wrong hands. Confidentiality protects against this risk. Nonrepudiation is when the recipient of a message can prove the originator’s identity to a third party. Authentication is a means of proving one’s identity. Integrity demonstrates that information has not been modified since transmission.
+Question # 15.	D. **The sudo command allows a normal user account to execute administrative commands and is an example of privileged access, not standard user access**. 
+There is no indication in the scenario that Ben lacks proper authorization for this access. 
+Service access is the access to resources by system services, rather than individual people.
 
-17.	B. Qualitative tools are often used in business impact assessment to capture the impact on intangible factors such as customer confidence, employee morale, and reputation. Quantitative tools, such as the computation of annualized loss expectancies and single loss expectancies, are only appropriate for easily quantifiable risks.
+Question # 16.	D. The greatest risk when a device is lost or stolen is that sensitive data contained on the device will fall into the wrong hands. **Confidentiality protects against this risk.** 
+Nonrepudiation is when the recipient of a message can prove the originator’s identity to a third party. 
+Authentication is a means of proving one’s identity. Integrity demonstrates that information has not been modified since transmission.
 
-18.	B. EAL2 assurance applies when the system has been structurally tested. It is the second- to- lowest level of assurance under the Common Criteria.
+Question # 17.	B. Qualitative tools are often used in business impact assessment **to capture the impact on intangible factors** such as customer confidence, employee morale, and reputation. 
+**Quantitative tools, such as the computation of annualized loss expectancies and single loss expectancies, are only appropriate for easily quantifiable risks**.
 
-19.	D. Orchestration tools are designed to manage workloads and seamlessly shift them between cloud service providers. Virtualization platforms allow a cloud provider to host virtual server instances, but they do not provide the ability to migrate workloads between different providers. Databases are a cloud service offering that allows for the organized storage of relational data. Cloud access service brokers (CASBs) allow for the consistent enforcement of security policies across cloud providers.
+Question # 18.	**B. EAL2 assurance applies when the system has been structurally tested. It is the second- to- lowest level of assurance under the Common Criteria**.
 
-20.	B. The Payment Card Industry Data Security Standard (PCI DSS) governs the storage, processing, and transmission of credit card information. The Health Insurance Portability and Accountability Act (HIPAA) governs protected health information. The Sarbanes–Oxley (SOX) Act regulates the financial reporting of publicly traded corporations. The Gramm– Leach–Bliley Act (GLBA) protects personal financial information.
+Question # 19.	D. **Orchestration tools are designed to manage workloads and seamlessly shift them between cloud service providers**. 
+Virtualization platforms allow a cloud provider to host virtual server instances, but they do not provide the ability to migrate workloads between different providers. 
+Databases are a cloud service offering that allows for the organized storage of relational data. 
+**Cloud access service brokers (CASBs) allow for the consistent enforcement of security policies across cloud providers**.
+
+Question # 20.	B. The Payment Card Industry Data Security Standard (PCI DSS) governs the storage, processing, and transmission of credit card information. The Health Insurance Portability and Accountability Act (HIPAA) governs protected health information. The Sarbanes–Oxley (SOX) Act regulates the financial reporting of publicly traded corporations. The Gramm– Leach–Bliley Act (GLBA) protects personal financial information.
 
 21.	C. Cloud governance programs try to bring all of an organization’s cloud activities under more centralized control. They serve as a screening body helping to ensure that cloud services used by the organization meet technical, functional, and security requirements. They also provide a centralized point of monitoring for duplicative services, preventing different business units from spending money on similar services when consolidation would reduce both costs and the complexity of the operating environment. Cloud orchestration tools are designed to manage workloads and seamlessly shift them between cloud service providers. Cloud access service brokers (CASBs) allow for the consistent enforcement of security policies across cloud providers. Cloud migration is the transition from an on-p remises environment to a cloud environment or between two cloud environments.
 
