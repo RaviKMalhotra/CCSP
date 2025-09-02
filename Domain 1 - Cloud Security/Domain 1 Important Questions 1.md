@@ -1123,7 +1123,7 @@ C. It is impossible to uninstall APIs.
 D. APIs are a form of malware.     
 Answer: A.      
 
-The continuous modification of APIs issued/designed by cloud providers introduces the potential for vulnerabilities to be created in interfaces that were previously thought to be vetted and secure. Increased complexity necessarily means increased potential for vulnerability. And third-party modifications may lead to user credentials being unknowingly exposed to those third parties.
+**The continuous modification of APIs issued/designed by cloud providers introduces the potential for vulnerabilities to be created in interfaces that were previously thought to be vetted and secure**. Increased complexity necessarily means increased potential for vulnerability. And third-party modifications may lead to user credentials being unknowingly exposed to those third parties.
 Automation is not inherently a source of threats/vulnerabilities, so option B is not correct.
 
 Options C and D are not true.
@@ -1136,8 +1136,11 @@ D. It is impossible to securely code APIs.
 Answer: B. 
 
 APIs will be used for many tasks that could have a significant negative impact on the organization, so any vulnerabilities are of great concern.
-Not all API interaction involves administrative access, so option A is wrong.
+
+**Not all API interaction involves administrative access, so option A is wrong**.
+
 APIs may or may not be cursed.
+
 Secure code practices can be used to design robust APIs, so option D is incorrect.
 
 ### Question # 102 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, why are denial of service (DoS) attacks such a significant threat to cloud operations?      
@@ -1150,6 +1153,7 @@ Answer: C.
 If users can’t access the cloud provider, then the operational environment is, for all intents and purposes, useless. DoS attacks that affect availability of cloud services are therefore a great concern.
 
 A lot of attackers/criminals operate internationally; this has no bearing on whether an organization operates in the cloud or otherwise. Option A is incorrect.
+
 There are laws prohibiting DoS attacks, so option B is incorrect.
 
 The volume of DoS traffic necessary to disrupt modern cloud providers is rather significant, so these types of attacks are not simple. Option D is incorrect.
@@ -1170,7 +1174,8 @@ C. Metered service
 D. Flexibility    
 Answer: B.     
 
-In a managed cloud service context, one malicious cloud administrator could ostensibly victimize a great number of cloud customers, making the impact much greater than a sole insider in the legacy environment.
+**In a managed cloud service context, one malicious cloud administrator could ostensibly victimize a great number of cloud customers, making the impact much greater than a sole insider in the legacy environment**.
+
 The other options are not applicable to the insider threat.
 
 ### Question # 105 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of abuse of cloud services so alarming from a management perspective?    
@@ -1180,7 +1185,10 @@ C. Resiliency
 D. Broadband connections     
 Answer: A.     
 
-Because users in cloud customer organizations often do not pay directly for cloud services (and are often not even aware of the cost of use), scalability can be a significant management concern; individuals, offices, or departments within the organization can create dozens or even hundreds of new virtual systems in a cloud environment, for whatever purpose they need or desire, and the cost is realized only by the department in the organization that is charged with paying the bill. This type of abuse hinges on the immense scalability of cloud services and is frequently not associated with any malicious intent but is instead an inadvertent result of well-intentioned or careless behavior.
+**Because users in cloud customer organizations often do not pay directly for cloud services (and are often not even aware of the cost of use), scalability can be a significant management concern**; 
+**individuals, offices, or departments within the organization can create dozens or even hundreds of new virtual systems in a cloud environment, for whatever purpose they need or desire, and the cost is realized only by the department in the organization that is charged with paying the bill. 
+This type of abuse hinges on the immense scalability of cloud services and is frequently not associated with any malicious intent but is instead an inadvertent result of well-intentioned or careless behavior.**
+
 The other options are not applicable to the threat of abuse of cloud services.
 
 ### Question # 106 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which of the following is not an aspect of due diligence that the cloud customer should be concerned with when considering a migration to a cloud provider?       
@@ -1202,11 +1210,13 @@ C. Vendor incapacity
 D. Unscaled    
 Answer: B.     
 
-This is the definition of vendor lockout.
-Vendor lock-in is when data portability is limited, either through unfavorable contract language or technical limitations.
+**This is the definition of vendor lockou [A cloud customer that does not perform sufficient due diligence can suffer harm if the cloud provider they’ve selected goes out of business]**
+
+**Vendor lock-in is when data portability is limited, either through unfavorable contract language or technical limitations**.
+
 Vendor incapacity and unscaled are not meaningful terms in the context of cloud computing.
 
-### Question # 108 - Which of the following is not a method for creating logical segmentation in a cloud data center?       
+### [important] Question # 108 - Which of the following is not a method for creating logical segmentation in a cloud data center?       
 A. Virtual local area networks (VLANs)      
 B. Network address translation (NAT)     
 C. Bridging     
@@ -1214,6 +1224,7 @@ D. Hubs
 Answer: D.     
 
 A hub is a (mostly archaic) network device that simply connects physical machines together; it cannot serve the purpose of network segmentation.
+
 All the other options are segmentation methods/tools. Option C may be perceived as a viable answer because bridges connect network segments (allowing a segmented network, but not really creating segmentation), but option D is a better choice for this question.
 
 ### Question # 109 - According to (ISC)2, the lack/ambiguity of physical endpoints as individual network components in the cloud environment creates what kind of threat/concern?      
@@ -1235,7 +1246,7 @@ C. Only when the contract stipulates that requirement
 D. Always    
 Answer: A.     
 
-PaaS customers should never be given shell access to underlying infrastructure because any changes by one customer may negatively impact other customers in a multitenant environment.
+**PaaS customers should never be given shell access to underlying infrastructure because any changes by one customer may negatively impact other customers in a multitenant environment**.
 
 All the other options are simply incorrect.
 
@@ -1246,7 +1257,8 @@ C. Sprawl/hashing
 D. Intercession/side-channel attacks    
 Answer: B.     
 
-Mass permissions assigned to multiple instances may be susceptible to inadvertent authorization creep and permission inheritance over time as users shift roles and responsibilities and are assigned to new tasks and teams and as new users come into the existing, fluid environment.
+**Mass permissions assigned to multiple instances may be susceptible to inadvertent authorization creep and permission inheritance over time as users shift roles and responsibilities and are assigned to new tasks and teams and as new users come into the existing, fluid environment**.
+
 All the other options are just wrong, with at least one nonsensical element in each.
 
 ### Question # 112 - In a platform as a service (PaaS) environment, user access management often requires that data about user activity be collected, analyzed, audited, and reported against rule-based criteria. These criteria are usually based on _______________.       
@@ -1256,7 +1268,8 @@ C. Organizational policies
 D. Federation directives    
 Answer: C.     
 
-Organizational policies dictate rules for access entitlement.
+**Organizational policies dictate rules for access entitlement**.
+
 International standards do not apply to every organization’s internal needs and individual user roles, so option A is incorrect.
 Not all organizations are bound by all (or any) federal regulations, but all organizations should have policies regarding user access rules, so option B is incorrect.
 
@@ -1295,14 +1308,16 @@ Answer: B.
 
 In access management, the user is first authenticated (their identity verified and validated as correct), then authorized (permissions granted based on their valid identity), and given access.
 
-### Question # 116 - Why are platform as a service (PaaS) environments at a higher likelihood of suffering backdoor vulnerabilities?       
+### Question # 116 - [important] Why are platform as a service (PaaS) environments at a higher likelihood of suffering backdoor vulnerabilities?       
 A. They rely on virtualization.     
 B. They are often used for software development.     
 C. They have multitenancy.     
 D. They are scalable.     
 Answer: B.     
 
-PaaS environments are attractive for software development because they allow testing of software on multiple operating systems that are administered by the cloud provider. Software developers routinely use backdoors as development and administrative tools in their products; these backdoors, if left in software when it ships, are significant vulnerabilities.
+**PaaS environments are attractive for software development because they allow testing of software on multiple operating systems that are administered by the cloud provider**. 
+**Software developers routinely use backdoors as development and administrative tools in their products; these backdoors, if left in software when it ships, are significant vulnerabilities**
+
 All cloud environments, including PaaS, rely on virtualization, have multitenancy, and are scalable, so those options are not correct.
 
 ### Question # 117 - Backdoors are sometimes left in software by developers _______________.     
@@ -1320,7 +1335,7 @@ Option B is incorrect because backdoors don’t serve as DoS protection in any w
  
 Option D is incorrect because backdoors are not distractions for attackers, but means for attack.
 
-### Question # 118 - Alice is staging an attack against Bob’s website. She is able to introduce a string of command code into a database Bob is running, simply by entering the command string into a data field. This is an example of which type of attack?      
+### [important] Question # 118 - Alice is staging an attack against Bob’s website. She is able to introduce a string of command code into a database Bob is running, simply by entering the command string into a data field. This is an example of which type of attack?      
 A. Insecure direct object reference      
 B. Buffer overflow    
 C. SQL injection     
@@ -1329,16 +1344,18 @@ Answer: C.
 
 This is an example of typical SQL injection. All the other options are also attacks listed in the Open Web Application Security Project (OWASP) Top Ten, but they do not have the characteristics as the one contained in the question.
 
-### Question # 119 - Bob is staging an attack against Alice’s website. He is able to embed a link on her site that will execute malicious code on a visitor’s machine if the visitor clicks on the link. This is an example of which type of attack?      
+### [important] Question # 119 - Bob is staging an attack against Alice’s website. He is able to embed a link on her site that will execute malicious code on a visitor’s machine if the visitor clicks on the link. This is an example of which type of attack?      
 A. Cross-site scripting      
 B. Broken authentication/session management      
 C. Security misconfiguration     
 D. Insecure cryptographic storage    
 Answer: A.     
 
-This is the definition of a cross-site scripting attack. Options B and C are also attacks listed in the Open Web Application Security Project (OWASP) Top Ten. Option D is not in the Top Ten and is made up as a fictitious option.
+This is the definition of a cross-site scripting attack. 
 
-### Question # 120 - Alice is staging an attack against Bob’s website. She has discovered that Bob has been storing cryptographic keys on a server with a default admin password and is able to get access to those keys and violate confidentiality and access controls. This is an example of which type of attack?     
+Options B and C are also attacks listed in the Open Web Application Security Project (OWASP) Top Ten. Option D is not in the Top Ten and is made up as a fictitious option.
+
+### [important] Question # 120 - Alice is staging an attack against Bob’s website. She has discovered that Bob has been storing cryptographic keys on a server with a default admin password and is able to get access to those keys and violate confidentiality and access controls. This is an example of which type of attack?     
 A. SQL injection      
 B. Buffer overflow      
 C. Using components with known vulnerabilities     
@@ -1354,7 +1371,8 @@ C. Distributed denial of service (DDoS) attacks
 D. Natural disasters     
 Answer: B.     
 
-In the cloud environment, it is very easy for a user to generate a new virtual instance; that is one of the advantages of the cloud. However, this can pose a problem for management, as users might generate many more instances than expected because the users don’t usually realize (or have to pay) the per-instance costs associated with doing so. However, the organization will have to pay the full price of many more instances at the end of each billing cycle, and exceeding the allotted amount dictated by the contract can be quite expensive. In the traditional environment, this would not pose a risk because the number of possible instances is limited by the resource capacity within the organization and additional instances don’t have attendant direct costs. All the other options are not cloud-specific risks; they also exist in the traditional environment.
+**In the cloud environment, it is very easy for a user to generate a new virtual instance; that is one of the advantages of the cloud. However, this can pose a problem for management, as users might generate many more instances than expected because the users don’t usually realize (or have to pay) the per-instance costs associated with doing so**. 
+However, the organization will have to pay the full price of many more instances at the end of each billing cycle, and exceeding the allotted amount dictated by the contract can be quite expensive. In the traditional environment, this would not pose a risk because the number of possible instances is limited by the resource capacity within the organization and additional instances don’t have attendant direct costs. All the other options are not cloud-specific risks; they also exist in the traditional environment.
 
 ### Question # 122 - Which kind of hypervisor is the preferred target of attackers, and why?     
 A. Type 1, because it is more straightforward     
@@ -1389,16 +1407,16 @@ Answer: B.
 
 Usually, when a provider does not meet the terms specific in the SLA, the provider will not be paid for a period of service; this is the strongest, most immediate tool at the customer’s disposal. The other options simply are not true.
 
-### Question # 125 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except _______________.    
+### Question # [important] 125 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except _______________.    
 A. Reduced cost of ownership     
 B. Reduced energy costs      
 C. Metered usage    
 D. Reduced cost of administering the operating system (OS) in the cloud environment     
 Answer: D. 
  
-In an IaaS configuration, the customer still has to maintain the OS, so option D is the only answer that is not a direct benefit for the cloud customer.
+**In an IaaS configuration, the customer still has to maintain the OS**, so option D is the only answer that is not a direct benefit for the cloud customer.
 
-### Question # 126 - From an academic perspective, what is the main distinction between an event and an incident?      
+### Question # 126 - [important] From an academic perspective, what is the main distinction between an event and an incident?      
 A. Incidents can last for extended periods (days or weeks), whereas an event is momentary.      
 B. Incidents can happen at the network level, whereas events are restricted to the system level.       
 C. Events are anything that can occur in the IT environment, whereas incidents are unscheduled events.     
@@ -1461,7 +1479,7 @@ Answer: C.
 
 The SOC 2 Type 2 reviews the implementation of security controls. The SOC 1 reviews financial reporting controls, not security controls. The SOC 2 Type 1 reviews the design and selection of security controls, not implementation. The SOC 3 is only an attestation of an audit, so option C is better.
 
-### Question # 133 -  _______________ is an example of due care, and _______________ is an example of due diligence.     
+### Question # [important] 133 -  _______________ is an example of due care, and _______________ is an example of due diligence.     
 A. Privacy data security policy; auditing the controls dictated by the privacy data security policy     
 B. The European Union General Data Protection Regulation (GDPR); the Gramm-Leach-Bliley Act (GLBA)   
 C. Locks on doors; turnstiles    
@@ -1501,7 +1519,7 @@ Answer: B.
 
 Inversion is not part of the IAM process at all and has no meaning in this context. All the other options are elements of identification.
 
-### Question # 136 - Which of the following is true about two-person integrity?      
+### Question # [important] 136 - Which of the following is true about two-person integrity?      
 A. It forces all employees to distrust one another.       
 B. It requires two different identity and access management matrices (IAM).       
 C. It forces collusion for unauthorized access.       
@@ -1512,7 +1530,7 @@ By creating a need for two identity assertions or authentication elements to acc
 
 All the other options are simply untrue and are therefore exceedingly poor choices for answers to CCSP test questions.
 
-### Question # 137 - All of the following are statutory regulations except the _______________.       
+### Question # [important] 137 - All of the following are statutory regulations except the _______________.       
 A. Gramm-Leach-Bliley Act (GLBA)     
 B. Health Information Portability and Accountability Act (HIPAA)     
 C. Federal Information Systems Management Act (FISMA)     
@@ -1582,7 +1600,7 @@ Answer: D.
 
 An IaaS service model allows an organization to retain the most control of their IT assets in the cloud; the cloud customer is responsible for the operating system, the applications, and the data in the cloud. The private cloud model allows the organization to retain the greatest degree of governance control in the cloud; all the other deployment models would necessitate giving up governance control in an environment with pooled resources.
 
-### Question # 143 - If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?     
+### Question # 143 - [important] If an organization wants to realize the most cost savings by reducing administrative overhead, which service and deployment model combination should they choose?     
 A. Platform as a service (PaaS), community     
 B. Infrastructure as a service (IaaS), hybrid     
 C. Software as a service (SaaS), public    
