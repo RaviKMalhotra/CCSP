@@ -892,8 +892,8 @@ Answer: D.
 This is not an easy question. In the context of the question, the cloud customer is trying to ascertain whether they are getting what they’re paying for; that is, a way for them to audit the cloud provider and the service as a whole. This is not a regulatory issue, as it concerns the contractual agreement between the provider and the customer, not a third party performing oversight. It is also not a privacy issue (primarily; privacy concerns might be part of the contract, but it’s not the prevailing aspect of the issue here). Resiliency issues involve the provider’s ability to handle disruptive externalities, such as natural disasters, system failures, or utility outages.
 
 ### Question # 77 - Encryption is an essential tool for affording security to cloud-based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?     
-A. Key length variances don’t provide any actual additional security.
-B. It would cause additional processing overhead and time delay.     
+A. Key length variances don’t provide any actual additional security.      
+B. It would cause additional processing overhead and time delay.         
 C. It might result in vendor lockout.    
 D. The data subjects might be upset by this.    
 Answer: B.    
@@ -1040,7 +1040,7 @@ Answer: D.
 
 The cost of detection exists whether or not the organization suffers a breach. All other options are costs an organization will likely face as the result of a breach.
 
-### Question # 93 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.       
+### *Question # 93 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.       
 A. Multiple state laws      
 B. Contractual notification requirements      
 C. All standards-based notification schemes     
@@ -1074,7 +1074,9 @@ C. Availability
 D. All of the triad     
 Answer: D. 
 
-All. Service traffic hijacking can affect all portions of the CIA triad. Through hijacking, an attacker could eavesdrop on legitimate communication (breaching confidentiality), insert inaccurate/incorrect data into legitimate communication (damaging integrity), and/or redirect legitimate users from valid services (making the legitimate sources unavailable). Although all of the answers are correct, option D is the most comprehensive and therefore the best answer.
+All. **Service traffic hijacking can affect all portions of the CIA triad.** 
+**Through hijacking, an attacker could eavesdrop on legitimate communication (breaching confidentiality), insert inaccurate/incorrect data into legitimate communication (damaging integrity), and/or redirect legitimate users from valid services (making the legitimate sources unavailable)**. 
+Although all of the answers are correct, option D is the most comprehensive and therefore the best answer.
 
 ### Question # 97 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. The CSA recommends the prohibition of _______________ in order to diminish the likelihood of account/service traffic hijacking.     
 A. All user activity        
@@ -1085,7 +1087,7 @@ Answer: B.
 
 Users sharing account credentials is a fairly common (although undesirable) practice and one that can lead to significant misuse of the organization’s resources and greatly increase risk to the organization. Although ending all user activity would make our IT environments so much more secure and defensible, it would also make them utterly useless from a productivity standpoint, so option A is incorrect. Option C is incorrect because the CSA recommends multifactor authentication as a means to reduce the risk of hijacking. Though not documented on the CSA’s website, the CSA most certainly does not recommend the prohibition of interstate commerce in order to diminish the likelihood of account/service traffic hijacking. Therefore, option D is an incorrect answer.
 
-### Question # 98 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which aspect of cloud computing makes it particularly susceptible to account/service traffic hijacking?    
+### * Question # 98 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, which aspect of cloud computing makes it particularly susceptible to account/service traffic hijacking?    
 A. Scalability    
 B. Metered service     
 C. Remote access    
