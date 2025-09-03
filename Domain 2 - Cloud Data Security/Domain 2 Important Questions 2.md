@@ -1,5 +1,5 @@
 
-### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	beconsidered	a	direct	identifier?    
+### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	be considered	a	direct	identifier?    
 A.	Job	title    
 B.	Educational	history     
 C.	Income    
