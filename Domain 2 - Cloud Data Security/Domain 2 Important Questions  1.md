@@ -8,7 +8,10 @@ C. Application-level encryption
 D. Homomorphic encryption      
 Answer: C. 
 
-In application-level encryption, the application will encrypt data before it is placed in the database. In transparent encryption, the entire database is encrypted. Symmetric-key encryption is a kind of encryption and not truly indicative of a strategy used in database encryption. Homomorphic encryption is an experimental, theoretical process that might allow processing encrypted information without the need to decrypt it first.
+In application-level encryption, the application will encrypt data before it is placed in the database. 
+In transparent encryption, the entire database is encrypted. 
+Symmetric-key encryption is a kind of encryption and not truly indicative of a strategy used in database encryption. 
+[important] **Homomorphic encryption is an experimental, theoretical process that might allow processing encrypted information without the need to decrypt it first**.
 
 ### Question # 2 - You are the security team leader for an organization that has an infrastructure as a service (IaaS) production environment hosted by a cloud provider. You want to implement an event monitoring (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) solution in your production environment in order to acquire better data for security defenses and decisions. Which of the following is probably your most significant concern about implementing this solution in the cloud?     
 A. The solution should give you better analysis capability by automating a great deal of the associated tasks.    
@@ -17,7 +20,10 @@ C. You will have to coordinate with the cloud provider to ensure that the tool i
 D. Senior management will be required to approve the acquisition and implementation of the tool.     
 Answer:  
 
-Because the tool will require at least some installation and reporting capability within the cloud environment, it is essential to coordinate with the cloud provider to ensure that the solution you choose will function properly and is allowed by the provider. Option A is true, but not a major concern; that is a benefit of SIEM/SEM/SIM tools. Option B is not true because dashboards can often misconstrue pertinent reporting data when they are used to chase management goals instead of distilling raw data appropriately. Option D is not true because management should not be involved in such granular decisions.
+Because the tool will require at least some installation and reporting capability within the cloud environment, it is essential to coordinate with the cloud provider to ensure that the solution you choose will function properly and is allowed by the provider. 
+Option A is true, but not a major concern; that is a benefit of SIEM/SEM/SIM tools. 
+Option B is not true because dashboards can often misconstrue pertinent reporting data when they are used to chase management goals instead of distilling raw data appropriately. 
+Option D is not true because management should not be involved in such granular decisions.
 
 ### Question # 3 - Which of the following is not a step in the crypto-shredding process?     
 A. Encrypt data with a particular encryption engine.     
@@ -26,7 +32,8 @@ C. Save backup of second resulting keys.
 D. Destroy original second resulting keys.     
 Answer: C.      
 
-In crypto-shredding, the purpose is to make the data unrecoverable; saving a backup of the keys would attenuate that outcome because the keys would still exist for the purpose of recovering data. All other steps outline the crypto-shredding process.
+**In crypto-shredding, the purpose is to make the data unrecoverable; saving a backup of the keys would attenuate that outcome because the keys would still exist for the purpose of recovering data**. 
+All other steps outline the crypto-shredding process.
 
 ### Question # 4 - Which of the following sanitization methods is feasible for use in the cloud?     
 A. Crypto-shredding     
@@ -35,7 +42,10 @@ C. Physical destruction
 D. Overwriting     
 Answer: A.      
 
-Cloud customers are allowed to encrypt their own data and manage their own keys; crypto-shredding is therefore possible. Degaussing is not likely in the cloud because it requires physical access to the storage devices and because most cloud providers are using solid-state drives (SSDs) for storage, which are not magnetic. Physical destruction is not feasible because the cloud customer doesn’t own the hardware and therefore won’t be allowed to destroy it. Overwriting probably won’t work because finding all data in all aspects of the cloud is difficult and the data is constantly being backed up and securely stored, so a thorough process would be very tricky.
+**Cloud customers are allowed to encrypt their own data and manage their own keys; crypto-shredding is therefore possible.** 
+**Degaussing** is not likely in the cloud **because it requires physical access** to the storage devices and because most cloud providers are using solid-state drives (SSDs) for storage, which are not magnetic. 
+Physical destruction is not feasible because the cloud customer doesn’t own the hardware and therefore won’t be allowed to destroy it. 
+Overwriting probably won’t work because finding all data in all aspects of the cloud is difficult and the data is constantly being backed up and securely stored, so a thorough process would be very tricky.
 
 ### Question # 5 - Which of the following is not a method for enhancing data portability?     
 A. Crypto-shredding     
@@ -44,7 +54,7 @@ C. Avoiding proprietary services
 D. Favorable contract terms      
 Answer: A.      
 
-Crypto-shredding is for secure sanitization, not portability. The other methods all enhance portability.
+**Crypto-shredding is for secure sanitization**, not portability. The other methods all enhance portability.
 
 ### Question # 6 - When implementing a digital rights management (DRM) solution in a cloud environment, which of the following does not pose an additional challenge for the cloud customer?     
 A. Users might be required to install a DRM agent on their local devices.     
@@ -53,7 +63,99 @@ C. DRM solutions might have difficulty interacting with virtualized instances.
 D. Ownership of intellectual property might be difficult to ascertain.      
 Answer: D.       
 
-The owner of intellectual property will not change whether the material is stored in the cloud or in a legacy environment. Moving into the cloud will probably result in more use of personal devices, requiring users to install local DRM agents, so option A is true, making it not a suitable answer to this question. Options B and C are also true, due to the nature of cloud computing, and are therefore also not suitable for this question.
+**The owner of intellectual property will not change whether the material is stored in the cloud or in a legacy environment**. 
+Moving into the cloud will probably result in more use of personal devices, requiring users to install local DRM agents, so option A is true, making it not a suitable answer to this question. 
+Options B and C are also true, due to the nature of cloud computing, and are therefore also not suitable for this question.
+
+### Question # 6.1 - Which of the following BEST describes Digital Rights Management (DRM) in a cloud environment?       
+A. Controlling where data is stored and encrypted across multiple providers                    
+B. Restricting how digital assets (documents, media, data) can be used, copied, or shared          
+C. Enforcing firewall rules for cloud-hosted applications           
+D. Tracking user activity for regulatory compliance          
+Answer: B
+
+**DRM focuses on usage control of data (view, print, copy, forward), not just storage or firewalls**.
+
+### Question # 6.2 - Which of the following is NOT a common function of DRM/IRM solutions?
+A. Preventing unauthorized copying of data
+B. Controlling printing or screenshotting of files
+C. Encrypting content with persistent protection
+D. Optimizing data compression for cloud storage efficiency
+Answer: D
+
+**👉 Compression has nothing to do with DRM.**
+
+### Question # 6.3 - What is the main difference between DRM and traditional encryption?
+A. DRM protects data only when in transit, encryption protects at rest.
+B. Encryption prevents access without a key, DRM enforces usage restrictions even after decryption.
+C. DRM requires asymmetric keys, encryption only uses symmetric keys.
+D. Encryption protects against malware, DRM protects against hackers.
+Answer: B
+
+**DRM ensures persistent control even after a file is decrypted (e.g., no printing, no forwarding).**
+
+### Question # 6.4 - An organization shares a sensitive report with a partner. They want to allow reading but block downloading or printing. Which control is most appropriate?
+A. Access Control List (ACL)
+B. Digital Rights Management (DRM)
+C. File Integrity Monitoring (FIM)
+D. Public Key Infrastructure (PKI)
+Answer: B
+
+**DRM enforces usage policies beyond access control.**
+
+### Question # 6.5 - Which of the following could weaken DRM protections in a cloud setting?
+A. Users accessing files via secured viewers only
+B. Screenshots or screen-recording tools bypassing controls
+C. Applying persistent encryption with keys stored externally
+D. Using identity-based access enforcement
+Answer: B
+
+**👉 Screenshots and side-channel methods are known DRM bypass challenges.**
+
+### Question # 6.6 - In a cloud DRM/IRM solution, the policy server is responsible for:
+A. Deciding where encrypted data is physically stored
+B. Defining and enforcing access and usage policies for digital content
+C. Conducting vulnerability scans on hosted applications
+D. Monitoring system availability and uptime
+Answer: B
+
+**👉 Policy servers decide who can do what with the file.**
+
+### Question # 6.7 - Which of the following industries is most regulated and heavily reliant on DRM/IRM solutions for sensitive data handling?
+A. Media and entertainment
+B. Financial services
+C. Healthcare
+D. All of the above
+Answer: D
+
+👉 Media uses DRM for piracy, finance for compliance, healthcare for HIPAA/PHI protection.
+
+### Question # 6.8 - Which is a limitation of DRM in enterprise use?
+A. Can’t protect against unauthorized use after decryption
+B. May cause usability issues and impact collaboration
+C. Doesn’t integrate with access controls
+D. Provides no encryption support
+Answer: B
+
+**👉 DRM can frustrate users and reduce productivity if policies are too strict**.
+
+### Question # 6.9 - In the cloud, DRM is often integrated with:
+A. Identity and Access Management (IAM)
+B. Key Management Systems (KMS)
+C. Cloud Access Security Brokers (CASB)
+D. All of the above
+Answer: D
+
+**👉 DRM works hand-in-hand with IAM, KMS, and CASB for holistic cloud data security.**
+
+### [important] Question # 6.10 - Which of the following best describes persistent protection in DRM?
+A. Protecting data while at rest
+B. Protecting data only during transmission
+C. Ensuring policies remain enforced regardless of where data travels
+D. Ensuring files are deleted after use
+Answer: C
+
+**👉 DRM travels with the file — so policies are enforced even after it leaves the enterprise boundary**.
 
 ### Question # 7 - When implementing cryptography in a cloud environment, where is the worst place to store the keys?      
 A. With the cloud provider     
@@ -63,7 +165,8 @@ D. Anywhere but with the cloud provider
 Answer: A.       
 
 Option A creates a conflict of interest and does not enforce separation of duties.
-The best practice is to not store cryptographic keys with the data they encrypt, to avoid a potential conflict of interest and to enforce separation of duties. Each of the other choices is a reasonable choice and therefore not the answer to this question.
+The best practice is to not store cryptographic keys with the data they encrypt, to avoid a potential conflict of interest and to enforce separation of duties. 
+Each of the other choices is a reasonable choice and therefore not the answer to this question.
 
 ### Question # 8 - Which of the following is not a security concern related to archiving data for long-term storage?     
 A. Long-term storage of the related cryptographic keys     
@@ -72,34 +175,41 @@ C. Media the data resides on
 D. Underground depth of the storage facility      
 Answer: D.     
 
-A long-term storage facility may or may not be located underground; the security of that facility (and the data contained therein) is not dependent on this aspect. Option A is a security concern because loss of the keys may result in losing the data (by losing access to the data), and keeping the keys with the data they protect increases risk. Both the format of the data and the media on which it resides (options B and C) are important to bear in mind, as either (or both) may be outmoded by the time the data might need to be retrieved from the archive; data and formats do not age well.
+A long-term storage facility may or may not be located underground; the security of that facility (and the data contained therein) is not dependent on this aspect. 
+**Option A is a security concern because loss of the keys may result in losing the data (by losing access to the data), and keeping the keys with the data they protect increases risk**. 
+Both the format of the data and the media on which it resides (options B and C) are important to bear in mind, as either (or both) may be outmoded by the time the data might need to be retrieved from the archive; data and formats do not age well.
 
-### Question # 9 - Data dispersion is a cloud data security technique that is most similar to which legacy implementation?      
+### [important] Question # 9 - Data dispersion is a cloud data security technique that is most similar to which legacy implementation?      
 A. Business continuity and disaster recovery (BC/DR)    
 B. Redundant Array of Inexpensive Disks (RAID)     
 C. Software-defined networking (SDN)     
 D. Content delivery network (CDN)    
 Answer: B.      
 
-Data dispersion is basically RAID in the cloud, with data elements parsed and stored over several areas/devices instead of stored as a unit in a single place. RAID (and data dispersion) does aid in BC/DR activities by increasing the robustness and resiliency of stored data, but BC/DR is a much more general discipline, so it is not the optimum answer for the question. SDN is used for abstracting network control commands away from production data, and CDN is usually used for ensuring quality of streaming media.
+**Data dispersion is basically RAID in the cloud**, 
+with data elements parsed and stored over several areas/devices instead of stored as a unit in a single place. 
+RAID (and data dispersion) does aid in BC/DR activities by increasing the robustness and resiliency of stored data, but BC/DR is a much more general discipline, so it is not the optimum answer for the question. SDN is used for abstracting network control commands away from production data, and CDN is usually used for ensuring quality of streaming media.
 
-### Question # 10 - Data dispersion uses _______________, where the traditional implementation is called “striping.”      
+### [important] Question # 10 - Data dispersion uses _______________, where the traditional implementation is called “striping.”      
 A. Chunking     
 B. Vaulting     
 C. Lumping     
 D. Grouping     
 Answer: A. 
 
-Where RAID used data striping across multiple drives, with data dispersion this technique is referred to as “chunking,” or sometimes “sharding” when encryption is also used. The other options are not common data dispersion terms used in cloud computing and have no meaning in this context.
+[important] **Where RAID used data striping across multiple drives, with data dispersion this technique is referred to as “chunking,” or sometimes “sharding” when encryption is also used**. 
+The other options are not common data dispersion terms used in cloud computing and have no meaning in this context.
 
-### Question # 11 - Data dispersion uses _______________, where the traditional implementation is called “parity bits.”       
+### [important] Question # 11 - Data dispersion uses _______________, where the traditional implementation is called “parity bits.”       
 A. Smurfing   
 B. Snarfing   
 C. Erasure coding    
 D. Real-time bitlinking     
 Answer: C.     
 
-Erasure coding is the practice of having sufficient data to replace a lost chunk in data dispersion, protecting against the possibility of a device failing while it holds a given chunk; parity bits serve the same purpose in a traditional RAID configuration. The other options are not common data dispersion terms used in cloud computing and have no meaning in this context.
+[important] **Erasure coding is the practice of having sufficient data to replace a lost chunk in data dispersion, protecting against the possibility of a device failing while it holds a given chunk**; 
+**parity bits serve the same purpose in a traditional RAID configuration**. 
+The other options are not common data dispersion terms used in cloud computing and have no meaning in this context.
 
 ### Question # 12 - Data dispersion provides protection for all the following security aspects except _______________.    
 A. Protecting confidentiality against external attack on the storage area   
@@ -108,7 +218,9 @@ C. Loss due to seizure by law enforcement in a multitenant environment
 D. Protecting against loss due to user error    
 Answer: D.     
 
-Data dispersion can’t aid in inadvertent loss caused by an errant user; if the user accidentally deletes/corrupts a file, that file will be deleted/corrupted across all the storage spaces where it is dispersed. The technique does, however, protect against the other risks. It enhances confidentiality because an attacker gaining illicit access to a single storage space will only get a chunk of the data, which is useless without the other chunks. This same aspect also protects loss when law enforcement seizes a specific storage device/space when they are investigating another tenant at the same cloud provider your organization uses. And loss of availability due to single device failure is probably the primary reason for having data dispersion (like RAID before it).
+Data dispersion can’t aid in inadvertent loss caused by an errant user; if the user accidentally deletes/corrupts a file, that file will be deleted/corrupted across all the storage spaces where it is dispersed. 
+The technique does, however, protect against the other risks. 
+It enhances confidentiality because an attacker gaining illicit access to a single storage space will only get a chunk of the data, which is useless without the other chunks. This same aspect also protects loss when law enforcement seizes a specific storage device/space when they are investigating another tenant at the same cloud provider your organization uses. And loss of availability due to single device failure is probably the primary reason for having data dispersion (like RAID before it).
 
 ### Question # 13 - Your organization is migrating the production environment to an infrastructure as a service (IaaS) cloud implementation. Your users will need to be able to get access to their data, install programs, and partition memory space for their own purposes. You should configure the cloud memory as _______________.    
 A. Object   
@@ -117,7 +229,11 @@ C. Synthetic
 D. Database   
 Answer: B.    
 
-Volume storage allows all the functions described in the question. Object storage has data arranged in a file structure, and databases arrange data in tables and relational schemes; neither of these options offers the functions described in the question. Synthetic is not a cloud memory configuration option.
+Volume storage allows all the functions described in the question. 
+**Object storage has data arranged in a file structure,** 
+and **databases arrange data in tables and relational schemes**; 
+neither of these options offers the functions described in the question. 
+Synthetic is not a cloud memory configuration option.
 
 ### Question # 14 - Your organization is migrating the production environment to an infrastructure as a service (IaaS) cloud implementation. Your users will need to be able to get access to their data and share data with other users in a defined way, according to a hierarchy. You should configure the cloud memory as _______________.    
 A. Object storage   
