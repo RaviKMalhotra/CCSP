@@ -242,7 +242,8 @@ C. Synthetic storage
 D. Databases   
 Answer: A.    
 
-Object storage is usually arranged in a file hierarchy. Volume storage has data with no defined structure (only memory space), and databases ar-range data in tables and relational schemes; neither of these options offers the functions described in the question. Synthetic is not a cloud memory con-figuration option.
+Object storage is usually arranged in a file hierarchy. 
+Volume storage has data with no defined structure (only memory space), and databases ar-range data in tables and relational schemes; neither of these options offers the functions described in the question. Synthetic is not a cloud memory con-figuration option.
 
 ### Question # 15 - What is one of the benefits of implementing an egress monitoring solution?    
 A. Preventing distributed denial of service (DDoS) attacks    
@@ -251,7 +252,9 @@ C. Interviewing data owners
 D. Protecting against natural disasters    
 Answer: B.     
 
-Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) require the organization to appropriately inventory and classify data assets so the tool knows what to protect. DLP does not aid in protections for DDoS or natural disasters, which affect availability, not confidentiality (DLP only enhances confidentiality efforts). Option C is not a benefit of implementing an egress monitoring solution.
+Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) require the organization to appropriately inventory and classify data assets so the tool knows what to protect. 
+DLP does not aid in protections for DDoS or natural disasters, which affect availability, not confidentiality (DLP only enhances confidentiality efforts). 
+Option C is not a benefit of implementing an egress monitoring solution.
 
 ### Question # 16 - Egress monitoring solutions usually include a function that _______________.    
 A. Arbitrates contract breaches    
@@ -260,16 +263,20 @@ C. Discovers data assets according to classification/categorization
 D. Applies another level of access control     
 Answer: C. 
 
-Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) will often include a discovery function, which will locate data assets according to criteria defined by the organization. DLP solutions cannot arbitrate contract breaches or perform personnel evaluations. Usually, DLPs also do not apply additional access controls; that is typically a characteristic of a digital rights management (DRM) solution.
+Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) will often include a discovery function, which will locate data assets according to criteria defined by the organization. 
+DLP solutions cannot arbitrate contract breaches or perform personnel evaluations. 
+Usually, DLPs also do not apply additional access controls; that is typically a characteristic of a digital rights management (DRM) solution.
 
-### Question # 17 - Egress monitoring solutions usually include a function that _______________.     
+### [important] Question # 17 - Egress monitoring solutions usually include a function that _______________.     
 A. Uses biometrics to scan users     
 B. Inspects incoming packets   
 C. Resides on client machines     
 D. Uses stateful inspection     
 Answer: C. 
 
-Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) will often include an agent that resides on client devices in order to inspect data being shared/sent by end users. DLP tools do not inspect incoming packets, with or without stateful inspection; this is the job of firewalls. DLP solutions do not typically use biometrics in any way.
+Egress monitoring solutions (often referred to as DLP tools, where DLP stands for data loss protection or data leak prevention, or some combination of these terms) **will often include an agent that resides on client devices in order to inspect data being shared/sent by end users**. 
+DLP tools do not inspect incoming packets, with or without stateful inspection; this is the job of firewalls. 
+DLP solutions do not typically use biometrics in any way.
 
 ### Question # 18 - Digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM) can be used to protect all sorts of sensitive data but are usually particularly designed to secure ____________.     
 A. Personally identifiable information (PII)    
@@ -278,16 +285,21 @@ C. Plans and policies
 D. Marketing material     
 Answer: B. 
   
-DRM is mainly designed to protect intellectual property. It can also sometimes be used for securing PII, but intellectual property is a better answer here. Plans and policies aren’t usually protected in this manner, and marketing material is usually meant to be disseminated, so it does not require protection.
+**DRM is mainly designed to protect intellectual property**. 
+**It can also sometimes be used for securing PII**, but intellectual property is a better answer here. 
+Plans and policies aren’t usually protected in this manner, and marketing material is usually meant to be disseminated, so it does not require protection.
 
-### Question # 19 - Digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM) often protect unauthorized distribution of what type of intellectual property?     
+### [important] Question # 19 - Digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM) often protect unauthorized distribution of what type of intellectual property?     
 A. Patents     
 B. Trademarks     
 C. Personally identifiable information (PII)      
 D. Copyright      
 Answer: D. 
 
-DRM is often deployed to ensure that copyrighted material (frequently software) is only delivered to and used by licensed recipients. Patents are more complicated and not often distributed to a mass market, so DRM does not assist in that way. Trademarks are representations of a brand and meant to be distributed, so DRM does not protect them. PII is not typically a type of intellectual property.
+DRM is often deployed to **ensure that copyrighted material (frequently software) is only delivered to and used by licensed recipients**. 
+**Patents are more complicated and not often distributed to a mass market, so DRM does not assist in that way**. 
+**Trademarks are representations of a brand and meant to be distributed, so DRM does not protect them**. 
+[important] **PII is not typically a type of intellectual property**.
 
 ### Question # 20 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?      
 A. Persistence     
@@ -296,25 +308,28 @@ C. Resistance
 D. Trepidation    
 Answer:A.      
 
-Persistence is the trait that allows DRM protection to follow protected files wherever they might be stored/copied. The other options are not characteristics associated with DRM solutions.
+**Persistence is the trait that allows DRM protection to follow protected files wherever they might be stored/copied**. 
+The other options are not characteristics associated with DRM solutions.
 
-### Question # 21 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?     
+### [important] Question # 21 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?     
 A. Automatic expiration    
 B. Multilevel aggregation    
 C. Enhanced detail    
 D. Broad spectrum    
 Answer: A.     
 
-Automatic expiration is the trait that allows DRM tools to prevent access to objects when a license expires or to remove protections when intellectual property moves into the public domain. The other options are not characteristics associated with DRM solutions.
+Automatic expiration is the trait that allows DRM tools to prevent access to objects when a license expires or to remove protections when intellectual property moves into the public domain. 
+The other options are not characteristics associated with DRM solutions.
 
-### Question # 22 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?    
+### [important] Question # 22 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?    
 A. Transparent encryption modification    
 B. Bilateral enhancement    
 C. Continuous audit trail     
 D. Encompassing flow    
 Answer: C.     
 
-Continuous audit trail is the trait that allows DRM tools to log and exhibit all access to a given object. The other options are not characteristics associated with DRM solutions.
+**Continuous audit trail is the trait that allows DRM tools to log and exhibit all access to a given object.** 
+The other options are not characteristics associated with DRM solutions.
 
 ### Question # 23 - Which of the following characteristics is associated with digital rights management (DRM) solutions (sometimes referred to as information rights management, or IRM)?    
 A. Mapping to existing access control lists (ACLs)   
@@ -323,7 +338,8 @@ C. Preventing multifactor authentication
 D. Prohibiting unauthorized transposition    
 Answer: A.     
 
-Mapping to existing access control lists (ACLs) is the trait that allows DRM tools to provide additional access control protections for the organization’s assets. The other options are not characteristics associated with DRM solutions.
+**Mapping to existing access control lists (ACLs) is the trait that allows DRM tools to provide additional access control protections for the organization’s assets**. 
+The other options are not characteristics associated with DRM solutions.
 
 ### Question # 24 - According to the (ISC)2 Cloud Secure Data Lifecycle, which phase comes soon after (or at the same time as) the Create phase?     
 A. Store   
@@ -332,7 +348,7 @@ C. Deploy
 D. Archive   
 Answer: A.    
 
-The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD).
+The Cloud Secure Data Lifecycle phases are, in order, **Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD)**.
 Options B and D are phases of CSU-SAD but do not immediately follow Create.
 Option C is not a phase of CSU-SAD.
 
@@ -343,18 +359,19 @@ C. Use
 D. Encrypt    
 Answer: C.     
 
-The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD).
+The Cloud Secure Data Lifecycle phases are, in order, **Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD)**.
 Options A and B are phases of CSU-SAD but do not immediately precede Share.
 Option D is not a phase of CSU-SAD.
 
-### Question # 26 - Why is the term (ISC)2 Cloud Secure Data Lifecycle actually somewhat inaccurate?    
+### [important] Question # 26 - Why is the term (ISC)2 Cloud Secure Data Lifecycle actually somewhat inaccurate?    
 A. The term is not used only by (ISC)2.   
 B. Not all phases are secure.   
 C. Not all phases take place in the cloud.    
 D. It’s not actually a cycle.     
 Answer: D. 
 
-The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD). This is not truly a cycle because data does not continue after the destroy phase (that is to say, the same data or process does not go back to create after destroy).
+The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD). 
+This is not truly a cycle **because data does not continue after the destroy phase** (that is to say, the same data or process does not go back to create after destroy).
 Option A might be considered true because the CSU-SAD cycle is not unique to (ISC)2, but this is not the best answer; option D is preferable because it is not truly a cycle.
 Options B and C are incorrect because activity in each of the phases involves security aspects and all phases relate to how data is involved in the cloud.
 
@@ -369,14 +386,14 @@ The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share,
 Options B and D are phases of the CSU-SAD but are not the proper times to be applying classification/categorization; that would be too late in the cycle.
 Option C is not a phase of CSU-SAD.
 
-### Question # 28 - Which of the following should occur during the final phase of the Cloud Secure Data Lifecycle?    
+### [important] Question # 28 - Which of the following should occur during the final phase of the Cloud Secure Data Lifecycle?    
 A. Data dispersion   
 B. Crypto-shredding   
 C. Cryptoparsing   
 D. Cryptosporidium  
 Answer: B. 
 
-The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD). Crypto-shredding (also called cryptographic erasure) is the preferred method of data sanitization for a cloud environment; this should take place in the final phase of the cycle, destroy.
+**The Cloud Secure Data Lifecycle phases are, in order, Create, Store, Use, Share, Archive, Destroy (a good mnemonic might be CSU-SAD). Crypto-shredding (also called cryptographic erasure) is the preferred method of data sanitization for a cloud environment; this should take place in the final phase of the cycle, destroy**.
 
 Option A is incorrect because data dispersion is a means of making data more resilient and secure; in the final phase of the cycle, we want to get rid of the data, not make it resistant to loss.
 
@@ -424,19 +441,20 @@ C. Content delivery network (CDN)
 D. Neutral storage    
 Answer: C.       
 
-CDNs are often used to place large stores of multimedia data in a location geographically near to the end users who will consume that data; this approach is designed mostly to accomplish a reduction in data degradation due to distance between resource and user.
+**CDNs are often used to place large stores of multimedia data in a location geographically near to the end users who will consume that data; this approach is designed mostly to accomplish a reduction in data degradation due to distance between resource and user**.
 Volume storage assigns a logical, unstructured drive space to the user, so option A is incorrect.
 Databases store data in an arrangement of characteristics and values, so option B is incorrect.
 Neutral storage is not a form of cloud storage, so option D is incorrect.
 
-### Question # 33 - What type of data storage is often used in platform as a service (PaaS) arrangements?    
+### [tricky & important] Question # 33 - What type of data storage is often used in platform as a service (PaaS) arrangements?    
 A. Ephemeral    
 B. Database    
 C. Long-term   
 D. Nefarious    
 Answer: B.     
 
-The PaaS model allows the cloud customer to install and run applications in the cloud environment. With a database, the cloud customer can store data in a database administered by the cloud provider but can then tailor applications and services for reaching into and manipulating that database.
+**The PaaS model allows the cloud customer to install and run applications in the cloud environment**. 
+**With a database, the cloud customer can store data in a database administered by the cloud provider but can then tailor applications and services for reaching into and manipulating that database**.
 Ephemeral and long-term storage take place in the software as a service (SaaS) model, and there is no such thing as “nefarious data storage,” so the other options are incorrect.
 
 ### Question # 34 - What is a form of cloud data protection where data is spread across multiple storage devices/locations, similar to RAID in the legacy environment?    
@@ -446,7 +464,7 @@ C. Voiding
 D. Crypto-shredding     
 Answer: B. 
 
-Data dispersion is the cloud version of using RAID arrays, protecting data by spreading it across multiple volumes/devices.
+**Data dispersion is the cloud version of using RAID arrays, protecting data by spreading it across multiple volumes/devices**.
 Options A and C are terms that have no meaning in this context.
 Crypto-shredding is a form of device/media sanitization utilizing cryptography and has nothing to do with RAID, so option D is incorrect.
 
@@ -457,7 +475,7 @@ C. Parity bits
 D. Transposition     
 Answer: C.      
 
-Similar to parity bits in RAID, erasure coding is used in cloud data dispersion implementations to create a situation where data can still be recovered even if a segment or portion of the dispersed data is lost (due to drive failure, disaster, etc.).
+**Similar to parity bits in RAID, erasure coding is used in cloud data dispersion implementations to create a situation where data can still be recovered even if a segment or portion of the dispersed data is lost (due to drive failure, disaster, etc.)**.
 Options A and B have no meaning in this context.
 Transposition is a cryptographic technique and does not relate to RAID in any way, so option D is also incorrect.
 
@@ -468,11 +486,11 @@ C. Data being processed by the organization’s users
 D. Data that could be intercepted while out of the organization’s control    
 Answer: A. 
 
-DLP, also referred to as egress monitoring, is used to detect and prevent sensitive data from leaving the organization’s control without proper approval.
+**DLP, also referred to as egress monitoring, is used to detect and prevent sensitive data from leaving the organization’s control without proper approval**.
 Because it is designed to prevent the egress of only certain data sets, options B and C are not correct.
 Controlling data outside the reach of the organization is difficult at best. While there are some mechanisms that might accomplish this, DLP is not specifically designed for that purpose, so option D is incorrect.
 
-### Question # 37 - Which of the following will DLP (data loss prevention or data leak protection) solutions most likely not inspect?     
+### [important] Question # 37 - Which of the following will DLP (data loss prevention or data leak protection) solutions most likely not inspect?     
 A. Email content   
 B. FTP traffic   
 C. Material saved to portable media    
@@ -482,24 +500,24 @@ Answer: D.
 Commercial DLP products that monitor speech in real time and censor conversations are not yet widely available.
 A proper DLP solution will monitor all the technologies in the other options, so those are incorrect.
 
-### Question # 38 - DLP (data loss prevention or data leak protection) solutions may use all of the following techniques to identify sensitive data except _______________.      
+### [important] Question # 38 - DLP (data loss prevention or data leak protection) solutions may use all of the following techniques to identify sensitive data except _______________.      
 A. Pattern matching     
 B. Inference    
 C. Keyword identification    
 D. Metadata tags    
 Answer: B.      
 
-Inference is an attack technique that derives sensitive material from an aggregation of innocuous data; DLP tools, thus far, do not have this capability.
+**Inference is an attack technique that derives sensitive material from an aggregation of innocuous data; DLP tools, thus far, do not have this capability**.
 All the other techniques listed may be used by DLP solutions to detect sensitive data before it leaves the control of the owner.
 
-### Question # 39 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. In which of the following cases would you not have to get permission from the cloud provider to install and implement the tool?     
+### [very important] Question # 39 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. In which of the following cases would you not have to get permission from the cloud provider to install and implement the tool?     
 A. If it’s hardware-based and your production environment is in an infrastructure as a service (IaaS) model   
 B. If you purchased it from a vendor other than the cloud provider    
 C. If it’s software-based and your production environment is in a platform as a service (PaaS) model     
 D. If it affects all guest instances on any given host device     
 Answer: C. 
 
-A cloud customer can install applications on a PaaS environment, usually as they see fit and without prior coordination with the provider.
+[very important] **A cloud customer can install applications on a PaaS environment, usually as they see fit and without prior coordination with the provider.**
 If you are introducing hardware into the cloud environment, you will need permission from your cloud provider, regardless of the deployment model you use. Therefore, option A is incorrect (and unlikely to occur, as permission is probably not going to be granted).
 Although the provider may offer an egress monitoring function as an add-on service, which would be permissible for you to use, the use of an outside vendor’s product may have to be reviewed by the provider before implementation, based on a number of other variables (such as the other possible answers). Option C is preferable, so option B is incorrect.
 Affecting all images on a host may impact other customers in a multitenant environment, so option D is not the correct answer.
@@ -511,7 +529,10 @@ C. What the price of the tool was
 D. How the solution works      
 Answer: B.      
 
-All security functions come with an attendant negative productivity effect: the most secure environment will be the least productive, and the most productive will be the least secure. Egress monitoring tools will have an overhead cost in terms of production impact and loss of efficiency and speed. This may affect the cost savings that were realized in a cloud migration from the legacy environment, and senior management needs to understand this trade-off.
+[important] **All security functions come with an attendant negative productivity effect: 
+the most secure environment will be the least productive, and the most productive will be the least secure. 
+Egress monitoring tools will have an overhead cost in terms of production impact and loss of efficiency and speed**. 
+This may affect the cost savings that were realized in a cloud migration from the legacy environment, and senior management needs to understand this trade-off.
 Implementing an egress monitoring solution should not incur any additional risks of external attack, so option A is incorrect.
 Because the tool has already been purchased, explaining the purchase price is irrelevant at this point, so option C is incorrect.
 If it was germane (and it was likely not), you should have explained how the tool works before purchasing it; explaining at this point might be interesting but is not as important as option B, so option D is incorrect.
@@ -526,14 +547,15 @@ Answer: A.
 In order to “train” the egress monitoring solution properly, you’ll need to inform it as to which data in your organization is sensitive…and, in order to do that, you’ll need to determine what information your data owners deem sensitive; a survey is a way to do that.
 A proper egress monitoring solution should not affect or be affected by the firewalls, routers, or hypervisors, so options B, C, and D are incorrect.
 
-### Question # 42 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. What should you expect immediately following the implementation of the tool?    
+### [important] Question # 42 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. What should you expect immediately following the implementation of the tool?    
 A. Immediate decrease in lost data    
 B. A series of false-positive indications    
 C. Increase in morale across the organization     
 D. Increase in gross revenue     
 Answer: B.     
 
-It will take a while for the tool to “learn” the particulars of your environment and to be conditioned properly. A significant number of false-positive indications will be expected in the near term, until you can hone the responses to properly meet your organization’s needs.
+**It will take a while for the tool to “learn” the particulars of your environment and to be conditioned properly.** 
+A significant number of false-positive indications will be expected in the near term, until you can hone the responses to properly meet your organization’s needs.
 The tool will not work optimally immediately upon implementation, so option A is incorrect.
 Egress monitoring tools do not affect morale or revenues, so options C and D are incorrect.
 
@@ -547,14 +569,16 @@ Answer: B.
 It’s unlikely that any egress monitoring tools will be able to detect sensitive data captured, stored, and/or sent as graphic image files, which is the usual form of screenshots.
 A proper egress monitoring tool should be able to detect all the other types of activity, so the other options are incorrect.
 
-### Question # 44 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. In order to get truly holistic coverage of your environment, you should be sure to include ____________ as a step in the deployment process.     
+### [tricky and important] Question # 44 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. In order to get truly holistic coverage of your environment, you should be sure to include ____________ as a step in the deployment process.     
 A. Getting signed user agreements from all users    
 B. Installation of the solution on all assets in the cloud data center    
 C. Adoption of the tool in all routers between your users and the cloud provider     
 D. Ensuring that all your customers install the tool     
 Answer: A.      
 
-This is a tricky question. In the cloud environment, we know that all users will be entering the environment through remote access; in many cases, this will include the use of their personal devices. In order for egress monitoring solutions to function properly, all devices accessing the production environment must have local agents installed, and that requires signed user agreements.
+This is a tricky question. In the cloud environment, we know that all users will be entering the environment through remote access; in many cases, this will include the use of their personal devices. 
+In order for egress monitoring solutions to function properly, all devices accessing the production environment must have local agents installed, and that requires signed user agreements.
+
 It would be unnecessary (and intrusive, and cumbersome) to install agents on all assets in the cloud data center, which includes not only your organization’s assets but also those of all the other cloud tenants in that data center. This might even be illegal. Option B is incorrect.
 Assuming you could install (or even know) all the routers between your users and the cloud data center is ridiculous; option C is incorrect.
 Getting your customer to install an egress monitoring client would be nice, in theory…but also pointless. Your customers don’t work for you; they are outside your organization. Egress monitoring tools are used to prevent sensitive data from leaving your environment; by the time it has reached a customer, sensitive information is far outside your control and the egress monitoring tool would be of no use. Option D is therefore incorrect.
@@ -566,12 +590,12 @@ C. Digital insurance policies
 D. The Uptime Institute’s Tier certification     
 Answer: A. 
 
-Egress monitoring tools combined with DRM and SIEM enhance the security value of each because you create in-depth/layered defense.    
+**Egress monitoring tools combined with DRM and SIEM enhance the security value of each because you create in-depth/layered defense**.    
 Project management software does not really have anything to do with security, so option B is incorrect.      
 Insurance is a risk transfer mechanism and does not aid in risk mitigation efforts; egress monitoring is for risk mitigation, so option C is incorrect.      
 The Tier certification program is for the cloud provider and is not used by the cloud customer, so option D is incorrect.      
 
-### Question # 46 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. You are interested in fielding the solution as an awareness tool to optimize security for your organization through conditioning user behavior. You decide to set the solution to _______________.         
+### [important] Question # 46 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. You are interested in fielding the solution as an awareness tool to optimize security for your organization through conditioning user behavior. You decide to set the solution to _______________.         
 A. Suspend user accounts and notify the security office when it detects possible sensitive data egress attempted by a user          
 B. Halt the transaction and notify the user’s supervisor when the user attempts to transfer sensitive data     
 C. Query the user as to whether they intend to send sensitive data upon detection of an attempted transfer     
@@ -580,7 +604,7 @@ Answer: C.
 
 These are all possible settings for a modern egress monitoring solution. However, the best option, in light of the question, is to query the user as to their intent; this aids the user in understanding and knowing when sensitive data might be leaving the organization accidentally, through a mistake on the user’s part. The other options are more severe and restrictive; these will enhance security but reduce productivity and are management and technological controls instead of awareness tools, so they are incorrect answers for this question.
 
-### Question # 47 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. You understand that all of the following aspects of cloud computing may make proper deployment of the tool difficult or costly except _______________.    
+### [important] Question # 47 - You are the security manager of a small firm that has just purchased an egress monitoring solution to implement in your cloud-based production environment. You understand that all of the following aspects of cloud computing may make proper deployment of the tool difficult or costly except _______________.    
 A. Data will not remain in one place or form in the cloud     
 B. The cloud environment will include redundant and resilient architecture    
 C. There will be a deleterious impact on production upon installing the tool   
@@ -639,7 +663,7 @@ C. Application-level encryption
 D. Transport Layer Security (TLS)       
 Answer: D. 
 
-TLS is encryption used in a communication session, not a storage volume.
+**TLS is encryption used in a communication session, not a storage volume.**
 All the other options are examples of object storage encryption options, so they are incorrect.
 
 ### Question # 53 - All of the following are database encryption options that could be used in a platform as a service (PaaS) implementation except _______________.      
@@ -649,41 +673,41 @@ C. Transparent encryption
 D. Application-level encryption    
 Answer: B.     
 
-SSL is encryption used in a communication session, not a storage volume.
+**SSL is encryption used in a communication session, not a storage volume.**
 All the other options are examples of database encryption options, so they are incorrect.
 
-### Question # 54 - In application-level encryption, where does the encryption engine reside?    
+### [important] Question # 54 - In application-level encryption, where does the encryption engine reside?    
 A. In the application accessing the database   
 B. In the operating system on which the application is run    
 C. Within the database accessed by the application    
 D. In the volume where the database resides    
 Answer: A. 
 
-The application contains the encryption engine used in application-level encryption.
+**The application contains the encryption engine used in application-level encryption.**
 The operating system is responsible for providing the resources an application needs and for running the applications. The operating system does not do application-level encryption, so option B is incorrect.
 Option C is incorrect because application-level encryption is performed by the application that interfaces with the database.
 The application-level encryption engine may or may not reside in the same volume as the database engine, so option D is incorrect.
 
-### Question # 55 - Which of the following database encryption techniques can be used to encrypt specific tables within the database?    
+### [important] Question # 55 - Which of the following database encryption techniques can be used to encrypt specific tables within the database?    
 A. File-level encryption    
 B. Transparent encryption    
 C. Application-level encryption     
 D. Object-level encryption     
 Answer: B. 
 
-Encrypting specific tables within the database is one of the options of transparent encryption; this is not true of the other options, so they are incorrect.
+**Encrypting specific tables within the database is one of the options of transparent encryption;** this is not true of the other options, so they are incorrect.
 
-### Question # 56 - Which of the following database encryption techniques makes it difficult to perform database functions (searches, indexing, etc.)?     
+### [important] Question # 56 - Which of the following database encryption techniques makes it difficult to perform database functions (searches, indexing, etc.)?     
 A. File-level encryption    
 B. Transparent encryption    
 C. Application-level encryption     
 D. Volume encryption      
 Answer: C. 
 
-Application-level encryption involves encrypting the data before it enters the fields of the database; it is much more difficult to search and review data that has been encrypted, so this reduces the functionality of the database.
+[important] **Application-level encryption involves encrypting the data before it enters the fields of the database; it is much more difficult to search and review data that has been encrypted, so this reduces the functionality of the database**.
 All the other options are incorrect because they are not database encryption techniques.
 
-### Question # 57 - According to (ISC)2, where should the cloud customer’s encryption keys be stored?     
+### [important] Question # 57 - According to (ISC)2, where should the cloud customer’s encryption keys be stored?     
 A. With the cloud customer    
 B. With a third-party provider     
 C. At the cloud provider data center     
@@ -697,9 +721,12 @@ Option C is clearly incorrect because it is counter to the best practice advice 
 ### Question # 58 - Which of the following is not used to determine data retention requirements?       
 A. Legislation      
 B. Business needs     
-C. Average media longevity     
+C. Average media longevity                  
 D. Contracts     
-Answer: C. Data retention periods should be established in policy regardless of the projected lifetime of the media the data resides on. All the other options do/should influence data retention periods.
+Answer: C. 
+
+Data retention periods should be established in policy regardless of the projected lifetime of the media the data resides on. 
+All the other options do/should influence data retention periods.
 
 ### Question # 59 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?        
 A. External hacking detection     
@@ -708,16 +735,20 @@ C. Data classification/categorization issues
 D. Social engineering attacks      
 Answer: A. 
 
-Event monitoring tools can help detect external hacking efforts by tracking and reporting on common hack-related activity, such as repeated failed login attempts and scanning. It is unlikely that these tools could predict physical device theft; they could, of course, report on a device that is no longer connected to the environment after it has been removed by noting a lack of event activity, but that’s not quite the same thing. Event monitoring tools don’t aid in data classification/categorization; egress monitoring and digital rights management tools might provide that function, though. Social engineering attacks are mostly transparent to the majority of logical tools (the exception being social engineering efforts combined with IT traffic, such as phishing, which might be detected by email filters and sophisticated firewalls).
+Event monitoring tools can help detect external hacking efforts by tracking and reporting on common hack-related activity, such as repeated failed login attempts and scanning. 
 
-### Question # 60 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?     
+It is unlikely that these tools could predict physical device theft; they could, of course, report on a device that is no longer connected to the environment after it has been removed by noting a lack of event activity, but that’s not quite the same thing. Event monitoring tools don’t aid in data classification/categorization; egress monitoring and digital rights management tools might provide that function, though. Social engineering attacks are mostly transparent to the majority of logical tools (the exception being social engineering efforts combined with IT traffic, such as phishing, which might be detected by email filters and sophisticated firewalls).
+
+### [important] Question # 60 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?     
 A. Detecting untrained personnel    
 B. Predicting system outages    
 C. Sending alerts for conflicts of interest       
 D. Enforcing mandatory vacation         
 Answer: B.           
 
-Event monitoring tools can be used to predict system outages by noting decreases in performance; repeated performance issues can be an indicator a device is failing. While an event monitoring tool might be able to detect a user who continually conducts unproductive activity or fails to complete certain functions, it is impossible to determine if the source of the problem is lack of training. These tools in no way serve to detect conflict of interest or enforce mandatory vacation, which are managerial/administrative controls.
+[important] **Event monitoring tools can be used to predict system outages by noting decreases in performance; repeated performance issues can be an indicator a device is failing**. 
+While an event monitoring tool might be able to detect a user who continually conducts unproductive activity or fails to complete certain functions, it is impossible to determine if the source of the problem is lack of training. 
+These tools in no way serve to detect conflict of interest or enforce mandatory vacation, which are managerial/administrative controls.
 
 ### Question # 61 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?    
 A. Reducing workload for production personnel     
