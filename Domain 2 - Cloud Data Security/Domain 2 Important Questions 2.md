@@ -5,7 +5,7 @@ B.	Educational	history
 C.	Income    
 D.	Phone	number     
 
-### Question # 2 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solutionand	software	be	deployed?    
+### Question # 2 - When	DLP	is	used	to	protect	data	in	use,	where	would	the	DLP	solution and	software	be	deployed?    
 A.	On	the	client    
 B.	On	the	application	server    
 C.	Network	perimeter     
@@ -460,7 +460,7 @@ B	is	incorrect	because	structured	storage	resembles	a	database-type organization
 
 C	is	incorrect	because	unstructured	storage	is	used	within	a	PaaS implementation	for	support	objects	such	as	images	and	web	files;	it would	not	be	used	for	the	storage	of	virtual	machines	for	use throughout	a	cloud	infrastructure.
 
-### Question # 8 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	theoptimal	place	to	deploy	the	DLP	components?    
+### Question # 8 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	the optimal	place	to	deploy	the	DLP	components?    
 A.	On	the	server	originating	the	traffic    
 B.	At	the	network	perimeter    
 C.	Between	VLANs     
@@ -476,14 +476,15 @@ C	is	incorrect	because	firewalls	and	other	network-monitoring solutions	are	used
 
 D	is	incorrect	because	the	server	receiving	the	data	would	be	a	client where	data	in	use	becomes	the	appropriate	stage;	it	is	no	longer	data	in transit	once	it	reaches	its	destination.
 
-### Question # 9 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatorycompliance	reporting?    
+### Question # 9 - Which	of	the	following	types	of	solutions	is	often	used	for	regulatory compliance	reporting?    
 A.	SIEM    
 B.	DLP    
 C.	IRM    
 D.	IDS    
 Answer: A.	   
 
-A	security	information	and	event	management	(SIEM)	solution	is used	to	collect,	aggregate,	and	process	event	data	throughout	an application	or	even	an	entire	infrastructure.	It	is	often	used	to	produce auditing	and	compliance	reports	based	on	the	data	that	is	collected	and aggregated,	and	most	SIEM	solutions	have	very	robust	reporting, alerting,	and	dashboard	capabilities.
+A	security	information	and	event	management	(SIEM)	solution	is used	to	collect,	aggregate,	and	process	event	data	throughout	an application	or	even	an	entire	infrastructure.	
+It	is	often	used	to	produce auditing	and	compliance	reports	based	on	the	data	that	is	collected	and aggregated,	and	most	SIEM	solutions	have	very	robust	reporting, alerting,	and	dashboard	capabilities.
 
 B	is	incorrect	because	a	data	loss	prevention	(DLP)	solution	is	used	to protect	sensitive	information	and	how	it	is	processed,	handled,	and disseminated.	It	is	not	used	for	reporting.
 
@@ -491,15 +492,15 @@ C	is	incorrect	because	information	rights	management	(IRM)	solutions are	used	to
 
 D	is	incorrect	because	an	intrusion	detection	system	(IDS)	is	used	to monitor	data	transmissions	against	known	signatures	and	patterns,	and to	alert	application	owners	or	developers	to	anomalies	or	suspicious circumstances.	It	is	not	used	for	regulatory	or	compliance	reporting.
 
-### Question # 10 - Encryption	solutions	can	be	embedded	within	database	operations	thatwill	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?     
+### Question # 10 - Encryption	solutions	can	be	embedded	within	database	operations	that will	serve	to	protect	data	in	a	manner	that	is	not	noticeable	to	the	user. What	kind	of	encryption	strategy	is	this?     
 A.	Transparent     
 B.	Passive     
 C.	RSA    
-D. 	Homomorphic    
+D. Homomorphic    
 Answer: A.	
 
-Transparent	encryption	is	used	within	a	database	to	protect	data	as it	is	being	stored	and	processed,	but	it’s	done	as	an	integrated	database function	and	is	not	something	that	needs	input	from	the	application.
-The	application	doesn’t	even	need	to	be	aware	it	is	being	done. Transparent	encryption	is	an	effective	tool	because	applications	do	not need	to	be	rewritten	or	modified	to	handle	encryption	activities.
+**Transparent	encryption	is	used	within	a	database	to	protect	data	as it	is	being	stored	and	processed,	but	it’s	done	as	an	integrated	database function	and	is	not	something	that	needs	input	from	the	application.**
+**The	application	doesn’t	even	need	to	be	aware	it	is	being	done**. Transparent	encryption	is	an	effective	tool	because	applications	do	not need	to	be	rewritten	or	modified	to	handle	encryption	activities.
 
 B	is	incorrect	because	passive	encryption	is	not	a	method	of embedding	encryption	within	a	database	system	and	its	operations.
 
@@ -507,7 +508,7 @@ C	is	incorrect	because	RSA	refers	to	a	specific	type	of	encryption algorithm,	no
 
 D	is	incorrect	because	homomorphic	encryption	is	a	cutting-edge technique	that	allows	for	accessing	and	processing	encrypted	data without	the	traditional	step	of	having	to	unencrypt	it	first.	It	is	a	type of	encryption	rather	than	a	specific	implementation,	which	is	what	the question	is	asking.
 
-### Question # 11 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	processof	data	classification?     
+### Question # 11 - Which	phase	of	the	cloud	data	lifecycle	also	typically	entails	the	process of	data	classification?     
 A.	Use    
 B.	Store    
 C.	Create    
@@ -529,7 +530,7 @@ C.	Metadata
 D.	Authorization     
 Answer: C.	    
 
-Metadata	uses	attributes	about	the	data	itself,	such	as	creator, application,	type,	data,	or	any	other	type	of	information	to	determine classification.	Metadata	is	typically	known	as	“data	about	data.”	By using	metadata,	where	possible,	you	can	make	very	quick	and	efficient determinations	on	classification.
+**Metadata	uses	attributes	about	the	data	itself,	such	as	creator, application,	type,	data,	or	any	other	type	of	information	to	determine classification.	Metadata	is	typically	known	as	“data	about	data.”	By using	metadata,	where	possible,	you	can	make	very	quick	and	efficient determinations	on	classification.**
 
 A	is	incorrect	because	content	analysis	is	a	very	intensive	and	slow process	for	analyzing	data	to	determine	classification.	It	is	also	highly subjective	because	the	data	may	not	be	normalized	and	consistent enough	to	accurately	determine	classification	with	any	type	of efficiency.
 
@@ -537,30 +538,33 @@ B	is	incorrect	because	applying	labels,	although	much	quicker	than content	analy
 
 D	is	incorrect	because	authorization	is	the	process	of	granting privileges	and	access	to	data	or	functions	within	an	application;	it	is not	related	to	the	classification	process	at	all.
 
-### Question # 13 - When	using	an	e-commerce	site,	you	see	your	credit	card	informationwith	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?    
+### [important] Question # 13 - When	using	an	e-commerce	site,	you	see	your	credit	card	information with	all	but	the	last	four	digits	replaced	with	asterisks.	What	kind	of	data masking	is	being	employed	by	the	application?    
 A.	Dynamic    
 B.	Homomorphic     
 C.	Static    
 D.	Replication     
 Answer: A.	    
 
-Dynamic	masking	is	implemented	between	the	data	and	application layers,	and	is	applied	in	real	time	as	data	is	requested	and	processed. This	allows	for	showing	only	portions	of	a	credit	card	number,	for example,	rather	than	the	entire	number	that	is	contained	in	storage.
+[important] **Dynamic	masking	is	implemented	between	the	data	and	application layers**,	
+and	is	**applied	in	real	time**	**as	data	is	requested	and	processed**. 
+This	allows	for	showing	only	portions	of	a	credit	card	number,	for example,	rather	than	the	entire	number	that	is	contained	in	storage.
 
 B	is	incorrect	because	homomorphic	refers	to	a	type	of	cutting-edge encryption	where	data	can	be	accessed	and	utilized	without	the traditional	need	to	unencrypt	the	data	set	first.	Although	systems	may use	homomorphic	encryption	throughout	any	type	of	process,	it	does not	specifically	relate	to	masking.
 
-C	is	incorrect	because	static	masking	creates	a	set	of	data,	typically used	for	testing	in	non-production	environments.	It	is	done	as	a separate	process	and	outputs	a	distinct	set	of	new	data	with	masked values,	and	it’s	not	done	on	a	live	system	such	as	the	one	presented	in the	question.
+C	is	incorrect	because	**static	masking	creates	a	set	of	data,	typically used	for	testing	in	non-production	environments**.	
+**It	is	done	as	a separate	process	and	outputs	a	distinct	set	of	new	data	with	masked values**,	
+**and	it’s	not	done	on	a	live	system	such	as	the	one	presented	in the	question.**
 
 D	is	incorrect	because	replication	refers	to	making	multiple	copies	of data	for	either	redundancy,	high	availability,	or	any	use	where	a secondary	copy	is	needed.	It	is	not	related	specifically	to	masking,	as replication	involves	making	identical	copies	of	data	and	not	outputting one	with	masking	in	place.
 
-### Question # 14 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	suchas	DRM	and	DLP	be	most	appropriately	utilized?    
+### [important] Question # 14 - During	which	phase	of	the	cloud	data	lifecycle	would	technologies	such as	DRM	and	DLP	be	most	appropriately	utilized?    
 A.	Use    
 B.	Share    
 C.	Store     
 D.	Archive    
 Answer: B.	   
 
-During	the	“share”	phase,	data	is	allowed	outside	of	the	original system	and	consumed	by	external	users	or	services.	This	point,	where data	is	leaving	systems	and	consumed	by	others,	is	ideal	for	the inclusion	of	DRM	and	DLP	technologies	to	control	how	data	is disseminated	and	ultimately	used,	as	well	as	to	control	how	far	and
-wide	it	can	be	distributed.
+[important] **During	the	“share”	phase,	data	is	allowed	outside	of	the	original system	and	consumed	by	external	users	or	services.	This	point,	where data	is	leaving	systems	and	consumed	by	others,	is	ideal	for	the inclusion	of	DRM	and	DLP	technologies	to	control	how	data	is disseminated	and	ultimately	used,	as	well	as	to	control	how	far	and wide	it	can	be	distributed**.
 
 A	is	incorrect	because	the	“use”	phase	is	still	within	a	controlled application	and	environment,	where	more	stringent	controls	can	be applied	without	relying	on	services	and	technologies	such	as	DRM and	DLP.
 
@@ -568,7 +572,7 @@ C	is	incorrect	because	the	“store”	phase	relies	on	different technologies	fo
 
 D	is	incorrect	because	archiving	involves	static	copies	of	data	for preservation,	where	technologies	such	as	encryption	would	be appropriate.	The	use	of	DRM	or	DLP	would	not	be	necessary	or appropriate	because	the	data	is	not	being	transmitted,	shared,	or consumed	in	this	phase.
 
-### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloudenvironment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
+### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloud environment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
 A.	Object    
 B.	Structured      
 C.	Volume     
@@ -583,18 +587,19 @@ B	is	incorrect	because	structured	storage,	used	with	Platform	as	a Service	(PaaS
 
 D	is	incorrect	because	unstructured	is	a	data	storage	type	with	PaaS that	is	used	for	objects	that	do	not	fit	within	a	structured	storage system	(typically,	support	files,	images,	web	objects,	and	so	on).	It	is not	used	in	the	sense	of	a	traditional	file	system’s	structure	and configuration	for	this	example.
 
-### Question # 16 - Which	of	the	following	concepts	refers	to	having	logs	available	fromthroughout	a	system	or	application	within	a	single	source?    
+### [important] Question # 16 - Which	of	the	following	concepts	refers	to	having	logs	available	from throughout	a	system	or	application	within	a	single	source?    
 A.	Consolidation     
 B.	Correlation     
 C.	Aggregation     
 D.	Archiving    
 Answer: C.	     
 
-Aggregation	refers	to	the	collection	of	event	data	and	logs	from throughout	an	environment	and	indexing	them	into	a	single	source.	It allows	for	quick	and	easy	searching	of	events	for	trends	of	specific incidents	across	all	systems,	rather	than	having	to	go	onto	each individual	system.
+[important] **Aggregation	refers	to	the	collection	of	event	data	and	logs	from throughout	an	environment	and	indexing	them	into	a	single	source.**	
+**It allows	for	quick	and	easy	searching	of	events	for	trends	of	specific incidents	across	all	systems,	rather	than	having	to	go	onto	each individual	system.**
 
-A	is	incorrect	because	although	consolidation	is	essentially	the	same concept	as	aggregation,	the	official	term	is	aggregation.
+A	is	incorrect	because	although	**consolidation	is	essentially	the	same concept	as	aggregation,	the	official	term	is	aggregation**.
 
-B	is	incorrect	because	correlation	is	the	function	of	taking	different data	sources	and	finding	commonalities	or	trends	among	them. Although	this	is	typically	done	after	aggregation,	these	are	two separate	and	distinct	concepts.
+[important] B	is	incorrect	because	**correlation	is	the	function	of	taking	different data	sources	and	finding	commonalities	or	trends	among	them**. Although	this	is	typically	done	after	aggregation,	these	are	two separate	and	distinct	concepts.
 
 D	is	incorrect	because	archiving	is	the	long-term	preservation	of	event data.	This	is	often	done	on	systems	that	do	aggregation	for	simplicity; these	concepts	are	not	necessarily	related	or	dependent	upon	each other.
 
@@ -605,7 +610,9 @@ C.	Hosted
 D.	Embedded    
 Answer: A.	    
 
-Internal	key	storage	keeps	the	keys	on	the	actual	server	or	system where	they	are	to	be	used.	Although	this	will	prevent	the	availability problems	that	an	external	key	store	may	experience,	it	also	makes security	more	challenging.	If	the	server	or	system	itself	is compromised	in	a	way	where	a	malicious	actor	gains	system	access, he	can	also	access	the	keys	used	to	encrypt	and	protect	the	data	on	the system.
+**Internal	key	storage	keeps	the	keys	on	the	actual	server	or	system where	they	are	to	be	used**.	
+Although	this	will	prevent	the	availability problems	that	an	external	key	store	may	experience,	**it	also	makes security	more	challenging**.	
+**If	the	server	or	system	itself	is compromised	in	a	way	where	a	malicious	actor	gains	system	access, he	can	also	access	the	keys	used	to	encrypt	and	protect	the	data	on	the system.**
 
 B	is	incorrect	because	an	external	key	system,	although	more	secure	in the	case	of	a	system	breach,	also	carries	with	it	the	potential	problems of	availability.	If	network	access	to	the	external	key	store	becomes unavailable,	or	if	the	external	system	experiences	an	outage,	then	the data	will	become	inaccessible	until	access	and	availability	are restored.
 
@@ -613,29 +620,31 @@ C	is	incorrect	because	“hosted”	is	not	a	term	typically	applied	to	a	key sto
 
 D	is	incorrect	because	the	term	“embedded”	refers	to	a	type	of encryption,	not	to	a	type	of	key	storage	system.	The	term	is	typically applied	to	encryption	that	is	built	into	a	system	and	is	an	integral	part of	it,	rather	than	an	external	service	or	operation.
 
-### Question # 18 - Digital	right	management	is	an	extension	of	information	rightsmanagement,	but	is	focused	on	which	particular	type	of	data?    
+### [tricky] Question # 18 - Digital	right	management	is	an	extension	of	information	rights management,	but	is	focused	on	which	particular	type	of	data?    
 A.	Health	records    
 B.	Academic	records    
 C.	Consumer	media     
 D.	Financial	data    
 Answer: C.	    
 
-Digital	rights	management	(DRM)	systems	are	similar	to	IRM solutions,	with	the	main	distinction	being	their	focus	on	consumer media.	They	are	intended	to	protect	copyrights	and	the	use	of	digital media	after	it	is	distributed.	DRM	systems	can	be	used	to	prevent copying,	enforce	expirations	of	subscriptions,	control	what	devices may	be	used	to	access	the	media,	and	many	other	types	of	operations.
+Digital	rights	management	(DRM)	systems	are	similar	to	IRM solutions,	**with	the	main	distinction	being	their	focus	on	consumer media**.	
+**They	are	intended	to	protect	copyrights	and	the	use	of	digital media	after	it	is	distributed**.	
+**DRM	systems	can	be	used	to	prevent copying,	enforce	expirations	of	subscriptions,	control	what	devices may	be	used	to	access	the	media,	and	many	other	types	of	operations**.
 
-A	is	incorrect	because	health	records	are	not	a	focus	of	DRM,	although IRM	solutions	may	be	used	to	protect	the	data	according	to	its	specific regulations	or	requirements.
+A	is	incorrect	because	**health	records	are	not	a	focus	of	DRM**,	although IRM	solutions	may	be	used	to	protect	the	data	according	to	its	specific regulations	or	requirements.
 
-B	is	incorrect	because	academic	records	are	not	a	focus	of	DRM solutions,	although	IRM	solutions	may	be	used	to	protect	the	data	as necessary.
+B	is	incorrect	because	**academic	records	are	not	a	focus	of	DRM** solutions,	although	IRM	solutions	may	be	used	to	protect	the	data	as necessary.
 
-D	is	incorrect	because	DRM	is	focused	on	consumer	media	and	not financial	records,	although	IRM	solutions	may	be	used	to	protect financial	records,	as	applicable.
+D	is	incorrect	because	**DRM	is	focused	on	consumer	media	and	not financial	records**,	although	IRM	solutions	may	be	used	to	protect financial	records,	as	applicable.
 
-### Question # 19 - Which	of	the	following	is	a	law	in	the	United	States	that	protectshealthcare	information	and	privacy?    
+### Question # 19 - Which	of	the	following	is	a	law	in	the	United	States	that	protects healthcare	information	and	privacy?    
 A.	HIPAA    
 B.	PII     
 C.	PHI    
 D.	ACA     
 Answer: A.	    
 
-The	Health	Insurance	Portability	and	Accountability	Act	(HIPAA) is	a	United	States	law	that	is	focused	on	health	records,	their protection,	disclosure	requirements,	and	how	health	records	may	be used	or	shared.
+The	Health	Insurance	Portability	and	Accountability	Act	**(HIPAA) is	a	United	States	law**	that	is	focused	on	health	records,	their protection,	disclosure	requirements,	and	how	health	records	may	be used	or	shared.
 
 B	is	incorrect	because	PII	refers	to	personally	identifiable	information as	a	broad	concept,	rather	than	a	specific	law	or	regulation.	The concepts	of	PII	do	certainly	pertain	to	health	records	and	their protection,	though.
 
@@ -643,29 +652,32 @@ C	is	incorrect	because	PHI	refers	to	protected	health	information.	It	is a	subse
 
 D	is	incorrect	because	the	Affordable	Care	Act	(ACA)	is	a	United States	law	pertaining	to	health	insurance	coverage	and	access,	but	it does	not	pertain	to	specific	regulations	for	the	handling	and	protection of	heathcare	data.
 
-### Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	thepreservation	of	integrity?     
+### [important] Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	the preservation	of	integrity?     
 A.	DNSSEC     
 B.	Encryption     
 C.	Tokenization     
 D.	Anonymization      
 Answer: A.	
 
-DNSSEC	is	an	extension	on	the	traditional	DNS	protocol	and allows	for	the	signing	and	verification	of	DNS	results.	When	a	query is	issued	to	the	DNS	servers,	they	sign	the	results	using	keys	that	can authenticate	that	they	did	come	from	an	authoritative	source.	This strategy	prevents	DNS	spoofing	and	redirecting	attacks,	and	is implemented	in	a	way	that	does	not	require	additional	lookups	or calls.
+[important] **DNSSEC	is	an	extension	on	the	traditional	DNS	protocol	and allows	for	the	signing	and	verification	of	DNS	results**.	
+[important] **When	a	query is	issued	to	the	DNS	servers,	they	sign	the	results	using	keys	that	can authenticate	that	they	did	come	from	an	authoritative	source**.	
+**This strategy	prevents	DNS	spoofing	and	redirecting	attacks,	and	is implemented	in	a	way	that	does	not	require	additional	lookups	or calls**.
 
-B	is	incorrect	because	encryption	is	used	for	preserving	and	protecting the	confidentiality	of	data,	but	not	for	the	integrity	of	it.	There	is nothing	about	encryption	that	would	prevent	the	data	from	being altered	against	the	encrypted	blocks,	even	if	it	renders	the	data unreadable	or	unable	to	be	unencrypted.
+B	is	incorrect	because	**encryption	is	used	for	preserving	and	protecting the	confidentiality	of	data**,	but	not	for	the	integrity	of	it.	There	is nothing	about	encryption	that	would	prevent	the	data	from	being altered	against	the	encrypted	blocks,	even	if	it	renders	the	data unreadable	or	unable	to	be	unencrypted.
 
-C	is	incorrect	because	tokenization	is	the	process	of	replacing	sensitive data	with	key	or	opaque	values	that	ultimately	can	be	mapped	back	to the	original	values.	It	is	used	for	protecting	the	confidentiality	of	data, not	the	integrity	of	it.
+C	is	incorrect	because	**tokenization	is	the	process	of	replacing	sensitive data	with	key	or	opaque	values	that	ultimately	can	be	mapped	back	to the	original	values**.	It	is	used	for	protecting	the	confidentiality	of	data, not	the	integrity	of	it.
 
 D	is	incorrect	because	anonymization	is	the	process	of	removing identifiers	from	a	data	set	that	would	allow	an	individual	identity	to	be determined	from	the	various	data.	It	is	a	method	and	strategy	for protecting	the	privacy	and	confidentiality	of	data,	not	the	integrity	of it.
 
-### Question # 21 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?     
+### [important] Question # 21 - Although	indirect	identifiers	cannot	alone	point	to	an	individual,	the	more of	them	known	can	lead	to	a	specific	identity.	Which	strategy	can	be	used to	avoid	such	a	connection	being	made?     
 A.	Masking    
 B.	Anonymization    
 C.	Obfuscation     
 D.	Encryption    
 Answer: B.	    
 
-Anonymization	is	the	process	of	removing	identifiers	that	could ultimately	be	used	to	identity	a	specific	individual.	This	process	can include	removing	direct	identifiers	or	a	sufficient	quantity	of	indirect identifiers	in	order	to	ensure	a	specific	identification	cannot	be	made.
+[important] **Anonymization	is	the	process	of	removing	identifiers	that	could ultimately	be	used	to	identity	a	specific	individual**.	
+This	process	can include	removing	direct	identifiers	or	a	sufficient	quantity	of	indirect identifiers	in	order	to	ensure	a	specific	identification	cannot	be	made.
 
 A	is	incorrect	because	masking	is	the	process	of	replacing	values	in	a data	field,	or	additional	characters	can	be	added	to	alter	the	original values.	This	process	can	also	be	done	by	shifting	values	through predefined	algorithms	or	deleting	specific	data	fields	or	data	sets altogether.
 
@@ -1067,7 +1079,7 @@ or	system.
 
 D	is	incorrect	because	availability	is	not	a	primary	concern	with archiving.	Typically,	offsite	storage	or	storage	services	are	used	with archiving,	in	which	case	the	immediate	availability	for	restoration	will not	be	possible,	and	some	period	of	time,	defined	by	regulation,	is allowed	for	producing	records	and	evidence.
 
-### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloudprovider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
+### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloud provider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
 A.	Platform    
 B.	Desktop    
 C.	Software    
@@ -1082,14 +1094,15 @@ B	is	incorrect	because	Desktop	as	a	Service	(DaaS)	works	much	like SaaS,	where	t
 
 C	is	incorrect	because	the	operating	system	with	Software	as	a	Service (SaaS)	is	solely	the	responsibility	of	the	cloud	provider,	who	itself would	retain	full	access	to	operating	system	logs.	Because	the	cloud provider	is	solely	responsible	for	the	logs,	there	would	be	little	need for	the	cloud	customer	to	have	access	to	them.
 
-### Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	theminimum	period	of	data	retention?    
+### Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	the minimum	period	of	data	retention?    
 A.	Contract     
 B.	Regulation     
 C.	System	resources    
 D.	Company	policy     
 Answer: B.	
 
-Regulation	will	dictate,	based	on	the	type	and	content	of	data,	the minimum	period	of	data	retention,	as	well	as	what	events	must	be captured	for	retention.	Regulation	is	specific	to	the	type	of	data	and the	jurisdiction	where	it	is	located	or	consumed.
+Regulation	will	dictate,	based	on	the	type	and	content	of	data,	the minimum	period	of	data	retention,	as	well	as	what	events	must	be captured	for	retention.	
+Regulation	is	specific	to	the	type	of	data	and the	jurisdiction	where	it	is	located	or	consumed.
 
 A	is	incorrect	because	a	contract	will	articulate	and	document	data retention	requirements	between	the	cloud	customer	and	the	cloud provider;	it	will	not	serve	as	the	basis	for	the	actual	policy	dictating those	requirements.
 
@@ -1097,19 +1110,18 @@ C	is	incorrect	because	system	resources	would	never	be	a	factor	for determining	
 
 D	is	incorrect	because	company	policy	forms	the	end	basis	for	data retention,	but	the	starting	point	will	always	be	regulation.	Company policies	may	always	expand	and	build	upon	regulations,	but regulations	will	always	form	the	minimum	starting	basis	for	retention requirements.
 
-### Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	setsfor	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
+### [important] Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	sets for	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
 A.	Dynamic    
 B.	Structured    
 C.	Tokenized     
 D.	Static    
 Answer: D.	    
 
-Static	masking	is	used	to	produce	full	data	sets,	with	sensitive	data removed,	often	for	the	purposes	of	testing	or	development,	where	the structure	and	size	will	need	to	resemble	production	data,	just	without the	actual	sensitive	values.
+**Static	masking	is	used	to	produce	full	data	sets,	with	sensitive	data removed,	often	for	the	purposes	of	testing	or	development,	where	the structure	and	size	will	need	to	resemble	production	data,	just	without the	actual	sensitive	values.**
 
-A	is	incorrect	because	dynamic	masking	is	done	between	the	data	and application	layers,	and	is	meant	for	transaction	purposes	rather	than
-the	production	of	data	sets.
+A	is	incorrect	because	**dynamic	masking	is	done	between	the	data	and application	layers,	and	is	meant	for	transaction	purposes	rather	than the	production	of	data	sets**.
 
-B	is	incorrect	because	“structured”	refers	to	a	type	of	storage	used under	Platform	as	a	Service	(PaaS).	It	is	not	a	masking	technique.
+B	is	incorrect	because	**“structured”	refers	to	a	type	of	storage	used under	Platform	as	a	Service	(PaaS).	It	is	not	a	masking	technique.**
 
 C	is	incorrect	because	“tokenized”	could	refer	to	tokenization,	where sensitive	data	is	replaced	by	opaque	handlers	or	descriptors,	but	with the	ability	to	map	back	to	the	original	values.	However,	this	process would	not	be	used	for	producing	test	data	sets,	where	such	a	capability would	be	inappropriate	and	unnecessary. 
  
