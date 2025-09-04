@@ -686,14 +686,15 @@ a	data	set,	typically	for	producing	sets	to	test	applications	in	nonproduction	a
 
 D	is	incorrect	because	encryption	is	used	for	protecting	the confidentiality	of	data,	not	for	altering	values	or	ensuring	the	data cannot	be	tied	through	indirect	identifiers	to	a	specific	individual.
 
-### Question # 22 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?     
+### [important] Question # 22 - Which	type	of	cloud-based	storage	is	IRM	typically	associated	with?     
 A.	Volume    
 B.	Unstructured    
 C.	Structured     
 D.	Object     
 Answer: D.	    
 
-Object	storage	is	typical	by	used	for	data	objects	and	downloads,	to which	IRM	technologies	and	strategies	are	often	applied.	Other	types of	data	are	usually	either	too	scattered	and	distributed	across	many files	or	used	too	internally	to	an	application	to	really	apply	IRM	to them.	Object	storage	is	ideal	for	IRM	implementations	because	each object	represents	a	single	data	package.
+**Object	storage	is	typical	by	used	for	data	objects	and	downloads,	to which	IRM	technologies	and	strategies	are	often	applied**.	
+Other	types of	data	are	usually	either	too	scattered	and	distributed	across	many files	or	used	too	internally	to	an	application	to	really	apply	IRM	to them.	Object	storage	is	ideal	for	IRM	implementations	because	each object	represents	a	single	data	package.
 
 A	is	incorrect	because	volume	storage	appears	as	a	traditional	file system	and	would	not	typically	represent	the	kind	of	data	that	is extracted	or	downloaded,	although	it	could	be.	Most	cloud applications	that	implement	IRM	and	offer	that	type	of	service	defer to	object	storage,	which	is	the	more	appropriate	and	correct	answer here.
 
@@ -701,14 +702,15 @@ B	is	incorrect	because	unstructured	data	is	used	within	PaaS implementations,	ty
 
 C	is	incorrect	because	structured	data,	used	within	PaaS,	represents	the type	of	data	that	is	typically	housed	with	a	database	system.	It	is	used for	the	processing	and	support	of	the	application,	rather	than	the	type of	data	that	would	be	extracted	or	saved	by	a	user	or	other	entity. Therefore,	the	application	of	IRM	would	not	be	applicable	or	useful.
 
-### Question # 23 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customerwithin	an	IaaS	service	category?     
+### Question # 23 - Which	of	the	following	is	the	sole	responsibility	of	the	cloud	customer within	an	IaaS	service	category?     
 A.	Physical	security    
 B.	Network	security    
 C.	Hypervisor	security     
 D.	Data	security     
 Answer: D.	
 
-Within	an	IaaS	implementation—and,	in	fact,	with	virtually	all cloud	hosting—data	security	is	always	the	responsibility	of	the	cloud customer.	Cloud	customers	are	responsible	for	ensuring	that	adequate controls	and	oversight	are	in	place,	either	by	implementing	them themselves	or	through	the	use	of	contracts	and	SLAs	to	meet	any policy	or	regulatory	requirements.
+**Within	an	IaaS	implementation—and,	in	fact,	with	virtually	all cloud	hosting—data	security	is	always	the	responsibility	of	the	cloud customer**.	
+Cloud	customers	are	responsible	for	ensuring	that	adequate controls	and	oversight	are	in	place,	either	by	implementing	them themselves	or	through	the	use	of	contracts	and	SLAs	to	meet	any policy	or	regulatory	requirements.
 
 A	is	incorrect	because	physical	security	in	all	cloud	service	categories is	always	the	responsibility	of	the	cloud	provider.	The	cloud	provider is	the	only	entity	that	has	physical	access	to	facilities—there	is	no reason	for	a	cloud	customer	or	user	to	even	know	or	care	where	the provider	is	located.	Although	the	cloud	provider	may	make	available to	current	and	potential	customers	certain	reports,	specifications,	or audits	of	physical	security	for	regulatory	compliance	or	to	instill	trust, it	is	extremely	unlikely	that	much	insight	would	ever	be	gained	by cloud	customers	or	that	they	would	be	allowed	much	input.
 
@@ -723,7 +725,7 @@ C.	Data	preservation
 D.	Data	warehousing     
 Answer: A.	
 
-Data	retention	is	the	process	of	collecting,	protecting,	and	storing records	for	a	defined	period	of	time.	The	exact	duration	of	time	will be	established	by	either	regulation	or	organizational	policy,	but	the requirements	from	regulation	will	always	form	the	basis	for	the minimum	duration.
+**Data	retention	is	the	process	of	collecting,	protecting,	and	storing records	for	a	defined	period	of	time**.	The	exact	duration	of	time	will be	established	by	either	regulation	or	organizational	policy,	but	the requirements	from	regulation	will	always	form	the	basis	for	the minimum	duration.
 
 B	is	incorrect	because	although	the	term	“data	archiving”	is	very similar	to	“data	retention,”	it’s	not	the	official	term.	Archiving	is	a process	that	is	part	of	data	retention,	but	it’s	focused	on	the	technical aspects,	as	opposed	to	the	entire	approach	with	management,	policy, and	regulation	attached.
 
@@ -731,7 +733,7 @@ C	is	incorrect	because	data	preservation	is	only	a	part	of	an	overall data	reten
 
 D	is	incorrect	because	data	warehousing	refers	to	the	process	of consolidating	and	storing	data	in	a	centralized	system,	which	can	then be	leveraged	for	business	intelligence	and	other	analysis.	It	does	not refer	to	the	long-term	retention	of	data,	nor	the	policies	and regulations	involved	in	it.
 
-### Question # 25 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulationand	accessing	of	data	without	having	to	unencrypt	it	first?    
+### Question # 25 - Which	type	of	new	and	emerging	encryption	allows	for	the	manipulation and	accessing	of	data	without	having	to	unencrypt	it	first?    
 A.	Dynamic    
 B.	Homomorphic     
 C.	Parallel     
@@ -746,14 +748,16 @@ C	is	incorrect	because	parallel	refers	to	multiple	processes	taking	place simult
 
 D	is	incorrect	because	heterogeneous	encryption	is	not	a	real technology	or	concept.	This	option	was	merely	provided	as	a	choice similar	to	homomorphic	encryption.
 
-### Question # 26 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	originalsource	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance?    
+### Question # 26 - Which	concept	refers	to	the	ability	to	confirm	and	validate	the	original source	of	data	or	an	operation	to	sufficiently	meet	the	required	level	of assurance?    
 A.	Nonrepudiation        
 B.	Integrity        
 C.	Authentication        
 D.	Availability      
 Answer: A.	
 
-Nonrepudiation	is	essentially	the	assurance	and	guarantee	that something	cannot	be	denied.	This	concept	is	applied	to	security	and data	in	that	the	originating	system	or	user	cannot	deny	the	validity	or authenticity	of	data	or	transactions,	thus	guaranteeing	a	high	level	of assurance.	This	is	of	particular	interest	in	digital	forensics	and	the preservation	of	evidence.
+**Nonrepudiation	is	essentially	the	assurance	and	guarantee	that something	cannot	be	denied.**	
+**This	concept	is	applied	to	security	and data	in	that	the	originating	system	or	user	cannot	deny	the	validity	or authenticity	of	data	or	transactions,	thus	guaranteeing	a	high	level	of assurance**.	
+This	is	of	particular	interest	in	digital	forensics	and	the preservation	of	evidence.
 
 B	is	incorrect	because	integrity	refers	to	ensuring	that	data	has	not been	modified	in	an	authorized	manner	or	corrupted	throughout	its lifecycle.	This	is	of	particular	importance	with	many	types	of transactions,	especially	financial,	where	correct	data	and	processing are	essential.
 
@@ -777,14 +781,18 @@ B	is	incorrect	because	infrastructure	within	the	PaaS	service	category is	the	re
 
 C	is	incorrect	because	the	main	focus	of	the	PaaS	service	category	is on	providing	an	application	framework	for	the	cloud	customer	to deploy	code	and	data	into.	The	cloud	customer	will	have	considerable input	into	and	contractual	requirements	for	the	application	framework, but	it	is	the	responsibility	of	the	cloud	provider	to	meet	and	address those	needs	to	meet	SLA	requirements.
 
-### Question # 28 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRMsolutions,	but	not	available	with	traditional	permissions	and	security settings?      
+### [important] Question # 28 - Which	of	the	following	is	a	functionality	and	tool	offered	by	IRM solutions,	but	not	available	with	traditional	permissions	and	security settings?      
 A.	Confidentiality     
 B.	Expiration      
 C.	Integrity     
 D.	Copying     
 Answer: B.	     
 
-IRM	allows	for	many	extended	security	operations	and	functions that	are	not	available	with	traditional	permissions	and	settings.	With traditional	permissions,	it	is	possible	to	limit	who	can	read	or	modify	a file,	but	with	read	permissions,	a	file	can	be	copied	very	easily	with	no limitations,	and	once	this	is	done,	it	can	be	used	forever.	Even	if	the permissions	of	the	user	are	revoked	at	some	point,	if	the	user	has copied	or	downloaded	the	data,	he	can	still	access	it.	With	IRM layered	on	top,	a	file	can	be	copied	or	downloaded	but	with	expiration restrictions	on	it.	After	the	expiration	time	has	passed,	the	file	will	no longer	be	accessible.
+[important] **IRM	allows	for	many	extended	security	operations	and	functions that	are	not	available	with	traditional	permissions	and	settings.	
+With traditional	permissions,	it	is	possible	to	limit	who	can	read	or	modify	a file,	but	with	read	permissions,	a	file	can	be	copied	very	easily	with	no limitations,	and	once	this	is	done,	it	can	be	used	forever.	
+Even	if	the permissions	of	the	user	are	revoked	at	some	point,	if	the	user	has copied	or	downloaded	the	data,	he	can	still	access	it.	
+With	IRM layered	on	top,	a	file	can	be	copied	or	downloaded	but	with	expiration restrictions	on	it.	
+After	the	expiration	time	has	passed,	the	file	will	no longer	be	accessible.**
 
 A	is	incorrect	because	confidentiality	can	be	provided	through traditional	permissions	and	settings	by	limiting	who	can	access	or	read data,	as	well	as	through	mechanisms	such	as	encryption.	However, once	the	ability	to	access	the	data	is	allowed,	there	is	nothing	to prevent	future	use	or	copying	of	data.
 
@@ -792,14 +800,15 @@ C	is	incorrect	because	integrity	can	be	assured	through	traditional permissions	
 
 D	is	incorrect	because	the	ability	to	copy	is	inherent	with	the	ability	to read	data.	If	a	user	can	access	a	file	to	read	it,	he	can	also	copy	it, either	directly	copying	the	file	as	a	whole	unit	or	copying	the	data	out of	it	and	into	another	source.	IRM	is	capable	of	preventing	data	from being	copied	even	if	the	user	can	read	it.
 
-### Question # 29 - When	an	organization	implements	an	SIEM	solution	and	beginsaggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind?     
+### [important] Question # 29 - When	an	organization	implements	an	SIEM	solution	and	begins aggregating	event	data,	the	configured	event	sources	are	only	valid	at	the time	it	was	configured.	Application	modifications,	patching,	and	other upgrades	will	change	the	events	generated	and	how	they	are	represented over	time.	What	process	is	necessary	to	ensure	events	are	collected	and processed	with	this	in	mind?     
 A.	Continual	review     
 B.	Continuous	optimization      
 C.	Aggregation	updates     
 D.	Event	elasticity      
 Answer: B.	   
 
-Continuous	optimization	is	the	process	where	event	data	is evaluated	on	an	ongoing	basis	to	catch	any	changes	in	formats	or additional	data	sources	to	correct	collection	methods.	Applications	are always	changing,	and	without	continuous	optimization,	event	data would	likely	become	stale	or	incomplete	before	long.
+**Continuous	optimization	is	the	process	where	event	data	is evaluated	on	an	ongoing	basis	to	catch	any	changes	in	formats	or additional	data	sources	to	correct	collection	methods.	
+Applications	are always	changing,	and	without	continuous	optimization,	event	data would	likely	become	stale	or	incomplete	before	long.**
 
 A	is	incorrect	because	the	term	“continual	review,”	although	it	sounds similar	to	continuous	optimization,	is	not	the	term	used	for	what	the question	is	asking.
 
@@ -808,14 +817,15 @@ C	is	incorrect	because	while	the	term	“aggregation	updates”	does sound	simil
 D	is	incorrect	because	“event	elasticity”	is	a	made-up	term	for	the purposes	of	the	question,	though	it	does	capture	the	concept	of	event data	and	pairing	with	the	elastic	nature	of	cloud	environments.
 However,	it	is	not	pertinent	to	the	question.
 
-### Question # 30 - Applying	restrictions	on	certain	activities	requires	the	use	of	informationrights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?     
+### Question # 30 - Applying	restrictions	on	certain	activities	requires	the	use	of	information rights	management	(IRM).	Which	of	the	following	would	NOT	require	an IRM	solution?     
 A.	Copy    
 B.	Rename     
 C.	Read    
 D.	Print     
 Answer: C.	   
 
-The	ability	to	restrict	who	can	read	data	or	files	does	not	require	the use	of	an	IRM	solution	and	can	be	accomplished	with	traditional security	controls	or	permissions	settings.	This	can	be	done	either through	direct	file	permissions	or	the	use	of	ACLs,	or	even	by preventing	a	user	or	process	from	getting	to	the	file	at	all.
+**The	ability	to	restrict	who	can	read	data	or	files	does	not	require	the use	of	an	IRM	solution	and	can	be	accomplished	with	traditional security	controls	or	permissions	settings.**	
+**This	can	be	done	either through	direct	file	permissions	or	the	use	of	ACLs,	or	even	by preventing	a	user	or	process	from	getting	to	the	file	at	all.**
 
 A	is	incorrect	because	a	file	that	can	be	read	can	also	be	copied.	Even if	file	permissions	restrict	the	ability	to	insert	files	onto	the	file system,	the	contents	of	the	file	can	be	copied	through	a	variety	of methods.
 
@@ -860,7 +870,8 @@ C.	Modify
 D.	Distribution      
 Answer: D.	
 
-An	IRM	solution	can	control	what	can	be	done	with	data	beyond the	capabilities	of	restricting	its	access.	With	traditional	authorization systems,	once	someone	can	read	and	access	data,	there	is	little	that	can be	done	to	prevent	them	from	copying,	printing,	sharing,	or	otherwise distributing	it.	With	an	IRM	solution,	these	other	operations	can	be largely	avoided	or	eliminated.
+**An	IRM	solution	can	control	what	can	be	done	with	data	beyond the	capabilities	of	restricting	its	access**.	
+With	traditional	authorization systems,	once	someone	can	read	and	access	data,	there	is	little	that	can be	done	to	prevent	them	from	copying,	printing,	sharing,	or	otherwise distributing	it.	With	an	IRM	solution,	these	other	operations	can	be largely	avoided	or	eliminated.
 
 A	is	incorrect	because	read	operations	can	be	controlled	by	traditional authorization	and	security	controls	and	do	not	need	an	IRM	solution. However,	an	IRM	solution	can	extend	those	controls	and	augment how	the	data	can	be	used	or	processed,	even	if	read	permissions	are granted.
 
@@ -928,14 +939,14 @@ B	is	incorrect	because	IPSec	is	used	for	securing	communications directly	betwee
 
 D	is	incorrect	because	TLS	is	now	the	default	standard	encryption	and secure	model	for	most	network	communications,	but	especially	for web	and	web	services.	It	has	several	methods	for	both	securing	and ensuring	the	authentication	of	data-in-transit	communications.
 
-### Question # 38 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	mainpitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution?     
+### [important] Question # 38 - You	are	reviewing	literature	from	a	cloud	service	provider	and	its	main pitch	to	you	involves	its	offerings	for	a	“fully	installed	and	implemented application	hosting	and	deployment	framework.”	Based	on	your understanding	of	cloud	features,	which	storage	types	are	you	expecting	to see	offered	with	this	solution?     
 A.	Volume	and	object    
 B.	Structured	and	unstructured     
 C.	Container	and	object    
 D.	Volume	and	structured     
 Answer: B.	
 
-The	phrase	“fully	installed	and	implemented	application	hosting and	deployment	framework”	describes	the	Platform	as	a	Service (PaaS)	cloud	service	category.	With	that	in	mind,	the	applicable storage	types	are	structured	and	unstructured.
+**The	phrase	“fully	installed	and	implemented	application	hosting and	deployment	framework”	describes	the	Platform	as	a	Service (PaaS)	cloud	service	category.	With	that	in	mind,	the	applicable storage	types	are	structured	and	unstructured.**
 
 A	is	incorrect	because	volume	and	object	are	applicable	to Infrastructure	as	a	Service	(IaaS).	They	are	not	storage	types	used with	PaaS,	which	is	what	the	question	asks	for.
 
@@ -943,14 +954,15 @@ C	is	incorrect	because	container	and	object	are	not	recognized	storage types	ass
 
 D	is	incorrect	because	although	both	volume	and	structured	are	storage types	used	within	cloud	environments,	they	span	two	different	cloud service	categories.	Volume	storage	is	associated	with	IaaS,	whereas structured	storage	is	associated	with	PaaS;	both	are	not	applicable	to the	PaaS	example	represented	in	the	question.
 
-### Question # 39 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?     
+### [important] Question # 39 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?     
 A.	Zeroing    
 B.	Anonymization    
 C.	Tokenization     
 D.	Obfuscation       
 Answer: A.	
 
-Zeroing	involves	replacing	and	overwriting	data	with	zeros	or	null values.	Although	it	is	a	successful	strategy	for	guaranteeing	the	secure deletion	of	data,	it	would	not	be	considered	a	method	for	protecting sensitive	data,	because	it	would	actually	destroy	the	data.
+**Zeroing	involves	replacing	and	overwriting	data	with	zeros	or	null values.**	
+Although	it	is	a	successful	**strategy	for	guaranteeing	the	secure deletion	of	data**,	**it	would	not	be	considered	a	method	for	protecting sensitive	data,	because	it	would	actually	destroy	the	data.**
 
 B	is	incorrect	because	anonymization	involves	removing	or	masking indirect	identifiers	in	data	sets	to	prevent	the	identification	of	specific individuals.	It	is	used	to	protect	sensitive	data	from	individual identification,	and	is	often	used	in	conjunction	with	other	strategies.
 
@@ -958,29 +970,30 @@ C	is	incorrect	because	tokenization	involves	replacing	sensitive	data with	opaqu
 
 D	is	incorrect	because	obfuscation	is	typically	used	as	a	method	for making	data	sets	available	for	testing	of	development	or	nonproduction	systems	by	removing	sensitive	data	or	replacing	it	with other	values.
 
-### Question # 40 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?      
+### [important] Question # 40 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?      
 A.	Mobile	security     
 B.	Human	resources      
 C.	Governance    
 D.	Financial	audit       
 Answer: D.	
 
-The	Cloud	Control	Matrix	(CCM)	serves	as	a	framework	for	cloud security	and	covers	the	areas	that	are	pertinent	to	it.	Although	the matrix	contains	main	domains	and	areas	that	are	directly	applicable	to data	security	and	cloud	data	systems,	financial	audit	is	not	included	as one	of	them.
+**[important] The	Cloud	Control	Matrix	(CCM)	serves	as	a	framework	for	cloud security	and	covers	the	areas	that	are	pertinent	to	it.**	
+Although	the matrix	**contains	main	domains	and	areas	that	are	directly	applicable	to data	security	and	cloud	data	systems**,	
+**financial	audit	is	not	included	as one	of	them.**
 
 A	is	incorrect	because	mobile	security	is	one	of	the	domains	listed	as part	of	the	CCM.
-
 B	is	incorrect	because	human	resources	is	listed	as	one	of	the	domains of	the	CCM,	as	it	pertains	directly	to	personnel	security	and	the prevention	of	malicious	insiders.
-
 C	is	incorrect	because	governance	of	IT	data	and	resources	is	a	core domain	of	the	CCM.
 
-### Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
+### [tricky and important] Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
 A.	Platform     
 B.	Software    
 C.	Infrastructure     
 D.	Desktop     
 Answer: B.	   
 
-With	Software	as	a	Service	(SaaS),	data	destruction	often	poses	the most	challenges	because	it	is	solely	the	responsibility	of	the	cloud provider,	but	also	because	most	platforms	tend	to	be	large implementations	with	many	customers	or	tenants	using	them.	This makes	assurances	of	data	destruction	more	challenging	because	the methods	and	resources	available	can	be	limited.
+**With	Software	as	a	Service	(SaaS),	data	destruction	often	poses	the most	challenges	because	it	is	solely	the	responsibility	of	the	cloud provider,	but	also	because	most	platforms	tend	to	be	large implementations	with	many	customers	or	tenants	using	them**.	
+**This makes	assurances	of	data	destruction	more	challenging	because	the methods	and	resources	available	can	be	limited**.
 
 A	is	incorrect	because	Platform	as	a	Service	(PaaS)	is	isolated	to	a specific	cloud	customer,	and	data	destruction	techniques	can	be	used without	interfering	with	others	or	causing	possible	conflicts.	The destruction	of	the	virtual	machine	wholesale	also	allows	for	options that	are	not	available	with	SaaS.
 
@@ -988,14 +1001,15 @@ C	is	incorrect	because	Infrastructure	as	a	Service	(IaaS)	is	also	focused on	a	s
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	operates	much	as SaaS	and	carries	with	it	the	same	concerns,	but	is	more	segregated	by individual	cloud	customers.
 
-### Question # 42 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primarymeans	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?      
+### [tricky ] Question # 42 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primary means	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?      
 A.	Column	names    
 B.	Content     
 C.	Filenames     
 D.	Headers    
 Answer: B.	
 
-Metadata	by	definition	is	data	about	data,	so	the	actual	content	of the	data	would	not	fit	within	this	definition.	Content	analysis	goes against	the	actual	data	and	sources	rather	than	against	metadata.
+Metadata	by	definition	is	data	about	data,	**so	the	actual	content	of the	data	would	not	fit	within	this	definition**.	
+Content	analysis	goes against	the	actual	data	and	sources	rather	than	against	metadata.
 
 A	is	incorrect	because	column	names	are	descriptive	and	structural information	about	the	data,	so	they	meet	the	definition	of	metadata. They	do	not	contain	actual	data	or	information,	only	information about	the	data	and	how	it	is	organized.
 
@@ -1003,7 +1017,7 @@ C	is	incorrect	because	filenames	are	information	about	data,	regardless of	the	n
 
 D	is	incorrect	because	headers	are	very	similar	column	names	and represent	information	about	the	data	and	how	it	is	organized	or categorized.	They	are	also	considered	metadata	and	descriptive	in nature.
 
-### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storagefrom	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
+### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storage from	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
 A.	Docker    
 B.	Object    
 C.	Structured    
@@ -1018,7 +1032,7 @@ C	is	incorrect	because	structured	storage,	where	data	is	stored	in	a database-ty
 
 D	is	incorrect	because	volume	storage,	where	data	is	stored	on	a logical	partition	resembling	a	traditional	file	system	hierarchy,	is	an official	cloud	storage	type	used	with	Infrastructure	as	a	Service	(IaaS).
 
-### Question # 44 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	oftime,	which	of	the	following	becomes	the	most	pressing	concern	over time?      
+### Question # 44 - When	data	is	required	to	be	archived	and	retained	for	extended	lengths	of time,	which	of	the	following	becomes	the	most	pressing	concern	over time?      
 A.	Encryption      
 B.	Size       
 C.	Restoration       
@@ -1033,7 +1047,7 @@ B	is	incorrect	because	although	the	size	of	archives	can	be	a	concern, especiall
 
 D	is	incorrect	because	archives	typically	are	housed	in	less	accessible means	of	storage,	many	times	on	tapes	kept	at	secure	external facilities.	When	the	need	for	restoration	arises,	it	may	take	some	time for	archives	to	be	retrieved	and	restored.	There	is	no	need	for	archives to	be	immediately	available,	and	the	contract	or	SLA	with	a	service provider	should	document	the	required	or	expected	restoration	times, ensuring	they	also	will	satisfy	any	regulatory	requirements.
 
-### Question # 45 - Which	of	the	following	data	protection	methodologies	maintains	theability	to	connect	back	values	to	the	original	values?     
+### [tricky and important] Question # 45 - Which	of	the	following	data	protection	methodologies	maintains	the ability	to	connect	back	values	to	the	original	values?     
 A.	Tokenization     
 B.	Anonymization     
 C.	Obfuscation     
@@ -1048,14 +1062,15 @@ C	is	incorrect	because	obfuscation	often	replaces	values	with	garbage or	random	
 
 D	is	incorrect	because	dynamic	mapping	can	refer	to	many	things within	a	system	or	application,	but	in	this	instance	it’s	provided	as	an erroneous	choice.
 
-### Question # 46 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	datadiscovery?      
+### Question # 46 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	data discovery?      
 A.	Labels     
 B.	Metadata     
 C.	Signature	hashing     
 D.	Content	analysis       
 Answer: C.	
 
-Data	discovery	is	focused	on	the	three	main	areas:	labels,	metadata, and	content	analysis.	Signature	hashing	may	be	used	for	some	of	these methods	for	comparison	and	efficiency,	but	it	would	be	used	as	a	tool or	process	rather	than	one	of	the	key	strategies.
+**Data	discovery	is	focused	on	the	three	main	areas:	labels,	metadata, and	content	analysis.**	
+Signature	hashing	may	be	used	for	some	of	these methods	for	comparison	and	efficiency,	but	it	would	be	used	as	a	tool or	process	rather	than	one	of	the	key	strategies.
 
 A	is	incorrect	because	labels,	which	are	applied	to	data	for	grouping	or organization,	are	commonly	used	for	the	data	discovery	processes. The	main	shortcoming	with	using	labels	is	that	the	process	is dependent	on	the	accurate	and	complete	application	of	labels	before the	data	is	processed.
 
@@ -1063,7 +1078,7 @@ B	is	incorrect	because	metadata,	or	data	about	data,	is	commonly	used as	a	strat
 
 D	is	incorrect	because	content	analysis,	which	is	done	against	the actual	data	itself,	is	a	main	strategy	for	data	discovery,	even	if	it	is	the slowest	and	least	accurate	method.	However,	as	tools	become	more mature	and	efficient,	the	use	of	content	analysis	is	rapidly	growing and	becoming	more	accurate	and	useful.
 
-### Question # 47 - Although	the	preservation	and	retention	of	data	are	the	most	importantconcepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
+### Question # 47 - Although	the	preservation	and	retention	of	data	are	the	most	important concepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
 A.	Recoverability    
 B.	Portability    
 C.	Encryption    
@@ -1094,7 +1109,7 @@ B	is	incorrect	because	Desktop	as	a	Service	(DaaS)	works	much	like SaaS,	where	t
 
 C	is	incorrect	because	the	operating	system	with	Software	as	a	Service (SaaS)	is	solely	the	responsibility	of	the	cloud	provider,	who	itself would	retain	full	access	to	operating	system	logs.	Because	the	cloud provider	is	solely	responsible	for	the	logs,	there	would	be	little	need for	the	cloud	customer	to	have	access	to	them.
 
-### Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	the minimum	period	of	data	retention?    
+### [tricky] Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	the minimum	period	of	data	retention?    
 A.	Contract     
 B.	Regulation     
 C.	System	resources    
