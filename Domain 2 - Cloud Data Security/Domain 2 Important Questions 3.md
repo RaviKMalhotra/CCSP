@@ -2,10 +2,10 @@
 A.	Structured data.   
 B.	Semi- structured data.   
 C.	RFC- defined data.   
-D.	Unstructured data.   
+**D**.	Unstructured data.   
 
 ### Question # 2 - Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. When should data be labeled in his data lifecycle?       
-A.	Creation.  
+**A**.	Creation.  
 B.	Storage.  
 C.	Use.  
 D.	Destruction.  
@@ -13,18 +13,18 @@ D.	Destruction.
 ### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization? 
 
 A. Lack of data labeling.     
-B.	Use of encryption for data in transit.  
+**B**.	Use of encryption for data in transit.  
 C.	Improper data labeling.  
 D.	Use of encryption for data at rest.  
 
 ### Question # 4 - Susan wants to ensure that super user access in her cloud environment can be properly audited. Which of the following is not a common item required for auditing of privileged user access?    
 A.	The remote IP address.  
 B.	The account used.  
-C.	The password used.  
+**C**.	The password used.  
 D.	The local IP address.  
 
 ### Question # 5 - 	Ben’s organization uses the same data deletion procedure for their on- site systems and their third- party- provided, cloud-h osted systems. Ben believes there is a problem with the process currently in use, which involves performing a single- pass zero- wipe of the disks and volumes in use before they are reused. What problem with this approach should Ben highlight for the cloud environment?   
-A.	Crypto- shredding is a secure option for third- party- hosted cloud platforms.  
+**A**.	Crypto- shredding is a secure option for third- party- hosted cloud platforms.  
 B.	Zero- wiping alone is not sufficient, and random patterns should also be used.  
 C.	Zero- wiping requires multiple passes to ensure that there will be no remnant data.   
 D.	Drives should be degaussed instead of wiped or crypto- shredded to ensure that data is fully destroyed at the physical level.   
@@ -33,7 +33,7 @@ D.	Drives should be degaussed instead of wiped or crypto- shredded to ensure tha
 A.	Restore the files from backups so that they match the dates for the hold request.  
 B.	Search for all files related to the litigation and provide them immediately to opposing counsel.   
 C.	Delete all the files named in the legal hold to limit the scope of litigation.   
-D.	Identify scope files and preserve them until they need to be produced.   
+**D**.	Identify scope files and preserve them until they need to be produced.   
 
 ### Question # 7 - Murali is reviewing a customer’s file inside of his organization’s customer relationship management tool and sees the customer’s Social Security number listed as XXX- XX- 8945. What data obfuscation technique has been used?   
 A.	Anonymization.  
