@@ -37,37 +37,37 @@ C.	Delete all the files named in the legal hold to limit the scope of litigation
 
 ### Question # 7 - Murali is reviewing a customer’s file inside of his organization’s customer relationship management tool and sees the customer’s Social Security number listed as XXX- XX- 8945. What data obfuscation technique has been used?   
 A.	Anonymization.  
-B. 	Masking.  
+**B**. 	Masking.  
 C.	Randomization.  
 D.	Hashing.  
 
 ### Question # 8 - 	An XML file is considered what type of data?    
 A.	Unstructured data.  
 B.	Restructured data.  
-C.	Semi- structured data.  
+**C**.	Semi- structured data.  
 D.	Structured data.  
 
 ### Question # 9 - Lucca wants to implement logging in an infrastructure as a service cloud service provider’s environment for his Linux instances. He wants to capture events like creation and destruction of systems, as part of scaling requirements for performance. What logging tool or service should he use to have the most insight into these events?   
 A.	Syslog from the Linux systems.  
-B.	The cloud service provider’s built- in logging function.  
+**B**.	The cloud service provider’s built- in logging function.  
 C.	Syslog- NG from the Linux systems.  
 D.	Logs from both the local event log and application log from the Linux systems.  
 
 ### Question # 10 - Joanna’s company uses a load balancer to distribute traffic between multiple web servers. What data point is often lost when traffic passes through load balancers to local web servers in a cloud environment?    
-A. The source IP address.      
+**A**. The source IP address.      
 B.	The destination port.  
 C.	The query string.   
 D.	The destination IP address.   
 
 ### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?   
-A.	Its ability to be uniquely identified. 
+*₹A**.	Its ability to be uniquely identified. 
 B.	The length of the data.  
 C.	The formatting of the data.  
 D.	The ability to sort the data based on street number.  
 
 ### Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?    
 A.	Delete all data not in secure storage.   
-B.	Store data in more than one location or service.     
+**B**.	Store data in more than one location or service.     
 C.	Avoid storing data in intact form, requiring data from more than one location to use a data set.     
 D.	Geographically separate data by at least 15 miles to ensure that a single natural disaster cannot destroy it.     
 
