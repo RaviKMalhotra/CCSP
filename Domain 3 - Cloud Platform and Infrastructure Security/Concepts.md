@@ -168,4 +168,57 @@ For CCSP → Know SDN in the context of cloud virtualization, multi-tenant isola
 
 For CISSP → Know SDN in terms of network design, controller security, risks, and controls.
 
+# Vendor lock-in vs Vendor lock-out
+
+### 🔑 Vendor Lock-In vs. Vendor Lock-Out
+1️⃣ Vendor Lock-In
+	- 👉 Definition: 
+ 		- A situation where a customer becomes dependent on a single cloud vendor for products/services and cannot easily move to another provider 
+         without significant cost, complexity, or risk.
+	- 👉 Causes: 
+ 		- Proprietary APIs, data formats, services.
+ 		- Lack of interoperability or portability.
+	- 👉 Risks:
+ 		- High switching cost.
+		- Reduced bargaining power.
+		- Limited innovation (vendor dictates roadmap).
+	- 👉 CCSP Focus:
+		- Always highlight risk of cloud adoption → migration difficulty, hidden costs, contractual dependency.
+2️⃣ Vendor Lock-Out
+	- 👉 Definition:
+		- When a vendor ends service or support abruptly, leaving customers without access to critical services/data.
+		- Sometimes called vendor lock-out risk or provider termination risk.
+	- 👉 Example:
+		- Cloud provider shutting down a service (e.g., Google Cloud IoT Core discontinuation).
+		- Sudden bankruptcy or acquisition of a provider.
+	- 👉 Risks:
+		- Data loss.
+		- Business disruption.
+		- Compliance failures.
+	- 👉 CCSP Focus:
+		- You must have exit strategies, data portability, and multi-cloud/hybrid strategies.
+3️⃣ Key Differences
+__________________________________________________________________________________________________________________________________
+Aspect						| Vendor Lock-in									| VendorLock-Out
+__________________________	|___________________________________________________|_________________________________________________
+Problem						| You cannot leave the vendor easily				| Vendor abandons you or service shuts down
+Cause						| Proprietary tech, APIs, formats					| Business decisions, bankruptcy, service retirement
+Impact						| Stick with one vendor, high migration costs		| Service disruption, sudden loss of availability/data
+CCSP Solution				| Plan for portability and interoperability			| plan for exit strategies and backups
+
+### 4️⃣ Related Must-Know Terms for CCSP
+- Along with lock-in and lock-out, here are other high-probability CCSP terms:
+1. **Data Portability** → Ability to move data easily across providers.
+2. **Interoperability** → Different systems (clouds, apps, APIs) working together.
+3. **Portability vs. Interoperability** → Portability = move your stuff; Interoperability = make them work together.
+4. **Cloud Bursting** → Shifting workloads between private & public cloud dynamically.
+5. **Shadow IT** → Unauthorized cloud use outside governance.
+6. **Exit Strategy** → Pre-defined process to safely migrate from one provider to another.
+7. **Resiliency vs. Redundancy** → Resiliency = recover quickly; Redundancy = duplicate resources.
+8. **Multi-cloud vs. Hybrid Cloud** → Multi = multiple providers; Hybrid = mix of public + private.
+
+✅ In Exam Context
+- If question says "difficulty in migrating due to proprietary APIs" → Vendor Lock-In.
+- If question says "provider abruptly discontinues service" → Vendor Lock-Out.
+
 
