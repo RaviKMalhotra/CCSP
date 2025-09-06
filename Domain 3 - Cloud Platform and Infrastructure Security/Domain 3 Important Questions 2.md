@@ -5,13 +5,13 @@ B.	Power	feeds.
 C.	Power	distribution	units.  
 D.	Building	access	points.  
 
-### Question # 2 - Limits	 within 	a 	cloud	environment	can	be	either	hard	limits	or	limits capable	of	adjusting	 to	current	demands	 and	circumstances.	Which	of	the following	 concepts	 encapsulates	allowing	a	limit	to	adjust	to	current circumstances,	without	the	actual	limit	 value	changing?   
+### Question # 2 - Limits	 within 	a 	cloud	environment	can 	be	either	hard	limits	or	limits capable 	of	adjusting	 to	 current	demands	 and	circumstances.	Which	 of	 the following	 concepts	 encapsulates	allowing 	a	 limit 	to	adjust	to	current circumstances,	without 	the	 actual 	limit	 value 	changing?   
 A.	Loaning.  
 B.	Borrowing.  
-C.	Adaptin g.  
+C.	Adapting.  
 D.	Scaling.  
 
-### Question # 3 - When 	dealing 	with	a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer 	may	want	contractual	assurances	that sufficient	resources	 to	 start	 and	operate	 their 	services	will	always	be available.	What	is	this	type	of	assurance	 called?      
+### Question # 3 - When 	dealing 	with	a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer 	may	 want	contractual	assurances	that sufficient	resources	 to	 start	 and	operate	 their 	services	will	always	be available.	What	is	this	type	of	assurance	 called?      
 A.	Limit.     
 B.	Reservation.      
 C.	Share.     
@@ -270,16 +270,15 @@ D.	When	the	image	is	offline 
 
 # ANSWERS - Comprehensive	Answers	and	Explanations
 
-### Question # 1 - 	Data	centers	 have	components	that	are 	either	internal	or	external redundancies.	Which	of	the	following	is	considered	an	internal.  redundancy?      
+### Question # 1 - 	Data	centers	 have	components	that	are 	either	internal	or	external redundancies.	Which of	the	following	is	considered	 an	internal.  redundancy?      
 A.	Generators.     
 B.	Power	feeds.      
-C.	Power	distribution	units.     
+C.	Power	 distribution 	units.     
 D.	Building	access	points.     
 Answer: C.	      
 
-Power 	distribution	units	are	internal	to	a	data	center.	
-They	distribute power	to	racks,	internal	chillers,	and	any	other	internal	systems	that need	direct	power	feeds.	
-Because	they	are	completely	internal	to	the data	center,	they	are	considered	an	internal	redundancy.
+**Power distribution	units	are	internal	to	a	data	center.	They	distribute power	to	racks,	internal	chillers,	and	any	other	internal	systems	that need	 direct 	power	feeds.	
+Because	they	are	completely	internal	to	the data	center,	they	are	considered	an	internal	redundancy.**
 
 A	is	incorrect	 because	generators	are	external	to	a	data	center	and provide	electrical	feeds	in	the	event	of	a 	utility	outage.
 Because 	they sit	outside	of	the	data	center	and	feed	power	inward,	they	are considered	an	external	redundancy.
@@ -289,7 +288,7 @@ Because	 they originate	from	outside	 the 	data	center,	they	are	considered	exte
 
 D	is	incorrect 	because	 building 	access	points	provide 	staff	access	to internal	layers	of	a	data	center	from	the	outside.	Because	they	provide external	 access	to	the	data	center,	they	are	considered	external redundancies.
 
-### Question # 2 - Limits	 within	a	cloud	environment	can	 be 	either	hard	limits	or	limits capable	of	adjusting 	to	current	demands	 and	circumstances.	Which	of	the following 	concepts	encapsulates 	allowing	a	limit to	adjust	to	current circumstances,	without	 the	actual	limit	 value	changing?       
+### Question # 2 - Limits	 within	 a	cloud	environment	can	 be 	either	hard	limits	or	limits capable 	of	adjusting 	to	current	demands	 and	circumstances.	Which	 of	 the following 	concepts	encapsulates 	allowing	a	limit to	adjust	to	current circumstances,	without	 the	actual	limit	 value	changing?       
 A.	Loaning.     
 B.	Borrowing.     
 C.	Adapting.     
@@ -305,7 +304,7 @@ C	is	incorrect	because	the	correct	term	is	borrowing,	not	adapting.
 
 D	is	incorrect	because	the	correct	term	is	borrowing,	not	scaling.
 
-### Question # 3 - When	 dealing	 with	 a	cloud	 environment	that	has	resource	pooling	and multitenancy,	a	cloud	 customer	 may	want	contractual	assurances	that sufficient	resources	 to	start 	and	 operate	their	services	will	always	be available.	What	is	this	type	of	assurance 	called?       
+### [important] Question # 3 - When	 dealing	 with	 a	cloud	 environment	that	has	resource	pooling	 and multitenancy,	a	cloud	 customer	 may	want	contractual	assurances	that [sufficient	resources	] to	start 	and	 operate 	their 	services	 will 	always 	be available.	What	is	this	type	of	assurance 	called?       
 A.	Limit.             
 B.	Reservation.              
 C.	Share.              
@@ -323,7 +322,7 @@ C	is	incorrect	because	the	concept	of	shares	within	a	cloud environment	is	used	
 
 D	is	incorrect	because	although	the	term	guarantee	sounds	similar	in concept	to	reservation,	it	is	not	the	correct	term	being	asked	for	by	the question.
 
-### Question # 4 - A	BCDR	plan	has	several	different	 types	of	operations	and 	major components.	Which	of	the	following	is	the 	most	often 	overlooked	part	of the	overall	process,	both	in	testing 	and 	in	planning?      
+### Question # 4 - A	BCDR	plan	has	several	different	 types	of	operations	and 	major components.	Which	of	the	following	 is 	the 	most	often 	overlooked 	part	of the	overall	process,	both	in	testing 	and 	in	planning?      
 A.	Recovery	of	services.           
 B.	Change	management 	processes.       
 C.	Staff 	availability 	and 	demands.       
@@ -338,7 +337,7 @@ B	is	incorrect	because	most	BCDR	planning	does	a	good	job	of ensuring	that	chang
  	
 C	is	incorrect	because	the	availability	of	staff	and	the	demands	placed upon	them	are	tightly	coupled	with	the	restoration	of	services,	and	as such	would	not	be	overlooked.
 
-### Question # 5 - What	concept 	allows	users	 or	support 	staff	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative	interfaces?  
+### Question # 5 - What 	concept 	allows	users	 or	support 	staff 	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative	interfaces?  
 A.	Logical	networks. 
 B.	VLANs. 
 C.	Broad	network	access. 
