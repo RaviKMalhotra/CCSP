@@ -60,7 +60,7 @@ C.	The query string.
 D.	The destination IP address.   
 
 ### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?   
-*₹A**.	Its ability to be uniquely identified. 
+**A**.	Its ability to be uniquely identified. 
 B.	The length of the data.  
 C.	The formatting of the data.  
 D.	The ability to sort the data based on street number.  
@@ -73,18 +73,18 @@ D.	Geographically separate data by at least 15 miles to ensure that a single nat
 
 ### Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?    
 A.	Long- term storage.  
-B.	Ephemeral storage.    
+**B**.	Ephemeral storage.    
 C.	Raw storage.   
 D.	Volume- based storage.   
 
 ### Question # 14 - Steve is working to classify data based on his organization’s data classification policies. Which of the following is not a common type of classification?    
-A.	Size of the data.   
+**A**.	Size of the data.   
 B.	Sensitivity of the data.  
 C.	Jurisdiction covering the data.  
 D.	Criticality of the data.   
 
 ### Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?    
-A.	Data labeling.   
+**A**.	Data labeling.   
 B.	Data classification.   
 C.	Hashing.    
 D.	Geolocation tagging.   
@@ -93,35 +93,35 @@ D.	Geolocation tagging.
 A.	To allow for data dispersion.   
 B.	To ensure the files are not copied.	  
 C.	To keep the files secure by encrypting them.   
-D.	To support nonrepudiation.   
+**D**.	To support nonrepudiation.   
 
 ### Question # 17 - Valerie is performing a risk assessment for her cloud environment and wants to identify risks to her organization’s ephemeral volume- based storage used for system drives in a scalable, virtual machine–based environment. Which of the following is not a threat to ephemeral storage?      
 A.	Inadvertent exposure.  
 B.	Malicious access due to credential theft.   
-C.	Poor performance due to its ephemeral nature.   
+**C**.	Poor performance due to its ephemeral nature.   
 D.	Loss of forensic artifacts.   
 
 ### Question # 18 - Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?    
 A.	Ephemeral storage.   
-B.	Raw storage.   
+**B**.	Raw storage.   
 C.	Long-term storage.   
 D.	Magneto- optical storage.  
 
 ### Question # 19 - Kathleen wants to perform data discovery across a large data set and knows that some data types are more difficult to perform discovery on than others. Which of the following data types is the hardest to perform discovery actions on?    
-A.	Unstructured data.  
+**A**.	Unstructured data.  
 B.	Semi- structured data.   
 C.	Rigidly structured data.   
 D.	Structured data.   
 
 ### Question # 20 - Isaac wants to filter events based on the country of origin for authentications. What log information should he use to perform a best- effort match for logins?      
-A. userID.   
+A.  userID.   
 B.	IP address.   
-C.	Geolocation.   
+**C**.	Geolocation.   
 D.	MAC address.   
 
 ### Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?    
 A.	Hashing.  
-B.	Shuffling.  
+**B**.	Shuffling.  
 C.	Randomization.  
 D.	Masking.  
 
@@ -129,22 +129,22 @@ D.	Masking.
 A.	The logging may not be accurate.    
 B.	Logging may be automatically disabled if too many events occur.     
 C.	Creation and deletion events cannot be logged in filesystems.     
-D.	The high volume of logging may increase operational costs.    
+**D**.	The high volume of logging may increase operational costs.    
 
 ### Question # 23 - Diana is outlining the labeling scheme her organization will use for their data. Which of the following is not a common data label?     
 A.	Creation date     
-B.	Data monetary value     
+**B**.	Data monetary value     
 C.	Date of scheduled destruction     
 D.	Confidentiality level     
 
 ### Question # 24 - Susan wants to be prepared for legal holds. What organizational policy often accounts for legal holds?      
 A.	Data classification policy     
-B.	Retention policy     
+**B**.	Retention policy     
 C.	Acceptable use policy      
 D.	Data breach response policy      
 
 ### Question # 25 - Henry wants to follow the OWASP guidelines for key storage. Which of the following is not a best practice for key storage?     
-A.	Keys must be stored in plaintext to allow for access.     
+**A**.	Keys must be stored in plaintext to allow for access.     
 B.	Keys must be protected in both volatile and persistent memory.     
 C.	Keys stored in databases should be encrypted using key encryption keys.      
 D.	Keys should be protected in storage to ensure that they are not modified or changed inadvertently.      
@@ -152,47 +152,47 @@ D.	Keys should be protected in storage to ensure that they are not modified or c
 ### Question # 26 - Marco wants to implement an information rights management tool. What phase of the data lifecycle relies heavily on IRM to ensure the organization retains control of its data?     
 A.	Create   
 B.	Store   
-C.	Share    
+**C**.	Share    
 D.	Destroy    
 
 ### Question # 27 - JSON is an example of what type of data?      
 A.	Structured data  
-B.	Semi- structured data   
+**B**.	Semi- structured data   
 C.	Unstructured data     
 D.	Labeled data     
 
 ### Question # 28 - 	Charleen wants to perform data discovery on her organization’s data, which is stored in archival storage hosted by her organization’s cloud service provider. What issue should she point out about this discovery plan?    
-A.	It may be slow and costly due to how archival storage is designed and priced.    
+**A**.	It may be slow and costly due to how archival storage is designed and priced.    
 B.	The data may not exist because it has been archived.     
 C.	The discovery process cannot be run against archival storage because it is not online under normal circumstances.    
 D.	The data will need to be decrypted before being scanned for discovery purposes.     
 
 ### Question # 29 - 	Ujama’s manager has asked him to perform data mapping to prepare for his next task. What will Ujama be doing?     
 A.	Adding data labels to unstructured data     
-B.	Matching fields in one database to fields in another database      
+**B**.	Matching fields in one database to fields in another database      
 C.	Identifying the storage locations for files of specific types on system drives      
 D.	Building a file and folder structure for data storage     
 
 ### Question # 30 - Lin wants to ensure that her organization’s data labels remain with the data. How should she label her data to give it the best chance of retaining its labels?      
-A. Embed the labels in the filename.      
+A. 	Embed the labels in the filename.      
 B.	Add the labels to the file’s content at the beginning of the file.      
-C.	Add labels to the file metadata.     
+**C**.	Add labels to the file metadata.     
 D.	Add the labels to the file’s content at the end of the file.     
 
 ### Question # 31 - 	Nina’s organization has lost the cryptographic keys associated with one of their cloud- based servers. What can Nina do to recover the data the keys were used to protect? 
 A. Generate new keys to recover the data.   
 B. Use the passphrase for the keys to recover the keys.      
 C. Reverse the hash that was used to encrypt the data.      
-D. The data is lost and Nina cannot recover it.    
+**D**. The data is lost and Nina cannot recover it.    
 
 ### Question # 32 - 	Madani is planning to perform data discovery on various data sets and files his organization has. On which type of data will discovery be most easily performed?      
 A.	Unstructured data     
 B.	Semi- structured data      
 C.	Encrypted data     
-D.	Structured data     
+**D**.	Structured data     
 
 ### Question # 33 - Ashley tracks the handling of a forensic image, including recording who handles it, when it was collected and when each transfer occurs, and why the transfer occurred. What practice is Ashley performing?      
-A.	Documenting chain of custody    
+**A**.	Documenting chain of custody    
 B.	Ensuring repudiation     
 C.	A legal hold    
 D.	Forensic accounting     
@@ -201,34 +201,34 @@ D.	Forensic accounting
 A.	Identifying classification levels     
 B.	Assigning responsibilities     
 C.	Defining roles     
-D.	Mapping data      
+**D**.	Mapping data      
 
 ### Question # 35 - Hiroyuki wants to optimize his organization’s data labeling process. How and when should he implement data labeling to be most efficient and effective?     
 A.	Manual labeling at the data creation stage    
-B.	Automated labeling at the data creation stage    
+**B**.	Automated labeling at the data creation stage    
 C.	Automated labeling at the data use stage    
 D.	Manual labeling at the data use stage     
 
 ### Question # 36 - Jen wants to ensure that keys used by individuals in her organization can be handled properly. Which of the following is not a best practice for handling long- term keys in use by humans?     
-A.	Anonymize access using the key    
+**A**.	Anonymize access using the key    
 B.	Identify the key user    
 C.	Identify when the key is used     
 D.	Uniquely tag the keys     
 
 ### Question # 37 - Danielle wants to ensure that the data stored in her cloud- hosted datacenter is properly destroyed when it is no longer needed. Which of the following options should she choose?     
 A.	Physical destruction of the media    
-B.	Crypto- shredding    
+**B**.	Crypto- shredding    
 C.	Degaussing    
 D.	Overwriting    
 
 ### Question # 38 - 	Charles wants to use tokenization as a security practice for his organization’s data. What technical requirement will he have to meet to accomplish this?     
 A. He will need to encrypt his data.    
-B.	He will need two distinct databases.     
+**B**.	He will need two distinct databases.     
 C.	He will need to use a FIPS 140- 2 capable cryptographic engine to create tokens.     
 D.	He will need to deidentify the data.    
 
 ### Question # 39 - Once Charles has his two databases ready, what step comes next in the tokenization process?     
-A.	Data discovery to identify sensitive data     
+**A**.	Data discovery to identify sensitive data     
 B.	Tokenization of the index values     
 C.	Hashing each item in the database      
 D.	Randomization of data in the database to prepare for tokenization     
@@ -236,11 +236,11 @@ D.	Randomization of data in the database to prepare for tokenization
 ### Question # 40 - 	Jack wants to understand how data is used in his organization. What tool is often used to help IT professionals understand where and how data is used and moved through an organization?      
 A. Data classification    
 B.	Data mapping     
-C.	Dataflow diagrams     
+**C**.	Dataflow diagrams     
 D.	Data policies     
 
 ### Question # 41 - 	Annie has a database with a field titled “chosen name” and she has another database with a field titled “name.” She knows that these fields are used for the same purpose in her organization and wants to use data from both databases. What process could she use to match these and other fields to allow her to do so more easily?     
-A.	Data mapping     
+**A**.	Data mapping     
 B.	Column consolidation     
 C.	Data labeling     
 D.	Columnar aggregation      
@@ -249,41 +249,40 @@ D.	Columnar aggregation
 A.	Data types or fields    
 B.	Services 
 C. Systems    
-D. Data lifespan information     
+**D**. Data lifespan information     
 
 ### Question # 43 - 	Jim’s organization wants to implement cryptographic erasure as their primary means of destroying data when they are done with it. What first step is required to support this through the data’s lifecycle?     
 A.	Hash all of the data at creation.     
 B.	Zero- wipe drives before they are used to ensure no previous data is resident.    
-C.	Encrypt the drive or volume at creation.     
+**C**.	Encrypt the drive or volume at creation.     
 D.	All of the above.    
 
 ### Question # 44 - 	Charles wants to store data in a relational database, which uses columns and tables that describe the data. Which of the following types of data cannot be easily stored in a relational database other than as a text blob?    
 A.	Structured data    
 B.	Semi- structured data    
-C.	Unstructured data    
+**C**.	Unstructured data    
 D.	All of the above    
 
 ### Question # 45 - Olivia wants to write a data retention policy for her organization. Which list best describes common components of a retention policy?    
-A.	Retention periods, regulatory compliance requirements, data classification, data deletion and lifespan, and archiving and retrieval procedures.     
+**A**.	Retention periods, regulatory compliance requirements, data classification, data deletion and lifespan, and archiving and retrieval procedures.     
 B.	Retention periods, logging, data classification, data deletion processes, and compliance requirements.    
 C.	Data classification requirements, regulatory compliance requirements, data creation and tagging requirements, and data retrieval procedures.    
 D.	Regulatory and compliance requirements and mapping to retention periods for the organization, legal hold processes, and data deletion requirements.   
 
-### Question # 46 - Hui wants to revoke a certificate issued by her information rights management (IRM) system. 
-How can she verify that the certificate has been revoked?     
+### Question # 46 - Hui wants to revoke a certificate issued by her information rights management (IRM) system. How can she verify that the certificate has been revoked?     
 A.	Issue a new certificate using the same information as the original certificate.    
 B.	Attempt to access the data using her own certificate.     
-C.	Check the IRM’s certificate revocation list.     
+**C**.	Check the IRM’s certificate revocation list.     
 D.	Delete the private keys for the original certificate.    
 
 ### Question # 47 - 	Frank’s organization is preparing to adopt an information rights management tool. What IRM capability focuses on providing rights to individuals based on their roles to ensure appropriate data access?     
 A.	Tagging.   
 B.	Data labeling.   
 C.	Encryption.  
-D.	Provisioning.   
+**D**.	Provisioning.   
 
 ### Question # 48 - Randy is following his organization’s data classification policy and tags data that was identified in the organization’s business impact analysis. What type of classification is Randy performing?     
-A. Criticality.   
+**A**. Criticality.   
 B.	Jurisdiction.   
 C.	Security.   
 D.	Sensitivity.   
@@ -291,13 +290,13 @@ D.	Sensitivity.
 ### Question # 49 - Susan is concerned that her organization doesn’t understand how a critical application works in their cloud environment. Recent issues indicate that her organization’s developers and cloud architects have different ideas about how systems and services work together. What should Susan prepare to help document and explain how systems and services work together?    
 A.	Data classification.   
 B.	A business impact analysis.  
-C.	A dataflow diagram.  
+**C**.	A dataflow diagram.  
 D.	Data mapping.  
 
 ### Question # 50 - Jane is considering data dispersion as a security and availability strategy for her organization. What risk should she highlight as the most significant potential problem if her organization does adopt a multivendor approach to dispersion?     
 A.	Data dispersion makes it difficult to encrypt data.    
 B.	Geographic dispersion may impact performance.    
-C.	An outage at a provider may result in data not being available.  
+**C**.	An outage at a provider may result in data not being available.  
 D.	Most cloud vendors do not offer support for dispersion.   
 
 ### Question # 51 - 	Selah is implementing an information rights management system. What requirement will she encounter if she wants to control files on workstations and laptops?   
