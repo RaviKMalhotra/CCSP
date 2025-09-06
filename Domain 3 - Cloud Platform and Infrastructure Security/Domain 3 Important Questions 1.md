@@ -8,7 +8,9 @@ C. Use another cloud provider for the BC/DR backup.
 D. Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.  
 Answer: C. 
 
-It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; this will be more complicated and expensive, but it provides the best redundancy and resiliency. Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
+It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; **this will be more complicated and expensive, but it provides the best redundancy and resiliency.** 
+Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. 
+Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
 
 ### [important] Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a table top test of the BC/DR activity. Which of the following will offer the best value during the test?  
 A. Have all participants conduct their individual activities via remote meeting technology.  
@@ -25,7 +27,7 @@ Option A is not preferable because having the participants gathered together ens
 
 **Option D is not useful in a tabletop exercise; only critical participants in the organization should take part in the tabletop**.
 
-### Question # 3 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?  
+### [tricky] Question # 3 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?  
 A. Enough personnel at the BC/DR recovery site to ensure proper operations.  
 B. Good cryptographic key management.  
 C. Access to the servers where the BC/DR backup is stored.  
@@ -33,7 +35,7 @@ D. Forensic analysis capabilities.
 Answer: B.
 
 This is a difficult question that requires a great deal of thought. 
-Option B is corect because appropriate cloud data security practices will require encrypting a great deal of the data, and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data. 
+[important] Option B is corect because appropriate cloud data security practices will require encrypting a great deal of the data, **and having the keys will be necessary during contingency operations in order to access the backup; without the keys, you won’t be able to access your data.** 
 
 Option A is not correct because using the cloud for BC/DR will allow personnel to access the backup from anywhere they can get broadband connectivity, not specifically a recovery site. 
 
@@ -41,18 +43,22 @@ Option C is not correct because the customer will rarely have physical access to
 
 Option D is not correct because forensic analysis is not a significant consideration in BC/DR; it is much more important for incident response.
 
- ### Question # 4 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?   
+### [important] Question # 4 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You are going to conduct a full test of the BC/DR plan. Which of the following strategies is an optimum technique to avoid major issues?   
 A. Have another full backup of the production environment stored prior to the test.    
 B. Assign all personnel tasks to perform during the test.    
 C. Have the cloud provider implement a simulated disaster at a random moment in order to maximize realistic testing.    
 D. Have your regulators present at the test so they can monitor performance.     
 Answer: A.    
 
-**A full test will involve both the production environment and the backup data**; 
+[important] **A full test will involve both the production environment and the backup data**; 
 **it is possible to create an actual disaster during a full test by ruining the availability of both.** 
 **Therefore, it is crucial to have a full backup, distinct from the BC/DR backup, in order to roll back from the test in case something goes horribly wrong.** 
 
-Option B is incorrect because not all personnel will have tasks to perform; most personnel will have to evacuate from the facility only during a full test. Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. Option D is not correct because the regulators’ presence will not add any value to the test.
+Option B is incorrect because not all personnel will have tasks to perform; **most personnel will have to evacuate from the facility only during a full test**. 
+
+Option C is incorrect because the cloud provider should not initiate the test, and the test should not take place at a random moment. 
+
+Option D is not correct because the regulators’ presence will not add any value to the test.
 
 ### Question # 5 - A Security Assertion Markup Language (SAML) identity assertion token uses the ___________________.   protocol.   
 A. Extensible Markup Language (XML).  
@@ -62,7 +68,8 @@ D. American Standard Code for Information Interchange (ASCII).
 Answer: A. 
 
 **Security Assertion Markup Language (SAML) is based on XML.** 
-HTTP is used for port 80 web traffic; HTML is used to present web pages. 
+HTTP is used for port 80 web traffic; 
+HTML is used to present web pages. 
 ASCII is the universal alphanumeric character set.
 
 ### Question # 6 - The minimum essential characteristics of a cloud data center are often referred to as “ping, power, pipe.” What does this term mean?  
@@ -81,7 +88,9 @@ C. Administrative offices.
 D. Internet service provider (ISP)/connectivity lines.  
 Answer: C. 
 
-The administrative offices of a cloud data center rarely are part of the critical functions of the operation; a data center could likely endure the loss of the administrative offices for a considerable length of time, so redundancy here is probably not cost effective.
+The administrative offices of a cloud data center rarely are part of the critical functions of the operation; 
+a data center could likely endure the loss of the administrative offices for a considerable length of time, 
+so redundancy here is probably not cost effective.
 All the other items are part of the critical path and need redundancies.
 
 ### Question # 8 - Who is the cloud carrier?    
@@ -115,6 +124,7 @@ D. Router; host.
 Answer: B.  
 
 **The NBI usually handles traffic between the SDN controllers and SDN applications.**
+
 Options A and C are incorrect because neither of those options lists any of the SDN infrastructure, be that the controllers or the applications. 
 Option D may be arguably correct, as there might be an NBI handling that traffic between those nodes, but option B is more specific and always true for this definition, so it is the better choice.
 
@@ -160,9 +170,10 @@ B. Shares
 C. Cancellations   
 D. Limits    
 Answer: C.   
-Cancellations is not a term used to describe a resource allotment methodology. All of the other options are such terms.
 
-### Question # 15 - Which of the following is a method for apportioning resources that involves setting guaranteed minimums for all tenants/customers within the environment?     
+Cancellations is not a term used to describe a resource allotment methodology. **All of the other options are such terms.**
+
+### [important and tricky] Question # 15 - Which of the following is a method for apportioning resources that involves setting [guaranteed minimums for all tenants/customers within the environment?]     
 A. Reservations    
 B. Shares     
 C. Cancellations     
@@ -173,7 +184,7 @@ The question is the definition of reservations.
 Options B and D are also resource apportioning methods, but they do not fall under the definition described in the question.
 Option C is incorrect because it has no meaning in this context.
 
-### Question # 16 - Which of the following is a method for apportioning resources that involves setting maximum usage amounts for all tenants/customers within the environment?     
+### Question # 16 - Which of the following is a method for apportioning resources that involves setting [maximum usage] amounts for all tenants/customers within the environment?     
 A. Reservations         
 B. Shares      
 C. Cancellations        
@@ -184,7 +195,7 @@ The question describes limits.
 Options A and B are also resource apportioning methods, but they do not fall under the definition described in the question.
 Option C is because it has no meaning in this context.
 
-### Question # 17 - Which of the following is a method for apportioning resources that involves prioritizing resource requests to resolve contention situations?       
+### [important] Question # 17 - Which of the following is a method for apportioning resources that involves [prioritizing resource requests] to resolve contention situations?       
 A. Reservations      
 B. Shares         
 C. Cancellations         
@@ -226,14 +237,16 @@ A Type 2 hypervisor relies on the underlying operating system (OS) to operate pr
 A Type 1 hypervisor boots directly from the hardware; it’s much easier to secure a machine’s Basic Input/Output System (BIOS) than an entire OS, so option B is better than option A.
 Options C and D are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 21 - One of the security challenges of operating in the cloud is that additional controls must be placed on file storage systems because ___________________.    
+### [very important] Question # 21 - One of the security challenges of operating in the cloud is that additional controls must be placed on file storage systems because ___________________.    
 A. File stores are always kept in plain text in the cloud       
 B. There is no way to sanitize file storage space in the cloud      
 C. Virtualization necessarily prevents the use of application-based security controls      
 D. Virtual machines are stored as snapshotted files when not in use      
 Answer: D.       
 
-**VMs are snapshotted and simply stored as files when they are not being used; an attacker who gains access to those file stores could ostensibly steal entire machines in highly portable, easily copied formats. Therefore, these cloud storage spaces must include a significant amount of controls.**
+**VMs are snapshotted and simply stored as files when they are not being used; 
+an attacker who gains access to those file stores could ostensibly steal entire machines in highly portable, easily copied formats. 
+Therefore, these cloud storage spaces must include a significant amount of controls.**
 
 Options A and C are simply untrue.
 Option B is untrue when crypto-shredding is utilized.
@@ -248,7 +261,7 @@ Answer: C.
 While options A and B are both also true, C is the most significant reason cloud data centers use VMs. If the cloud provider had to purchase a new box for every user, the cost of cloud services would be as much as running a traditional environment (or likely cost even more), and there would be no reason for any organization to migrate to the cloud, especially considering the risks associated with disclosing data to a third party.
 Option D is simply untrue. VMs are not easier to operate than actual devices.
 
-### Question # 23 - Orchestrating resource calls is the job of the ___________________.        
+### [important] Question # 23 - Orchestrating resource calls is the job of the ___________________.        
 A. Administrator.           
 B. Router.        
 C. VM.     
@@ -260,7 +273,7 @@ Option A is incorrect; the allocation of resources is not performed manually.
 The router directs traffic between networks; it does not apportion resources. Therefore, option B is incorrect.
 A VM makes resource calls; option C is incorrect.
 
-### Question # 24 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?        
+### [tricky] Question # 24 - Which of the following terms describes a cloud storage area that uses a filesystem/hierarchy?        
 A. Volume storage.   
 B. Object storage.    
 C. Logical unit number (LUN).   
@@ -270,7 +283,7 @@ Answer: B.
 **Object storage is, literally, a means of storing objects in a hierarchy such as a file tree.**
 All the other options are terms used to describe cloud storage areas without file structures.
 
-### Question # 25 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?    
+### [important] Question # 25 - Typically, which form of cloud storage is used in the near term for snapshotted virtual machine (VM) images?    
 A. Volume storage.   
 B. Object storage.    
 C. Logical unit number (LUN).   
