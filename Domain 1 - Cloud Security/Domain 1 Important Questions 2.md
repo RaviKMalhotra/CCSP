@@ -2,7 +2,7 @@
 ### Question # 1 - Which	concept	of	cloud	computing	pertains	to	the	ability	for	a	cloud customer	and	users	to	access	their	services	through	a	variety	of	different devices	and	locations?  
 A.	Interoperability     
 B.	Open	source      
-**C.**	Broad	network	access  
+C	  Broad	network	access  
 D.	Single	sign-on.       
 
 ### Question # 2 - Your	new	contract	with	a	customer	requires	the	certification	of cryptographic	modules	used	within	your	systems	and	applications.	Which certification	framework	would	be	the	MOST	appropriate	to	utilize	to comply	with	the	contractual	requirements?   
@@ -47,13 +47,13 @@ B.	Firewall
 C.	Operating	system   
 D.	IDS    
 
-### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?  
+### Question # 9 - Which	cloud	service	category	brings	with	it	the	most	expensive	startupvcosts,	but	also	the	lowest	costs	for	ongoing	support	and	maintenance	staff?  
 A.	IaaS  
 B.	SaaS  
 C.	PaaS  
 D.	DaaS  
 
-### Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutralencryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?   
+### Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutralvencryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?   
 A.	Public   
 B.	Hybrid   
 C.	Private  
