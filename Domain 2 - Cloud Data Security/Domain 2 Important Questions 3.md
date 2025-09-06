@@ -64,13 +64,13 @@ B.	The length of the data.
 C.	The formatting of the data.  
 D.	The ability to sort the data based on street number.  
 
-### Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?    
+### [important] Question # 12 - Amanda’s operating procedures for secure data storage require her to ensure that she is using data dispersion techniques. What does Amanda need to do to be compliant with this requirement?    
 A.	Delete all data not in secure storage.   
 B.	Store data in more than one location or service.     
 C.	Avoid storing data in intact form, requiring data from more than one location to use a data set.     
 D.	Geographically separate data by at least 15 miles to ensure that a single natural disaster cannot destroy it.     
 
-### Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?    
+### [tricky and important] Question # 13 - 	Lisa runs Windows instances in her cloud- hosted environment. Each Windows instance is created with a C: drive that houses the operating system and application files. What type of storage best describes the C: drive for these Windows instances?    
 A.	Long- term storage.  
 B.	Ephemeral storage.    
 C.	Raw storage.   
@@ -82,7 +82,7 @@ B.	Sensitivity of the data.
 C.	Jurisdiction covering the data.  
 D.	Criticality of the data.   
 
-### Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?    
+### [important] Question # 15 - Chris is reviewing his data lifecycle and wants to take actions in the data creation stage that can help his data loss prevention system be more effective. Which of the following actions should he take to improve the success rate of his DLP controls?    
 A.	Data labeling.   
 B.	Data classification.   
 C.	Hashing.    
@@ -100,7 +100,7 @@ B.	Malicious access due to credential theft.
 C.	Poor performance due to its ephemeral nature.   
 D.	Loss of forensic artifacts.   
 
-### Question # 18 - Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?    
+### [ critical and important ] Question # 18 - Which storage type is most likely to have remnant data issues in an environment in which the storage is reused for other customers after it is reallocated if it is not crypto- shredded when it is deallocated and instead is zero- wiped?    
 A.	Ephemeral storage.   
 B.	Raw storage.   
 C.	Long-term storage.   
