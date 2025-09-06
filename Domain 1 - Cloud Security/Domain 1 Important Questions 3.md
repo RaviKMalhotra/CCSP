@@ -1,14 +1,14 @@
 
 ### Question # 1 - Matthew is reviewing a new cloud service offering that his organization plans to adopt. In this offering, a cloud provider will create virtual server instances under the multitenancy model. Each server instance will be accessible only to Matthew’s company. What cloud deployment model is being used?
 A.	Hybrid cloud  
-B.	Public cloud  
+**B**.	Public cloud  
 C.	Private cloud  
 D.	Community cloud  
 
 ### Question # 2 - Zeke is responsible for sanitizing a set of solid- state drives (SSDs) removed from servers in his organization’s datacenter. The drives will be reused on a different project. Which one of the following sanitization techniques would be most effective?   
 A.	Cryptographic erasure  
 B.	Physical destruction  
-C.	Degaussing  
+**C**.	Degaussing  
 D.	Overwriting  
 
 ### Question # 3 - Tina would like to use a technology that will allow her to bundle up workloads and easily move them between different operating systems. What technology would best meet this need?   
