@@ -1,4 +1,6 @@
 # Domain 3 Cloud Platform and Infrastructure Security Concepts
+- SAML
+- SDWAN
 
 # SAML
 
@@ -73,3 +75,97 @@ Best for			| Federated SSO between orgs 		|
 ____________________________________________________________________________________________________________________________________
 - OAuth 2.0 Access Token
 - OpenID Connect (OIDC) ID Token
+
+
+# SDWAN
+
+## 🖧 Software-Defined Networking (SDN) for CCSP & CISSP
+- 👌 SDN (Software-Defined Networking) is important for both CCSP and CISSP because it changes how networking, cloud, and security are managed. Let me break this down from exam perspective for you.
+
+## 1️⃣ Core Concept
+- Traditional Networking → Control plane (decision-making) + Data plane (traffic forwarding) are tightly coupled in each device.
+
+SDN → Separates these two:
+
+Control plane → centralized controller (brains).
+
+Data plane → switches/routers just forward packets.
+
+Achieved through APIs (e.g., OpenFlow).
+
+2️⃣ Why SDN Matters in Security
+
+Centralized control = better visibility.
+
+Security policies can be applied dynamically across the network.
+
+Supports automation and rapid response to threats.
+
+Enables microsegmentation (isolate workloads easily).
+
+3️⃣ Key Benefits (Exam Keywords)
+
+✅ Programmability → Network behavior controlled via software.
+✅ Agility → Faster deployment of security policies.
+✅ Centralized Management → One pane of glass for policies.
+✅ Cost Efficiency → Commodity hardware, less proprietary lock-in.
+✅ Enhanced Security → Dynamic segmentation, real-time threat response.
+
+4️⃣ Risks & Security Concerns (important for exam)
+
+⚠️ Single Point of Failure → SDN controller compromise = whole network at risk.
+⚠️ API Vulnerabilities → Malicious actors can exploit weak APIs.
+⚠️ East-West Traffic Blindness → Without proper monitoring, lateral movement possible.
+⚠️ DoS Attacks on Controller → Can overwhelm central brain.
+⚠️ Virtual Network Sprawl → Misconfigurations can spread quickly.
+
+5️⃣ Security Controls for SDN
+
+🔒 Strong Authentication/Authorization for controller access.
+🔒 Encrypt API communications between controller and devices.
+🔒 Redundant Controllers to avoid single point of failure.
+🔒 Network Monitoring & Logging integrated with SIEM.
+🔒 Zero Trust & Microsegmentation to contain lateral movement.
+
+6️⃣ Exam-Specific Focus
+CCSP Angle
+
+Relates to cloud infrastructure security (Domain 3).
+
+SDN underpins cloud networking, multi-tenant isolation, virtual firewalls, and software-defined perimeters (SDP).
+
+Expect questions on:
+
+Benefits of SDN in cloud environments.
+
+Risks when central controller is compromised.
+
+How SDN supports elastic scaling and security orchestration.
+
+CISSP Angle
+
+Falls under Domain 4: Communication & Network Security.
+
+Exam tests conceptual understanding:
+
+Separation of control and data planes.
+
+Security advantages vs. new attack surfaces.
+
+The importance of controller redundancy & integrity.
+
+CISSP wants you to think like a CISO/architect → risk vs. control.
+
+7️⃣ Quick Exam Mnemonics
+
+SDN = C-D-S → Control plane separated, Dynamic, Software-driven.
+
+Risk = CAPE → Controller compromise, API abuse, Policy misconfig, East-West attacks.
+
+✅ In short:
+
+For CCSP → Know SDN in the context of cloud virtualization, multi-tenant isolation, automation, and microsegmentation.
+
+For CISSP → Know SDN in terms of network design, controller security, risks, and controls.
+
+
