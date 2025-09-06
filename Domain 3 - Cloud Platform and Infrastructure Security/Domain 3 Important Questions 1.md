@@ -315,7 +315,8 @@ C. Use strong cryptography.
 D. Use favorable contract language.     
 Answer: D. 
 
-**The contract is probably the cloud customer’s best tool for avoiding vendor lock-in; contract terms will establish how easy it is to migrate your organization’s data to another provider in a timely, cost-effective manner.**
+**The contract is probably the cloud customer’s best tool for avoiding vendor lock-in; 
+contract terms will establish how easy it is to migrate your organization’s data to another provider in a timely, cost-effective manner.**
 
 Options A and B are also important ways to avoid vendor lock-in, but D is the best answer.
 Option C is incorrect and will not aid in avoiding vendor lock-in.
@@ -330,7 +331,7 @@ Answer: C.
 
 Cloud providers, cloud customers, and ISPs are not particularly concerned about whether an organization’s migration is satisfactory from a compliance perspective. The words, “compliance perspective” should automatically bring to mind regulator(s). Options A, B, and D are therefore incorrect answers.
 	
-### Question # 29 - What is probably the best way to avoid problems associated with vendor lock-out?
+### [important] Question # 29 - What is probably the best way to avoid problems associated with vendor lock-out?
 A. Use strong contract language.    
 B. Use nonproprietary data and media formats.     
 C. Use strong cryptography.       
@@ -344,14 +345,16 @@ The best way to handle these risks is to have another, full backup of your data 
 
 The other options do not aid in addressing vendor lock-out.
 
-### Question # 30 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the data center and how they are deployed?    
+### [tricky] Question # 30 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the [data center] and how they are deployed?    
 A. The cloud provider    
 B. The cloud customer    
 C. The regulator(s)    
 D. The end user   
 Answer: A. 
 
-Because the cloud provider owns and operates the cloud data center, the provider will craft and promulgate the governance that determines the control selection and usage. This is another risk the cloud customer must consider when migrating into the cloud; the customer’s governance will no longer have direct precedence over the environment where the customer’s data is located.
+[important) **Because the cloud provider owns and operates the cloud data center, the provider will craft and promulgate the governance that determines the control selection and usage.** 
+This is another risk the cloud customer must consider when migrating into the cloud; 
+the customer’s governance will no longer have direct precedence over the environment where the customer’s data is located.
 Both the cloud customer and the regulator(s) may have specific control mandates that might require the customer to deploy additional security controls (at the customer side, within the data, as agents on the user devices, or on the provider side or in application programming interfaces [APIs] as allowed by the service model or contract), so options B and C are also partially true, but A is a better answer as it is more general.
 Option D untrue because the end user does not determine which controls are selected for the cloud data center and how they are deployed. That is the responsibility of the cloud provider.
 
@@ -450,11 +453,11 @@ D. Cross-site scripting
 Answer: C. 
 
 **This is a very popular function of federated identity.**
-Single sign-on (SSO) is similar to federation, but it is limited to a single organization; federation is basically SSO across multiple organizations. Option A is incorrect.
+**Single sign-on (SSO) is similar to federation,** but it is limited to a single organization; federation is basically SSO across multiple organizations. Option A is incorrect.
 
 **Options B and D are threats listed in the Open Web Application Security Project (OWASP) Top Ten; they are incorrect.**
 
-### Question # 40 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
+### [important] Question # 40 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to review each other, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
 A. Cross-certification    
 B. Proxy    
 C. Single sign-on     
@@ -468,7 +471,7 @@ Proxy is another model for federation, so option B is incorrect.
 option C is incorrect.
 Option D does not have relevance in this context and therefore incorrect as an answer.
 	
- ### Question # 41 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to hire a third party to review each organization, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
+ ### [important] Question # 41 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to hire a third party to review each organization, for compliance with security governance and standards they all find acceptable, what is this federation model called?  
 A. Cross-certification   
 B. Proxy    
 C. Single sign-on    
@@ -481,7 +484,7 @@ Cross-certification is another model for federation, so option A is incorrect.
 Single sign-on is similar to federation, but it is limited to a single organization; option C is incorrect.
 Option D does not have relevance in this context and is therefore incorrect as an answer.
 	
- ### Question # 42 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the identity provider(s)?    
+ ### Question # 42 - [important] A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the identity provider(s)?    
 A. Each organization    
 B. A trusted third party    
 C. The regulator overseeing their industry    
@@ -492,7 +495,7 @@ Answer: A.
 
 A trusted third party, regulators, and clientele are not involved in the web of trust model, so the other options are incorrect.
 
- ### Question # 43 - A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the service providers?     
+ ### Question # 43 - [important] A group of clinics decides to create an identification federation for their users (medical providers and clinicians). If they opt to use the web of trust model for federation, who is/are the service providers?     
 A. Each organization    
 B. A trusted third party    
 C. The regulator overseeing their industry    
@@ -516,7 +519,7 @@ While it’s likely the participating organizations will be subject to other fed
 **FMLA dictates how employers give vacation time to employees**, so option B is not correct.
 PCI DSS is a contractual, not regulatory, standard, so option C is incorrect.
 
- ### Question # 45 - What is the process of granting access to resources?   
+ ### [easy but tricky] Question # 45 - What is the process of granting access to resources?   
 A. Identification    
 B. Authentication    
 C. Authorization    
@@ -534,7 +537,8 @@ C. Deprovisioning
 D. Redaction    
 Answer: D.     
 
-Redacting is an editorial process of excising sensitive information from disclosed data. All the other options are elements of identity management.
+**Redacting is an editorial process of excising sensitive information from disclosed data.** 
+All the other options are elements of identity management.
 	
 ### Question # 47 - Which organizational entity usually performs the verification part of the provisioning element of the identification process?       
 A. Information technology (IT)    
@@ -555,7 +559,8 @@ C. Getting physical access can be difficult.
 D. There are no regulators for cloud operations.         
 Answer: C.     
 
-Cloud providers may be reluctant to grant physical access, even to their customers, on the assumption that allowing access would disclose information about security controls. In some cases, cloud customers won’t even know the location(s) of the data center(s) where their data is stored.
+**Cloud providers may be reluctant to grant physical access, even to their customers, on the assumption that allowing access would disclose information about security controls**. 
+In some cases, cloud customers won’t even know the location(s) of the data center(s) where their data is stored.
 The other options are all untrue. Data in the cloud and controls in the cloud can most certainly be audited. So, options A and B are incorrect. D is untrue; there are regulators for all industries, including those that operate in the cloud.
 	
 ### Question # 49 - Of the following options, which is a reason cloud data center audits are often less easy to verify than traditional audits?     
