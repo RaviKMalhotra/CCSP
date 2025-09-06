@@ -10,7 +10,7 @@ Answer: C.
 
 It’s best to have your backup at another cloud provider in case whatever causes an interruption in service occurs throughout your primary provider’s environment; this will be more complicated and expensive, but it provides the best redundancy and resiliency. Using the same provider for production and backup is not a bad option, but it entails the risk of the same contingency affecting both copies of your data. Having either the backup or the production environment localized does not provide the best protection, so neither option B nor option D is desirable.
 
-### Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?  
+### [important] Question # 2 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a table top test of the BC/DR activity. Which of the following will offer the best value during the test?  
 A. Have all participants conduct their individual activities via remote meeting technology.  
 B. Task a moderator well versed in BC/DR actions to supervise and present scenarios to the participants, including randomized special events.  
 C. Provide copies of the BC/DR policy to all participants.  
