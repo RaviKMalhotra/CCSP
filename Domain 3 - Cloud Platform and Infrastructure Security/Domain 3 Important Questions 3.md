@@ -22,13 +22,13 @@ B.	IPS
 C.	DLP     
 D.	TLS     
 
-### Question # 5 - What individuals should have access to the management plane of a cloud datacenter?        
+### [important knowledge] Question # 5 - What individuals should have access to the management plane of a cloud datacenter?        
 A.	Service provider engineers       
 B.	Customer engineers      
 C.	End users       
 D.	Both A and B      
 
-### Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?       
+### [important] Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?    
 A.	IPS      
 B.	Wi- Fi       
 C.	RFID      
