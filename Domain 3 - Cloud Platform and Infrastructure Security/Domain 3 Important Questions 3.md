@@ -112,7 +112,7 @@ B.	The end user(s)
 C.	Any vendor the cloud customer previously used in the on- premises environment          
 D.	Any third parties the provider depends on          
 
-### Question # 20 - Brittney is reviewing her organization’s disaster recovery process data and notes that the MTD for the business’s database server is 30 minutes. What does she know about the RTO for the server?    
+### [Question # 20 - Brittney is reviewing her organization’s disaster recovery process data and notes that the MTD for the business’s database server is 30 minutes. What does she know about the RTO for the server?    
 A.	It needs to be less than 30 minutes.    
 B.	It needs to be at least 30 minutes.    
 C.	The MTD is too short and needs to be longer.    
@@ -651,15 +651,29 @@ Question # 10.	C. Health and human safety is always paramount in all security ac
 
 Question # 11.	D. All of these technologies play some role in tenant partitioning. However, this question asked specifically about the partitioning of virtual machines belonging to different tenants. This is the responsibility of the hypervisor on a virtualization platform.
 
-Question # 12.	C. Datacenters should be located in the core of a building. Locating it in the basement makes it susceptible to flooding. The first floor is the normal point of entry to a building, making it more susceptible to physical break- ins. Locating it on the top floor makes it vulnerable to wind and roof damage.
+[important] Question # 12.	C. **Datacenters should be located in the core of a building**. 
+**Locating it in the basement makes it susceptible to flooding. 
+The first floor is the normal point of entry to a building, making it more susceptible to physical break- ins. 
+Locating it on the top floor makes it vulnerable to wind and roof damage.**
 
-Question # 13.	A. The due care principle states that an individual should react in a situation using the same level of care that would be expected from any reasonable person. It is a very broad standard. The due diligence principle is a more specific component of due care that states that an individual assigned a responsibility should exercise due care to complete it accurately and in a timely manner.
+Question # 13.	A. **The due care principle states that an individual should react in a situation using the same level of care that would be expected from any reasonable person**. 
+It is a very broad standard. 
+**The due diligence principle is a more specific component of due care that states that an individual assigned a responsibility should exercise due care to complete it accurately and in a timely manner**.
 
-Question # 14.	C. In an infrastructure as a service environment, the vendor is responsible for hardwarerelated and network- related responsibilities. These include configuring network firewalls, maintaining the hypervisor, and managing physical equipment. The customer retains responsibility for patching operating systems on its virtual machine instances. The customer is responsible for managing network ingress and egress but does so by manipulating network security groups, rather than directly configuring the network firewall.
+Question # 14.	C. In an infrastructure as a service environment, the vendor is responsible for hardwarerelated and network- related responsibilities. 
+These include configuring network firewalls, maintaining the hypervisor, and managing physical equipment. 
+The customer retains responsibility for patching operating systems on its virtual machine instances. 
+The customer is responsible for managing network ingress and egress but does so by manipulating network security groups, rather than directly configuring the network firewall.
 
-Question # 15.	A. Incremental backups provide the option that includes the smallest amount of data. In this case, that would be only the data modified since the most recent incremental backup. A differential backup would back up all data modified since the last full backup, which would be a substantial amount. The full backup would include all information on the server. Transaction log backups are specifically designed to support database servers and would not be effective on a file server.
+Question # 15.	A. **Incremental backups provide the option that includes the smallest amount of data. 
+In this case, that would be only the data modified since the most recent incremental backup**. 
+A differential backup would back up all data modified since the last full backup, which would be a substantial amount. 
+The full backup would include all information on the server. Transaction log backups are specifically designed to support database servers and would not be effective on a file server.
 
-Question # 16.	D. Security information and event management (SIEM) systems do correlate information from multiple sources and perform analysis, but they stop short of providing automated playbook responses. That is the realm of security orchestration, automation, and response (SOAR) platforms. Intrusion prevention platforms have a more limited scope, allowing the blocking of traffic based on analysis performed by the IPS itself. Log repositories simply collect log information and do not perform analysis.
+Question # 16.	D. **Security information and event management (SIEM) systems do correlate information from multiple sources and perform analysis, but they stop short of providing automated playbook responses. 
+That is the realm of security orchestration, automation, and response (SOAR) platforms.** 
+Intrusion prevention platforms have a more limited scope, allowing the blocking of traffic based on analysis performed by the IPS itself. 
+Log repositories simply collect log information and do not perform analysis.
 
 Question # 17.	C. This is a classic example of the “buy vs. build” decision. Any time an organization chooses to build out capital resources, such as an on- premises datacenter, it involves very high up- front investments. The other offerings here involve leveraging the capital investments made by others and will involve lower (or no) up- front costs but will have higher recurring costs.
 
