@@ -238,7 +238,7 @@ B.	Data mapping
 C.	Dataflow diagrams     
 D.	Data policies     
 
-### Question # 41 - 	Annie has a database with a field titled “chosen name” and she has another database with a field titled “name.” She knows that these fields are used for the same purpose in her organization and wants to use data from both databases. What process could she use to match these and other fields to allow her to do so more easily?     
+### Question # 41 - Annie has a database with a field titled “chosen name” and she has another database with a field titled “name.” She knows that these fields are used for the same purpose in her organization and wants to use data from both databases. What process could she use to match these and other fields to allow her to do so more easily?     
 A.	Data mapping     
 B.	Column consolidation     
 C.	Data labeling     
@@ -250,7 +250,7 @@ B.	Services
 C. 	Systems    
 D. 	Data lifespan information     
 
-### Question # 43 - 	Jim’s organization wants to implement cryptographic erasure as their primary means of destroying data when they are done with it. What first step is required to support this through the data’s lifecycle?     
+### [tricky] Question # 43 - 	Jim’s organization wants to implement cryptographic erasure as their primary means of destroying data when they are done with it. What first step is required to support this through the data’s lifecycle?     
 A.	Hash all of the data at creation.     
 B.	Zero- wipe drives before they are used to ensure no previous data is resident.    
 C.	Encrypt the drive or volume at creation.     
@@ -274,25 +274,25 @@ B.	Attempt to access the data using her own certificate.
 C.	Check the IRM’s certificate revocation list.     
 D.	Delete the private keys for the original certificate.    
 
-### Question # 47 - 	Frank’s organization is preparing to adopt an information rights management tool. What IRM capability focuses on providing rights to individuals based on their roles to ensure appropriate data access?     
+### [important] Question # 47 - 	Frank’s organization is preparing to adopt an information rights management tool. What IRM capability focuses on providing rights to individuals based on their roles to ensure appropriate data access?     
 A.	Tagging.   
 B.	Data labeling.   
 C.	Encryption.  
 D.	Provisioning.   
 
-### Question # 48 - Randy is following his organization’s data classification policy and tags data that was identified in the organization’s business impact analysis. What type of classification is Randy performing?     
-A. Criticality.   
+### [important] Question # 48 - Randy is following his organization’s data classification policy and tags data that was identified in the organization’s business impact analysis. What type of classification is Randy performing?     
+A. 	Criticality.   
 B.	Jurisdiction.   
 C.	Security.   
 D.	Sensitivity.   
 
-### Question # 49 - Susan is concerned that her organization doesn’t understand how a critical application works in their cloud environment. Recent issues indicate that her organization’s developers and cloud architects have different ideas about how systems and services work together. What should Susan prepare to help document and explain how systems and services work together?    
+### [important] Question # 49 - Susan is concerned that her organization doesn’t understand how a critical application works in their cloud environment. Recent issues indicate that her organization’s developers and cloud architects have different ideas about how systems and services work together. What should Susan prepare to help document and explain how systems and services work together?    
 A.	Data classification.   
 B.	A business impact analysis.  
 C.	A dataflow diagram.  
 D.	Data mapping.  
 
-### Question # 50 - Jane is considering data dispersion as a security and availability strategy for her organization. What risk should she highlight as the most significant potential problem if her organization does adopt a multivendor approach to dispersion?     
+### [important] Question # 50 - Jane is considering data dispersion as a security and availability strategy for her organization. What risk should she highlight as the most significant potential problem if her organization does adopt a multivendor approach to dispersion?     
 A.	Data dispersion makes it difficult to encrypt data.    
 B.	Geographic dispersion may impact performance.    
 C.	An outage at a provider may result in data not being available.  
