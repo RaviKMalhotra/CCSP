@@ -118,7 +118,7 @@ B.	IP address.
 C.	Geolocation.   
 D.	MAC address.   
 
-### Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?    
+### [important] Question # 21 - Charleen wants to use a data obfuscation method that allows realistic data to be used without the data being actual data associated with specific users or individuals. What data obfucation method should she use?    
 A.	Hashing.  
 B.	Shuffling.  
 C.	Randomization.  
@@ -136,7 +136,7 @@ B.	Data monetary value
 C.	Date of scheduled destruction     
 D.	Confidentiality level     
 
-### Question # 24 - Susan wants to be prepared for legal holds. What organizational policy often accounts for legal holds?      
+### [important] Question # 24 - Susan wants to be prepared for legal holds. What organizational policy often accounts for legal holds?      
 A.	Data classification policy     
 B.	Retention policy     
 C.	Acceptable use policy      
