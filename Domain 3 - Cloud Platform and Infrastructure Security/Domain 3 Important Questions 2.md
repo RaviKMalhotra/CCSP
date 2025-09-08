@@ -23,17 +23,17 @@ B.	Change	management	processes.
 C.	Staff	 availability	and 	demands.  
 D.	Restoration	of	services.  
 
-### Question # 5 - What	concept 	allows	users	 or	support 	staff	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative 	interfaces?  
-A.	Logical	networks.  
-B.	VLANs.  
+### Question # 5 - What	concept 	allows	users	 or	support 	staff	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative 	interfaces?     
+A.	Logical	networks.       
+B.	VLANs.        
 C.	Broad	 network	access.  
-D.	Software-defined	 networking.  
+D.	Software-defined	 networking.     
 
-### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?                 
-A.	Service	 provider.      
-B.	Service	 party.       
-C.	Relying	 party.       
-D.	Application	provider.             
+### Question # 6 - Within	 a	federated	identity	system,	which	 entity	 takes	the	response	from the	identity	provider	and	processes 	it	to	determine	 the	authentication	 and authorization   	properties	of	the	user?                    
+A.	Service	 provider.          
+B.	Service	 party.            
+C.	Relying	 party.            
+D.	Application	provider.                
 
 ### Question # 7 - Which	cloud	 storage	method	utilizes	a 	key	value	to	access	data	from	anapplication	or	client?  
 A.	Object.  
@@ -337,11 +337,11 @@ B	is	incorrect	because	most	BCDR	planning	does	a	good	job	of ensuring	that	chang
  	
 C	is	incorrect	because	the	availability	of	staff	and	the	demands	placed upon	them	are	tightly	coupled	with	the	restoration	of	services,	and	as such	would	not	be	overlooked.
 
-### Question # 5 - What 	concept 	allows	users	 or	support 	staff 	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative	interfaces?  
-A.	Logical	networks. 
-B.	VLANs. 
-C.	Broad	network	access. 
-D.	Software-defined	networking.  		
+### Question # 5 - What 	concept 	allows	users	 or	support 	staff 	to	change	some	network configurations	without 	having	access	to	the	actual	networking	hardware and	administrative	interfaces?      
+A.	Logical	networks.     
+B.	VLANs.     
+C.	Broad	network	access.     
+D.	Software-defined	networking.  	   	
 Answer: D.	
 
 An	important	aspect	of	cloud	computing	is	the	use	of	softwaredefined	networking	(SDN).	With	SDN,	the	decisions	concerning where	traffic	is	filtered	or	sent	and	the	actual	forwarding	of	traffic	are completely	separate	from	each	other.	With	cloud	computing,	this separation	is	important	because	it	allows	the	administrators	of	the cloud	network	to	quickly	and	dynamically	adjust	network	flows	and resources	based	on	the	current	needs	and	demands	of	the	cloud customers.	With	the	separation	from	the	actual	network	components,	a cloud	provider	can	build	management	tools	that	allow	staffers	using web	portals	or	cloud	administrative	interfaces	to	make	changes	to	the network	without	having	to	log	into	the	actual	network	components	or have	the	command	knowledge	of	a	network	administrator	to	make changes.	With	the	level	of	access	provided	and	the	types	of	resources available	to	control,	a	high	level	of	security	needs	to	be	attached	to any	SDN	implementation,	with	access	tightly	controlled	and monitored	regularly.
@@ -354,13 +354,14 @@ B	is	incorrect	because	virtual	local	area	networks	(VLANs)	are	the same	concept	
 C	is	incorrect	because	broad	network	access	refers	to	cloud	computing being	available	over	the	public	Internet	rather	than	using	the	internal or	private	networks	typically	associated	with	a	traditional	data	center, but	it	does	not	pertain	to	the	administration	of	networks.
 
 ### [important] Question # 6 - Within 	a	federated	 identity 	system,	which	 entity	 takes	 the	response	from the	 identity	 provider 	and	processes 	it	to	determine	 the	authentication 	and authorization	properties	of	the	user?  
-A.	Service 	provider. 
-B.	Service 	party.  
-C.	Relying	 party. 
-D.	Application	provider.  
+A.	Service 	provider.      
+B.	Service 	party.         
+C.	Relying	 party.        
+D.	Application	provider.      
 Answer: C.	
 
 **During	the 	authentication	 process,	the	identity	provider	sends certain	predetermined	attributes 	about	 the	user	to	the	relying	 party.** 
+
 **The	relying 	party	then	uses	this	information	(name,	location,	job	title, and	so	on)	to	determine	 the	appropriate	level 	and	 type	of	access	to grant,	or	whether	to	grant	access	at	all.**
 The	relying 	party,	even	in	a federated	system,	makes	 this	 determination	 because	it	is	tied	to	the actual	application,	and	it	makes 	the 	decisions	 based	on	the 	policies, requirements,	or	regulations	of	the	data	being	accessed.
  	
