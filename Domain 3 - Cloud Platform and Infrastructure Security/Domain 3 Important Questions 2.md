@@ -569,7 +569,7 @@ C	is	incorrect	because	multitenancy	(the	hosting	of	many	different cloud	custome
 
 D	is	incorrect	because	reversibility	(the	ability	to	completely	and quickly	remove	all	data	and	components	of	a	system	from	a	cloud environment)	would	be	an	important	factor	during	the	final	stages	of	a BCDR	situation,	but	it	is	not	the	best	answer	to	the	question	and	the key	points	it	addresses.
 
-### Question # 20 - With	PaaS,	which	strategy	is	most	commonly	used	for	the	deployment	ofoperating	system	patches?    
+### Question # 20 - With	PaaS,	which	strategy	is	most	commonly	used	for	the	deployment	of operating	system	patches?    
 A.	Scripts    
 B.	Reimaging    
 C.	Customer	administration     
