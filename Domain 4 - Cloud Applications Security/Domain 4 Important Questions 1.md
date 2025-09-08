@@ -20,9 +20,10 @@ C. No
 D. One     
 Answer: D. 
 
-Each application will have its own ANF, derived from the organization’s ONF. This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
+**Each application will have its own ANF, derived from the organization’s ONF**. 
+This can be a difficult question because there are many ANFs in the organization, but only one for each application. The reader needs to examine the question carefully.
 
-### Question # 3 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?   
+### [important knowledge] Question # 3 - What language is used in the Simple Object Access Protocol (SOAP) application design protocol?   
 A. Hypertext Markup Language (HTML).  
 B. X.509.  
 C. Extensible Markup Language (XML).     
@@ -41,7 +42,7 @@ C. Servers.
 D. Clients.    
 Answer: B.          
 
-Generally, a REST interaction involves the client asking the server (through an application programming interface [API]) for data, sometimes as the result of processing; the server processes the request and returns the result. 
+**Generally, a REST interaction involves the client asking the server (through an application programming interface [API]) for data, sometimes as the result of processing; the server processes the request and returns the result**. 
 **In REST, an enduring session, where the server has to store some temporary data about the client, is not necessary.**
 These interactions obviously involve servers and clients, so options C and D are not correct.
 Using REST does not eliminate the need for credentials, so option A is not correct.
@@ -56,7 +57,7 @@ Answer: B.
 Roy Fielding, the author of the PhD dissertation **that created REST, was also the author of HTTP**, so it’s no surprise the command set is the same.
 All the other options are incorrect because the **REST APIs do not use HTML, XML or ASCII as protocol verbs.**
 
-### Question # 6 - The architecture of the World Wide Web, as it works today, is _______________.    b
+### Question # 6 - The architecture of the World Wide Web, as it works today, is _______________.    
 A. JavaScript Open Notation (JSON).  
 B. Denial of service (DoS).  
 C. Representational state transfer (REST).  
@@ -66,7 +67,7 @@ Answer: C.
 **The web is mainly HTTP, which is a RESTful protocol.**
 All the other options are incorrect because they do not answer the question about the architecture of the World Wide Web.
 	
-### Question # 7 - RESTful responses can come from the server in _______________ or _______________ formats.   
+### [important knowledge] Question # 7 - RESTful responses can come from the server in _______________ or _______________ formats.   
 A. Extensible Markup Language (XML), JavaScript Open Notation (JSON).  
 B. Hypertext Transfer Protocol (HTTP), X.509.   
 C. American Standard Code for Information Interchange (ASCII), text.   
@@ -78,7 +79,7 @@ Answer: A.
 Servers usually return data requests in some sort of display format, not plain text or ASCII, so option C is incorrect.
 HTML responses would simply be an entire web page, not specific data, so option D is incorrect.
 	
-### Question # 8 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?    
+### [important knowledge] Question # 8 - Which of the following is an informal industry term for moving applications from a traditional environment into the cloud?    
 A. Instantiation.  
 B. Porting.   
 C. Grandslamming.   
@@ -87,7 +88,7 @@ Answer: D.
 
 All the other options are simply words used in other contexts. They are incorrect.
 
-### Question # 9 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________.   
+### Question # 9 - Developers creating software for the cloud environment should bear in mind cloud-specific risks such as _______________ and _______________. 
 A. DoS and DDoS (denial of service and distributed denial of service).  
 B. Multitenancy and third-party administrators.   
 C. Unprotected servers and unprotected clients.   
@@ -126,10 +127,10 @@ C. Data masking
 D. Hashing database fields    
 Answer: D. 
 
-Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement.
+**Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement**.
 All the other functions are expected in the majority of cloud operations.
 
-### Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production.   environment?   
+### [important] Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production.   environment?   
 A. Cloud customer.  
 B. Cloud provider.  
 C. Regulator.  
@@ -151,14 +152,14 @@ Performance and security both need to be reviewed for adequacy.
 In this context, quality would be synonymous with performance and requirements, so D is a better answer than A or C.
 Brevity is not a trait we look for in testing, even though it may be desirable in programming, so B is incorrect.
 
-### Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?        
+### [important knowledge] Question # 15 - Regardless of which model the organization uses for system development, in which phase of the software development lifecycle (SDLC) will user input be requested and considered?        
 A. Define.         
 B. Design.          
 C. Develop.          
 D. Detect.                     
 Answer: A. 
 
-In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want.
+**In the Define phase, we’re trying to determine the purpose of the software, in terms of meeting the users’ needs; therefore, we may solicit input from the user community in order to figure out what they really want**.
 
 Options B and C are other phases of the SDLC, but not all SDLC models incorporate user input in these phases, so the options are not correct.
 Option D is not a phase of the SDLC and is incorrect.
@@ -173,14 +174,14 @@ Answer: D.
 Disposal is the only phase concerned with the sanitization of media or destruction of data.
 All the other options are also SDLC phases, however, **crypto-shredding is much more likely to be used in the disposal phase.**
 
-### Question # 17 - Where are business requirements most likely to be mapped to software construction?   
+### [important] Question # 17 - Where are business requirements most likely to be mapped to software construction?   
 A. Define.  
 B. Design.  
 C. Test.  
 D. Secure Operations.  
 Answer: B. 
 
-Design is the correct answer, as this is where the requirements gathered during the Define phase are mapped to system designs.
+Design is the correct answer, as **this is where the requirements gathered during the Define phase are mapped to system designs**.
 All the other options are SDLC phases where requirements are not mapped to software construction.
 
 ### Question # 18 - [important] All of the following are usually nonfunctional requirements except _______________.   
@@ -201,24 +202,26 @@ C. Encryption for data at rest and in motion.
 D. Field validation.  
 Answer: C. 
 
-Traditional apps won’t usually require encryption in all phases of the data lifecycle because data is protected in several stages in the traditional environment without the need for additional controls. In the cloud environment, however, data exposed at any point in the lifecycle might constitute an inadvertent disclosure, **so cloud apps require encryption for data at rest and in motion (and usually in use as well).**
+**Traditional apps won’t usually require encryption in all phases of the data lifecycle because data is protected in several stages in the traditional environment without the need for additional controls**. 
+In the cloud environment, however, data exposed at any point in the lifecycle might constitute an inadvertent disclosure, **so cloud apps require encryption for data at rest and in motion (and usually in use as well).**
 
 Even traditional apps require IAM and field validation functions, so options A and D are incorrect.
 Most anti-DDoS activity will be performed by hardware and communication software run by the cloud provider or Internet service provider (ISP); developers should not typically need to include anti-DDoS elements in their programs. Option B is incorrect.
 	
-### Question # 20 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?  
+### [important] Question # 20 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may have to consider incorporating in software for the cloud that might not have been as important in the traditional environment?  
 A. Application isolation.  
 B. Inference framing.  
 C. Known secure library components.  
 D. Testing that uses known bad data.  
 Answer: A. 
 
-Because the cloud is a multitenant environment, one of the concerns that developers should consider is how well the application prevents other applications/users from observing its operation and resource calls. In the traditional environment, **this is not usually required because the organization owns the underlying infrastructure (as a single tenant) and there is very little risk in exposing the application’s functionality.**
+**Because the cloud is a multitenant environment, one of the concerns that developers should consider is how well the application prevents other applications/users from observing its operation and resource calls**. 
+In the traditional environment, **this is not usually required because the organization owns the underlying infrastructure (as a single tenant) and there is very little risk in exposing the application’s functionality.**
 
 Inference framing is a nonsense term, used here only as a distractor.
 Software should include known secure components, and testing should include known bad data (fuzz testing), whether it is going to be used in the cloud or in a traditional environment, so options C and D are incorrect.
 
-### Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?   
+### [important knowledge] Question # 21 - Designers making applications for the cloud have to take into consideration risks and operational constraints that did not exist or were not as pronounced in the traditional environment. Which of the following is an element cloud app designers may not be able to use as readily in the cloud environment as it was deployed in the traditional environment?   
 A. Cryptography.  
 B. STRIDE testing.  
 C. Field validation.  
@@ -251,7 +254,7 @@ This is the definition of escalation of privilege (sometimes referred to as “e
 Inversion is a nonsense term in this context and just a distractor.
 Options B and C are threat modeling elements but are not correct answers for this question.
 	
-### Question # 24 - Which of the following is not checked when using the STRIDE threat model?     
+### [important and knowledge] Question # 24 - Which of the following is not checked when using the STRIDE threat model?     
 A. The ability of users to gain administrative access rights without proper permission.   
 B. The ability of internal personnel to trigger business continuity/disaster recovery activities.   
 C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction.   
@@ -311,18 +314,17 @@ Answer: B.
 
 This is the textbook definition of these terms. All the other options are incorrect answers.
 
-### Question # 29. Access should be based on _______________.  
+### [tricky] Question # 29. Access should be based on _______________.  
 A. Regulatory mandates.   
 B. Business needs and acceptable risk.   
 C. User requirements and management requests.    
 D. Optimum performance and security provision.    
-
 Answer: B. 
 
 Business needs and risk acceptable to senior management should drive all organizational decisions, including access. Specific user or object access will, of course, be delegated down from senior management to a manageable layer of the organization, but the principle applies.
 This decision, however, should be informed by pertinent externalities, which include regulatory mandates (option A), user requirements and management requests (option C), and, to some degree, the trade-off of performance and security (option D, and both characteristics should also be dictated by senior management as an aspect of acceptable risk). While these externalities and options all play a part in determining appropriate access, they are all subordinate to business needs and acceptable risk, which are paramount; B is still the best answer to this question.
 	
-### Question # 30 - Who should determine which users have access to which specific objects?    
+### [tricky important] Question # 30 - Who should determine which users have access to which specific objects?    
 A. The cloud provider.    
 B. Senior management.    
 C. Data owners.    
@@ -345,17 +347,18 @@ C. OAuth (Open Authorization).
 D. Pretty Good Privacy (PGP).                 
 Answer: D.               
 
-PGP is an email encryption tool, not an identity federation standard. All the other options are federation standards.
+**PGP is an email encryption tool, not an identity federation standard**. 
+All the other options are federation standards.
 	
-### Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?     
+### [very important tricky] Question # 32 - Which of the following is a federation standard/protocol that does not rely on Simple Object Access Protocol (SOAP), Security Assertion Markup Language (SAML), or Extensible Markup Language (XML)?     
 A. WS-Federation.    
 B. OpenID Connect.    
 C. Service Organization Control (SOC) 2.   
 D. Open Web Application Security Project (OWASP).    
 Answer: B.     
 
-OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation.
-WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP), so option A is incorrect.
+[very important] **OpenID Connect is a federation protocol that uses representational state transfer (REST) and JavaScript Object Notation (JSON); it was specifically designed with mobile apps in mind, instead of only web-based federation**.
+**WS-Federation is a federation protocol that is part of the WS-Security family of standards and reliant on Simple Object Access Protocol (SOAP)**, so option A is incorrect.
 
 Option C is incorrect; SOC 2 is a type of Statement on Standards for Attestation Engagements (SSAE) 18 audit report, not a federation standard.
 OWASP is a volunteer group of and for web app developers, not a federation standard or protocol, so option D is incorrect.
@@ -370,7 +373,7 @@ Answer: B.
 Because there is no transitive property of identification and authentication, knowing a trusted entity is not sufficient for validating an identity assertion.
 All the other options are typical authentication mechanisms and so are incorrect.
 	
-### Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?                          
+### [tricky] Question # 34 - Which of the following constitutes a multifactor authentication process or procedure?                          
 A. Using an automated teller machine (ATM) to get cash with your credit or debit card.                       
 B. Using a password and personal identification number (PIN) to log into a website.              
 C. Presenting a voice sample and fingerprint to access a secure facility.                     
@@ -378,12 +381,9 @@ D. Displaying a birth certificate and a credit card.
 Answer: A.                  
 
 At the ATM, the customer will use the card (something you have) and enter a PIN (something you know). This is true multifactor authentication.
-A password and PIN are both something you know, 
 
-so option B is incorrect.
-Using a voice sample and fingerprint are two forms of something you are, 
-
-so option C is incorrect.
+A password and PIN are both something you know, so option B is incorrect.
+Using a voice sample and fingerprint are two forms of something you are, so option C is incorrect.
 A birth certificate and credit card are both something you have, so option D is incorrect.
 	
 ### Question # 35 - Typically, multifactor authentication should be used _______________.                
@@ -393,7 +393,7 @@ C. When remote users are logging into the cloud environment.
 D. Only in the traditional environment.                 
 Answer: B.               
 
-Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions).
+**Multifactor authentication should be considered for operations that have a significant risk or that deal with highly sensitive data (for instance, privileged user logins or when handling financial transactions)**.
 
 Requiring multifactor authentication for every transaction is an undue burden on both the users and the systems and is a needless addition of extra overhead, so option A is incorrect.
 
@@ -437,7 +437,7 @@ WAFs can be used to attenuate the possibility that cross-site scripting attacks 
 WAFs do not protect against social engineering or physical attacks in any way, so options A and B are incorrect.
 Option C is a nonsense term and is therefore incorrect.
 	
-### Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.          
+### [important knowledge] Question # 39 - A database activity monitor (DAM) tool usually operates at Layer _______________ of the Open Systems Interconnection (OSI) model.          
 A. 2.                 
 B. 3.              
 C. 7.                 
@@ -447,27 +447,28 @@ Answer: C.
 A DAM is a Layer 7 tool.
 All the other options are incorrect.
 	
-### Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.     
+### [important knowledge] Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.     
 A. SQL injection.   
 B. Cross-site scripting.   
 C. Insecure direct-object reference.   
 D. Social engineering.   
 Answer: A.   
 
-DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
-DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way, 
+**DAMs can be used to reduce the possibility that SQL injection attacks will be successful.
+DAMs do not protect against cross-site scripting, insecure direct-object reference, or social engineering attacks in any way**, 
 
 so options B, C, and D are incorrect.
 	
-### Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?    
+### [very important] Question # 41 - Which security tool can perform content inspection of Secure File Transfer Protocol (SFTP) communications?    
 A. Web application firewall (WAF).                  
 B. Database activity monitor (DAM).        
 C. Extensible Markup Language (XML) gateway.                 
 D. Single sign-on (SSO).          
 Answer: C.           
 
-The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols.
-The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content, so options A and B are incorrect.
+[important] **The XML gateway can provide this functionality; it acts as a reverse proxy and can perform content inspection on many traffic protocols**.
+**The WAF and DAM are also security tools that inspect traffic but do not usually handle SFTP content**, so options A and B are incorrect.
+
 Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
 	
 ### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.            
@@ -480,7 +481,7 @@ Answer: B.
 An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
 XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
 	
-### Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.                 
+### [tricky] Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.                 
 A. Known past behavior in the environment.                
 B. Identity of the malicious user.               
 C. Point of origination.             
@@ -490,25 +491,25 @@ Answer: B.
 While it would be wonderful, for security purposes, to know the identity of attackers before or while they’re making an attack, this is information the attacker doesn’t usually share.
 All the other options are methods firewalls can use to recognize attacks.
 	
-### Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.                 
+### [important knowledge] Question # 44 - Transport Layer Security (TLS) provides _______________ and _______________ for communications.                 
 A. Privacy, security.                  
 B. Security, optimization.              
 C. Privacy, integrity.                   
 D. Enhancement, privacy.               
 Answer: C. 
 
-TLS maintains the confidentiality and integrity of communications, often between a web browser and a server.
+[important] **TLS maintains the confidentiality and integrity of communications, often between a web browser and a server**.
 In this context, privacy and security mean much the same thing; privacy is synonymous with confidentiality, which is a subset of the overall topic of security. Therefore, option A is repetitive and not correct.
 TLS does not optimize performance or add any sort of enhancement, so options B and D are incorrect.
 	
-### Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.             
+### [important knowledge] Question # 45 - Transport Layer Security (TLS) uses a new _______________ for each secure connection.             
 A. Symmetric key.               
 B. Asymmetric key.                   
 C. Public-private key pair.              
 D. Inverse comparison.                    
 Answer: A. 
 
-TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made.
+**TLS uses symmetric key crypto for each communications session in order to secure the connection; the session key is uniquely generated each time a new connection is made**.
 Options B and C are names for another type of encryption. Asymmetric encryption is also used in establishing a secure TLS connection; however, the keys used in this portion of the process will not change from session to session, and therefore these options are incorrect.
 Option D is a nonsense term and is therefore incorrect.
 	
@@ -548,17 +549,18 @@ Answer: C.
 This is the definition of “conflict of interest.”
 All the other answers are incorrect.
 	
-### Question # 49 - Sandboxing can often be used for _______________.                                           
+### [important difficult] Question # 49 - Sandboxing can often be used for _______________.                                           
 A. Optimizing the production environment by moving processes that are not frequently used into the sandbox.                
 B. Allowing secure remote access for users who need resources in the cloud environment.                  
 C. Running malware for analysis purposes.                    
 D. Creating secure subnets of the production environment.                  
 Answer: C.              
 
-A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environment; it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
+**A sandbox can be used to run malware for analysis purposes as it won’t affect (or infect) the production environmen**t; 
+it’s worth noting, though, that some malware is sandbox-aware, so additional anti-malware measures are advisable.
 Options A, B, and D are not correct because the sandbox should be completely disconnected (air-gapped) from the production environment so that users can’t perform productive activity there.
 	
-### Question # 50. Sandboxing can often be used for _______________.             
+### [important] Question # 50. Sandboxing can often be used for _______________.             
 A. Testing user awareness and training            
 B. Testing security response capabilities                          
 C. Testing software before putting it into production                  
@@ -568,26 +570,27 @@ Answer: C.
 Software that has either been purchased from a vendor or developed internally can be tested in a sandboxed environment that mimics the production environment in order to determine whether there will be any interoperability problems when it is installed into actual production.
 All the other options aren’t uses for sandboxes and are incorrect.
 	
-### Question # 51 - Application virtualization can typically be used for _______________.       
+### [important] Question # 51 - Application virtualization can typically be used for _______________.       
 A. Running an application in a non-native environment    
 B. Installing updates to a system’s operating system (OS)    
 C. Preventing escalation of privilege by untrusted users    
 D. Enhancing performance of systems    
 Answer: A. 
 
-Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box.
-Because the virtualization engine encapsulates the application from the native runtime environment, patches can’t be applied through virtualized programs; option B is incorrect.
+[important] **Virtualized applications can run on platforms that wouldn’t otherwise allow them to function, such as running Microsoft apps on a Linux box**.
+**Because the virtualization engine encapsulates the application from the native runtime environment**, 
+patches can’t be applied through virtualized programs; option B is incorrect.
 Virtualization really doesn’t have anything to do with access control; option C is incorrect.
 The overhead of running a software virtualization engine will actually add to system overhead, not decrease it, so option D is incorrect.
 	
-### Question # 52. Application virtualization can typically be used for _______________.         
+### [important] Question # 52. Application virtualization can typically be used for _______________.         
 A. Denying access to untrusted users    
 B. Detecting and mitigating distributed denial of service (DDoS) attacks    
 C. Replacing encryption as a necessary control    
 D. Running an application on an endpoint without installing it    
 Answer: D. 
 
-Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device. 
+**Application virtualization allows the software to run on a simulated environment on the device without the need to install it on the device**. 
 Virtualization really doesn’t have anything to do with access control; option A is incorrect.
 Virtualization neither detects nor responds to DDoS; option B is incorrect.
 Virtualization does not replace encryption; if data needs to be secure within the virtualization environment, encryption may still have to be utilized. Option C is incorrect.
@@ -609,7 +612,7 @@ C. TTF
 D. FTP    
 Answer: B.     
 
-Each application in an organization compliant with ISO 27034 will be assigned an Application Normative Framework (ANF), which lists all the controls assigned to that application.
+**Each application in an organization compliant with ISO 27034 will be assigned an Application Normative Framework (ANF)**, which lists all the controls assigned to that application.
 Technically, the controls for each application within an organization compliant with ISO 27034 will be listed in the Organizational Normative Framework (ONF), because the ONF is the list of all controls for all applications; however, for a given application, only the controls used for that application are listed in an ANF, so option B is a preferable answer to A.
 TTF (time to failure) has no meaning in this context, so option C is incorrect.
 FTP (File Transfer Protocol) is a protocol for transferring files and not applicable here; option D is incorrect.
@@ -621,7 +624,7 @@ C. Gray-box
 D. Parched field    
 Answer: A. 
 
-SAST is often referred to as white-box testing.
+**SAST is often referred to as white-box testing**.
 Black-box testing does not include access to source code, which is required for SAST. Option B is therefore incorrect.
 Option C is a combination of black-box and white-box testing so option C is an incorrect answer for this question.
 Option D has no meaning in this context.
@@ -633,7 +636,7 @@ C. System durability
 D. Source code    
 Answer: D. 
 
-In SAST, testers review the source code of an application in order to determine security flaws and operational errors.
+**In SAST, testers review the source code of an application in order to determine security flaws and operational errors**.
 While determining “software outcomes” may be considered a possible goal of SAST, “source code” is a much better answer as it is more specific and applicable to the question. Option D is still preferable.
 SAST does not check user performance or system durability; options B and C are incorrect.
 	
@@ -649,29 +652,29 @@ White-box testing requires the tester to have access to source code, which is no
 Option C is a combination of black-box and white-box testing so option C is an incorrect answer for this question.
 Option D has no meaning in this context.
 	
-### Question # 58. Dynamic application security testing (DAST) checks software functionality in _______________.       
+### [important knowledge] Question # 58. Dynamic application security testing (DAST) checks software functionality in _______________.       
 A. The production environment    
 B. A runtime state    
 C. The cloud    
 D. An IaaS configuration    
 Answer: B.     
 
-DAST is performed while the application is running.
-Software testing should not take place in the production environment; option A is incorrect.
+[important] **DAST is performed while the application is running**.
+**Software testing should not take place in the production environment; option A is incorrect.**
 DAST, like other forms of testing, may or may not take place in the cloud and is not confined to any particular service model (although it is unlikely to occur in software as a service [SaaS] environments); options C and D are incorrect.
 	
-### Question # 59. Vulnerability scans are dependent on _______________ in order to function.      
+### [important] Question # 59. Vulnerability scans are dependent on _______________ in order to function.      
 A. Privileged access    
 B. Vulnerability signatures    
 C. Malware libraries    
 D. Forensic analysis    
 Answer: B.    
 
-Vulnerability scans use signatures of known vulnerabilities to detect and report those vulnerabilities.
+**Vulnerability scans use signatures of known vulnerabilities to detect and report those vulnerabilities**.
 Vulnerability scans do not typically require administrative access to function; option A is incorrect.
 Both malware libraries and forensic analysis of existing vulnerabilities may be used to create the signatures that vulnerability scanning tools utilize to detect and report vulnerabilities; however, these answers are too specific (limiting the answer), making option B a better answer than either C or D.
 	
-### Question # 60. Due to their reliance on vulnerability signatures, vulnerability scanners will not detect _______________.      
+### [tricky] Question # 60. Due to their reliance on vulnerability signatures, vulnerability scanners will not detect _______________.      
 A. User error    
 B. Improper control selection    
 C. Cloud vulnerabilities   
