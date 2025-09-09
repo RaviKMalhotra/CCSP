@@ -683,14 +683,15 @@ Answer: D.
 
 Because vulnerability scanning tools require vulnerability signatures to operate effectively, unknown vulnerabilities that might exist in the scanned system won’t be detected (no signature has been created by vendors until a vulnerability is known). User errors are not detected by vulnerability scans; option A is incorrect. Scans can’t tell you whether you’ve picked the optimum security controls for your environment; option B is incorrect. Vulnerability scanning tools may or may not detect cloud-based vulnerabilities, depending on the tool used, the level of access to the target environment, and the settings applied to the scanner; option C is less accurate than option D.
 
-### Question # 61. Penetration testing is a(n) _______________ form of security assessment.       
+### [tricky] Question # 61. Penetration testing is a(n) _______________ form of security assessment.       
 A. Active    
 B. Comprehensive    
 C. Total    
 D. Inexpensive    
 Answer: A. 
 
-A penetration test requires the tester to analyze the security of an environment from the perspective of an attacker; this also includes actually taking action that would result in breaching that environment.
+**A penetration test requires the tester to analyze the security of an environment from the perspective of an attacker; 
+this also includes actually taking action that would result in breaching that environment**.
 Penetration tests may or may not be comprehensive, depending on the intended scope and area of analysis. Option B is incorrect.
 While it’s nice to think of any security assessment as total, that is an extreme term, like all or never; such terms can rarely be used in security because there are no absolutes when dealing with risk, and it has no meaning in this context. Option C is not correct.
 Although the cost of a penetration test will vary according to a vast range of variables, it will rarely be considered inexpensive, especially relative to other forms of security testing. Option D is not correct.
@@ -702,7 +703,8 @@ C. Penetration testing
 D. Known bad data    
 Answer: D. 
 
-Also called fuzz testing, dynamic testing methods should include known bad inputs in order to determine how the program will handle the “wrong” data (will it fail into a state that is less secure than normal operations, etc.).
+[important] **Also called fuzz testing**, **dynamic testing methods should include known bad inputs in order to determine how the program will handle the “wrong” data (will it fail into a state that is less secure than normal operations, etc.)**.
+
 Source code review is not part of dynamic testing; option A is incorrect.
 For accurate quality testing, user familiarity with the target software should be minimal and should not be assessed; option B is not correct.
 Penetration includes active steps to overcome security measures; this is rarely the purpose of software testing; option C is not the best answer.
@@ -716,23 +718,25 @@ Answer: B.
 
 User surveys are not an element of active security testing, although they might be used in acceptance testing. All of the other options are included in the OWASP guide to active security testing.
 	
-### Question # 64. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.      
+### [important] Question # 64. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.      
 A. Authentication testing   
 B. Authorization testing    
 C. Session management testing   
 D. Privacy review testing    
 Answer: D. 
 
-Privacy review testing is not included in the OWASP guide to active security testing, although it might be included as an aspect of compliance testing (for organizations in highly regulated industries). All of the other options are included in the OWASP guide to active security testing.
+[very important] **Privacy review testing is not included in the OWASP guide to active security testing, although it might be included as an aspect of compliance testing (for organizations in highly regulated industries)**. 
+All of the other options are included in the OWASP guide to active security testing.
 	
-### Question # 65. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.       
+### [important] Question # 65. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.       
 A. Session initiation testing   
 B. Input validation testing    
 C. Testing for error handling    
 D. Testing for weak cryptography     
 Answer: A. 
 
-While session management testing is included in the OWASP guide to active software security testing, session initiation is not. All of the other options are included in the OWASP guide to active security testing.
+**While session management testing is included in the OWASP guide to active software security testing, session initiation is not**. 
+All of the other options are included in the OWASP guide to active security testing.
 	
 ### Question # 66. According to Open Web Application Security Project (OWASP) recommendations, active software security testing should include all of the following except _______________.      
 A. Business logic testing   
