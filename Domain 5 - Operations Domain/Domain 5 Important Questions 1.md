@@ -8,7 +8,8 @@ C. Determining the scope of the possible loss
 D. Outcomes dictated by business requirements       
 Answer:  D. 
 
-This is not an easy question; different industries and different organizations will have differing goals. Each organization will determine for itself what the primary goal of incident response will be, and this may even differ from incident to incident, depending on the nature of the incident itself (in other words, a given organization may set priorities such that the primary goal of incident response in a disaster is continuity of operations, while the goal in responding to unauthorized access may be halting data disclosure).
+This is not an easy question; different industries and different organizations will have differing goals. 
+Each organization will determine for itself what the primary goal of incident response will be, and this may even differ from incident to incident, depending on the nature of the incident itself (in other words, a given organization may set priorities such that the primary goal of incident response in a disaster is continuity of operations, while the goal in responding to unauthorized access may be halting data disclosure).
 
 ### Question # 2 - You are in charge of building a cloud data center. Which raised floor level is sufficient to meet standard requirements?     
 A. 10 inches      
@@ -35,7 +36,8 @@ C. All racks perpendicular to each other
 D. Exhaust fans on racks facing exhaust fans on other racks                 
 Answer: D. 
 
-The preferred method is cold aisle containment (hot aisle containment, where the inlets on racks face each other, is all right too). Options A and B are the same incorrect answer, just worded differently; if the exhaust fans on one rack face into the inlet vents on another rack, you would end up blowing warm air into the components, defeating the purpose of airflow management. Perpendicular racks will not optimize your airflow.
+**The preferred method is cold aisle containment (hot aisle containment, where the inlets on racks face each other, is all right too)**. 
+Options A and B are the same incorrect answer, just worded differently; if the exhaust fans on one rack face into the inlet vents on another rack, you would end up blowing warm air into the components, defeating the purpose of airflow management. Perpendicular racks will not optimize your airflow.
 
 ### Question # 5 - An event is something that can be measured within the environment. An incident is a(n) _______________ event.          
 A. Deleterious         
@@ -75,14 +77,15 @@ Answer: B.
 
 This is not an easy question. All the options are correct except C. Option B is the most correct because it will lead to maximizing performance, value, and profitability.
 
-### Question # 9 - You are the security officer for a small cloud provider offering public cloud infrastructure as a service (IaaS); your clients are predominantly from the education sector, located in North America. Of the following technology architecture traits, which is probably the one your organization would most likely want to focus on?          
+### [important] Question # 9 - You are the security officer for a small cloud provider offering public cloud infrastructure as a service (IaaS); your clients are predominantly from the education sector, located in North America. Of the following technology architecture traits, which is probably the one your organization would most likely want to focus on?          
 A. Reducing mean time to repair (MTTR)          
 B. Reducing mean time between failure (MTBF)          
 C. Reducing the recovery time objective (RTO)            
 D. Automating service enablement          
 Answer: D.           
 
-The goal of automating service enablement is probably paramount for any cloud service provider (of the qualities listed), because it allows for the most scalability and offers the most significant reduction in costs (which mainly come from personnel) and therefore the most profitability. The details of “public cloud,” “IaaS,” and “North America” are distractors in this context as they are irrelevant—this answer would be true for any cloud provider offering any type of services.
+**The goal of automating service enablement is probably paramount for any cloud service provider (of the qualities listed), because it allows for the most scalability and offers the most significant reduction in costs (which mainly come from personnel) and therefore the most profitability**. 
+The details of “public cloud,” “IaaS,” and “North America” are distractors in this context as they are irrelevant—this answer would be true for any cloud provider offering any type of services.
 
 Options A and B are not true because most cloud providers of any appreciable size are purchasing hardware on a scale that makes the per-unit failure rate fairly irrelevant; the bulk nature of IT purchases by cloud providers makes differences in MTTR and MTBF between vendors and products statistically insignificant.
 
@@ -99,14 +102,15 @@ Network segmentation allows providers to create zones of trust within the cloud 
 
 SDN does not really involve monitoring outbound traffic (that is done by egress monitoring solutions) or inbound traffic (that is usually performed by firewalls and routers), nor does it really prevent DDoS attacks (nothing can prevent such attacks, and risk reduction is usually done by routers), so all the other options are incorrect.
 
-### Question # 11 - The logical design of a cloud environment can enhance the security offered in that environment. For instance, in a software as a service (SaaS) cloud, the provider can incorporate _______________ capabilities into the application itself.           
+### [tricky] Question # 11 - The logical design of a cloud environment can enhance the security offered in that environment. For instance, in a software as a service (SaaS) cloud, the provider can incorporate _______________ capabilities into the application itself.           
 A. High-speed processing          
 B. Logging                  
 C. Performance-enhancing          
 D. Cross-platform functionality           
 Answer: B. 
 
-The ability to log activity is useful for many security purposes (such as monitoring and forensics); having that purposefully included in SaaS applications reduces the need to have a different tool added to the environment to achieve that same goal and reduces the possibility that any additional interface won’t perform optimally.
+**The ability to log activity is useful for many security purposes (such as monitoring and forensics); 
+having that purposefully included in SaaS applications reduces the need to have a different tool added to the environment to achieve that same goal and reduces the possibility that any additional interface won’t perform optimall**y.
 
 The other options are all about enhancing the customer’s ability to perform business function or meeting the customer’s business needs. Although this is paramount from the customer’s perspective and may tangentially fulfill some security purpose (increased processing capacity may, for instance, allow the use of additional encryption, where the overhead may otherwise deter the use of that tool), these are not direct security purposes and therefore are not correct answers to this specific question.
 
@@ -117,12 +121,12 @@ C. Preventing all malware infection potential
 D. Ensuring that the racks and utilities can endure an earthquake          
 Answer: D. 
 
-California is known for suffering massive destruction from earthquakes, and physical design is the means with which this risk is addressed.
+**California is known for suffering massive destruction from earthquakes, and physical design is the means with which this risk is addressed**.
 All the other options either involve a nonphysical risk (DRM will be necessary, because the entertainment industry relies heavily on copyrighted material) or a method other than physical design to address a risk (floods are 
 
 physical threats, but insurance is an administrative control for risk transfer), so D is the best choice of these options.
 
-### Question # 13 - You are the security manager for a small retail business involved mainly in direct e-commerce transactions with individual customers (members of the public). The bulk of your market is in Asia, but you do fulfill orders globally. Your company has its own data center located within its headquarters building in Hong Kong, but it also uses a public cloud environment for contingency backup and archiving purposes. Your cloud provider is changing its business model at the end of your contract term, and you have to find a new provider. In choosing providers, which tier of the Uptime Institute rating system should you be looking for, if minimizing cost is your ultimate goal?           
+### [important knowledge] Question # 13 - You are the security manager for a small retail business involved mainly in direct e-commerce transactions with individual customers (members of the public). The bulk of your market is in Asia, but you do fulfill orders globally. Your company has its own data center located within its headquarters building in Hong Kong, but it also uses a public cloud environment for contingency backup and archiving purposes. Your cloud provider is changing its business model at the end of your contract term, and you have to find a new provider. In choosing providers, which tier of the Uptime Institute rating system should you be looking for, if minimizing cost is your ultimate goal?           
 A. 1           
 B. 3             
 C. 4            
