@@ -179,9 +179,36 @@ C.	Safe	Harbor
 D.	GLBA     
 	
 # QUICK	ANSWER	KEY     
-1.	B        2.	A        3.	D        4.	A        5.	B        6.	C        7.	A        8.	B        9.	B        10.	A        11.	B        12.	D        13.	B
-14.	C        15. A        16.	D        17.	B        18.	C        19.	A        20.	B        21.	B        22.	C        23.	C        24.	A        25.	B
-26.	A        27.	C        28.	A        29.	B        30.	D 
+1.	B        
+2.	A        
+3.	D        
+4.	A        
+5.	B        
+6.	C        
+7.	A        
+8.	B        
+9.	B        
+10.	A        
+11.	B        
+12.	D        
+13.	B
+14.	C        
+15. A        
+16.	D        
+17.	B        
+18.	C        
+19.	A        
+20.	B        
+21.	B        
+22.	C        
+23.	C        
+24.	A        
+25.	B
+26.	A        
+27.	C        
+28.	A        
+29.	B        
+30.	D 
 
 # ANSWERS Details 
 Comprehensive	Answers	and	Explanations
