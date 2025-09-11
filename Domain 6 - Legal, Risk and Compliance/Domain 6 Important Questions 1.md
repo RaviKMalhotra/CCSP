@@ -8,12 +8,12 @@ C. SSAE 18
 D. IEC 43770              
 Answer: C.                       
 
-The Statement on Standards for Attestation Engagements (SSAE) 18 is the current AICPA (American Institute of Certified Public Accountants) audit standard.
-ISO 27001 is an international audit standard.
-The Sarbanes-Oxley Act (SOX) is a U.S. law pertaining to publicly traded corporations.
+[important] **The Statement on Standards for Attestation Engagements (SSAE) 18 is the current AICPA (American Institute of Certified Public Accountants) audit standard**.
+ISO 27001 is an **international** audit standard.
+The Sarbanes-Oxley Act **(SOX) is a U.S. law** pertaining to **publicly traded corporations**.
 There is no such thing as the IEC 43770 standard.
 
-### Question # 2 - The Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program has _______________ tiers.               
+### [knowledge] Question # 2 - The Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program has _______________ tiers.               
 A. Two             
 B. Three            
 C. Four               
@@ -29,16 +29,18 @@ C. Tier 5
 D. Tier 8                
 Answer: A.                  
 
-Tier 1 is the lowest tier of the STAR program, involving only self-assessment.
+[important] Tier 1 is the lowest tier of the STAR program, involving only self-assessment.
 
-### Question # 4 - Alice and Bob want to use the Internet to communicate privately. They each have their own asymmetric key pairs and want to use them to create temporary symmetric keys for each connection or session. Which of the following will enable them to do this?              
+### [important] Question # 4 - Alice and Bob want to use the Internet to communicate privately. They each have their own asymmetric key pairs and want to use them to create temporary symmetric keys for each connection or session. Which of the following will enable them to do this?              
 A. Remote Authentication Dial-In User Service (RADIUS)            
 B. Rivest-Shamir-Adelman (RSA) encryption            
 C. Diffie-Hellman exchange                                     
 D. Terminal Access Controller Access-Control System (TACACS)               
 Answer: C.                 
 
-The Diffie-Hellman key exchange process is designed to allow two parties to create a shared secret (symmetric key) over an untrusted medium. RADIUS is an outmoded access control service for remote users. RSA is an encryption scheme. TACACS is a network access protocol set used through a centralized server.
+[important] **The Diffie-Hellman key exchange process is designed to allow two parties to create a shared secret (symmetric key) over an untrusted medium**.
+
+RADIUS is an outmoded access control service for remote users. RSA is an encryption scheme. TACACS is a network access protocol set used through a centralized server.
 
 ### Question # 5 - Under European Union (EU) law, a cloud customer who gives sensitive data to a cloud provider is still legally responsible for the damages resulting from a data breach caused by the provider; the EU would say that it is the cloud customer’s fault for choosing the wrong provider. This is an example of insufficient _______________.               
 A. Proof               
@@ -47,8 +49,9 @@ C. Due diligence
 D. Application of reasonableness               
 Answer: C. 
 
-A party who does not perform sufficient due diligence in choosing a contractor can be held accountable for the actions made by that contractor. In current privacy and data laws, this is usually the government’s perspective regarding wrongdoing on the part of cloud providers.
+**A party who does not perform sufficient due diligence in choosing a contractor can be held accountable for the actions made by that contractor**. 
 
+In current privacy and data laws, this is usually the government’s perspective regarding wrongdoing on the part of cloud providers.
 All the other options are incorrect because they are simply legal terms that do not correctly answer the question.
 
 ### Question # 6 - Which of the following is not an enforceable governmental request?                
@@ -58,7 +61,8 @@ C. Court order
 D. Affidavit                 
 Answer: D.                
 
-An affidavit is only a form of formal testimony presented to the court. All the other options are enforceable governmental requests.
+**An affidavit is only a form of formal testimony presented to the court**. 
+All the other options are enforceable governmental requests.
 
 ### Question # 7 - Which of the following is not a way of managing risk?                  
 A. Mitigation                
@@ -69,41 +73,48 @@ Answer: D.
 
 Streamlining is a nonsense term in this context. All the other options represent normal ways of addressing risk. Mitigation is the use of controls to attenuate the impact or likelihood (or both) of risk, acceptance is allowing the business to function with no further action, and avoidance is halting the business function.
 
-### Question # 8 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.             
+### [important knowledge] Question # 8 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.             
 A. Amorphous curtailment principle            
 B. Collection limitation principle              
 C. State-based incorporation principle               
 D. Hard-copy instantiation principle              
 Answer: B.                  
 
-The collection limitation principle requires any entity that gathers personally identifiable information (PII) about a person to restrict data collection to only information that is necessary for the transaction, and only with the knowledge and permission of the individual. The other options are meaningless in this context.
+[important] The **collection limitation principle** requires any entity that gathers personally identifiable information (PII) about a person **to restrict data collection to only information that is necessary for the transaction, and only with the knowledge and permission of the individual**. 
+The other options are meaningless in this context.
 
-### Question # 9 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.           
+### [important knowledge] Question # 9 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.           
 A. Data quality principle                  
 B. Transformative neologism principle           
 C. Encryption matrices principle            
 D. Restful state principle             
 Answer: A.             
 
-The data quality principle requires any entity that gathers personally identifiable information (PII) about a person to ensure that the data remains valid and accurate and allows for corrections by the data subject. The other answers are meaningless in this context.
+The **data quality principle** requires any entity that gathers personally identifiable information (PII) about a person **to ensure that the data remains valid and accurate and allows for corrections by the data subject**. 
 
-### Question # 10 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.              
+The other answers are meaningless in this context.
+
+### [important knowledge] Question # 10 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.              
 A. Archipelago enhancement principle            
 B. Solidity restoration principle                
 C. Nether working substrate principle               
 D. Purpose specification principle               
 Answer: D.             
 
-The purpose specification principle requires any entity that gathers personally identifiable information (PII) about a person to clearly state the explicit purpose for which the PII will be used. The other answers are meaningless in this context.
+[important] The **purpose specification principle** requires any entity that gathers personally identifiable information (PII) about a person to clearly state the explicit purpose for which the PII will be used. 
 
-### Question # 11 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.                  
+The other answers are meaningless in this context.
+
+### Question # 11 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.                  
 A. Use limitation principle               
 B. Erstwhile substitution principle             
 C. Flatline cohesion principle               
 D. Airstream fluidity principle              
 Answer: A.             
 
-The use limitation principle requires any entity that gathers personally identifiable information (PII) about a person to restrict the use of that PII to that which was permitted by the data subject and the reason given when it was collected. The other answers are meaningless in this context.
+[important] The **use limitation principle** requires any entity that gathers personally identifiable information (PII) about a person **to restrict the use of that PII to that which was permitted by the data subject and the reason given when it was collected**. 
+
+The other answers are meaningless in this context.
 
 ### Question # 12 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.                    
 A. Transient data principle                 
