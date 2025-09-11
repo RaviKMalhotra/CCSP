@@ -217,23 +217,23 @@ C. Organisation for Economic Cooperation and Development (OECD)
 D. General Data Protection Regulation (GDPR)           
 Answer: B. 
 
-The FedRAMP standard dictates that American federal agencies must retain their data within the boundaries of the United States, including data within cloud data centers.
+**The FedRAMP standard dictates that American federal agencies must retain their data within the boundaries of the United States, including data within cloud data centers**.
 FISMA is the federal law requiring agencies to comply with National Institute of Standards and Technology (NIST) guidance; option A is broader than B, so B is better in this case.
 Options C and D are not American laws and therefore not applicable.
 
-### Question # 22 - The Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program includes a level of certification for cloud providers that acquire third-party assessments of their environment and controls. Which STAR level is this?                    
+### [important] Question # 22 - The Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program includes a level of certification for cloud providers that acquire third-party assessments of their environment and controls. Which STAR level is this?                    
 A. 1             
 B. 2           
 C. 3             
 D. 4            
 Answer: B.             
 
-Level 2 of the CSA STAR program requires third-party assessment of the provider.
-Level 1 is a self-assessment; option A is incorrect.
-Level 3 requires continual monitoring by a third party; option C is incorrect.
-There is no Level 4 of the STAR program.
+[very important] **Level 2 of the CSA STAR program requires third-party assessment of the provider**.
+**Level 1 is a self-assessment**; option A is incorrect.
+**Level 3 requires continual monitoring by a third party**; option C is incorrect.
+**There is no Level 4 of the STAR program**.
 
-### Question # 23 -  _______________ is the legal concept whereby a cloud customer is held to a reasonable expectation for providing security of its users’ and clients’ privacy data.                          
+### [tricky] Question # 23 -  _______________ is the legal concept whereby a cloud customer is held to a reasonable expectation for providing security of its users’ and clients’ privacy data.                          
 A. Due care                   
 B. Due diligence               
 C. Liability                  
@@ -241,11 +241,12 @@ D. Reciprocity
 Answer: A.                  
 
 This is an example of due care.
-Due diligence is the processes and activities used to ensure that due care is maintained; option B is incorrect.
+[important] **Due diligence is the processes and activities used to ensure that due care is maintained**; 
+option B is incorrect.
 Liability is the measure of responsibility an entity has for providing due care; option C is incorrect.
 Option D has no meaning in this context.
 
-### Question # 24 - Under European Union law, what is the difference between a directive and a regulation?                 
+### [very important] Question # 24 - Under European Union law, what is the difference between a directive and a regulation?                 
 A. A directive is enforced by the member states; a regulation is enforced by an international body.                   
 B. A directive is put in place by statute; a regulation is put in place by precedent.                          
 C. A directive is for local laws; a regulation is for laws dealing with matters outside the EU.                         
@@ -257,7 +258,7 @@ Both directives and regulations can be enforced by either member states or EU in
 Both directives and regulations are statutory; option B is not correct.
 Both directives and regulations deal with both internal EU matters and those that extend outside Europe; option C is not correct.
 
-### Question # 25 - You work for a European government agency providing tax counseling services to taxpayers. On your website home page, you include a banner with the following text: “As a visitor to this website, I agree that any information I disclose to the Tax Counseling Agency can be used for any and all purposes under the General Data Protection Regulation (GDPR).” This is followed by a button that says, “I Agree”: users have to click the button, or they are taken to a page that says, “Goodbye. Thank you for visiting the Tax Counseling Agency, and have a nice day.”  This method of collecting personal information is _______________.                      
+### [important knowledge] Question # 25 - You work for a European government agency providing tax counseling services to taxpayers. On your website home page, you include a banner with the following text: “As a visitor to this website, I agree that any information I disclose to the Tax Counseling Agency can be used for any and all purposes under the General Data Protection Regulation (GDPR).” This is followed by a button that says, “I Agree”: users have to click the button, or they are taken to a page that says, “Goodbye. Thank you for visiting the Tax Counseling Agency, and have a nice day.”  This method of collecting personal information is _______________.                      
 A. Illegal under the GDPR because it is electronic and needs to be in hard copy               
 B. Legal under the GDPR                                                           
 C. Illegal under the GDPR because it doesn’t allow service if the visitor refuses         
