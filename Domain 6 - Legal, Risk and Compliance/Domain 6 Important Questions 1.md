@@ -116,14 +116,14 @@ Answer: A.
 
 The other answers are meaningless in this context.
 
-### Question # 12 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.                    
+### [important knowledge] Question # 12 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.                    
 A. Transient data principle                 
 B. Security safeguards principle                 
 C. Longtrack resiliency principle                       
 D. Arbitrary insulation principle                  
 Answer: B.                   
 
-The security safeguards principle requires any entity that gathers personally identifiable information (PII) about a person to protect that data against unauthorized access and modification. The other answers are meaningless in this context.
+The **security safeguards principle** requires any entity that gathers personally identifiable information (PII) about a person to protect that data against unauthorized access and modification. The other answers are meaningless in this context.
 
 ### Question # 13 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.               
 A. Volcanic principle               
@@ -132,18 +132,21 @@ C. Repository principle
 D. Openness principle                  
 Answer: D.                    
 
-The openness principle requires any entity that gathers personally identifiable information (PII) about a person to allow that person to access the information. The other answers are meaningless in this context.
+The **openness principle **requires any entity that **gathers personally identifiable information (PII) about a person to allow that person to access the information**. 
+The other answers are meaningless in this context.
 
-### Question # 14 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. The OECD privacy principles influenced which lawmaking body and are readily apparent in the law(s) it created?              
+### [important knowledge] Question # 14 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. The OECD privacy principles [influenced] which lawmaking body and are readily apparent in the law(s) it created?              
 A. U.S. Congress              
 B. European Union (EU)           
 C. Politburo                                      
 D. International Standards Organization (ISO)            
 Answer: B.              
 
-The EU crafted first the EU Data Directive and then the General Data Protection Regulation largely according to the OECD guidelines. The US Congress has (at the time of this writing) made no broad federal privacy law and instead has treated personal privacy on an industry-by-industry basis. The Politburo no longer exists. The ISO is not a lawmaking body.
+[important] **The EU crafted first the EU Data Directive and then the General Data Protection Regulation largely according to the OECD guidelines**. 
 
-### Question # 15 - Which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?                  
+The US Congress has (at the time of this writing) made no broad federal privacy law and instead has treated personal privacy on an industry-by-industry basis. The Politburo no longer exists. The ISO is not a lawmaking body.
+
+### [important] Question # 15 - Which of the following is not a way in which an entity located [outside the European Union (EU)] can be allowed to gather and process privacy data belonging to EU citizens?                  
 A. Be located in a country with a nationwide law that complies with the EU laws.                         
 B. Appeal to the EU High Court for permission.                             
 C. Create binding contractual language that complies with the EU laws.               
@@ -156,14 +159,14 @@ The entity creates contractual language that complies with the EU laws and has t
 The entity voluntarily subscribes to its own nation’s Privacy Shield program.
 There is no process for the entity to appeal to the EU for permission to do so, however.
 
-### Question # 16 - The Privacy Shield program is _______________.             
+### [important] Question # 16 - The Privacy Shield program is _______________.             
 A. Voluntary for non–European Union (EU) entities            
 B. Mandatory for all EU entities             
 C. Mandatory for all non-EU entities            
 D. Voluntary for all EU entities               
 Answer: A.             
 
-The Privacy Shield program is for non-EU entities that also do not exist in a country with a nationwide privacy law; no entity is required to join the program, but those who don’t are prevented from collecting and processing EU citizen privacy data. Entities within the EU are already subject to the EU General Data Protection Regulation law and therefore are not eligible or benefited by the Privacy Shield program.
+**The Privacy Shield program is for non-EU entities** that also do not exist in a country with a nationwide privacy law; no entity is required to join the program, but those who don’t are prevented from collecting and processing EU citizen privacy data. Entities within the EU are already subject to the EU General Data Protection Regulation law and therefore are not eligible or benefited by the Privacy Shield program.
 
 ### Question # 17 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?              
 A. Canada               
@@ -172,18 +175,21 @@ C. Switzerland
 D. Japan               
 Answer: B.             
 
-The United States does not have a general nationwide privacy law that complies with the EU privacy statutes; it instead has created industry-specific privacy laws. Canada has a law (Personal Information Protection and Electronic Documents Act) that conforms with the EU laws, as does Switzerland and Japan.
+**The United States does not have a general nationwide privacy law that complies with the EU privacy statutes; it instead has created industry-specific privacy laws**. 
+Canada has a law (Personal Information Protection and Electronic Documents Act) that conforms with the EU laws, as does Switzerland and Japan.
 
-### Question # 18 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?              
+### [important] Question # 18 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?              
 A. Argentina               
 B. Israel                  
 C. Australia              
 D. Brazil                  
 Answer: D.                  
 
-Brazil does not yet have federal privacy laws sufficient to be considered acceptable for EU compliance. Israel, Australia, and Argentina all do.
+**Brazil does not yet have federal privacy laws sufficient to be considered acceptable for EU compliance**. 
 
-### Question # 19 - In the United States, who manages the Privacy Shield program for voluntary compliance with European Union (EU) data privacy laws?           
+Israel, Australia, and Argentina all do.
+
+### [important] Question # 19 - In the United States, who manages the Privacy Shield program for voluntary compliance with European Union (EU) data privacy laws?           
 A. Department of State             
 B. Department of Interior            
 C. Department of Trade             
@@ -192,14 +198,17 @@ Answer: D.
 
 The Department of Commerce manages the Privacy Shield program in the United States; the Departments of State and Interior do not. There is no Department of Trade.
 
-### Question # 20 - You’re a sophomore at a small, private medical teaching college in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will not be applicable to you, your personal data, or the data you work with as a student?            
+### [important tricky] Question # 20 - You’re a sophomore at a small, private medical teaching college in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will not be applicable to you, your personal data, or the data you work with as a student?            
 A. Sarbanes-Oxley Act (SOX)                                          
 B. Health Information Portability and Accountability Act (HIPAA)            
 C. Payment Card Industry Data Security Standards (PCI DSS)            
 D. Family Educational Rights and Privacy Act (FERPA)              
 Answer: A.             
 
-SOX is only applicable to publicly traded corporations, not all companies. HIPAA may be applicable to the data you work with as a medical student, if you work with patient data. Your payment and personal data is governed by PCI DSS. FERPA protects your personal student information.
+[important] **SOX is only applicable to publicly traded corporations**, not all companies. 
+HIPAA may be applicable to the data you work with as a medical student, if you work with patient data. 
+Your payment and personal data is governed by PCI DSS. 
+**FERPA protects your personal student information**.
 
 ### Question # 21 - U.S. federal entities are required to use cloud data centers within the borders of the United States only. Which law, standard, or requirement mandates this?               
 A. Federal Information Security Management Act (FISMA)               
