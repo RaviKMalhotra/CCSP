@@ -283,7 +283,7 @@ C	is	incorrect	because	pen	testing	is	also	done	as	a	“black-box”	test, but	u
 
 D	is	incorrect	because	runtime	application	self-protection	(RASP)	is used	to	test	against	systems	that	have	the	ability	to	detect	attacks	and threats,	and	then	to	automatically	adjust	their	security	settings	or	other configurations	to	compensate	for	and	mitigate	these	attacks	and threats.	RASP	is	designed	to	be	done	in	real	time	on	live	systems.
 
-### Question # 2 - An	employee	of	your	company	submitted	a	security	ticket	claiming	that	he was	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?   
+### [important] Question # 2 - An	employee	of	your	company	submitted	a	security	ticket	claiming	that	he was	able	to	access	areas	of	an	application	by	going	through	certain functions	that	he	should	not	be	able	to.	What	type	of	security	vulnerability does	this	best	illustrate?   
 A.	Missing	function-level	access	control   
 B.	Security	misconfiguration    
 C.	Sensitive	data	exposure   
@@ -362,7 +362,7 @@ B	is	incorrect	because	patching	would	be	a	great	concern	when	images are	kept	of
 
 C	is	incorrect	because	confidentiality	is	a	primary	concern	even	with images	that	are	offline.	In	an	offline	state,	the	images	still	reside	as files	within	the	storage	of	the	cloud	provider,	and	as	such,	a compromised	management	plane	or	hypervisor,	as	well	as	the	storage system	itself,	could	expose	those	files	to	access	and	copying.
   
-### Question # 7 - Which	stage	of	the	BCDR	process	takes	into	account	the	RPO	and	RTOrequirements	set	forth	by	management	and	stakeholders?    
+### Question # 7 - Which	stage	of	the	BCDR	process	takes	into	account	the	RPO	and	RTO requirements	set	forth	by	management	and	stakeholders?    
 A.	Gathering	requirements     
 B.	Define	scope    
 C.	Analyze    
@@ -377,7 +377,7 @@ C	is	incorrect	because	the	analyze	stage	involves	taking	the	project requirement
 
 D	is	incorrect	because	the	implementation	stage	involves	the	actual execution	of	the	project.	This	is	after	all	planning	has	been	completed and	documented.
 
-### Question # 8 - Which	of	the	following	threats	from	the	OWASP	Top	Ten	is	the	mostdifficult	for	an	organization	to	protect	against?      
+### Question # 8 - Which	of	the	following	threats	from	the	OWASP	Top	Ten	is	the	most difficult	for	an	organization	to	protect	against?      
 A.	Advanced	persistent	threats     
 B.	Account	hijacking    
 C.	Malicious	insiders     
@@ -392,7 +392,7 @@ B	is	incorrect	because	account	hijacking	involves	either	a	shared account	being	
 
 D	is	incorrect	because	denial	of	service	(DoS)	does	not	actually involve	the	compromise	of	a	system	or	application,	but	is	rather focused	on	availability.	Many	different	approaches	are	available	for preventing	or	minimizing	the	impact	of	DoS	attacks	against	a	system.
 
-### Question # 9 - You	have	been	tasked	by	management	to	run	security	tests	against	an application	using	the	same	toolsets	and	methodologies	that	a	legitimate attacker	would	use,	including	actually	attempting	to	leverage	successful exploits.	Which	type	of	testing	would	this	entail?
+### [tricky] Question # 9 - You	have	been	tasked	by	management	to	run	security	tests	against	an application	using	the	same	tool sets	and	methodologies	that	a	legitimate attacker	would	use,	including	actually	attempting	to	leverage	successful exploits.	Which	type	of	testing	would	this	entail?
 A.	Dynamic	application	security	testing     
 B.	Penetration	testing     
 C.	Simulation	testing      
@@ -407,14 +407,14 @@ C	is	incorrect	because	simulation	testing	is	not	a	type	of	security testing	that
 
 D	is	incorrect	because	static	application	security	testing	(SAST) assesses	both	the	source	code	and	components	of	an	application.	It	is done	as	a	“white-box”	test,	and	those	running	the	tests	have	full	access to	the	actual	source	code	and	configuration	documentation	of	the application.	Also,	tests	are	done	against	an	offline	system.
 
-### Question # 10 - Which	of	the	following	types	of	threats	is	focused	on	compromising	theclient	rather	than	the	server	or	application	itself?    
+### [important] Question # 10 - Which	of	the	following	types	of	threats	is	focused	on	compromising	the client	rather	than	the	server	or	application	itself?    
 A.	Cross-site	scripting    
 B.	Insecure	direct	object	references   
 C.	Injection    
 D.	Cross-site	request	forgery    
 Answer: A.	
 
-Cross-site	scripting	(XSS)	is	an	attack	where	a	malicious	actor	is able	to	send	untrusted	data	to	a	user’s	browser	without	it	going through	any	validation	or	sanitization	processes,	or	perhaps	the	code	is not	properly	escaped	from	processing	by	the	browser.	The	code	is	then executed	on	the	user’s	browser	with	their	own	access	and	permissions, thus	allowing	an	attacker	to	redirect	the	user’s	web	traffic,	steal	data from	their	session,	or	potentially	access	information	on	the	user’s	own computer	that	their	browser	has	the	ability	to	access.
+[important] **Cross-site	scripting	(XSS)	is	an	attack	where	a	malicious	actor	is able	to	send	untrusted	data	to	a	user’s	browser	without	it	going through	any	validation	or	sanitization	processes,	or	perhaps	the	code	is not	properly	escaped	from	processing	by	the	browser.	The	code	is	then executed	on	the	user’s	browser	with	their	own	access	and	permissions, thus	allowing	an	attacker	to	redirect	the	user’s	web	traffic,	steal	data from	their	session,	or	potentially	access	information	on	the	user’s	own computer	that	their	browser	has	the	ability	to	access**.
 
 B	is	incorrect	because	insecure	direct	object	references	occur	when	a developer	has	in	their	code	a	reference	to	something	on	the	application side,	such	as	a	database	key,	the	directory	structure	of	the	application, configuration	information	about	the	hosting	system,	or	any	other information	that	pertains	to	the	workings	of	the	application	that	should not	be	exposed	to	users	or	the	network.
 
@@ -422,7 +422,7 @@ C	is	incorrect	because	an	injection	attack	is	where	a	malicious	actor sends	comm
 
 D	is	incorrect	because	a	cross-site	request	forgery	attack	forces	an authenticated	client	that	a	user	has	open	to	send	forged	requests	under the	user’s	own	credentials	to	execute	commands	and	requests	that	the application	thinks	are	coming	from	a	trusted	client	and	user.
 
-### Question # 11 - Which	concept	refers	to	the	ability	to	validate	and	prove	that	a	specificentity	did	not	perform	operations	on	a	system?     
+### [important] Question # 11 - Which	concept	refers	to	the	ability	to	validate	and	prove	that	a	specific entity	did	not	perform	operations	on	a	system?     
 A.	Repudiation     
 B.	Validation     
 C.	Integrity     
@@ -437,7 +437,7 @@ C	is	incorrect	because	integrity	relates	to	the	assurance	that	data	has not	been
 
 D	is	incorrect	because	authentication	involves	the	ability	to	prove	an identity	to	a	system	or	service	to	satisfy	the	particular	requirements	to meet	that	burden	of	proof.	It	is	not	related	to	proving	that	a	specific entity	conducted	an	operation	on	a	service.
 
-### Question # 12 - Which	of	the	following	software	applications	is	not	a	utility	for	managingcode	or	system	configurations?    
+### Question # 12 - Which	of	the	following	software	applications	is	not	a	utility	for	managing code	or	system	configurations?    
 A.	Puppet    
 B.	Chef   
 C.	Shibboleth   
@@ -452,7 +452,7 @@ B	is	incorrect	because	Chef	is	a	software	package	for	deploying	and configuring	
 
 D	is	incorrect	because	GitHub	is	a	very	widely	used	software	platform that	provides	a	code	repository	for	collaborative	development, including	branching	and	versioning	capabilities.
 
-### Question # 13 - During	an	incident	investigation	from	a	suspected	breach,	it	wasdiscovered	that	some	application	code	contained	the	names	of	underlying databases	and	systems	that	were	able	to	be	read	by	the	attacker.	What	type of	vulnerability	does	this	best	represent?     
+### [important] Question # 13 - During	an	incident	investigation	from	a	suspected	breach,	it	was discovered	that	some	application	code	contained	the	names	of	underlying databases	and	systems	that	were	able	to	be	read	by	the	attacker.	What	type of	vulnerability	does	this	best	represent?     
 A.	Injection    
 B.	Sensitive	data	exposure    
 C.	Security	misconfigurations     
@@ -468,14 +468,16 @@ and	other	clients	that	are	used	for	accessing	the	information.
 
 C	is	incorrect	because	security	misconfigurations	occur	when applications	and	systems	are	not	properly	configured	or	maintained	in a	secure	manner.	This	can	be	due	to	a	shortcoming	in	security baselines	or	configurations,	unauthorized	changes	to	system configurations,	or	a	failure	to	patch	and	upgrade	systems	as	security patches	are	released	by	the	vendor.	Security	misconfigurations	also include	not	changing	the	default	configurations	or	credentials	that come	with	an	application	prior	to	its	use	and	deployment.
 
-### Question # 14 - What	standard	is	used	between	different	entities	within	a	federated	systemto	exchange	information	about	authentication	and	user	attributes?  
+### Question # 14 - What	standard	is	used	between	different	entities	within	a	federated	system to	exchange	information	about	authentication	and	user	attributes?  
 A.	SAML   
 B.	XML   
 C.	HTML   
 D.	TLS   
 Answer: A.	
 
-The	Security	Assertion	Markup	Language	(SAML)	is	an	open standard	for	exchanging	information	for	authentication	and authorization	between	an	identity	provider	and	a	relying	party.	SAML provides	information	to	ensure	that	authentication	has	been	completed successfully.	It	also	provides	the	identification	for	the	identity provider	and	organization	as	well	as	a	set	of	attributes	about	the	user to	be	given	to	the	relying	party.
+[important] The	Security	Assertion	Markup	Language	(SAML)	is	**an	open standard**	for	**exchanging	information	for	authentication	and authorization	between	an	identity	provider	and	a	relying	party**.	
+**SAML provides	information	to	ensure	that	authentication	has	been	completed successfully**.	
+It	also	provides	the	identification	for	the	identity provider	and	organization	as	well	as	a	set	of	attributes	about	the	user to	be	given	to	the	relying	party.
 
 B	is	incorrect	because	XML	is	similar	to	SAML	in	structure	and format,	but	is	not	used	for	exchanging	information	with	a	federated system.	XML	is	a	standard	format	for	encoding	and	exchanging information,	but	it	is	not	used	specifically	for	authentication	and authorization.
 
@@ -483,8 +485,8 @@ C	is	incorrect	because	HTML	is	used	for	encoding	web	pages	to	be consumed	by	cli
 
 D	is	incorrect	because	TLS	is	specifically	for	facilitating	secure communication	between	two	parties,	including	negotiating	the connection	and	then	actually	encrypting	and	protecting	packets	as	they are	transmitted	between	the	two	parties.	It	is	heavily	used	within federated	systems,	but	is	not	the	protocol	used	for	actually	passing information	between	the	two	parties.	It	just	secures	the	information.
 
-### Question # 15 - Which	concept	is	often	used	to	isolate	and	separate	information	orprocesses	within	an	environment	for	either	security	concerns	or	regulatory requirements?     
-A.		Virtualization    
+### Question # 15 - Which	concept	is	often	used	to	isolate	and	separate	information	or processes	within	an	environment	for	either	security	concerns	or	regulatory requirements?     
+A.	Virtualization    
 B.	Segregation     
 C.	Sandboxing     
 D.	Honeypots     
@@ -498,14 +500,16 @@ B	is	incorrect	because	segregation	is	a	general	concept	that	relates	to the	topi
 
 D	is	incorrect	because	honeypots	are	special	systems	designed	to appear	in	configuration	and	data	as	production	systems,	but	they	are kept	isolated	and	use	fake	data	for	the	purposes	of	enticing	attackers to	them.	This	allows	an	organization	to	learn	about	the	types	of	attacks being	employed	against	their	systems	and	to	determine	additional	or different	security	approaches	for	their	actual	systems.
 
-### Question # 16 - Which	type	of	threat	is	often	used	in	conjunction	with	phishing	attemptsand	is	often	viewed	as	greatly	increasing	the	likeliness	of	success?  
+### [important] Question # 16 - Which	type	of	threat	is	often	used	in	conjunction	with	phishing	attempts and	is	often	viewed	as	greatly	increasing	the	likeliness	of	success?  
 A.	Unvalidated	redirects	and	forwards    
 B.	Cross-site	request	forgery    
 C.	Cross-site	scripting    
 D.	Insecure	direct	object	references    
 Answer: A.	
 
-Unvalidated	redirects	and	forwards	occur	when	an	application allows	external	links	or	redirects	but	does	not	properly	validate	or secure	them.	This	allows	an	attacker	to	potentially	redirect	users through	a	legitimate	and	secure	application	to	an	external	site	for phishing	attempts	or	other	malware	attacks.	The	site	will	appear	to	be safe	and	legitimate	to	the	user	because	it	originated	from	within	a trusted	application.
+[important] **Unvalidated	redirects	and	forwards	occur	when	an	application allows	external	links	or	redirects	but	does	not	properly	validate	or secure	them.	
+This	allows	an	attacker	to	potentially	redirect	users through	a	legitimate	and	secure	application	to	an	external	site	for phishing	attempts	or	other	malware	attacks.	
+The	site	will	appear	to	be safe	and	legitimate	to	the	user	because	it	originated	from	within	a trusted	application**.
 
 B	is	incorrect	because	a	cross-site	request	forgery	attack	forces	an authenticated	client	that	a	user	has	open	to	send	forged	requests	under the	user’s	own	credentials	to	execute	commands	and	requests	that	the application	thinks	are	coming	from	a	trusted	client	and	user.
 
@@ -513,14 +517,16 @@ C	is	incorrect	because	cross-site	scripting	is	an	attack	where	a malicious	actor
 
 D	is	incorrect	because	insecure	direct	object	references	occur	when	a developer	has	in	their	code	a	reference	to	something	on	the	application side,	such	as	a	database	key,	the	directory	structure	of	the	application, configuration	information	about	the	hosting	system,	or	any	other information	that	pertains	to	the	workings	of	the	application	that	should not	be	exposed	to	users	or	the	network.
 
-### Question # 17 - What	is	the	primary	security	mechanism	used	to	protect	SOAP	and	RESTAPIs?    
+### [important] Question # 17 - What	is	the	primary	security	mechanism	used	to	protect	SOAP	and	REST APIs?    
 A.	Firewalls    
 B.	XML	firewalls    
 C.	Encryption    
 D.	WAFs    
 Answer: C.	
 
-The	SOAP	and	REST	APIs	do	not	have	built-in	security mechanisms	and	must	rely	on	external	mechanisms.	The	primary means	to	protect	both	APIs	is	through	the	use	of	encryption,	typically through	the	use	of	TLS	to	secure	the	transmission	of	data	across	the networks	between	the	clients	and	services.
+**The	SOAP	and	REST	APIs	do	not	have	built-in	security mechanisms**	and	must	rely	on	external	mechanisms.	
+**The	primary means	to	protect	both	APIs	is	through	the	use	of	encryption**,	
+**typically through	the	use	of	TLS	to	secure	the	transmission**	of	data	across	the networks	between	the	clients	and	services.
 
 A	is	incorrect	because	although	firewalls	may	be	used	with	some	APIs to	limit	and	control	access	to	them,	it	does	not	provide	as	thorough security	as	encryption,	nor	does	it	secure	the	data	transmissions	from the	APIs	at	all.
 
@@ -528,7 +534,7 @@ B	is	incorrect	because	XML	firewalls	are	used	to	validate	and	control XML	flowin
 
 D	is	incorrect	because	a	web	application	firewall	(WAF)	will	enable extensive	filtering	and	security	checks	on	the	content	of	data	packets flowing	between	API	services,	but	they	will	not	secure	the	actual	data transmissions	in	any	way.
 
-### Question # 18 - Which	type	of	testing	tends	to	produce	the	best	and	most	comprehensiveresults	for	discovering	system	vulnerabilities?    
+### [tricky] Question # 18 - Which	type	of	testing	tends	to	produce	the	best	and	most	comprehensive results	for	discovering	system	vulnerabilities?    
 A.	Static   
 B.	Dynamic   
 C.	Pen   
@@ -543,20 +549,24 @@ C	is	incorrect	because	pen	testing	is	done	as	a	“black-box”	test,	but using	
 
 D	is	incorrect	because	vulnerability	scanning	is	done	using	a predefined	set	of	signatures	and	parameters	to	evaluate	a	system	and give	a	risk	rating	based	on	the	findings.	Vulnerability	scanning	does not	involve	extensive	knowledge	of	a	system	or	go	beyond	the preconfigured	tests	that	are	run	for	compliance.
 
-### Question # 19 - Which	of	the	following	represents	the	R	component	of	the	DREAD	threat risk	modeling	system?    
+### [very important] Question # 19 - Which	of	the	following	represents	the	R	component	of	the	DREAD	threat risk	modeling	system?    
 A.	Reproducibility    
 B.	Repudiation    
 C.	Redundancy    
 D.	Reversibility    
 Answer: A.	
 
-Reproducibility	is	the	measure	of	how	easy	it	is	to	reproduce	an exploit.	On	the	low	end,	a	value	of	0	signifies	a	near	impossibility	of exploit,	even	with	administrative	access.	This	would	likely	occur where	other	defensive	measures	prevent	access	or	exploit.	On	the	high end,	a	value	of	10	signifies	an	easy	exploit,	such	as	simply	accessing the	application	with	a	client,	without	needing	authentication	or	other methods.	Any	value	in	the	middle	will	be	subjective	and	determined based	on	the	particulars	of	the	application,	as	well	as	any	other mitigating	factors	from	other	defensive	mechanisms.
+[important] **Reproducibility	is	the	measure	of	how	easy	it	is	to	reproduce	an exploit**.	
+On	the	low	end,	a	value	of	0	signifies	a	near	impossibility	of exploit,	even	with	administrative	access.	
+This	would	likely	occur where	other	defensive	measures	prevent	access	or	exploit.	
+On	the	high end,	a	value	of	10	signifies	an	easy	exploit,	such	as	simply	accessing the	application	with	a	client,	without	needing	authentication	or	other methods.	
+Any	value	in	the	middle	will	be	subjective	and	determined based	on	the	particulars	of	the	application,	as	well	as	any	other mitigating	factors	from	other	defensive	mechanisms.
 
 B	is	incorrect	because	the	R	component	of	the	DREAD	threat	risk model	is	reproducibility,	not	repudiation.
 C	is	incorrect	because	the	R	component	of	the	DREAD	threat	risk model	is	reproducibility,	not	redundancy.
 D	is	incorrect	because	the	R	component	of	the	DREAD	threat	risk model	is	reproducibility,	not	reversibility.
 
-### Question # 20 - During	a	periodic	or	specific	testing	of	a	BCDR	plan,	which	of	thefollowing	pairs	of	objectives	is	the	main	metric	used	for	the	overall evaluation	of	the	plan?    
+### Question # 20 - During	a	periodic	or	specific	testing	of	a	BCDR	plan,	which	of	the following	pairs	of	objectives	is	the	main	metric	used	for	the	overall evaluation	of	the	plan?    
 A.	RPO	and	SRE   
 B.	RSL	and	RTO   
 C.	RTO	and	RPO   
@@ -569,7 +579,7 @@ A	is	incorrect	because	the	RPO	and	RTO	are	the	key	metrics	and considerations	of
 B	is	incorrect	because	the	RPO	and	RTO	are	the	key	metrics	and considerations	of	a	BCDR	test.
 D	is	incorrect	because	the	RPO	and	RTO	are	the	key	metrics	and considerations	of	a	BCDR	test.
 
-### Question # 21 - Which	of	the	following	options	would	be	possible,	in	conjunction	with	aUSB	drive,	to	fulfill	an	application’s	multifactor	authentication requirements?     
+### [important] Question # 21 - Which	of	the	following	options	would	be	possible,	in	conjunction	with	a USB	drive,	to	fulfill	an	application’s	multifactor	authentication requirements?     
 A.		RFID	chip	card   
 B.	Password    
 C.	RSA	token    
@@ -585,7 +595,7 @@ C	is	incorrect	because	a	USB	thumb	drive	represents	something	that	a user	has	or
 D	is	incorrect	because	a	USB	thumb	drive	represents	something	that	a user	has	or	possesses,	which	is	also	the	same	category	as	an	access card.	As	such,	an	access	card	would	not	be	appropriate	to	use	to	fulfill multifactor	authentication	requirements	because	it	comes	from	the
 same	class	of	credentials.
 
-### Question # 22 - Which	of	the	following	types	of	organizations	is	most	likely	to	make	useof	open	source	software	technologies?   
+### Question # 22 - Which	of	the	following	types	of	organizations	is	most	likely	to	make	use of	open	source	software	technologies?   
 A.	Government	agencies   
 B.	Corporations    
 C.	Universities   
@@ -600,14 +610,14 @@ B	is	incorrect	because	corporations	do	not	typically	make	extensive use	of	open	
 
 D	is	incorrect	because	the	military	tends	to	use	proprietary	software that	comes	with	support—especially	software	that	is	written specifically	for	its	unique	needs	and	requirements.
 
-### Question # 23 - Which	component	consumes	assertions	from	identity	providers	and	makesa	determination	as	to	whether	to	grant	access,	and	at	what	level,	if applicable	to	a	user?     
+### [important] Question # 23 - Which	component	consumes	assertions	from	identity	providers	and	makesa	determination	as	to	whether	to	grant	access,	and	at	what	level,	if applicable	to	a	user?     
 A.		Service	party    
 B.	Application	provider   
 C.	Service	broker    
 D.	Relying	party    
 Answer: D.	
 
-A	relying	party	consumes	security	assertions	from	identity providers	and	then	makes	decisions	as	to	whether	to	grant	access	and at	what	level.	The	decisions	can	be	based	on	anything	about	the	user that	is	presented	in	the	attributes	from	the	identity	provider,	such	as status,	organization,	and	location.
+[important] **A	relying	party	consumes	security	assertions	from	identity providers	and	then	makes	decisions	as	to	whether	to	grant	access	and at	what	level**.	The	decisions	can	be	based	on	anything	about	the	user that	is	presented	in	the	attributes	from	the	identity	provider,	such	as status,	organization,	and	location.
 
 A	is	incorrect	because	service	party	is	a	similar	sounding	term	to relying	party,	but	it	is	not	the	correct	term.
 
@@ -615,7 +625,7 @@ B	is	incorrect	because	application	provider	is	not	a	term	associated with	a	fede
 
 C	is	incorrect	because	a	service	broker	is	a	different	concept	that	is	not related	to	the	components	of	a	federated	identity	system.
 
-### Question # 24 - Which	of	the	following	choices	represents	the	D	component	of	the STRIDE	threat	model	from	OWASP?    
+### [very important] Question # 24 - Which	of	the	following	choices	represents	the	D	component	of	the STRIDE	threat	model	from	OWASP?    
 A.	Data	loss   
 B.	Data	breach   
 C.	Denial	of	service    
@@ -630,7 +640,7 @@ B	is	incorrect	because	the	D	component	of	the	STRIDE	threat	model refers	to	deni
 
 D	is	incorrect	because	the	D	component	of	the	STRIDE	threat	model refers	to	denial	of	service,	not	disclosure.
 
-### Question # 25 - Many	organizations	will	have	different	environments	for	developmentversus	production,	even	using	different	cloud	providers	or	different systems	between	the	two.	Which	of	the	following	would	be	the	BEST reason	to	have	both	production	systems	and	development	systems	hosted within	the	same	cloud	environment?    
+### [tricky important] Question # 25 - Many	organizations	will	have	different	environments	for	developmentversus	production,	even	using	different	cloud	providers	or	different systems	between	the	two.	Which	of	the	following	would	be	the	BEST reason	to	have	both	production	systems	and	development	systems	hosted within	the	same	cloud	environment?    
 A.	Operating	systems    
 B.	VPN	access    
 C.	Storage	systems   
