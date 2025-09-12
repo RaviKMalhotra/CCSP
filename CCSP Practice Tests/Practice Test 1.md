@@ -1,30 +1,29 @@
 
-### Questions # 1 - Which	cloud	service	category	is	most	associated	with	auto-scalingofferings	for	a	cloud	customer?     
+### Questions # 1 - Which	cloud	service	category	is	most	associated	with	auto-scaling offerings	for	a	cloud	customer?     
 A.	IaaS   
 B.	PaaS    
 C.	SaaS    
 D.	DaaS     
 
- ### Questions # 2 - Which	of	the	following	is	NOT	considered	one	of	the	core	building-block technologies	of	cloud	computing	and	services	offered	by	cloud	providers?      
+### Questions # 2 - Which	of	the	following	is	NOT	considered	one	of	the	core	building-block technologies	of	cloud	computing	and	services	offered	by	cloud	providers?      
 A.	CPU     
 B.	Memory     
 C.	Operating	systems     
 D.	Storage    
 
- ### Questions # 3 - If	an	organization	desires	to	utilize	multiple	cloud	providers	for	thepurposes	of	redundancy	and	disaster	recovery	strategies,	which	cloud deployment	model	would	be	the	most	appropriate?      
+### Questions # 3 - If	an	organization	desires	to	utilize	multiple	cloud	providers	for	the purposes	of	redundancy	and	disaster	recovery	strategies,	which	cloud deployment	model	would	be	the	most	appropriate?      
 A.	Hybrid     
 B.	Private    
 C.	Public      
 D.	Community     
 
- ### Questions # 4 - Which	of	the	following	strategies	to	ensure	data	deletion	andunrecoverability	is	the	most	likely	to	be	available	within	a	cloud environment?      
+### Questions # 4 - Which	of	the	following	strategies	to	ensure	data	deletion	and unrecoverability	is	the	most	likely	to	be	available	within	a	cloud environment?      
 A.	Degaussing     
 B.	Cryptographic erasure     
 C.	Overwriting      
 D.	Shredding     
 
- ### Questions # 5 - Which	key	aspect	of	cloud	computing	allows	the	cloud	customer	toadminister	their	configurations	or	provisioned	services	without	the	need	to interact	or	be	involved	with	the	cloud	provider	and	its	staff?     
- 
+### Questions # 5 - Which	key	aspect	of	cloud	computing	allows	the	cloud	customer	to administer	their	configurations	or	provisioned	services	without	the	need	to interact	or	be	involved	with	the	cloud	provider	and	its	staff?     
 A.	Resource	pooling     
 B.	Measured	service     
 C.	Multitenancy     
