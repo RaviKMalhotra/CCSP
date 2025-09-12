@@ -130,7 +130,7 @@ Answer: D.
 **Not all programs (or organizations) will require database access, or even use databases, and hashing is not a common requirement**.
 All the other functions are expected in the majority of cloud operations.
 
-### [important] Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production.   environment?   
+### [important] Question # 13 - In a platform as a service (PaaS) model, who should most likely be responsible for the security of the applications in the production environment?   
 A. Cloud customer.  
 B. Cloud provider.  
 C. Regulator.  
@@ -331,11 +331,14 @@ C. Data owners.
 D. System administrators.    
 Answer: C.    
 
-The data owner is responsible for the disposition of the data under their control; this includes access decisions.
+**The data owner is responsible for the disposition of the data under their control; this includes access decisions**.
+
 The cloud provider is not typically the data owner; option A is incorrect.
-Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management. 
+
+Ostensibly, senior management is the data owner (the organization, as a whole, is the legal owner of the data, and the senior managers are the legal representatives of the organization). However, in practice, this responsibility can be (and usually is) delegated down to a manageable level, where the data owner for a given data set understands it best and can provide a sufficiently granular control of that data set. **This is rarely senior management and is more likely department heads, branch managers, or some other form of middle management**. 
 
 Option C is preferable to B.
+
 System administrators will usually be the literal granters of access, insofar as admins will modify access control systems that allow or disallow access for specific individuals or roles. 
 
 However, the sysadmin does not make the decision of who is granted access and instead responds to direction from data owners (middle management); again, option C is preferable to D.
@@ -418,7 +421,7 @@ C. Internet Control Message Protocol (ICMP).
 D. Hypertext Transfer Protocol (HTTP).           
 Answer: D.    
 
-WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions.
+**WAFs recognize HTTP traffic and can respond to traffic that matches prohibited rulesets or conditions**.
 
 Option A is technically correct; a WAF can be given a ruleset that recognizes certain forms of attack traffic. However, this answer is too general, 
 
@@ -444,7 +447,7 @@ C. 7.
 D. Q.                   
 Answer: C.                 
 
-A DAM is a Layer 7 tool.
+**A DAM is a Layer 7 tool**.
 All the other options are incorrect.
 	
 ### [important knowledge] Question # 40 - Database activity monitors (DAMs) can be used to reduce the potential success of _______________ attacks.     
@@ -471,15 +474,16 @@ Answer: C.
 
 Option D, single sign-on, concerns authentication functions, not communications traffic, and is only a distractor in this context.
 	
-### Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.            
+### [knowledge] Question # 42 - To deploy a set of microservices to clients instead of building one monolithic application, it is best to use a(n) _______________ to coordinate client requests.            
 A. Extensible Markup Language (XML) gateway.           
 B. Application programming interface (API) gateway.               
 C. Web application firewall (WAF).              
 D. Database activity monitor (DAM).               
 Answer: B.         
 
-An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session.
-XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, but they do not handle microservice requests in a meaningful way.
+[important] **An API gateway translates requests from clients into multiple requests to many microservices and delivers the content as a whole via an API it assigns to that client/session**.
+
+XML gateways, WAFs, and DAMs are also tools used frequently in cloud-based enterprises, **but they do not handle microservice requests in a meaningful way**.
 	
 ### [tricky] Question # 43 - Firewalls can detect attack traffic by using all these methods except _______________.                 
 A. Known past behavior in the environment.                
@@ -520,15 +524,13 @@ C. Encrypting databases.
 D. Restricting key access to only eight parties.              
 Answer: B.              
 
-A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server).
+**A VPN is a temporary, synthetic encrypted tunnel between two endpoints (often a client and a server)**.
 
 Option A is subtly misleading; the VPN secures the connection between two endpoints, not the ends of the connection. This option is incorrect.
-
 Option C is not correct; VPN is not used for encrypting databases—it is used for encrypting communications.
-
 Option D is incorrect; the symmetric key used in VPN is shared only between two parties (the endpoints), and the elements of the asymmetric key pair are either held by only one party (the owner of each private key) or by anyone at all (public key).
 	
-### Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.                
+### [important] Question # 47 - The employment of users in dynamic software testing should best be augmented by _______________.                
 A. Having the developers review the code.              
 B. Having the developers perform dynamic testing.             
 C. Using automated agents to perform dynamic testing.           
@@ -647,7 +649,7 @@ C. Gray-box
 D. Parched field    
 Answer: B. 
 
-DAST is often referred to as black-box testing.
+**DAST is often referred to as black-box testing**.
 White-box testing requires the tester to have access to source code, which is not provided in DAST. Option A is therefore incorrect.
 Option C is a combination of black-box and white-box testing so option C is an incorrect answer for this question.
 Option D has no meaning in this context.
@@ -747,41 +749,43 @@ Answer: C.
 
 Intuition testing is not part of the OWASP guide to active security testing. All of the other options are included in the OWASP guide to active security testing.
 	
-### Question # 67. Static software security testing typically uses _______________ as a measure of how thorough the testing was.     
+### [tricky] Question # 67. Static software security testing typically uses _______________ as a measure of how thorough the testing was.     
 A. Number of testers    
 B. Flaws detected    
 C. Code coverage    
 D. Malware hits    
 Answer: C.     
 
-This metric is usually expressed as a percentage of lines of code. For example, “SAST covered 90% of the source code.”
+**This metric is usually expressed as a percentage of lines of code**. **For example, “SAST covered 90% of the source code.”**
 The number of testers involved means very little when discussing testing coverage; this is a distractor and not correct.
 In some cases, testing reports might include a statistic representing the number of flaws discovered in the code; however, this is usually not a pertinent metric (undetected flaws can’t be measured, so counting the ones that have doesn’t add to your surety the code is secure), and code coverage is used more often. Option C is preferable to option B.
 Testing should first occur in an environment where the software has not even been exposed to the possibility of malware infection. Option D is incorrect.
 
-### Question # 68. Dynamic software security testing typically uses _______________ as a measure of how thorough the testing was.      
+### [very important] Question # 68. Dynamic software security testing typically uses _______________ as a measure of how thorough the testing was.      
 A. User coverage    
 B. Code coverage    
 C. Path coverage    
 D. Total coverage     
 Answer: C. 
 
-In dynamic software security testing, the objective is to test a significant sample of the possible logical paths from data input to output.
+[important] **In dynamic software security testing, the objective is to test a significant sample of the possible logical paths from data input to output**.
 User coverage is a distractor and has no real meaning in this context; option A is incorrect.
 Code coverage is the metric used in static testing, making option B incorrect.
 While it would be nice to test each and every data pathway through an application, with both known good and known bad data, that could be unrealistic, depending on the number of possible branches in the application; this goes up exponentially every time another option/choice is added to the program. Total coverage is not a metric—it’s a hope. Option D is incorrect.
 
-### Question # 69. Software security testing should involve both known good and known bad data in order to simulate both _______________ and _______________.     
+### Question # 69. Software security testing should involve both known good and known bad data in order to simulate both _______________ and _______________.  
 A. Managers, users    
 B. Regulators, users   
 C. Vendors, users    
 D. Users, attackers     
 Answer: D. 
 
-Known good data is used to determine if the software fulfills the business requirements for which it was acquired. Known bad data tests the ability of the software to handle inputs and conditions that might put it into a fail state; these inputs and conditions can be invoked either purposefully (by attackers) or inadvertently (by users who make mistakes).
+[important] **Known good data is used to determine if the software fulfills the business requirements for which it was acquired**. 
+**Known bad data tests the ability of the software to handle inputs and conditions that might put it into a fail state**; 
+these inputs and conditions can be invoked either purposefully (by attackers) or inadvertently (by users who make mistakes).
 Testing does not attempt to mimic managers, regulators, or vendors, so the other answers are incorrect.
 
-### Question # 70. Training programs should be tracked and monitored in order to fulfill both _______________ and _______________ requirements. Choose the best response.     
+### [tricky] Question # 70. Training programs should be tracked and monitored in order to fulfill both _______________ and _______________ requirements. Choose the best response.     
 A. Business, security    
 B. Regulatory, legal    
 C. User, managerial    
@@ -813,7 +817,7 @@ Answer: A.
 Awareness efforts are usually intended to reach as wide an audience as possible within the organization, for generalized information. For instance, fire drills are awareness exercises; everyone in the facility needs to know how to get out and where to go.
 Specific personnel, management personnel, and HR personnel would all receive task-centric training in addition to the awareness instruction that all personnel receive. Options B, C, and D are incorrect.
 
-### Question # 73. Why is cloud security training particularly important for software developers?
+### [important] Question # 73. Why is cloud security training particularly important for software developers?
 A. Software developers are the mainstay of every cloud environment.     
 B. You can’t have a cloud environment without software developers.    
 C. Security controls cannot be added to software after the fact and must be included from the very first steps of software development.     
