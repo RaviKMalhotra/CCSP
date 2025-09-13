@@ -614,7 +614,7 @@ C	is	incorrect	because	the	recovery	service	level	(RSL)	measures	the percentage	
 
 D	is	incorrect	because	SRE	is	provided	as	an	extraneous	choice	that	is not	pertinent	to	the	question.
 
-### Question # 23 - 	A	variety	of	limits	can	be	set	within	a	cloud	environment.	Which	of	thefollowing	is	NOT	a	unit	where	a	limit	can	be	set?    
+### [important] Question # 23 - 	A 	variety	of	limits	can	be	set	 within 	a 	cloud	environment.	Which 	of	the following	is	NOT 	a	unit	where 	a	 limit	 can	be	set?    
 A.	Customer   
 B.	Application     
 C.	Virtual	machine     
