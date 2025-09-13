@@ -5,7 +5,7 @@ B.	Power	feeds.
 C.	Power	distribution	units.  
 D.	Building	access	points.  
 
-### Question # 2 - Limits	 within 	a 	cloud	environment	can 	be	either	hard	limits	or	limits capable 	of	adjusting	 to	 current	demands	 and	circumstances.	Which	 of	 the following	 concepts	 encapsulates	allowing 	a	 limit 	to	adjust	to	current circumstances,	without 	the	 actual 	limit	 value 	changing?   
+### [important] Question # 2 - Limits	 within 	a 	cloud	environment	can 	be	either	hard	limits	or	limits capable 	of	adjusting	 to	 current	demands	 and	circumstances.	Which	 of	 the following	 concepts	 encapsulates	allowing 	a	 limit 	to	adjust	to	current circumstances,	without 	the	 actual 	limit	 value 	changing?   
 A.	Loaning.  
 B.	Borrowing.  
 C.	Adapting.  
