@@ -267,44 +267,44 @@ D.	NFPA
 
 ### ANSWERS - Comprehensive	Answers	and	Explanations
 
-### Question # 1 - 	Which	TLS	protocol	is	responsible	for	performing	authentication	betweenparties	and	determining	encryption	algorithms?            
+### [important] Question # 1 - 	Which	[TLS]	protocol	is	responsible	for	performing	[authentication]	between parties	and	determining	encryption	algorithms?            
 A.	Record              
 B.	Negotiation             
 C.	Handshake               
 D.	Transmission            
 Answer: C.	              
 
-The	handshake	protocol	of	TLS	negotiates	and	establishes	the connection	between	two	parties	and	enables	the	secure communications	channel	that	will	then	handle	secure	data transmission.	The	protocol	exchanges	all	information	needed	to authenticate	and	negotiate	the	encryption	algorithms	to	be	used	as well	as	to	create	the	session	ID	for	the	transaction.
+**The	handshake	protocol	of	TLS	negotiates	and	establishes	the connection	between	two	parties	and	enables	the	secure communications	channel	that	will	then	handle	secure	data transmission.	The	protocol	exchanges	all	information	needed	to authenticate	and	negotiate	the	encryption	algorithms	to	be	used	as well	as	to	create	the	session	ID	for	the	transaction**.
 
 A	is	incorrect	because	the	record	protocol	of	TLS	entails	the encryption	and	authentication	of	the	actual	packets	used	for transmission	of	data	over	the	secure	channel,	but	it’s	only	capable	of the	actual	transmission	and	is	not	involved	with	the	establishing	or negotiation	of	the	connection.
-
 B	is	incorrect	because	negotiation	is	a	component	of	the	handshake protocol,	but	it’s	only	one	portion	of	it	and	is	not	a	protocol	by	itself.
-
 D	is	incorrect	because	the	transmission	of	data	is	a	component	of	the record	protocol	but	is	not	a	protocol	of	TLS	by	itself.
 
-### Question # 2 - 	You	are	designing	a	new	data	center,	and	management	considers	itimperative	that	best	practices	are	followed	for	the	cabling	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?               
+### [important] Question # 2 - 	You	are	designing	a	new	data	center,	and	management	considers	it imperative	that	best	practices	are	followed	for	the	[cabling]	layout	and design,	especially	considering	the	complexity	of	modern	data	centers. Which	standard	would	you	look	to	in	fulfilling	this	requirement?           
 A.	BISCI                
 B.	IDCA                 
 C.	NFPA                    
 D.	Uptime	Institute              
 Answer: A.	               
 
-Building	Industry	Consulting	Services	International	(BISCI)	issues certifications	and	develops	standards	in	the	area	of	complex	cabling for	data	systems.	Their	standards	are	focused	on	cabling	design	and setups	and	includes	specifications	on	power,	energy,	efficiency,	and hot/cold	aisle	setups.
+**Building	Industry	Consulting	Services	International	(BISCI)	issues certifications	and	develops	standards	in	the	area	of	complex	cabling for	data	systems**.	
+Their	standards	**are	focused	on	cabling	design	and** setups	and	includes	specifications	**on	power,	energy,	efficiency,	and hot/cold	aisle	setups**.
 
-B	is	incorrect	because	the	International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embracing	a	macro-level	approach, where	the	entire	data	center	is	considered	as	a	whole.
+B	is	incorrect	because	the	**International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm**,	which	is	intended	to	be	**a comprehensive	data	center	design	and	operations	framework**.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embracing	a	macro-level	approach, where	the	entire	data	center	is	considered	as	a	whole.
 
-C	is	incorrect	because	the	National	Fire	Protection	Association (NFPA)	publishes	a	large	collection	of	standards	regarding	fire protection	for	almost	any	type	of	facility,	although	it	does	offer	ones specifically	focused	on	data	centers.
+C	is	incorrect	because	the	**National	Fire	Protection	Association (NFPA)	publishes	a	large	collection	of	standards	regarding	fire protection	for	almost	any	type	of	facility**,	although	it	does	offer	ones specifically	focused	on	data	centers.
 
-D	is	incorrect	because	the	Uptime	Institute	publishes	the	most	widely used	standard	for	data	center	design	based	on	a	tiered-topology approach.	This	standard	has	four	tiers,	each	progressively	adding layers	and	requirements	for	redundancy	and	fault	tolerance.
+D	is	incorrect	because	the	**Uptime	Institute	publishes	the	most	widely used	standard	for	data	center	design	based	on	a	tiered-topology approach**.	This	standard	has	four	tiers,	each	progressively	adding layers	and	requirements	for	redundancy	and	fault	tolerance.
 
-### Question # 3 - 	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protectcommunications	between	two	parties?                
+### Question # 3 - 	At	which	layer	does	the	IPSec	protocol	operate	to	encrypt	and	protect communications	between	two	parties?                
 A.	Network                
 B.	Application                 
 C.	Transport                     
 D.	Data	link                         
 Answer: A.	
 
-IPSec	works	at	the	network	layer	of	the	OSI	model.	The	network layer	provides	the	actual	routing	and	switching	for	packets	and	data transmission	between	nodes.
+**IPSec	works	at	the	network	layer	of	the	OSI	model**.	
+The	network layer	provides	the	actual	routing	and	switching	for	packets	and	data transmission	between	nodes.
 
 B	is	incorrect	because	the	application	layer	provides	application	and end-user	processes,	such	as	file	transfers,	web	browsing,	and	e-mail.
 
@@ -312,7 +312,7 @@ C	is	incorrect	because	the	transport	layer	provides	data	transmissions similar	t
 
 D	is	incorrect	because	the	data-link	layer	provides	packet	encoding and	decoding	as	well	as	handles	errors	from	the	physical	layer,	but	it does	not	contain	the	routing	and	forwarding	capabilities	necessary	for IPSec.
  
-### Question # 4 - 	Which	set	of	standards	contains	the	publication	titled	“National	ElectricCode”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cutoff	procedures	and requirements?                  
+### [important] Question # 4 - 	Which	set	of	standards	contains	the	publication	titled	“National	Electric Code”	and	serves	as	guidance	for	complex	and	high-capacity	electrical systems,	including	safety	and	emergency	cut off	procedures	and requirements?                  
 A.	IDCA                   
 B.	NFPA                    
 C.	BISCI                      
@@ -327,7 +327,7 @@ C	is	incorrect	because	Building	Industry	Consulting	Services International	(BISC
 
 D	is	incorrect	because	the	Uptime	Institute	publishes	the	most	widely used	standard	for	data	center	design	based	on	a	tiered	topology approach.	This	standard	has	four	tiers,	each	progressively	adding layers	and	requirements	for	redundancy	and	fault	tolerance.
 
-### Question # 5 - 	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	whenwould	the	optimal	time	be	to	apply	baselines	to	systems?               
+### [important] Question # 5 - 	To	optimize	the	auto-scaling	capabilities	of	a	cloud	deployment,	when would	the	optimal	time	be	to	apply	baselines	to	systems?     
 A.	Immediately	after	enabling	a	virtual	machine                   
 B.	Before	penetration	testing	is	done                           
 C.	Immediately	prior	to	putting	the	system	into	production               
@@ -342,14 +342,16 @@ B	is	incorrect	because	penetration	testing	would	not	be	done immediately	upon	ne
 
 C	is	incorrect	because	performing	baseline	applications	after	a	new virtual	machine	is	enabled	would	negate	the	benefits	and	speed	of auto-scaling,	and	with	the	use	of	an	image	for	all	new	systems,	it would	create	redundant	work	versus	a	baseline	application	before	the image	is	finalized.
 
-### Question # 6 - 	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?                        
+### [important] Question # 6 - 	What	does	the	TLS	protocol	use	for	authentication	between	two	parties?                        
 A.	Certificates                  
 B.	Tickets                     
 C.	Tokens                      
 D.	SAML                  
 Answer: A.	                   
 
-The	TLS	protocol	uses	X.509	certificates	for	authentication between	the	two	parties	that	are	negotiating	a	secure	communications channel.	The	same	certificates	that	are	used	for	authentication	are	also used	for	the	encryption	of	the	communications	channel.
+[important concept] 
+**The	TLS	protocol	uses	X.509	certificates	for	authentication between	the	two	parties	that	are	negotiating	a	secure	communications channel**.	
+**The	same	certificates	that	are	used	for	authentication	are	also used	for	the	encryption	of	the	communications	channel**.
 
 B	is	incorrect	because	tickets	are	not	used	with	the	TLS	protocol	but rather	are	commonly	used	with	other	systems	such	as	Kerberos.
 
@@ -357,29 +359,30 @@ C	is	incorrect	because	tokens	are	not	used	with	TLS	but	rather	are commonly	used
 
 D	is	incorrect	because	the	Security	Assertion	Markup	Language (SAML)	is	commonly	used	for	exchanging	authentication	and authorization	information	between	two	parties,	but	it	is	not	used	with TLS.
 
-### Question # 7 - 	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topologyfor	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?                                 
+### Question # 7 - 	The	traditional	approach	to	data	center	design	is	to	use	a	tiered	topology for	layers	of	redundancy.	Which	organization	publishes	this	widely	used standard	and	collection	of	best	practices?                                 
 A.	Uptime	Institute                
 B.	IDCA                         
 C.	NPFA                       
 D.	BISCI                            
 Answer: A.	                      
 
-The	Uptime	Institute	publishes	the	most	widely	used	standard	for data	center	design	based	on	a	tiered-topology	approach.	This	standard has	four	tiers,	each	progressively	adding	layers	and	requirements	for redundancy	and	fault	tolerance.
+**The	Uptime	Institute	publishes	the	most	widely	used	standard	for data	center	design	based	on	a	tiered-topology	approach**.	
+This	standard **has	four	tiers**,	each	progressively	adding	layers	and	requirements	for redundancy	and	fault	tolerance.
 
-B	is	incorrect	because	the	International	Data	Center	Authority	(IDCA) established	the	Infinity	Paradigm,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embraces	a	macro-level	approach where	the	entire	data	center	is	considered	as	a	whole.
+B	is	incorrect	because	the	International	Data	Center	Authority	**(IDCA) established	the	Infinity	Paradigm**,	which	is	intended	to	be	a comprehensive	data	center	design	and	operations	framework.	The Infinity	Paradigm	differs	from	other	standards	by	shifting	away	from	a tiered	architecture	and	instead	embraces	a	macro-level	approach where	the	entire	data	center	is	considered	as	a	whole.
 
 C	is	incorrect	because	the	National	Fire	Protection	Association (NFPA)	publishes	a	large	collection	of	standards	regarding	fire protection	for	almost	any	type	of	facility,	and	it	does	offer	ones specifically	focused	on	data	centers.	These	standards	cover	the	overall electrical	systems	within	data	centers,	including	emergency procedures	and	requirements	for	the	immediate	cutting	of	power	in case	of	an	emergency.
 
 D	is	incorrect	because	Building	Industry	Consulting	Services International	(BISCI)	issues	certifications	and	develops	standards	in the	area	of	complex	cabling	for	data	systems.	The	standards	are focused	on	cabling	design	and	setups	includes	specifications	on power,	energy,	efficiency,	and	hot/cold	aisle	setups.
 
-### Question # 8 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	NOT	a network	configuration	that	plays	a	role	with	DHCP?   
+### [important] Question # 8 - 	DHCP	is	heavily	used	within	cloud	environments	to	maintain	network configurations	in	a	centralized	manner.	Which	of	the	following	is	[NOT]	a network	configuration	that	plays	a	role	with	DHCP?   
 A.	IP	address                          
 B.	Hostname                       
 C.	MAC	address                         
 D.	Gateway                           
 Answer: B.	
 
-Hostname	resolution	is	provided	via	the	Domain	Name	System (DNS)	and	is	not	provided	as	part	of	the	network	configuration	for	a specific	server.
+**Hostname	resolution	is	provided	via	the	Domain	Name	System (DNS)	and	is	not	provided	as	part	of	the	network	configuration	for	a specific	server**.
 
 A	is	incorrect	because	the	IP	address	is	one	of	the	core	network configuration	items	provided	via	DHCP	to	a	server.
 
@@ -387,14 +390,15 @@ C	is	incorrect	because	the	MAC	address	is	what	the	DHCP	servers	use to	track	and
 
 D	is	incorrect	because	a	gateway	address	would	be	assigned	by	a DHCP	server	as	part	of	the	network	configuration	given	to	the	host.
 
-### Question # 9 - 	Which	component	of	the	ITIL	framework	includes	dependency	checks?             
+### [important] Question # 9 - 	Which	component	of	the	ITIL	framework	includes	dependency	checks?             
 A.	Change	management               
-B.	Continuity	management               
-C.	Release	management                 
-D.	Availability	management                    
+B.	Continuity	management                     
+C.	Release	management                     
+D.	Availability	management                         
 Answer: A.	                
 
-The	change	management	process	oversees	the	entire implementation	and	release	of	changes	to	a	production	environment, including	management	approvals,	notifications,	and	testing/validation. As	part	of	the	approval	process,	a	dependency	check	is	done	to validate	the	scope	of	potential	impact	and	to	ensure	that	a	proper validation	plan	is	fully	in	place.
+**The	change	management	process	oversees	the	entire implementation	and	release	of	changes	to	a	production	environment, including	management	approvals,	notifications,	and	testing/validation**. 
+**As	part	of	the	approval	process,	a	dependency	check	is	done	to validate	the	scope	of	potential	impact	and	to	ensure	that	a	proper validation	plan	is	fully	in	place**.
 
 B	is	incorrect	because	continuity	management	is	focused	on	planning for	the	successful	restoration	of	systems	or	services	after	an unexpected	outage,	incident,	or	disaster.
 
@@ -403,14 +407,14 @@ the	checks	will	have	been	done	as	part	of	the	change	management process.
 
 D	is	incorrect	because	availability	management	is	focused	on	making sure	system	resources,	processes,	personnel,	and	toolsets	are	properly allocated	and	secured	to	meet	SLA	requirements	for	performance.
 
-### Question # 10 - 	Which	process	is	used	to	properly	maintain	balanced	resources	across	a cloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?                
+### [important tricky] Question # 10 - 	Which	process	is	used	to	properly	maintain	[balanced	resources]	across	a cloud	environment	and	to	respond	to	changing	needs	from	conditions	due to	auto-scaling?                
 A.	DCOM                               
 B.	Distributed	optimization                
 C.	Dynamic	optimization                  
 D.	Elasticity                      
 Answer: C.	                   
 
-Dynamic	optimization	is	the	process	through	which	the	cloud environment	is	constantly	maintained	to	ensure	that	resources	are available	when	and	where	needed	and	that	physical	nodes	do	not become	overloaded	or	near	capacity	while	others	are	underutilized.
+[important] **Dynamic	optimization	is	the	process**	through	which	the	**cloud environment	is	constantly	maintained**	to	**ensure**	that	**resources	are available	when	and	where	needed**	and	that	**physical	nodes	do	not become	overloaded	or	near	capacity	while	others	are	under utilized**.
 
 A	is	incorrect	because	DCOM	refers	to	the	Distributed	Component Object	Model,	which	is	a	set	of	Microsoft	interfaces	and	services	that can	be	requested	by	systems	throughout	a	network.
 
@@ -418,16 +422,23 @@ B	is	incorrect	because	distributed	optimization	is	a	distractor	term	that sounds
 
 D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud environment	to	resize	resources	to	meet	current	demand,	either through	increasing	or	decreasing	them;	however,	dynamic optimization	is	the	more	correct	answer	in	this	case	because	it	refers to	analysis	and	determination,	not	just	the	ability	to	adjust	resource levels.
 
-### Question # 11 - 	Which	TLS	protocol	handles	the	secure	communications	between	parties,specifically	the	send/receive	operations?                   
+### [importnat knowledge] Question # 11 - 	Which	TLS	protocol	handles	the	secure	communications	between	parties, specifically	the	send/receive	operations?  
 A.	Handshake                 
 B.	Transmission                    
 C.	Negotiation                       
 D.	Record                           
 Answer: D.	                         
 
-The	TLS	record	protocol	handles	the	actual	transmission	of	secure information	over	the	encrypted	channel.	It	only	handles	the	sending and	receiving	of	secure	data	and	relies	on	the	handshake	protocol	for all	information	necessary	to	handle	the	transmission.
+quick points to remember always:
+	1. handshake protocol of TLS negotiates and establishes the connection between two parties and enables the secure communications channel to handle the secure 
+ data transmission.
+ 2. Record protocol handles the actual transmission of secure information over the encrypted channel. it only handles the sending and receiving of secure data
+ 
+[important] **The	TLS	record	protocol**	**handles**	the	**actual	transmission	of	secure information	over	the	encrypted	channel**.	
+**It	only	handles	the	sending and	receiving	of	secure	data	and	relies	on	the	handshake	protocol**	
+for all	information	necessary	to	handle	the	transmission.
 
-A	is	incorrect	because	the	handshake	protocol	of	TLS	negotiates	and establishes	the	connection	between	two	parties	and	enables	the	secure communications	channel	that	will	then	handle	secure	data transmission.	The	protocol	exchanges	all	information	needed	to authenticate	and	negotiate	the	encryption	algorithms	to	be	used	as well	as	to	create	the	session	ID	for	the	transaction.
+A	is	incorrect	because	**the	handshake	protocol	of	TLS	negotiates	and establishes	the	connection	between	two	parties	and	enables	the	secure communications	channel	that	will	then	handle	secure	data transmission**.	The	protocol	exchanges	all	information	needed	to authenticate	and	negotiate	the	encryption	algorithms	to	be	used	as well	as	to	create	the	session	ID	for	the	transaction.
 
 B	is	incorrect	because	although	transmission	is	certainly	a	key	function of	TLS	and	the	record	protocol,	it	is	not	the	name	of	a	protocol	itself.
 
