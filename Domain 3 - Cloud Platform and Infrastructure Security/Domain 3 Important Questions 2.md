@@ -554,7 +554,7 @@ B	is	incorrect	because	a	user	is	a	key	component	of	a	federated	identity system	
 
 C	is	incorrect	because	the	relying	party	is	a	key	component	of	a federated	identity	system.	It	accepts	authentication	and	authorization information	on	a	user	for	the	identity	provider,	and	then	passes	this onto	the	application	for	appropriate	processing	and	access.
 
-### Question # 19 - Measured	service	is	a	very	attractive	aspect	of	cloud	computing	for	anorganization	looking	for	BCDR	solutions	because	it	will	keep	costs	down. Which	of	the	following	is	also	a	key	aspect	of	cloud	computing	that	can make	BCDR	situations	easier	in	a	cloud	environment	than	in	a	traditional data	center?     
+### [important] Question # 19 - Measured	service	is	a	very	attractive	aspect	of	cloud	computing	for	anorganization	looking	for	BCDR	solutions	because	it	will	keep	costs	down. Which	of	the	following	is	also	a	key	aspect	of	cloud	computing	that	can make	BCDR	situations	easier	in	a	cloud	environment	than	in	a	traditional data	center?     
 A.	Broad	network	access    
 B.	Resource	pooling    
 C.	Multitenancy     
