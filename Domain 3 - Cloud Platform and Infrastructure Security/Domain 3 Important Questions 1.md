@@ -226,7 +226,7 @@ Answer: B.
 The question describes a Type 2 hypervisor.
 Option A describes another type of hypervisor; the other options are incorrect because there is no such thing as a Type 3 or Type 4 hypervisor.
 
-### Question # 20 - A Type ___________________ hypervisor is probably more difficult to defend than other hypervisors.     
+### [important tricky] Question # 20 - A Type ___________________ hypervisor is probably more difficult to defend than other hypervisors.     
 A. 1     
 B. 2     
 C. 3     
