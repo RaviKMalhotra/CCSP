@@ -617,7 +617,9 @@ D.	Availability
 These contract terms can be described as favorable only from the provider’s perspective; option D is preferable to option A for describing this situation.
 There was no description of negotiation included in the question; option B is incorrect. IaaS is a service model and doesn’t really apply to anything in this context; option C is incorrect.
 
-2.	C. ISO 27050 is an industry standard that provides guidance for eDiscovery programs. ISO 27001 and ISO 27002 provide industry standard control objectives and control suggestions for cybersecurity. ISO 27701 provides industry standard guidance for information privacy programs.
+2.	C. *ISO 27050 is an industry standard that provides guidance for [eDiscovery programs]*. 
+ISO 27001 and ISO 27002 provide industry standard control objectives and control suggestions for cybersecurity. 
+*ISO 27701 provides industry standard guidance for [information privacy programs]*.
 
 3.	C. The entity that uses the data on behalf of the owner/controller is a data processor. The data subject is the person who the personally identifiable information (PII) describes. The entity that collects or creates the PII is the data owner or controller. Entities that regulate the use of PII are regulators.
  
