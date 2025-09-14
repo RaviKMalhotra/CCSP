@@ -557,40 +557,41 @@ C. Penetration testing
 D. Facility characteristics            
 Answer: C.                
 
-The penetration test is not part of the site survey, which is one of the initial steps in securing/auditing a facility. The penetration test will, however, probably make use of the site survey information later.
-
+The penetration test is not part of the site survey, which is one of the initial steps in securing/auditing a facility. 
+The penetration test will, however, probably make use of the site survey information later.
 All the other options are goals of the site survey.
 
-### Question # 52 - Designing system redundancy into a cloud data center allows all the following capabilities except _______________.              
+### [important tricky] Question # 52 - Designing system redundancy into a cloud data center allows all the following capabilities [except] _______________.  
 A. Incorporating additional hardware into the production environment         
 B. Preventing any chance of service interruption            
 C. Load-sharing/balancing                                           
 D. Planned, controlled failover during contingency operations             
 Answer: B. 
 
-There is no such thing as zero risk; there will always be some chance of service interruption, no matter how minimized.
-
+**There is no such thing as zero risk; there will always be some chance of service interruption, no matter how minimized.**
 All the other options are capabilities allowed by redundancy.
 
-### Question # 53 - Gaseous fire suppression systems that function by displacing oxygen need to be installed in conjunction with _______________.        
+### Question # 53 - [Gaseous fire suppression systems] that function by [displacing oxygen need] to be installed in conjunction with _______________.        
 A. Water cooling         
 B. Filters                
 C. Occupant training                         
 D. Failsafe or “last person out” switches           
 Answer: D. 
 
-Before flooding an enclosed space with a gas that will displace oxygen, it is important to ensure that all personnel are out of the area. While this requires personnel training, such training is ineffective without a system to support this capability. Option C is true, but not as accurate as option D.
+**Before flooding an enclosed space with a gas that will displace oxygen, it is important to ensure that all personnel are out of the area**. 
+While this requires personnel training, such training is ineffective without a system to support this capability. Option C is true, but not as accurate as option D.
 
 Options A and B are incorrect because they do not make senses given the question is about a system that displaces oxygen in the facility.
 
-### Question # 54 - What aspect of data center planning occurs first?                          
+### [important] Question # 54 - What aspect of data center planning occurs first?                          
 A. Logical design            
 B. Physical design             
 C. Audit              
 D. Policy revision            
 Answer: A. 
 
-The logical design should come before the physical design; function dictates form. Audit and revision come after creation.
+The logical design should come before the physical design; function dictates form. 
+Audit and revision come after creation.
 
 ### Question # 55 - Which of the following are not examples of personnel controls?           
 A. Background checks         
@@ -608,22 +609,20 @@ C. Sufficient redundancy
 D. Peer review               
 Answer: C. 
 
-Because updating the virtualization toolset may require server downtime, it is essential to have a sufficient amount of redundant machines to roll out the update over the environment without significant disruption of operations.
+**Because updating the virtualization toolset may require server downtime, it is essential to have a sufficient amount of redundant machines to roll out the update over the environment without significant disruption of operations**.
 
 Option A assumes that there isn’t already enough of whatever the infusion of capital will purchase. Option A is incorrect.
-
 Thankfully, option B is incorrect. It would be costly to obtain an alternate data center each time the virtual machine management tools are updated.
-
 Peer review is not required when updating virtual machine management tools. Option D is incorrect.
 
-### Question # 57 - Access control to virtualization management tools should be _______________.           
+### [important tricky] Question # 57 - Access control to virtualization management tools should be _______________.           
 A. Rule-based           
 B. Role-based          
 C. User-based          
 D. Discretionary       
 Answer: B. 
 
-It is important to limit access to the virtualization toolset to those administrators, engineers, and architects who are vital for supporting the virtualized environment and nobody else.
+**It is important to limit access to the virtualization toolset to those administrators, engineers, and architects who are vital for supporting the virtualized environment and nobody else**.
 
 The other options are incorrect because they do not restrict access to the virtualization management tool set as specifically as role-based access control does. If someone’s role changes and they no longer require access, then their access should be terminated.
 
@@ -638,50 +637,46 @@ Toolset vendors will specify secure configurations of their products; these must
 Standards and laws don’t usually specify builds for products or brands, so options A and B are incorrect.
 Expert opinion, while useful, is not sufficient to demonstrate due care in many cases; option D is not the best response.
 
-### Question # 59 - Which of the following is essential for getting full security value from your system baseline?          
+### [important tricky] Question # 59 - Which of the following is essential for getting full security value from your system baseline?          
 A. Personnel training           
 B. Documentation            
 C. Host-based intrusion detection system (HIDS)            
 D. Encryption               
 Answer: B. 
 
-In order to understand, optimize, and re-create your secure baseline, proper and full documentation is absolutely essential.
+In order to understand, optimize, and **re-create your secure baseline, proper and full documentation is absolutely essential**.
 
 Personnel training is important for secure system use, but it is not an element of baselining. Option A is incorrect.
-
 A secure baseline for a given system may include HIDS and/or encryption, but they are not essential elements, so options C and D are incorrect.
 
-### Question # 60 - Which of the following is essential for getting full security value from your system baseline?           
+### [important tricky] Question # 60 - Which of the following is essential for getting full security value from your system baseline?           
 A. Capturing and storing an image of the baseline                        
 B. Keeping a copy of upcoming suggested modifications to the baseline            
 C. Having the baseline vetted by an objective third party                                     
 D. Using a baseline from another industry member so as not to engage in repetitious efforts            
 Answer: A. 
 
-An image of the baseline should be stored securely, preferably in more than one location (to include the archive, the disaster kit, and any alternate site, to name a few). It is essential to have a copy on hand for reconstructing the environment during contingency operations, and it is also useful for audit/review purposes.
+**An image of the baseline should be stored securely, preferably in more than one location (to include the archive, the disaster kit, and any alternate site, to name a few). 
+It is essential to have a copy on hand for reconstructing the environment during contingency operations, and it is also useful for audit/review purposes**.
 
 Option B is incorrect because planned modifications are not yet part of the actual baseline.
-
 Option C may be a good answer in some situations; however, it is not essential, and option A is still a better answer.
-
 Option D is incorrect because every environment (and, therefore, the baseline used in that environment) should be exclusively tailored for the organization using that environment.
 
-### Question # 61 - Patching can be viewed as a configuration modification and therefore subject to the organization’s configuration management program and methods. What may also be an aspect of patching in terms of configuration management?                 
-A. Patching doesn’t need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications.                      
+### [very important] Question # 61 - [Patching] can be viewed as a [configuration modification] and therefore subject to the organization’s configuration management program and methods. What may also be an aspect of patching in terms of configuration management?                 
+A. Patching doesn’t need to be performed as a distinct effort; patching can go through the normal change request process like all other modifications.          
 B. Any patches suggested or required by vendors to maintain compliance with service contracts must be made immediately, regardless of internal process restrictions.                     
 C. Any patches suggested by third parties should not be considered as they may invalidate service contracts or warranties and negatively affect the organization’s security posture.           
 D. The configuration or change management committee or board may grant blanket approval for patches (at a certain impact level) without the need to go through the formal change process.         
 Answer: D. 
 
-In order to ensure timely application of patches, patching may receive blanket approval and only be reviewed by the committee or board after the fact for final approval.
-
+**In order to ensure timely application of patches, patching may receive blanket approval and only be reviewed by the committee or board after the fact for final approval**. 
 Requiring normalized processing for patching may delay patching and expose the organization to undue risk; option A is thus incorrect.
 
 Patching still needs to involve testing and confirmation to avoid interoperability and additional security problems, making option B incorrect.
-
 Third parties can identify security problems as well as vendors; external patches need to be considered as well as vendor patches. Option C is thus incorrect.
 
-### Question # 62 - Clustering hosts allows you to do all the following except _______________.          
+### Question # 62 - [Clustering hosts] allows you to do all the following [except] _______________.          
 A. Meet high-availability demands                 
 B. Optimize performance with load balancing            
 C. Enhance scalability                                                 
@@ -701,14 +696,14 @@ Answer: C.
 Tokenization is a method for obscuring or protecting data using two distinct databases, not a resource allocation method.
 All the other options are methods for allocating shared resources.
 
-### Question # 64 - A loosely coupled storage cluster will have performance and capacity limitations based on the _______________.        
+### [important] Question # 64 - [A loosely coupled storage cluster] will have performance and capacity limitations based on the _______________.        
 A. Physical backplane connecting it            
 B. Total number of nodes in the cluster         
 C. Amount of usage demanded                     
 D. The performance and capacity in each node          
 Answer: D. 
 
-In a loosely coupled storage cluster, each node acts as an independent data store that can be added or removed from the cluster without affecting other nodes. This, however, means that the overall cluster’s performance/capacity depends on each node’s own maximum performance/capacity.
+**In a loosely coupled storage cluster, each node acts as an independent data store that can be added or removed from the cluster without affecting other nodes**. **This, however, means that the overall cluster’s performance/capacity depends on each node’s own maximum performance/capacity**.
 
 The physical backplane can be a limiting factor in a tightly coupled architecture but has less effect in a loosely coupled cluster; option A is incorrect.
 
@@ -716,29 +711,29 @@ Because each node in a loosely coupled cluster has its own limitations, the numb
 
 Option C is incorrect because “usage demanded” is not a factor in performance and capacity of a loosely coupled storage cluster.
 
-### Question # 65 - When putting a system into maintenance mode, it’s important to do all of the following except _______________.       
+### Question # 65 - When putting a [system into maintenance mode], it’s important to do all of the following [except] _______________.       
 A. Transfer any live virtual guests off the host          
 B. Turn off logging                                    
 C. Lock out the system from accepting any new guests          
 D. Notify customers if there are any interruptions               
 Answer: B. 
 
-Auditing is probably even more important during maintenance mode than normal operation because administrator activity is almost always involved.
+**Auditing is probably even more important during maintenance mode than normal operation because administrator activity is almost always involved**.
 
 All the other options are necessary measures for maintenance mode.
 
-### Question # 66 - Typically, a cloud customer seeking stand-alone hosting will expect all of the following except _______________.           
+### Question # 66 - Typically, a cloud customer seeking [stand-alone] hosting will expect all of the following [except] _______________.           
 A. More control over governance of the environment           
 B. Greater administrative control of the environment          
 C. Higher overall security of the environment             
 D. Lower costs for the environment             
 Answer: D.         
 
-Almost invariably, stand-alone hosting will cost more than pooled resources and multitenancy.
+**Almost invariably, stand-alone hosting will cost more than pooled resources and multitenancy**.
 
 All the other options are characteristics of stand-alone hosting.
 
-### Question # 67 - Methods for achieving “high availability” cloud environments include all of the following except _______________.              
+### Question # 67 - Methods for achieving [“high availability”] cloud environments include all of the following [except] _______________.              
 A. Extreme redundancy                             
 B. Multiple system vendors for the same services                                                                                   
 C. Explicitly documented business continuity and disaster recovery (BC/DR) functions in the service-level agreement (SLA) or contract                 
@@ -748,16 +743,15 @@ Answer: D.
 In many cases, the customer will no longer have an on-premises environment after a cloud migration.
 All the other options are methods cloud providers use to achieve “high availability” environments.
 
-### Question # 68 - You are in charge of a cloud migration for your organization. You anticipate attack traffic from various sources, each using a variety of both automated and manual intrusion techniques. In order to deter novel attacks used only against your organization, you would be wise to employ firewalls that use _______________ to detect threats.                  
+### [important tricky] Question # 68 - You are in charge of a [cloud migration] for your organization. You [anticipate attack traffic from various sources], each using a variety of both automated and manual intrusion techniques. In order to deter [novel attacks used only against your organization], you would be wise to employ firewalls that use _______________ to detect threats.                  
 A. Attack signatures                      
 B. Behavioral outliers                
 C. Content filters                
 D. Biometric templates                 
 Answer: B.          
 
-Behavioral detection looks for activity beyond the norm of the organization’s usual traffic. Unique attacks would most likely fall into this category.
-
-Unique attacks would not be detected by signature matching because no signatures exist for unique attacks; option A is incorrect.
+**Behavioral detection looks for activity beyond the norm of the organization’s usual traffic. Unique attacks would most likely fall into this category**.
+**Unique attacks would not be detected by signature matching because no signatures exist for unique attacks; option A is incorrect**.
 
 Content filtering is less a means of detection and more a means of controlling traffic that users/systems are exposed to; while it may be useful for mitigating the possibility of malware infection, it’s 
 
@@ -765,37 +759,39 @@ less suited to the purpose posed in the question. Option C is incorrect.
 
 Firewalls don’t work with biometrics; option D is a distractor.
 
-### Question # 69 - Firewalls can be included in all the following aspects of a cloud environment except _______________.                
+### [important tricky] Question # 69 - [Firewalls can be included in all] the following aspects of a cloud environment [except] _______________.                
 A. The guest OS                              
 B. The cloud data center IT architecture               
 C. Bandwidth providers used to connect to the cloud              
 D. Applications used to manipulate data in the cloud                
 Answer: C.       
 
-Internet service providers don’t usually offer firewall services.
+**Internet service providers don’t usually offer firewall services**.
 All the other options are locations/ways to implement firewalls.
 
-### Question # 70 - A honeypot can be used for all the following purposes except _______________.                 
+### [important] Question # 70 - A [honeypot] can be used for all the following purposes [except] _______________.                 
 A. Gathering threat intelligence              
 B. Luring attackers                   
 C. Distracting attackers                    
 D. Delaying attackers                 
 Answer: B.                 
 
-It is very important to distinguish the purpose of the honeypot. It is not for luring in attackers; a lure is an invitation, and inviting an attack decreases the organization’s ability to have the attacker prosecuted or conduct successful litigation against the attacker.
+**It is very important to distinguish the purpose of the honeypot**. 
+**It is not for luring in attackers; a lure is an invitation, and inviting an attack decreases the organization’s ability to have the attacker prosecuted or conduct successful litigation against the attacker**.
+
 All the other options are purposes of a honeypot.
 
-### Question # 71 - Which of the following should honeypots contain?                  
+### [important] Question # 71 - Which of the following should honeypots contain?                  
 A. Inward-facing connections                
 B. Network schematics                    
 C. Production data                     
 D. Detection systems                     
 Answer: D. 
 
-The honeypot is used to gather information about the attacker, the attacker’s tools, and the attacker’s techniques.
+**The honeypot is used to gather information about the attacker, the attacker’s tools, and the attacker’s techniques**.
 The honeypot should not contain anything of value; all the other options are incorrect.
 
-### Question # 72 - Because all cloud access is remote access, contact between users and the environment should include all of the following except _______________.                  
+### Question # 72 - Because all cloud access is remote access, contact between users and the environment should include all of the following [except] _______________.                  
 A. Encryption                               
 B. Secure login with complex passwords                    
 C. Once in-all in                
@@ -805,26 +801,27 @@ Answer: C.
 It’s preferable to have compartmentalized zones of trust within the production environment and not allow total access with one set of credentials.
 All the other options are aspects that should be used in cloud access.
 
-### Question # 73 - Most attacks that overcome encryption protections exploit _______________.                 
+### [important tricky] Question # 73 - Most attacks that [overcome encryption protections exploit] _______________.                 
 A. Mathematical principles                
 B. Misconfigurations                 
 C. Supercomputers                   
 D. Statistical probabilities                 
 Answer: B.                
 
-Historically, when encryption had been used as a security mechanism, it was not defeated by attacking the encryption directly but rather by subverting the encryption implementation.
+**Historically, when encryption had been used as a security mechanism, it was not defeated by attacking the encryption directly but rather by subverting the encryption implementation**.
+
 All the other options are actual methods for breaking encryption but are not the best answer for this question.
 
-### Question # 74 - Administrators and engineers who work for cloud service providers will have a significant amount of control over multiple customer environments and therefore pose a severe risk. Which of the following is not a technique used to mitigate this level of increased risk from privileged users in the cloud data center?              
+### [important] Question # 74 - Administrators and engineers who work for [cloud service providers] will have a significant amount of control over multiple customer environments and therefore pose a severe risk. Which of the following is [not] a technique used to mitigate this level of increased risk from privileged users in the cloud data center?              
 A. Two-person control             
 B. Enhanced logging of administrative activity                    
- C. Granting privileged access only on a temporary basis             
+C. Granting privileged access only on a temporary basis             
 D. Assigning permanent administrators to select customer accounts             
 Answer: D.                   
 
 Cloud vendors do not typically assign individual administrators permanently to specific accounts. All the other options (A–C) are methods used to reduce risks associated with privileged accounts.
 
-### Question # 75 - Which of these is a vital action to determine whether the business continuity and disaster recovery (BC/DR) effort has a chance of being successful?                
+### Question # 75 - Which of these is a vital action to determine [whether the business continuity and disaster recovery (BC/DR) effort has a chance of being successful?                
 A. Perform an integrity check on archived data to ensure that the backup process is not corrupting the data.              
 B. Encrypt all archived data to ensure that it can’t be exposed while at rest in the long term.               
 C. Periodically restore from backups.                                                          
