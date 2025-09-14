@@ -731,19 +731,21 @@ Answer: C.
 Health and human safety is always paramount in all security activity.
 All the other options are assets that should be protected, but nothing is as important as option C, so they are incorrect answers for this question.
 
-### Question # 62 - When considering cloud data replication strategies (i.e., whether you are making backups at the block, file, or database level), which element of your organization’s BC/DR plan will be most affected by your choice?      
+### [important]Question # 62 - When considering cloud data replication strategies (i.e., whether you are making backups at the block, file, or database level), which element of your organization’s BC/DR plan will be most affected by your choice?      
 A. Recovery time objective     
 B. Recovery point objective     
 C. Maximum allowable downtime      
 D. Mean time to failure     
 Answer: B.      
 
-The recovery point objective (RPO) is a measure of data that can be lost in an outage without irreparably damaging the organization. Data replication strategies will most affect this metric, as the choice of strategy will determine how much recent data is available for recovery purposes.
+[important] **The recovery point objective (RPO) is a measure of data that can be lost in an outage without irreparably damaging the organization. Data replication strategies will most affect this metric, as the choice of strategy will determine how much recent data is available for recovery purposes**.
+
 Recovery time objective (RTO) is a measure of how long an organization can endure an outage without irreparable harm. This may be affected by the replication strategy, but not as much as the RPO. Option 
 
 A is incorrect.
 
-The maximum allowable downtime (MAD) is how long an organization can suffer an outage before ceasing to be an organization. This is not dependent on the RPO, and the data replication strategy won’t have much effect on it at all. Option C is incorrect.
+*#The maximum allowable downtime (MAD) is how long an organization can suffer an outage before ceasing to be an organization**. 
+This is not dependent on the RPO, and the data replication strategy won’t have much effect on it at all. Option C is incorrect.
 
 The mean time to failure (MTTF) is a measure of how long an asset is expected to last (usually hardware), as determined by the manufacturer/vendor. The data replication strategy will have no bearing on this whatsoever. Option D is incorrect.
 
