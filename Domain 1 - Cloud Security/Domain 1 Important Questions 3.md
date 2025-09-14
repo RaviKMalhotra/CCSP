@@ -450,21 +450,21 @@ A.	Elasticity
 B.	On- demand self service                  
 C.	Scalability                    
 D.	Measured service                 
-Answer: B      
+Answer: D      
 
 ### Question # 52 - Who is responsible for performing scheduled maintenance of server operating systems in a PaaS environment?                
 A. The customer.                                    
 B.	Both the customer and the service provider.                              
 C.	No operating system maintenance is necessary in a PaaS environment.                 
 D.	The service provider.                    
-Answer: B      
+Answer: D      
 
 ### Question # 53 - When considering a move from a traditional on- premises environment to the cloud, organizations often calculate a return on investment. Which one of the following factors should you expect to contribute the most to this calculation?              
 A.	Utility costs             
 B.	Licensing fees                
 C.	Security expenses                
 D.	Executive compensation                
-Answer: B      
+Answer: A      
 
 ### Question # 54 - 	Devon is using an IaaS environment and would like to provision storage that will be used as a disk attached to a server instance. What type of storage should he use?        
 A. Archival storage                 
@@ -478,35 +478,35 @@ A.	Remove the key from the bucket.
 B.	Notify all customers that their data may have been exposed.         
 C.	Request a new certificate using a new key.                
 D.	Nothing, because the private key should be accessible for validation.            
-Answer: B      
+Answer: C      
 
 ### Question # 56 - 	Glenda would like to conduct a disaster recovery test and is seeking a test that will allow a review of the plan with no disruption to normal information system activities and as minimal a commitment of time as possible. What type of test should she choose?                
 A. Tabletop exercise                 
 B.	Parallel test                   
 C.	Full interruption test              
 D.	Checklist review             
-Answer: B      
+Answer: D      
 
 ### Question # 57 - Mark is considering replacing his organization’s customer relationship management (CRM) solution with a new product that is available in the cloud. This new solution is completely managed by the vendor, and Mark’s company will not have to write any code or manage any physical resources. What type of cloud solution is Mark considering?                  
 A.	IaaS            
 B.	CaaS      
 C.	PaaS            
 D.	SaaS            
-Answer: B      
+Answer: D      
 
 ### Question # 58 - Ben has been tasked with identifying security controls for systems covered by his organization’s information classification system. Why might Ben choose to use a security baseline?    
 A. They apply in all circumstances, allowing consistent security controls.         
 B.	They are approved by industry standards bodies, preventing liability.                  
 C.	They provide a good starting point that can be tailored to organizational needs.            
 D.	They ensure that systems are always in a secure state.              
-Answer: B      
+Answer: C      
 
 ### Question # 59 - What approach to technology management integrates the three components of technology management shown in this illustration?                              
 A.	Agile          
 B.	Lean         
 C.	DevOps     
 D.	ITIL             
-Answer: B      
+Answer: C      
 
 ### Question # 60 - Stacey is configuring a PaaS service for use in her organization. She would like to get SSH access to the servers that will be executing her code and contacts the vendor to request this access. What response should she expect?              
 A. Immediate approval of the request.
@@ -520,14 +520,14 @@ A.	Impact
 B.	RPO
 C.	MTO
 D.	Likelihood
-Answer: B      
+Answer: D      
 
 ### Question # 62 - 	Lisa wants to integrate with a cloud identity provider that uses OAuth 2.0, and she wants to select an appropriate authentication framework. Which of the following best suits her needs?
 A.	OpenID Connect
 B.	SAML
 C.	RADIUS
 D.	Kerberos
-Answer: B      
+Answer: A      
 
 ### Question # 63 - Elise is helping her organization prepare to evaluate and adopt a new cloud- based human resource management (HRM) system vendor. What would be the most appropriate minimum security standard for her to require of possible vendors?
 A.	Compliance with all laws and regulations
@@ -541,7 +541,7 @@ A.	SaaS
 B.	IaaS
 C.	CaaS
 D.	PaaS
-Answer: B      
+Answer: A      
 
 ### Question # 65 - Carl is deploying a set of video sensors that will be placed in remote locations as part of a research project. Due to connectivity limitations, he would like to perform as much image processing and computation as possible on the device itself before sending results back to the cloud for further analysis. What computing model would best meet his needs?
 A.	Serverless computing
@@ -555,56 +555,56 @@ A.	HTML
 B.	XACML
 C.	SAML
 D.	SPML
-Answer: B      
+Answer: C      
 
 ### Question # 67 - Bert is considering the use of an infrastructure as a service cloud computing partner to provide virtual servers. Which one of the following would be a vendor responsibility in this scenario?
 A.	Maintaining the hypervisor
 B.	Managing operating system security settings
 C.	Maintaining the host firewall
 D.	Configuring server access control
-Answer: B      
+Answer: A      
 
 ### Question # 68 - Nuno’s company is outsourcing its email system to a cloud service provider who will provide web- based email access to employees of Nuno’s company. What cloud service category is being used?
 A.	PaaS
 B.	IaaS
 C.	SaaS
 D.	FaaS
-Answer: B      
+Answer: C      
 
 ### Question # 69 - What software development methodology is most closely linked to the DevSecOps approach?
 A.	Waterfall
 B.	Spiral
 C.	Agile
 D.	Modified waterfall
-Answer: B      
+Answer: C      
 
 ### Question # 70 - Bailey is concerned that users around her organization are using a variety of cloud services and would like to enforce security policies consistently across those services. What security control would be best suited for her needs?
 A.	DRM
 B.	IPS
 C.	CASB
 D.	DLP
-Answer: B      
+Answer: C      
 
 ### Question # 71 - Roger recently accepted a new position as a security professional at a company that runs its entire IT infrastructure within an IaaS environment. Which one of the following would most likely be the responsibility of Roger’s firm?
 A.	Configuring accessible network ports
 B.	Applying hypervisor updates
 C.	Patching operating systems
 D.	Wiping drives prior to disposal
-Answer: B      
+Answer: C      
 
 ### Question # 72 - In which cloud computing model does a customer share computing infrastructure with other customers of the cloud vendor where one customer may not know the other’s identity?                  
 A.	Public cloud              
 B.	Private cloud              
 C.	Community cloud             
 D.	Shared cloud              
-Answer: B      
+Answer: A      
 
 ### Question # 73 - 	Kristen wants to use multiple processing sites for her data, but does not want to pay for a full datacenter. Which of the following options would you recommend as her best option if she wants to be able to quickly migrate portions of her custom application environment to the facilities in multiple countries without having to wait to ship or acquire hardware?             
 A. A cloud PaaS vendor               
 B.	A hosted datacenter provider               
 C.	A cloud IaaS vendor                                                          
 D.	A datacenter vendor that provides rack, power, and remote hands services                
-Answer: B      
+Answer: C      
 
 ### Question # 74 - Which one of the following statements about cloud networking is not correct?          
 A. Security groups are the equivalent of network firewall rules.        
@@ -617,42 +617,42 @@ Answer: B
 B.	Cybersecurity professional
 C.	Cloud architect
 D.	Vendor
-Answer: B      
+Answer: D      
 
 ### Question # 76 - 	What is the international standard that provides guidance for the creation of an organizational information security management system (ISMS)?
 A.	NIST SP 800- 53
 B.	PCI DSS
 C.	ISO 27001
 D.	NIST SP 800- 37
-Answer: B      
+Answer: C      
 
 ### Question # 77 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s datacenter. One of the challenges you’re facing is whether your current applications in the on- premises environment will function properly with the provider’s hosted systems and tools. This is a(n) ________________ issue.
 A.	Interoperability
 B.	Portability
 C.	Stability
 D.	Security
-Answer: B      
+Answer: A      
 
 ### Question # 78 - 	Mike is conducting a business impact assessment of his organization’s potential move to the cloud. He is concerned about the ability to shift workloads between cloud vendors as needs change. What term best describes Mike’s concern?
 A.	Resiliency
 B.	Regulatory
 C.	Reversibility
 D.	Portability
-Answer: B      
+Answer: D      
 
 ### Question # 79 - Which one of the following statements is correct?           
 A. Services that are scalable are also elastic.                        
 B.	There is no relationship between elasticity and scalability.           
 C.	Services that are elastic are also scalable.                                       
 D.	Services that are either elastic or scalable are both elastic and scalable.       
-Answer: B      
+Answer: C      
 
 ### Question # 80 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except ____________.                      
 A.	Reduced cost of ownership                      
 B.	Reduced energy costs                      
 C.	Metered usage                      
 D.	Reduced overhead of administering the operating system (OS) in the cloud environment                        
-Answer: B      
+Answer: D      
 
 ### Question # 81 - Encryption is an essential tool for affording security to cloud- based operations. While it is possible to encrypt every system, piece of data, and transaction that takes place on the cloud, why might that not be the optimum choice for an organization?                           
 A.	Key length variances don’t provide any actual additional security.                
@@ -666,21 +666,21 @@ A. Privacy data security policy; auditing the controls dictated by the privacy d
 B.	The European Union General Data Protection Regulation (GDPR); the Gramm– Leach–Bliley Act (GLBA)                                    
 C.	Locks on doors; turnstiles                                 
 D.	Perimeter defenses; internal defenses                           
-Answer: B      
+Answer: A      
 
 ### Question # 83 - Which one of the following is a critical component for confidential computing environments?                    
 A.	TEE             
 B.	TPM              
 C.	HSM             
 D.	PKI             
-Answer: B      
+Answer: A      
 
 ### Question # 84 - Which one of the following programs provides a general certification process for computing hardware that might be used in a government environment?                 
 A.	FedRAMP                   
 B.	NIST 800- 53                 
 C.	Common Criteria                
 D.	FIPS 140- 2                  
-Answer: B      
+Answer: C      
 
 ### Question # 85 - 	In a Lightweight Directory Access Protocol (LDAP) environment, each entry in a directory server is identified by a ______________.        
 A.	Domain name (DN).                        
@@ -694,7 +694,7 @@ A.	Storage.
 B.	Networking.                   
 C.	Databases.               
 D.	Virtualization.               
-Answer: B      
+Answer: C      
 
 ### Question # 87 - You are concerned about protecting sensitive data while it is stored in memory on a server.  What emerging technology is designed to assist with this work?                   
 A.	Quantum computing                  
@@ -708,21 +708,21 @@ A.	The network admin responsible
 B.	The cloud provider                  
 C.	The regulators overseeing your deployment              
 D.	Your organization                                  
-Answer: B      
+Answer: D      
 
 ### Question # 89 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?                           
 A.	Platform as a service (PaaS), community                  
 B.	Infrastructure as a service (IaaS), hybrid                  
 C.	Software as a service (SaaS), public                
 D.	Infrastructure as a service (IaaS), private              
-Answer: B      
+Answer: D      
 
 ### Question # 90 -	Henry’s company has deployed an extensive IoT infrastructure for building monitoring that includes environmental controls, occupancy sensors, and a variety of other sensors and controllers that help manage the building. Which of the following security concerns should Henry report as the most critical in his analysis of the IoT deployment?                 
 A.	There is a lack of local storage space for security logs, which is common to IoT devices.                                                                    
 B.	The IoT devices may not have a separate administrative interface, allowing anybody on the same network to attempt to log in to them and making brute- force attacks possible.               
 C. The IoT devices may not support strong encryption for communications, exposing the log and sensor data to interception on the network.                  
 D. The long- term support and patching model for the IoT devices may create security and operational risk for the organization.                    
-Answer: B      
+Answer: D      
 
 ### Question # 91 - In what cloud computing model does the customer build a cloud computing environment in their own datacenter or build an environment in another datacenter that is for the customer’s exclusive use?                     
 A. Public cloud                 
@@ -736,14 +736,14 @@ A. Hypervisor
 B.	Hardware security module                 
 C.	Trusted platform module                 
 D.	Database                     
-Answer: B      
+Answer: A      
 
 ### Question # 93 -	Steve is concerned that users of his organization’s cloud environment may be sending sensitive information over HTTPS connections. What technology would best help him detect this activity?                  
 A.	Traffic inspection                  
 B.	Port blocking                  
 C.	Patching                 
 D.	Geofencing                
-Answer: B      
+Answer: A      
 
 ### Question # 94 -	Which one of the following disaster recovery approaches is generally the most cost- effective for an organization?                     
 A. Hot site                   
@@ -757,41 +757,41 @@ A.	Authentication
 B.	Authorization              
 C.	Nonrepudiation              
 D.	Regression              
-Answer: B      
+Answer: A      
 
 ### Question # 96 - Which one of the following cloud service categories places the most security responsibility with the cloud service provider?                     
 A.	SaaS                 
 B.	PaaS              
 C. FaaS             
 D. IaaS            
-Answer: B      
+Answer: A
 
 ### Question # 97 - .	Alice and Bob are using a symmetric encryption algorithm to exchange sensitive information. How many total encryption keys are necessary for this communication?                   
 A.	1                   
 B. 2                
 C. 3               
 D. 4              
-Answer: B      
+Answer: A      
 
 ### Question # 98 -	Mike and Renee would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority. When Mike receives Renee’s digital certificate, what key does he use to verify the authenticity of the certificate?           
 A.	Renee’s public key            
 B.	Renee’s private key                     
 C.	CA’s public key                   
 D.	CA’s private key                 
-Answer: B      
+Answer: c      
 
 ### Question # 99 -	What computing technology, if fully developed, has the potential to undermine the security of modern encryption algorithms?             
 A.	Confidential computing                                                                                                                       
 B.	Ephemeral computing                       
 C.	Quantum computing                 
 D.	Parallel computing               
-Answer: B      
+Answer: C      
 
 ### Question # 100 -	What is usually considered the difference between business continuity (BC) efforts and disaster recovery (DR) efforts?            
 A.	BC involves a recovery time objective (RTO), and DR involves a recovery point objective (RPO).                                               
 B.	BC is for events caused by humans (like arson or theft), whereas DR is for natural disasters.                 
 C.	BC is about maintaining critical functions during a disruption of normal operations, and DR is about recovering to normal operations after a disruption.     
-D.	BC involves protecting human assets (personnel, staff, users), whereas DR is about protecting property (assets, data).                                       Answer: B       
+D.	BC involves protecting human assets (personnel, staff, users), whereas DR is about protecting property (assets, data).                                       Answer: C       
  
 ### Chapter 1: Domain 1: Cloud Concepts, Architecture, and Design
 
