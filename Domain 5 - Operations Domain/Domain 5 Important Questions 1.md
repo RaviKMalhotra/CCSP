@@ -6,6 +6,7 @@ A. Remediating the incident
 B. Reverting to the last known good state        
 C. Determining the scope of the possible loss       
 D. Outcomes dictated by business requirements       
+
 Answer:  D. 
 
 This is not an easy question; different industries and different organizations will have differing goals. 
@@ -16,6 +17,7 @@ A. 10 inches
 B. 8 inches        
 C. 18 inches        
 D. 2 feet      
+
 Answer: D. 
 
 The minimum recommended height of a raised floor in a data center is 24 inches. All other options are incorrect.
@@ -25,6 +27,7 @@ A. Allows airflow and increases structural soundness for holding large component
 B. Cold air feed and a place to run wires for the machines                               
 C. Additional storage for critical components and a dedicated access to a landline           
 D. Fire suppression systems and personnel safety                 
+
 Answer: B. 
 
 The raised floor in a data center will serve as an air plenum (usually for cold air) and a wiring chase. All the other options are incorrect.
@@ -34,6 +37,7 @@ A. Exhaust fans on racks facing the inlet vents of other racks
 B. Inlet fans on racks facing exhaust fans of other racks           
 C. All racks perpendicular to each other                       
 D. Exhaust fans on racks facing exhaust fans on other racks                 
+
 Answer: D. 
 
 **The preferred method is cold aisle containment (hot aisle containment, where the inlets on racks face each other, is all right too)**. 
@@ -44,6 +48,7 @@ A. Deleterious
 B. Negative           
 C. Unscheduled            
 D. Major            
+
 Answer: C.          
 
 All activity in the environment can be considered events. Any event that was not planned or known is an incident. In the security industry, we often ascribe negative effects to the term incident, but incidents are not always malicious; they are only unscheduled.
@@ -55,6 +60,7 @@ A. Geographic location
 B. Functional purpose              
 C. Cost                 
 D. Aesthetic intent           
+
 Answer: A. 
 
 This is a difficult, nuanced question. Options A–C are true; each element would affect the design of a cloud data center (D is not something that should be included in data center design). But the physical location of the data center would include legal constraints (based on jurisdiction), geological/natural constraints (based on altitude, proximity to water formations/flooding, climate, natural disaster, etc.), price, and other variables. Therefore, location would most likely have the greatest impact on the design of the facility.
@@ -63,16 +69,18 @@ This is a difficult, nuanced question. Options A–C are true; each element woul
 A. External standards, such as ITIL or ISO 27001            
 B. Physical environment           
 C. Types of services offered                         
-D. Native language of the majority of customers              
+D. Native language of the majority of customers     
+
 Answer: D. 
 
 Language of the customers is irrelevant, assuming they can pay. All the other options are factors that must be considered in data center design.
 
-### Question # 8 - In designing a data center to meet their own needs and provide optimum revenue/profit, the cloud provider will most likely aim to enhance _______________.          
-A. Functionality               
+### Question # 8 - In designing a data center to meet their own needs and provide optimum revenue/profit, the cloud provider will most likely aim to enhance _______________.           
+A. Functionality                        
 B. Automation of services          
 C. Aesthetic value          
 D. Inherent value           
+
 Answer: B.        
 
 This is not an easy question. All the options are correct except C. Option B is the most correct because it will lead to maximizing performance, value, and profitability.
@@ -82,6 +90,7 @@ A. Reducing mean time to repair (MTTR)
 B. Reducing mean time between failure (MTBF)          
 C. Reducing the recovery time objective (RTO)            
 D. Automating service enablement          
+
 Answer: D.           
 
 **The goal of automating service enablement is probably paramount for any cloud service provider (of the qualities listed), because it allows for the most scalability and offers the most significant reduction in costs (which mainly come from personnel) and therefore the most profitability**. 
@@ -96,6 +105,7 @@ A. Monitoring outbound traffic
 B. Monitoring inbound traffic          
 C. Segmenting networks                
 D. Preventing distributed denial of service (DDoS) attacks               
+
 Answer: C. 
 
 Network segmentation allows providers to create zones of trust within the cloud environment, tailoring the available services to meet the needs of a variety of clients and markets.
