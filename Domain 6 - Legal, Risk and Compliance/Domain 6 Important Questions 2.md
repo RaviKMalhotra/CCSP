@@ -52,7 +52,7 @@ B.	Security
 C.	Privacy   
 D.	Processing	integrity    
 
-### Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	and the	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service?    
+### [important] Question # 10 - What	will	determine	the	responsibilities	for	both	the	cloud	provider	and the	cloud	customer	in	the	event	of	litigation	impacting	a	system	or service?    
 A.	Contract   
 B.	SLA    
 C.	Regulation     
