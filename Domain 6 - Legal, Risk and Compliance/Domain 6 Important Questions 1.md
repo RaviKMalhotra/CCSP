@@ -31,7 +31,7 @@ Answer: A.
 
 [important] Tier 1 is the lowest tier of the STAR program, involving only self-assessment.
 
-### [important] Question # 4 - Alice and Bob want to use the Internet to communicate privately. They each have their own asymmetric key pairs and want to use them to create temporary symmetric keys for each connection or session. Which of the following will enable them to do this?              
+### [important] Question # 4 - Alice and Bob want to use the Internet to communicate privately. They each have their own asymmetric key pairs and want to use them to create temporary symmetric keys for each connection or session. Which of the following will enable them to do this?               
 A. Remote Authentication Dial-In User Service (RADIUS)            
 B. Rivest-Shamir-Adelman (RSA) encryption            
 C. Diffie-Hellman exchange                                     
