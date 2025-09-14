@@ -754,7 +754,7 @@ A. Physical security enforcement
 B. Access control methodology     
 C. Security control against data breach     
 D. Availability for data lost accidentally      
-Answer: D.       
+Answer: D.        
 
 A data backup/archive can offer your organization an operational “reachback” capability, where admins can assist users in recovering data lost by accident or carelessness.
 The backup/archive does not aid in any of the areas in the other options. So, options A, B, and C are incorrect.
