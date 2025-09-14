@@ -1059,7 +1059,7 @@ Answer: B.
 Social factors should not/don’t affect the level of entropy in a random number generator.
 However, all the other factors listed in the other answers do, and that means that a malicious user in the cloud would be more likely (statistically) to guess/predict the random number used to create/seed an encryption key made in that same cloud environment. Cloud customers should take this into account when designing/planning their cloud configuration.
 
-### Question # 91 - Lack of industry-wide standards for cloud computing creates a potential for ___________________.      
+### [important] Question # 91 - Lack of industry-wide standards for cloud computing creates a potential for ___________________.      
 A. Privacy data breach      
 B. Privacy data disclosure      
 C. vendor lock-in     
@@ -1069,18 +1069,20 @@ Answer: C.
 Without uniformity of data formats and service mechanisms, there is no assurance that a customer would be able to easily move their cloud operation from one provider to another; this can result in lock-in.
 All the other options are not affected by lack of standards.
 
-### Question # 92 - What can hamper the ability of a cloud customer to protect their assets in a managed services arrangement?     
+### Question # 92 - What can [hamper the ability of a [cloud customer] to protect their assets in a managed services arrangement?     
 A. Prohibitions on port scanning and penetration testing      
 B. Geographical dispersion      
 C. Rules against training users     
 D. Laws that prevent them from doing so        
 Answer:  A.      
 
-Many cloud providers prohibit activities that are common for administrative and security purposes but can also be construed/used for hacking; this includes port scanning and penetration testing. These restrictions can reduce the customer’s ability to perform basic security functions.
+**Many cloud providers prohibit activities that are common for administrative and security purposes but can also be construed/used for hacking; this includes port scanning and penetration testing**.
+ 
+These restrictions can reduce the customer’s ability to perform basic security functions.
 While geographical dispersion of cloud assets might make securing those assets more difficult in the notional sense (customer administrators can’t physically visit the devices that host their data), remoteness does not necessarily inhibit good security practices, which can be performed at a remove. This is not as detrimental as rules against port scanning/pen testing, so option B is incorrect.
 There are no rules against user training or laws against securing your own assets, in the cloud or otherwise; options C and D are incorrect.
 
-### Question # 93 - Cloud administration almost necessarily violates the principles of the ___________________ security model.      
+### [important] Question # 93 - Cloud administration almost necessarily violates the principles of the ___________________ security model.      
 A. Brewer-Nash (Chinese Wall)   
 B. Graham-Denning   
 C. Bell-LaPadula    
@@ -1090,7 +1092,7 @@ Answer: A.
 Brewer-Nash was specifically created for managed services arrangements, where an administrator for a given customer might also have access to a competitor’s data/environment; the model requires that administrators not be assigned to competing customers. In the modern cloud provider model, a cloud data center administrator will almost definitely have access to many customers from the same industry (i.e., competitors) but probably won’t even know it.
 All the other options are access control security models; cloud administrators will not (or should not) be assigning access rights, so all these options are wrong.
 
-### Question # 94 - The physical layout of a cloud data center campus should include redundancies of all the following except ___________________.    
+### Question # 94 - The [physical layout of a cloud data center campus should include redundancies] of all the following except ___________________.    
 A. Physical perimeter security controls (fences, lights, walls, etc.)    
 B. The administration/support staff building    
 C. Electrical utility lines          
