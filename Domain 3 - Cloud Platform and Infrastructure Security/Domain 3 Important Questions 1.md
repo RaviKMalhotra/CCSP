@@ -839,7 +839,7 @@ Answer: A.
 
 All of these are important, but without regular updates, the information will soon become outdated and a lot less useful.
 
-### Question # 72 - The BC/DR plan/policy should include all of the following except ___________________.      
+### [important] Question # 72 - The BC/DR plan/policy should include all of the following except ___________________.      
 A. Tasking for the office responsible for maintaining/enforcing the plan     
 B. Contact information for essential entities, including BC/DR personnel and emergency services agencies      
 C. Copies of the laws/regulations/standards governing specific elements of the plan      
@@ -895,14 +895,15 @@ Cloud providers, wherever they are located, should compensate for environmental 
 
 Option D is incorrect because it is blanket statement that is not always true. In fact, for some organizations, the physical location where their data is stored can have serious regulatory consequences.
 
-### Question # 77 - According to the European Union Agency for Network and Information Security (ENISA), a cloud risk assessment should provide a means for customers to accomplish all these assurance tasks except ___________________.      
+### [important] Question # 77 - According to the [European Union Agency for Network and Information Security (ENISA)], a cloud risk assessment should provide a means for customers to accomplish all these assurance tasks except ___________________.      
 A. Assess risks associated with cloud migration    
 B. Compare offerings from different cloud providers      
 C. Reduce the risk of regulatory noncompliance     
 D. Reduce the assurance burden on cloud providers      
 Answer: C.     
 
-ENISA’s approach to cloud risk assessments does not specifically address this type of assurance, probably because of the wide variety of possible regulators and the difficulty in crafting a risk assessment that would address them all.
+[important] **ENISA’s approach to cloud risk assessments does not specifically address this type of assurance, probably because of the wide variety of possible regulators and the difficulty in crafting a risk assessment that would address them all**.
+
 All the other options are assurance efforts that ENISA’s cloud risk assessment is meant to enhance, so they are incorrect answers for this question.
 
 ### Question # 78 - The European Union Agency for Network and Information Security’s (ENISA’s) definition of cloud computing differs slightly from the definition offered by (ISC)2 (and, for instance, NIST). What is one of the characteristics listed by ENISA but not included in the (ISC)2 definition?        
