@@ -1049,7 +1049,7 @@ While it is possible that one guest VM seeing the resource calls of another VM c
 Likewise, it may be possible for the viewer to leverage knowledge of this usage as part of a social engineering attack, but that would be subsequent to the inference itself; option B is still better than C.
 Lack of resource isolation does not affect physical intrusions, which is just a distractor here.
 
-### Question # 90 - Key generation in a cloud environment might have less entropy than the traditional environment for all the following reasons except ___________________.      
+### [important] Question # 90 - Key generation in a cloud environment might have less entropy than the traditional environment for all the following reasons except ___________________.      
 A. Lack of direct input devices     
 B. No social factors     
 C. Uniform build     
