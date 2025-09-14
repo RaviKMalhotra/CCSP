@@ -943,14 +943,14 @@ Option B does not create a true equivalence; disclosing data under controlled co
 
 Option C is not equivalent to the costs/benefits of the other forms of collaboration; it would be too cumbersome for the organization to truly benefit from collaboration in a modern business environment.
 
-### Question # 81 - There are many ways to handle risk. However, the usual methods for addressing risk are not all possible in the cloud because ___________________.      
+### [important] Question # 81 - There are many ways to handle risk. However, the usual methods for addressing risk are not all possible in the cloud because ___________________.      
 A. Cloud data risks cannot be mitigated     
 B. Migrating into a cloud environment necessarily means you are accepting all risks      
 C. Some risks cannot be transferred to a cloud provider       
 D. Cloud providers cannot avoid risk      
 Answer: C. 
 
-Under current legal frameworks, some risks (such as legal liability for privacy data breaches) cannot be transferred to a contracted party, so the data owners (that is, cloud customers) will still retain those risks.
+[important] **Under current legal frameworks, some risks (such as legal liability for privacy data breaches) cannot be transferred to a contracted party, so the data owners (that is, cloud customers) will still retain those risks**.
 
 Option A is ridiculous; risks can and should be mitigated, even in the cloud.
 
@@ -967,23 +967,26 @@ Answer: C.
 
 As the models increase in level of abstraction and service, the customer’s control over the environment decreases.
 
-### Question # 83 - Which of the following poses a new risk in the cloud, not affecting the traditional, on-premise IT environment?     
+### Question # 83 - Which of the following poses a [new risk in the cloud], not affecting the traditional, on-premise IT environment?     
 A. Internal threats     
 B. Multitenancy      
 C. Natural disasters     
 D. Distributed denial-of-service (DDoS) attacks      
-Answer: B.       
-Sharing resources with other, unknown customers (some of whom may be competitors of or even hostile to the organization) is a risk not faced by organizations that maintain their own, on-premise data centers.
+Answer: B.     
+  
+**Sharing resources with other, unknown customers (some of whom may be competitors of or even hostile to the organization) is a risk not faced by organizations that maintain their own, on-premise data centers**.
+
 All the other answers are threats that exist in both environments and are therefore incorrect.
 
-### Question # 84 - In addition to the security offered by the cloud provider, a cloud customer must consider the security offered by ___________________.      
+### [important] Question # 84 - In addition to the security offered by the cloud provider, a cloud customer must consider the security offered by ___________________.      
 A. The respective regulator      
 B. The end user(s)     
 C. Any vendor the cloud customer previously used in the on-premise environment        
 D. Any third parties the provider depends on      
 Answer: D. 
 
-Because supply chain dependencies can affect service, the cloud customer will need assurance that any third-party reliance is secure.
+**Because supply chain dependencies can affect service, the cloud customer will need assurance that any third-party reliance is secure**. 
+
 Regulators and end users do not provide security to the enterprise, so options A and B are incorrect.
 The vendors used for on-premise security will no longer affect the data, so option C is incorrect.
 
@@ -997,16 +1000,17 @@ Answer: D.
 It is possible that a cloud provider will be unable to handle an increased load during contingency situations where all its customers are demanding additional resources far beyond their usual contracted rate. While this is unlikely (many cloud providers, especially the major operators in the market, have resources that greatly exceed any possible demand by their customers), it could conceivably occur if a significant number of customers experience an immediate and dramatic need for capacity, such as during a major BC/DR event (a region-wide natural disaster or a physical attack on a city). This is not something that would affect an on-premise solution; your organization’s data center is not affected by others’ demand for resources (although the on-premise environment may be affected by the same contingency that causes cloud resource exhaustion, of course).
 All the other options portray risks faced by both cloud and on-premise environments.
 
-### Question # 86 - Where is isolation failure probably least likely to pose a significant risk?       
+### [important] Question # 86 - Where is [isolation failure] probably [least] likely to pose a significant risk?       
 A. Public cloud      
 B. Private cloud       
 C. PaaS environment       
 D. SaaS environment      
 Answer: B.     
 
-Guest escape (a malicious user leaving the confines of a VM and able to access other VMs on the same machine) is less likely to occur and to have a significant impact in an environment provisioned for and used by a single customer.
+[important] **Guest escape (a malicious user leaving the confines of a VM and able to access other VMs on the same machine) is less likely to occur and to have a significant impact in an environment provisioned for and used by a single customer**.
 
 In a public cloud, this is more likely and would be more significant, so option A is incorrect.
+
 The service model doesn’t specifically dictate the likelihood of occurrence or impact (both PaaS and IaaS could be in a private or public cloud, which is the more important factor), so both options C and 
 D are incorrect.
 
@@ -1017,21 +1021,24 @@ C. Mandatory privacy data breach notifications
 D. Flooding       
 Answer: B.       
 
-Because of multitenancy and shared resources in the cloud, law enforcement may seize a cloud customer’s assets (a physical device, a data set, etc.) and inadvertently capture assets belonging to another, unsuspected/innocent organization. This could not happen in a situation where all individual organizations only kept their own assets on their own premises.
+[important] **Because of multitenancy and shared resources in the cloud, law enforcement may seize a cloud customer’s assets (a physical device, a data set, etc.) and inadvertently capture assets belonging to another, unsuspected/innocent organization**. 
+This could not happen in a situation where all individual organizations only kept their own assets on their own premises.
+
 All the other options include risks that exist in the traditional, on-premise environment, as well as the cloud, so they are incorrect.
 
-### Question # 88 - Which of these does the cloud customer need to ensure protection of intellectual property created in the cloud?      
+### [important] Question # 88 - Which of these does the cloud customer need to ensure protection of intellectual property created in the cloud?      
 A. Digital rights management (DRM) solutions        
 B. Identity and access management (IAM) solutions       
 C. Strong contractual clauses        
 D. Crypto-shredding        
 Answer:  C.       
 
-This is not an easy question; the simple answer seems to be option A, which is true for data stored/saved/migrated to the cloud (and property that already has been created in the cloud), but for new intellectual property created in the cloud, strong contract language in favor of the customer’s rights is very necessary. Without clear-language support about the customer’s ownership of all intellectual property created in the cloud data center, the cloud provider could, ostensibly, make a claim on such property, as the provider’s resources were used in a collaborative effort to create that property.
+**This is not an easy question; the simple answer seems to be option A, which is true for data stored/saved/migrated to the cloud (and property that already has been created in the cloud), but for new intellectual property created in the cloud, strong contract language in favor of the customer’s rights is very necessary**. 
+**Without clear-language support about the customer’s ownership of all intellectual property created in the cloud data center, the cloud provider could, ostensibly, make a claim on such property, as the provider’s resources were used in a collaborative effort to create that property**.
 
 Options B and D are security controls used to protect all sorts of assets, including intellectual property, but they are not as specifically addressing the creation of new intellectual property in the cloud the way explicit contract clauses would, so option C is still the better answer.
 
-### Question # 89 - What could be the result of failure of the cloud provider to secure the hypervisor in such a way that one user on a virtual machine can see the resource calls of another user’s virtual machine?     
+### [important] Question # 89 - What could be the result of failure of the cloud provider to secure the hypervisor in such a way that one user on a virtual machine can see the resource calls of another user’s virtual machine?     
 A. Unauthorized data disclosure    
 B. Inference attacks    
 C. Social engineering    
