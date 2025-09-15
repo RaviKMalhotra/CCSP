@@ -345,7 +345,8 @@ D.	Servers
 A.	Interoperability    
 B.	Open	source    
 C.	Broad	network	access    
-D.	Single	sign-on     
+D.	Single	sign-on 
+
 Answer: C.	   
 
 Broad	network	access	pertains	to	the	availability	of	cloud	resources from	virtually	any	network	location,	and	through	any	type	of	device. This	can	be	from	corporate	networks	or	from	the	public	Internet	on virtually	any	type	of	connection.	In	regard	to	devices,	while	many cloud	services	are	accessed	via	web	browsers	and	mobile	applications, it	is	possible	to	use	any	type	of	thick	or	thin	desktop	client	that	is appropriate	as	well.
@@ -361,8 +362,9 @@ D	is	incorrect	because,	although	single	sign-on	is	very	often	a component	of	clo
 A.	FIPS	140-2    
 B.	NIST	SP	800-53    
 C.	SOC	2   
-D.	ISO/IEC	27001    
-Answer: A.	
+D.	ISO/IEC	27001           
+
+Answer: A.	    
 
 The	Federal	Information	Processing	Standard	(FIPS)	140-2 publication,	authored	by	the	National	Institutes	of	Standards	and Technology	(NIST)	of	the	United	States,	is	a	process	by	which cryptographic	modules	are	evaluated	and	certified.	It	applies	to	both the	hardware	and	software	components	used	during	cryptographic processes,	and	it’s	based	on	the	particular	needs	for	confidentiality	and integrity	of	the	data	being	protected.	It	is	composed	of	four	levels, with	increasing	intensities	of	security	controls	and	implementations	of them.
 
@@ -373,12 +375,13 @@ on	the	evaluation	or	certification	of	cryptographic	modules.	SOC	2 reports	focus
 
 D	is	incorrect	because	the	ISO/IEC	27001	is	considered	a	broad	and general	“gold	standard”	for	security	certification	and	guidance.	It comprehensively	covers	all	areas	of	security	controls	and	policies,	and is	not	specifically	focused	on	cryptographic	modules	or	their certification.
 
-### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?    
+### Question # 3 - Which	of	the	following	aspects	of	an	application	is	MOST	likely	to	be	a component	of	measured	service	with	all	SaaS	implementations?                    
 A.	CPU    
 B.	Storage    
 C.	Number	of	users     
 D.	Memory   
-Answer: C.	
+
+Answer: C.	      
 
 Within	a	Software	as	a	Service	(SaaS)	implementation,	cloud customers	are	acquiring	and	paying	for	services	that	are	explicitly	tied to	the	use	of	a	fully	operational	application	package	that	is	completely designed,	maintained,	and	implemented	by	the	cloud	provider.	Billing is	often	measured	based	on	the	number	of	users	or	the	number	of transactions	the	organization	does	with	the	application,	rather	than traditional	computing	resources	associated	with	other	service categories.
 
@@ -393,6 +396,7 @@ A.	Co-location
 B.	Elasticity    
 C.	System	sharing   
 D.	Resource	pooling    
+
 Answer: D.	
 
 Resource	pooling	is	largely	what	separates	a	traditional	data	center from	a	cloud	in	regard	to	computing	resources.	In	a	traditional	data center,	resources	are	allocated	to	specific	systems	or	applications,	and for	the	most	part	are	not	shared.	Within	a	cloud,	the	entire	hardware infrastructure	is	viewed	as	an	aggregate	and	then	allocated accordingly	to	the	various	cloud	customers	and	applications	hosted within	it.	This	is	typically	a	massive	pool	of	resources	that	not	only can	handle	the	typical	operational	load	of	the	hosted	applications,	but also	allow	for	expansion	through	auto-elasticity	or	cyclical	loads	of some	applications.
@@ -403,11 +407,12 @@ B	is	incorrect	because	elasticity	refers	to	the	ability	for	systems, services,	a
 
 C	is	incorrect	because	system	sharing	is	provided	as	an	erroneous answer.	Although	it	is	a	similar	type	of	answer	to	resource	pooling,	it is	not	a	typically	used	or	official	term	for	anything	related	to	cloud computing,	or	this	specific	question.
 
-### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement	from	the	cloud	provider?  
+### Question # 5 - Which	of	the	following	concepts,	pertaining	to	cloud	computing,	[allows the	cloud	customer	to	provision	services	with	minimal	assistance	or involvement]	from	the	cloud	provider?      
 A.	On-demand	self-service    
 B.	Auto-scaling    
 C.	Elasticity    
 D.	Customer	self-provisioning    
+
 Answer: A.	
 
 Cloud	services	can	be	requested,	provisioned,	and	put	into	use	by the	customer	through	automated	means,	without	the	need	to	interact with	support	personnel	of	the	cloud	provider.	This	is	typically	offered to	the	cloud	customer	through	a	web	portal,	but	can	also	be	exposed through	API	calls	or	other	programmatic	means.	As	services	are changed,	billing	is	adjusted	based	on	the	changing	nature	of	the currently	allocated	resources.
@@ -418,11 +423,12 @@ C	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or applicatio
 
 D	is	incorrect	because	customer	self-provisioning	is	an	erroneous answer	that	is	similar	to	the	actual	answer	of	on-demand	self-service. Although	the	terms	sound	very	similar,	it	is	not	the	official	or commonly	used	term	for	such	capabilities.
 
-### [important] Question # 6 - Which	concept	of	cloud	computing	pertains	to	the	ability	to	reuse components	and	services	of	an	application	for	other	purposes?    
+### [important] Question # 6 - Which	concept	of	cloud	computing	[pertains	to	the	ability	to	reuse] components	and	services	[of	an	application	for	other	purposes]?    
 A.	Portability    
 B.	Interoperability    
 C.	Resource	pooling    
 D.	Elasticity    
+
 Answer: B.	
 
 Interoperability	is	the	ease	with	which	one	can	move	or	reuse components	of	an	application	or	service.	
@@ -435,11 +441,12 @@ C	is	incorrect	because	resource	pooling	refers	to	the	sharing	of resources	withi
 
 D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	or application	environment	to	change	resources	as	demand	changes.	An application	or	service	must	be	designed	in	such	a	way	to	allow	for easy	expansion	of	resources,	and	implemented	in	such	a	way	that programmatic	means	can	be	used	to	do	so.
 
-### [important] Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	ofan	organization	moving	from	a	traditional	data	center	to	a	cloud environment?    
+### [important] Question # 7 - Which	of	the	following	threat	types	is	mostly	likely	to	occur	as	a	result	of an	organization	moving	from	a	traditional	data	center	to	a	cloud environment?    
 A.	Insufficient	due	diligence    
 B.	Data	breach    
 C.	Insecure	APIs   
 D.	System	vulnerabilities    
+
 Answer: A.	
 
 When	an	organization	is	considering	moving	its	systems	and applications	from	a	traditional	data	center	model	to	a	cloud environment,	it	must	evaluate	a	lot	of	variables	and	factors	to determine	if	the	move	to	a	cloud	system	is	appropriate	or	feasible. Without	proper	and	thorough	evaluation	of	its	systems,	designs,	and controls,	an	organization	may	unintentionally	expose	itself	to	more security	risk	and	vulnerabilities	by	moving	to	a	cloud	environment.
@@ -455,6 +462,7 @@ A.	VPN
 B.	Firewall    
 C.	Operating	system    
 D.	IDS    
+
 Answer: C.	
 
 **A	Type	2	hypervisor	runs	on	top	of	a	host	operating	system	as	a software	application,	and	then	the	virtual	machines	are	deployed within	it**.	
@@ -471,6 +479,7 @@ A.	IaaS
 B.	SaaS    
 C.	PaaS    
 D.	DaaS    
+
 Answer: B.	
 
 **A	Software	as	a	Service	(SaaS)	solution	will	typically	have	the highest	startup	and	licensing	costs,	as	the	customer	is	buying	a	fully developed,	integrated,	secured,	and	production-ready	software application.**	
@@ -482,14 +491,15 @@ C	is	incorrect	because	Platform	as	a	Service	(PaaS)	represents	a balance	between
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	is	very	similar	to PaaS,	in	that	the	cloud	provider	delivers	the	framework	and	platform, but	it	is	up	to	the	cloud	customer	to	deploy	and	configure	its	specific applications	and	services	that	will	run	within	the	framework.
 
-### [important] Question # 10 - Which	type	of	cloud	service	category	would	having	a	vendor-neutral encryption	scheme	for	data	at	rest	(DAR)	be	the	MOST	important?  
+### [very important] Question # 10 - Which	type	of	cloud	service	category	would	[having	a	vendor-neutral encryption	scheme]	for	data	at	rest	(DAR)	be	the	MOST	important?  
 A.	Public   
 B.	Hybrid   
 C.	Private    
 D.	Community    
 Answer: B.	
 
-With	the	hybrid	cloud	category,	a	vendor-neutral	solution	for encryption	would	be	the	most	important	because	the	application	and data	would	span	more	than	one	cloud	provider.	There	is	little	chance of	success	or	scalability	with	the	utilization	of	an	encryption	scheme from	one	cloud	provider,	and	it	wouldn’t	likely	port	or	work	well	with another.	By	using	a	vendor-neutral	solution,	a	cloud	customer	can maintain	maximum	flexibility	going	forward	with	a	hybrid	cloud solution.
+**With	the	hybrid	cloud	category,	a	vendor-neutral	solution	for encryption	would	be	the	most	important	because	the	application	and data	would	span	more	than	one	cloud	provider.	
+There	is	little	chance of	success	or	scalability	with	the	utilization	of	an	encryption	scheme from	one	cloud	provider,	and	it	wouldn’t	likely	port	or	work	well	with another.	By	using	a	vendor-neutral	solution,	a	cloud	customer	can maintain	maximum	flexibility	going	forward	with	a	hybrid	cloud solution**.
 
 A	is	incorrect	because	a	public	cloud	solution	is	with	a	single	cloud provider,	which	might	provide	built-in	or	proprietary	encryption schemes	that	work	optimally	in	its	environment.	Care	needs	to	be taken	to	ensure	the	application	and	systems	do	not	get	effectively locked	into	that	provider	because	a	loss	of	portability	and interoperability	can	occur.
 
