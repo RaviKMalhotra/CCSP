@@ -3,60 +3,70 @@ A.	Structured data.
 B.	Semi- structured data.   
 C.	RFC- defined data.   
 D.	Unstructured data.   
+Answer: D     
 
-### Question # 2 - Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. When should data be labeled in his data lifecycle?       
+### Question # 2 - Nick wants to ensure that data is properly handled once it is classified. He knows that data labeling is important to the process and will help his data loss prevention tool in its job of preventing data leakage and exposure. [When should data be labeled in his data] lifecycle?       
 A.	Creation.  
 B.	Storage.  
 C.	Use.  
 D.	Destruction.  
+Answer: A            
 
-### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being transmitted outside of her organization? 
+### Question # 3 - Jacinda is planning to deploy a data loss prevention (DLP) system in her cloud environment. Which of the following challenges is most likely to impact the ability of her DLP system to determine whether sensitive data is being [transmitted outside of her organization]? 
 A. Lack of data labeling.     
 B.	Use of encryption for data in transit.  
 C.	Improper data labeling.  
 D.	Use of encryption for data at rest.  
+Answer: B               
 
-### Question # 4 - Susan wants to ensure that super user access in her cloud environment can be properly audited. Which of the following is not a common item required for auditing of privileged user access?    
+### Question # 4 - Susan wants to ensure that [super user access] in her cloud environment can be properly audited. Which of the following is [not a common item required] for auditing of privileged user access?    
 A.	The remote IP address.  
 B.	The account used.  
 C.	The password used.  
 D.	The local IP address.  
+Answer: C      
 
-### Question # 5 - 	Ben’s organization uses the same data deletion procedure for their on- site systems and their third- party- provided, cloud-h osted systems. Ben believes there is a problem with the process currently in use, which involves performing a single- pass zero- wipe of the disks and volumes in use before they are reused. What problem with this approach should Ben highlight for the cloud environment?   
+### Question # 5 - 	Ben’s organization uses the [same data deletion procedure for their on-site systems and their third-party-provided, cloud-hosted systems]. Ben believes there is a problem with the process currently in use, which involves [performing a single-pass zero-wipe of the disks and volumes in use before they are reused]. What problem with this approach should Ben highlight for the cloud environment?   
 A.	Crypto- shredding is a secure option for third- party- hosted cloud platforms.  
 B.	Zero- wiping alone is not sufficient, and random patterns should also be used.  
 C.	Zero- wiping requires multiple passes to ensure that there will be no remnant data.   
 D.	Drives should be degaussed instead of wiped or crypto- shredded to ensure that data is fully destroyed at the physical level.   
+Answer: A                	
 
 ### Question # 6 - Jason has been informed that his organization needs to place a legal hold on information related to pending litigation. What action should he take to place the hold?   
 A.	Restore the files from backups so that they match the dates for the hold request.  
 B.	Search for all files related to the litigation and provide them immediately to opposing counsel.   
 C.	Delete all the files named in the legal hold to limit the scope of litigation.   
 D.	Identify scope files and preserve them until they need to be produced.   
+Answer: D             
 
 ### Question # 7 - Murali is reviewing a customer’s file inside of his organization’s customer relationship management tool and sees the customer’s Social Security number listed as XXX- XX- 8945. What data obfuscation technique has been used?   
 A.	Anonymization.  
 B. 	Masking.  
 C.	Randomization.  
 D.	Hashing.  
+Answer: B              
 
 ### Question # 8 - 	An XML file is considered what type of data?    
 A.	Unstructured data.  
 B.	Restructured data.  
 C.	Semi- structured data.  
 D.	Structured data.  
+Answer: C              
 
 ### Question # 9 - Lucca wants to implement logging in an infrastructure as a service cloud service provider’s environment for his Linux instances. He wants to capture events like creation and destruction of systems, as part of scaling requirements for performance. What logging tool or service should he use to have the most insight into these events?   
 A.	Syslog from the Linux systems.  
 B.	The cloud service provider’s built- in logging function.  
 C.	Syslog- NG from the Linux systems.  
 D.	Logs from both the local event log and application log from the Linux systems.  
+Answer: B                 
 
 ### Question # 10 - Joanna’s company uses a load balancer to distribute traffic between multiple web servers. What data point is often lost when traffic passes through load balancers to local web servers in a cloud environment?    
 A. The source IP address.      
 B.	The destination port.  
 C.	The query string.   
 D.	The destination IP address.   
+Answer: A                
 
 ### Question # 11 - 	Isaac is using a hash function for both integrity checking and to allow address data to be referenced without the actual data being exposed. Which of the following attributes of the data will be not be lost when the data is hashed?   
 A.	Its ability to be uniquely identified. 
