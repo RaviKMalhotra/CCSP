@@ -17,7 +17,7 @@ B.	Object
 C.	Structured    
 D.	Unstructured    
 
-### Question # 4 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
+### [important] Question # 4 - Although	content	analysis	is	the	least 	efficient	 and	slowest 	of	the	available data 	discovery	methods,	which	of	the	following 	aspects 	of	the	data	make discovery	 the 	most	challenging?     
 A.	Size    
 B.	Throughput    
 C.	Quality    
