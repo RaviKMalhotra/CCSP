@@ -194,26 +194,28 @@ The Payment Card Industry Data Security Standard (PCI DSS) is the payment card i
 
 NIST SP 800-37 is the Risk Management Framework.
 
-### Question # 18 - ISO 27001 favors which type of technology?   
+### [important tricky] Question # 18 - ISO 27001 favors which type of technology?   
 A. Open source    
 B. PC    
 C. Cloud-based    
 D. None   
 Answer: D. 
 
-The ISO 27001 standard is designed to be product agnostic. The other answers suggest ISO 27001 favors a type of technology, and are therefore incorrect.
+**The ISO 27001 standard is designed to be product agnostic**. 
+The other answers suggest ISO 27001 favors a type of technology, and are therefore incorrect.
 
-### Question # 19 - Why might an organization choose to comply with the ISO 27001 standard?     
+### [important tricky] Question # 19 - Why might an organization choose to comply with the ISO 27001 standard?     
 A. Price    
 B. Ease of implementation    
 C. International acceptance    
 D. Speed    
 Answer: C. 
 
-The ISO standards are almost universally accepted and recognized, and they’re even mandated for certain industries/locales.
+**The ISO standards are almost universally accepted and recognized**, 
+and they’re even mandated for certain industries/locales.
 They are not, however, cheap, fast, or easy to adopt, implement, and audit against, so all the other answers are incorrect.
 
-### Question # 20 - Why might an organization choose to comply with NIST SP 800-series standards?    
+### [important tricky] Question # 20 - Why might an organization choose to comply with NIST SP 800-series standards?    
 A. Price     
 B. Ease of implementation     
 C. International acceptance    
