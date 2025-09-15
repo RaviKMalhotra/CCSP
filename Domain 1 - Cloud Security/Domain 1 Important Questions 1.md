@@ -1141,7 +1141,7 @@ Automation is not inherently a source of threats/vulnerabilities, so option B is
 
 Options C and D are not true.
 
-### Question # 101 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?     
+### [important] Question # 101 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what is one reason the threat of insecure interfaces and APIs is so prevalent in cloud computing?     
 A. APIs are always used for administrative access.     
 B. Customers perform many high-value tasks via APIs.     
 C. APIs are cursed.     
@@ -1191,7 +1191,7 @@ Answer: B.
 
 The other options are not applicable to the insider threat.
 
-### Question # 105 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of abuse of cloud services so alarming from a management perspective?    
+### [important] Question # 105 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, what aspect of managed cloud services makes the threat of [abuse of cloud services] so alarming from a management perspective?    
 A. Scalability      
 B. Multitenancy      
 C. Resiliency     
