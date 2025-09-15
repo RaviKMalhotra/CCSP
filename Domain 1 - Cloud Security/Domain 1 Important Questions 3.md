@@ -167,37 +167,37 @@ C.	Block storage
 D.	Serverless computing                                        
 Answer: B      
 
-### Question # 25 - What activity are cloud providers able to engage in because not all users will access the full capacity of their service offering simultaneously?             
+### [important] Question # 25 - What activity are cloud providers able to engage in because [not all users will access the full capacity of their service offering simultaneously]?             
 A.	Oversubscription            
 B.	Overprovisioning               
 C.	Underprovisioning               
 D.	Undersubscription                  
 Answer: A              
 
-### Question # 26 - 	Brian recently joined an organization that runs the majority of its services on a virtualization platform located in its own datacenter but also leverages an IaaS provider for hosting its web services and an SaaS email system. What term best describes the type of cloud environment this organization uses?          
+### Question # 26 - 	Brian recently joined an organization that runs the majority of its services on a virtualization platform located [in its own datacenter] [but] also leverages an IaaS provider for hosting its web services and an SaaS email system. What term best describes the type of cloud environment this organization uses?          
 A. Public cloud             
 B.	Dedicated cloud              
 C.	Private cloud              
 D.	Hybrid cloud              
 Answer: D      
 
-### Question # 27 - 	In an infrastructure as a service (IaaS) environment where a vendor supplies a customer with access to storage services, who is normally responsible for removing sensitive data from drives that are taken out of service?          
+### [important] Question # 27 - 	In an infrastructure as a service (IaaS) environment where a [vendor supplies a customer with access to storage services], who is normally responsible for removing sensitive data from drives that are taken out of service?          
 A.	Customer’s security team          
 B.	Customer’s storage team                
 C.	Customer’s vendor management team            
 D.	Vendor                
 Answer: D      
 
-### Question # 28 - Lucca is reviewing his organization’s disaster recovery process data and notes that the MTD for the business’s main website is two hours. What does he know about the RTO for the site when he does testing and validation?                  
+### Question # 28 - Lucca is [reviewing his organization’s disaster recovery process data] and notes that the [MTD for the business’s main website is two hours]. What does he know about the RTO for the site when he does testing and validation?                  
 A.	It needs to be less than two hours.                 
 B.	It needs to be at least two hours.                
 C.	The MTD is too short and needs to be longer.             
 D.	The RTO is too short and needs to be longer.      
 Answer: A      
 
-### Question # 28.1 - Which of the following BEST defines RPO (Recovery Point Objective)?            
+### [important] Question # 28.1 - Which of the following BEST defines RPO (Recovery Point Objective)?            
 A. The maximum acceptable downtime for a system or process.                     
-B. The point in time to which data must be recovered after a disruption.            
+B. **The point [in time] [to which data must be recovered] after a disruption**.            
 C. The exact time the system must be restored during testing.             
 D. The average time to restore services after a failure.       
 Answer: B      
@@ -216,7 +216,7 @@ C. Define RTO & RPO → Select DR site → Draft BCP → Train employees
 D. Test plan → Define MTD → Identify functions → Set RTO                  
 Answer: A      
 
-### Question # 28.4 If the RPO is set too aggressively (very low), which of the following is most likely to increase?              
+### [important] Question # 28.4 [If the RPO is set too aggressively (very low)], which of the following is most likely to increase?              
 A. Cost of recovery solutions             
 B. Acceptable downtime              
 C. System resilience            
@@ -230,56 +230,56 @@ C. RTO is unrelated to MTD.
 D. RTO defines how much data loss is acceptable.                  
 Answer: B      
 
-### Question # 28.6 An organization defines its RPO as 4 hours for a mission-critical database. What does this imply?                               
+### [important] Question # 28.6 An organization defines its RPO as 4 hours for a mission-critical database. What does this imply?                               
 A. The system must be restored within 4 hours.               
-B. No more than 4 hours of data can be lost.            
+B. **No more than 4 hours of data can be lost**.            
 C. The MTD must be greater than 4 hours.              
 D. Backups must be performed every 4 hours.             
 Answer: B      
 
-### Question # 28.7 Which of the following BEST defines the Work Recovery Time (WRT)?                          
+### [important] Question # 28.7 Which of the following BEST defines the Work Recovery Time (WRT)?                          
 A. The time it takes IT to restore systems to an operational state.                           
-B. The time required by business users to validate restored systems and resume work.               
+B. **The time required by business users to validate restored systems and resume work**.               
 C. The maximum acceptable downtime for a system.                             
 D. The time between a disaster occurring and services being back online.                 
 Answer: B      
 
-### Question # 28.8 If a company sets MTD = 24 hours, RTO = 6 hours, RPO = 2 hours, which statement is correct?             
+### [important] Question # 28.8 If a company sets MTD = 24 hours, RTO = 6 hours, RPO = 2 hours, which statement is correct?             
 A. The organization can lose up to 24 hours of data.               
 B. The system must be restored within 24 hours.                                
 C. Data loss cannot exceed 2 hours, and recovery must complete in 6 hours.                
 D. RTO is not achievable because it is less than MTD.              
 Answer: C      
 
-### Question # 23.9 Which of the following is a direct outcome of setting an extremely low RPO (near zero)?              
+### Question # 28.9 Which of the following is a direct outcome of setting an extremely low RPO (near zero)?              
 A. Reduced dependency on continuous replication.              
-B. Increased costs due to real-time backup or mirroring.             
+B. **Increased costs due to real-time backup or mirroring**.             
 C. Increased tolerance for data loss.               
 D. Lower costs of disaster recovery.              
 Answer: B      
 
-### Question # 23.10 Which of the following metrics would be MOST relevant when deciding the frequency of data backups?            
+### Question # 28.10 Which of the following metrics would be MOST relevant when deciding the frequency of data backups?            
 A. MTD           
 B. RPO            
 C. RTO              
 D. WRT             
 Answer: B      
 
-### Question # 23.11 During a DR test, a system was restored in 5 hours, but the users needed another 3 hours to validate and resume work. If MTD = 10 hours, which statement is TRUE?        
+### Question # 28.11 During a DR test, a system was restored in 5 hours, but the users needed another 3 hours to validate and resume work. If MTD = 10 hours, which statement is TRUE?        
 A. Recovery objectives were not met.           
 B. RTO = 8 hours, WRT = 5 hours.                                        
 C. RTO = 5 hours, WRT = 3 hours, total downtime = 8 hours, within MTD.            
 D. WRT = 8 hours, total downtime = 5 hours.                
 Answer: C      
 
-### Question # 23.12 Which of the following disaster recovery strategies provides the shortest RTO?                    
+### [important] Question # 28.12 Which of the following disaster recovery strategies provides the shortest RTO?                    
 A. Warm site             
 B. Hot site                
 C. Cold site                      
 D. Backup tapes stored offsite                 
 Answer: B      
 
-### Question # 23.13 An organization’s payroll system has the following:                  
+### [important] Question # 28.13 An organization’s payroll system has the following:                  
 MTD = 72 hours                  
 RTO = 24 hours                 
 RPO = 12 hours                           
@@ -297,9 +297,9 @@ C.	Bob’s public key
 D.	Bob’s private key                 
 Answer: D                 
 
-### Question # 30 - Jen works for an organization that assists other companies in moving their operations from on- premises datacenters to the cloud. Jen’s company does not operate their own cloud services but assists in the use of services offered by other organizations. What term best describes the role of Jen’s company?                
+### [important] Question # 30 - Jen works for an organization that assists other companies in moving their operations from on- premises datacenters to the cloud. Jen’s company does not operate their own cloud services but assists in the use of services offered by other organizations. What term best describes the role of Jen’s company?           
 A.	Cloud service customer              
-B.	Cloud service partner                 
+B.	**Cloud service partner**                 
 C.	Cloud service provider                 
 D.	Cloud service broker                     
 Answer: B      
@@ -318,24 +318,24 @@ C.	Auditability
 D.	Confidentiality                  
 Answer: A      
 
-### Question # 33 - Colin is reviewing a system that has been assigned the EAL7 evaluation assurance level under the Common Criteria. What is the highest level of assurance that he may have about the system?                                     
+### Question # 33 - Colin is reviewing a system that has been assigned the [EAL7 evaluation assurance level under the Common Criteria]. What is the [highest level] of assurance that he may have about the system?                                     
 A.	It has been functionally tested.              
 B.	It has been methodically tested and checked.              
 C.	It has been methodically designed, tested, and reviewed.                  
-D.	It has been formally verified, designed, and tested.                    
+D.	**It has been formally verified, designed, and tested**.                    
 Answer: D                 
 
-### Question # 34 - Which one of the following technologies provides the capability of creating a distributed, immutable ledger?                  
+### Question # 34 - Which one of the following technologies provides the capability of creating a [distributed, immutable ledger]?                  
 A. Quantum computing                  
 B.	Blockchain                      
 C.	Edge computing                       
 D.	Confidential computing                           
 Answer: B      
 
-### Question # 35 - Which one of the following systems assurance processes provides an independent third- party evaluation of a system’s controls that may be trusted by many different organizations?    
+### [important] Question # 35 - Which one of the following [systems assurance processes] provides an independent third- party evaluation of a system’s controls that may be trusted by many different organizations?    
 A.	Planning             
 B.	Definition              
-C.	Verification                 
+C.	**Verification**                 
 D.	Accreditation                      
 Answer: C                     
 
@@ -346,7 +346,7 @@ C.	Servers provisioned by customers on a vendor- managed virtualization platform
 D.	Web- based email service provided by a vendor          
 Answer: C      
 
-### Question # 37 - Which of the following is not a factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?                
+### Question # 37 - Which of the following is [not] a factor an organization might use in the [cost–benefit analysis] when deciding whether to migrate to a cloud environment?                
 A.	Pooled resources in the cloud                                                            
 B.	Shifting from IT investment as capital expenditures to operational expenditures                  
 C.	The time savings and efficiencies offered by the cloud service                      
@@ -360,7 +360,7 @@ C.	Ephemeral computing
 D.	Parallel computing                          
 Answer: C      
 
-### Question # 39 - You are reviewing a service- level agreement (SLA) and find a provision that guarantees 99.99% uptime for a service you plan to use. What term best describes this type of provision?           
+### Question # 39 - You are reviewing a service- level agreement [(SLA)] and find a provision that [guarantees 99.99%] uptime for a service you plan to use. What term best describes this type of provision?           
 A.	Availability              
 B.	Security                 
 C.	Privacy                    
@@ -396,14 +396,14 @@ C.	IaaS
 D.	CaaS                    
 Answer: B      
 
-### [important] Question # 44 - Gordon is developing a business continuity plan for a manufacturing company’s IT operations. The company is located in North Dakota and currently evaluating the risk of earthquake. They choose to pursue a risk acceptance strategy. Which one of the following actions is consistent with that strategy?                
+### [important] Question # 44 - Gordon is developing a business continuity plan for a manufacturing company’s IT operations. The company is located in North Dakota and currently evaluating the risk of earthquake. They choose to [pursue a risk acceptance strategy]. Which one of the following actions is consistent with that strategy?                
 A.	Purchasing earthquake insurance                  
 B.	Relocating the datacenter to a safer area                    
 C.	Documenting the decision- making process                
 D.	Reengineering the facility to withstand the shock of anearthquake                        
 Answer: C               
 
-### Question # 45 - 	Matthew is a data scientist looking to apply machine learning and artificial intelligence techniques in his organization. He is developing an application that will analyze a potential customer and develop an estimate of how likely it is that they will make a purchase. What type of analytic technique is he using?                
+### Question # 45 - 	Matthew is a data scientist looking to apply machine learning and artificial intelligence techniques in his organization. He is developing an application that will [analyze a potential customer and develop an estimate of how likely it is that they will make a purchase]. What type of analytic technique is he using?                
 A.	Optimal analytics                
 B.	Descriptive analytics                 
 C.	Prescriptive analytics                
@@ -424,14 +424,14 @@ C.	III
 D.	IV                   
 Answer: A      
 
-### Question # 48 - 	Which one of the following types of agreements is the most formal document that contains expectations about availability and other performance parameters between a service provider and a customer?               
+### Question # 48 - 	Which one of the [following types of agreements is] the most [formal document] that contains [expectations about availability and other performance parameters] between a service provider and a customer?               
 A.	Service- level agreement (SLA)             
 B.	Operational- level agreement (OLA)                   
 C.	Memorandum of understanding (MOU)                     
 D.	Statement of work (SOW)                       
 Answer: A      
 
-### [important] Question # 49 - 	Bianca is preparing for her organization’s move to a cloud computing environment. She is concerned that issues may arise during the change and would like to ensure that they can revert back to their on- premises environment in the case of a problem. What consideration is Bianca concerned about?                 
+### [important] Question # 49 - 	Bianca is [preparing for her organization’s move to a cloud computing environment]. She is concerned that issues may arise during the change [and would like to ensure that they can revert back to their on- premises environment in the case of a problem]. What consideration is Bianca concerned about?                 
 A.	Reversibility               
 B.	Portability                     
 C.	Regulatory                      
@@ -445,7 +445,7 @@ C.	Cloud Security Alliance
 D.	Microsoft                        
 Answer: B      
 
-### Question # 51 - 	Vince is using a new cloud service provider and is charged for each CPU that he uses, every bit of data transferred over the network, and every GB of disk space allocated. What characteristic of cloud services does this describe?               
+### Question # 51 - 	Vince is using a new cloud service provider and [is charged] for each CPU that he uses, every bit of data transferred over the network, and every GB of disk space allocated. What characteristic of cloud services does this describe?               
 A.	Elasticity                    
 B.	On- demand self service                  
 C.	Scalability                    
@@ -459,7 +459,7 @@ C.	No operating system maintenance is necessary in a PaaS environment.
 D.	The service provider.                    
 Answer: D      
 
-### Question # 53 - When considering a move from a traditional on- premises environment to the cloud, organizations often calculate a return on investment. Which one of the following factors should you expect to contribute the most to this calculation?              
+### [important] Question # 53 - When considering a move from a traditional on- premises environment to the cloud, organizations often calculate a return on investment. Which one of the following factors should you expect to contribute [the most] to this calculation?              
 A.	Utility costs             
 B.	Licensing fees                
 C.	Security expenses                
@@ -473,18 +473,18 @@ C.	Object storage
 D.	Database storage          
 Answer: B      
 
-### [important] Question # 55 - During a system audit, Casey notices that the private key for her organization’s web server has been stored in a public Amazon S3 storage bucket for more than a year. What should she do?                 
+### [important] Question # 55 - During a system audit, Casey notices that [the private key for her organization’s web server has been stored in a public Amazon S3 storage bucket for more than a year]. What should she do?                 
 A.	Remove the key from the bucket.             
 B.	Notify all customers that their data may have been exposed.         
 C.	Request a new certificate using a new key.                
 D.	Nothing, because the private key should be accessible for validation.            
 Answer: C      
 
-### Question # 56 - 	Glenda would like to conduct a disaster recovery test and is seeking a test that will allow a review of the plan with no disruption to normal information system activities and as minimal a commitment of time as possible. What type of test should she choose?                
+### [important] Question # 56 - 	Glenda would like to conduct a disaster recovery test and is seeking a test [ will allow a review of the plan] with no disruption to normal information system activities and as minimal a commitment of time as possible. What type of test should she choose?                
 A. Tabletop exercise                 
 B.	Parallel test                   
 C.	Full interruption test              
-D.	Checklist review             
+D.	**Checklist review**             
 Answer: D      
 
 ### Question # 57 - Mark is considering replacing his organization’s customer relationship management (CRM) solution with a new product that is available in the cloud. This new solution is completely managed by the vendor, and Mark’s company will not have to write any code or manage any physical resources. What type of cloud solution is Mark considering?                  
@@ -501,7 +501,7 @@ C.	They provide a good starting point that can be tailored to organizational nee
 D.	They ensure that systems are always in a secure state.              
 Answer: C      
 
-### Question # 59 - What approach to technology management integrates the three components of technology management shown in this illustration?                              
+### Question # 59 - What approach to technology management integrates the three components of technology management shown in this illustration?                    
 A.	Agile          
 B.	Lean         
 C.	DevOps     
@@ -515,21 +515,21 @@ C.	The vendor will likely request more information before granting the request.
 D.	The vendor will likely ask for executive- level approval of the request.
 Answer: B      
 
-### Question # 61 - 	Tom enables an application firewall provided by his cloud infrastructure as a service provider  that is designed to block many types of application attacks. When viewed from a risk management perspective, what metric is Tom attempting to lower by implementing this countermeasure?
+### [important] Question # 61 - 	Tom enables an application firewall provided by his cloud infrastructure as a service provider  that is designed to block many types of application attacks. When viewed from a risk management perspective, what metric is Tom attempting to lower by implementing this countermeasure?
 A.	Impact
 B.	RPO
 C.	MTO
 D.	Likelihood
 Answer: D      
 
-### Question # 62 - 	Lisa wants to integrate with a cloud identity provider that uses OAuth 2.0, and she wants to select an appropriate authentication framework. Which of the following best suits her needs?
+### [important] Question # 62 - 	Lisa wants to integrate with a cloud identity provider that uses OAuth 2.0, and she wants to select an appropriate authentication framework. Which of the following best suits her needs?
 A.	OpenID Connect
 B.	SAML
 C.	RADIUS
 D.	Kerberos
 Answer: A      
 
-### Question # 63 - Elise is helping her organization prepare to evaluate and adopt a new cloud- based human resource management (HRM) system vendor. What would be the most appropriate minimum security standard for her to require of possible vendors?
+### [important] Question # 63 - Elise is helping her organization prepare to evaluate and adopt a new cloud- based human resource management (HRM) system vendor. What would be the most appropriate minimum security standard for her to require of possible vendors?
 A.	Compliance with all laws and regulations
 B.	Handling information in the same manner the organization would
 C.	Elimination of all identified security risks
@@ -543,14 +543,14 @@ C.	CaaS
 D.	PaaS
 Answer: A      
 
-### Question # 65 - Carl is deploying a set of video sensors that will be placed in remote locations as part of a research project. Due to connectivity limitations, he would like to perform as much image processing and computation as possible on the device itself before sending results back to the cloud for further analysis. What computing model would best meet his needs?
+### [important] Question # 65 - Carl is deploying a set of video sensors that will be placed in remote locations as part of a research project. Due to connectivity limitations, he would like to perform as much image processing and computation as possible on the device itself before sending results back to the cloud for further analysis. What computing model would best meet his needs?
 A.	Serverless computing
 B.	Edge computing
 C.	IaaS computing
 D.	SaaS computing
 Answer: B      
 
-### Question # 66 - Ben is working on integrating a federated identity management system and needs to exchange authentication and authorization information for browser- based single sign- on. What technology is his best option?
+### Question # 66 - Ben is working on [integrating a federated identity management system] and needs to exchange authentication and authorization information for browser-based single sign-on. What technology is his best option?
 A.	HTML
 B.	XACML
 C.	SAML
@@ -564,7 +564,7 @@ C.	Maintaining the host firewall
 D.	Configuring server access control
 Answer: A      
 
-### Question # 68 - Nuno’s company is outsourcing its email system to a cloud service provider who will provide web- based email access to employees of Nuno’s company. What cloud service category is being used?
+### Question # 68 - Nuno’s company is outsourcing its email system to a cloud service provider who will provide web-based email access to employees of Nuno’s company. What cloud service category is being used?
 A.	PaaS
 B.	IaaS
 C.	SaaS
@@ -578,7 +578,7 @@ C.	Agile
 D.	Modified waterfall
 Answer: C      
 
-### Question # 70 - Bailey is concerned that users around her organization are using a variety of cloud services and would like to enforce security policies consistently across those services. What security control would be best suited for her needs?
+### Question # 70 - Bailey is concerned that users around her organization [are using a variety of cloud services] and would like [to enforce security policies consistently across those services]. What security control would be best suited for her needs?
 A.	DRM
 B.	IPS
 C.	CASB
@@ -599,12 +599,14 @@ C.	Community cloud
 D.	Shared cloud              
 Answer: A      
 
-### Question # 73 - 	Kristen wants to use multiple processing sites for her data, but does not want to pay for a full datacenter. Which of the following options would you recommend as her best option if she wants to be able to quickly migrate portions of her custom application environment to the facilities in multiple countries without having to wait to ship or acquire hardware?             
+### [important] Question # 73 - 	Kristen wants to use multiple processing sites for her data, but does not want to pay for a full datacenter. Which of the following options would you recommend as her best option [if she wants to be able to quickly migrate portions of her custom application environment to the facilities in multiple countries without having to wait to ship or acquire hardware]?             
 A. A cloud PaaS vendor               
 B.	A hosted datacenter provider               
 C.	A cloud IaaS vendor                                                          
 D.	A datacenter vendor that provides rack, power, and remote hands services                
-Answer: C      
+Answer: C 
+
+A cloud IaaS vendor will allow Kristen to set up infrastructure as quickly as she can deploy and pay for it. A PaaS vendor provides a platform that would require her to migrate her custom application to it, likely taking longer than a hosted datacenter provider. A  datacenter vendor that provides rack, power, and remote hands assistance fails the test based on Kristen’s desire to not have to acquire or ship hardware.
 
 ### Question # 74 - Which one of the following statements about cloud networking is not correct?          
 A. Security groups are the equivalent of network firewall rules.        
@@ -613,10 +615,11 @@ C.	PaaS and SaaS networking are managed by the cloud service provider.
 D.	Customers may connect to cloud service provider networks using a VPN.
 Answer: B      
 
-### Question # 75 - Darcy’s organization is deploying serverless computing technology to better meet the needs of developers and users. In a serverless model, who is normally responsible for configuring operating system security controls? A. Software developer
-B.	Cybersecurity professional
-C.	Cloud architect
-D.	Vendor
+### Question # 75 - Darcy’s organization [is deploying serverless computing technology] to better meet the needs of developers and users. In a serverless model, who is normally responsible for configuring operating system security controls?          
+A. Software developer             
+B.	Cybersecurity professional                 
+C.	Cloud architect            
+D.	Vendor            
 Answer: D      
 
 ### Question # 76 - 	What is the international standard that provides guidance for the creation of an organizational information security management system (ISMS)?
@@ -626,7 +629,7 @@ C.	ISO 27001
 D.	NIST SP 800- 37
 Answer: C      
 
-### Question # 77 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s datacenter. One of the challenges you’re facing is whether your current applications in the on- premises environment will function properly with the provider’s hosted systems and tools. This is a(n) ________________ issue.
+### Question # 77 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s datacenter. One of the challenges you’re facing is whether your current applications in the on-premises environment will function properly with the provider’s hosted systems and tools. This is a(n) ________________ issue.
 A.	Interoperability
 B.	Portability
 C.	Stability
@@ -640,14 +643,17 @@ C.	Reversibility
 D.	Portability
 Answer: D      
 
-### Question # 79 - Which one of the following statements is correct?           
+### [important] Question # 79 - Which one of the following statements is correct?           
 A. Services that are scalable are also elastic.                        
 B.	There is no relationship between elasticity and scalability.           
 C.	Services that are elastic are also scalable.                                       
 D.	Services that are either elastic or scalable are both elastic and scalable.       
 Answer: C      
 
-### Question # 80 - From a customer perspective, all of the following are benefits of infrastructure as a service (IaaS) cloud services except ____________.                      
+[important] **Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink. Services that are elastic must also be scalable, but services that are scalable are not necessarily elastic**.
+
+
+### Question # 80 - From a customer perspective, all of the following [are benefits of infrastructure as a service (IaaS)] cloud services [except] ____________.    
 A.	Reduced cost of ownership                      
 B.	Reduced energy costs                      
 C.	Metered usage                      
@@ -1080,7 +1086,7 @@ Question # 77.	A. This is the definition of cloud migration interoperability cha
 
 Question # 78.	D. Mike’s concern in this situation is portability—t he capability to move workloads easily between environments. Reversibility is the ability to back out the change if it does not go well. Resiliency is the ability of an environment to withstand disruptions and is not a primary concern in the middle of a migration. There are no regulatory concerns raised in this scenario.
 
-Question # 79.	C. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink. Services that are elastic must also be scalable, but services that are scalable are not necessarily elastic.
+[important] Question # 79.	C. Elasticity refers to the ability of a system to dynamically grow and shrink based on the current level of demand. Scalability refers to the ability of a system to grow as demand increases but does not require the ability to shrink. Services that are elastic must also be scalable, but services that are scalable are not necessarily elastic.
 
 Question # 80.	D. In an IaaS configuration, the customer still has to maintain the OS, so option D is the only answer that is not a direct benefit for the cloud customer.
 
