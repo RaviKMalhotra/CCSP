@@ -513,6 +513,7 @@ A.	Insecure	interfaces
 B.	Data	loss    
 C.	System	vulnerabilities    
 D.	Account	hijacking    
+
 Answer: B.	
 
 Data	loss	occurs	when	an	organization	either	loses	data	or	loses access	to	it.	This	is	different	from	a	data	breach,	where	it	is	exposed	to unauthorized	parties.	Although	the	use	of	encryption	will	serve	as	a strong	mitigation	against	data	breaches,	the	reliance	on	keys,	and access	to	them,	increases	the	possibility	of	data	loss.	If	the	keys	were to	be	lost	or	destroyed,	the	organization	would	lose	access	to	the	data.
@@ -528,6 +529,7 @@ A.	SOC	1
 B.	NIST	SP	800-53    
 C.	SOC	2     
 D.	FIPS	140-2     
+
 Answer: A.	    
 
 The	Service	Organization	Control	(SOC)	Type	1	reports	focus	on the	controls	in	place	at	an	organization	and	pertain	to	financial reporting	and	the	types	of	information	useful	with	a	financial	audit. SOC	1	focuses	on	the	management	structure	of	the	organization,	the target	customer	base,	and	the	regulations	that	an	audit	would	be guided	by	and	subjected	to.
@@ -538,19 +540,18 @@ C	is	incorrect	because	SOC	Type	2	reports	are	structured	by	the	same organizatio
 
 D	is	incorrect	because	FIPS	140-2	is	a	United	States	federal government	publication	that	is	focused	on	the	certification	and validation	of	cryptographic	modules,	and	does	not	pertain	to	financial statements	or	reports	in	any	way.
 
-### [important] Question # 13 - Which	of	the	following	roles	works	to	obtain	new	customers	and	secure contracts?     
+### [very important] Question # 13 - Which	of	the	following	[roles]	works	to	obtain	new	customers	and	secure contracts?     
 A.	Cloud	service	manager     
 B.	Cloud	service	broker      
 C.	Cloud	service	deployment	manager     
 D.	Cloud	service	business	manager     
+
 Answer: B.	       
 
 **The	cloud	service	broker	obtains	new	customers,	analyzes	the marketplace,	and	secures	contracts	and	agreements	for	cloud	services**.
 
 A	is	incorrect	because	the	cloud	service	manager	delivers,	provisions, and	manages	cloud	services.
-
 C	is	incorrect	because	the	cloud	service	deployment	manager	gathers metrics	on	cloud	services,	manages	deployment	steps	and	processes, and	defines	the	environment	and	processes.
-
 D	is	incorrect	because	the	cloud	service	business	manager	oversees business	plans	and	customer	relationships,	as	well	as	processes financial	transactions.
 
 ### Question # 14 - Which	of	the	following	is	a	security	consideration	of	a	Type	2	hypervisor that	is	NOT	a	security	concern	of	a	Type	1	hypervisor?   
@@ -558,6 +559,7 @@ A.	Operating	system
 B.	Firewall    
 C.	VLAN      
 D.	Access	controls      
+
 Answer: A.	
 
 Rather	than	interacting	directly	with	the	underlying	hardware	as	a Type	1	hypervisor	does,	a	Type	2	hypervisor	runs	on	top	of	an operating	system.	This	creates	an	additional	layer	of	security considerations	because	the	security	of	the	host	operating	system	will also	impact	the	hypervisor	software,	and	the	hypervisor	is	susceptible to	any	security	vulnerabilities	or	threats	to	the	operating	system.	With a	Type	1	hypervisor,	there	is	no	additional	layer,	and	security	can	be tightly	controlled	by	the	vendor.
@@ -598,7 +600,7 @@ B	is	incorrect	because	VPNs	are	often	used	for	administrative	and support	commun
 
 D	is	incorrect	because	SSH	is	used	for	obtaining	secure	shell	access	to servers	for	administration	and	application	support.	In	PaaS	and	SaaS service	categories,	the	cloud	customer	will	typically	not	have	server access	either.	SSH	is	not	commonly	used	to	secure	web	services.
 
-### Question # [important] 17 - Your	company	is	focused	on	software	development,	and	your	main	focus is	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
+### Question # 17 - Your	company	is	focused	on	software	development,	and	your	main	focus is	keeping	the	costs	of	development	as	low	as	possible	to	maximize	profit. Which	cloud	service	category	would	be	the	most	appropriate	to	use	for this	goal?     
 A.	Infrastructure      
 B.	Software      
 C.	Platform      
@@ -644,7 +646,7 @@ C	is	incorrect	because	the	“archive”	phase	of	the	cloud	secure	data lifecycl
 
 **D	is	incorrect	because	“modify”	is	not	a	phase	of	the	cloud	secure	data lifecycle**.	The	concepts	that	would	most	likely	be	placed	under	such	a heading	are	already	found	in	the	“use”	phase.
 
-### [very important] Question # 20 - In	a	cloud	environment,	many	different	users	and	organizations	have access	to	the	same	resources,	and	the	cloud	provider	has	systems	staff who	have	access	to	storage	systems	where	virtual	machine	images	are housed.	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?       
+### [very important] Question # 20 - In	a	cloud	environment,	many	[different	users	and	organizations	have access	to	the	same	resources],	and	the	cloud	provider	has	systems	staff [who	have	access	to	storage	systems	where	virtual	machine	images	are housed].	Which	of	the	following,	based	on	that	information,	is	necessary	to protect	and	isolate	data	to	only	those	authorized?       
 A.	Encryption     
 B.	Sandboxing     
 C.	VLANs     
@@ -832,14 +834,15 @@ B	is	incorrect	because	contracts	will	typically	play	a	key	role	in account	provi
 
 C	is	incorrect	because	organizational	policies	also	play	a	key	role	in account	provisioning.	Policies	may	dictate	to	whom	credentials	are provisioned,	as	well	was	what	the	process	is,	what	must	be	verified, and	how	long	credentials	are	valid	for.
 
-### Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	part	of	the consideration?    
+### [important] Question # 32 - Which	of	the	following	threats	against	a	system	is	the	MOST	difficult	to mitigate	when	the	cloud	service	category	is	removed	as	part	of	the consideration?    
 A.	Insufficient	due	diligence     
 B.	Malicious	insiders     
 C.	Account	hijacking    
 D.	Data	loss   
 Answer: B.	
 
-Malicious	insiders	are	typically	individuals	who	have	valid	access and	authorization	to	a	system,	application,	or	data,	and	then	use	that valid	access	for	reasons	outside	the	intended	purpose.	It	is	especially difficult	to	mitigate	against	malicious	insiders	because	they	have	valid credentials	and	authorization	for	what	they	are	accessing,	and	are using	it	for	inappropriate	purposes.
+**Malicious	insiders	are	typically	individuals	who	have	valid	access and	authorization	to	a	system,	application,	or	data,	and	then	use	that valid	access	for	reasons	outside	the	intended	purpose**.	
+It	is	especially difficult	to	mitigate	against	malicious	insiders	because	they	have	valid credentials	and	authorization	for	what	they	are	accessing,	and	are using	it	for	inappropriate	purposes.
 
 A	is	incorrect	because	insufficient	due	diligence	occurs	when	an organization	does	not	properly	plan	or	evaluate	IT	systems	for configurations,	vulnerabilities,	security,	monitoring,	and	so	on.	This can	lead	to	insufficient	controls	or	misconfigurations,	resulting	in vulnerabilities	or	performance	problems.
 
@@ -847,14 +850,14 @@ C	is	incorrect	because	account	hijacking	refers	to	an	attacker	gaining access	to
 
 D	is	incorrect	because	data	loss	refers	to	a	situation	where	an organization	loses	actual	data	or	loses	access	to	it.	This	most commonly	occurs	when	data	is	deleted	or	hardware	fails	and	backups have	not	been	performed,	but	it	can	also	occur	with	encrypted	data should	the	keys	become	lost	or	corrupted	without	backup.
 
-### Question # 33 - Which	of	the	following	methods	of	attack,	used	in	a	SaaS	environment,poses	the	biggest	threat	to	the	exposure	of	data	across	different customers?  
+### [important] Question # 33 - Which	of	the	following	[methods	of	attack],	used	in	a	[SaaS]	environment, poses	the	biggest	threat	to	the	exposure	of	data	across	different customers?  
 A.	DDoS  
 B.	XSS   
 C.	JSON    
 D.	XSLT   
 Answer: B.	
 
-Cross-site	scripting	(XSS)	poses	a	big	risk	with	any	environment, but	especially	within	a	SaaS	implementation,	where	it	is	very	likely that	data	from	multiple	customers	is	housed	and	accessible	within	the same	software	application.
+[important] **Cross-site	scripting	(XSS)	poses	a	big	risk	with	any	environment, but	especially	within	a	SaaS	implementation,	where	it	is	very	likely that	data	from	multiple	customers	is	housed	and	accessible	within	the same	software	application**.
 
 A	is	incorrect	because	a	distributed	denial	of	service	(DDoS)	attack	is against	the	availability	of	a	system	or	application,	not	against	the confidentiality	of	its	data.
 
@@ -864,7 +867,7 @@ D	is	incorrect	because	Extensible	Stylesheet	Language
 Transformations	(XSLT)	is	used	for	transforming	documents	in	XML
 format	to	other	formats,	and	is	not	used	for	security	or	data confidentiality	processes.
 
-### Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriaterights	to	data	and	functions	within	an	application?    
+### [important] Question # 34 - Which	concept	is	focused	on	ensuring	that	users	are	given	the	appropriate rights	to	data	and	functions	within	an	application?    
 A.	Authentication   
 B.	Authorization   
 C.	Privilege    
@@ -894,7 +897,7 @@ B	is	incorrect	because	reversibility	is	a	key	cloud	concept	that	pertains to	the
 
 D	is	incorrect	because	resource	pooling	is	one	of	the	key characteristics	of	cloud	computing	that	relates	to	the	aggregate	system sources	and	their	allocation	among	different	customers	and	services;	it does	not	pertain	to	a	specific	cloud	deployment	model.
 
-### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	verify	thatproper	controls	and	policies	are	in	place	on	a	system	or	application?    
+### Question # 36 - Which	of	the	following	concepts	pertains	to	the	ability	to	[verify]	that proper	controls	and	policies	are	in	place	on	a	system	or	application?    
 A.	Auditability   
 B.	Governance   
 C.	Regulation   
@@ -910,7 +913,7 @@ C	is	incorrect	because	regulation	pertains	to	requirements	that	an organization	
 D	is	incorrect	because	elasticity	refers	to	the	ability	of	a	cloud	system to	dynamically	change	the	resources	available	to	a	system	or application	based	on	its	current	needs;	it	does	not	pertain	to	the
 auditing	or	evaluation	of	controls	in	any	way.
 
-### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	beapplied	to	any	type	of	system	or	application?    
+### Question # 37 - Which	security	certification	serves	as	a	general	framework	that	can	be applied	to	any	type	of	system	or	application?    
 A.	ISO/IEC	27001    
 B.	PCI	DSS    
 C.	FIPS	140-2    
@@ -956,7 +959,7 @@ C	is	incorrect	because	the	Software	as	a	Service	(SaaS)	category provides	a	full
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	is	very	similar	to the	PaaS	service	category,	where	the	framework	is	provided	within which	to	deploy	applications.	DaaS	does	not	have	the	same	level	of customization	available	as	IaaS.
 
-### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	onthe	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?     
+### Question # 40 - The	NIST	Cloud	Technology	Roadmap	contains	a	component	focused	on the	minimum	requirements	to	meet	satisfactory	contractual	obligations between	the	cloud	provider	and	cloud	customer.	Which	of	the	following encapsulates	this	concept?     
 A.	Accountability     
 B.	Governance    
 C.	SLA    
@@ -971,7 +974,7 @@ B	is	incorrect	because	governance	refers	to	the	connection	between	IT management
 
 D	is	incorrect	because	auditing	refers	to	the	process	of	testing	and evaluating	system	controls	and	configurations	against	regulatory requirements	or	policy,	but	not	the	performance	metrics	or	response times	that	would	be	included	with	an	SLA.
 
-### Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	useraccess	and	permissions	be	performed?     
+### [important] Question # 41 - For	optimal	security,	where	should	the	authorization	process	of	user access	and	permissions	be	performed?     
 A.	Account	provisioning    
 B.	Throughout	use	of	the	application    
 C.	Immediately	after	authentication    
@@ -1049,7 +1052,7 @@ B	is	incorrect	because	system	vulnerabilities	can	occur	based	on misconfiguratio
 
 D	is	incorrect	because	insufficient	due	diligence	occurs	when	an organization	has	not	properly	planned	a	system	deployment	or migration,	and	therefore	has	left	itself	vulnerable	to	security	threats.
 
-### Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	which security	framework	will	you	need	to	be	knowledgeable	of	or	familiar with?      
+### [important] Question # 46 - If	you	are	bidding	on	contracts	with	the	US	federal	government,	which security	framework	will	you	need	to	be	knowledgeable	of	or	familiar with?      
 A.	PCI	DSS     
 B.	NIST	SP	800-53    
 C.	SOC	2    
