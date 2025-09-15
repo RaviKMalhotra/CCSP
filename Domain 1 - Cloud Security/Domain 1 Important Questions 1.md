@@ -37,7 +37,7 @@ Turnstiles are a physical security barrier to prevent piggybacking/tailgating (a
 
 Finally, digital watermarks aid protection of intellectual property by proving original ownership, which is essential for enforcing intellectual property rights (in the case of software design, mainly copyright protections).
 
-### Question # 4 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. What is probably the biggest factor in her decision?    
+### [important] Question # 4 - Alice is the CEO for a software company; she is considering migrating the operation from the current traditional on-premises environment into the cloud. What is probably the biggest factor in her decision?    
 A. Network scalability    
 B. Off-site backup capability    
 C. Global accessibility    
@@ -117,7 +117,7 @@ Answer:D.
 The brand associated with the cloud provider should not influence the cost–benefit analysis; the cloud provider’s brand (and even which cloud provider an organization uses) will most likely not even be known to the consumers who have a business relationship with the organization.
 The provider does not absorb the cost when the customer’s requests a modification of the SLA. Though an even split of the cost between customer and provider may seem fair, the customer pays for all costs associated with modifications to the SLA by the customer. Finally, customer modifications to their SLA are chargeable expenses that will almost certainly be paid for by the customer.
 
-### Question # 12 - Which of the following is the least important factor an organization might use in the cost–benefit analysis when deciding whether to migrate to a cloud environment?      
+### [important] Question # 12 - Which of the following is the [least important factor] an organization might use in the [cost–benefit analysis] when deciding whether to migrate to a cloud environment?      
 A. Depreciation of IT assets    
 B. Shift in focus from IT dependencies to business process opportunities      
 C. Whether the provider bills on a monthly or weekly basis    
@@ -127,28 +127,30 @@ Answer: C.
 The timing of recurring payments to the provider will probably not be a significant factor in the cost–benefit analysis.
 All the other options are topics that are more important to review when an organization is considering cloud migration.
 
-### Question # 13 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment into the cloud?    
+### [important] Question # 13 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment into the cloud?    
 A. Number of users     
 B. Cost of software licensing     
 C. Number of applications     
 D. Number of clientele    
 Answer: B.     
 
-In a traditional environment, enterprise software costs can be exorbitant, and the price of licensing doesn’t even reflect the hidden costs associated with licensing, such as managing the license library. In a cloud arrangement, especially software as a service (SaaS), the customer pays only the contract fee to the cloud provider, and it is the provider’s responsibility to arrange for software licensing and to manage those licenses.
+**In a traditional environment, enterprise software costs can be exorbitant, and the price of licensing doesn’t even reflect the hidden costs associated with licensing, such as managing the license library. In a cloud arrangement, especially software as a service (SaaS), the customer pays only the contract fee to the cloud provider, and it is the provider’s responsibility to arrange for software licensing and to manage those licenses**.
+
 Option A is incorrect because the number of users should not be affected whether the organization is operating in the cloud or a legacy environment. The exception would be the reduced number of privileged users, because the cloud provider will be handling more administrative tasks in the environment; however, because “privileged” was not specified, option B is still a better answer.
 
 Option C is incorrect because that may or may not be true of an organization’s migration to the cloud.
 
 Option D is incorrect because the organization certainly hopes it is not going to lose clientele by moving to the cloud!
 
-### Question # 14 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?     
+### [important] Question # 14 - Which of the following is an aspect of IT costs that will likely be reduced by moving from a traditional, on-premises IT environment to the cloud?     
 A. Utilities costs     
 B. Security costs     
 C. Landscaping costs    
 D. Travel costs    
 Answer: A. 
 
-Cloud providers are purchasing utilities (power, water, Internet connectivity) at such a massive rate that they can realize per-unit cost savings that would far exceed any smaller organizations’ pricing for individual data centers. In this case, economies of scale are very much in favor of the larger entity.
+**Cloud providers are purchasing utilities (power, water, Internet connectivity) at such a massive rate that they can realize per-unit cost savings that would far exceed any smaller organizations’ pricing for individual data centers**. 
+In this case, economies of scale are very much in favor of the larger entity.
 Option B may or may not be true, depending on the degree of sensitivity and value of the organization’s data and what controls the organization will request/contract for in the cloud.
 
 Options C and D are not influenced by cloud migration in any way and are wholly dependent on other factors within the organization.
@@ -166,7 +168,7 @@ Option A is incorrect; cloud migration should not affect the need for personnel 
 
 Options B and D should not be affected by cloud migration in any way; whether your organization has a high personnel turnover rate or risk from internal threat is not based on whether the IT environment is owned or leased.
 
-### Question # 16 - Although cloud migration might offer significant cost savings for an organization, which of the following factors might reduce the actual financial benefit the organization realizes in a cloud environment?    
+### Question # [important] 16 - Although cloud migration might offer significant cost savings for an organization, which of the following factors might reduce the actual financial benefit the organization realizes in a cloud environment?    
 A. Altitude of the cloud data center   
 B. Security controls and countermeasures   
 C. Loss of ownership of IT assets   
@@ -204,7 +206,7 @@ Answer: D.
 **The ISO 27001 standard is designed to be product agnostic**. 
 The other answers suggest ISO 27001 favors a type of technology, and are therefore incorrect.
 
-### [important tricky] Question # 19 - Why might an organization choose to comply with the ISO 27001 standard?     
+### Question # 19 - Why might an organization choose to comply with the ISO 27001 standard?     
 A. Price    
 B. Ease of implementation    
 C. International acceptance    
@@ -259,7 +261,7 @@ NIST 800-53 is a standard, not a law, so option A is incorrect.
 Health Insurance Portability and Accountability Act (HIPAA) is a U.S. federal law concerning medical information, so option B is incorrect.
 SOX affects publicly traded corporations, making option C incorrect.
 
-### Question # 24 - The Statement on Standards for Attestation Engagements 18 (SSAE 18) Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). What kind of entities were SOC reports designed to audit?     
+### [important] Question # 24 - The Statement on Standards for Attestation Engagements 18 (SSAE 18) Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). What kind of entities were SOC reports designed to audit?     
 A. U.S. federal government    
 B. Privately held companies    
 C. Companies that provide services    
@@ -268,7 +270,7 @@ Answer: C.
 
 The SSAE 18 is an audit standard, and the SOC reports were specifically designed to report on the suitability of organizations that provide services. This is not to say that SOC reports are not used to assess other types of organizations—they are, but they were not designed for that purpose, so all the other answers are incorrect.
 
-### Question # 25 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an IT security professional, when reviewing SOC reports for a cloud provider, which report would you most like to see?    
+### [important] Question # 25 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an IT security professional, when reviewing SOC reports for a cloud provider, which report would you most like to see?    
 A. SOC 1   
 B. SOC 2, Type 1   
 C. SOC 2, Type 2    
@@ -283,7 +285,7 @@ The SOC 2, Type 1 report describes IT security controls designed by the target o
 
 The SOC 3 report is only an attestation that the target was audited and that it passed the audit, without detail, so option D is incorrect.
 
-### Question # 26 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an investor, when reviewing SOC reports for a cloud provider, which report would you most like to see?    
+### [important] Question # 26 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). As an investor, when reviewing SOC reports for a cloud provider, which report would you most like to see?    
 A. SOC 1    
 B. SOC 2, Type 1    
 C. SOC 2, Type 2   
@@ -295,7 +297,7 @@ The SOC 2, Type 1 report describes IT security controls designed by the target o
 The SOC 2, Type 2 report will provide details on IT security controls used by the target and how well those controls function. While of great interest to the IT security professional, this is of little interest to the investor, so option C is incorrect.
 The SOC 3 report is only an attestation that the target was audited and that it passed the audit, without detail, so option D is incorrect.
 
-### Question # 27 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). You are an IT security professional working for an organization that is considering migrating from your on-premises environment into the cloud. Assuming some have passed SSAE 18 audits and some haven’t, which SOC report might be best to use for your initial review of several different cloud providers in order to narrow down the field of potential services in a fast, easy way?     
+### [important] n # 27 - The Statement on Standards for Attestation Engagements (SSAE) 18 Service Organization Control (SOC) reports are audit tools promulgated by the American Institute of Certified Public Accountants (AICPA). You are an IT security professional working for an organization that is considering migrating from your on-premises environment into the cloud. Assuming some have passed SSAE 18 audits and some haven’t, which SOC report might be best to use for your initial review of several different cloud providers in order to narrow down the field of potential services in a fast, easy way?     
 A. SOC 1   
 B. SOC 2, Type 1   
 C. SOC 2, Type 2   
@@ -310,7 +312,7 @@ The SOC 2, Type 1 report describes IT security controls designed by the target o
 
 The SOC 2, Type 2 report will provide details on IT security controls used by the target and how well those controls function. While of great interest to the IT security professional, it is very detailed and comprehensive and wouldn’t be a speedy tool to narrow the field. Option C is incorrect.
 
-### Question # 28 - Which of the following entities would not be covered by the Payment Card Industry Data Security Standard (PCI DSS)?      
+### [important] Question # 28 - Which of the following entities would not be covered by the Payment Card Industry Data Security Standard (PCI DSS)?      
 A. A bank issuing credit cards    
 B. A retailer accepting credit cards as payment    
 C. A business that processes credit card payments on behalf of a retailer    
@@ -342,14 +344,15 @@ Answer: B.
 The PCI merchant levels are based on how many transactions a compliant entity engages in over the course of a year.
 All the other options are incorrect because the dollar value of transactions and location of the merchant or processor are not the criteria used for determining PCI DSS merchant levels. Only the transactions a compliant entity engages in over the course of a year is the correct answer.
 
-### Question # 31 - In terms of greatest stringency and requirements for security validation, which is the highest merchant level in the Payment Card Industry (PCI) standard?    
+### [important] Question # 31 - In terms of greatest stringency and requirements for security validation, which is the highest merchant level in the Payment Card Industry (PCI) standard?    
 A. 1    
 B. 2    
 C. 3    
 D. 4   
 Answer: A.   
 
-Merchant level 1 is for the merchants that engage in the most transactions per year (six million or more). It carries with it the requirement for the most comprehensive, detailed, and repeated security validation actions.
+**Merchant level 1 is for the merchants that engage in the most transactions per year (six million or more)**. 
+It carries with it the requirement for the most comprehensive, detailed, and repeated security validation actions.
 
 It may be tempting to choose the highest number when choosing an answer for the highest merchant level. It may be counterintuitive to think that level 1 would be a higher level than a level 4. However, level 1 is the highest merchant level and is the correct answer to this question.
 
@@ -360,7 +363,7 @@ C. Technical and nontechnical
 D. Neither technical nor nontechnical    
 Answer: C.    
 
-The Payment Card Industry Data Security Standard (PCI DSS) requires multiple kinds of technical and nontechnical security requirements (including specific control types) for those entities that choose to subscribe to the standard.
+**The Payment Card Industry Data Security Standard (PCI DSS) requires multiple kinds of technical and nontechnical security requirements** (including specific control types) for those entities that choose to subscribe to the standard.
 
 Option A is partially correct and partially incorrect. While the security requirements are partially technical, some requirements are also nontechnical. Therefore, option A is incorrect.
 
@@ -368,16 +371,17 @@ Option B is also partially correct and partially incorrect. While the security r
 
 Option C is incorrect because the requirements are technical and nontechnical, not neither technical nor nontechnical.
 
-### Question # 33 - According to the Payment Card Industry Data Security Standard (PCI DSS), if a merchant is going to store credit cardholder information for any length of time, what type of security protection must be used?     
+### [important] Question # 33 - According to the Payment Card Industry Data Security Standard (PCI DSS), if a merchant is going to store credit cardholder information for any length of time, what type of security protection must be used?     
 A. Tokenization or masking     
 B. Obfuscation or tokenization    
 C. Masking or obfuscation    
 D. Tokenization or encryption     
 Answer: D. 
 
-The Payment Card Industry Data Security Standard (PCI DSS) allows for cardholder information at rest to be secured with either tokenization or encryption, but use of one is mandatory.
+The Payment Card Industry Data Security Standard (PCI DSS) **allows for cardholder information at rest to be secured with either tokenization or encryption, but use of one is mandatory**.
 
-The other options are distractors and not dictated by PCI DSS. They can, however, be useful in fulfilling certain credit card support services, such as customer support, where the personnel engaged in the activity (customer support agents, for instance) may need access to a limited set of the cardholder’s account information (for instance, name, mailing address, and date of the payment) but do not have a need to know other elements of that data set (particularly, the full credit card number); masking and obfuscation can satisfy that business need without putting data unduly at risk.
+**The other options are distractors and not dictated by PCI DSS**. 
+ They can, however, be useful in fulfilling certain credit card support services, such as customer support, where the personnel engaged in the activity (customer support agents, for instance) may need access to a limited set of the cardholder’s account information (for instance, name, mailing address, and date of the payment) but do not have a need to know other elements of that data set (particularly, the full credit card number); masking and obfuscation can satisfy that business need without putting data unduly at risk.
 
 ### Question # 34 - What element of credit cardholder information may never be stored for any length of time, according to the Payment Card Industry Data Security Standard (PCI DSS)?    
 A. The full credit card number    
@@ -389,30 +393,30 @@ Answer: B.
 The Payment Card Industry Data Security Standard (PCI DSS) disallows the storage of the CVV for any length of time; the CVV may only be used during the payment transaction, and not saved.
 The other options may be stored for future transactions with the same merchant. However, unlike the CVV they may be stored by the merchant.
 
-### Question # 35 - When reviewing IT security products that have been subjected to Common Criteria certification, what does the Evaluation Assurance Level (EAL) tell you?     
+### [important] Question # 35 - When reviewing IT security products that have been subjected to Common Criteria certification, what does the Evaluation Assurance Level (EAL) tell you?     
 A. How secure the product is from an external attack    
 B. How thoroughly the product has been tested    
 C. The level of security the product delivers to an environment    
 D. The level of trustworthiness you can have if you deploy the product    
 Answer: B.    
 
-The EAL is a measure of how thoroughly the security features the product vendor claims the product offers have been tested and reviewed, and by whom.
-The EAL does not offer any true measure of how well those security features will work in a production environment so options A and C are incorrect. Whether those features are preferable to other features offered by competing products, or whether the product is “good.” Therefore, option D is incorrect.
+The EAL is a **measure of how thoroughly the security features the product vendor claims the product offers have been tested and reviewed, and by whom**.
+**The EAL does not offer any true measure of how well those security features will work in a production environment** 
+so options A and C are incorrect. Whether those features are preferable to other features offered by competing products, or whether the product is “good.” Therefore, option D is incorrect.
 
-### Question # 36 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are functionally tested by their manufacturer/vendor?    
+### [important] Question # 36 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are [functionally tested] by their manufacturer/vendor?  
 A. 1    
 B. 3   
 C. 5  
 D. 7   
 Answer: A.   
 
-EAL 1 is for functionally tested products. Option B is incorrect because EAL 3 is for solutions that have been methodically tested and checked.
+[very important] **EAL 1 is for functionally tested products**. 
+Option B is incorrect because **EAL 3 is for solutions that have been [methodically] tested and checked**.
+Option C, **EAL 5 is incorrect because that is for solutions that have been [semi-formally] designed and tested**.
+Option D is incorrect because **EAL 7 is for solutions that have been [formally] verified design and tested**.
 
-Option C, EAL 5 is incorrect because that is for solutions that have been semi-formally designed and tested.
-
-Option D is incorrect because EAL 7 is for solutions that have been formally verified design and tested.
-
-### Question # 37 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are formally verified in terms of design and tested by an independent third party?     
+### [important] Question # 37 - Which Common Criteria Evaluation Assurance Level (EAL) is granted to those products that are formally verified in terms of design and tested by an independent third party?     
 A. 1    
 B. 3    
 C. 5   
@@ -421,11 +425,9 @@ Answer: D.
 
 EAL 7 is for those products that have undergone independent third-party testing and verification of security feature design. All other options are distractors and incorrect.
 
-EAL 1 is for functionally tested products.
-
-EAL 3 is for solutions that have been methodically tested and checked.
-
-EAL 5 is for solutions that have been semi-formally designed and tested.
+**EAL 1** is for **functionally** tested products.
+**EAL 3** is for solutions that have been **methodically** tested and checked.
+**EAL 5** is for solutions that have been **semi-formally** designed and tested.
 
 ### Question # 38 - Who pays for the Common Criteria certification of an IT product?    
 A. National Institute of Standards and Technology (NIST)     
@@ -442,61 +444,66 @@ Option C is incorrect because the cloud customer does not pay to have IT product
 Option D is incorrect because the end user is an individual and individuals do not pay to have IT products certified.
 (Note: Of course, the manufacturer/vendor is going to amortize the cost of the certification process across the price of the products they sell, so the customers who purchase the product will eventually “pay” for the certification, but that’s a very oblique and abstract way of reading the question.)
 
-### Question # 39 - Who publishes the list of cryptographic modules validated according to the Federal Information Processing Standard (FIPS) 140-2?   
+### [important] Question # 39 - Who publishes the list of cryptographic modules validated according to the Federal Information Processing Standard (FIPS) 140-2?   
 A. The U.S. Office of Management and Budget (OMB)    
 B. The International Standards Organization (ISO)   
 C. International Information System Security Certification Consortium, or (ISC)2   
 D. The National Institute of Standards and Technology (NIST)   
 Answer: D.    
 
-NIST publishes the list of validated crypto modules. The other choices are government or non-government organizations that are not involved with publishing the list of cryptographic modules that meet FIPS 140-2 requirements.
+[important] **NIST publishes the list of validated crypto modules**. The other choices are government or non-government organizations that are not involved with publishing the list of cryptographic modules that meet FIPS 140-2 requirements.
 
-### Question # 40 - Who performs the review process for hardware security modules (HSMs) in accordance with the Federal Information Processing Standard (FIPS) 140-2?    
+### [important] Question # 40 - Who performs the [review process for hardware security modules (HSMs)] in [accordance with the Federal Information Processing Standard (FIPS) 140-2?    
 A. The National Institute of Standards and Technology (NIST)    
 B. The National Security Agency (NSA)   
 C. Independent (private) laboratories   
 D. The European Union Agency for Network and Information Security (ENISA)  
 Answer: C.     
 
-Vendors seeking HSM certification under FIPS 140-2 send their products to independent laboratories that have been validated as Cryptographic Module Testing Laboratories under the National Voluntary Laboratory Accreditation Program (the Accreditation Program is run by NIST, which approves the laboratories). As of this writing, 21 labs in the United States and Canada are accredited.
+**Vendors seeking HSM certification under FIPS 140-2 send their products to independent laboratories that have been validated as Cryptographic Module Testing Laboratories under the National Voluntary Laboratory Accreditation Program (the Accreditation Program is run by NIST, which approves the laboratories). As of this writing, 21 labs in the United States and Canada are accredited**.
 
 Option A is incorrect because NIST does not perform the review process. NIST approves the independent laboratories that perform the review process.
-
 Option B is incorrect. Of all the activities that the NSA does perform, reviewing the process for Hardware Security Modules in accordance with FIPS 140-2 is certainly not one of them.
-
 Option D is incorrect because the ENISA is a European Union organization that supports European Union institutions and stakeholders.
 
-### Question # 41 - In terms of the number of security functions offered, which is the highest Federal Information Processing Standard (FIPS) 140-2 security level a cryptographic module can achieve in certification?    
+### [important] Question # 41 - In terms of the number of security functions offered, which is the [highest Federal Information Processing Standard (FIPS) 140-2 security level] a cryptographic module can achieve in certification?    
 A. 1  
 B. 2  
 C. 3  
 D. 4  
 Answer: D.   
 
-The highest security level a product can reach is 4. Option A is incorrect because Level 1 is the lowest level of security. Option B is incorrect because Level 2 simply improves upon the physical security of Level 2. Option C is incorrect because Level 3 improves upon Level 2 certification and adds tamper-detection/response capabilities.
+[very important] **The highest security level a product can reach is 4**. 
+Option A is incorrect because **Level 1 is the lowest level of security**. 
+Option B is incorrect because **Level 2 simply improves upon the physical security of Level 2**. 
+Option C is incorrect because **Level 3 improves upon Level 2 certification and adds tamper-detection/response capabilities**.
 
-### Question # 42 - What distinguishes the Federal Information Processing Standard (FIPS) 140-2 security levels for cryptographic modules?    
+### [important] Question # 42 - What distinguishes the Federal Information Processing Standard (FIPS) 140-2 security levels for cryptographic modules?    
 A. The level of sensitivity of data they can be used to protect   
 B. The amount of physical protection provided by the product, in terms of tamper resistance   
 C. The size of the IT environment the product can be used to protect  
 D. The geographic locations in which the product is allowed   
 Answer: B. 
 
-The security levels acknowledge different levels of physical protection offered by a crypto module, with 1 offering crypto functionality and no real physical protection and 4 offering tamper-resistant physical features and automatic zeroization of security parameters upon detection of tamper attempts.
+[very important] **The security levels acknowledge different levels of physical protection offered by a crypto module**, 
+ **with 1 offering crypto functionality and no real physical protection** 
+  **and 4 offering tamper-resistant physical features and automatic zeroization of security parameters upon detection of tamper attempts**.
+  
 The question asks what distinguishes the security levels for cryptographic modules. Option A focuses on the sensitivity of the data being protected. The sensitivity of the data that is being protected is important when it comes to the cryptographic module being used, but that is not the distinction between the security levels in FIPS 140-2.
 
 Option C is incorrect because the size of the IT environment the cryptographic module is protecting is not what distinguishes the different levels.
-
 Option D is not correct because whether the cryptographic module is or is not allowed in a certain geographic location has no bearing on whether or not it works. The cryptographic module either works or it does not, regardless of its location.
 
-### Question # 43 - For U.S. government agencies, what level of data sensitivity/classification may be processed by cryptographic modules certified according to the Federal Information Processing Standard (FIPS) 140-2 criteria?     
+### [important] Question # 43 - For U.S. government agencies, what level of data sensitivity/classification may be processed by cryptographic modules certified according to the Federal Information Processing Standard (FIPS) 140-2 criteria?     
 A. Sensitive but unclassified (SBU)    
 B. Secret   
 C. Top Secret   
 D. Sensitive Compartmentalized Information (SCI)    
 Answer: A. 
 
-FIPS 140-2 is only for SBU data. Options B, C, and D are incorrect because FIPS 140-2 certifies cryptographic modules for unclassified data. Secret, Top Secret, and Sensitive Compartmentalized Information all are categorized as classified information when it refers to their sensitivity level.
+**FIPS 140-2 is only for SBU data**. 
+Options B, C, and D are incorrect **because FIPS 140-2 certifies cryptographic modules for unclassified data**. 
+Secret, Top Secret, and Sensitive Compartmentalized Information all are categorized as classified information when it refers to their sensitivity level.
 
 ### Question # 44 - Who pays for cryptographic modules to be certified in accordance with Federal Information Processing Standard (FIPS) 140-2 criteria?    
 A. The U.S. government    
@@ -512,7 +519,7 @@ Certification laboratories receive funds for certifying cryptographic modules. T
 
 Option D is incorrect. Users do not pay to have solutions certified.
 
-### Question # 45 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. What is probably the single most important way of countering the highest number of items on the OWASP Top Ten (regardless of year)?     
+### Question # 45 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and [published approximately every 24 months]. What is probably the single most important way of countering the highest number of items on the OWASP Top Ten (regardless of year)?     
 A. Social engineering training   
 B. Disciplined coding practices and processes   
 C. White-box source code testing    
@@ -527,14 +534,16 @@ Option C is not correct because source code testing is only one aspect of code r
 
 Option D is not correct for much the same reason option A is incorrect; this question is specifically about application security, and the physical protection element is very minor.
 
-### Question # 46 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” In most cases, what is the attacker trying to do with an injection attack?    
+### [important] Question # 46 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “injection.” [In most cases, what is the attacker trying to do with an injection attack?]    
 A. Get the user to allow access for the attacker.     
 B. Insert malware onto the system.     
 C. Trick the application into running commands.    
 D. Penetrate the facility hosting the software.    
 Answer: C. 
 
-In injection attacks (a large percentage of which are called SQL injection, for the prevalence with which attackers target databases with this attack), the attacker enters a string of command code into a user-facing field in an attempt to get the application to run the command. This results in a process that the attacker can leverage or puts the software into a fail state that might negate some of the security controls that are present in normal operation.
+**In injection attacks (a large percentage of which are called SQL injection**, for the prevalence with which attackers target databases with this attack), 
+  **the attacker enters a string of command code into a user-facing field** in an **attempt to get the application to run the command**. 
+  This results in a process that the attacker can leverage or puts the software into a fail state that might negate some of the security controls that are present in normal operation.
 
 Option A is incorrect; this is a description of social engineering.
 
@@ -548,27 +557,30 @@ C. Input validation/bounds checking
 D. Physical locks     
 Answer: C. 
 
-Attackers attempting injection put command code into a data entry field; if the application has suitable input validation (that is, refusing code strings and confirming that input conforms to field value types), it will block those attacks.
+**Attackers attempting injection put command code into a data entry field; if the application has suitable input validation (that is, refusing code strings and confirming that input conforms to field value types), it will block those attacks**.
 Injection attacks target applications, not users, so user training has little to do with preventing injection, making option A incorrect.
 The OS usually has little to do with injection attacks, which usually target user-facing web apps that ride on the OS, so option B is not correct.
 Injection attacks are logical, not physical, so locks won’t aid the security effort in this case, making option D incorrect.
 
-### Question # 48 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is a good method for reducing the risk of broken authentication and session management?       
+### [important] Question # 48 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes [“broken authentication and session management].” Which of the following [is a good] method for reducing the risk of broken authentication and session management?       
 A. Do not use custom authentication schemes.    
 B. Implement widespread training programs.    
 C. Ensure that strong input validation is in place.     
 D. Use X.400 protocol standards.     
 Answer: A. 
 
-This answer requires a bit of thought and knowledge of common practices. Throughout the IT industry, many developers attempt to design and implement their own authentication schema. According to OWASP, this approach is almost always a bad idea because of the many vulnerabilities such custom schemes may fail to address. Using approved, tested authentication implementations is a way to avoid this problem.
+This answer requires a bit of thought and knowledge of common practices. 
+**Throughout the IT industry, many developers attempt to design and implement their own authentication schema**. 
+   **According to OWASP, this approach is almost always a bad idea because of the many vulnerabilities such custom schemes may fail to address**. 
+   **Using approved, tested authentication implementations is a way to avoid this problem**.
 
 Authentication schema should be transparent to users, who will have little or (preferably) no control over that element of communication. Thus, training is not applicable in this case, making option B wrong.
 
 Input validation is used to counter injection attacks and has no efficacy in authentication implementations, making option C incorrect.
 
-The X.400 standards are for email communication and are not applicable to session authentication; thus, option D is wrong.
+**The X.400 standards are for email communication and are not applicable to session authentication**; thus, option D is wrong.
 
-### Question # 49 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?     
+### Question # 49 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following [is not] a practice/vulnerability that can lead to broken authentication and infringe on session management?     
 A. Session identification exposed in URLs     
 B. Unprotected stored credentials    
 C. Lack of session timeout    
@@ -579,7 +591,7 @@ HIPAA is the U.S. federal law governing medical information; it has nothing to d
 
 All the other options are practices that can enhance an attacker’s ability to compromise authentication implementations and sessions.
 
-### Question # 50 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is not a practice/vulnerability that can lead to broken authentication and infringe on session management?     
+### Question # 50 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “broken authentication and session management.” Which of the following is [not] a practice/vulnerability that can lead to broken authentication and infringe on session management?     
 A. Failure to rotate session IDs after a successful login     
 B. Easily guessed authentication credentials    
 C. Weak physical entry points in the data center     
@@ -589,17 +601,18 @@ Answer: C.
 As breaking authentication and session management is a logical attack, lack of physical controls don’t affect such attacks.
 All the other options are practices that can enhance an attacker’s ability to compromise authentication implementations and sessions.
 
-### Question # 51 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?      
+### [important] Question # 51 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “[cross-site scripting (XSS)].” Which of the following is [not] a method for reducing the risk of XSS attacks?      
 A. Put untrusted data in only allowed slots of HTML documents.    
 B. HTML escape when including untrusted data in any HTML elements.     
 C. Use the attribute escape when including untrusted data in attribute elements.    
 D. Encrypt all HTML documents.     
 Answer: D.      
 
-In many cases, HTML documents are meant to be seen by the public or new users who do not yet have trust associations (accounts) with the organization, so encrypting every HTML document would be counter to the purpose. Moreover, total encryption of everything, even material that is not particularly sensitive or valuable, incurs an additional cost with no appreciable benefit.
+[important] **In many cases, HTML documents are meant to be seen by the public or new users who do not yet have trust associations (accounts) with the organization, so encrypting every HTML document would be counter to the purpose. Moreover, total encryption of everything, even material that is not particularly sensitive or valuable, incurs an additional cost with no appreciable benefit**.
+
 The other options are all actions that OWASP recommends for reducing the risk of XSS attacks: www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet.
 
-### Question # 52 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is not a method for reducing the risk of XSS attacks?      
+### [important] Question # 52 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list usually includes “cross-site scripting (XSS).” Which of the following is [not] a method for reducing the risk of XSS attacks?      
 A. Use an auto-escaping template system.      
 B. Use XML escape for all identity assertions.      
 C. Sanitize HTML markup with a library designed for the purpose.      
@@ -619,7 +632,7 @@ Answer: A.
 The URL in option A reveals a location of specific data as well as the format for potential other data (such as other authors’ pages/accounts); this is a classic example of an insecure direct object reference.
 Option B is a DoS program string; C is a SQL database command line (which wouldn’t reveal any information on its own; it would prompt for a password); and option D is just an email address.    
 
-### Question # 54 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “insecure direct object references.” Which of these is a method to counter the risks of insecure direct object references?      
+### Question # 54 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes [“insecure direct object references].” Which of these [is a method] to counter the risks of insecure direct object references?      
 A. Perform user security training.      
 B. Check access each time a direct object reference is called by an untrusted source.     
 C. Install high-luminosity interior lighting throughout the facility.    
@@ -653,7 +666,7 @@ Option B is bad security practice but not considered a misconfiguration.
 Data owners are supposed to classify/categorize the data under their control, so option C is not a correct answer.
 Preventing users from reaching untrusted resources may be a proper control in a given environment, so option D is not a misconfiguration, and not a correct answer.
 
-### Question # 57 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?     
+### [important] Question # 57 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “security misconfiguration.” Which of these is a technique to reduce the potential for a security misconfiguration?     
 A. Enforce strong user access control processes.    
 B. Have a repeatable hardening process for all systems/software.    
 C. Use encryption for all remote access.    
@@ -689,7 +702,7 @@ Answer: D.
 
 All of these are good security practices, but only option D is a method for detecting and addressing misconfigurations.
 
-### Question # 61 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” Which of these is a technique to reduce the potential for a sensitive data exposure?     
+### [important] Question # 61 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “sensitive data exposure.” Which of these is a technique to reduce the potential for a sensitive data exposure?     
 A. Extensive user training on proper data handling techniques     
 B. Advanced firewalls inspecting all inbound traffic, to include content-based screening      
 C. Ensuring the use of utility backup power supplies     
@@ -715,7 +728,7 @@ Data needs to be categorized according to its value/sensitivity; avoiding accura
 
 All the other options are ways of reducing the risk of sensitive data disclosure. Option A reduces the possibility of disclosure by reducing the amount of data on hand (from the OWASP: “Data you don’t have can’t be stolen”). Option C reduces the chance of disclosing keys, which leads to disclosing the data. Option D reduces the possibility that the form will disclose sensitive data to someone filling it out by prompting with an entry that should be protected.
 
-### Question # 63 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
+### [important] Question # 63 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?
 A. Set the default to deny all access to functions, and require authentication/authorization for each access request.    
 B. HTML escape all HTML attributes.     
 C. Restrict permissions based on an access control list (ACL).    
@@ -730,7 +743,7 @@ Option C is correct but insufficient; option A includes a more restrictive mode,
 
 Option D is used to deter the possibility of insecure direct object references, so it is incorrect.    
 
-### Question # 64 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?    
+### [important] Question # 64 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list sometimes includes “missing function level access control.” Which of these is a technique to reduce the potential for a missing function-level access control?    
 A. Run a process as both user and privileged user, compare results, and determine similarity.    
 B. Run automated monitoring and audit scripts.   
 C. Include browser buttons/navigation elements to secure functions.    
@@ -744,7 +757,7 @@ Option C is incorrect because it is the exact opposite of what you’re trying t
 
 Option D in no way addresses the problem of missing function-level access controls, which is a technical problem, not a user issue.
 
-### Question # 65 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of these is a technique to reduce the potential for a CSRF?     
+### [important] Question # 65 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of these is a technique to reduce the potential for a CSRF?     
 A. Train users to detect forged HTTP requests.     
 B. Have users remove all browsers from their devices.     
 C. Don’t allow links to or from other websites.    
@@ -760,28 +773,27 @@ Option B is incorrect because it’s unrealistic. Removing all browsers would de
 Option C is incorrect for similar reasons; the danger from CSRF is not because of links to the target website but because of the browser behavior.
 
 ### Question # 66 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). A CSRF attack might be used for all the following malicious actions except _______________.    
-A. The attacker could have the user log into one of the user’s online accounts.    
+**A. The attacker could have the user log into one of the user’s online accounts.    
 B. The attacker could collect the user’s online account login credentials, to be used by the attacker later.     
-C. The attacker could have the user perform an action in one of the user’s online accounts.    
+C. The attacker could have the user perform an action in one of the user’s online accounts.**    
 D. The attacker could trick the user into calling a fraudulent customer service number hosted by the attacker and talk the user into disclosing personal information.    
 Answer: D.     
 
 This is a description of social engineering, not CSRF, which is a browser-based attack.
 All the other options are possible exploits an attacker might try to accomplish with a CSRF attack.
 
-### Question # 67 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of the following is a good way to deter CSRF attacks?    
+### [important] Question # 67 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “cross-site request forgery” (CSRF). Which of the following is a good way to deter CSRF attacks?    
 A. Have your website refuse all HTTP resource requests.     
 B. Ensure that all HTTP resource requests include a unique, unpredictable token.     
 C. Don’t allow e-commerce on your website.   
 D. Process all user requests with only one brand of browser, and refuse all resource requests from other browsers.    
 Answer: B. 
 
-This is the option OWASP recommends as the very least form of protection. Having a unique, unpredictable token for each session reduces the likelihood an attacker will be able to reuse tokens known by the browser or craft tokens that can be used in future attacks.
+**This is the option OWASP recommends as the very least form of protection**. 
+Having a unique, unpredictable token for each session reduces the likelihood an attacker will be able to reuse tokens known by the browser or craft tokens that can be used in future attacks.
 
 Option A is not optimal or sensible because it would inhibit all web traffic and remote access.
-
 Option C is not optimal or sensible because it would severely limit your online capabilities.
-
 Option D is not sensible because all browsers use stored tokens/cookies, and no browser is preferable for the purpose over others.
 
 ### Question # 68 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?     
@@ -814,7 +826,7 @@ Option C might conceivably be considered correct in a fashion; different countri
 
 Option D is not correct because a hidden vulnerability, by definition, is not a known vulnerability.   
 
-### Question # 70 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?    
+### [important] Question # 70 - The Open Web Application Security Project (OWASP) Top Ten is a list of web application security threats that is created by a member-driven OWASP committee of application development experts and published approximately every 24 months. The OWASP Top Ten list often includes “using components with known vulnerabilities.” Which of the following is a good way to protect against this problem?    
 A. Use only standard libraries.    
 B. Review all updates/lists/notifications for components your organization uses.   
 C. Be sure to HTML escape all attribute elements.    
@@ -866,7 +878,7 @@ Answer: A.
 
 This is the definition of cloud migration interoperability challenges. Portability is the measure of how difficult it might be to move the organization’s systems/data from a given cloud host to another cloud host. Stability has no specific meaning here and is just a distractor. Security might be an element of this challenge but is not the optimum answer; the question posed a concern about functionality, not disclosure or tainting the information.
 
-### Question # 74 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the provider will have undue control over your data once it is within the provider’s data center; will the provider be able to hold your organization hostage because they have your data? This is a(n) _______________ issue.    
+### [important] Question # 74 - You are the security subject matter expert (SME) for an organization considering a transition from a traditional IT enterprise environment into a hosted cloud provider’s data center. One of the challenges you’re facing is whether the provider will have undue control over your data once it is within the provider’s data center; will the provider be able to hold your organization hostage because they have your data? This is a(n) _______________ issue.    
 A. Interoperability    
 B. Portability   
 C. Stability   
@@ -947,7 +959,7 @@ Answer: D.
 
 Job performance is not a germane aspect of account review and maintenance; that is a management concern, not an access control issue. All the other options are legitimate access control concerns.
 
-### Question # 83 - Who should be involved in review and maintenance of user accounts/access?     
+### [important] Question # 83 - Who should be involved in review and maintenance of user accounts/access?     
 A. The user’s manager    
 B. The security manager     
 C. The accounting department    
@@ -973,8 +985,7 @@ D. Privileged users can cause more damage to the organization.
 Answer: D. 
 
 The additional capabilities of privileged users make their activities riskier to the organization, so these accounts bear extra review. The number of encryption keys a user has is meaningless out of context; the amount of risk is the issue, not the number of keys. The user’s type (regular versus privileged) is not an indicator, itself, of trustworthiness. Additional review activity for privileged users is an extra control we place on privileged users, not a reason for doing so.   
-
-### Question # 86 - The additional review activities that might be performed for privileged user accounts could include all of the following except _______________.   
+### [important] Question # 86 - The additional review activities that might be performed for privileged user accounts could include all of the following except _______________.   
 A. Deeper personnel background checks   
 B. Review of personal financial accounts for privileged users   
 C. More frequent reviews of the necessity for access   
@@ -992,7 +1003,7 @@ Answer: C.
 
 Which bank branch a privileged user frequents is unlikely to be of consequence. Too much money can indicate that the privileged user is accepting payment from someone other than the employer, which can be an indicator of malfeasance or corruption. Too little money can indicate that the privileged user is subject to undue financial stress, which might be the result of behavior that makes the privileged user susceptible to subversion, such as a drug habit, family problems, or excess gambling. Specific senders and recipients of personal funds can indicate untoward activity on the part of the privileged user.
 
-### Question # 88 - How often should the accounts of privileged users be reviewed?    
+### [important] Question # 88 - How often should the accounts of privileged users be reviewed?    
 A. Annually   
 B. Twice a year    
 C. Monthly  
@@ -1001,7 +1012,7 @@ Answer: D.
 
 There is no specific rule for the timeliness of privileged user account reviews. However, as a matter of course, privileged user accounts should be reviewed more often than the accounts of regular users because privileged users can cause more damage and therefore entail more risk.
 
-### Question # 89 - Privileged user account access should be _______________.    
+### [important] Question # 89 - Privileged user account access should be _______________.    
 A. Temporary  
 B. Pervasive   
 C. Thorough   
@@ -1010,7 +1021,7 @@ Answer: A.
 
 Privileged users should have privileged access to specific systems/data only for the duration necessary to perform their administrative function; any longer incurs more risk than value. The other options are not associated with appropriate privilege access management.
 
-### Question # 90 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA’s Notorious Nine list, data breaches can be _______________.     
+### [important] Question # 90 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA’s Notorious Nine list, data breaches can be _______________.     
 A. Overt or covert      
 B. International or subterranean     
 C. From internal or external sources     
@@ -1033,7 +1044,7 @@ Option C is unlikely because most cloud customers won’t have physical access t
 
 Option D does not make sense, either; regulations are imposed on organizations, as legal mandates, and an organization does not get to choose which regulations affect it.
 
-### Question # 92 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that suffers a data breach might suffer all of the following negative effects except _______________.      
+### [important] Question # 92 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, an organization that suffers a data breach might suffer all of the following negative effects except _______________.      
 A. Cost of compliance with notification laws    
 B. Loss of public perception/goodwill     
 C. Loss of market share      
@@ -1042,7 +1053,7 @@ Answer: D.
 
 The cost of detection exists whether or not the organization suffers a breach. All other options are costs an organization will likely face as the result of a breach.
 
-### *Question # 93 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.       
+### [important] Question # 93 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. According to the CSA, in the event of a data breach, a cloud customer will likely need to comply with all the following data breach notification requirements except _______________.       
 A. Multiple state laws      
 B. Contractual notification requirements      
 C. All standards-based notification schemes     
@@ -1080,7 +1091,7 @@ All. **Service traffic hijacking can affect all portions of the CIA triad.**
 **Through hijacking, an attacker could eavesdrop on legitimate communication (breaching confidentiality), insert inaccurate/incorrect data into legitimate communication (damaging integrity), and/or redirect legitimate users from valid services (making the legitimate sources unavailable)**. 
 Although all of the answers are correct, option D is the most comprehensive and therefore the best answer.
 
-### Question # 97 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. The CSA recommends the prohibition of _______________ in order to diminish the likelihood of account/service traffic hijacking.     
+### [important] Question # 97 - The Cloud Security Alliance (CSA) publishes the Notorious Nine, a list of common threats to organizations participating in cloud computing. The CSA recommends the prohibition of _______________ in order to diminish the likelihood of account/service traffic hijacking.     
 A. All user activity        
 B. Sharing account credentials between users and services       
 C. Multifactor authentication     
