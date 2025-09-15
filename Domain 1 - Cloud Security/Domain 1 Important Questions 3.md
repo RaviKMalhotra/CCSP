@@ -1,7 +1,8 @@
+# Domain 1 Important Questions 3
 
 ### Question # 1 - Matthew is reviewing a new cloud service offering that his organization plans to adopt. In this offering, a cloud provider will create virtual server instances under the multitenancy model. Each server instance will be accessible only to Matthew’s company. What cloud deployment model is being used?
 A.	Hybrid cloud  
-**B**.	Public cloud  
+B.	Public cloud  
 C.	Private cloud  
 D.	Community cloud  
 Answer: B      
@@ -34,14 +35,14 @@ C.	Elasticity.
 D.	Broad network access.  
 Answer: C             
 
-### Question # 6 - Sherry is deploying a zero- trust network architecture for her organization. In this approach, which one of the following characteristics would be least important in validating a login attempt?     
+### Question # 6 - Sherry is deploying a zero- trust network architecture for her organization. In this approach, which one of the following characteristics would be [least] important in validating a login attempt?     
 A. User identity.  
 B.	IP address.   
 C.	Geolocation.   
 D.	Nature of requested access.   
 Answer: B      
 
-### Question # 7 - Which one of the following hypervisor models is the most resistant to attack?   
+### Question # 7 - Which one of the following hypervisor models is the [most resistant] to attack?   
 A. Type 1.                
 B. Type 2.              
 C. Type 3.           
@@ -55,7 +56,7 @@ C.	Network firewall
 D.	Network security groups           
 Answer: D      
 
-### [important] Question # 9 - Which one of the following cybersecurity threats is least likely to directly affect an object storage service?        
+### [important] Question # 9 - Which one of the following cybersecurity threats is [least likely] to directly affect an object storage service?        
 A. Disk failure               
 B.	User error              
 C.	Ransomware              
@@ -125,6 +126,8 @@ C.	It has been formally verified, designed, and tested.
 D.	It has been semi- formally designed and tested.           
 Answer: B      
 
+EAL2 assurance applies when the system has been structurally tested. It is the second- to- lowest level of assurance under the Common Criteria**.
+
 ### [important] Question # 19 - Jake would like to use a third- party platform to automatically move workloads between cloud service providers. What type of tool would best meet this need?                 
 A.	Cloud access service broker                                
 B.	Database                        
@@ -139,7 +142,7 @@ C.	SOX
 D.	GLBA                  
 Answer: B      
 
-### Question # 21 - What type of effort attempts to bring all of an organization’s cloud activities under more  centralized control?           
+### [important] Question # 21 - What type of effort attempts to bring all of an organization’s cloud activities under more  centralized control?           
 A.	Cloud access service broker            
 B.	Cloud orchestration               
 C.	Cloud governance              
@@ -674,14 +677,14 @@ C.	Locks on doors; turnstiles
 D.	Perimeter defenses; internal defenses                           
 Answer: A      
 
-### Question # 83 - Which one of the following is a critical component for confidential computing environments?                    
+### [important] Question # 83 - Which one of the following is a critical component for confidential computing environments?                    
 A.	TEE             
 B.	TPM              
 C.	HSM             
 D.	PKI             
 Answer: A      
 
-### Question # 84 - Which one of the following programs provides a general certification process for computing hardware that might be used in a government environment?                 
+### [important] Question # 84 - Which one of the following programs provides a general certification process for computing hardware that might be used in a government environment?                 
 A.	FedRAMP                   
 B.	NIST 800- 53                 
 C.	Common Criteria                
@@ -709,11 +712,11 @@ C.	Edge computing
 D.	Fog computing              
 Answer: B      
 
-### Question # 88 - Your organization has migrated into a platform as a service (PaaS) configuration. A network administrator within the cloud provider has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?                       
+### Question # 88 - Your organization has migrated into a platform as a service (PaaS) configuration. [A network administrator within the cloud provider] has accessed your data and sold a list of your users to a competitor. Who is required to make data breach notifications in accordance with all applicable laws?         
 A.	The network admin responsible                
 B.	The cloud provider                  
-C.	The regulators overseeing your deployment              
-D.	Your organization                                  
+C.	The regulators overseeing your deployment                           
+D.	Your organization                                   
 Answer: D      
 
 ### Question # 89 - If an organization wants to retain the most control of their assets in the cloud, which service and deployment model combination should they choose?                           
@@ -727,7 +730,7 @@ Answer: D
 A.	There is a lack of local storage space for security logs, which is common to IoT devices.                                                                    
 B.	The IoT devices may not have a separate administrative interface, allowing anybody on the same network to attempt to log in to them and making brute- force attacks possible.               
 C. The IoT devices may not support strong encryption for communications, exposing the log and sensor data to interception on the network.                  
-D. The long- term support and patching model for the IoT devices may create security and operational risk for the organization.                    
+D. The long-term support and patching model for the IoT devices may create security and operational risk for the organization.                    
 Answer: D      
 
 ### Question # 91 - In what cloud computing model does the customer build a cloud computing environment in their own datacenter or build an environment in another datacenter that is for the customer’s exclusive use?                     
@@ -772,21 +775,21 @@ C. FaaS
 D. IaaS            
 Answer: A
 
-### Question # 97 - .	Alice and Bob are using a symmetric encryption algorithm to exchange sensitive information. How many total encryption keys are necessary for this communication?                   
+### [important] Question # 97 - .	Alice and Bob are using a symmetric encryption algorithm to exchange sensitive information. How many total encryption keys are necessary for this communication?                   
 A.	1                   
 B. 2                
 C. 3               
 D. 4              
 Answer: A      
 
-### Question # 98 -	Mike and Renee would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority. When Mike receives Renee’s digital certificate, what key does he use to verify the authenticity of the certificate?           
+### [important] Question # 98 -	Mike and Renee would like to use an asymmetric cryptosystem to communicate with each other. They are located in different parts of the country but have exchanged encryption keys by using digital certificates signed by a mutually trusted certificate authority. When Mike receives Renee’s digital certificate, what key does he use to verify the authenticity of the certificate?           
 A.	Renee’s public key            
 B.	Renee’s private key                     
 C.	CA’s public key                   
 D.	CA’s private key                 
 Answer: c      
 
-### Question # 99 -	What computing technology, if fully developed, has the potential to undermine the security of modern encryption algorithms?             
+### [important] Question # 99 -	What computing technology, if fully developed, has the potential to undermine the security of modern encryption algorithms?             
 A.	Confidential computing                                                                                                                       
 B.	Ephemeral computing                       
 C.	Quantum computing                 
@@ -1097,7 +1100,10 @@ The General Data Protection Regulation (GDPR) and GLBA are both legislative mand
 Door locks and turnstiles are physical security controls; they both might be examples of due care efforts, but neither demonstrates due diligence.
 Due care and diligence can be demonstrated by either internal or external controls/processes; there is no distinction to be made based on where the control is situated.
 
-Question # 83.	A. Confidential computing protects data in use by using a trusted execution environment (TEE). Confidential computing environments may also make use of other security technologies, including trusted platform modules (TPMs), hardware security modules (HSMs), and public key infrastructure (PKI), but those technologies do not protect data in use and are not, therefore, required for a confidential computing environment.
+Question # 83.	A. **Confidential computing protects data in use by using a trusted execution environment (TEE)**. 
+ **Confidential computing environments may also make use** of other security technologies, **including trusted platform modules (TPMs**), 
+ hardware security modules (HSMs), and public key infrastructure (PKI), **but those technologies do not protect data in use** 
+ and are not, therefore, required for a confidential computing environment.
 
 Question # 84.	C. The Common Criteria provide a general certification process for computing hardware that might be used in government applications. FIPS 140- 2 provides similar guidance but is specific to cryptographic modules and is not used for generalized hardware. NIST 800- 53 provides security control guidance but is not a certification process. FedRAMP provides a certification process for cloud computing services but not for hardware.
 
