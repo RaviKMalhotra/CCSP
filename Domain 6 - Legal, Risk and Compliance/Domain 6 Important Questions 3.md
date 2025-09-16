@@ -3,6 +3,7 @@ A.	Favorable contract terms
 B.	Strong negotiation                     
 C.	Infrastructure as a service (IaaS)              
 D.	Vendor lock- in   
+
 Answer: D               
 
 ### [important] Question # 2 - Cathy is developing an [eDiscovery program] to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?              
