@@ -772,9 +772,9 @@ D.	Rebuild the machine and manually compare it against the original.
 
 Answer: B       
 
-### [important] Question # 89 -	Tara has backups for her cloud service stored in the long- term storage service her cloud  service provider provides and in a separate third- party long- term backup environment. What concept has Tara implemented?      
+### Question # 89 -	Tara has backups for her cloud service stored in the long- term storage service her cloud  service provider provides and in a separate third- party long- term backup environment. What concept has Tara implemented?      
 A.	Deduplication     
-B.	Dispersion    
+B.	**Dispersion**    
 C.	Protected supply chain     
 D.	Lifecycle management    
 
@@ -828,7 +828,7 @@ D.	Tokenization
 
 Answer: A       
 
-### Question # 96 -	Melissa is designing her organization’s data retention policy. Which of the following is not a common component of a data retention policy? 
+### [important] Question # 96 -	Melissa is designing her organization’s data retention policy. Which of the following is [not] a common component of a data retention policy? 
 A.	Retention periods     
 B.	Data value     
 C.	Regulatory compliance     
@@ -839,7 +839,7 @@ Answer: B
 ### Question # 97 -	Gary’s cloud provider gives him direct access to actual drives in servers as part of his  hosting plan. What type of storage is Gary using when he installs operating systems and applications on those drives?      
 A.	Long- term storage     
 B.	Ephemeral storage     
-C.	Raw storage     
+C.	**Raw storage**     
 D.	Volume- based storage     
 
 Answer: C       
@@ -847,14 +847,14 @@ Answer: C
 ### [important] Question # 98 -	Maria has implemented an information rights management tool for her cloud- hosted SharePoint site. What requirement will her organization’s SharePoint users need to meet to access controlled files?    
 A.	They will need to access the files only via local fileshares.    
 B.	They will need to use multifactor authentication for all file access.     
-C.	They will need to open the files using tools that support IRM.     
+C.	**They will need to open the files using tools that support IRM**.     
 D. They will need to request access to each file before opening it.       
 
 Answer: C       
 
 ### [important] Question # 99 -	Angelo is implementing a [data discovery process]. Which of the following steps should he begin with to help [speed up the discovery process]?   
 A. 	Map data to compliance requirements.    
-B.	Extract and catalog metadata.    
+B.	**Extract and catalog metadata**.    
 C.	Scan for sensitive data.    
 D.	Classify data.    
 
