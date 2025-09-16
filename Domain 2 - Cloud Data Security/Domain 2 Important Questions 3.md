@@ -683,20 +683,22 @@ D.	Enable automatic archiving.
 Answer: A       
 
 ### Question # 78 -	Brian is reviewing his organization’s [secrets management policies and practices]. Which of the following is [not] a practice that they should use?     
-A.	Reduce the number of people with administrative access to the secret store.     
+A.	💡Reduce the number of people with administrative access to the secret store.     
 B.	Regularly rotate secrets.     
 C.	Maximize the rights of important secrets to reduce the total number of secrets required.     
 D.	Enable logging and alerting on secrets access and usage.    
 
 Answer: C       
 
-### Question # 79 -	Chris wants to audit access to highly sensitive data stored in his cloud provider’s block storage service. What type of logging should he enable to monitor for use of privileged accounts to access specific buckets?      
+### [important] Question # 79 -	Chris wants [to audit [access] to highly sensitive data stored in [his] cloud provider’s block storage service. What type of logging should he enable to monitor for use of privileged accounts to access specific buckets?      
 A. 	Enable authentication logging.     
 B.	Enable access logging.      
 C.	Enable bandwidth monitoring.     
 D.	Enable timestamps.     
 
 Answer: B       
+
+Access logging will allow Chris to monitor for access to specific buckets by individuals, including privileged accounts. Authentication logging won’t show access, nor will bandwidth logging. Timestamps should be on by default for any log event
 
 ### Question # 80 -	Jaime is performing data discovery and wants to search for a specific term in the unstructured data she’s working with. What type of discovery is she performing?     
 A. 	Label- based discovery      
@@ -708,13 +710,13 @@ Answer: C
 
 ### Question # 81 -	Mike has become aware of a certificate’s private key that has been exposed as part of an incident. What should Mike do first to limit the potential impact of the exposure?      
 A. 	Immediately issue a new certificate and securely transmit it to the user.     
-B.	Immediately revoke the certificate and add it to the certificate revocation list.     
+B.	**Immediately revoke the certificate and add it to the certificate revocation list**.     
 C.	Search for all locations of the certificate to understand what impact its exposure may have.    
 D.	Interview the user or owner to identify why the certificate was exposed.    
 
 Answer: B       
 
-### [important] Question # 82 -	Dan’s DLP deployment has been experiencing false positives when keying on pattern matching, resulting in extra work for his organization’s security team. What can he do to best improve the DLP’s performance if the DLP is currently relying on pattern matching as the primary means of identifying sensitive information? 
+### Question # 82 -	Dan’s DLP deployment has been experiencing false positives when keying on pattern matching, resulting in extra work for his organization’s security team. What can he do to best improve the DLP’s performance if the DLP is currently relying on pattern matching as the primary means of identifying sensitive information? 
 A. 	Tag data with its sensitivity level.     
 B.	Apply a data lifecycle and delete unneeded data to reduce the data being monitored.       
 C.	Classify data based on a classification scheme.    
@@ -738,8 +740,8 @@ D.	Make a copy of all of the data, move it to alternate storage, and delete the 
 
 Answer: B       
 
-### Question # 85 -	Heikki is preparing to deploy a data loss prevention system. He has []prioritized, categorized, and labeled his data]. What will he need to do to ensure that the system can help secure his organization’s data?     
-A.	Establish DLP policies.     
+### Question # 85 -	Heikki is preparing to deploy a data loss prevention system. He has [prioritized, categorized, and labeled his data]. What will he need to do to ensure that the system can help secure his organization’s data?     
+A.	**Establish DLP policies**.     
 B.	Perform data matching.     
 C.	Define the data lifecycle.     
 D.	Train users.     
@@ -747,7 +749,7 @@ D.	Train users.
 Answer: A       
 
 ### Question # 86 -	Kara is performing data discovery on a large number of pictures and uses the data embedded in the photos, including the time it was taken, the camera, and similar data. What type of discovery is she performing?       
-A. Metadata- based discovery     
+A.  Metadata- based discovery     
 B.	Content- based discovery     
 C.	Tag- based discovery    
 D.	Label- based discovery    
@@ -758,7 +760,7 @@ Answer: A
 A. 	The actual customer information is stored in the tokenized database.      
 B.	The customer data is secure because tokens cannot be breached.     
 C.	A breach of the token database would result in a customer data breach.     
-D.	The tokenized data can be looked up against a database that contains customer data.    
+D.	**The tokenized data can be looked up against a database that contains customer data**.    
 
 Answer: D       
 
