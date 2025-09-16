@@ -532,7 +532,7 @@ B. Type 3
 C. Type 2    
 D. Type 4    
 
-Answer: A         
+Answer: C         
 
 ### Question # 67 - The government- wide program that provides for a standardized approach to security assessments, authorization, and continuous monitoring of cloud products and services is called______________.      
 A.	FISMA      
@@ -540,7 +540,7 @@ B. HIPAA
 C.	FedRAMP     
 D.	GLBA     
 
-Answer: A         
+Answer: C         
 
 ### Question # 68 - In a cloud context, who determines the risk appetite of your organization?     
 A. The cloud provider    
@@ -548,7 +548,7 @@ B.	Your internet service provider (ISP)
 C.	Federal regulators     
 D.	Senior management    
 
-Answer: A         
+Answer: D         
 
 ### Question # 69 - Yolanda is analyzing a business process that uses a cloud service to send invoices to clients. What phase of the cloud data lifecycle is most directly occurring?          
 A.	Create     
@@ -556,7 +556,7 @@ B.	Archive
 C.	Store      
 D.	Share     
 
-Answer: A         
+Answer: D         
 
 ### Question # 70 - Carla is completing an IT audit that involves very sensitive log records that may later be disputed. She would like to collect a copy of the log records now and then protect them with a technology that will provide nonrepudiation. Which one of the following technologies would best meet her needs?     
 A.	Multifactor authentication      
@@ -564,7 +564,7 @@ B.	Strong encryption
 C.	Cryptographic hash      
 D.	Digital signature      
 
-Answer: A         
+Answer: D         
 
 ### Question # 71 - You are the security manager for a small application development company. Your company is considering the migration of your testing environment to the cloud. As part of your testing methodology, you use several third- party cloud testing vendors. Which of the following traits of cloud functionality is probably the most crucial in terms of deciding which cloud provider you will choose?    
 A.	Portability     
@@ -572,7 +572,7 @@ B.	Interoperability
 C.	Resiliency    
 D.	Governance      
 
-Answer: A         
+Answer: B         
 
 ### Question # 72 - Luis is concerned about the proliferation of sensitive data in his organization and is searching for systems containing Social Security numbers. He uses a tool that detects any data matching the pattern “XXX- XX- XXXX” where each X is a digit. What type of data discovery is Luis performing?     
 A.	Metadata- based discovery      
@@ -580,7 +580,7 @@ B.	Content- based discovery
 C.	Classification- based discovery     
 D.	Label- based discovery     
 
-Answer: A         
+Answer: B         
 
 ### Question # 73 - You work for a government research facility. Your organization often shares data with other government research organizations. You would like to create a single sign- on experience across the organizations, where users at each organization can sign in with the user ID/ authentication issued by that organization, then access research data in all the other organizations. Instead of replicating the data stores of each organization at every other organization (which is one way of accomplishing this goal), you instead want every user to have access to each organization’s specific storage resources. In order to pass the user IDs and authenticating credentials of each user among the organizations, what protocol, language, or technique will you most likely utilize?    
 A.	Representational State Transfer (REST)     
@@ -588,7 +588,7 @@ B.	Security Assertion Markup Language (SAML)
 C.	Simple Object Access Protocol (SOAP)      
 D.	Hypertext Markup Language (HTML)       
 
-Answer: A         
+Answer: B         
 
 ### Question # 74 - Warren is helping his organization build a new datacenter that will support a cloud service they provide to their customers. Which one of the following is a reasonable minimum amount of time to expect the uninterruptible power supply (UPS) to provide power to the systems in the datacenter?      
 A.	10 minutes    
@@ -628,7 +628,7 @@ B.	Suspend deletion of data from March 2022 only.
 C.	Suspend all data archival.     
 D.	None of these actions are necessary.      
 
-Answer: A         
+Answer: B         
 
 ### Question # 78 - In regard to most privacy guidance, the data subject is _________________.       
 A. The individual described by the personally identifiable information (PII)       
@@ -644,7 +644,7 @@ B.	Emulation
 C.	ASLR     
 D.	Sandboxing      
 
-Answer: A         
+Answer: D         
 
 ### Question # 80 - You are the security policy lead for your organization, which is considering migrating from your on- premises, traditional IT environment into the cloud. You are reviewing the Cloud Security Alliance Cloud Controls Matrix (CSA CCM) as a tool for your organization. Which of the following benefits will the CSA CCM offer your organization?      
 A.	Simplifying regulatory compliance     
@@ -668,7 +668,7 @@ B.	PKI
 C.	TPM     
 D.	IPS      
 
-Answer: A         
+Answer: C         
 
 ### Question # 83 - You are the IT security manager for a video game software development company. In order to test your products for security defects, your firm decides to use a small team of game testers recruited from a public pool of interested gamers who apply for a chance to take part. This is an example of _________________.       
 A.	Static testing      
@@ -676,7 +676,7 @@ B.	Dynamic testing
 C.	Code review         
 D.	Open source review     
 
-Answer: A         
+Answer: B         
 
 ### Question # 84 - Which one of the following principles imposes a standard of care upon an individual that is broad and equivalent to what one would expect from a reasonable person under the circumstances?      
 A.	Due diligence     
@@ -684,7 +684,7 @@ B.	Separation of duties
 C.	Due care      
 D.	Least privilege      
 
-Answer: A         
+Answer: C         
 
 ### Question # 85 - Which one of the following is the most important security consideration when selecting a new computer facility?      
 A.	Local law enforcement response times     
@@ -692,7 +692,7 @@ B.	Location adjacent to competitor’s facilities
 C.	Aircraft flight paths    
 D.	Utility infrastructure      
 
-Answer: A         
+Answer: D         
 
 ### Question # 86 - Which one of the following storage types is typically the most inexpensive class of storage?      
 A.	Block storage    
@@ -700,7 +700,7 @@ B.	Object storage
 C.	Archival storage    
 D.	Raw storage     
 
-Answer: A         
+Answer: C         
 
 ### Question # 87 - Andy is concerned that his organization is not meeting uptime requirements to their cloud service customers. Which one of the following ITIL control categories is least directly impacted?       
 A.	Incident management     
@@ -708,7 +708,7 @@ B.	Change management
 C.	Availability management     
 D.	Service level management      
 
-Answer: A         
+Answer: B         
 
 ### Question # 88 - Firewalls, DLP (data loss prevention or data leak protection) and digital rights management (DRM) solutions, and security information and event management (SIEM) products are all examples of _________________ controls.     
 A.	Technical    
@@ -724,7 +724,7 @@ B.	Integration of security tools
 C.	Protection of intellectual property     
 D.	Documentation of security policies     
 
-Answer: A         
+Answer: C         
 
 ### Question # 90 - What is the term used to describe loss of access to data because the cloud provider has ceased operation?       
 A. Tokenization     
@@ -732,7 +732,7 @@ B.	Vendor lockout
 C.	Vendor lock- in     
 D.	Masking     
 
-Answer: A         
+Answer: B         
 
 ### Question # 91 - Which one of the following is not commonly used as a criterion for data classification decisions?      
 A. Sensitivity     
@@ -740,7 +740,7 @@ B.	Criticality
 C.	Age      
 D.	Jurisdiction      
 
-Answer: A         
+Answer: C         
 
 ### Question # 92 - All of the following are activities that should be performed when capturing and maintaining an accurate, secure system baseline except _________________.       
 A.	Updating the OS baseline image according to a scheduled interval to include any necessary security patches and configuration modifications     
@@ -748,7 +748,7 @@ B.	Starting with a clean installation (hardware or virtual) of the desired OS
 C.	Including only the default account credentials and nothing customized      
 D.	Halting or removing all unnecessary services      
 
-Answer: A         
+Answer: C         
 
 ### Question # 93 - Richard is a data custodian who recently received a litigation hold notice for a set of records he administers. How long should he set the retention period for the affected data?      
 A.	1 year     
@@ -756,7 +756,7 @@ B.	5 years
 C.	7 years      
 D.	Indefinite      
 
-Answer: A         
+Answer: D         
 
 ### Question # 94 - What technology can serve as a connection between the virtual guest operating system and the hypervisor, improving the services provided to the guest?       
 A. Virtualization sandbox.      
@@ -764,7 +764,7 @@ B.	Virtualization bridge.
 C.	Virtualization tools.     
 D.	It is not advised to create a connection between the virtual guests and the hypervisor in order to preserve tenant isolation.     
 
-Answer: A         
+Answer: C         
 
 ### Question # 95 - Matt needs to revoke a digital certificate that is used as part of his organization’s information rights management (IRM) program. Which one of the following options would best meet this need?      
 A.	Update the certificate’s OCSP record.      
@@ -780,7 +780,7 @@ B.	Private
 C.	Public     
 D.	Community     
 
-Answer: A         
+Answer: D         
 
 ### Question # 97 - What ITIL process ensures that IT resources are sufficient to meet current and future business demand?      
 A. Availability management     
@@ -788,7 +788,7 @@ B.	Service level management
 C.	Configuration management     
 D.	Capacity management      
 
-Answer: A         
+Answer: D         
 
 ### Question # 98 - What is the correct order of the phases of the data lifecycle?     
 A.	Create, Store, Use, Archive, Share, Destroy     
@@ -796,7 +796,7 @@ B. Create, Store, Use, Share, Archive, Destroy
 C. Create, Use, Store, Share, Archive, Destroy   
 D. Create, Archive, Store, Share, Use, Destroy      
 
-Answer: A         
+Answer: B         
 
 ### Question # 99 - Carolyn is using ephemeral storage to process data in a machine learning application using a virtual server instance. Which one of the following best describes this storage?     
 A. It will remain until Carolyn explicitly deletes it.     
@@ -804,7 +804,7 @@ B.	It will be deleted if the server is rebooted.
 C.	It will be deleted only if the server is stopped.      
 D.	It will be deleted only if the server is terminated.      
 
-Answer: A         
+Answer: D         
 
 ### Question # 100 - You are the security manager for a small retailer engaged in e- commerce. A large part of your sales is transacted through the use of credit and debit cards and you need to store these numbers for use in future transactions. You have determined that the costs of maintaining an encrypted storage capability in order to meet compliance requirements are prohibitive. What other technology can you use instead to meet those regulatory needs?       
 A.	Obfuscation      
@@ -812,7 +812,7 @@ B.	Masking
 C.	Tokenization      
 D.	Hashing     
 
-Answer: A         
+Answer: C         
 
 ### Question # 101 - Which one of the following actions might be taken as part of a business continuity plan?           
 A.	Restoring from backup tapes      
@@ -820,7 +820,7 @@ B.	Implementing RAID
 C.	Relocating to a cold site     
 D.	Restarting business operations    
 
-Answer: A         
+Answer: B         
 
 ### Question # 102 - Bob is designing a datacenter to support his organization, a financial services firm. Bob’s datacenter will have to be approved by regulators using a framework under which law?      
 A.	Health Industry Portability and Accountability Act (HIPAA)      
@@ -828,7 +828,7 @@ B.	Payment Card Industry Data Security Standard (PCI DSS)
 C.	Gramm–Leach–Bliley Act (GLBA)    
 D.	Sarbanes–Oxley Act (SOX)     
 
-Answer: A         
+Answer: C         
 
 ### Question # 103 - Which one of the following is most likely to be stored as unstructured data?     
 A. Interview videos     
@@ -844,7 +844,7 @@ B.	SSL
 C.	Blowfish    
 D.	AES    
 
-Answer: A         
+Answer: D         
 
 ### Question # 105 - Tom is conducting a business continuity planning effort for Orange Blossoms, a fruit orchard located in Central Florida. During the assessment process, the committee determined that there is a small risk of snow in the region but that the cost of implementing controls to reduce the impact of that risk is not warranted. They elect to not take any specific action in response to the risk. What risk management strategy is Orange Blossoms pursuing?      
 A.	Risk mitigation     
@@ -852,7 +852,7 @@ B.	Risk transference
 C.	Risk avoidance      
 D.	Risk acceptance       
 
-Answer: A         
+Answer: D         
 
 ### Question # 106 - Linda is selecting a disaster recovery facility for her organization, and she wants to retain independence from other organizations as much as possible. She would like to choose a facility that balances cost and recovery time, allowing activation in about one week after a disaster is declared. What type of facility should she choose?    
 A.	Cold site     
@@ -860,7 +860,7 @@ B.	Warm site
 C.	Mutual assistance agreement       
 D.	Hot site       
 
-Answer: A         
+Answer: B         
 
 ### Question # 107 - Helen’s organization handles large quantities of highly sensitive information. To help address this risk, she purchased a cyber-l iability insurance policy. What type of risk response action is Helen taking?       
 A.	Transfer    
@@ -876,7 +876,7 @@ B.	Brute- force
 C.	Cross- site scripting (XSS)     
 D.	Man-in-the-middle/on- path      
 
-Answer: A         
+Answer: C         
 
 ### Question # 109 - Which federal standard is for the accreditation and distinguishing of secure and well- architected cryptographic modules produced by private sector vendors who see to or are in the process of having their solutions and services certified by the U.S. government departments and regulated industries that collect, store, transfer, or share data that is deemed to be sensitive but not classified?     
 A.	ISO 27036     
@@ -884,7 +884,7 @@ B.	ISO 27050
 C.	COBIT    
 D.	FIPS 140- 2     
 
-Answer: A         
+Answer: D         
 
 ### Question # 110 - Which one of the following technologies is least commonly associated with semi- structured data?     
 A.	JSON     
@@ -892,7 +892,7 @@ B.	XML
 C.	SQL     
 D.	MongoDB      
 
-Answer: A         
+Answer: C         
 
 ### Question # 111 - Which of the following describes a SYN flood attack?     
 A.	Rapid transmission of internet Relay Chat (IRC) messages     
@@ -900,7 +900,7 @@ B.	Creating a high number of partially open TCP connections
 C.	Disabling the Domain Name Service (DNS) server      
 D.	Excessive list linking of users and files      
 
-Answer: A         
+Answer: B         
 
 ### Question # 112 - What concept from the field of digital forensics requires that you document who handles evidence from the time of collection until the time of use in court?     
 A.	eDiscovery      
@@ -908,7 +908,7 @@ B.	Probable cause
 C.	Chain of custody    
 D.	The Doctrine of the Proper Law   
 
-Answer: A         
+Answer: C         
 
 ### Question # 113 - Chris is investigating a security incident where he believes that an attacker placed fraudulent orders using his organization’s website. He believes that critical evidence may be stored in the website’s logs and is concerned that those logs may be modified because the web server is still in production. The web server is hosted in a virtualized environment. What action should Chris take?        
 A.	Keep the website offline until the investigation is complete.    
@@ -916,7 +916,7 @@ B.	Take the virtualization platform offline as evidence.
 C.	Take a snapshot of the web server instance and use that for the investigation.      
 D.	No action is necessary.      
 
-Answer: A         
+Answer: C         
 
 ### Question # 114 - The Transport Layer Security (TLS) protocol creates a secure communications channel over public media (such as the internet). In a typical TLS session, what form of cryptography is used for the session key?    
 A.	Symmetric key    
@@ -932,7 +932,7 @@ B.	Test
 C.	Develop     
 D.	Sanitize       
 
-Answer: A         
+Answer: D         
 
 ### Question # 116 - What component of a virtualized environment is responsible for enforcing tenant isolation?           
 A.	Guest operating system           
@@ -940,7 +940,7 @@ B.	Hypervisor
 C.	Kernel    
 D.	Protection manager    
 
-Answer: A         
+Answer: B         
 
 ### Question # 117 - In a public cloud services arrangement, who creates governance that will determine which controls are selected for the datacenter and how they are deployed?     
 A.	The cloud provider     
@@ -956,7 +956,7 @@ B.	PASTA
 C.	DREAD     
 D.	SAFEcode      
 
-Answer: A         
+Answer: D         
 
 ### Question # 119 - Gavin is creating a report to management on the results of his most recent risk assessment. In his report, he would like to identify the remaining level of risk to the organization after adopting security controls. What term best describes this current level of risk?       
 A.	Inherent risk       
@@ -964,7 +964,7 @@ B.	Residual risk
 C.	Control risk     
 D.	Mitigated risk      
 
-Answer: A         
+Answer: B         
 
 ### Question # 120 - Tina is gathering evidence as part of a cybersecurity investigation. Which one of the  following evidence types is most volatile?      
 A.	Firmware contents     
@@ -972,7 +972,7 @@ B.	File stored in archival storage
 C.	File stored on a server hard drive       
 D.	RAM contents      
 
-Answer: A         
+Answer: D         
 
 ### Question # 121 - The Agile Manifesto for software development focuses largely on _________________.        
 A.	Secure build     
@@ -980,7 +980,7 @@ B.	Thorough documentation
 C.	Working prototypes      
 D.	Proper planning      
 
-Answer: A         
+Answer: C         
 
 ### Question # 122 - You are the IT security manager for a video game software development company. In order to test the functionality of online multiplayer game content, your testing team wants to use a cloud service independent from the internal production environment. You suggest that a(n) _________________ service model will best meet this requirement.      
 A. IaaS     
@@ -988,7 +988,7 @@ B.	PaaS
 C.	SaaS     
 D.	FaaS      
 
-Answer: A         
+Answer: B         
 
 ### Question # 123 - Why is Simple Object Access Protocol (SOAP) used for accessing web services instead of the Distributed Component Object Model (DCOM) and the Common Object Request Broker Architecture (CORBA)?      
 A.	SOAP provides a much more lightweight solution.      
@@ -996,7 +996,7 @@ B.	SOAP provides for stronger interoperability.
 C.	SOAP is much more secure.      
 D.	SOAP is newer.      
 
-Answer: A         
+Answer: B         
 
 ### Question # 124 - 	____________ is an exercise designed to determine the impact of losing the support of or availability of any particular resource to an organization.      
 A.	BIA     
