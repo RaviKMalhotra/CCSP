@@ -5,7 +5,7 @@ B.	Shut down the failed system and send an alert.
 C.	Restart the VMs hosted on that system on other cluster nodes.    
 D.	Migrate the hosts from the failed system to its backup mirror.     
 
-Answer: A                      
+Answer: C                                    
 
 ### Question # 2 - Will wants to use containerized applications in his cloud- hosted environment. Which of the following is a best practice he should use as he builds them?      
 A. Package a single application per container.         
@@ -21,7 +21,7 @@ B.	ISO/IEC 27017
 C.	PCI DSS     
 D.	GDPR     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 4 - Helen’s organization operates an e- commerce website housed by a cloud service provider. Which of the following compliance standards is she likely to have to comply with?     
 A.	PCI DSS     
@@ -37,7 +37,7 @@ B.	Use a patching script developed by the organization.
 C.	Set up automatic updates for all applications and the OS.      
 D.	Use the cloud provider’s patching tools and patch baselines.       
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 6 - Yasmine is validating her software’s performance under load, including testing for higher numbers of users than her organization expects to ever use the application. What type of testing is she conducting?      
 A. Functional testing      
@@ -45,7 +45,7 @@ B.	Black- box testing
 C.	Nonfunctional testing     
 D.	White- box testing      
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 7 - Adam’s organization uses Google cloud services and he wants to ensure that his organization’s logs are secure. What best practice should he recommend to his organization to ensure that the logs are secure at rest?      
 A.	Ensure the cloud provider regularly rotates keys for the logs.     
@@ -53,7 +53,7 @@ B.	Use customer- managed encryption keys for logs.
 C.	Use provider- managed encryption keys for logs.     
 D.	Avoid encrypting logs to ensure they remain accessible.      
 
-Answer: A                      
+Answer: B                      
  
 ### Question # 8 - Charleen wants to implement multifactor authentication for her organization. Which of the following MFA options is considered the least secure?     
 A.	Application- based code generation     
@@ -61,7 +61,7 @@ B.	Hardware token–based code generation
 C.	SMS- based code delivery     
 D.	USB hardware tokens     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 9 - Email and web pages are both examples of what type of data?     
 A.	Unstructured data     
@@ -69,7 +69,7 @@ B.	Structured data
 C.	Semi- structured data     
 D.	Partially structured data    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 10 - Felix wants to ensure that members of his organization only access management consoles while they are in approved locations. Which of the following network security capabilities will best allow him to accomplish that task?     
 A.	Zero trust     
@@ -77,7 +77,7 @@ B.	Geofencing
 C.	Traffic inspection     
 D.	Network security groups      
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 11 - Valerie, an Amazon AWS user, is concerned about potential outages that might impact her current US- East region. What risk mitigation strategy should she take to ensure her organization can handle a region- wide outage?       
 A. Configure DR in another region.         
@@ -109,7 +109,7 @@ B.	Purchasing power from two different providers
 C.	UPS     
 D.	PDUs       
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 15 - What term is used to describe a cloud service provider that allows customers to create virtual machines, define their own networking using virtual networks, and use storage and other services to create and manage their own infrastructure?     
 A.	IaaS     
@@ -125,7 +125,7 @@ B.	Data masking
 C.	Hashing     
 D.	Anonymization       
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 17 - Hui wants to conduct a point in time SOC audit that covers her organization’s security practices. What type of SOC audit should she select?   
 A.	A SOC 1 Type 1      
@@ -133,7 +133,7 @@ B. A SOC 2 Type 1
 C. A SOC 1 Type 2     
 D. A SOC 2 Type 2     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 18 - The Cloud Security Alliance notes that specific log types may only be available to cloud  service providers when conducting forensic investigations. Which of the following log types will not typically be under service provider control in an IaaS environment?      
 A.	Logs from DNS servers     
@@ -141,7 +141,7 @@ B.	Billing records
 C.	API logs     
 D.	Web server logs      
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 19 - ITIL v4 defines one primary responsibility for availability. What role is key to availability efforts in ITIL?     
 A.	System architect     
@@ -149,7 +149,7 @@ B.	Availability tester
 C.	Risk manager     
 D.	Availability manager       
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 20 - Wayne’s organization employs cloud architects who have broad responsibility for the implementation and oversight of their cloud environment. He wants to provide the architects with appropriate rights in his environment. What should he do to provide them with the proper rights?      
 A.	Use the vendor’s best practices definitions for cloud architect rights.     
@@ -157,7 +157,7 @@ B.	Use only built- in roles.
 C.	Define a custom role.   
 D.	Use multifactor authentication to map roles as needed.     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 21 - Jack is considering a cloud service policy as part of his organization’s move to the cloud. Which of the following is not a common principle to follow when building a cloud  service policy?     
 A.	Obtain input from all relevant stakeholders.    
@@ -165,7 +165,7 @@ B.	Change organizational culture for the cloud.
 C.	Follow the chain of command.    
 D.	Meet external requirements.     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 22 - Lucca wants to define technical risks to his cloud environment. Which of the following is not a technical risk for his cloud services?    
 A.	Privacy issues    
@@ -213,7 +213,7 @@ B.	Partners
 C.	Regulators     
 D.	Law enforcement    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 28 - Google’s Cloud Architecture Framework suggests a number of common security design practices. Which of the following is not a common cloud IaaS design security practice?     
 A. Meet compliance requirements for your regions.     
@@ -221,7 +221,7 @@ B.	Use a layered security approach.
 C.	Emphasize manual monitoring.     
 D.	Automate deployment of sensitive tasks.      
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 29 - Olivia is using a waterfall SLDC. Which of the following is not a phase in typical waterfall- based SDLCs?     
 A.	Requirements gathering     
@@ -229,7 +229,7 @@ B.	Reverse engineering
 C.	Implementation     
 D.	Maintenance     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 30 - Michelle wants to store and manage cryptographic keys for her cloud environment. What solution should she require her cloud IaaS provider to have if she is selecting a new provider?     
 A.	TPM    
@@ -237,7 +237,7 @@ B.	Cloud HSM
 C.	PKI     
 D.	SAS 70     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 31 - What is the most common method for allocation of compute power in cloud IaaS environments?
 A.	Each customer uses a dedicated CPU per instance.
@@ -245,7 +245,7 @@ B.	Each customer uses a dedicated core per instance.
 C.	Computation time is virtualized and allocated based on performance.
 D.	Computation time is virtualized and allocated based on time.
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 32 - Gurvinder want to ensure that his cloud environment is available and reliable. What type of agreement should he ensure his organization receives from the cloud vendor?
 A.	QSA
@@ -253,14 +253,14 @@ B.	NDA
 C.	MSA
 D.	SLA
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 33 - Ben is exploring new security options for his organization and wants to learn about confidential computing. Which of the following best describes what confidential computing does? A. It ensures only authenticated users can access data.
 B.	It protects data both in transit and at rest.
 C.	It allows you to secure data in use, even while being processed.
 D.	It destroys data before it can be accessed by unauthorized parties.
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 34 - Susan wants to detect and alert on potential malicious traffic, but she does not want to risk causing service outages due to false positives. What technology should she deploy?
 A.	IDS
@@ -276,7 +276,7 @@ B.	A description of the service
 C.	Dependencies on other services
 D.	Risk ratings
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 36 - What does the acronym STRIDE stand for?                                             
 A.	Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege             
@@ -292,7 +292,7 @@ B.	PaaS
 C.	SaaS         
 D.	DaaS         
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 38 - What security testing model is used to verify the components that make up open source software packages?     
 A. Static testing                   
@@ -300,7 +300,7 @@ B.	Software composition analysis
 C.	Interactive security testing           
 D.	Fuzzing           
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 39 - Chris has been notified by a partner about a recent breach of their cloud- hosted environment. What should Chris ask for from the partner organization?
 A.	A full list of compromised systems and services
@@ -308,14 +308,15 @@ B.	A list of impacted customers
 C.	Disclosure of any relevant information based on their partnership agreement
 D.	Disclosure of other impacted partners
 
-Answer: A                      
+Answer: C                      
 
-### Question # 40 - Gary is assessing risks and wants to describe how vendors are handling their risks. What term should he use to describe the risk remaining after the vendor has implemented their controls? A. Inherent risk
+### Question # 40 - Gary is assessing risks and wants to describe how vendors are handling their risks. What term should he use to describe the risk remaining after the vendor has implemented their controls?        
+A. Inherent risk           
 B.	Opportunity risk
 C.	Residual risk
 D.	Controlled risk
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 41 - Jaime wants to explain the technology that allows cloud vendors to sell access to portions of their underlying hardware in the form of compute. What building block technology provides the foundation for this?
 A.	APIs
@@ -323,7 +324,7 @@ B.	Virtualization
 C.	Segmentation
 D.	SLAs
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 42 - Yuri wants to avoid the OWASP Top 10 application security risks. What should he do to help prevent cryptographic failures for data in transit? 
 A. Use TLS for all communications.
@@ -339,7 +340,7 @@ B.	Service- level management
 C.	SLA
 D.	Indemnification
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 44 - Hillary wants to publish an SSAE- 18 SOC report to her website for public use. What type of SOC report should she provide if she wants to provide information about her organization’s controls over time? 
 A. An SOC 1 Type 2 
@@ -347,7 +348,7 @@ B. An SOC 2 Type 2
 C. An SOC 3 Type 2
 D. An SOC 4 Type 2
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 45 - Christina wants to ensure that her vendor is using appropriate, strong encryption technology. What standard could she ask her vendor to meet to ensure this?
 A.	EBCDIC
@@ -355,7 +356,7 @@ B.	FIPS 140- 2
 C.	SecureCERT
 D.	AESCert
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 46 - Jerome wants to implement DevOps for his organization and is considering how security should be designed in. Which practice is best suited to a DevOps CI/CD environment? 
 A. Automation of security processes
@@ -371,7 +372,7 @@ B.	eDiscovery
 C.	Data security
 D.	Copyright infringement
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 48 - Amanda wants to ensure that she can identify systems that performed actions in her cloud environment. What information is most critical to log to ensure she can properly identify ephemeral systems? 
 A. Their public IP address
@@ -379,7 +380,7 @@ B.	Their private IP address
 C.	Tags
 D.	Usernames
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 49 - Justin’s IRM system deployment uses tagging to document data sensitivity. How can he use tagging later to most effectively decrease the chance of a data breach? 
 A. Implement a DLP system.
@@ -411,7 +412,7 @@ B.	Fewer vulnerabilities
 C.	High availability     
 D.	Shorter patching windows     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 53 - Rene is designing her cloud environment to ensure business continuity. Which of the following design elements is best suited to ensuring business continuity?     
 A.	Setting up a backup VPC in another region    
@@ -419,7 +420,7 @@ B.	Configuring backups to another cloud provider
 C.	Deploying instances to multiple availability zones    
 D.	Ensuring staff are not all working the same location     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 54 - Henry wants to reduce the risk of secrets being exposed in the event of a breach. What practice should he adopt to help prevent an attacker with access to application source code or the running application from using the secrets they can recover for future access?     
 A. Use multifactor authentication.     
@@ -427,7 +428,7 @@ B.	Use dynamic secrets.
 C.	Use strong passwords.   
 D.	Use certificates and passphrases.    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 55 - Jim has mounted a local C: drive for his Windows instance in his cloud service provider’s IaaS environment. What type of storage is he most likely using?    
 A.	Ephemeral block storage    
@@ -443,7 +444,7 @@ B.	Packet capture
 C.	Specialized cloud service logs    
 D.	Configuration review     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 57 - Emily needs to identify the data elements in an existing customer database that match customers in a newly acquired customer database. What process will Emily need to engage in to accomplish this? 
 A. Data migration     
@@ -451,7 +452,7 @@ B.	Data mining
 C.	Data consolidation    
 D.	Data mapping     
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 58 - Wayne’s organization considers their data to be highly sensitive and wants to ensure that the cloud provider itself cannot access the data while it is stored on the provider’s large-s cale bulk storage. What type of encryption should he select to accomplish this in a secure manner?     
 A.	AES- 256     
@@ -467,7 +468,7 @@ B.	Rapid application development
 C.	Testing malicious software     
 D.	Performing FIPS 140- 2 testing      
 
-Answer: A                      
+Answer: C                     
 
 ### Question # 60 - The North American Electric Reliability Corporation Critical Infrastructure Protection (NERC/CIP) points to what it calls “mutually managed encryption” as a useful model for cloud environments where the cloud service provider and registered entity (covered by NERC/CIP’s requirements) share access and management of encryption keys. What advantage does this type of shared responsibility provide?     
 A.	Flexibility and easier operational support      
@@ -499,7 +500,7 @@ B.	Conducting regular vulnerability scanning
 C.	Create and use configuration baselines    
 D.	Using default settings to ensure proper configuration    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 64 - What document is typically created after a master service agreement (MSA) to determine what tasks a business will actually perform?    
 A.	SLA    
@@ -507,7 +508,7 @@ B.	SOW
 C.	NDA    
 D.	SOP    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 65 - Christina wants to use Google as an identity provider, allowing her organization to simply determine what rights account holders would have while allowing Google to perform authentication and identity management for her. What is this type of relationship called?     
 A.	A client/server infrastructure     
@@ -515,7 +516,7 @@ B.	Collaboration
 C.	A service provider    
 D.	Federation    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 66 - Naomi wants to understand what open source components are part of the containerization tool she is considering adopting. What testing process should she use to understand potential risks of the software based on its components?      
 A.	Interactive application security testing    
@@ -523,7 +524,7 @@ B.	Software composition analysis
 C.	Manual static testing    
 D.	Automated static testing     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 67 - Selah has deployed open source software in her cloud environment and wants to validate the licensing for the software. What concern is most frequently involved in open source software licensing?     
 A.	The cost of licensing     
@@ -531,7 +532,7 @@ B.	The license type
 C.	The length of the license period     
 D.	Changes to the license for the deployed software    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 68 - The company that Eric works for uses an authentication process that allows Eric to log in once and then use a variety of systems and services the organization provides. What technology is the company using?    
 A.	Federation    
@@ -539,7 +540,7 @@ B.	MFA
 C.	IAM    
 D.	SSO    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 69 - ITIL v4 includes three major tasks for configuration management. Which of the following lists correctly identifies those tasks?   
 A.	Configuration design, configuration control, configuration deletion     
@@ -547,7 +548,7 @@ B.	Configuration identification, configuration control, configuration verificati
 C.	Configuration identification, configuration management, configuration modification    
 D.	Configuration design, configuration modification, configuration documentation    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 70 - Chuck wants to conduct a gap analysis for the security controls in his cloud environment. What artifact will he need first?     
 A.	OLA      
@@ -555,7 +556,7 @@ B.	Configuration baseline
 C.	DR/BC plan     
 D.	ITIL- based configuration item (CI)     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 71 - Annie wants to test software as part of her quality assurance efforts. What type of quality assurance testing will provide the greatest insight into the quality of the software being produced?    
 A.	Automated QA testing tools      
@@ -563,7 +564,7 @@ B.	Fuzzing
 C.	Manual QA testing      
 D.	Software composition analysis      
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 72 - Dave logs into a service using a federated identity. What does the identity provider send to his browser to present to the service provider?    
 A.	A token     
@@ -579,7 +580,7 @@ B.	A snapshot window
 C.	A recovery point objective     
 D.	A snapshot duration    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 74 - Alaina wants to establish metrics for her risk management program. Which of the following isn’t a metric that will help her manage her program effectively?      
 A.	Cost of the risk management program     
@@ -587,7 +588,7 @@ B.	The number of risks identified
 C.	The number of risks that have occurred     
 D.	The rate of risk occurrence per day    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 75 - What is the primary driver in cloud IaaS environments for storage capacity monitoring?      
 A.	Performance management    
@@ -595,7 +596,7 @@ B.	Cost management
 C.	Continuity management     
 D.	Security management    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 76 - Lisa is auditing her customer’s cloud- hosted services. She has been asked to perform an external audit of all the cloud services in use. What is the largest challenge she is likely to face?     
 A.	Accessing audit trails in customer- managed environments   
@@ -603,7 +604,7 @@ B.	Determining appropriate audit targets
 C.	Understanding the scope of the cloud environment    
 D.	Gathering information about controls from provider audit artifacts    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 77 - Which of the following is not typically stored in cloud secrets management tools?    
 A. MFA tokens     
@@ -619,7 +620,7 @@ B.	On endpoint devices as a client
 C.	At the network border      
 D.	At the network core    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 79 - Lucca wants to apply data classification to his organization’s data. What phase of the data lifecycle should he ensure tags are applied at?    
 A.	Create     
@@ -635,7 +636,7 @@ B.	Broad privileges available via IAM
 C.	Ephemeral infrastructure     
 D.	High levels of instrumentation    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 81 - Nick operates a service that hosts e- commerce websites. His infrastructure runs in AWS, and each customer is allocated their own S3 storage bucket. What type of logical design is Nick using?     
 A.	Storage aggregation      
@@ -643,7 +644,7 @@ B.	Virtualization
 C.	Containerization     
 D.	Tenant partitioning    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 82 - Katie’s organization creates their software in an environment hosted in the Azure cloud. They use a continuous integration/continuous delivery (CI/CD) process that focuses on automated testing and deployment. What risk is most likely to make it through an automated security testing process? A. Business logic risk      
 B.	SQL injection flaws     
@@ -674,7 +675,7 @@ B.	Enabling password complexity requirements
 C.	Changing the default SSH port number    
 D.	Limiting which users can log in via SSH     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 86 - What ISO/IEC standard defines business continuity plans, systems, and processes?     
 A.	ISO/IEC 270001      
@@ -682,7 +683,7 @@ B.	ISO/IEC 853- 1
 C.	ISC/IEC 28000:2022     
 D.	ISO/IEC 22301:2019    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 87 - What ports and protocol does DHCP operate on?      
 A.	UDP ports 21 and 22   
@@ -690,7 +691,7 @@ B.	TCP ports 80 and 443
 C.	TCP ports 3389 and 4780    
 D.	UDP ports 67 and 68    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 88 - Sara wants to operate some of her infrastructure in a datacenter that she controls and some in third- party cloud- hosted environments. What type of cloud deployment model best describes this? 
 A. Private cloud      
@@ -698,7 +699,7 @@ B.	Hybrid cloud
 C.	Multicloud        
 D.	Community cloud       
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 89 - Isabelle wants to retrieve forensic data from her cloud provider’s native logging facility. What technique is most likely to be supported for this type of data access?      
 A.	Transfer to removable media     
@@ -706,7 +707,7 @@ B.	Manual copying
 C.	API- based      
 D.	Printed copies     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 90 - Wesley wants to ensure that sensitive data used by his organization cannot be accessed or recovered by third parties. Once his organization stops using data stored in the cloud, what deletion process should he recommend they use?      
 A.	Cryptographic shredding      
@@ -730,7 +731,7 @@ B.	Cloud HSM
 C.	Cloud TPM     
 D.	Dedicated HSM     
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 93 - Ashley’s testing process involves approaching software testing like an attacker would. She will attempt to compromise or misuse the software, and report on its responses and any issues she identifies. What type of testing is Ashely conducting?     
 A.	Abuse case testing       
@@ -754,7 +755,7 @@ B.	Create the RFC.
 C.	Change authorization.           
 D.	Deployment.       
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 96 - Specific customer data in Gina’s database has been replaced with alternate values that allow Gina to look up the original information from another database without exposing the actual data in the database she is using. Each unique data element is given a replacement value that is consistent any time that data element is used. What type of technique is in use in Gina’s database? 
 A. Masking    
@@ -762,7 +763,7 @@ B.	Hashing
 C.	Anonymization           
 D.	Tokenization         
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 97 - Amanda’s company is being sued, and has received a letter from opposing counsel requiring them to retain information related to the lawsuit. What is this called?      
 A.	Statute- based retention     
@@ -770,7 +771,7 @@ B.	Legal hold
 C.	DR/BC requirements     
 D.	Legislative hold    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 98 - Freya wants to revoke a certificate used by her organization. What will happen when she revokes the certificate via her certificate authority?      
 A.	The certificate will no longer work to encrypt data.       
@@ -778,7 +779,7 @@ B.	The certificate will be placed on a certificate revocation list.
 C.	A message about the revocation will be sent to all users of the certificate.       
 D.	The CA will set the certificate’s expiration date to the revocation date.     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 99 - Bart wants to perform data discovery on information stored in a SQL database that his company uses for customer information. What type of data is this?      
 A.	Structured data     
@@ -794,7 +795,7 @@ B.	A SIEM
 C.	IDS     
 D.	AI    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 101 - Kathleen is concerned about country- specific privacy regulations because her organization is opening a location in a new country. What should she advise her organization’s leadership to do?     
 A.	Follow OWASP- defined best practices.      
@@ -802,7 +803,7 @@ B.	Engage external counsel with appropriate expertise.
 C.	Identify an appropriate NIST standard to follow.     
 D.	Carefully review the laws and design the new policy based on them.     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 102 - Which of the following is not a typical driver for data retention policies?     
 A.	Business requirements      
@@ -810,7 +811,7 @@ B.	Legal requirements
 C.	Regulatory requirements     
 D.	Data integrity requirements     
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 103 - Parker is concerned about customers abusing his organization’s APIs and wants to control the volume of requests they are allowed to send. Which of the following solutions is best suited to meet his needs?     
 A.	An API gateway     
@@ -826,7 +827,7 @@ B.	Vendor lock- in
 C.	API contention     
 D.	Code escrow    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 105 - Rick’s company spreads its data across multiple cloud vendors to help ensure that a data loss event or disaster at a single provider doesn’t cause the organization to lose the data. What technique is Rick’s company using?     
 A.	Data mapping      
@@ -834,7 +835,7 @@ B.	Data cloning
 C.	Data dispersion     
 D.	Data modeling     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 106 - Jonah wants to address the OWASP Top 10 vulnerable and outdated components issue for his organization. What can he do to most effectively help identify them for his open source tools?       
 A.	Use software composition analysis tools.     
@@ -866,7 +867,7 @@ B.	There is not a physical disk that Henry can access, and a snapshot is the clo
 C.	The forensic copy cannot be verified because the disk will change during the process.     
 D. Cloud providers do not allow forensic copies of systems in their environments, and only logs will be available.         
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 110 - ITIL v4 identifies four information management subprocesses related to information security management. What ITIL v4 subprocess includes audits?     
 A.	Design of security controls     
@@ -874,7 +875,7 @@ B.	Security testing
 C.	Management of security incidents     
 D.	Security review    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 111 - Diana wants to increase the bandwidth available to her cloud infrastructure as a service- hosted system. What would she need to do to increase the speed at which her instance is connecting to the provider’s network?       
 A.	Replace the network interface card.     
@@ -882,7 +883,7 @@ B.	Request that the cloud provider upgrade the network card.
 C.	Increase the instance’s network bandwidth.     
 D.	Change the network interface speed setting inside the instance’s operating system.     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 112 - What step occurs at point X in the following diagram as part of the cloud secure data lifecycle?     
 A.	Reclassify     
@@ -890,7 +891,7 @@ B.	Back up
 C. Manage    
 D. Destroy    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 113 - What requirement for data breach reporting does the Sarbanes–Oxley Act place on  organizations that must comply with it?     
 A.	All impacted customers must be notified.      
@@ -898,7 +899,7 @@ B.	Data breaches must be reported in annual and quarterly reports.
 C.	Law enforcement must be informed as soon as the breach is discovered.    
 D.	Breach disclosure is required in local news media.    
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 114 - Renee wants to gather requirements as part of her Agile SDLC. Which of the following is not a common requirements- gathering process for Agile teams?      
 A.	Interviews     
@@ -906,7 +907,7 @@ B.	Questionnaires
 C.	Workshops     
 D.	Reverse engineering    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 115 - Christina wants to train developers in her organization on common issues in web application development for the cloud. What tool can she use to base her training on?     
 A.	MITRE’s ATT&CK      
@@ -914,7 +915,7 @@ B.	The OWASP Top 10
 C.	The SANS Blue Book     
 D.	NIST’s CMDB     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 116 - Emily’s company aggregates cloud service contracts for multiple customers to allow for a better discount rate. They also provide integration services for their customers. What role is Emily’s company playing?        
 A.	Cloud service provider    
@@ -922,7 +923,7 @@ B.	Regulator
 C.	Cloud service broker    
 D.	Cloud steward     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 117 - Mike wants to use a standards- based rating system to identify, define, and catalog vulnerabilities. Which of the following options should he choose?      
 A.	CVE      
@@ -938,7 +939,7 @@ B.	Generally Accepted Privacy Principles (GAPP)
 C.	FERPA    
 D.	GDPR    
 
-Answer: A                      
+Answer: D                      
 
 ### Question # 119 - Fiona wants to back up virtual machines hosted in her on- premises datacenter. What technique is typically used to back up guest operating systems?     
 A.	Backup clients on the guest OS      
@@ -946,7 +947,7 @@ B.	Copies of the underlying guest OS disks
 C.	Snapshots through the VM host     
 D.	Snapshots through the guest OS    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 120 - Olivia’s industry requires yearly audits of their business, and she knows that she needs to provide audit artifacts to the auditors about her cloud- hosted services. What should Olivia do to meet her audit requirements?      
 A.	Engage external auditors to audit the cloud provider.        
@@ -954,7 +955,7 @@ B.	Contact the cloud service provider to obtain the required audit artifacts.
 C.	Engage internal auditors to audit the cloud provider.     
 D.	Contact the cloud service provider and provide the required audit artifacts to them.     
 
-Answer: A                      
+Answer: B                      
 
 ### Question # 121 - What happens at the end of the release management process flow according to ITIL?     
 A.	Release closure        
@@ -978,7 +979,7 @@ B.	Build a datacenter.
 C.	Rent space in a datacenter facility.     
 D.	Build a datacenter in an existing building.    
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 124 - Which of the following is true of most cloud service providers datacenters?      
 A.	Access to inexpensive power is not a major driver in datacenter placement.    
@@ -986,7 +987,7 @@ B.	Datacenters are placed without regard to weather- based threats.
 C.	Customers are not allowed physical access to machines.     
 D.	Redundant design is not critical due to the number of datacenters.     
 
-Answer: A                      
+Answer: C                      
 
 ### Question # 125 - Maria logs into her company’s service portal and looks at a customer’s information. In the credit card field she sees the credit card listed in a format that reads: XXXX- XXXX- XXXX- 1980, What type of data security technique is in use?    
 A.	Hashing    
@@ -994,7 +995,7 @@ B.	Masking
 C.	Randomization    
 D.	De- identification    
 
-Answer: A                      
+Answer: B                      
  
 
 ### Chapter 8: Practice Test 2
