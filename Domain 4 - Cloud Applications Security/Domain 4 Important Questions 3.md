@@ -260,7 +260,7 @@ B.	FIPS 140-2.
 C.	SSL.   
 D.	SHA- 2.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 34 - Megan wants to increase the auditability of the use of privileges in her infrastructure. Which of the following solutions will have the biggest positive impact on auditability?        
 A. Use shared service accounts.            
@@ -268,7 +268,7 @@ B.	Use multifactor authentication.
 C.	Use dynamic secrets.     
 D.	Use API keys.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 35 - In the testing phase of the software development life cycle (SDLC), software performance and ___________________ should both be reviewed.    
 A.	Version.         
@@ -276,7 +276,7 @@ B.	Complexity.
 C.	Size.   
 D.	Security.   
 
-Answer: A             
+Answer: D             
 
 ### Question # 36 - Chris wants to use a cloud provider–hosted mechanism to store and manage his organization’s secrets. What type of solution should he look for?        
 A.	KMS.       
@@ -300,7 +300,7 @@ B.	Cloud application security broker.
 C.	A containerization platform.            
 D.	A web application firewall.          
 
-Answer: A             
+Answer: C             
 
 ### Question # 39 - Yasmine is working with a software as a service vendor. What part of the environment does Yasmine’s company have responsibility for?        
 A. Applications and data storage.           
@@ -308,7 +308,7 @@ B.	The OS, middleware, and runtime.
 C.	Storage and networking.                            
 D.	The vendor is responsible for the environment.            
 
-Answer: A             
+Answer: D             
 
 ### Question # 40 -	Jason wants to use multifactor authentication. Which of the following lists a valid multifactor set?   
 A.	A username, password, and PIN.  
@@ -316,7 +316,7 @@ B.	A username, password, and app- generated code on a phone.
 C. A username, voiceprint, and fingerprint.    
 D. A username, app- generated code, and token- generated code.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 41 - 	Kim wants to use version control for her software. What common tool could her organization use to perform this function?    
 A.	Jenkins.     
@@ -324,7 +324,7 @@ B.	Chef.
 C.	Git.   
 D.	Puppet.  
 
-Answer: A             
+Answer: C             
 
 ### Question # 42 - Ramon’s organization uses Office 365 but relies on their own Active Directory credentials to log into O365. What is this type of configuration called?      
 A.	Federated identity.    
@@ -340,7 +340,7 @@ B.	Tracking all software version.
 C.	Using only commercial software.   
 D.	Software inventory.     
 
-Answer: A             
+Answer: D             
 
 ### Question # 44 - 	Laura wants to use a threat modeling tool to assess threats in her environment. Which of the following models has been abandoned by Microsoft and replaced with a new model?  
 A.	DREAD.      
@@ -365,7 +365,7 @@ B.	A SIEM.
 C.	Sandboxing.    
 D.	Antivirus.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 47 - Kieran’s team has deployed a CASB and wants to focus on data protection. Which of the following capabilities will most effectively help protect against third parties accessing data while it travels between Kieran’s on- premises location and their cloud vendors?              
 A. Encryption.           
@@ -397,7 +397,7 @@ B.	Activity and data.
 C.	Identity and service.    
 D.	Service and data.    
 
-Answer: A             
+Answer: C             
 
 ### [important] Question # 51 - Jack wants to use the [ATASM model]. Which of the following is [not] one of the key elements of an ATASM assessment?      
 A.	Attacks.   
@@ -421,7 +421,7 @@ B.	Simple Mail Transfer Protocol (SMTP).
 C.	Internet Control Message Protocol (ICMP).    
 D.	Hypertext Transfer Protocol (HTTP).   
 
-Answer: A             
+Answer: D             
 
 ### [important] Question # 54 - Henry wants to design his SDLC to help prevent the most common application security issues. Where in the SDLC should he insert controls to ensure that his application architecture is secure?         
 A.	Analysis and requirements definition.   
@@ -429,7 +429,7 @@ B.	Design.
 C.	Deployment.    
 D.	Operations and maintenance.    
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 55 - 	Jacinda’s manager has asked her to set up a sandbox environment to help validate third-party software before it is run. What should Jacinda prepare an environment to handle?    
 A.	Optimizing the production environment by moving processes that are not frequently used into the sandbox.  
@@ -437,7 +437,7 @@ B.	Allowing secure remote access for users who need resources in the cloud envir
 C.	Running malware for analysis purposes.   
 D.	Creating secure subnets of the production environment.    
 
-Answer: A             
+Answer: C             
 
 ### [important] Question # 56 - Valerie wants to [decouple] her application infrastructure [from her underlying operating system platforms] to allow her to more [easily migrate between cloud service providers]. What type of solution will best fit her needs?      
 A.	Use custom configured Linux virtual machines to host the application.    
@@ -445,7 +445,7 @@ B.	Use containers configured for the application to host the application.
 C.	Use the cloud provider’s native serverless infrastructures to host the applications.     
 D.	Use default Linux systems with default configurations to host the application.     
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 57 - 	Gary wants to [monitor privileged credential] use in his Microsoft [SQL] Server environment, which he hosts with an IaaS provider. What type of tool should Gary select to help with this need?     
 A.	A WAF.   
@@ -453,7 +453,7 @@ B.	A database SIEM.
 C.	A DB- IPS.    
 D.	A DAM.    
 
-Answer: A             
+Answer: D             
 
 ### [important] Question # 58 - 	Paula wants to avoid denial- of- service attacks against her APIs. What controls should she select to most effectively provide this type of security?      
 A.  Use an IPS and a scalable architecture.       
@@ -461,7 +461,7 @@ B.	Use a scalable architecture and set throttling limits and quotas.
 C.	Require authentication and use an IPS.     
 D.	Require authentication and **set throttling limits and quotas**.     
 
-Answer: A             
+Answer: D             
 
 ### Question # 59 - 	Sandboxing can often be used for ___________________.   
 A.	Testing user awareness and training.    
@@ -469,7 +469,7 @@ B.	Testing API security.
 C.	Testing software before putting it into production.   
 D.	Testing software to validate its compliance with regulatory requirements.   
 
-Answer: A             
+Answer: C             
 
 ### Question # 60 - Jen wants to ensure that the encryption modules she is using in her application design are secure. What type of validation or certification should she look for?          
 A.	PCI compliant.    
@@ -477,7 +477,7 @@ B.	AES- cert.
 C.	FIPS 140- 2.    
 D.	GLBA validated.     
 
-Answer: A             
+Answer: C             
 
 ### [important] Question # 61 - Kwame wants to [limit the impact of potentially compromised secrets] in his environment. What [should he do] to most effectively [limit the issues] compromised secrets can cause?       
 A.  Extend secrets lifecycle.      
@@ -485,7 +485,7 @@ B.	Rotate secrets.
 C.	Replace secrets with tokens.              
 D.	Implement a secret expiration list.           
 
-Answer: A             
+Answer: B             
 
 ### Question # 62 - As part of her organization’s SDLC, Olivia is testing whether the business logic in a new application generates correct output. What type of testing is Olivia conducting?    
 A.	Stress testing.    
@@ -493,7 +493,7 @@ B.	Functional testing.
 C.	Load testing.    
 D.	Nonfunctional testing.    
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 63 - 	Olivia’s organization wants to adopt multifactor authentication. Which of the following MFA models is considered [less secure than] the others?    
 A.	Hardware tokens.   
@@ -501,7 +501,7 @@ B.	Mobile applications.
 C.	SMS factors.    
 D.	USB tokens.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 64 - Ben wants to validate open source software packages used in his environment. Which of the following is [not a valid dynamic testing] option?
 A.	Use manual security testing of the live application.   
@@ -509,7 +509,7 @@ B.	Use an application vulnerability scanner.
 C.	Use manual security testing of the source code.     
 D.	Conduct unit and integration testing of the application.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 65 - Yariv’s abuse case testing has identified an issue with their web application that allows bots to conduct automated attacks. What type of protection could he implement to limit the impact of bots performing actions like this?    
 A.	Filter known SQL injection attacks from web queries.    
@@ -517,7 +517,7 @@ B.	Use a CAPTCHA before allowing user actions.
 C.	Require users to log in before performing actions.    
 D.	Prevent XSS by limiting special characters in form submissions.    
 
-Answer: A             
+Answer: B             
 
 ### Question # 66 - Emily logs in to a third- party website using her Google credentials. What role is Google playing in the authentication process? 
 A.  Google is the service provider.      
@@ -525,7 +525,7 @@ B.	Google is the storage provider.
 C.	Google is the authorization provider.    
 D.	Google is the identity provider.    
 
-Answer: A             
+Answer: D             
 
 ### Question # 67 - Software developers designing applications that allow access to protected customer information for the cloud should expect to include options to ensure all of the following capabilities except ___________________.      
 A.	Encryption of data at rest.   
@@ -533,7 +533,7 @@ B.	Encryption of data in transit.
 C.	Data masking.   
 D.	Randomizing customer data.   
 
-Answer: A             
+Answer: D             
 
 ### Question # 68 - Kristen wants to filter her SAML traffic for potential attacks, including rate- limiting requests and validating content. Which of the following solutions is purpose- built for this type of security design?      
 A.	A DAM with OpenID support.   
@@ -541,7 +541,7 @@ B.	A SAML compliant IDS.
 C.	An XML firewall.   
 D.	A WAF.   
 
-Answer: A             
+Answer: C             
 
 ### [important tricky] Question # 69 - Which of the following is not true about single sign- on (SSO)?    
 A.	Reduction in password fatigue.   
@@ -549,7 +549,7 @@ B.	Reduces password reuse.
 C.	Prevents the use of multifactor authentication.   
 D.	Makes end- user credential management easier.   
 
-Answer: A             
+Answer: C             
 
 ### Question # 70 - What does static application security testing (SAST) examine?     
 A.	Software outcomes.  
@@ -557,7 +557,7 @@ B.	User performance.
 C.	System durability.    
 D.	Source code.   
 
-Answer: A             
+Answer: D             
 
 ### [important tricky] Question # 71 - Angela wants to deploy multifactor authentication (MFA) for her organization and wants to integrate with her cloud provider. Which of the following MFA options is least likely to be easily supported by a cloud provider?     
 A.	Hardware tokens.    
@@ -565,7 +565,7 @@ B.	Biometric readers.
 C.	Mobile applications.   
 D.	SMS factors.   
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 72 - 	Christina is following a typical SDLC process and has completed the planning phase. What phase typically follows the Planning phase in most SDLCs?      
 A.	Design.    
@@ -573,7 +573,7 @@ B.	Deployment.
 C.	Maintenance.   
 D.	Requirements Gathering.   
 
-Answer: A             
+Answer: D             
 
 ### Question # 73 - Annie’s organization uses a waterfall methodology for its SDLC. What description best fits a waterfall methodology?     
 A.	Development efforts can move easily between phases to meet organizational needs.    
@@ -581,7 +581,7 @@ B.	The outcome of each phase serves as the input to the next phase.
 C.	Development efforts repeat in cycles until the development is complete.     
 D.	The outcome of each phase determines whether the process moves forward or backward in the SDLC process.     
 
-Answer: A             
+Answer: B             
 
 ### Question # 74 - 	During what phase of the SDLC are business requirements most likely to be mapped to how the software will be built?      
 A.	Requirements Definition.   
@@ -589,7 +589,7 @@ B.	Design.
 C.	Testing.   
 D.	Secure Operations.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 75 - Stress testing is a form of what type of testing?     
 A.	Black box.    
@@ -597,7 +597,7 @@ B.	Functional testing.
 C.	White box.    
 D.	Nonfunctional testing.    
 
-Answer: A             
+Answer: D             
 
 ### [tricky] Question # 76 - 	Gabriel’s organization wants to ensure that their open source software is properly licensed. What should they were do?     
 A.	Contact the authors of each component to request permission to use them.     
@@ -605,7 +605,7 @@ B.	Engage a third- party license management vendor to ensure compliance with the
 C. Pay appropriate licensing fees to the licensing organization for each software component.      
 D. Review the licenses for each component to ensure they are in compliance.     
 
-Answer: A             
+Answer: D             
 
 ### Question # 77 - 	Sofia is preparing a list of the likely attacks against her APIs. Which of the following is not a common attack against APIs?     
 A.	Injection.   
@@ -613,7 +613,7 @@ B.	Malware.
 C.	Distributed denial- of- service.   
 D.	Credential stuffing.   
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 78 - The SAFECode Fundamental Practices for Secure Software Development includes a [section on handling errors]. What common development best practice does it reference?     
 A.	Providing too much information in errors.   
@@ -621,7 +621,7 @@ B.	Handling errors in a secure and graceful way.
 C.	Ensuring unanticipated errors are provided only to administrators.   
 D.	Ensuring unanticipated errors are provided only to users.   
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 79 - Jason wants to use TLS to protect his organization’s production web traffic. Who should generate the x.509 certificate for his website?    
 A.	Jason should generate it on the web servers.    
@@ -629,7 +629,7 @@ B.	Jason should use his company’s internal certificate authority.
 C.	Jason should use a commercial certificate authority.     
 D.	Jason should generate the certificate on a separate administrative workstation used only for that purpose.     
 
-Answer: A             
+Answer: C             
 
 ### Question # 80 - 	Lisa wants to ensure that the open source software package she has downloaded is legitimate. The software download site provides an SHA2 hash, a cryptographic signature, a file size, and a version number. Which of these options provides the greatest level of certainty?    
 A.	The SHA2 hash.   
@@ -637,7 +637,7 @@ B.	The cryptographic signature.
 C.	The file size.   
 D.	The version number.   
  
-Answer: A             
+Answer: B             
 
 ### [important] Question # 81 - 	James has created monitoring instrumentation for his application and uses the instrumentation to [assess performance as well as function during the QA stage of his SDLC]. What type of software validation methodology is he using?     
 A.	IAST.   
@@ -678,7 +678,7 @@ B.	Active Directory.
 C.	SAML.     
 D.	LDAP.    
 
-Answer: A             
+Answer: D             
 
 ### Question # 86 - Regardless of which model the organization uses for system development, in which phase of the software development life cycle (SDLC) will user input be requested and considered?       
 A.	Define.    
@@ -694,7 +694,7 @@ B.	Set a non-privileged user as the container owner.
 C.	Set a non-privileged user as the process owner.      
 D.	Use multifactor authentication for the root user.     
 
-Answer: A             
+Answer: C             
 
 ### Question # 88 - Jessica’s quality assurance testing process involves identifying software flaws, including business logic flaws and other coding mistakes. What type of testing should she perform to most effectively identify underlying code quality issues?     
 A.	Static testing.   
@@ -711,7 +711,7 @@ B. The ability of internal personnel to trigger business continuity/disaster rec
 C. The ability of a participant in a transaction to refute that they’ve taken part in the transaction.    
 D. The ability of an unauthorized user to pretend to be an authorized user.    
 
-Answer: A             
+Answer: B             
 
 ### Question # 90 - Kathleen’s organization uses a microservices architecture to deliver its major applications. What type of security tool is best suited to providing security for microservices that rely on APIs and service discovery?    
 A.	CASB.   
@@ -719,7 +719,7 @@ B.	XML firewall.
 C.	RPC gateway.  
 D.	API gateway.  
 
-Answer: A             
+Answer: D             
 
 ### Question # 91 - 	At which phase of the software development life cycle (SDLC) should security personnel first be involved?      
 A.	Define.    
@@ -743,7 +743,7 @@ B.	SSO.
 C.	OTP.    
 D.	MFA.    
 
-Answer: A             
+Answer: B             
 
 ### [important] Question # 94 - Ben’s team uses the STRIDE model to identify security threats. What security property does tampering impact in the STRIDE model?     
 A.	Integrity.   
@@ -759,7 +759,7 @@ B.	CVE.
 C.	OWASP.   
 D.	NIST.   
 
-Answer: A             
+Answer: C             
 
 ### Question # 96 - Henry uses an IAST process as part of his SLDC. What SDLC phase is IAST most likely to occur in?    
 A.  Planning.   
@@ -767,7 +767,7 @@ B.	Building.
 C.	Deployment.    
 D.	Testing.    
 
-Answer: A             
+Answer: D             
 
 ### Question # 97 - Malika wants to ensure that human error doesn’t influence the security of secrets in her organization. Which of the following practices will most effectively prevent human- related issues from influencing her secrets security?           
 A.	Use a common passphrase word list in an automated CI/CD pipeline.     
@@ -775,7 +775,7 @@ B.	Require password complexity.
 C.	Generate passphrases randomly.   
 D.	Exclusively use shared passphrases.  
 
-Answer: A             
+Answer: C             
 
 ### Question # 98 - Frank knows that his organization intends to use federated identities as part of its cloud services environment. What standard should he ensure that his existing on- site identity management system supports to help with this?     
 A.	SAML.  
@@ -791,7 +791,7 @@ B.	Create a new environment for QA testing, then promote to production after tes
 C. Replicate the production environment for QA testing, then promote to production after testing.       
 D. Add software to the QA environment for testing, then allow production users to access QA with instrumentation in place.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 100 - 	Tara’s organization uses a three- level application security verification standard, and requires that their most secure applications reach level 3 with in- depth validation and testing. What application security standard are they using?           
 A.	ASVS.    
