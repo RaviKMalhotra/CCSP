@@ -420,17 +420,17 @@ D.	Increased capability
 
 Answer: A    
 
-### Question # 51 - Which one of the following components is not necessary in a Tier 1 datacenter?             
+### Question # 51 - Which one of the following components is [not necessary in a Tier 1 datacenter]?             
 A.	Uninterruptible power supplies            
-B.	Dual- power supplies in systems               
+B.	**Dual- power supplies in systems**               
 C.	Backup generator                
 D.	Cooling                  
 
 Answer: B    
 
-### Question # 52 - Fred is working to design security controls for a cloud environment where remote systems will need to gain command- line access to Linux servers in an automated fashion. Which one of the following authentication approaches will provide the strongest security in this scenario?       
+### Question # 52 - Fred is working to design security controls for a cloud environment where remote systems will need to gain command- line access to Linux servers in an [automated fashion]. Which one of the following authentication approaches will provide the strongest security in this scenario?       
 A.	Multifactor authentication           
-B.	Digital certificates            
+B.	**Digital certificates**            
 C.	Biometric authentication             
 D.	Strong passwords              
 
@@ -438,16 +438,16 @@ Answer: B
 
 ### Question # 53 - In software- defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.            
 A.	Cloud customer; ISP                     
-B.	SDN controllers; SDN applications             
+B.	**SDN controllers; SDN applications**             
 C.	Cloud provider; ISP                
 D.	Router; host                
 
 Answer: B    
 
 ### Question # 54 - A user signs on to a cloud- based social media platform. In another browser tab, the user finds an article worth posting to the social media platform. The user clicks on the platform’s icon listed on the article’s website, and the article is automatically posted to the user’s account on the social media platform. This is an example of what?             
-A. Single sign- on                  
+A.  Single sign- on                  
 B.	Insecure direct identifiers              
-C.	Identity federation                   
+C.	**Identity federation**                   
 D.	Cross- site scripting                
 
 Answer: C    
@@ -484,9 +484,9 @@ D.	Lack of user training and awareness
 
 Answer: C    
 
-### Question # 59 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?             
+### [important] Question # 59 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?             
 A.	Enough personnel at the BC/DR recovery site to ensure proper operations       
-B.	Good cryptographic key management     
+B.	**Good cryptographic key management**     
 C.	Access to the servers where the BC/DR backup is stored        
 D.	Forensic analysis capabilities       
 
@@ -496,10 +496,9 @@ Answer: B
 A.	Remote access for a customer to racked devices in the datacenter; electrical utilities; connectivity to an internet service provider (ISP)/the internet     B.	Application suitability; availability; connectivity       
 C.	Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS)      
 D.	Antimalware tools; controls against distributed denial- of- service (DDoS) attacks; physical/environmental security controls, including fire suppression       
-
 Answer: A    
 
-### Question # 61 - Which of the following poses a new risk in the cloud, not affecting the traditional, on- premises IT environment?         
+### Question # 61 - Which of the following [poses a new risk] in the cloud, not affecting the traditional, on- premises IT environment?         
 A.	Internal threats           
 B.	Multitenancy          
 C.	Natural disasters          
@@ -525,21 +524,21 @@ Answer: A
 
 ### Question # 64 - Using one cloud provider for your operational environment and another for your BC/DR backup will give you the additional benefit of ___________________.        
 A.	Allowing any custom VM builds you use to be instantly ported to another environment          
-B.	Avoiding vendor lock- in/lockout           
+B.	**Avoiding vendor lock- in/lockout**           
 C.	Increased performance                
 D.	Lower cost                
 
 Answer: B    
 
 ### Question # 65 - The cloud customer will usually not have physical access to the cloud datacenter. This enhances security by ___________________.            
-A. Reducing the need for qualified personnel              
+A.  Reducing the need for qualified personnel              
 B.	Limiting access to sensitive information              
 C.	Reducing jurisdictional exposure                
 D.	Ensuring statutory compliance               
 
 Answer: B    
 
-### Question # 66 - Which one of the following services would be least likely described as providing computing capability?              
+### Question # 66 - Which one of the following services would be [least likely described] as providing computing capability?              
 A.	Virtual server instances              
 B.	FaaS                   
 C.	Object storage              
@@ -556,7 +555,7 @@ D.	VMs are easier to operate than actual devices.
 Answer: C    
 
 ### Question # 68 - Which one of the following test types is most likely to have an impact on production operations?             
-A. Full test               
+A.  **Full test**               
 B.	Parallel test            
 C.	Walkthrough test           
 D.	Simulation test              
@@ -567,16 +566,16 @@ Answer: A
 Brendan is analyzing the symptoms of a cloud attack that took place in his organization’s IaaS offering. In this attack, one customer was able to access resources on a virtual machine belonging to another customer by launching an attack from their own virtual machine.     
 
 ### Question # 69 - What term best describes this attack?             
-A.	Escape                     
+A.	Es****cape                     
 B.	Overflow               
 C.	Injection              
 D.	Scripting              
 
 Answer: A    
 
-### Question # 70 - What component of Brendan’s service offering was most directly responsible for allowing this attack?               
+### Question # 70 - What component of [Brendan’s service offering] was most directly responsible for allowing this attack?               
 A.	Compute              
-B.	Hypervisor              
+B.	**Hypervisor**              
 C.	Management plane             
 D.	Storage               
 
