@@ -1,7 +1,7 @@
-### Question # 1 - What term is used to describe agreements [between IT service providers] and [customers] that describe service-level targets and responsibilities of the customer and provider?      
+### Question # 1 - What term is used to describe agreements [between IT service providers] and [customers] that describe [service-level targets and responsibilities] of the customer and provider?      
 A.	OLA.      
 B.	SAC.       
-C.	SLA.         
+C.	**SLA**.         
 D.	SLR.  
 
 Answer: C                
@@ -9,7 +9,7 @@ Answer: C
 ### [important] Question # 2 - Sally is building her [organization’s communication plans] and knows that customers are an important group to include in the plan. What key function does proactive customer communication help with?            
 A.  Notification of breaches.            
 B.	Regulatory compliance.             
-C.	Managing expectations.              
+C.	**Managing expectations**.              
 D.	Problem management.               
 
 Answer: C                
@@ -17,13 +17,13 @@ Answer: C
 ### Question # 3 - Juanita has discovered [unexpected programs] running on her [freshly installed Linux system] that was built using her cloud provider’s custom Linux distribution but that did not allow connections from the internet yet. What is the most likely reason for this?               
 A.	Juanita inadvertently installed additional tools during the installation process.             
 B.	The version of Linux automatically downloads helper agents when installed.                
-C.	Cloud vendors often install helper utilities in their own distributions.                 
+C.	**Cloud vendors often install helper utilities in their own distributions**.                 
 D.	Attackers have installed applications.                  
 
 Answer: C               
 
 ### Question # 4 - Ben wants to manage operating system and application patches for thousands of machines hosted in an infrastructure as a service vendor’s cloud. What should he do?              
-A.  Use the cloud vendor’s native patch management tools.             
+A.  **Use the cloud vendor’s native patch management tools**.             
 B.	Use the operating system vendor’s patch management tools.              
 C.	Use manual update processes.               
 D.	Write custom scripts to manage updates.                      
@@ -55,7 +55,7 @@ D.	An application interface.
 Answer: B      
 
 ### [important] Question # 8 - James wants to [establish] [KPIs] key performance indicators for his service continuity management practice based on ITIL. Which of the following [is a useful KPI for service continuity management]?              
-A.	The number of business processes with continuity agreements.              
+A.	**The number of business processes with continuity agreements**.              
 B.	The number of vulnerabilities found in installed software per period of time.                  
 C.	The number of patches installed per period of time.                 
 D.	The number of natural disasters in the local area in a year.                  
@@ -72,7 +72,7 @@ Answer: B
 
 ### Question # 10 - [ITIL v4] includes a [seven- step] continual improvement model. What item [occurs at the end of the process] before it starts again?                  
 A.	Determining the vision.              
-B.	Assessing results.               
+B.	**Assessing results**.               
 C.	Taking action.                
 D.	Determining the goal.                
 
