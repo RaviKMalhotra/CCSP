@@ -417,7 +417,7 @@ B.	The data controller
 C.	The data steward                         
 D.	The data custodian                      
 
-Answer: A                
+Answer: B                
 
 ### Question # 52 - Which of the following is probably the most volatile form of data that might serve a forensic purpose in a virtualized environment?                    
 A.	Virtual instance RAM                   
@@ -433,7 +433,7 @@ B.	Privacy Shield
 C.	Standard contractual clauses                      
 D.	Safe harbor                           
 
-Answer: A                
+Answer: C                
 
 ### Question # 54 - You are the chief information officer (CIO) for an IT hardware manufacturer. Your company uses cloud- based software as a service (SaaS) services, including email. You receive a legal request for data pertinent to a case. Your eDiscovery efforts will largely be dependent on _________________.                  
 A.	The cloud provider                   
@@ -449,7 +449,7 @@ B.	Encrypting the database contents
 C.	Removing the data                     
 D.	Objecting to the exception                           
 
-Answer: A                
+Answer: B                
 
 ### Question # 56 - James has been asked to lead a review of his organization’s compliance with GAPP principles. What area will most directly fall into the scope of his assessment?                    
 A.	Accounting                  
@@ -457,7 +457,7 @@ B.	Privacy
 C.	Cybersecurity                         
 D.	eDiscovery                             
 
-Answer: A                
+Answer: B                
 
 ### Question # 57 - Brad recently learned that his organization will be subject to a new legal requirement due to an expansion of their work into a new industry. What type of analysis should Brad perform first?                      
 A.	Business impact analysis                 
@@ -465,7 +465,7 @@ B.	Privacy impact analysis
 C.	Gap analysis                            
 D.	Baseline development                            
 
-Answer: A                
+Answer: C                
 
 ### Question # 58 - Which one of the following organizations would not be automatically subject to the privacy and security requirements of HIPAA if they engage in electronic transactions?                       
 A. Healthcare provider                         
@@ -473,7 +473,7 @@ B.	Health and fitness application developer
 C.	Health information clearinghouse                            
 D.	Health insurance plan                         
 
-Answer: A                
+Answer: B                
 
 ### Question # 59 - Bella is working to develop a long- term relationship with a consulting firm that will assist in her organization’s cloud migration. She would like to create a contract that may govern the terms of many different projects. What type of document should she create?                 
 A.	MSA              
@@ -489,7 +489,7 @@ B.	A set of software development life cycle requirements for cloud service provi
 C.	A security controls framework that provides mapping/cross relationships with the main industry- accepted security standards, regulations, and controls frameworks such as the ISO 27001/27002, ISACA’s COBIT, and PCI- DSS                      
 D.	An inventory of cloud service security controls that are arranged into separate security domains                         
 
-Answer: A                
+Answer: C                
 
 ### Question # 61 - Gordon’s organization is considering using a new cloud vendor to handle their backups. He is conducting a risk assessment to determine the amount of damage that lost backups at the provider should be expected to cause each year. What metric has Gordon identified?              
 A.	ALE              
@@ -505,7 +505,7 @@ B.	The breach laws of all jurisdictions where they do business.
 C.	The breach laws of the federal government only because this involves interstate commerce                   .
 D.	No breach laws would apply to this situation.                
 
-Answer: A                
+Answer: B                
 
 ### Question # 63 - _________________ is the legal concept whereby a cloud customer is held to a reasonable expectation for providing security of its users’ and clients’ privacy data.               
 A.	Due care              
@@ -521,7 +521,7 @@ B.	PCI DSS
 C.	HITECH                      
 D.	GLBA                       
 
-Answer: A                
+Answer: B                
 
 ### Question # 65 - You are considering adding a web application firewall to your public- facing applications to reduce the risk of an attack. If you implement the firewall, what risk treatment action are you taking?                
 A. Risk avoidance                
@@ -529,7 +529,7 @@ B.	Risk acceptance
 C.	Risk mitigation                      
 D.	Risk transference                           
 
-Answer: A                
+Answer: C                
 
 ### Question # 66 - You are conducting a risk assessment for a cloud service provider that will be operating infrastructure for an electric utility. What regulatory framework is most relevant to this organization?                  
 A.	HIPAA                
@@ -537,7 +537,7 @@ B.	HITECH
 C.	NERC/CIP                    
 D.	PCI DSS                         
 
-Answer: A                
+Answer: C                
 
 ### Question # 67 - You are concerned that different virtual machines in your organization have different security configurations and would like to apply a standard configuration at the time they are built. What term describes this approach?                      
 A.	Scanning                    
@@ -545,7 +545,7 @@ B.	Baselining
 C.	Operationalizing                             
 D.	Customizing                               
 
-Answer: A                
+Answer: B                
 
 ### Question # 68 - You are the compliance officer for a medical device manufacturing firm. Your company maintains a cloud- based list of patients currently fitted with your devices for long- term care and quality assurance purposes. The list is maintained in a database that cross- references details about the hardware and some billing data. In this situation, who is likely to be considered the data custodian, under many privacy regulations and laws?                    
 A.	You (the compliance officer)                      
@@ -553,7 +553,7 @@ B.	The cloud provider’s network security team
 C.	Your company                        
 D.	The database administrator                     
 
-Answer: A                
+Answer: D                
 
 ### Question # 69 - You are conducting an audit of a cloud service provider and are unsure about the types of tests that you should plan. Which resource provides the most definitive guidance?                                
 A.	Client organization management                          
@@ -561,7 +561,7 @@ B.	Applicable audit standard
 C.	Client organization chief audit executive                       
 D.	Auditor organization management                      
 
-Answer: A                
+Answer: B                
 
 ### Question # 70 - When a conflict of laws occurs, ________________determines the jurisdiction in which the dispute will be heard.                     
 A.	Tort law                  
@@ -569,7 +569,7 @@ B.	Doctrine of Proper Law
 C.	Common law                         
 D.	Criminal law                        
 
-Answer: A                
+Answer: B                
 
 ### Question # 71 - Chris is worried that the laptops that his organization has recently acquired were modified by a third party to include keyloggers before they were delivered. Where should he focus his efforts to prevent this?                      
 A.	His supply chain                     
@@ -585,7 +585,7 @@ B.	Interception of devices in transit
 C.	Misconfiguration by an administrator after installation                   
 D.	Tampering by an unauthorized third party at Greg’s site                 
 
-Answer: A                
+Answer: B                
 
 ### Question # 73 - What is an accounting report on controls at a service organization that replaces older SAS 70 type reports?                   
 A.	SOC 1               
@@ -601,7 +601,7 @@ B.	Certifying against an international standard
 C.	Investigating employee malfeasance                       
 D.	Complying with PCI DSS requirements                        
 
-Answer: A                
+Answer: C                
 
 ### Question # 75 - Which one of the following frameworks is a U.S. federal law governing privacy?            
 A.	PCI DSS             
@@ -609,7 +609,7 @@ B.	CCPA
 C.	GDPR                
 D.	HIPAA               
 
-Answer: A                
+Answer: D                
 
 ### Question # 76 - You operate a cloud service and would like to provide potential customers with a report that confirms the effectiveness of your security controls and is appropriate for use by the general public. What type of audit should you conduct?                
 A.	SOC 1               
@@ -617,7 +617,7 @@ B. SOC 2
 C. SOC 3                   
 D. SOC 4                      
 
-Answer: A                
+Answer: C                
 
 ### Question # 77 - Which one of the following individuals is normally responsible for fulfilling the operational data protection responsibilities delegated by senior management, such as validating data integrity, testing backups, and managing security policies?                  
 A.	Data custodian               
@@ -633,7 +633,7 @@ B.	One- sided assessment
 C.	Vulnerability assessment                           
 D.	Quantitative assessment                                
 
-Answer: A                
+Answer: D                
 
 ### Question # 79 - Nolan is a procurement officer for a U.S. federal government agency and is selecting a cloud service provider. What program offers a set of prescreened cloud providers authorized for use in the federal government?                     
 A.	FIPS 140- 2                 
@@ -641,7 +641,7 @@ B.	NIST 800- 53
 C.	ISO 27017                         
 D.	FedRAMP                          
 
-Answer: A                
+Answer: D                
 
 ### Question # 80 - What procedures should an organization follow when collecting evidence from a security incident that may be used in court?                     
 A.	Digital forensics                 
@@ -665,7 +665,7 @@ B.	Original cost
 C.	Estimation                     
 D.	Replacement cost                     
 
-Answer: A                
+Answer: D                
 
 ### Question # 83 - You are concerned that you may no longer have access to necessary source code if a cloud vendor ceases operations. What security control would best protect against this risk?                 
 A.	Contractual terms                 
@@ -673,7 +673,7 @@ B.	Escrow
 C.	SLA                     
 D.	Litigation                   
 
-Answer: A                
+Answer: B                
 
 ### Question # 84 - What is a type of assessment that employs a set of methods, principles, or rules for assessing risk based on non- numerical categories or levels?                   
 A.	Quantitative assessment                
@@ -681,7 +681,7 @@ B.	Qualitative assessment
 C.	Hybrid assessment                        
 D.	SOC 2                  
 
-Answer: A                
+Answer: B                
 
 ### Question # 85 - Which one of the following terms is not commonly found in cloud service provider contracts?                 
 A.	Right to access facilities                  
@@ -697,7 +697,7 @@ B.	ISO 27002
 C.	CMM                   
 D.	PMBOK Guide               
 
-Answer: A                
+Answer: B                
 
 ### Question # 87 - When an organization uses a cloud service provider to handle protected health information, who is responsible for securing that data?                 
 A.	Customer                                   
@@ -705,7 +705,7 @@ B.	Cloud provider
 C.	Both the customer and the cloud provider                
 D.	Neither the customer nor the cloud provider                
 
-Answer: A                
+Answer: C                
 
 ### Question # 88 - What term is used to describe an individual within an organization who has been delegated day- to- day responsibility for decision- making about a category of information?                 
 A.	Data owner             
@@ -713,7 +713,7 @@ B.	Data custodian
 C.	Data processor                
 D.	Data steward                  
 
-Answer: A                
+Answer: D                
 
 ### Question # 89 - Ron is the CISO of a U.S. company that is entering into a business partnership with a European firm. The European firm will be sending his company customer records to run through Ron’s firm’s proprietary credit scoring algorithm. Under GDPR, what role will Ron’s company have relative to the customer data?              
 A.	Data controller              
@@ -721,7 +721,7 @@ B.	Data owner
 C.	Data subject                  
 D.	Data processor                
 
-Answer: A                
+Answer: D                
 
 ### Question # 90 - Which of the following would normally be considered a supply chain risk? (Choose all that apply.)              
 A.	Adversary tampering with hardware prior to being shipped to the end customer             
@@ -741,7 +741,7 @@ B. 25 percent
 C. 50 percent             
 D. 75 percent               
 
-Answer: A                
+Answer: C                
 
 ### Question # 92 - Based on the information in this scenario, what is the annualized rate of occurrence for a  tornado at Atwood Landing’s datacenter?           
 A.	0.0025           
@@ -749,7 +749,7 @@ B.	0.005
 C. 0.01                
 D. 0.015              
 
-Answer: A                
+Answer: B                
 
 ### Question # 93 - Based on the information in this scenario, what is the annualized loss expectancy for a  tornado at Atwood Landing’s datacenter?             
 A.	$25,000             
@@ -765,7 +765,7 @@ B.	Risk mitigation
 C.	Risk transference                         
 D.	Risk avoidance                   
  
-Answer: A                
+Answer: C                
 
 ### Question # 95 - The Domer Industries risk assessment team recently conducted a qualitative risk assessment and developed a matrix similar to the one shown here. Which quadrant contains the risks that require the most immediate attention?                  
 A.	I               
@@ -789,7 +789,7 @@ B.	HIPAA/HITECH
 C.	FERPA                       
 D.	GDPR                   
 
-Answer: A                
+Answer: C                
 
 ### Question # 98 - Which one of the following metrics would not commonly be found in an SLA?               
 A.	Network performance               
@@ -797,7 +797,7 @@ B.	Compute capacity
 C.	Help desk response time                
 D.	Number of security incidents                    
 
-Answer: A                
+Answer: D                
 
 ### Question # 99 - You are the CISO for a major hospital system and are preparing to sign a contract with a software as a service (SaaS) email vendor and want to perform a control assessment to ensure that its business continuity planning measures are reasonable. What type of audit might you request to meet this goal?                 
 A.	SOC 1               
@@ -805,7 +805,7 @@ B.	FISMA
 C.	PCI DSS                     
 D.	SOC 2                    
 
-Answer: A                
+Answer: D                
 
 ### Question # 100 - Which of the following is probably least suited for inclusion in the service-level agreement (SLA) between a cloud customer and cloud provider?                  
 A.	Bandwidth             
@@ -813,7 +813,7 @@ B.	Jurisdiction
 C.	Storage space                 
 D.	Availability                  
  
-Answer: A                
+Answer: B                
 
 ### Chapter 6: Domain 6: Legal, Risk, and Compliance                         
 
