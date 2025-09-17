@@ -634,7 +634,7 @@ C	is	incorrect	because	availability	is	a	factor	of	the	overall environment,	and	
 
 D	is	incorrect	because	provisioning	is	not	a	concern	as	it	relates	to iSCSI	at	all	and	only	pertains	to	other	operational	concerns	within	the cloud	environment.
 
-### Question # 24 - 	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategyfor	an	organization?                           
+### Question # 24 - 	Which	risk	response	involves	the	use	of	insurance	as	a	possible	strategy for	an	organization?                           
 A.	Acceptance                    
 B.	Avoidance                         
 C.	Transference                             
@@ -767,7 +767,7 @@ C.	Authenticating	connections
 D.	Receiving	data                  
 Answer: C.	                     
 
-The	TLS	record	protocol	handles	the	actual	transmission	of	packets between	two	systems;	it	does	not	handle	any	of	the	capabilities beyond	that,	such	as	authentication	of	connections	(which	is	handled by	the	TLS	handshake	protocol).
+**The	TLS	record	protocol	handles	the	actual	transmission	of	packets between	two	systems;	it	does	not	handle	any	of	the	capabilities beyond	that,	such	as	authentication	of	connections	(which	is	handled by	the	TLS	handshake	protocol)**.
 
 A	is	incorrect	because	sending	data	is	a	primary	function	performed	by the	limited	record	protocol.
 
