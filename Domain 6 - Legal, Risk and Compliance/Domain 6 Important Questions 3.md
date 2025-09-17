@@ -105,7 +105,7 @@ B.	Appeal to the EU High Court for permission.
 C.	Create binding contractual language that complies with the EU laws.                        
 D.	Join the Privacy Shield program in its own country.                               
 
-Answer: A                
+Answer: B                
 
 ### Question # 13 - Which type of business impact assessment tool is most appropriate when attempting to evaluate the impact of a failure on customer confidence?                        
 A.	Quantitative                    
@@ -113,7 +113,7 @@ B.	Qualitative
 C.	Annualized loss expectancy                       
 D.	Reduction                      
 
-Answer: A                
+Answer: B                
 
 ### Question # 14 - An audit against the _________________ will demonstrate that an organization has a holistic, comprehensive program of internal security controls.                      
 A.	Statement on Auditing Standards (SAS) 70 standard                        
@@ -121,7 +121,7 @@ B.	Statement on Standards for Attestation Engagements (SSAE) 18 standard
 C.	Service Organization Control (SOC) 2, Type 2 report matrix                            
 D.	ISO 27001 certification requirements                                                   
 
-Answer: A                
+Answer: D                
 
 ### Question # 15 - An IT security audit is designed to reveal all of the following except _________________.                   
 A.	Financial fraud                   
@@ -137,7 +137,7 @@ B.	Refer the matter to the client’s Board of Directors.
 C.	Provide the CEO with regular updates.                         
 D.	Refer the matter to the audit firm’s partnership review board.                                           
 
-Answer: A                
+Answer: C                
 
 ### Question # 17 - Which of the following is a U.S. audit standard often used to evaluate cloud providers?                       
 A.	ISO 27001                        
@@ -145,7 +145,7 @@ B.	SOX
 C.	SSAE 18                               
 D.	IEC 43770                                     
 
-Answer: A                
+Answer: C                
 
 ### Question # 18 - Digital forensics investigators perform all of the following actions routinely except for securely _________________ data.                    
 A.	Collecting                   
@@ -153,7 +153,7 @@ B.	Creating
 C.	Analyzing                         
 D.	Presenting                                 
 
-Answer: A                
+Answer: B                
 
 ### Question # 19 - A(n) _________________ includes reviewing the organization’s current position/performance as revealed by an audit against a given standard.                    
 A.	Service Organization Control (SOC) report                    
@@ -161,7 +161,7 @@ B.	Gap analysis
 C.	Audit scoping statement                            
 D.	Federal guideline                                  
 
-Answer: A                
+Answer: B                
 
 ### Question # 20 - Belinda is auditing the financial controls of a manufacturing company and learns that the financial systems are run on a major IaaS platform. She would like to gain assurance that the platform has appropriate security controls in place to assure the accuracy of her client’s financial statements. What action should she take?                     
 A. Perform an IT audit of the cloud provider.                       
@@ -169,7 +169,7 @@ B.	Obtain a SOC 1 report.
 C.	Obtain a SOC 2 report.                                                                               
 D.	Continue testing only controls at the client and note the use of the cloud provider in her report.                     
 
-Answer: A                
+Answer: B                
 
 ### Question # 21 - Tony is developing a business continuity plan and is having trouble prioritizing resources because of the difficulty of combining information about tangible and intangible assets. What would be the most effective risk assessment approach for him to use?                      
 A.	Quantitative risk assessment                    
@@ -177,7 +177,7 @@ B.	Qualitative risk assessment
 C.	Neither quantitative nor qualitative risk assessment            
 D.	Combination of quantitative and qualitative risk assessment                 
 
-Answer: A                
+Answer: D                
 
 ### Question # 22 - What was the first international privacy standard specifically for cloud providers?           
 A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800- 37               
@@ -185,7 +185,7 @@ B.	Personal Information Protection and Electronic Documents Act
 C.	Payment Card Industry                   
 D.	ISO 27018                                  
 
-Answer: A                
+Answer: D                
 
 ### Question # 23 - Which one of the following elements of information is not considered a direct identifier that  would trigger most United States (U.S.) state data breach laws?                          
 A.	Student identification number                 
@@ -209,7 +209,7 @@ B.	Financial penalties
 C.	Performance details                       
 D.	Desire to maintain customer satisfaction                    
 
-Answer: A                
+Answer: B                
 
 ### Question # 26 - Fran recently conducted a review of the risk management program in her organization and developed an analysis of all of the risks facing the organization and their quantitative impact. What term best describes this analysis?                     
 A.	Risk appetite               
@@ -217,7 +217,7 @@ B.	Risk tolerance
 C.	Risk controls                       
 D.	Risk profile                        
 
-Answer: A                
+Answer: D                
 
 ### Question # 27 - Which of the following was the first international standard addressing the privacy aspects of cloud computing for consumers?                        
 A.	ISO 27001                   
@@ -225,7 +225,7 @@ B. ISO 27018
 C.	ISO 27002                       
 D.	GDPR                       
 
-Answer: A                
+Answer: B                
 
 ### Question # 28 - You are the security manager for a software company that uses platform as a service (PaaS) in a public cloud service. Your company’s general counsel informs you that they have received a letter from a former employee who is filing a lawsuit against your company. You should immediately issue a(n) _________________ to all personnel and offices within your company.                     
 A.	Litigation hold notice                    
@@ -241,7 +241,7 @@ B.	Proprietary data
 C.	PII                         
 D.	EDI                              
 
-Answer: A                
+Answer: C                
 
 ### Question # 30 - Aaron is concerned about the possibility that a cloud vendor that his organization relies on may go out of business. What term best describes this risk?              
 A.	Vendor lock- in            
@@ -249,7 +249,7 @@ B.	Vendor viability
 C.	Vendor lockout                 
 D.	Vendor diversity                   
 
-Answer: A                
+Answer: B                
 
 ### Question # 31 - Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing?         
 A. Risk acceptance                     
@@ -257,7 +257,7 @@ B.	Risk avoidance
 C.	Risk mitigation                
 D.	Risk transference                 
 
-Answer: A                
+Answer: C                
 
 ### Question # 32 - Viola is planning a user account audit to determine whether accounts have the appropriate level of permissions and that all permissions were approved through a formal process. The organization has approximately 50,000 user accounts and an annual employee turnover rate of 24 percent. Which one of the following sampling approaches would be the most effective use of her time when choosing records for manual review?                 
 A.	Select all records that have been modified during the past month.                              
@@ -265,7 +265,7 @@ B.	Ask access administrators to identify the accounts most likely to have issues
 C.	Select a random sample of records, either from the entire population or from the population of records that have changed during the audit period.                                  
 D.	Sampling is not effective in this situation, and all accounts should be audited.                                   
 
-Answer: A                
+Answer: C                
 
 ### Question # 33 - Which one of the following issues is not normally addressed in a service- level agreement (SLA)?                 
 A.	Confidentiality of customer information               
@@ -281,7 +281,7 @@ B.	Handling information in the same manner the organization would
 C.	Elimination of all identified security risks                                 
 D.	Compliance with the vendor’s own policies                                 
 
-Answer: A                
+Answer: B                
 
 ### Question # 35 - Question # 8 - HAL Systems recently decided to stop offering public NTP services because of a fear that its NTP servers would be used in amplification DDoS attacks. What type of risk management strategy did HAL pursue with respect to its NTP services?                     
 A.	Risk mitigation                 
@@ -289,7 +289,7 @@ B.	Risk acceptance
 C.	Risk transference                            
 D.	Risk avoidance                                      
 
-Answer: A                
+Answer: D                
 
 ### Question # 36 - Who would normally conduct a review of security controls under SSAE 18?                          
 A. Security team               
@@ -297,7 +297,7 @@ B.	External auditor
 C.	Government regulator                           
 D.	IT leadership                        
 
-Answer: A                
+Answer: B                
 
 ### Question # 37 - Tom enables an application firewall provided by his cloud infrastructure as a service provider that is designed to block many types of application attacks. When viewed from a risk management perspective, what metric is Tom attempting to lower by implementing this countermeasure?                       
 A.	Impact           
@@ -305,7 +305,7 @@ B.	RPO
 C.	MTO                      
 D.	Likelihood                       
 
-Answer: A                
+Answer: D                
 
 ### Question # 38 - Which of the following statements about SSAE- 18 is not correct?                    
 A. It mandates a specific control set.                                              
@@ -321,7 +321,7 @@ B.	CALEA
 C.	Privacy Act                   
 D.	HITECH Act                           
 
-Answer: A                
+Answer: B                
 
 ### Question # 40 - Tim’s organization recently received a contract to conduct sponsored research as a government contractor. What law now likely applies to the information systems involved in this contract?                     
 A.	FISMA                  
@@ -337,7 +337,7 @@ B.	BPA
 C.	PPA                        
 D.	PIA                            
 
-Answer: A                
+Answer: D                
 
 ### Question # 42 - Kevin is reviewing and updating the security documentation used by his organization. He would like to document some best practices for securing cloud computing services that his team has implemented over the past year. The practices are generalized in nature and do not cover specific services. What type of document would be best for this purpose?                            
 A.	Policy    
@@ -345,7 +345,7 @@ B.	Standard
 C.	Guideline                   
 D.	Procedure                    
 
-Answer: A                
+Answer: C                
 
 ### Question # 43 - Colin is conducting an audit of the internal information security management system (ISMS) of a cloud service provider. Which one of the following items would normally be outside the scope of this audit?                          
 A.	Uses of customer data                   
@@ -353,7 +353,7 @@ B.	Accuracy of financial statements
 C.	Network firewall protections                          
 D.	Endpoint security                        
 
-Answer: A                
+Answer: B                
 
 ### Question # 44 - Which of the following is not an enforceable governmental request?                       
 A.	Warrant                   
@@ -361,7 +361,7 @@ B.	Subpoena
 C.	Court order                    
 D.	Affidavit                        
 
-Answer: A                
+Answer: D                
 
 ### Question # 45 - Helen is assessing a cloud provider’s risk management methodology. Which one of the  following documents would be least helpful to her in this effort?                  
 A.	ISO 31000             
@@ -369,7 +369,7 @@ B.	NIST 800- 37
 C.	COBIT                   
 D.	PCI DSS                     
 
-Answer: A                
+Answer: D                
 
 ### Question # 46 - Vincent is responsible for a privacy program that spans international borders. Of the following countries where his organization operates, which does not have a comprehensive national privacy law?                
 A.	United States                 
@@ -393,7 +393,7 @@ B.	Gramm–Leach–Bliley Act (GLBA)
 C.	Sarbanes–Oxley Act (SOX)                       
 D.	HIPAA                            
 
-Answer: A                
+Answer: C                
 
 ### Question # 49 - Joe’s organization is considering expanding the geographic footprint of its datacenters to include facilities located in other countries. What is likely going to be the most serious complication introduced by this expansion?                        
 A.	Multiple jurisdictions                   
@@ -409,7 +409,7 @@ B.	Privacy by design
 C.	The right to be forgotten                     
 D.	The right of data portability                       
 
-Answer: A                
+Answer: C                
 
 ### Question # 51 - In most privacy- regulation situations, which entity is most responsible for deciding how a particular privacy- related data set will be used or processed?                        
 A.	The data subject                     
