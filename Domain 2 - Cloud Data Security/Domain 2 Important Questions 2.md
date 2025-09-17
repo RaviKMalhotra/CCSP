@@ -355,11 +355,12 @@ ANSWERS
 
 ### Comprehensive	Answers	and	Explanations
 
-### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	beconsidered	a	direct	identifier?     
+### Question # 1 - Which	of	the	following	pieces	of	data	about	an	individual	would	be considered	a	direct	identifier?     
 A.	Job	title    
 B.	Educational	history    
 C.	Income    
 D.	Phone	number     
+
 Answer: D.	   
 
 A	phone	number	is	considered	a	direct	identifier	because	it	is unique	to	a	residence	or	individual.	With	a	phone	number	as	a	sole piece	of	information,	a	specific	individual	can	be	readily	and	quickly identified,	meeting	the	precise	definition	of	a	direct	identifier.
@@ -375,6 +376,7 @@ A.	On	the	client
 B.	On	the	application	server    
 C.	Network	perimeter    
 D.	Data	layer     
+
 Answer: A.	
 
 For	a	DLP	solution	to	work	for	data	in	use,	it	would	need	to	be installed	on	the	actual	client	where	the	processing	was	taking	place. This	could	be	anything	from	a	mobile	device	to	a	desktop	computer, laptop,	or	software	client.	By	being	installed	at	the	client	level,	the DLP	solution	would	be	able	to	closely	watch	how	the	data	was	being used	and	processed	and	to	apply	policies	appropriately.
@@ -390,6 +392,7 @@ A.	Volume
 B.	Object    
 C.	Structured    
 D.	Unstructured     
+
 Answer: B.	
 
 Object	storage	works	by	utilizing	a	flat	file	system,	where	each	item is	housed	with	an	opaque	handler	or	descriptor.	When	files	are accessed,	the	object	storage	is	called	with	the	descriptor	or	opaque value	and	then	presented	to	the	application	or	client.
@@ -400,14 +403,16 @@ C	is	incorrect	because	structured	storage,	used	with	PaaS,	resembles database	st
 
 D	is	incorrect	because	unstructured	storage	is	used	with	PaaS	and	is employed	to	store	files	and	objects	that	do	not	fit	within	the	structured storage	type—typically,	support	files	or	web	files	such	as	images, style	sheets,	and	so	on.
 
-### Question # 4 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	availabledata	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
+### [important] Question # 4 - Although	content	analysis	is	the	least	efficient	and	slowest	of	the	available data	discovery	methods,	which	of	the	following	aspects	of	the	data	make discovery	the	most	challenging?     
 A.	Size    
 B.	Throughput    
 C.	Quality    
-D. 	Source     
+D. Source     
+
 Answer: C.	
 
-With	any	content	analysis,	the	quality	of	the	data	poses	the	biggest challenge	to	data	discovery.	Content	can	be	freeform	and	may	come	in a	variety	of	formats,	with	little	to	no	consistency.	Variations	in spelling	and	word	use	can	also	make	content	analysis	very	challenging because	there	is	no	standardization	to	build	concrete	discovery	rules against.
+**With	any	content	analysis,	the	quality	of	the	data	poses	the	biggest challenge	to	data	discovery**.	
+Content	can	be	free form	and	may	come	in a	variety	of	formats,	with	little	to	no	consistency.	Variations	in spelling	and	word	use	can	also	make	content	analysis	very	challenging because	there	is	no	standardization	to	build	concrete	discovery	rules against.
 
 A	is	incorrect	because	the	size	of	the	data	by	itself	does	not	pose	any direct	challenges	to	data	discovery.	Although	large	data	sets	will require	more	time	or	processing	to	evaluate,	the	size	does	not	correlate necessarily	to	the	quality	problems	that	do	pose	a	significant challenge.
 
@@ -420,6 +425,7 @@ A.	Newly	created	data
 B.	Data	that	is	imported    
 C.	Data	that	is	archived     
 D.	Data	that	is	modified     
+
 Answer: C.	   
 
 Data	that	is	archived	involves	taking	already	existing	data	and capturing	a	read-only	static	copy	of	it	for	long-term	preservation. Although	the	data	may	be	new	to	a	particular	storage	medium, especially	if	it’s	archived	on	a	system	external	from	its	original location,	the	format	or	content	of	the	data	is	not	changed	during	the process,	and	as	such	it’s	not	newly	created	or	modified	data.
@@ -430,7 +436,7 @@ B	is	incorrect	because	data	that	is	imported	is	new	to	the	system accepting	the	
 
 D	is	incorrect	because	data	that	is	modified	is	considered	new	data	due to	its	new	form	or	format,	so	it	has	been	created	as	part	of	the	initial phase	within	the	system.
 
-### Question # 6 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	apotential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?    
+### Question # 6 - You	are	working	as	a	forensic	investigator	and	collecting	information	on	a potential	system	breach	by	a	malicious	insider.	Which	of	the	following	is essential	for	you	in	order	to	ensure	evidence	is	preserved	and	admissible?    
 A.	Confidentiality    
 B.	Privacy    
 C.	Chain	of	custody    
@@ -445,11 +451,12 @@ In	order	for	evidence	to	be	considered	properly	preserved	and admissible	for	leg
  
  D	is	incorrect	because	aggregation	refers	to	collecting	data,	typically event	data,	into	a	single	index	and	storage	system.	Aggregation	does not	apply	directly	to	data	preservation	at	all.
 
-### Question # 7 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtualmachine	images?    
+### Question # 7 - Which	storage	type	is	typically	used	by	the	cloud	provider	to	house	virtual machine	images?    
 A.	Volume    
 B.	Structured    
 C.	Unstructured   
-D. 	Object      
+D. Object      
+
 Answer: D.	    
 
 Object	storage	utilizes	a	flat	hierarchy	and	catalogs	data	with	an opaque	file	handler	or	descriptor.	When	storing	virtual	machine images,	cloud	providers	typically	use	object	storage	because	there	is no	reason	to	maintain	an	organized	file	structure,	and	an	opaque descriptor	works	perfectly	for	virtual	machine	images	and	provides easy	access	to	call	them.
@@ -460,11 +467,12 @@ B	is	incorrect	because	structured	storage	resembles	a	database-type organization
 
 C	is	incorrect	because	unstructured	storage	is	used	within	a	PaaS implementation	for	support	objects	such	as	images	and	web	files;	it would	not	be	used	for	the	storage	of	virtual	machines	for	use throughout	a	cloud	infrastructure.
 
-### Question # 8 - When	a	DLP	solution	is	used	to	protect	data	in	transit,	where	is	the optimal	place	to	deploy	the	DLP	components?    
+### [important] Question # 8 - When	a	DLP	solution	is	used	to	protect	[data	in	transit],	where	is	the optimal	place	to	deploy	the	DLP	components?    
 A.	On	the	server	originating	the	traffic    
 B.	At	the	network	perimeter    
 C.	Between	VLANs     
 D.	On	the	server	receiving	the	data     
+
 Answer: B.	
 
 When	protecting	data	in	transit,	a	DLP	solution	would	optimally	be deployed	at	the	network	perimeter.	Within	a	network,	extensive monitoring	can	be	used	in	conjunction	with	other	security	controls	on the	data,	but	the	network	perimeter	represents	the	last	hop	before leaving	the	application	for	external	use,	and	would	be	the	appropriate place	to	have	a	DLP	implementation.
@@ -481,6 +489,7 @@ A.	SIEM
 B.	DLP    
 C.	IRM    
 D.	IDS    
+
 Answer: A.	   
 
 A	security	information	and	event	management	(SIEM)	solution	is used	to	collect,	aggregate,	and	process	event	data	throughout	an application	or	even	an	entire	infrastructure.	
@@ -497,6 +506,7 @@ A.	Transparent
 B.	Passive     
 C.	RSA    
 D. Homomorphic    
+
 Answer: A.	
 
 **Transparent	encryption	is	used	within	a	database	to	protect	data	as it	is	being	stored	and	processed,	but	it’s	done	as	an	integrated	database function	and	is	not	something	that	needs	input	from	the	application.**
@@ -513,6 +523,7 @@ A.	Use
 B.	Store    
 C.	Create    
 D.	Archive    
+
 Answer: C.	   
 
 Data	classification	should	optimally	be	done	immediately	as	part	of the	“create”	phase.	As	soon	as	data	is	created,	it	is	subjected	to regulatory	and	other	protection	requirements,	so	classification	must	be applied	immediately.
@@ -523,11 +534,12 @@ B	is	incorrect	because	data	needs	to	have	a	classification	attached before	it	en
 
 D	is	incorrect	because	the	“archive”	phase	is	a	much	later	part	of	the overall	process,	and	data	will	have	gone	through	storage,	usage,	and sharing	long	before	it	reaches	archiving,	so	classification	would	need to	take	place	much	earlier.
 
-### Question # 12 - Your	application	generates	large	volumes	of	data	based	on	customer	input. With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	following	methods	for	data	discovery	would	be	your	best choice?     
+### [important] Question # 12 - Your	application	generates	large	volumes	of	data	based	on	customer	input. With	the	large	volume	of	incoming	data,	you	need	to	be	able	to	determine data	discovery	and	classification	as	quickly	and	efficiently	as	possible. Which	of	the	[following	methods	for	data	discovery]	would	be	your	best choice?     
 A.	Content	analysis    
 B.	Labels     
 C.	Metadata    
 D.	Authorization     
+
 Answer: C.	    
 
 **Metadata	uses	attributes	about	the	data	itself,	such	as	creator, application,	type,	data,	or	any	other	type	of	information	to	determine classification.	Metadata	is	typically	known	as	“data	about	data.”	By using	metadata,	where	possible,	you	can	make	very	quick	and	efficient determinations	on	classification.**
@@ -542,12 +554,13 @@ D	is	incorrect	because	authorization	is	the	process	of	granting privileges	and	a
 A.	Dynamic    
 B.	Homomorphic     
 C.	Static    
-D.	Replication     
+D.	Replication  
+
 Answer: A.	    
 
 [important] **Dynamic	masking	is	implemented	between	the	data	and	application layers**,	
 and	is	**applied	in	real	time**	**as	data	is	requested	and	processed**. 
-This	allows	for	showing	only	portions	of	a	credit	card	number,	for example,	rather	than	the	entire	number	that	is	contained	in	storage.
+**This	allows	for	showing	only	portions	of	a	credit	card	number**,	for example,	rather	than	the	entire	number	that	is	contained	in	storage.
 
 B	is	incorrect	because	homomorphic	refers	to	a	type	of	cutting-edge encryption	where	data	can	be	accessed	and	utilized	without	the traditional	need	to	unencrypt	the	data	set	first.	Although	systems	may use	homomorphic	encryption	throughout	any	type	of	process,	it	does not	specifically	relate	to	masking.
 
@@ -562,6 +575,7 @@ A.	Use
 B.	Share    
 C.	Store     
 D.	Archive    
+
 Answer: B.	   
 
 [important] **During	the	“share”	phase,	data	is	allowed	outside	of	the	original system	and	consumed	by	external	users	or	services.	This	point,	where data	is	leaving	systems	and	consumed	by	others,	is	ideal	for	the inclusion	of	DRM	and	DLP	technologies	to	control	how	data	is disseminated	and	ultimately	used,	as	well	as	to	control	how	far	and wide	it	can	be	distributed**.
@@ -572,14 +586,16 @@ C	is	incorrect	because	the	“store”	phase	relies	on	different technologies	fo
 
 D	is	incorrect	because	archiving	involves	static	copies	of	data	for preservation,	where	technologies	such	as	encryption	would	be appropriate.	The	use	of	DRM	or	DLP	would	not	be	necessary	or appropriate	because	the	data	is	not	being	transmitted,	shared,	or consumed	in	this	phase.
 
-### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloud environment,	you	want	your	storage	to	resemble	the	same	directory structure	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
+### Question # 15 - In	order	to	move	quickly	from	your	traditional	data	center	to	a	cloud environment,	you	want	your	[storage	to	resemble	the	same	directory structure]	you	currently	have.	Which	cloud	storage	type	will	be	your	best option?     
 A.	Object    
 B.	Structured      
 C.	Volume     
 D.	Unstructured    
+
 Answer: C.	     
 
-Volume	storage,	used	with	Infrastructure	as	a	Service	(IaaS),	is	a logical	storage	volume	that	is	mounted	and	used	much	like	a traditional	file	system	on	a	virtual	machine.	It	allows	for	directory structures	and	naming	conventions,	the	same	as	a	legacy	system, along	with	the	same	kind	of	file	permissions	and	controls.	It	would make	for	the	easiest	and	quickest	transition	for	a	system	or	application to	a	cloud	environment.
+**Volume	storage,	used	with	Infrastructure	as	a	Service	(IaaS),	is	a logical	storage	volume	that	is	mounted	and	used	much	like	a traditional	file	system	on	a	virtual	machine**.	
+It	allows	for	directory structures	and	naming	conventions,	the	same	as	a	legacy	system, along	with	the	same	kind	of	file	permissions	and	controls.	It	would make	for	the	easiest	and	quickest	transition	for	a	system	or	application to	a	cloud	environment.
 
 A	is	incorrect	because	object	storage	is	an	external	storage	system	that uses	an	opaque	file	handler	or	descriptor	to	catalog	and	access	items. It	does	not	resemble	a	traditional	directory	structure	and	would	not	be applicable	to	this	type	of	situation.
 
@@ -587,7 +603,7 @@ B	is	incorrect	because	structured	storage,	used	with	Platform	as	a Service	(PaaS
 
 D	is	incorrect	because	unstructured	is	a	data	storage	type	with	PaaS that	is	used	for	objects	that	do	not	fit	within	a	structured	storage system	(typically,	support	files,	images,	web	objects,	and	so	on).	It	is not	used	in	the	sense	of	a	traditional	file	system’s	structure	and configuration	for	this	example.
 
-### [important] Question # 16 - Which	of	the	following	concepts	refers	to	having	logs	available	from throughout	a	system	or	application	within	a	single	source?    
+### [important] Question # 16 - Which	of	the	following	concepts	refers	to	[having	logs	available	from throughout	a	system	or	application	within	a]	single	source?    
 A.	Consolidation     
 B.	Correlation     
 C.	Aggregation     
@@ -608,6 +624,7 @@ A.	Internal
 B.	External     
 C.	Hosted     
 D.	Embedded    
+
 Answer: A.	    
 
 **Internal	key	storage	keeps	the	keys	on	the	actual	server	or	system where	they	are	to	be	used**.	
@@ -620,11 +637,12 @@ C	is	incorrect	because	“hosted”	is	not	a	term	typically	applied	to	a	key sto
 
 D	is	incorrect	because	the	term	“embedded”	refers	to	a	type	of encryption,	not	to	a	type	of	key	storage	system.	The	term	is	typically applied	to	encryption	that	is	built	into	a	system	and	is	an	integral	part of	it,	rather	than	an	external	service	or	operation.
 
-### [tricky] Question # 18 - Digital	right	management	is	an	extension	of	information	rights management,	but	is	focused	on	which	particular	type	of	data?    
+### [important tricky] Question # 18 - Digital	right	management	is	an	extension	of	information	rights management,	but	is	focused	on	which	particular	type	of	data?    
 A.	Health	records    
 B.	Academic	records    
 C.	Consumer	media     
 D.	Financial	data    
+
 Answer: C.	    
 
 Digital	rights	management	(DRM)	systems	are	similar	to	IRM solutions,	**with	the	main	distinction	being	their	focus	on	consumer media**.	
@@ -642,6 +660,7 @@ A.	HIPAA
 B.	PII     
 C.	PHI    
 D.	ACA     
+
 Answer: A.	    
 
 The	Health	Insurance	Portability	and	Accountability	Act	**(HIPAA) is	a	United	States	law**	that	is	focused	on	health	records,	their protection,	disclosure	requirements,	and	how	health	records	may	be used	or	shared.
@@ -652,11 +671,12 @@ C	is	incorrect	because	PHI	refers	to	protected	health	information.	It	is a	subse
 
 D	is	incorrect	because	the	Affordable	Care	Act	(ACA)	is	a	United States	law	pertaining	to	health	insurance	coverage	and	access,	but	it does	not	pertain	to	specific	regulations	for	the	handling	and	protection of	heathcare	data.
 
-### [important] Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	the preservation	of	integrity?     
+### [important] Question # 20 - Which	of	the	following	technologies	or	concepts	could	be	used	for	the [preservation	of	integrity]?     
 A.	DNSSEC     
 B.	Encryption     
 C.	Tokenization     
 D.	Anonymization      
+
 Answer: A.	
 
 [important] **DNSSEC	is	an	extension	on	the	traditional	DNS	protocol	and allows	for	the	signing	and	verification	of	DNS	results**.	
@@ -674,6 +694,7 @@ A.	Masking
 B.	Anonymization    
 C.	Obfuscation     
 D.	Encryption    
+
 Answer: B.	    
 
 [important] **Anonymization	is	the	process	of	removing	identifiers	that	could ultimately	be	used	to	identity	a	specific	individual**.	
@@ -691,6 +712,7 @@ A.	Volume
 B.	Unstructured    
 C.	Structured     
 D.	Object     
+
 Answer: D.	    
 
 **Object	storage	is	typical	by	used	for	data	objects	and	downloads,	to which	IRM	technologies	and	strategies	are	often	applied**.	
@@ -707,6 +729,7 @@ A.	Physical	security
 B.	Network	security    
 C.	Hypervisor	security     
 D.	Data	security     
+
 Answer: D.	
 
 **Within	an	IaaS	implementation—and,	in	fact,	with	virtually	all cloud	hosting—data	security	is	always	the	responsibility	of	the	cloud customer**.	
@@ -723,6 +746,7 @@ A.	Data	retention
 B.	Data	archiving    
 C.	Data	preservation     
 D.	Data	warehousing     
+
 Answer: A.	
 
 **Data	retention	is	the	process	of	collecting,	protecting,	and	storing records	for	a	defined	period	of	time**.	The	exact	duration	of	time	will be	established	by	either	regulation	or	organizational	policy,	but	the requirements	from	regulation	will	always	form	the	basis	for	the minimum	duration.
@@ -738,6 +762,7 @@ A.	Dynamic
 B.	Homomorphic     
 C.	Parallel     
 D.	Heterogeneous      
+
 Answer: B.	
 
 Homomorphic	encryption	is	a	new,	cutting-edge	method	that	allows data	to	be	accessed	and	processed	without	being	unencrypted	first.	It allows	operations	to	be	performed	against	encrypted	text,	with	the results	directly	generated	in	encrypted	form.	Unencrypting	the resulting	output	will	show	the	same	results	as	if	the	data	had	been unencrypted	when	processed.
@@ -753,6 +778,7 @@ A.	Nonrepudiation
 B.	Integrity        
 C.	Authentication        
 D.	Availability      
+
 Answer: A.	
 
 **Nonrepudiation	is	essentially	the	assurance	and	guarantee	that something	cannot	be	denied.**	
@@ -771,6 +797,7 @@ A.	Physical	environment
 B.	Infrastructure     
 C.	Application	framework     
 D.	Data     
+
 Answer: D.	    
 
 Under	all	cloud	service	categories,	the	security	and	protection	of data	is	the	sole	responsibility	of	the	cloud	customer.	Although	the cloud	provider	will	play	a	complimentary	role	with	data	security through	the	controls	it	implements	and	tools	it	provides	throughout	its entire	cloud	infrastructure,	the	ultimate	responsibility	for	compliance and	verification	lies	with	the	cloud	customer	as	the	owner	or	steward of	the	data.
@@ -786,6 +813,7 @@ A.	Confidentiality
 B.	Expiration      
 C.	Integrity     
 D.	Copying     
+
 Answer: B.	     
 
 [important] **IRM	allows	for	many	extended	security	operations	and	functions that	are	not	available	with	traditional	permissions	and	settings.	
@@ -805,6 +833,7 @@ A.	Continual	review
 B.	Continuous	optimization      
 C.	Aggregation	updates     
 D.	Event	elasticity      
+
 Answer: B.	   
 
 **Continuous	optimization	is	the	process	where	event	data	is evaluated	on	an	ongoing	basis	to	catch	any	changes	in	formats	or additional	data	sources	to	correct	collection	methods.	
@@ -822,6 +851,7 @@ A.	Copy
 B.	Rename     
 C.	Read    
 D.	Print     
+
 Answer: C.	   
 
 **The	ability	to	restrict	who	can	read	data	or	files	does	not	require	the use	of	an	IRM	solution	and	can	be	accomplished	with	traditional security	controls	or	permissions	settings.**	
