@@ -340,17 +340,19 @@ Answer: A
 A.	Using only open source software.   
 B.	Tracking all software version.    
 C.	Using only commercial software.   
-D.	Software inventory.     
+D.	**Software inventory**.     
 
 Answer: D             
 
-### Question # 44 - 	Laura wants to use a threat modeling tool to assess threats in her environment. Which of the following models has been abandoned by Microsoft and replaced with a new model?  
+### [very important] Question # 44 - 	Laura wants to use a [threat modeling tool] to assess threats in her environment. Which of the following models has [been abandoned by Microsoft] and replaced with a new model?  
 A.	DREAD.      
-B. PASTA.    
+B.  PASTA.    
 C.	STRIDE.    
 D.	ATASM.   
 
 Answer: A             
+
+DREAD has been replaced with STRIDE by Microsoft. PASTA and ATASM are in active use
 
 ### Question # 45 - 	Aisha’s organization has deployed a cloud application security broker. Which of the following is not a typical purpose for a CASB to be deployed?          
     
@@ -369,8 +371,8 @@ D.	Antivirus.
 
 Answer: C             
 
-### Question # 47 - Kieran’s team has deployed a CASB and wants to focus on data protection. Which of the following capabilities will most effectively help protect against third parties accessing data while it travels between Kieran’s on- premises location and their cloud vendors?              
-A. Encryption.           
+### Question # 47 - Kieran’s team has deployed a CASB and wants to focus on data protection. Which of the following capabilities will most effectively help protect against third parties accessing data while it travels between Kieran’s on-premises location and their cloud vendors?              
+A.  Encryption.           
 B.	Tokenization.          
 C.	Masking.                
 D.	Upload prevention.                
@@ -379,21 +381,21 @@ Answer: A
 
 ### Question # 48 - 	Selah is preparing a container to deploy her application to a cloud service provider’s containerization service. Which of the following components will not be included in the container?       
 A.	The host kernel for the operating system.   
-B.	The libraries needed by the application.     
+**B.	The libraries needed by the application.     
 C.	The configuration files for the application.   
-D.	The binaries belonging to the application.   
+D.	The binaries belonging to the application**.   
 
 Answer: A             
 
 ### Question # 49 - Olivia is preparing to generate API keys and knows that they need to have certain characteristics to be secure. Which of the following best describes an API key that will be considered secure?    
-A.	Unique, random, and non-g uessable.   
+A.	Unique, random, and non-guessable.   
 B.	Unique, sequential, and traceable.   
 C.	Repeatable, sequential, and traceable.     
 D.	Repeatable, logged, and traceable.    
 
 Answer: A             
 
-### [important] Question # 50 - 	Ian is using a [CASB] to [control usage of cloud services]. He wants to ensure that users in his organization [only use cloud services that are approved for their role]. What two elements should he define in his rules to most effectively accomplish this?      
+### Question # 50 - 	Ian is using a [CASB] to [control usage of cloud services]. He wants to ensure that users in his organization [only use cloud services that are approved for their role]. What two elements should he define in his rules to most effectively accomplish this?      
 A.	Identity and activity.    
 B.	Activity and data.    
 C.	Identity and service.    
@@ -408,6 +410,8 @@ C.	Architecture.
 D.	Mitigations.     
 
 Answer: A             
+
+ATASM considers architecture, threats, attack surfaces (not attacks) and mitigations
 
 ### Question # 52 - Testing done on running code is known as what type of testing?     
 A.	Dynamic.    
@@ -427,13 +431,13 @@ Answer: D
 
 ### [important] Question # 54 - Henry wants to design his SDLC to help prevent the most common application security issues. Where in the SDLC should he insert controls to ensure that his application architecture is secure?         
 A.	Analysis and requirements definition.   
-B.	Design.    
+B.	**Design**.    
 C.	Deployment.    
 D.	Operations and maintenance.    
 
 Answer: B             
 
-### [important] Question # 55 - 	Jacinda’s manager has asked her to set up a sandbox environment to help validate third-party software before it is run. What should Jacinda prepare an environment to handle?    
+### Question # 55 - 	Jacinda’s manager has asked her to set up a sandbox environment to help validate third-party software before it is run. What should Jacinda prepare an environment to handle?    
 A.	Optimizing the production environment by moving processes that are not frequently used into the sandbox.  
 B.	Allowing secure remote access for users who need resources in the cloud environment.   
 C.	Running malware for analysis purposes.   
@@ -441,7 +445,7 @@ D.	Creating secure subnets of the production environment.
 
 Answer: C             
 
-### [important] Question # 56 - Valerie wants to [decouple] her application infrastructure [from her underlying operating system platforms] to allow her to more [easily migrate between cloud service providers]. What type of solution will best fit her needs?      
+### Question # 56 - Valerie wants to [decouple] her application infrastructure [from her underlying operating system platforms] to allow her to more [easily migrate between cloud service providers]. What type of solution will best fit her needs?      
 A.	Use custom configured Linux virtual machines to host the application.    
 B.	Use containers configured for the application to host the application.     
 C.	Use the cloud provider’s native serverless infrastructures to host the applications.     
@@ -449,7 +453,7 @@ D.	Use default Linux systems with default configurations to host the application
 
 Answer: B             
 
-### [important] Question # 57 - 	Gary wants to [monitor privileged credential] use in his Microsoft [SQL] Server environment, which he hosts with an IaaS provider. What type of tool should Gary select to help with this need?     
+### Question # 57 - 	Gary wants to [monitor privileged credential] use in his Microsoft [SQL] Server environment, which he hosts with an IaaS provider. What type of tool should Gary select to help with this need?     
 A.	A WAF.   
 B.	A database SIEM.    
 C.	A DB- IPS.    
@@ -481,7 +485,7 @@ D.	GLBA validated.
 
 Answer: C             
 
-### [important] Question # 61 - Kwame wants to [limit the impact of potentially compromised secrets] in his environment. What [should he do] to most effectively [limit the issues] compromised secrets can cause?       
+### Question # 61 - Kwame wants to [limit the impact of potentially compromised secrets] in his environment. What [should he do] to most effectively [limit the issues] compromised secrets can cause?       
 A.  Extend secrets lifecycle.      
 B.	Rotate secrets.                     
 C.	Replace secrets with tokens.              
@@ -497,7 +501,7 @@ D.	Nonfunctional testing.
 
 Answer: B             
 
-### [important] Question # 63 - 	Olivia’s organization wants to adopt multifactor authentication. Which of the following MFA models is considered [less secure than] the others?    
+### Question # 63 - 	Olivia’s organization wants to adopt multifactor authentication. Which of the following MFA models is considered [less secure than] the others?    
 A.	Hardware tokens.   
 B.	Mobile applications.    
 C.	SMS factors.    
@@ -505,7 +509,7 @@ D.	USB tokens.
 
 Answer: C             
 
-### Question # 64 - Ben wants to validate open source software packages used in his environment. Which of the following is [not a valid dynamic testing] option?
+### Question # 64 - Ben wants to validate [open source software packages] used in his environment. Which of the following is [not a valid dynamic testing] option?
 A.	Use manual security testing of the live application.   
 B.	Use an application vulnerability scanner.    
 C.	Use manual security testing of the source code.     
@@ -521,7 +525,7 @@ D.	Prevent XSS by limiting special characters in form submissions.
 
 Answer: B             
 
-### Question # 66 - Emily logs in to a third- party website using her Google credentials. What role is Google playing in the authentication process? 
+### Question # 66 - Emily logs in to a third- party website [using her Google credentials]. What role is Google playing in the authentication process? 
 A.  Google is the service provider.      
 B.	Google is the storage provider.    
 C.	Google is the authorization provider.    
@@ -537,15 +541,15 @@ D.	Randomizing customer data.
 
 Answer: D             
 
-### Question # 68 - Kristen wants to filter her SAML traffic for potential attacks, including rate- limiting requests and validating content. Which of the following solutions is purpose- built for this type of security design?      
+### [very important] Question # 68 - Kristen wants to [filter her SAML traffic] for potential attacks, including rate- limiting requests and validating content. Which of the following [solutions is purpose- built] for this type of security design?      
 A.	A DAM with OpenID support.   
 B.	A SAML compliant IDS.    
-C.	An XML firewall.   
+C.	**An XML firewall**.   
 D.	A WAF.   
 
 Answer: C             
 
-### [important tricky] Question # 69 - Which of the following is not true about single sign- on (SSO)?    
+### Question # 69 - Which of the following is [not] true about single sign- on (SSO)?    
 A.	Reduction in password fatigue.   
 B.	Reduces password reuse.   
 C.	Prevents the use of multifactor authentication.   
@@ -561,9 +565,9 @@ D.	Source code.
 
 Answer: D             
 
-### [important tricky] Question # 71 - Angela wants to deploy multifactor authentication (MFA) for her organization and wants to integrate with her cloud provider. Which of the following MFA options is least likely to be easily supported by a cloud provider?     
+### Question # 71 - Angela wants to deploy multifactor authentication (MFA) for her organization and wants to integrate with her cloud provider. Which of the following MFA options is [least] likely to be easily supported by a cloud provider?     
 A.	Hardware tokens.    
-B.	Biometric readers.   
+B.	**Biometric readers**.   
 C.	Mobile applications.   
 D.	SMS factors.   
 
@@ -573,7 +577,7 @@ Answer: B
 A.	Design.    
 B.	Deployment.    
 C.	Maintenance.   
-D.	Requirements Gathering.   
+D.	**Requirements Gathering**.   
 
 Answer: D             
 
@@ -587,7 +591,7 @@ Answer: B
 
 ### Question # 74 - 	During what phase of the SDLC are business requirements most likely to be mapped to how the software will be built?      
 A.	Requirements Definition.   
-B.	Design.   
+B.	**Design**.   
 C.	Testing.   
 D.	Secure Operations.   
 
@@ -601,55 +605,55 @@ D.	Nonfunctional testing.
 
 Answer: D             
 
-### [tricky] Question # 76 - 	Gabriel’s organization wants to ensure that their open source software is properly licensed. What should they were do?     
+### [important] Question # 76 - 	Gabriel’s organization wants to ensure that their [open source software is properly licensed]. What should they were do?     
 A.	Contact the authors of each component to request permission to use them.     
 B.	Engage a third- party license management vendor to ensure compliance with the licenses.      
 C. Pay appropriate licensing fees to the licensing organization for each software component.      
-D. Review the licenses for each component to ensure they are in compliance.     
+D. [Review the licenses for each component] to ensure they are in compliance.     
 
 Answer: D             
 
-### Question # 77 - 	Sofia is preparing a list of the likely attacks against her APIs. Which of the following is not a common attack against APIs?     
+### Question # 77 - 	Sofia is preparing a list of the likely attacks against her APIs. Which of the following is [not] a common attack against APIs?     
 A.	Injection.   
-B.	Malware.   
+B.	**Malware**.   
 C.	Distributed denial- of- service.   
 D.	Credential stuffing.   
 
 Answer: B             
 
-### [important] Question # 78 - The SAFECode Fundamental Practices for Secure Software Development includes a [section on handling errors]. What common development best practice does it reference?     
+### Question # 78 - The [SAFECode Fundamental Practices] for Secure Software Development includes a [section on handling errors]. What common development best practice does it reference?     
 A.	Providing too much information in errors.   
-B.	Handling errors in a secure and graceful way.   
+B.	**Handling errors in a secure and graceful way**.   
 C.	Ensuring unanticipated errors are provided only to administrators.   
 D.	Ensuring unanticipated errors are provided only to users.   
 
 Answer: B             
 
-### [important] Question # 79 - Jason wants to use TLS to protect his organization’s production web traffic. Who should generate the x.509 certificate for his website?    
+### Question # 79 - Jason wants to use TLS to protect his organization’s production web traffic. Who should generate the x.509 certificate for his website?    
 A.	Jason should generate it on the web servers.    
 B.	Jason should use his company’s internal certificate authority.     
-C.	Jason should use a commercial certificate authority.     
+C.	**Jason should use a commercial certificate authority**.     
 D.	Jason should generate the certificate on a separate administrative workstation used only for that purpose.     
 
 Answer: C             
 
-### Question # 80 - 	Lisa wants to ensure that the open source software package she has downloaded is legitimate. The software download site provides an SHA2 hash, a cryptographic signature, a file size, and a version number. Which of these options provides the greatest level of certainty?    
+### Question # 80 - 	Lisa wants to ensure that the open source software package she has downloaded is legitimate. The software download site provides an SHA2 hash, a cryptographic signature, a file size, and a version number. Which of these options provides the [greatest level of certainty]?    
 A.	The SHA2 hash.   
-B.	The cryptographic signature.   
+B.	**The cryptographic signature**.   
 C.	The file size.   
 D.	The version number.   
  
 Answer: B             
 
 ### [important] Question # 81 - 	James has created monitoring instrumentation for his application and uses the instrumentation to [assess performance as well as function during the QA stage of his SDLC]. What type of software validation methodology is he using?     
-A.	IAST.   
+A.	**IAST**.   
 B.	Interactive DST.   
 C.	SCA.    
 D.	Structured DST.   
 
 Answer: A             
 
-### [tricky knowledge Important] Question # 82 - Michelle is using the SAFECode Fundamental Practices for Secure Software Development as an underlying foundation for her organization’s development practices. She wants to develop an encryption strategy and knows that SAFECode describes how to do so. Which of the following is not a best practice for developing an encryption strategy for applications according to SAFECode?         
+### [tricky knowledge Important] Question # 82 - Michelle is using the SAFECode Fundamental Practices for Secure Software Development as an underlying foundation for her organization’s development practices. She wants to develop an encryption strategy and knows that SAFECode describes how to do so. Which of the following is [not] a best practice for developing an encryption strategy for applications according to SAFECode?         
 
 A.	Ensuring encryption algorithms cannot be changed easily.   
 B.	Defining what to protect.   
@@ -666,7 +670,7 @@ D.	Programmers.
 
 Answer: A             
 
-### [tricky important knowledge] Question # 84 - 	James wants to test his software for business logic issues that [knowledgeable users could use to take advantage of his software]. What type of testing should he invest in?       
+### Question # 84 - 	James wants to test his software for business logic issues that [knowledgeable users could use to take advantage of his software]. What type of testing should he invest in?       
 A.  Abuse case testing.     
 B.	Black box testing.   
 C.	Use case testing.    
