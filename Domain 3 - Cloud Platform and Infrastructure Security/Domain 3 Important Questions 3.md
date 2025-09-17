@@ -505,7 +505,7 @@ B.	Multitenancy
 C.	Natural disasters          
 D.	Distributed denial- of- service (DDoS) attacks             
 
-Answer: A    
+Answer: B    
 
 ### Question # 62 - Software- defined networking (SDN) allows network administrators and architects to perform all the following functions except ___________________.    
 A.	Reroute traffic based on current customer demand    
@@ -513,7 +513,7 @@ B.	Create logical subnets without having to change any actual physical connectio
 C.	Filter access to resources based on specific rules or settings     
 D.	Deliver streaming media content in an efficient manner by placing it closer to the end user      
 
-Answer: A    
+Answer: D    
 
 ### Question # 63 - Mary is reviewing the availability controls for the system architecture shown here. What technology is shown that provides fault tolerance for the database servers?       
 A.	Failover cluster      
@@ -529,7 +529,7 @@ B.	Avoiding vendor lock- in/lockout
 C.	Increased performance                
 D.	Lower cost                
 
-Answer: A    
+Answer: B    
 
 ### Question # 65 - The cloud customer will usually not have physical access to the cloud datacenter. This enhances security by ___________________.            
 A. Reducing the need for qualified personnel              
@@ -537,7 +537,7 @@ B.	Limiting access to sensitive information
 C.	Reducing jurisdictional exposure                
 D.	Ensuring statutory compliance               
 
-Answer: A    
+Answer: B    
 
 ### Question # 66 - Which one of the following services would be least likely described as providing computing capability?              
 A.	Virtual server instances              
@@ -545,7 +545,7 @@ B.	FaaS
 C.	Object storage              
 D.	Containers              
 
-Answer: A    
+Answer: C    
 
 ### Question # 67 - What is the main reason virtualization is used in the cloud?          
 A. Virtual machines (VMs) are easier to administer.            
@@ -553,7 +553,7 @@ B.	If a VM is infected with malware, it can be easily replaced.
 C.	With VMs, the cloud provider does not have to deploy an entire hardware device for every new customer.                    
 D.	VMs are easier to operate than actual devices.                
 
-Answer: A    
+Answer: C    
 
 ### Question # 68 - Which one of the following test types is most likely to have an impact on production operations?             
 A. Full test               
@@ -580,7 +580,7 @@ B.	Hypervisor
 C.	Management plane             
 D.	Storage               
 
-Answer: A    
+Answer: B    
 
 ### Question # 71 - Melissa uses the snapshot capabilities of her cloud service provider to make backup copies of the disk volumes that support her virtual machines. What type of storage is most likely used to store these backups?              
 A.	Dedicated disks            
@@ -588,7 +588,7 @@ B.	Block
 C.	Encrypted         
 D.	Object        
 
-Answer: A    
+Answer: D    
 
 ### Question # 72 - If you use the cloud for BC/DR purposes, even if you don’t operate your production environment in the cloud, you can cut costs by eliminating your ___________________.                     
 A.	Security personnel             
@@ -596,7 +596,7 @@ B.	BC/DR policy
 C.	Old access credentials               
 D.	Need for a physical hot site/warm site       
 
-Answer: A    
+Answer: D    
 
 ### Question # 73 - Using a virtual machine baseline image could be very useful for which of the following options?              
 A.	Physical security           
@@ -604,7 +604,7 @@ B.	Auditing
 C.	Training           
 D.	Customization         
 
-Answer: A    
+Answer: B    
 
 ### Question # 74 - Which one of the following audit mechanisms would be able to provide the most accurate reconstruction of user activity?      
 A.	Application logs     
@@ -612,7 +612,7 @@ B.	Security logs
 C.	Netflow records      
 D.	Packet capture     
 
-Answer: A    
+Answer: D    
 
 ### Question # 75 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted in a cloud environment and no longer operates secure on- premises datacenters. You are considering using cloud backup services for your BC/DR purposes as well. What would probably be the best strategy for this approach, in terms of redundancy and resiliency?      
 A. Have your cloud provider also provide BC/DR backup.                   
@@ -620,7 +620,7 @@ B.	Keep a BC/DR backup on the premises of your corporate headquarters.
 C.	Use another cloud provider for the BC/DR backup.              
 D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.             
 
-Answer: A    
+Answer: C    
 
 ### Question # 76 - The BC/DR plan/policy should include all of the following except ___________________.             
 A.	Tasking for the office responsible for maintaining/enforcing the plan             
@@ -628,7 +628,7 @@ B.	Contact information for essential entities, including BC/DR personnel and eme
 C.	Copies of the laws/regulations/standards governing specific elements of the plan                
 D. Checklists for BC/DR personnel to follow            
 
-Answer: A    
+Answer: C    
 
 ### Question # 77 - A Security Assertion Markup Language (SAML) identity assertion token uses the ___________________ protocol.                
 A.	Extensible Markup Language (XML)           
@@ -652,7 +652,7 @@ B.	Migrating into a cloud environment necessarily means you are accepting all ri
 C.	Some risks cannot be transferred to a cloud provider               
 D.	Cloud providers cannot avoid risk                  
 
-Answer: A    
+Answer: C    
 
 ### Question # 80 - To support all aspects of the CIA triad (confidentiality, integrity, availability), all of the following aspects of a cloud datacenter need to be engineered with redundancies except ___________________.         
 A.	Power supply          
@@ -660,7 +660,7 @@ B.	HVAC
 C.	Administrative offices             
 D.	Internet service provider (ISP)/connectivity lines            
 
-Answer: A    
+Answer: C    
 
 ### Question # 81 - You are reviewing the requirements for a new datacenter with leaders from functional teams. The discussions are centering on the amount of data that may be lost if an outage occurs. What metric is most directly related to this discussion?        
 A.	Recovery time objective      
@@ -668,7 +668,7 @@ B.	Recovery point objective
 C.	Maximum allowable downtime       
 D.	Mean time to failure        
 
-Answer: A    
+Answer: B    
 
 ### Question # 82 - What term describes the process of granting users access to resources?         
 A.	Identification         
@@ -676,7 +676,7 @@ B.	Authentication
 C.	Authorization             
 D.	Federation             
 
-Answer: A    
+Answer: C    
 
 ### Question # 83 - Which of the following risks is probably most significant when choosing to use one cloud provider for your operational environment and another for BC/DR backup/archive?            
 A. Physical intrusion                              
@@ -684,7 +684,7 @@ B.	Proprietary formats/lack of interoperability
 C.	Vendor lock- in/lockout               
 D.	Natural disasters             
 
-Answer: A    
+Answer: B    
 
 ### Question # 84 - In which cloud service model does the customer lose the most control over configuration of services?        
 A.	Infrastructure as a service (IaaS)         
@@ -692,7 +692,7 @@ B.	Platform as a service (PaaS)
 C.	Software as a service (SaaS)         
 D.	Function as a service (FaaS)          
 
-Answer: A    
+Answer: C    
 
 ### Question # 85 - Warren is working with a cloud service provider on the terms of a new service that his organization will depend on as a disaster recovery capability. Which one of the following actions will provide Warren with the best assurance that the service will function correctly?           
 A. Audit all performance functions.                    
@@ -700,7 +700,7 @@ B.	Audit all security functions.
 C.	Perform a full- scale test.                  
 D.	Mandate this capability in the contract.            
 
-Answer: A    
+Answer: C    
 
 ### Question # 86 - Charles is the BC/DR program manager for a cloud service provider. He is assessing the risks facing his program. He believes that the organization has done adequate BC/DR planning but they have never actually activated the plan. Which of the following would most likely pose the most significant risk to the organization?            
 A.	Not having essential BC/DR personnel available during a contingency             
@@ -708,7 +708,7 @@ B.	Not including all BC/DR elements in the cloud contract
 C.	Returning to normal operations too soon              
 D.	Telecommunications outages               
 
-Answer: A    
+Answer: C    
 
 ### Question # 87 - What type of fire suppression system poses the greatest risk to datacenter equipment if it fails?             
 A.	Dry pipe              
@@ -716,7 +716,7 @@ B.	Preaction
 C.	Wet pipe                   
 D.	Gas                   
 
-Answer: A    
+Answer: C    
 
 ### Question # 88 - Where is isolation failure probably least likely to pose a significant risk?              
 A. Public cloud          
@@ -724,7 +724,7 @@ B.	Private cloud
 C.	PaaS environment               
 D.	SaaS environment               
 
-Answer: A    
+Answer: B    
 
 ### Question # 89 - What can hamper the ability of a cloud customer to protect their assets in a managed services arrangement?               
 A.	Prohibitions on port scanning and penetration testing                
@@ -740,7 +740,7 @@ B.	Software- defined network (SDN)
 C.	Access control lists (ACLs)             
 D.	Role- based access control (RBAC)             
 
-Answer: A    
+Answer: B    
 
 ### Question # 91 - Of the following options, which is a reason cloud datacenter audits are often less easy to verify than traditional audits?            
 A.	Data in the cloud can’t be audited.             
@@ -748,7 +748,7 @@ B.	Controls in the cloud can’t be audited.
 C.	Getting physical access can be difficult.              
 D.	There are no regulators for cloud operations.           
 
-Answer: A    
+Answer: C    
 
 ### Question # 92 - Which of these most directly determines the critical assets, recovery service level (RSL), recovery time objective (RTO), and recovery point objective (RPO) for BC/DR purposes?              
 A.	Business drivers              
@@ -764,7 +764,7 @@ B.	Description of scope of the test
 C.	Physical location of the launch point             
 D.	Test timeframe/duration                
 
-Answer: A    
+Answer: C    
 
 ### Question # 94 - Glenda would like to conduct a disaster recovery test and is seeking a test that will allow a review of the plan with no disruption to normal information system activities and as minimal a commitment of time as possible. What type of test should she choose?              
 A. Tabletop exercise            
@@ -772,7 +772,7 @@ B.	Parallel test
 C.	Full interruption test             
 D.	Checklist review              
 
-Answer: A    
+Answer: D    
 
 ### Question # 95 - DDoS attacks do not affect ___________________ for cloud customers.           
 A. Productivity          
@@ -780,7 +780,7 @@ B.	Availability
 C.	Connectivity               
 D.	Integrity             
 
-Answer: A    
+Answer: D    
 
 ### Question # 96 - Where should multiple emergency egress points be included?             
 A.	At the power distribution substation              
@@ -788,7 +788,7 @@ B.	Within the datacenter
 C.	In every building on the campus            
 D.	In the security operations center               
 
-Answer: A    
+Answer: C    
 
 ### Question # 97 - Which of the following controls would be useful to build into a virtual machine baseline image for a cloud environment?          
 A.	GPS tracking/locator                                
@@ -796,7 +796,7 @@ B.	Automated vulnerability scan on system startup
 C.	Access control list (ACL) of authorized personnel                
 D.	Write protection                 
 
-Answer: A    
+Answer: B    
 
 ### Question # 98 - Cloud providers will probably not allow ___________________ as part of a customer’s penetration test.                 
 A.	Network mapping              
@@ -804,7 +804,7 @@ B.	Vulnerability scanning
 C.	Reconnaissance               
 D.	Social engineering                 
 
-Answer: A    
+Answer: D    
 
 ### Question # 99 - Having your BC/DR backup stored with the same cloud provider as your production environment can help you ___________________.              
 A.	Maintain regulatory compliance               
@@ -812,13 +812,15 @@ B.	Spend less of your budget on traveling
 C.	Train your users about security awareness                   
 D.	Recover quickly from minor incidents                    
 
-Answer: A    
+Answer: D    
 
 ### Question # 100 - Virtual machine (VM) configuration management (CM) tools should require that managed systems perform ___________________.                
 A.	Biometric recognition            
 B.	Anti- tampering mechanisms               
 C.	Log file generation               
 D.	Hackback capabilities                
+
+Answer: C
 
 # Chapter 3: Domain 3: Cloud Platform and Infrastructure Security
 
