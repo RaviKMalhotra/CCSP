@@ -863,7 +863,7 @@ B	is	incorrect	because	files	can	typically	be	renamed	if	they	can	be read	on	a	s
 
 D	is	incorrect	because	printing	is	possible	if	a	file	can	be	read.	Once the	data	is	accessible,	even	if	printing	is	not	possible	directly	from	the host	system,	there	are	a	variety	of	ways	to	copy	or	move	data	that could	expose	it	to	being	printed.	IRM	technologies	can	be	used	in	a variety	of	ways	to	prevent	printing.
 
-### Question # 31 - Which	cloud	service	category	is	object	storage	associated	with?      
+### [important tricky] Question # 31 - Which	cloud	service	category	is	object	storage	associated	with?      
 A.	Software     
 B.	Infrastructure      
 C.	Desktop      
@@ -883,6 +883,7 @@ A.	Discovery
 B.	Monitoring      
 C.	Revision     
 D.	Enforcement      
+
 Answer: C.	
 
 Revision	is	not	a	core	component	of	a	data	loss	prevention	(DLP) process,	though	it	would	likely	be	part	of	an	organization’s	larger change	management	or	technical	advisory	processes.	For	any	DLP strategy	to	be	successful,	an	organization	must	include	other	processes in	the	workflow	for	revision	over	time	as	systems	change	and	data evolves,	but	revision	is	not	a	core	component	of	the	actual	DLP processes.
@@ -898,6 +899,7 @@ A.	Read
 B.	Delete    
 C.	Modify    
 D.	Distribution      
+
 Answer: D.	
 
 **An	IRM	solution	can	control	what	can	be	done	with	data	beyond the	capabilities	of	restricting	its	access**.	
@@ -909,14 +911,16 @@ B	is	incorrect	because	deletion	can	be	prevented	through	modify	or specific	dele
 
 C	is	incorrect	because	modify	is	a	core	capability	of	all	file	systems and	authorization	schemes,	and	IRM	is	not	needed	to	control	it, though	IRM	can	certainly	give	far	greater	and	more	granular	control over	it.
 
-### Question # 34 - Which	of	the	following	concepts	is	NOT	one	of	the	key	components	of	a data-archiving	program?     
+### [important] Question # 34 - Which	of	the	following	concepts	is	[NOT]	one	of	the	key	components	of	a [data-archiving]	program?     
 A.	Format     
 B.	Size     
 C.	Regulations     
 D.	Testing     
+
 Answer: B.	
 
-Many	considerations	are	needed	to	develop	a	data-archiving program	and	establish	the	policies	that	govern	it,	but	the	size	of archives	is	a	technical	consideration	concerning	implementation,	not one	to	drive	policy.	Regulations	especially	focus	on	what	needs	to	be preserved	and	for	how	long,	but	the	size	of	the	archives	is	never	a consideration	under	regulatory	frameworks.
+**Many	considerations	are	needed	to	develop	a	data-archiving program	and	establish	the	policies	that	govern	it,	but	the	size	of archives	is	a	technical	consideration	concerning	implementation,	not one	to	drive	policy**.	
+Regulations	especially	focus	on	what	needs	to	be preserved	and	for	how	long,	but	the	size	of	the	archives	is	never	a consideration	under	regulatory	frameworks.
 
 A	is	incorrect	because	the	format	of	archives	is	a	prime	consideration. It	ties	directly	to	regulatory	requirements	for	what	must	be	preserved, as	well	as	to	considerations	for	ensuring	it	can	later	be	restored	and accessed	for	the	duration	of	the	required	retention	period.
 
@@ -929,6 +933,7 @@ A.	Deletion
 B.	Alerting     
 C.	Correlation    
 D.	Aggregation     
+
 Answer: A.	
 
 An	SIEM	solution	will	aggregate	event	data	and	allow	for	analysis and	reporting	on	it.	However,	it	functions	as	only	a	consumer	of	event data;	it	does	not	maintain	the	data	from	the	source.	Data	is	copied	into an	SIEM	solution	from	agents	running	on	devices	or	servers,	or	it	is sent	via	syslog	technologies,	typically,	and	then	is	indexed	for	use.	An SIEM	solution	does	not	maintain	or	prune	the	data	that	is	being	sent	in at	all;	that	is	left	to	processes	external	to	the	solution.	Because	of	this, the	SIEM	solution	does	not	delete	data.
@@ -939,11 +944,12 @@ C	is	incorrect	because	correlation	of	data	from	across	an	enterprise	is	a core	f
 
 D	is	incorrect	because	aggregation	is	perhaps	the	most	well	known function	of	an	SIEM	solution,	which	collects	data	from	many	different devices,	servers,	and	sources	and	then	indexes	it	for	use	in	a	single repository	and	searching	mechanism.
 
-### Question # 36 - Which	of	the	following	would	be	considered	an	indirect	identifier?      
+### Question # 36 - Which	of	the	following	would	be	considered	an	[indirect]	identifier?      
 A.	Name      
 B.	ZIP	Code     
 C.	Educational	history      
 D.	Address      
+
 Answer: C.	    
 
 Educational	history	is	not	considered	a	direct	identifier.	It	is	not specific	enough	to	attach	to	an	individual,	as	many	others	will	have attended	both	the	same	institutions	and	obtained	the	same	degrees	or studied	the	same	subjects.
@@ -954,11 +960,12 @@ B	is	incorrect	because	a	ZIP	Code	is	typically	considered	specific enough	to	be	
 
 D	is	incorrect	because	an	address	is	very	specific	to	an	individual	or	a residence.	With	the	address	alone,	it	is	possible	to	very	quickly	focus on	an	individual	directly.
 
-### Question # 37 - Which	of	the	following	is	NOT	a	method	for	protecting	data	in	transit?      
+### Question # 37 - Which	of	the	following	is	[NOT]	a	method	for	protecting	data	in	transit?      
 A.	HTTPS       
 B.	IPSec      
 C.	DRM      
 D.	TLS     
+
 Answer: C.	     
 
 Data	rights	management	(DRM)	works	by	protecting	how	data	is accessed	and	used,	specifically	relating	to	the	use	of	digital	and consumer	media,	such	as	movies,	audio	files,	and	images.	It	is	not focused	on	data	in	transit,	only	on	the	actual	use	and	access.
@@ -974,6 +981,7 @@ A.	Volume	and	object
 B.	Structured	and	unstructured     
 C.	Container	and	object    
 D.	Volume	and	structured     
+
 Answer: B.	
 
 **The	phrase	“fully	installed	and	implemented	application	hosting and	deployment	framework”	describes	the	Platform	as	a	Service (PaaS)	cloud	service	category.	With	that	in	mind,	the	applicable storage	types	are	structured	and	unstructured.**
@@ -984,14 +992,16 @@ C	is	incorrect	because	container	and	object	are	not	recognized	storage types	ass
 
 D	is	incorrect	because	although	both	volume	and	structured	are	storage types	used	within	cloud	environments,	they	span	two	different	cloud service	categories.	Volume	storage	is	associated	with	IaaS,	whereas structured	storage	is	associated	with	PaaS;	both	are	not	applicable	to the	PaaS	example	represented	in	the	question.
 
-### [important] Question # 39 - Which	of	the	following	methods	or	strategies	is	NOT	a	method	for protecting	sensitive	data	from	data	sets?     
+### [important] Question # 39 - Which	of	the	following	methods	or	strategies	is	[NOT]	a	method	for protecting	sensitive	data	from	data	sets?     
 A.	Zeroing    
 B.	Anonymization    
 C.	Tokenization     
 D.	Obfuscation       
+
 Answer: A.	
 
 **Zeroing	involves	replacing	and	overwriting	data	with	zeros	or	null values.**	
+
 Although	it	is	a	successful	**strategy	for	guaranteeing	the	secure deletion	of	data**,	**it	would	not	be	considered	a	method	for	protecting sensitive	data,	because	it	would	actually	destroy	the	data.**
 
 B	is	incorrect	because	anonymization	involves	removing	or	masking indirect	identifiers	in	data	sets	to	prevent	the	identification	of	specific individuals.	It	is	used	to	protect	sensitive	data	from	individual identification,	and	is	often	used	in	conjunction	with	other	strategies.
@@ -1000,11 +1010,12 @@ C	is	incorrect	because	tokenization	involves	replacing	sensitive	data with	opaqu
 
 D	is	incorrect	because	obfuscation	is	typically	used	as	a	method	for making	data	sets	available	for	testing	of	development	or	nonproduction	systems	by	removing	sensitive	data	or	replacing	it	with other	values.
 
-### [important] Question # 40 - Which	of	the	following	areas	is	NOT	part	of	the	CCM	framework	and represented	as	a	domain?      
+### Question # 40 - Which	of	the	following	areas	is	[NOT]	part	of	the	[CCM]	framework	and represented	as	a	domain?      
 A.	Mobile	security     
 B.	Human	resources      
 C.	Governance    
 D.	Financial	audit       
+
 Answer: D.	
 
 **[important] The	Cloud	Control	Matrix	(CCM)	serves	as	a	framework	for	cloud security	and	covers	the	areas	that	are	pertinent	to	it.**	
@@ -1015,11 +1026,12 @@ A	is	incorrect	because	mobile	security	is	one	of	the	domains	listed	as part	of	t
 B	is	incorrect	because	human	resources	is	listed	as	one	of	the	domains of	the	CCM,	as	it	pertains	directly	to	personnel	security	and	the prevention	of	malicious	insiders.
 C	is	incorrect	because	governance	of	IT	data	and	resources	is	a	core domain	of	the	CCM.
 
-### [tricky and important] Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	datais	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
+### Question # 41 - The	final	phase	of	the	cloud	data	lifecycle	is	the	destroy	phase,	where	data is	ultimately	deleted	and	done	so	in	a	secure	manner	to	ensure	it	cannot	be recovered	or	reconstructed.	Which	cloud	service	category	poses	the	most challenges	to	data	destruction	or	the	cloud	customer?     
 A.	Platform     
 B.	Software    
 C.	Infrastructure     
 D.	Desktop     
+
 Answer: B.	   
 
 **With	Software	as	a	Service	(SaaS),	data	destruction	often	poses	the most	challenges	because	it	is	solely	the	responsibility	of	the	cloud provider,	but	also	because	most	platforms	tend	to	be	large implementations	with	many	customers	or	tenants	using	them**.	
@@ -1031,11 +1043,12 @@ C	is	incorrect	because	Infrastructure	as	a	Service	(IaaS)	is	also	focused on	a	s
 
 D	is	incorrect	because	Desktop	as	a	Service	(DaaS)	operates	much	as SaaS	and	carries	with	it	the	same	concerns,	but	is	more	segregated	by individual	cloud	customers.
 
-### [tricky ] Question # 42 - During	data	discovery	and	classification,	the	use	of	metadata	is	a	primary means	for	analysis.	Which	of	the	following	would	NOT	be	considered metadata?      
+### Question # 42 - During	[data	discovery	and	classification],	the	[use	of	metadata]	is	a	primary means	for	analysis.	Which	of	the	following	would	[NOT]	be	considered metadata?      
 A.	Column	names    
 B.	Content     
 C.	Filenames     
 D.	Headers    
+
 Answer: B.	
 
 Metadata	by	definition	is	data	about	data,	**so	the	actual	content	of the	data	would	not	fit	within	this	definition**.	
@@ -1047,11 +1060,12 @@ C	is	incorrect	because	filenames	are	information	about	data,	regardless of	the	n
 
 D	is	incorrect	because	headers	are	very	similar	column	names	and represent	information	about	the	data	and	how	it	is	organized	or categorized.	They	are	also	considered	metadata	and	descriptive	in nature.
 
-### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storage from	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	NOT	a	storage	type	used	within	a	cloud	environment?    
+### Question # 43 - Different	types	of	cloud	deployment	models	use	different	types	of	storage from	traditional	data	centers,	along	with	many	new	types	of	software platforms	for	deploying	applications	and	configurations.	Which	of	the following	is	[NOT]	a	storage	type	used	within	a	cloud	environment?    
 A.	Docker    
 B.	Object    
 C.	Structured    
 D.	Volume     
+
 Answer: A.	
 
 Docker	is	a	container	method	for	building,	shipping,	and	running applications	across	different	platforms	and	clients.	It	runs	within	its own	agents	and	containers,	is	not	a	storage	type	under	a	cloud deployment	model,	and	can	be	used	with	virtually	any	type	of platform.
@@ -1067,6 +1081,7 @@ A.	Encryption
 B.	Size       
 C.	Restoration       
 D.	Availability       
+
 Answer: C.	     
 
 As	time	passes	and	organizations	change	out	software	and	other technologies,	it	is	imperative	that	the	ability	to	restore	archives	is maintained.	Given	that	some	regulatory	requirements	are	several	years or	longer,	and	with	the	rapid	development	of	technology	and upgrades,	it	is	very	possible	without	proper	planning	for	an organization	to	end	up	deprecating	the	capability	to	restore	archives before	they	have	reached	their	minimum	retention	time.	When	this happens,	an	organization	would	likely	have	to	contract	with	a	third party,	likely	at	a	very	high	cost,	for	restoration	services	should	the need	arise.
@@ -1077,14 +1092,16 @@ B	is	incorrect	because	although	the	size	of	archives	can	be	a	concern, especiall
 
 D	is	incorrect	because	archives	typically	are	housed	in	less	accessible means	of	storage,	many	times	on	tapes	kept	at	secure	external facilities.	When	the	need	for	restoration	arises,	it	may	take	some	time for	archives	to	be	retrieved	and	restored.	There	is	no	need	for	archives to	be	immediately	available,	and	the	contract	or	SLA	with	a	service provider	should	document	the	required	or	expected	restoration	times, ensuring	they	also	will	satisfy	any	regulatory	requirements.
 
-### [tricky and important] Question # 45 - Which	of	the	following	data	protection	methodologies	maintains	the ability	to	connect	back	values	to	the	original	values?     
+### [tricky and important] Question # 45 - Which	of	the	following	[data	protection	methodologies]	maintains	the ability	to	connect	back	values	to	the	original	values?     
 A.	Tokenization     
 B.	Anonymization     
 C.	Obfuscation     
 D.	Dynamic	mapping     
+
 Answer: A.	
 
-Tokenization	replaces	data	fields	with	opaque	handlers	or descriptors.	In	the	process,	the	original	and	sensitive	information	is removed	from	the	data,	and	the	token	values	can	be	mapped	them back	to	the	original	values	if	needed.
+**Tokenization	replaces	data	fields	with	opaque	handlers	or descriptors**.	
+**In	the	process,	the	original	and	sensitive	information	is removed	from	the	data,	and	the	token	values	can	be	mapped	them back	to	the	original	values	if	needed**.
 
 B	is	incorrect	because	anonymization	removes	indirect	identifiers	from data	sets	to	protective	sensitive	information	and	prevent	data	from being	matched	up	with	an	individual.	However,	the	goal	of anonymization	is	not	to	be	able	to	map	back	to	original	data	like	is possible	with	tokenization.
 
@@ -1092,11 +1109,12 @@ C	is	incorrect	because	obfuscation	often	replaces	values	with	garbage or	random	
 
 D	is	incorrect	because	dynamic	mapping	can	refer	to	many	things within	a	system	or	application,	but	in	this	instance	it’s	provided	as	an erroneous	choice.
 
-### Question # 46 - Which	of	the	following	is	not	a	commonly	accepted	strategy	for	data discovery?      
+### Question # 46 - Which	of	the	following	is	[not]	a	commonly	accepted	strategy	for	data discovery?      
 A.	Labels     
 B.	Metadata     
 C.	Signature	hashing     
 D.	Content	analysis       
+
 Answer: C.	
 
 **Data	discovery	is	focused	on	the	three	main	areas:	labels,	metadata, and	content	analysis.**	
@@ -1108,10 +1126,11 @@ B	is	incorrect	because	metadata,	or	data	about	data,	is	commonly	used as	a	strat
 
 D	is	incorrect	because	content	analysis,	which	is	done	against	the actual	data	itself,	is	a	main	strategy	for	data	discovery,	even	if	it	is	the slowest	and	least	accurate	method.	However,	as	tools	become	more mature	and	efficient,	the	use	of	content	analysis	is	rapidly	growing and	becoming	more	accurate	and	useful.
 
-### Question # 47 - Although	the	preservation	and	retention	of	data	are	the	most	important concepts	that	usually	come	to	mind	when	you’re	considering	archiving, what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
+### Question # 47 - Although	the	[preservation	and	retention]	of	data	are	the	most	important concepts	that	usually	come	to	mind	when	you’re	[considering	archiving], what	process	is	equally	important	to	test	regularly	for	the	duration	of	the required	retention	period?      
 A.	Recoverability    
 B.	Portability    
 C.	Encryption    
+
 D.	Availability      
 Answer: A.	
 
@@ -1124,26 +1143,29 @@ or	system.
 
 D	is	incorrect	because	availability	is	not	a	primary	concern	with archiving.	Typically,	offsite	storage	or	storage	services	are	used	with archiving,	in	which	case	the	immediate	availability	for	restoration	will not	be	possible,	and	some	period	of	time,	defined	by	regulation,	is allowed	for	producing	records	and	evidence.
 
-### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloud provider,	and	one	area	of	log	collection	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
+### Question # 48 - You	are	reviewing	the	standard	offerings	from	a	prospective	cloud provider,	and	one	area	of	[log	collection]	promises	full	and	complete	access to	operating	system	logs	for	all	provisioned	systems.	Which	cloud	service category	is	this	MOST	likely	referring	to?    
 A.	Platform    
 B.	Desktop    
 C.	Software    
 D.	Infrastructure     
+
 Answer: D.	
 
 With	Infrastructure	as	a	Service	(IaaS),	the	cloud	customer	is responsible	for	the	provisioning,	configuration,	and	support	of operating	systems	and	virtual	machines.	As	such,	the	customer	has full	access	to	all	systems	and	operating	system	logs,	whereas	with	the other	service	categories,	these	items	would	not	be	provided.
 
-A	is	incorrect	because	with	Platform	as	a	Service	(PaaS),	the	operating system	is	maintained	by	the	cloud	provider	and	is	its	responsibility,	so chances	are	that	full	access	to	operating	system	logs	will	not	be provided	or	even	possible.	A	subset	may	be	made	available	through certain	tool	sets	or	an	SIEM	solution,	but	direct	and	full	access	is typically	not	be	provided.
+**A	is	incorrect	because	with	Platform	as	a	Service	(PaaS),	the	operating system	is	maintained	by	the	cloud	provider	and	is	its	responsibility,	so chances	are	that	full	access	to	operating	system	logs	will	not	be provided	or	even	possible**.	
+A	subset	may	be	made	available	through certain	tool	sets	or	an	SIEM	solution,	but	direct	and	full	access	is typically	not	be	provided.
 
 B	is	incorrect	because	Desktop	as	a	Service	(DaaS)	works	much	like SaaS,	where	the	cloud	provider	is	responsible	for	the	overall	system, platform,	and	software,	and	would	not	make	full	operating	system logs	available	to	the	cloud	customer,	nor	would	the	cloud	provider necessarily	provide	a	high	level	of	value.
 
 C	is	incorrect	because	the	operating	system	with	Software	as	a	Service (SaaS)	is	solely	the	responsibility	of	the	cloud	provider,	who	itself would	retain	full	access	to	operating	system	logs.	Because	the	cloud provider	is	solely	responsible	for	the	logs,	there	would	be	little	need for	the	cloud	customer	to	have	access	to	them.
 
-### [tricky] Question # 49 - Which	of	the	following	will	always	serve	as	the	starting	point	for	the minimum	period	of	data	retention?    
+### [important tricky] Question # 49 - Which	of	the	following	will	always	serve	as	the	[starting	point	for	the minimum	period	of	data	retention]?    
 A.	Contract     
 B.	Regulation     
 C.	System	resources    
 D.	Company	policy     
+
 Answer: B.	
 
 Regulation	will	dictate,	based	on	the	type	and	content	of	data,	the minimum	period	of	data	retention,	as	well	as	what	events	must	be captured	for	retention.	
@@ -1155,11 +1177,12 @@ C	is	incorrect	because	system	resources	would	never	be	a	factor	for determining	
 
 D	is	incorrect	because	company	policy	forms	the	end	basis	for	data retention,	but	the	starting	point	will	always	be	regulation.	Company policies	may	always	expand	and	build	upon	regulations,	but regulations	will	always	form	the	minimum	starting	basis	for	retention requirements.
 
-### [important] Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	sets for	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
+### Question # 50 - Which	type	of	masking	would	be	appropriate	for	the	creation	of	data	sets for	testing	purposes,	where	the	same	structure	and	size	are	of	importance?       
 A.	Dynamic    
 B.	Structured    
 C.	Tokenized     
 D.	Static    
+
 Answer: D.	    
 
 **Static	masking	is	used	to	produce	full	data	sets,	with	sensitive	data removed,	often	for	the	purposes	of	testing	or	development,	where	the structure	and	size	will	need	to	resemble	production	data,	just	without the	actual	sensitive	values.**
