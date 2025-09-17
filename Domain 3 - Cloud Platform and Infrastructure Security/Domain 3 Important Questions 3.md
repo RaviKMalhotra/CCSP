@@ -597,26 +597,26 @@ D.	Need for a physical hot site/warm site
 
 Answer: D    
 
-### Question # 73 - Using a virtual machine baseline image could be very useful for which of the following options?              
+### [important] Question # 73 - Using a virtual machine baseline image could be very useful for which of the following options?              
 A.	Physical security           
-B.	Auditing             
+B.	**Auditing**             
 C.	Training           
 D.	Customization         
 
 Answer: B    
 
-### Question # 74 - Which one of the following audit mechanisms would be able to provide the most accurate reconstruction of user activity?      
+### [important] Question # 74 - Which one of the following audit mechanisms would be able to provide the most accurate reconstruction of user activity?      
 A.	Application logs     
 B.	Security logs      
 C.	Netflow records      
-D.	Packet capture     
+D.	**Packet capture**     
 
 Answer: D    
 
 ### Question # 75 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted in a cloud environment and no longer operates secure on- premises datacenters. You are considering using cloud backup services for your BC/DR purposes as well. What would probably be the best strategy for this approach, in terms of redundancy and resiliency?      
-A. Have your cloud provider also provide BC/DR backup.                   
+A.  Have your cloud provider also provide BC/DR backup.                   
 B.	Keep a BC/DR backup on the premises of your corporate headquarters.           
-C.	Use another cloud provider for the BC/DR backup.              
+C.	**Use another cloud provider for the BC/DR backup**.              
 D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.             
 
 Answer: C    
@@ -624,13 +624,13 @@ Answer: C
 ### Question # 76 - The BC/DR plan/policy should include all of the following except ___________________.             
 A.	Tasking for the office responsible for maintaining/enforcing the plan             
 B.	Contact information for essential entities, including BC/DR personnel and emergency services agencies             
-C.	Copies of the laws/regulations/standards governing specific elements of the plan                
+C.	**Copies of the laws/regulations/standards governing specific elements of the plan**                
 D. Checklists for BC/DR personnel to follow            
 
 Answer: C    
 
 ### Question # 77 - A Security Assertion Markup Language (SAML) identity assertion token uses the ___________________ protocol.                
-A.	Extensible Markup Language (XML)           
+A.	**Extensible Markup Language (XML)**           
 B.	Hypertext Transfer Protocol (HTTP)             
 C.	Hypertext Markup Language (HTML)              
 D.	American Standard Code for Information Interchange (ASCII)                  
@@ -638,7 +638,7 @@ D.	American Standard Code for Information Interchange (ASCII)
 Answer: A    
 
 ### Question # 78 - Anita’s IaaS provider allows her to choose the region of the world where she will operate her primary server instances and a different region where she will operate her backup instances. Which one of the following is the most important concern that Anita should consider? 
-A. Regulatory compliance.                       
+A.  Regulatory compliance.                       
 B.	Physical security.                           
 C.	Environmental factors such as humidity.             
 D.	It doesn’t matter. Data can be saved anywhere without consequence.          
@@ -648,7 +648,7 @@ Answer: A
 ### Question # 79 - There are many ways to handle risk. However, the usual methods for addressing risk are not all possible in the cloud because ___________________.       
 A.	Cloud data risks cannot be mitigated                                             
 B.	Migrating into a cloud environment necessarily means you are accepting all risks              
-C.	Some risks cannot be transferred to a cloud provider               
+C.	**Some risks cannot be transferred to a cloud provider**               
 D.	Cloud providers cannot avoid risk                  
 
 Answer: C    
@@ -677,9 +677,9 @@ D.	Federation
 
 Answer: C    
 
-### Question # 83 - Which of the following risks is probably most significant when choosing to use one cloud provider for your operational environment and another for BC/DR backup/archive?            
-A. Physical intrusion                              
-B.	Proprietary formats/lack of interoperability            
+### [important] Question # 83 - Which of the following [risks is probably most significant] when choosing to use one cloud provider for your operational environment and another for BC/DR backup/archive?            
+A.  Physical intrusion                              
+B.	**Proprietary formats/lack of interoperability**            
 C.	Vendor lock- in/lockout               
 D.	Natural disasters             
 
@@ -694,46 +694,46 @@ D.	Function as a service (FaaS)
 Answer: C    
 
 ### Question # 85 - Warren is working with a cloud service provider on the terms of a new service that his organization will depend on as a disaster recovery capability. Which one of the following actions will provide Warren with the best assurance that the service will function correctly?           
-A. Audit all performance functions.                    
+A.  Audit all performance functions.                    
 B.	Audit all security functions.            
-C.	Perform a full- scale test.                  
+C.	**Perform a full- scale test**.                  
 D.	Mandate this capability in the contract.            
 
 Answer: C    
 
-### Question # 86 - Charles is the BC/DR program manager for a cloud service provider. He is assessing the risks facing his program. He believes that the organization has done adequate BC/DR planning but they have never actually activated the plan. Which of the following would most likely pose the most significant risk to the organization?            
+### Question # 86 - Charles is the [BC/DR program manager] for a cloud service provider. He is assessing the risks facing his program. He believes that the organization has done adequate BC/DR planning but they have never actually activated the plan. Which of the following would most likely pose the most significant risk to the organization?            
 A.	Not having essential BC/DR personnel available during a contingency             
 B.	Not including all BC/DR elements in the cloud contract                
-C.	Returning to normal operations too soon              
+C.	**Returning to normal operations too soon**              
 D.	Telecommunications outages               
 
 Answer: C    
 
-### Question # 87 - What type of fire suppression system poses the greatest risk to datacenter equipment if it fails?             
+### [important] Question # 87 - What type of fire suppression system poses the greatest risk to datacenter equipment if it fails?             
 A.	Dry pipe              
 B.	Preaction               
-C.	Wet pipe                   
+C.	**Wet pipe**                   
 D.	Gas                   
 
 Answer: C    
 
 ### Question # 88 - Where is isolation failure probably least likely to pose a significant risk?              
-A. Public cloud          
+A.  Public cloud          
 B.	Private cloud                 
 C.	PaaS environment               
 D.	SaaS environment               
 
 Answer: B    
 
-### Question # 89 - What can hamper the ability of a cloud customer to protect their assets in a managed services arrangement?               
-A.	Prohibitions on port scanning and penetration testing                
+### [important] Question # 89 - What can hamper the ability of a cloud customer to protect their assets in a managed services arrangement?               
+A.	**Prohibitions on port scanning and penetration testing**                
 B.	Geographical dispersion             
 C.	Rules against training users             
 D.	Laws that prevent them from doing so            
 
 Answer: A    
 
-### Question # 90 - Which of the following terms describes a means to centralize logical control of all networked nodes in the environment, abstracted from the physical connections to each?                    
+### Question # 90 - Which of the following [terms describes a means to centralize logical control of all networked nodes] in the environment, abstracted from the physical connections to each?                    
 A.	Virtual private network (VPN)           
 B.	Software- defined network (SDN)             
 C.	Access control lists (ACLs)             
@@ -744,23 +744,23 @@ Answer: B
 ### Question # 91 - Of the following options, which is a reason cloud datacenter audits are often less easy to verify than traditional audits?            
 A.	Data in the cloud can’t be audited.             
 B.	Controls in the cloud can’t be audited.               
-C.	Getting physical access can be difficult.              
+C.	**Getting physical access can be difficult**.              
 D.	There are no regulators for cloud operations.           
 
 Answer: C    
 
 ### Question # 92 - Which of these most directly determines the critical assets, recovery service level (RSL), recovery time objective (RTO), and recovery point objective (RPO) for BC/DR purposes?              
-A.	Business drivers              
+A.	**Business drivers **             
 B.	User input            
 C.	Regulator mandate             
 D.	Industry standards                
 
 Answer: A    
 
-### Question # 93 - A cloud provider will probably require all of the following except ___________________ before a customer conducts a penetration test.               
+### [important] Question # 93 - A cloud provider will probably require all of the following [except] ___________________ before a customer conducts a penetration test.               
 A.	Notice                                 
 B.	Description of scope of the test             
-C.	Physical location of the launch point             
+C.	**Physical location of the launch point **            
 D.	Test timeframe/duration                
 
 Answer: C    
@@ -769,35 +769,35 @@ Answer: C
 A. Tabletop exercise            
 B.	Parallel test                
 C.	Full interruption test             
-D.	Checklist review              
+D.	**Checklist review**              
 
 Answer: D    
 
 ### Question # 95 - DDoS attacks do not affect ___________________ for cloud customers.           
-A. Productivity          
+A.  Productivity          
 B.	Availability              
 C.	Connectivity               
-D.	Integrity             
+D.	**Integrity**             
 
 Answer: D    
 
-### Question # 96 - Where should multiple emergency egress points be included?             
+### [important] Question # 96 - Where should [multiple emergency egress points] be included?             
 A.	At the power distribution substation              
 B.	Within the datacenter                 
-C.	In every building on the campus            
+C.	**In every building on the campus**            
 D.	In the security operations center               
 
 Answer: C    
 
-### Question # 97 - Which of the following controls would be useful to build into a virtual machine baseline image for a cloud environment?          
+### [important] Question # 97 - Which of the following controls would be useful [to build into a virtual machine baseline image] for a cloud environment?          
 A.	GPS tracking/locator                                
-B.	Automated vulnerability scan on system startup              
+B.	**Automated vulnerability scan on system startup**              
 C.	Access control list (ACL) of authorized personnel                
 D.	Write protection                 
 
 Answer: B    
 
-### Question # 98 - Cloud providers will probably not allow ___________________ as part of a customer’s penetration test.                 
+### [important] Question # 98 - Cloud providers will probably not allow ___________________ as part of a customer’s penetration test.                 
 A.	Network mapping              
 B.	Vulnerability scanning                
 C.	Reconnaissance               
@@ -813,10 +813,10 @@ D.	Recover quickly from minor incidents
 
 Answer: D    
 
-### Question # 100 - Virtual machine (VM) configuration management (CM) tools should require that managed systems perform ___________________.                
+### [important] Question # 100 - Virtual machine (VM) configuration management (CM) tools should require that managed systems perform ___________________.                
 A.	Biometric recognition            
 B.	Anti- tampering mechanisms               
-C.	Log file generation               
+C.	**Log file generation**               
 D.	Hackback capabilities                
 
 Answer: C
