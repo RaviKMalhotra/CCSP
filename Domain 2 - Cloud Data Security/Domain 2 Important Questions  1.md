@@ -794,9 +794,9 @@ Answer: D.
 
 The manual element of log review is tedious and necessarily slow because it requires a trained, knowledgeable person to perform the task; these tools can greatly increase the amount of log data that can be reviewed, in a much shorter amount of time. These tools do not, however, aid in any of the other options.
 
-### Question # 65 - As in a traditional IT environment, proper key management is crucial in the cloud. Which of the following principles is not true regarding key management?     
+### Question # 65 - As in a traditional IT environment, proper key management is crucial in the cloud. Which of the following principles is [not true] regarding key management?     
 A. It is good practice to introduce pseudorandom numbers when generating keys.     
-B. Public keys should never be shared with anyone.     
+B. **Public keys should never be shared with anyone**.     
 C. Losing the keys is equivalent to losing the data.     
 D. Symmetric keys should be passed out of band.     
 Answer: B. 
@@ -806,7 +806,7 @@ Seeding key generation processes with pseudorandom numbers makes decryption that
 Losing keys to encrypted data means that the data stays encrypted, which is a way of applying a denial-of-service attack on yourself, so option C is incorrect.
 Symmetric keys, known as shared secrets, ought to be transmitted to recipients over a different medium than the mode of communication intended for the encrypted traffic. If the users intend to use encrypted email, for instance, they should pass the keys via telephone. Option D is therefore incorrect.
 
-### Question # 66 - Which of the following is a good business case for the use of data masking?     
+### Question # 66 - Which of the following is a good business case for the use of [data masking]?     
 A. The shipping department should get only a masked version of the customer’s address.     
 B. The customer service department should get only a masked version of the customer’s Social Security (SS) number.     
 C. The billing department should get only a masked version of the customer’s credit card number.     
@@ -818,50 +818,57 @@ The shipping department definitely needs the customer’s address in order to se
 The billing department needs the customer’s full credit card number to process payments, so option C is incorrect.
 HR needs the employee’s full license number in order to verify and validate the employee’s identity, so option D is not correct.
 
-### Question # 67 - All of the following are methods of data masking suggested by (ISC)2 except _______________.     
+### [important] Question # 67 - All of the following are methods of data masking suggested by (ISC)2 except _______________.     
 A. Random substitution    
 B. Algorithmic substitution     
 C. Deletion     
 D. Conflation     
-Answer: D. Conflation is not a masking technique and is meaningless in this context. All the others are suggested as possible masking techniques.
 
-### Question # 68 - If data masking is being performed for software testing purposes, which of the following is not a good masking technique to use?     
+Answer: D. 
+
+Conflation is not a masking technique and is meaningless in this context. All the others are suggested as possible masking techniques.
+
+### [important] Question # 68 - If data masking is being performed for software testing purposes, which of the following is [not a good masking technique] to use?     
 A. Random substitution    
 B. Shuffling     
-C. Deletion     
+C. **Deletion**     
 D. Algorithmic substitution       
+
 Answer: C.       
 
 While deletion is a very good way to avoid the possibility of inadvertently disclosing production data in a test environment, it also eliminates the usefulness of the data set as a plausible approximation of the production environment, greatly reducing the quality of the testing.
 The other options modify the raw production data into something that approximates the real environment without disclosing real data, to a greater or lesser extent; some are better than the others, but they are all better than deletion for testing purposes.
 
 ### Question # 69 - For which use case would it probably be best to use static masking?     
-A. Creating a test environment for a new application     
+A. **Creating a test environment for a new application**     
 B. Allowing a customer service representative limited access to account data     
 C. Providing detailed reports to regulators      
-D. Notifying shareholders        
+D. Notifying shareholders    
+
 Answer: A. 
 
 Static masking involves modification of an entire data set, all at once. This would be a good method to create a sample data set for testing purposes.
 Static testing for customer service use would be overkill; replicating all the customer accounts at once so that the fraction of customers who contact customer service may receive assistance is inefficient and cumbersome, and customer account information is likely to change between static updates, making it less useful. Therefore, option B is incorrect.
 Neither regulators nor shareholders need to see masked data, so both options C and D are incorrect.
 
-### Question # 70 - For which use case would it probably be best to use dynamic masking?     
+### Question # 70 - For which use case would it probably be best to use [dynamic masking]?     
 A. Creating a test environment for a new application      
-B. Allowing a customer service representative limited access to account data     
+B. **Allowing a customer service representative [limited access to account data]**     
 C. Sending incident response notifications      
 D. Implementing business continuity and disaster recovery (BC/DR)       
+
 Answer: B.     
 
 Dynamically masking a user’s account information each time a customer service representative accesses that data is an efficient, secure means of masking data as necessary.
 Trying to mask each data element as it is called by an application in a test environment would be unwieldy and not likely to provide accurate test data, so option A is incorrect.
 Neither incident response nor BC/DR purposes need masked data, so both options C and D are incorrect.
 
-### Question # 71 - What is one possible risk associated with the use of algorithmic masking for obscuring a data set?      
+### Question # 71 - What is one possible risk associated with the [use of algorithmic masking] for [obscuring] a data set?      
 A. You could corrupt the production data.     
 B. The data could be subject to easy inadvertent disclosure.     
-C. Algorithms are two-way operations.       
+C. **Algorithms are two-way operations**.       
 D. A null set has no test value.       
+
 Answer: C. 
 
 Using an algorithm to mask data suggests that the same algorithm, if learned or reverse-engineered by an aggressor, could be used on the masked data to reveal the production data.
@@ -872,7 +879,7 @@ This is not an easy question, and it involves some abstract thought to arrive at
 
 ### Question # 72 - ____________ is a direct identifier, and ____________ is an indirect identifier.      
 A. Username; password      
-B. User’s name; user’s age      
+B. **User’s name; user’s age**      
 C. User’s IP address; user’s media access control (MAC) address        
 D. Location; income level         
 Answer: B. 
@@ -882,21 +889,23 @@ Username and password are identity assertions and authentication credentials, no
 Option C is incorrect because both elements could be considered direct identifiers (depending on the jurisdiction) if the user’s machine is considered a legal representation of the user.
 Option D is incorrect because both elements are indirect identifiers.
 
-### Question # 73 - Anonymization is the process of removing ____________ from data sets.       
+### [important] Question # 73 - [Anonymization] is the process of removing ____________ from data sets.       
 A. Access     
 B. Cryptographic keys       
 C. Numeric values      
-D. Identifying information       
+D. **Identifying information**  
+
 Answer: D. 
 
 Anonymization is the process of removing identifiers from data sets so that data analysis tools and techniques cannot be used by malicious entities to divine personal or sensitive data from nonsensitive aggregated data sets.
 All the other answers are incorrect because they are not part of the anonymization process.
 
-### Question # 74 - Tokenization is a method of obscuring data that, other than encryption, can be used to comply with ____________ standards.      
+### [important] Question # 74 - [Tokenization is a method of obscuring data] that, other than encryption, can be used to comply with ____________ standards.      
 A. Gramm-Leach-Bliley Act (GLBA)    
-B. Payment Card Industry (PCI)     
+B. **Payment Card Industry (PCI)**     
 C. Child Online Protection Act (COPA)     
-D. Sarbanes-Oxley Act (SOX)      
+D. Sarbanes-Oxley Act (SOX)    
+
 Answer: B. 
 
 PCI requires that credit card numbers and other cardholder data be obscured when stored for any length of time. Encryption is one approved method; tokenization is another.
@@ -904,31 +913,34 @@ GLBA, COPA, and SOX do not specifically require obscuring stored data, so those 
 
 ### Question # 75 - Tokenization requires at least ____ database(s).     
 A. One    
-B. Two    
+B. **Two**    
 C. Three    
 D. Four    
+
 Answer: B.     
 
-Tokenization will require, at a minimum, a database for the tokens and another for the stored sensitive data.
-One database will not suffice; a single database holding both the tokens and the sensitive data they represent would not be in compliance with any standard requiring data to be obscured. Option A is thus incorrect.
+**Tokenization will require, at a minimum, a database for the tokens and another for the stored sensitive data**.
+**One database will not suffice; a single database holding both the tokens and the sensitive data they represent would not be in compliance with any standard requiring data to be obscured**. Option A is thus incorrect.
 Option C might be an answer some readers choose; it is easy to overthink this question. You might consider that the data requires two databases (one for tokens, one for sensitive data), and that access control would require a third database (for authentication credentials); however, the tokenization methodology does not strictly require that access be controlled through an authentication server. Option C is therefore incorrect. Be sure not to read more into the question than appears at face value.
 Option D is incorrect; that’s just too many databases.
 
-### Question # 76 - Data owners might consider using tokenization for all of the following reasons except _______________.      
+### Question # 76 - Data owners might consider using tokenization for all of the following reasons [except] _______________.      
 A. Regulatory or contractual compliance     
-B. Inference    
+B. **Inference**    
 C. Reduced cost of compliance     
 D. Mitigating risk from data lost to intrusion       
+
 Answer: B. 
 
 Inference is an attack strategy, not a reason for implementing tokenization.
 All the other options are good reasons to implement tokenization, and they are therefore not correct.
 
-### Question # 77 - Bit-splitting, also known as data dispersion, might be thought of as ____________ in the cloud.      
+### Question # 77 - [Bit-splitting, also known as data dispersion], might be thought of as ____________ in the cloud.      
 A. RAID    
 B. BIOS    
 C. DDoS    
 D. SYN-ACK     
+
 Answer: A. 
 
 In the traditional environment, a RAID array is a set of disks/drives on which data 
@@ -936,14 +948,16 @@ is spread to enhance the availability, security, and resiliency of the data. In 
 bit-splitting/data dispersion performs this same function in much the same way.
 All the other options have nothing to do with spreading data across multiple storage areas.
 
-### Question # 78 - Bit-splitting also provides security against data breaches by _______________.       
+### [important] Question # 78 - Bit-splitting also provides security against data breaches by _______________.       
 A. Removing all access to unauthorized parties     
-B. Ensuring that an unauthorized user only gets a useless fragment of data     
+B. **Ensuring that an unauthorized user only gets a useless fragment of data **    
 C. Moving data across jurisdictional boundaries     
 D. Tracking all incoming access requests    
+
 Answer: B.     
 
-Bit-splitting involves chopping data sets up into segments and storing those segments in multiple places/devices. An attacker getting access to one segment won’t be gaining anything of value because one segment of the data set would most likely make no sense out of context.
+**Bit-splitting involves chopping data sets up into segments and storing those segments in multiple places/devices**. 
+An attacker getting access to one segment won’t be gaining anything of value because one segment of the data set would most likely make no sense out of context.
 
 Bit-splitting may or may not function as an access control method; option B is preferable to A.
 
@@ -951,8 +965,8 @@ Bit-splitting may or may not move data across jurisdictions, which may or may no
 
 Bit-splitting does not, in itself, provide access logs; option D is incorrect.
 
-### Question # 79 - If bit-splitting is used to store data sets across multiple jurisdictions, how may this enhance security?     
-A. By making seizure of data by law enforcement more difficult     
+### [important] Question # 79 - If bit-splitting is used to store data sets across multiple jurisdictions, how may this enhance security?     
+A. **By making seizure of data by law enforcement more difficult**     
 B. By hiding it from attackers in a specific jurisdiction     
 C. By ensuring that users can only accidentally disclose data to one geographic area     
 D. By restricting privilege user access      
@@ -967,18 +981,20 @@ Bit-splitting does not pertain to types of access roles; option D is incorrect.
 A. Less security    
 B. Greatest risk of unauthorized access    
 C. Significantly greater processing overhead      
-D. Violating regulatory compliance      
+D. Violating regulatory compliance    
+
 Answer: C.      
 
 Bit-splitting, as with many security methods/technologies, carries a significantly greater overhead than data sets that don’t use this method. Bit-splitting, in particular, takes an extensive amount of processing to perform.
 Bit-splitting should make a data set more secure and decrease the chance of unauthorized access, so options A and B are incorrect.
 It is unlikely that bit-splitting would violate regulatory standards; even if that were to be the case, it is always true that bit-splitting carries greater overhead, so option C is preferable to D.
 
-### Question # 81 - Which of the following is a possible negative aspect of bit-splitting?     
-A. It may require trust in additional third parties beyond the primary cloud service provider.    
+### Question # 81 - Which of the following is a [possible negative aspect] of bit-splitting?     
+A. **It may require trust in additional third parties beyond the primary cloud service provider**.    
 B. There may be cause for management concern that the technology will violate internal policy.    
 C. Users will have far greater difficulty understanding the implementation.    
-D. Limited vendors make acquisition and support challenging.     
+D. Limited vendors make acquisition and support challenging.    
+
 Answer: A. 
 
 This is not a simple question and requires the reader to think through the situation suggested by each answer. Option A is correct because the data owner may opt to perform bit-splitting across multiple cloud services to enhance security (not all the “eggs” will be in one “basket”). When this is the case, the data owner will have additional dependencies: all the vendors involved in storing the various data elements.
@@ -986,11 +1002,12 @@ There should be no additional management concern; if bit-splitting is not compli
 Bit-splitting implementations should be transparent to users; option C is incorrect.
 There are plenty of vendors offering bit-splitting solutions; option D is incorrect.
 
-### Question # 82 - Which of the following is a possible negative aspect of bit-splitting?     
+### Question # 82 - Which of the following is a [possible negative aspect of bit-splitting]?     
 A. Greater chance of physical theft of assets    
 B. Loss of public image     
-C. Some risk to availability, depending on the implementation     
+C. **Some risk to availability, depending on the implementation**     
 D. A small fire hazard      
+
 Answer: C. 
 
 Ironically, data dispersion can lead to some additional risk of loss of availability, depending on the method/breadth of the dispersion. If the data is spread across multiple cloud providers, there is a possibility that an outage at one provider will make the data set unavailable to users, regardless of location. However, there are methods for attenuating this threat, and bit-splitting usually provides greater availability of data over traditional storage without dispersion.
@@ -1003,6 +1020,7 @@ A. Inverse postulation
 B. Homomorphic encryption     
 C. Didactic alignment     
 D. Obverse reinstantiation      
+
 Answer: B. 
 
 This is the definition of homomorphic encryption.
@@ -1010,19 +1028,21 @@ All the other answers are incorrect.
 
 ### Question # 84 - Which of the following is a data discovery approach used by e-commerce retailers to discern and predict shoppers’ needs?     
 A. Big data   
-B. Real-time analytics     
+B. **Real-time analytics**     
 C. Agile analytics    
-D. Agile business intelligence      
+D. Agile business intelligence   
+
 Answer: B. 
 
 Real-time analytics allows for reactive and predictive operations (such as recommending other, related products) based on customers’ current and past shopping behavior.
 All the other answers are data discovery approaches but not used for this particular application (options C and D are two names for the same thing).
 
-### Question # 85 - Which of the following is a data discovery approach that offers insight to trends of trends, using both historical and predictive approaches?     
+### [important] Question # 85 - Which of the following [is a data discovery approach] that offers insight to [trends of trends], using both historical and predictive approaches?     
 A. Obverse polyglotism    
 B. Big data     
 C. Real-time analytics      
-D. Agile analytics/business intelligence      
+D. **Agile analytics/business intelligence**      
+
 Answer: D.       
 
 The Agile approach to data analysis offers greater insight and capabilities than previous generations of analytical technologies.
@@ -1033,27 +1053,30 @@ Option A is incorrect because obverse polyglotism is just a made up term that do
 A. Metadata    
 B. Labels    
 C. Content analysis    
-D. Data hover      
+D. Data hover   
+
 Answer: D.      
   
 Data hover is a made up term which is not a data discovery technique. All the other answers are actual data discovery techniques.
 
-### Question # 87 - Which of the following data discovery techniques involves using extra information automatically appended/included with the intended data when the data is created?        
+### Question # 87 - Which of the following [data discovery techniques] involves using [extra information automatically appended/included with the intended data] when the data is created?        
 A. Metadata    
 B. Labels     
 C. Content analysis     
-D. Data hover      
+D. Data hover  
+
 Answer: A.      
 
 This is the definition of metadata: data about data, usually created by systems (hardware and/or software) when the data is captured/collected.
 Options B and C are also data discovery techniques, but not involving metadata.
 Data hover is a made up term and is therefore, not a data discovery technique, so option D is incorrect.
 
-### Question # 88 - When labeling is used as a data discovery technique, who should be applying the labels?    
+### Question # 88 - When [labeling] is used as a data discovery technique, who should be applying the labels?    
 A. The security office   
 B. Users   
 C. Data owners     
 D. Regulators     
+
 Answer: C.      
 
 The data owners, presumably the personnel closest to and most familiar with the data, should be the ones labeling it.
@@ -1062,19 +1085,21 @@ The other answers are incorrect because they are not the data owners.
 ### Question # 89 - When data labels are being used in an environment (for discovery and other purposes), when should the labels be applied?     
 A. During the risk assessment     
 B. As part of the business impact analysis (BIA)     
-C. At collection/creation     
-D. When the discovery tools are implemented      
+C. **At collection/creation**     
+D. When the discovery tools are implemented   
+
 Answer: C.      
 
 For the most efficient classification/categorization process, and to streamline the application of proper controls, data labeling should be performed when the data is first being collected/created.
 Options A and B are incorrect because they are not part of a data labeling process.
 Option D is incorrect because the discovery tools need to have the data labeled to work properly.
 
-### Question # 90 - Which of the following tools might be useful in data discovery efforts that are based on content analysis?     
+### Question # 90 - Which of the [following tools] might be useful [in data discovery] efforts that are based on [content analysis]?     
 A. Egress monitoring solutions    
 B. Digital rights management (DRM)    
 C. iSCSI    
 D. Fibre Channel over Ethernet (FCoE)    
+
 Answer: A.     
 
 Egress monitoring tools (often referred to as DLP) are specifically designed to seek out and identify data sets based on content; this is part of how they operate. They can be used for or in conjunction with content-based data discovery efforts.
@@ -1082,21 +1107,23 @@ Digital rights management (DRM) is an additional access control solution for obj
 Internet Small Computer System Interface (iSCSI) allows storage controller commands to be sent over a Transmission Control Protocol (TCP) network and has nothing to do with data discovery; thus, option C is incorrect.
 Fibre Channel over Ethernet (FCoE) is a standard for approaching fiber-media speeds of data transfer on an Ethernet network; it has nothing to do with data discovery, so option D is incorrect.
 
-### Question # 91 - All of the following might be used as data discovery characteristics in a content-analysis-based data discovery effort except _______________.       
+### [important] Question # 91 - All of the following might be used as data discovery characteristics in a content-analysis-based data discovery effort except _______________.       
 A. Keywords     
 B. Pattern matching     
 C. Frequency     
-D. Inheritance     
+D. **Inheritance**     
+
 Answer: D.      
 
 Inheritance has nothing to do with content analysis; it is usually referring to object-oriented traits derived from originating objects.
 All the other answers are characteristics of content that can be used in content-analysis methods of data discovery.
 
-### Question # 92 - What is the risk to the organization posed by dashboards that display data discovery results?     
+### [important] Question # 92 - What is the [risk to the organization] posed by dashboards that display data discovery results?     
 A. Increased chance of external penetration     
 B. Flawed management decisions based on edited displays     
 C. Higher likelihood of inadvertent disclosure      
-D. Raised incidence of physical theft      
+D. Raised incidence of physical theft   
+
 Answer: B.       
 
 Because dashboards are often used for management purposes (graphical representations of technical data), management pressures often result in skewed data dashboarding (“no red!”), which can lead to the “data” being used for fallacious decisions.
@@ -1106,16 +1133,16 @@ All the other answers are not affected by dashboarding at all and are incorrect.
 A. Bandwidth latency issues    
 B. Poor physical security of the data center     
 C. Severe statutory regulation     
-D. Inaccurate or incomplete data     
+D. **Inaccurate or incomplete data**     
 Answer: D.       
 
 A data discovery effort can only be as effective as the veracity and quality of the data it addresses. Bad data will result in ineffective data discovery.
 All the other answers do not impact data discovery efforts and are only distractors. (Poor bandwidth might slow down data discovery, but it won’t have true negative impact, so option D is still better.)
 
-### Question # 94 - Cloud customers performing data discovery efforts will have to ensure that the cloud provider attends to all of the following requirements except _______________.     
+### [important] Question # 94 - Cloud customers performing data discovery efforts will have to ensure that the cloud provider attends to all of the following requirements [except] _______________.     
 A. Allowing sufficient access to large volumes of data     
 B. Preserving metadata tags     
-C. Assigning labels      
+C. **Assigning labels**      
 D. Preserving and maintaining the data      
 Answer: C. 
 
@@ -1126,7 +1153,8 @@ All the other answers are requirements for the cloud provider to meet the data d
 A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53    
 B. Applicable laws and regulations    
 C. Payment Card Industry Data Security Standard (PCI DSS)     
-D. The managed services contract and SLA     
+D. The managed services contract and SLA  
+
 Answer: D.      
 
 The cloud customer will have to determine which levels of performance/responsibilities on the part of the provider will be necessary to meet the customer’s needs for data discovery. These should be codified in the contract/service-level agreement (SLA).
@@ -1137,6 +1165,7 @@ A. The cloud provider
 B. National Institute of Standards and Technology (NIST)    
 C. Regulators     
 D. The cloud customer     
+
 Answer: D.      
 
 This is a difficult question and requires insight on the practice of classifying data and a good understanding of the material. While the determination of what sorts of data need to be protected may come from external sources (laws, standards, regulations, etc.), the classification of data for each data owner/cloud customer will be specific to that entity. Therefore, the cloud customer will have to impose data classification schema on itself and its own data.
@@ -1147,6 +1176,7 @@ A. File size
 B. Origin of the data     
 C. Sensitivity of the data      
 D. Whatever the data owner decides     
+
 Answer: D.      
 
 This is a difficult, and somewhat tricky, question. Each organization has to decide, for itself, how to classify its own data. With that said, many factors bear on this determination: external regulations and drivers, the type of industry in which the organization operates, and so forth. But the kinds of data the organization uses, and how that data is sorted, will differ for every organization, and each must make its own determination on how to best sort that data.
@@ -1157,6 +1187,7 @@ A. Security
 B. Labeling    
 C. Control    
 D. Markup   
+
 Answer: B.    
 
 This is another difficult question. Classification of data is an element of labeling, insofar as labeling is the grouping of data into discrete categories and types. Labels must be affixed to objects and data sets in accordance with an overall policy that lists objective criteria to guide the data owner(s) in assigning the appropriate label; this is a form of classification.
@@ -1168,6 +1199,7 @@ A. Inverse or obverse
 B. Automatic or manual     
 C. Correct or incorrect     
 D. Diurnal or nocturnal    
+
 Answer: B.      
 
 An organization could implement an automated tool that assigns labels based on certain criteria (location of the source of the data, time, creator, content, etc.), much like metadata, or the organization could require that data creators/collectors assign labels when the data is first created/collected, according to a policy that includes discrete, objective classification guidance.
@@ -1175,8 +1207,8 @@ Option A is incorrect because even though the word pair may seem pretty technica
 It may be true that data classification can be correct or incorrect, however, option C is not as good of an answer as option B. The goal for the data owner is to correctly classify the data and not to incorrectly classify the data. So, option C is incorrect.
 It is difficult to imagine data classification that only takes place at a certain time of day. Therefore, it is not likely to be the correct answer and certainly option D is not as good an answer as option B.
 
-### Question # 100 - Data may need to be reclassified for all the following reasons except _______________.       
-A. Color change      
+### [important] Question # 100 - Data may need to be reclassified for all the following reasons [except] _______________.       
+A. **Color change**      
 B. Time     
 C. Repurposing     
 D. Transfer of ownership     
