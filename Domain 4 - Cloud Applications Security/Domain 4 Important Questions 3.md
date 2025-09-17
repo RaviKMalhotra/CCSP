@@ -6,7 +6,7 @@ D.	Mikayla cannot ensure that there are no security flaws via the options descri
 
 Answer: D            
 
-### Question 2 - Lin wants to allow her users to use existing credentials provided by a third- party identity provider when they access her service. What element will she have to provide from the  following list?    
+### Question 2 - Lin wants to allow her users to use existing credentials provided by a third- party identity provider when they [access her service]. What element will she have [to provide] from the  following list?    
 A.	User IDs.  
 B.	Authentication.    
 C.	Authorization.     
@@ -46,9 +46,9 @@ D.	Data masking.
 
 Answer: C             
 
-### Question # 7 - 	Ben wants to gather business requirements for his software development effort and is using an Agile methodology. Which of the following is [not] a common means of gathering user requirements in an Agile process?      
+### [important] Question # 7 - 	Ben wants to gather business requirements for his software development effort and is using an Agile methodology. Which of the following is [not] a common means of gathering user requirements in an Agile process?      
 A.  Brainstorming.     
-B.	**Documentation review**.     
+B.	Documentation review.     
 C.	User observation.      
 D.	Surveys.     
 
@@ -65,7 +65,7 @@ Answer: B
 ### Question # 9 - 	Nick wants to avoid common pitfalls in his CI/CD pipeline. Which of the following is a common CI/CD pitfall that can harm cloud development efforts?      
 A.	Automation of processes.     
 B.	Use of metrics.     
-C.	**Using multiple deployment paths**.    
+C.	Using multiple deployment paths.    
 D.	Reliance on a version control system.   
 
 Answer: C             
@@ -119,7 +119,7 @@ D.	An API key.
 Answer: C             
 
 ### [important] Question # 16 - 	Dana’s organization requires an SBOM for each application it deploys. What OWASP Top 10 item does an SBOM help to avoid?     
-A.	**Vulnerable and outdated components**.   
+A.	Vulnerable and outdated components.   
 B.	Broken access control.   
 C.	Injection.    
 D.	Security misconfiguration.   
@@ -136,7 +136,7 @@ Answer: A
 
 ### Question # 18 - 	What phase of the SDLC is [IAST] typically associated with?     
 A.	Design.    
-B.	**Testing**.    
+B.	Testing.    
 C.	Implementation.    
 D.	Deployment.  
 
@@ -144,7 +144,7 @@ Answer: B
 
 ### Question # 19 - 	Gary’s cloud service provides customers with access to APIs. Which of the following is a common security flaw in APIs?     
 A.  Use of unstructured data.   
-B.	**Lack of authentication**.      
+B.	Lack of authentication.      
 C.	Use of semi- structured data.   
 D.	Lack of encryption.   
 
@@ -166,43 +166,45 @@ D.	Conduct threat modeling.
 
 Answer: C             
 
-### Question # 22 - Lori wants to ensure that the included software components provided by her vendor are secure. What type of process should she use to conduct an assessment of those packages?      
+### [important] Question # 22 - Lori wants to ensure that the included software components provided by her vendor are secure. What type of process should she use to conduct an assessment of those packages?      
 A.	A web application vulnerability scan.   
-B.	A software composition analysis.   
+B.	**A software composition analysis**.   
 C.	A vulnerability scan.    
 D.	A version number validation process.   
 
 Answer: B             
 
-### Question # 23 - 	Christine has documented a software testing user story that states: “As an attacker, I will upload malicious software as part of my form submission which will exploit the parsing  software that reads user submissions.” What type of testing is Christine preparing for?      
-A.	Abuse case testing.   
+Lori’s best option is to conduct a software composition analysis (SCA) process using an SCA tool that can identify open source libraries and other components. Vulnerability scans won’t identify all of the components associated with software, and a version number validation process was made up for this question.
+
+### [important] Question # 23 - 	Christine has [documented a software testing user story] that states: “As an attacker, I will upload malicious software as part of my form submission which will exploit the parsing  software that reads user submissions.” What type of testing is Christine preparing for?      
+A.	**Abuse case testing**.   
 B.	Static testing.    
 C.	QA testing.    
 D.	SCA testing.   
 
 Answer: A             
 
-### Question # 24 - 	OWASP’S Application Security Verification Standard (ASVS) has three primary usage models. Which of the following is not an intended usage model based on its design objectives?    
+### [important] Question # 24 - 	OWASP’S [Application Security Verification Standard] (ASVS) has [three] primary usage models. Which of the following is [not] an intended usage model based on its design objectives?    
 A.	To be used as a metric.   
-B.	To be used for auditing.    
+B.	**To be used for auditing**.    
 C.	To be used as guidance.    
 D.	To be used during procurement.    
 
 Answer: B             
 
-### Question # 25 - 	Ian wants to use a cloud- specific list of application issues. Which of the following options should he choose?      
-A.	The OWASP Top 10.    
+### [important] Question # 25 - 	Ian wants to use a cloud- specific list of application issues. Which of the following options should he choose?      
+A.	**The OWASP Top 10**.    
 B.	The NIST Dirty Dozen.   
 C.	The SANS Top 25.    
 D.	The MITRE ATT&CK- RS.  
 
 Answer: A             
 
-### Question # 26 - 	Nick wants to use a common format for his team’s software versioning. What versioning format should he use if he wants to use a common industry practice?     
+### [important] Question # 26 - 	Nick wants to use a common format for his team’s software versioning. What versioning format should he use if he wants to use a common industry practice?     
 A.	Codename.version.    
 B.	Major.build.minor.patch.    
 C.	RFC number.version.patch.    
-D.	Major.minor.patch.    
+D.	**Major.minor.patch**.    
 
 Answer: D             
 
@@ -238,31 +240,31 @@ D.	OTP.
 
 Answer: B             
 
-### Question # 31 - 	Henry wants to ensure that only authorized customers are able to use his organization’s public- facing APIs. What common security technique is for this purpose?     
-A.	API keys.    
+### [important] Question # 31 - 	Henry wants to ensure that only authorized customers are able to use his organization’s public- facing APIs. What common security technique is for this purpose?     
+A.	**API keys**.    
 B.	Single sign-on.   
 C.	API federation.   
 D.	Complex API passwords.    
 
 Answer: A             
 
-### Question # 32 - 	Nancy wants to ensure that her organization does not have an issue with licensing for her software, and she knows that the vendor controls access using a licensing server that each installation checks in with. Which of the following should she pay particular attention to in order to ensure that she does not have a service interruption at some point in the future? 
-A. The license term.     
+### [important] Question # 32 - 	Nancy wants to ensure that her organization does not have an issue with licensing for her software, and she knows that the vendor controls access using a licensing server that each installation checks in with. Which of the following should she pay particular attention to in order to ensure that she does not have a service interruption at some point in the future? 
+A. **The license term**.     
 B.	Whether the terms of the license can be disclosed.    
 C.	The license cost.   
 D.	Third party sub- licenses included in the contract.    
 
 Answer: A             
 
-### Question # 33.	Isaac wants to ensure that his cloud service provider is using cryptographic systems that meet widely accepted standards. What U.S. government standard should he expect his provider to comply with their cryptographic systems?    
+### [important] Question # 33.	Isaac wants to ensure that his cloud service provider is using cryptographic systems that [meet widely accepted standards]. What [U.S. government standard should he expect his provider to comply with] their cryptographic systems?    
 A.	GDPR.   
-B.	FIPS 140-2.   
+B.	**FIPS 140-2**.   
 C.	SSL.   
 D.	SHA- 2.   
 
 Answer: B             
 
-### Question # 34 - Megan wants to increase the auditability of the use of privileges in her infrastructure. Which of the following solutions will have the biggest positive impact on auditability?        
+### [important] Question # 34 - Megan wants to increase the auditability of the use of privileges in her infrastructure. Which of the following solutions will have the biggest positive impact on auditability?        
 A. Use shared service accounts.            
 B.	Use multifactor authentication.    
 C.	Use dynamic secrets.     
@@ -286,7 +288,7 @@ D.	KCS.
 
 Answer: A             
 
-### Question # 37 - What entity provides authentication services in a federation?     
+### [important] Question # 37 - What entity provides authentication services in a federation?     
 A.	IdP.     
 B.	RP.     
 C.	SP.    
