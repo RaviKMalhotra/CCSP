@@ -6,43 +6,44 @@ D.	Vendor lock- in
 
 Answer: D               
 
-### [important] Question # 2 - Cathy is developing an [eDiscovery program] to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?              
+### Question # 2 - Cathy is developing an [eDiscovery program] to help her organization formalize its compliance with legal hold obligations. She would like to use an industry standard to guide her toward best practices. What standard should she consider using for this work?              
 A.	ISO 27001           
 B. ISO 27002             
-C. **ISO 27050**          
+C. ISO 27050          
 D. ISO 27701         
+
 Answer: C      
 
 ISO 27050 is an industry standard that provides guidance for [eDiscovery programs]. ISO 27001 and ISO 27002 provide industry standard control objectives and control suggestions for cybersecurity. ISO 27701 provides industry standard guidance for [information privacy programs].
 
-### [important] Question # 3 - In regard to most privacy guidance, the [data processor] is _________________.                
+### Question # 3 - In regard to most privacy guidance, the [data processor] is _________________.                
 A.	The individual described by the personally identifiable information (PII)                    
 B.	The entity that collects or creates the personally identifiable information (PII)                  
-C.	**The entity that [uses] personally identifiable information (PII) on behalf of the controller**               
+C.	The entity that [uses] personally identifiable information (PII) on behalf of the controller               
 D.	The entity that regulates personally identifiable information (PII)     
 
 Answer: C                
 
-### [important] Question # 4 - Your company is defending itself [during a civil trial for a breach of contract] case. Personnel from your IT department have performed forensic analysis on event logs that reflect the circumstances related to the case. In order for your personnel to present the evidence they collected during forensic analysis as expert witnesses, you should ensure that _________________.                
+### Question # 4 - Your company is defending itself [during a civil trial for a breach of contract] case. Personnel from your IT department have performed forensic analysis on event logs that reflect the circumstances related to the case. In order for your personnel to present the evidence they collected during forensic analysis as expert witnesses, you should ensure that _________________.                
 A. Their testimony is scripted, and they do not deviate from the script                    
 B.	They present only evidence that is favorable to your side of the case                    
-C.	**They are trained and certified in the tools they used**                             
+C.	They are trained and certified in the tools they used                            
 D.	They are paid for their time while they are appearing in the courtroom     
 
 Answer: C            
 
-### [important] Question # 5 - After conducting a qualitative risk assessment of her organization, Prisha decides to recommend adding a new module to the firewall that will filter out inbound malware. What type of risk response behavior is she recommending?                   
+### Question # 5 - After conducting a qualitative risk assessment of her organization, Prisha decides to recommend adding a new module to the firewall that will filter out inbound malware. What type of risk response behavior is she recommending?                   
 A.	Accept               
 B.	Transfer                    
-C.	**Reduce**                      
+C.	Reduce                      
 D.	Reject    
 
 Answer: C       
 
-### [important] Question # 6 - Nora is an employee of Acme Widgets and works on a [team of auditors] who examine the organization’s financial controls. She is currently working on a project to evaluate whether payments to cloud providers are proper and will be reporting her results to management. What term best describes Nora’s role in this project?                   
+### Question # 6 - Nora is an employee of Acme Widgets and works on a [team of auditors] who examine the organization’s financial controls. She is currently working on a project to evaluate whether payments to cloud providers are proper and will be reporting her results to management. What term best describes Nora’s role in this project?                   
 A.	Internal assessment                 
 B.	External audit                    
-C.	**Internal audit**                      
+C.	Internal audit                      
 D.	External assessment     
 
 Answer: C         
@@ -52,6 +53,7 @@ A.	Notice
 B.	Management                
 C.	**Access**                      
 D.	Choice and Consent                     
+
 Answer:  C              
 
 **Carla is assigned as the manager of her organization’s privacy program**. 
@@ -63,29 +65,33 @@ Opt- out, implicit consent also satisfies this principle.
 The principle of Access says that individuals should be able to review and update their personal information. 
 There is no description of Access in this scenario.**
 
-### Question # 8 - You’re a medical student at a private research university in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will not be applicable to you, your personal data, or the data you work with as a student?                   
-A.	**Sarbanes–Oxley Act (SOX)**                                               
+### Question # 8 - You’re a medical student at a private research university in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will [not be] applicable to you, your personal data, or the data you work with as a student?                   
+A.	Sarbanes–Oxley Act (SOX)                                               
 B.	Health Information Portability and Accountability Act (HIPAA)                
 C.	Payment Card Industry Data Security Standards (PCI DSS)                      
 D.	Family Educational Rights and Privacy Act (FERPA)                          
+
 Answer: A               
 
 ### Question # 9 - Rolando is a [risk manager with a large- scale cloud service provider]. The firm recently evaluated the risk of California mudslides on its operations in the region and determined that the cost of responding outweighed the benefits of any controls it could implement. The company chose to take no action at this time. What risk management strategy did Rolando’s organization pursue?                    
 A.	Risk avoidance                
 B.	Risk mitigation                    
 C.	Risk transference                         
-D.	**Risk acceptance**                               
+D.	Risk acceptance     
+
 Answer: D              
 
 ### Question # 10 - Yolanda is the [chief privacy officer] for a [financial institution] and is researching privacy requirements related to customer checking accounts. Which one of the following laws is most likely to apply to this situation?                           
 A.	GLBA        
 B.	SOX                 
 C.	HIPAA               
-D. FERPA                        
+D. FERPA          
+
 Answer: A                
+
 The Gramm–Leach–Bliley Act (GLBA) contains provisions regulating the privacy of customer financial information. It applies specifically to financial institution
 
-### Question # 11 - Bill is conducting an audit of a cloud provider under SSAE and ISAE standards. During the audit, he discovers that some records required to complete one of his tests were accidentally destroyed and are not recoverable. There are no alternative tests available for this control objective. What action should Bill take?                           
+### Question # 11 - Bill is [conducting an audit of a cloud provider] under SSAE and ISAE standards. During the audit, he discovers that some records required to complete one of his tests were accidentally destroyed and are not recoverable. There are no alternative tests available for this control objective. What action should Bill take?                           
 A.	Describe the limitation in the audit scope statement.                         
 B.	Postpone the audit for one year until adequate records are available.                 
 C.	Issue a failing audit report.                                                    
