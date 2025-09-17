@@ -646,17 +646,17 @@ Answer: A.
 The user is not really an aspect of an encryption deployment, although it may be argued that the user will need to refrain from disclosing their own key(s) to anyone else.
 The other three options are the components of an encryption deployment.
 
-### Question # 51 - Volume storage encryption in an infrastructure as a service (IaaS) arrangement will protect against data loss due to all of the following activities except _______________.     
+### [important] Question # 51 - [Volume storage encryption] in an infrastructure as a service (IaaS) arrangement will protect against data loss due to all of the following activities except _______________.     
 A. Physical loss or theft of a device     
 B. Disgruntled users     
 C. Malicious cloud administrators accessing the data     
 D. Virtual machine snapshots stolen from storage     
 Answer: B.      
 
-An authorized user will still be able to access and decrypt the data for which they’ve been granted permissions, so encryption will not offer any protections for that threat.
+**An authorized user will still be able to access and decrypt the data for which they’ve been granted permissions, so encryption will not offer any protections for that threat**.
 Volume storage encryption will, however, protect against all the other threats, because any outsider (that is, a person who does not have access to the volume operating system) will be able to steal only encrypted data, which they should not be able to decrypt in a timely fashion. Therefore, all the other options are incorrect.
 
-### Question # 52 - In an infrastructure as a service (IaaS) arrangement, all of the following are examples of object storage encryption except _______________.     
+### Question # 52 - In an infrastructure as a service (IaaS) arrangement, all of the following are examples of [object storage encryption][ except] _______________.     
 A. File-level encryption    
 B. Digital rights management (DRM)     
 C. Application-level encryption     
@@ -666,21 +666,23 @@ Answer: D.
 **TLS is encryption used in a communication session, not a storage volume.**
 All the other options are examples of object storage encryption options, so they are incorrect.
 
-### Question # 53 - All of the following are database encryption options that could be used in a platform as a service (PaaS) implementation except _______________.      
+### Question # 53 - All of the following are [database encryption options] that could be used in a platform as a service (PaaS) implementation except _______________.      
 A. File-level encryption     
 B. Secure Sockets Layer (SSL)      
 C. Transparent encryption    
 D. Application-level encryption    
+
 Answer: B.     
 
 **SSL is encryption used in a communication session, not a storage volume.**
 All the other options are examples of database encryption options, so they are incorrect.
 
-### [important] Question # 54 - In application-level encryption, where does the encryption engine reside?    
-A. In the application accessing the database   
+### Question # 54 - In [application-level encryption], where does the encryption engine reside?    
+A. **In the application accessing the database**   
 B. In the operating system on which the application is run    
 C. Within the database accessed by the application    
-D. In the volume where the database resides    
+D. In the volume where the database resides 
+
 Answer: A. 
 
 **The application contains the encryption engine used in application-level encryption.**
@@ -688,20 +690,22 @@ The operating system is responsible for providing the resources an application n
 Option C is incorrect because application-level encryption is performed by the application that interfaces with the database.
 The application-level encryption engine may or may not reside in the same volume as the database engine, so option D is incorrect.
 
-### [important] Question # 55 - Which of the following database encryption techniques can be used to encrypt specific tables within the database?    
+### Question # 55 - Which of the following [database encryption techniques] can be used to [encrypt specific tables] within the database?    
 A. File-level encryption    
-B. Transparent encryption    
+B. **Transparent encryption**    
 C. Application-level encryption     
 D. Object-level encryption     
+
 Answer: B. 
 
 **Encrypting specific tables within the database is one of the options of transparent encryption;** this is not true of the other options, so they are incorrect.
 
-### [important] Question # 56 - Which of the following database encryption techniques makes it difficult to perform database functions (searches, indexing, etc.)?     
+### [important] Question # 56 - Which of the following [database encryption techniques] makes it [difficult to perform database functions] (searches, indexing, etc.)?     
 A. File-level encryption    
 B. Transparent encryption    
-C. Application-level encryption     
+C. **Application-level encryption**     
 D. Volume encryption      
+
 Answer: C. 
 
 [important] **Application-level encryption involves encrypting the data before it enters the fields of the database; it is much more difficult to search and review data that has been encrypted, so this reduces the functionality of the database**.
@@ -711,7 +715,8 @@ All the other options are incorrect because they are not database encryption tec
 A. With the cloud customer    
 B. With a third-party provider     
 C. At the cloud provider data center     
-D. Anywhere but with the cloud provider       
+D. **Anywhere but with the cloud provider** 
+
 Answer: D.      
 
 Best practice is to not keep the encryption keys alongside the data they’ve been used to encrypt.
@@ -721,8 +726,9 @@ Option C is clearly incorrect because it is counter to the best practice advice 
 ### Question # 58 - Which of the following is not used to determine data retention requirements?       
 A. Legislation      
 B. Business needs     
-C. Average media longevity                  
+C. **Average media longevity**                  
 D. Contracts     
+
 Answer: C. 
 
 Data retention periods should be established in policy regardless of the projected lifetime of the media the data resides on. 
@@ -733,6 +739,7 @@ A. External hacking detection
 B. Prediction of physical device theft     
 C. Data classification/categorization issues      
 D. Social engineering attacks      
+
 Answer: A. 
 
 Event monitoring tools can help detect external hacking efforts by tracking and reporting on common hack-related activity, such as repeated failed login attempts and scanning. 
@@ -741,9 +748,10 @@ It is unlikely that these tools could predict physical device theft; they could,
 
 ### [important] Question # 60 - Event monitoring tools (security information and event management [SIEM]/security information management [SIM]/security event management [SEM]) can aid in which of the following efforts?     
 A. Detecting untrained personnel    
-B. Predicting system outages    
+B. **Predicting system outages**    
 C. Sending alerts for conflicts of interest       
-D. Enforcing mandatory vacation         
+D. Enforcing mandatory vacation 
+
 Answer: B.           
 
 [important] **Event monitoring tools can be used to predict system outages by noting decreases in performance; repeated performance issues can be an indicator a device is failing**. 
