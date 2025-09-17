@@ -310,7 +310,7 @@ D.	**Virtual machines are stored as snapshotted files when not in use**.
 
 Answer: D    
 
-### Question # 40 - Javier is assisting with the implementation of a cloud- based SaaS solution. He is concerned about the ability of remote users to interact directly with the database supporting the application by exploiting a web application vulnerability. What type of vulnerability would permit this access?           
+### Question # 40 - Javier is assisting with the implementation of a [cloud- based SaaS] solution. He is concerned about the [ability of remote users to interact directly with the database] supporting the application by exploiting a web application vulnerability. What type of vulnerability would permit this access?           
 A.	SQL injection      
 B.	Cross- site scripting       
 C.	Cross- site request forgery     
@@ -318,9 +318,9 @@ D.	Server- side request forgery
 
 Answer: A    
 
-### Question # 41 - When considering cloud data backup strategies (i.e., whether you are making backups at the block, file, or database level), which element of your organization’s BC/DR plan will be most affected by your choice?       
-A. Recovery time objective         
-B.	Recovery point objective      
+### Question # 41 - When [considering cloud data backup strategies] (i.e., whether you are making backups at the block, file, or database level), which element of your organization’s BC/DR plan will be most affected by your choice?       
+A.  Recovery time objective         
+B.	**Recovery point objective**      
 C.	Maximum allowable downtime     
 D.	Mean time to failure      
 
@@ -336,7 +336,7 @@ Answer: B
 
 ### Question # 43 - “Return to normal operations” is a phase in BC/DR activity when the emergency is over and regular production can resume. Which of the following can sometimes be the result when the organization uses two different cloud providers for the production and BC/DR environments?      
 A.	Both providers are affected by the emergency, extending the time before return to normal can occur.   
-B.	The BC/DR provider becomes the new normal production environment.            
+B.	**The BC/DR provider becomes the new normal production environment**.            
 C.	Regulators will find the organization in violation of compliance guidance.        
 D.	All data is lost irretrievably.          
 
@@ -388,18 +388,18 @@ D.	Password and biometric scan
 
 Answer: B    
 
-### Question # 47 - Gary is preparing to develop controls around access to root encryption keys and would like to apply a principle of security designed specifically for very sensitive operations. Which principle should he apply?       
-A. Least privilege      
+### [important] Question # 47 - Gary is preparing to [develop controls] around [access to root encryption keys] and would like to apply a principle of security designed specifically for [very sensitive operations]. Which principle should he apply?       
+A.  Least privilege      
 B.	Defense in depth             
 C.	Security through obscurity          
-D.	Two- person control       
+D.	**Two- person control**       
 
 Answer: D    
 
 ### Question # 48 - How often should Gary and his team conduct a review of the privileged access that a user has to sensitive systems? (Select all that apply.)       
-A.	On a periodic basis                  
+**A.	On a periodic basis                  
 B.	When a user leaves the organization            
-C.	When a user changes roles             
+C.	When a user changes roles**             
 D.	On a daily basis             
 
 Answer: A, B, C    
@@ -412,8 +412,8 @@ D. Type 4
 
 Answer: A    
 
-### Question # 50 - Yolanda is helping her organization decide whether to build their own datacenters or lease space from a colocation provider. What would be the major benefit of using a colocation provider?             
-A.	Reduced cost             
+### Question # 50 - Yolanda is helping her organization [decide whether] to build their own datacenters or lease space from a colocation provider. What would be the major benefit of using a colocation provider?             
+A.	**Reduced cost**             
 B.	Increased security             
 C.	Reduced complexity              
 D.	Increased capability                
