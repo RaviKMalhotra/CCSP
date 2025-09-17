@@ -4,7 +4,7 @@ B.	Validate the signature of the file.
 C.	Validate the hash of the file.   
 D.	Mikayla cannot ensure that there are no security flaws via the options described.   
 
-Answer: A             
+Answer: D            
 
 ### Question 2 - Lin wants to allow her users to use existing credentials provided by a third- party identity provider when they access her service. What element will she have to provide from the  following list?    
 A.	User IDs.  
@@ -12,7 +12,7 @@ B.	Authentication.
 C.	Authorization.     
 D.	Identity proofing.     
 
-Answer: A             
+Answer: C             
 
 ### Question # 3 - 	Joanna’s software vendor does not provide source code to their clients. In the following list, what is her best option to test the security of the vendor’s software package?     
 A. Perform static analysis of the software.           
@@ -20,7 +20,7 @@ B.	Implement pair- programming techniques.
 C.	Review the software for hard- coded secrets.      
 D.	Perform dynamic testing.      
 
-Answer: A             
+Answer: D             
 
 ### Question # 4 - What SDLC model is most frequently associated with cloud development processes?      
 A.	Agile.   
@@ -36,7 +36,7 @@ B.	Scalability of applications built in the cloud.
 C.	Redundancy of applications built in the cloud.    
 D.	Security of applications built in the cloud.    
 
-Answer: A             
+Answer: D             
 
 ### Question # 6 - Susan wants to avoid issues with data integration. She is aware that the OWASP Cloud Top 10 includes service and data integration security issues, and is deploying a REST- based API for her customers to use when accessing her service. She is using API keys, but she is concerned about third parties intercepting and accessing the data. What should she include in her implementation to address this concern?      
 A.	Data tokenization.    
@@ -44,7 +44,7 @@ B.	Ensure encryption at rest.
 C.	Ensure encryption in transit.    
 D.	Data masking.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 7 - 	Ben wants to gather business requirements for his software development effort and is using an Agile methodology. Which of the following is not a common means of gathering user requirements in an Agile process?      
 A. Brainstorming.     
@@ -52,7 +52,7 @@ B.	Documentation review.
 C.	User observation.      
 D.	Surveys.     
 
-Answer: A             
+Answer: B             
 
 ### Question # 8 - 	Encryption at rest is a protective design element included in SDLCs for cloud environments due to what common cloud design motif?      
 A.	Rapid elasticity.    
@@ -60,7 +60,7 @@ B.	Multitenancy.
 C.	Measured services.    
 D.	Scalability.     
 
-Answer: A             
+Answer: B             
 
 ### Question # 9 - 	Nick wants to avoid common pitfalls in his CI/CD pipeline. Which of the following is a common CI/CD pitfall that can harm cloud development efforts?      
 A.	Automation of processes.     
@@ -68,7 +68,7 @@ B.	Use of metrics.
 C.	Using multiple deployment paths.    
 D.	Reliance on a version control system.   
 
-Answer: A             
+Answer: C             
 
 ### Question # 10 - Maria wants to integrate her existing identity provider with her cloud provider’s services. What common standard is used for most cloud identity provider integration?     
 A.	IDPL.    
@@ -76,7 +76,7 @@ B.	OpenLDAP.
 C.	SAML.     
 D.	ConnectID.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 11 - 	Jack wants to enable his team to develop cloud- native applications. Which of the following is not a common element in a cloud- native application design?     
 A.	Optimized assembly code.  
@@ -116,7 +116,7 @@ B.	A TPM.
 C.	A KMS.    
 D.	An API key.    
 
-Answer: A             
+Answer: C             
 
 ### Question # 16 - 	Dana’s organization requires an SBOM for each application it deploys. What OWASP Top 10 item does an SBOM help to avoid?     
 A.	Vulnerable and outdated components.   
@@ -140,7 +140,7 @@ B.	Testing.
 C.	Implementation.    
 D.	Deployment.  
 
-Answer: A             
+Answer: B             
 
 ### Question # 19 - 	Gary’s cloud service provides customers with access to APIs. Which of the following is a common security flaw in APIs?     
 A. Use of unstructured data.   
@@ -148,7 +148,7 @@ B.	Lack of authentication.
 C.	Use of semi- structured data.   
 D.	Lack of encryption.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 20 - Dan wants to encrypt data at rest in his cloud environment. What encryption standard should he look for when encrypting data at rest?  
 A.	TLS.  
@@ -156,7 +156,7 @@ B.	AES- 256.
 C.	SSL.    
 D.	Blowfish.  
 
-Answer: A             
+Answer: B             
 
 ### Question # 21 - Mark wants to ensure that his software vendor is using industry best practices as part of their software validation process. He knows that NIST defines a number of recommended minimums for verification of code by developers. Which of the following is not a NIST recommended minimum standard for vendor or developer verification of code?    
 A. Use automated testing.     
@@ -164,7 +164,7 @@ B.	Perform code- based (static) analysis.
 C.	Only check internally developed software.    
 D.	Conduct threat modeling.       
 
-Answer: A             
+Answer: C             
 
 ### Question # 22 - Lori wants to ensure that the included software components provided by her vendor are secure. What type of process should she use to conduct an assessment of those packages?      
 A.	A web application vulnerability scan.   
@@ -172,7 +172,7 @@ B.	A software composition analysis.
 C.	A vulnerability scan.    
 D.	A version number validation process.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 23 - 	Christine has documented a software testing user story that states: “As an attacker, I will upload malicious software as part of my form submission which will exploit the parsing  software that reads user submissions.” What type of testing is Christine preparing for?      
 A.	Abuse case testing.   
@@ -188,7 +188,7 @@ B.	To be used for auditing.
 C.	To be used as guidance.    
 D.	To be used during procurement.    
 
-Answer: A             
+Answer: B             
 
 ### Question # 25 - 	Ian wants to use a cloud- specific list of application issues. Which of the following options should he choose?      
 A.	The OWASP Top 10.    
@@ -204,7 +204,7 @@ B.	Major.build.minor.patch.
 C.	RFC number.version.patch.    
 D.	Major.minor.patch.    
 
-Answer: A             
+Answer: D             
 
 ### Question # 27 - 	What term is used to describe the list of all of the software components of a product?     
 A.	Component index.    
@@ -212,7 +212,7 @@ B.	SBOM.
 C.	Version catalog.     
 D.	SCCM.    
 
-Answer: A             
+Answer: B             
 
 ### Question # 28 - 	Valerie’s company has recently experienced successful SQL injection attacks against a third- party application they use. The vendor has not yet provided a patch for the SQL injection flaw, but Valerie needs to keep the application in production due to business requirements. What type of tool could Valerie put in place to protect against the SQL injection attacks on her web application?          
 A.	A DAM.   
@@ -220,7 +220,7 @@ B.	A WAF.
 C.	An XML firewall.   
 D.	An API gateway.    
 
-Answer: A             
+Answer: B             
 
 ### Question # 29 - Jackie wants to allow applications to run using the libraries and other dependencies they need without having to have an independent operating system for each application. What technology should she use to allow her to easily move application packages between different operating systems?    
 A.	Packages.  
@@ -228,7 +228,7 @@ B.	Containers.
 C.	Virtual machines.  
 D.	Hypervisors.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 30 - Charles logs in using his organization’s credentials and is able to use that login throughout a variety of systems and applications. What technology is Charles using?         
 A.	SAML.   
@@ -236,7 +236,7 @@ B.	SSO.
 C.	OpenID Connect.   
 D.	OTP.   
 
-Answer: A             
+Answer: B             
 
 ### Question # 31 - 	Henry wants to ensure that only authorized customers are able to use his organization’s public- facing APIs. What common security technique is for this purpose?     
 A.	API keys.    
