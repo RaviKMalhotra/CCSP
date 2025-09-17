@@ -1,5 +1,5 @@
 ### Question # 1 - Mikayla wants to validate a component of her software that she has downloaded from GitHub. How can she validate that the underlying software does not have security flaws when it is downloaded and included in her environment as part of her integration process?   
-A. Validate the checksum of the file.  
+A.  Validate the checksum of the file.  
 B.	Validate the signature of the file.  
 C.	Validate the hash of the file.   
 D.	Mikayla cannot ensure that there are no security flaws via the options described.   
@@ -15,7 +15,7 @@ D.	Identity proofing.
 Answer: C             
 
 ### Question # 3 - 	Joanna’s software vendor does not provide source code to their clients. In the following list, what is her best option to test the security of the vendor’s software package?     
-A. Perform static analysis of the software.           
+A.  Perform static analysis of the software.           
 B.	Implement pair- programming techniques.    
 C.	Review the software for hard- coded secrets.      
 D.	Perform dynamic testing.      
@@ -30,7 +30,7 @@ D.	Waterfall.
 
 Answer: A             
 
-### Question # 5 - Susan wants to avoid common pitfalls in cloud application development. Which of the following pitfalls is frequently associated with cloud environments?      
+### Question # 5 - Susan wants to avoid [common pitfalls] in cloud application development. Which of the following pitfalls is frequently associated with cloud environments?      
 A.	Reliability of applications built in the cloud.    
 B.	Scalability of applications built in the cloud.    
 C.	Redundancy of applications built in the cloud.    
@@ -38,7 +38,7 @@ D.	Security of applications built in the cloud.
 
 Answer: D             
 
-### Question # 6 - Susan wants to avoid issues with data integration. She is aware that the OWASP Cloud Top 10 includes service and data integration security issues, and is deploying a REST- based API for her customers to use when accessing her service. She is using API keys, but she is concerned about third parties intercepting and accessing the data. What should she include in her implementation to address this concern?      
+### Question # 6 - Susan wants to avoid issues with data integration. She is aware that the OWASP Cloud Top 10 includes service and data integration security issues, and is [deploying a REST- based API for her customers to use when accessing her service]. She is using API keys, but she is concerned about third parties intercepting and accessing the data. What should she include in her implementation to address this concern?      
 A.	Data tokenization.    
 B.	Ensure encryption at rest.   
 C.	Ensure encryption in transit.    
@@ -46,9 +46,9 @@ D.	Data masking.
 
 Answer: C             
 
-### Question # 7 - 	Ben wants to gather business requirements for his software development effort and is using an Agile methodology. Which of the following is not a common means of gathering user requirements in an Agile process?      
-A. Brainstorming.     
-B.	Documentation review.     
+### Question # 7 - 	Ben wants to gather business requirements for his software development effort and is using an Agile methodology. Which of the following is [not] a common means of gathering user requirements in an Agile process?      
+A.  Brainstorming.     
+B.	**Documentation review**.     
 C.	User observation.      
 D.	Surveys.     
 
@@ -65,7 +65,7 @@ Answer: B
 ### Question # 9 - 	Nick wants to avoid common pitfalls in his CI/CD pipeline. Which of the following is a common CI/CD pitfall that can harm cloud development efforts?      
 A.	Automation of processes.     
 B.	Use of metrics.     
-C.	Using multiple deployment paths.    
+C.	**Using multiple deployment paths**.    
 D.	Reliance on a version control system.   
 
 Answer: C             
@@ -73,13 +73,13 @@ Answer: C
 ### Question # 10 - Maria wants to integrate her existing identity provider with her cloud provider’s services. What common standard is used for most cloud identity provider integration?     
 A.	IDPL.    
 B.	OpenLDAP.    
-C.	SAML.     
+C.	**SAML**.     
 D.	ConnectID.    
 
 Answer: C             
 
-### Question # 11 - 	Jack wants to enable his team to develop cloud- native applications. Which of the following is not a common element in a cloud- native application design?     
-A.	Optimized assembly code.  
+### [important] Question # 11 - 	Jack wants to enable his team [to develop cloud- native applications]. Which of the following is [not a common] element in a cloud- native application design?     
+A.	**Optimized assembly code**.  
 B.	Automated release pipelines.   
 C.	Containers.   
 D.	Microservices.   
@@ -87,7 +87,7 @@ D.	Microservices.
 Answer: A             
 
 ### Question # 12 - 	At which phase of the software development life cycle (SDLC) is user involvement most crucial?         
-A. Define.       
+A.  Define.       
 B.	Design.        
 C.	Development.   
 D.	Test.        
@@ -102,7 +102,7 @@ D.	Testing.
 
 Answer: A             
 
-### Question # 14 - The testing process that Angie is using for her organization includes access to the design specifications, source code, and running applications. What type of security testing methodology is she using?     
+### Question # 14 - The [testing process] that Angie is using for her organization includes access to the design specifications, source code, and running applications. What type of security testing methodology is she using?     
 A.	White box.    
 B.	Gray box.    
 C.	Red box.    
@@ -110,7 +110,7 @@ D.	Black box.
 
 Answer: A             
 
-### Question # 15 - 	The CWE/SANS Top 25 most dangerous software errors includes the use of hard- coded credentials. What common cloud service component can be used to avoid this problem for cloud- hosted software and applications?     
+### Question # 15 - 	The CWE/SANS Top 25 most dangerous software errors includes the use of hard-coded credentials. What common cloud service component can be used [to avoid this problem] for cloud- hosted software and applications?     
 A.	An MFA token.    
 B.	A TPM.    
 C.	A KMS.    
@@ -118,8 +118,8 @@ D.	An API key.
 
 Answer: C             
 
-### Question # 16 - 	Dana’s organization requires an SBOM for each application it deploys. What OWASP Top 10 item does an SBOM help to avoid?     
-A.	Vulnerable and outdated components.   
+### [important] Question # 16 - 	Dana’s organization requires an SBOM for each application it deploys. What OWASP Top 10 item does an SBOM help to avoid?     
+A.	**Vulnerable and outdated components**.   
 B.	Broken access control.   
 C.	Injection.    
 D.	Security misconfiguration.   
@@ -134,17 +134,17 @@ D.	A next- generation API manager.
 
 Answer: A             
 
-### Question # 18 - 	What phase of the SDLC is IAST typically associated with?     
+### Question # 18 - 	What phase of the SDLC is [IAST] typically associated with?     
 A.	Design.    
-B.	Testing.    
+B.	**Testing**.    
 C.	Implementation.    
 D.	Deployment.  
 
 Answer: B             
 
 ### Question # 19 - 	Gary’s cloud service provides customers with access to APIs. Which of the following is a common security flaw in APIs?     
-A. Use of unstructured data.   
-B.	Lack of authentication.      
+A.  Use of unstructured data.   
+B.	**Lack of authentication**.      
 C.	Use of semi- structured data.   
 D.	Lack of encryption.   
 
