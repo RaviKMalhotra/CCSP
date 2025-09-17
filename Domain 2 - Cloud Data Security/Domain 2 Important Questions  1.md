@@ -114,7 +114,7 @@ Answer: B
 
 ### Question # 6.6 - In a cloud DRM/IRM solution, the policy server is responsible for:
 A. Deciding where encrypted data is physically stored
-B. Defining and enforcing access and usage policies for digital content
+B. **Defining and enforcing access and usage policies for digital content**
 C. Conducting vulnerability scans on hosted applications
 D. Monitoring system availability and uptime
 Answer: B
