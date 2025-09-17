@@ -51,7 +51,7 @@ Answer: C
 ### [important] Question # 7 - Carla is assigned to manage her organization’s privacy program and is working to communicate to customers about a change in the organization’s privacy practices. She plans to send an email notifying customers of the change and allowing them to opt out of the use of their data. Which GAPP principle is not described in this scenario?                     
 A.	Notice             
 B.	Management                
-C.	**Access**                      
+C.	Access                    
 D.	Choice and Consent                     
 
 Answer:  C              
@@ -99,7 +99,7 @@ D.	Remove this test from the audit and test a different control objective instea
 
 Answer: A                
 
-### Question # 12 - which of the following is not a way in which an entity located outside the European Union (EU) can be allowed to gather and process privacy data belonging to EU citizens?                 
+### Question # 12 - which of the following is [not] a way in which an entity [located outside the European Union (EU) can] be allowed to gather and process privacy data belonging to EU citizens?                 
 A.	Be located in a country with a nationwide law that complies with the EU laws.                    
 B.	Appeal to the EU High Court for permission.                              
 C.	Create binding contractual language that complies with the EU laws.                        
@@ -131,10 +131,10 @@ D.	Failure to meet target standards and guidelines
 
 Answer: A                
 
-### Question # 16 - During an IT audit, the CEO of a cloud provider demands regular updates on the testing process. How should auditors respond to this demand?             
+### Question # 16 - During an IT audit, the CEO of a cloud provider [demands regular updates on the testing process]. How should auditors respond to this demand?             
 A.	Refuse to provide the CEO with any information until the conclusion of the audit.                
 B.	Refer the matter to the client’s Board of Directors.                            
-C.	Provide the CEO with regular updates.                         
+C.	**Provide the CEO with regular updates**.                         
 D.	Refer the matter to the audit firm’s partnership review board.                                           
 
 Answer: C                
@@ -142,12 +142,12 @@ Answer: C
 ### Question # 17 - Which of the following is a U.S. audit standard often used to evaluate cloud providers?                       
 A.	ISO 27001                        
 B.	SOX                         
-C.	SSAE 18                               
+C.	**SSAE 18**                               
 D.	IEC 43770                                     
 
 Answer: C                
 
-### Question # 18 - Digital forensics investigators perform all of the following actions routinely except for securely _________________ data.                    
+### Question # 18 - Digital forensics investigators perform all of the following actions routinely [except] for securely _________________ data.                    
 A.	Collecting                   
 B.	Creating                    
 C.	Analyzing                         
@@ -155,15 +155,15 @@ D.	Presenting
 
 Answer: B                
 
-### Question # 19 - A(n) _________________ includes reviewing the organization’s current position/performance as revealed by an audit against a given standard.                    
+### Question # 19 - A(n) _________________ includes [reviewing] the organization’s current position/performance as revealed by an audit against a given standard.                    
 A.	Service Organization Control (SOC) report                    
-B.	Gap analysis                         
+B.	**Gap analysis**                         
 C.	Audit scoping statement                            
 D.	Federal guideline                                  
 
 Answer: B                
 
-### Question # 20 - Belinda is auditing the financial controls of a manufacturing company and learns that the financial systems are run on a major IaaS platform. She would like to gain assurance that the platform has appropriate security controls in place to assure the accuracy of her client’s financial statements. What action should she take?                     
+### Question # 20 - Belinda is auditing the financial controls of a manufacturing company and learns that the financial systems are run on a major IaaS platform. She would like to gain assurance that the platform has [appropriate security controls in place] to assure the accuracy of her client’s financial statements. What action should she take?                     
 A. Perform an IT audit of the cloud provider.                       
 B.	Obtain a SOC 1 report.                       
 C.	Obtain a SOC 2 report.                                                                               
@@ -171,7 +171,7 @@ D.	Continue testing only controls at the client and note the use of the cloud pr
 
 Answer: B                
 
-### Question # 21 - Tony is developing a business continuity plan and is having trouble prioritizing resources because of the difficulty of combining information about tangible and intangible assets. What would be the most effective risk assessment approach for him to use?                      
+### Question # 21 - Tony is [developing a business continuity plan] and is having trouble prioritizing resources because of the difficulty of combining information about tangible and intangible assets. What would be the most effective risk assessment approach for him to use?                      
 A.	Quantitative risk assessment                    
 B.	Qualitative risk assessment                            
 C.	Neither quantitative nor qualitative risk assessment            
