@@ -72,13 +72,13 @@ Answer: B
 
 ### Question # 10 - [ITIL v4] includes a [seven- step] continual improvement model. What item [occurs at the end of the process] before it starts again?                  
 A.	Determining the vision.              
-B.	**Assessing results**.               
+B.	Assessing results.               
 C.	Taking action.                
 D.	Determining the goal.                
 
 Answer: B       
 
-### Question # 11 - Tim puts a server in his virtualization environment into maintenance mode. Which of the following events will occur?              
+### Question # 11 - Tim puts a server in his virtualization environment into [maintenance mode]. Which of the following events will occur?              
 A.	Migrates the running virtual machines to other hardware               
 B.	Pauses all running VMs immediate                              
 C.	Sends a notification to users, then pauses running VMs                
@@ -96,45 +96,45 @@ Answer: A
 
 ### Question # 13 - Elaine wants to ensure that traffic is encrypted in transit. What technology is commonly used to secure data in transit?             
 A.	VLANs                
-B.	TLS                      
+B.	**TLS**                      
 C.	DNSSEC                 
 D.	DHCP                  
 
 Answer: B       
 
 ### Question # 14 - Ujama wants to protect systems in his environment from being accessed via SSH. What should he do if he needs to leave the service available for local connections?            
-A. Block inbound connections to TCP port 3389 on his firewall.             
+A.  Block inbound connections to TCP port 3389 on his firewall.             
 B.	Block outbound connections to TCP port 3389 on his firewall.             
-C.	Block inbound connections to TCP port 22 on his firewall.                
+C.	**Block inbound connections to TCP port 22 on his firewall**.                
 D.	Block outbound connections to TCP port 22 on his firewall.                
 
 Answer: C       
 
 ### Question # 15 - Ron wants to use a central system to store information about system and software configurations and their relationships. What tool is often used for this to support standards- based configuration management practices like those found in ITIL v4?               
 A.	CRM             
-B.	CMDB                   
+B.	**CMDB**                   
 C.	Configuration item                 
 D.	Change catalog                   
 
 Answer: B       
 
 ### Question # 16 - Maria’s manager is concerned about patching for the underlying cloud environment that her platform as a service (PaaS) vendor provides. What should Maria tell her manager?              
-A. Maria’s organization is responsible for patching and needs to set up a regular patch cycle.                                   
+A.  Maria’s organization is responsible for patching and needs to set up a regular patch cycle.                                   
 B.	The vendor is responsible for patching and there is no patching that needs to be done by customers in a PaaS environment.           
 C.	Negotiations need to be done with the vendor to determine which organization is responsible for patch management.                 
 D.	The contract will determine which organization is responsible for patch management.                                    
 
 Answer: B       
 
-### Question # 17 - ITIL v4 describes three subprocesses related to availability management. What are these three subprocesses?              
+### Question # 17 - ITIL v4 describes [three subprocesses related to availability management]. What are these three subprocesses?              
 A.	Designing services for availability, disaster recovery testing, determining availability targets               
 B.	Availability management, availability metrics, and availability improvement                             
-C.	Designing services for availability, availability testing, and availability monitoring and reporting              
+C.	**Designing services for availability, availability testing, and availability monitoring and reporting**              
 D.	Availability planning, availability improvement, availability validation                          
 
 Answer: C       
 
-### Question # 18 - Naomi’s organization has recently experienced a data breach. Which of the following parties is least likely to require notification based on existing contracts or regulations?             
+### [important] Question # 18 - Naomi’s organization has recently [experienced a data breach]. Which of the following parties is [least likely] to require notification based on existing contracts or regulations?             
 A.	Customers              
 B.	Vendors               
 C.	Regulators                  
@@ -142,8 +142,8 @@ D.	Partners
 
 Answer: B       
 
-### Question # 19 - Megan is starting her organization’s change management practices. She has conducted an asset inventory. What step is typically next in a change management process?                 
-A. Creating a baseline            
+### Question # 19 - Megan is starting her organization’s change management practices. [She has conducted an asset inventory]. What step is [typically next] in a change management process?                 
+A.  **Creating a baseline**            
 B.	Deploying new assets               
 C.	Establishing a CMB                           
 D.	Documenting deviations from the baseline                    
@@ -152,23 +152,23 @@ Answer: A
 
 ### Question # 20 - Dan wants to use clipboard- based drag and drop between his virtualized desktops in a Type 2 hypervisor environment. Which of the following steps is most likely to allow him to access additional features that require virtualization environment integration to work?               
 A.	Building the virtual machines as containers                  
-B.	Installing guest operating system virtualization tools              
+B.	**Installing guest operating system virtualization tools**              
 C.	Installing virtualization environment orchestration tools                
 D.	Building the containers as virtual machines                    
 
 Answer: B       
 
-### Question # 21 - Geoff knows that ITIL v4 focuses on four information security management practices. Which of these processes could involve an SOC 2 Type 2 audit?              
+### Question # 21 - Geoff knows that ITIL v4 focuses on [four] information security management practices. Which of these processes could involve an [SOC 2 Type 2 audit]?              
 A.	Design of security controls              
 B.	Security testing                     
 C.	Management of security incidents                  
-D.	Security review                   
+D.	**Security review**                   
 
 Answer: D       
 
-### Question # 22 - Theresa is building an automated CI/CD pipeline. She wants to ensure that code that passes through the pipeline is secure before it moves from staging to production. What is her best option if she wants to test the running application?             
+### Question # 22 - Theresa is building an [automated CI/CD pipeline]. She wants to ensure that code that passes through the [pipeline is secure before it moves from staging to production]. What is her best option if she wants to test the running application?             
 A.	Manual static code review               
-B.	Automated code review                  
+B.	**Automated code review**                  
 C.	Using a web application firewall                
 D.	Using an IPS                
 
