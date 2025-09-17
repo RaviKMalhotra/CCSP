@@ -4,7 +4,7 @@ B.	Chief information security officer
 C.	Disaster recovery team leader   
 D.	External consultant   
 
-Answer: A          
+Answer: D          
 
 ### Question # 2 - If the cloud is used for BC/DR purposes, the loss of ___________________ could gravely affect your organization’s RTO.    
 A.	Any cloud administrator   
@@ -12,7 +12,7 @@ B.	A specific VM
 C.	Your policy and contract documentation     
 D.	ISP connectivity     
 
-Answer: A    
+Answer: D    
 
 ### Question # 3 - Brent is reviewing the controls that will protect his organization in the event of a sustained period of power loss at his on- premises datacenter. Which one of the following solutions would best meet his needs?     
 A.	Redundant servers   
@@ -20,7 +20,7 @@ B.	Uninterruptible power supply (UPS)
 C.	Generator     
 D.	RAID     
 
-Answer: A    
+Answer: C    
 
 ### Question # 4 - Carolyn is concerned that users on her network may be storing sensitive information, such  as Social Security numbers, on their hard drives without proper authorization or security controls. What third- party security service can she implement to best detect this activity?      
 A.	IDS     
@@ -28,7 +28,7 @@ B.	IPS
 C.	DLP     
 D.	TLS     
 
-Answer: A    
+Answer: C    
 
 ### [important knowledge] Question # 5 - What individuals should have access to the management plane of a cloud datacenter?        
 A.	Service provider engineers       
@@ -44,7 +44,7 @@ B.	Wi- Fi
 C.	RFID      
 D.	Ethernet      
 
-Answer: A    
+Answer: C    
 
 ### Question # 7 - Becka recently signed a contract with an alternate data processing facility that will provide her company with space in the event of a disaster. The facility includes HVAC, power, and communications circuits but no hardware. What type of facility is Becka using?      
 A.	Cold site     
@@ -60,7 +60,7 @@ B.	Keep a BC/DR backup on the premises of your corporate headquarters.
 C.	Use another cloud provider for the BC/DR backup.      
 D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.      
 
-Answer: A    
+Answer: C    
 
 ### Question # 9 - Philip is developing a new security tool that will be used by individuals in many different subsidiaries of his organization. He chooses to use Docker to deploy the tool to simplify configuration. What term best describes this approach?      
 A.	Virtualization     
@@ -68,7 +68,7 @@ B. Abstraction
 C.	Simplification     
 D.	Containerization    
 
-Answer: A    
+Answer: D    
 
 ### Question # 10 - What is the most important asset to protect in cloud BC/DR activities?      
 A.	Intellectual property     
@@ -76,7 +76,7 @@ B.	Hardware at the cloud datacenter
 C.	Personnel     
 D.	Data on portable media     
 
-Answer: A    
+Answer: C    
 
 ### Question # 11 - Carla is developing the design of a cloud infrastructure service offering that she will be reselling to a number of customers. What component of her stack is most directly responsible for performing tenant partitioning of the virtual machines belonging to different customers?     
 A.	Access control lists    
@@ -84,7 +84,7 @@ B.	Network security group
 C.	Firewall     
 D.	Hypervisor     
 
-Answer: A    
+Answer: D    
 
 ### Question # 12 - Carlos is planning a design for a datacenter that will be constructed within a new four- story corporate headquarters. The building consists of a basement and three above- ground floors. What is the best location for the datacenter?      
 A.	Basement      
@@ -92,7 +92,7 @@ B.	First floor
 C.	Second floor        
 D.	Third floor       
 
-Answer: A    
+Answer: C    
 
 ### Question # 13 - Chris is an information security professional for a major corporation and, as he is walking into the building, he notices that the door to a secure area has been left ajar. Physical security does not fall under his responsibility, but he takes immediate action by closing the door and informing the physical security team of his action. What principle is Chris demonstrating?     
 A.	Due care      
@@ -108,7 +108,7 @@ B.	Applying hypervisor updates
 C.	Patching operating systems      
 D.	Wiping drives prior to disposal      
 
-Answer: A    
+Answer: C    
 
 ### Question # 15 - Candace is designing a backup strategy for her organization’s file server. She would like to perform a backup every weekday that has the smallest possible storage footprint. What type of backup should she perform?      
 A.	Incremental backup       
@@ -124,7 +124,7 @@ B.	Log repositories
 C.	IPS       
 D.	SOAR       
 
-Answer: A    
+Answer: D    
 
 ### Question # 17 - Nick is evaluating options for his organization’s future datacenters. Which one of the following options normally incurs the largest up- front cost?      
 A.	Colocation facilities     
@@ -132,7 +132,7 @@ B.	Cloud datacenters
 C.	On- premises datacenters    
 D.	SaaS offerings    
 
-Answer: A    
+Answer: C    
 
 ### Question # 18 - Ben is an IT auditor and would like to ensure that the organization has mechanisms in place to create an appropriate audit trail for systems and applications. Which one of the following technologies aggregates and correlates log entries?      
 A.	SIEM    
@@ -148,7 +148,7 @@ B.	The end user(s)
 C.	Any vendor the cloud customer previously used in the on- premises environment          
 D.	Any third parties the provider depends on          
 
-Answer: A    
+Answer: D    
 
 ### [Question # 20 - Brittney is reviewing her organization’s disaster recovery process data and notes that the MTD for the business’s database server is 30 minutes. What does she know about the RTO for the server?    
 A.	It needs to be less than 30 minutes.    
@@ -180,7 +180,7 @@ B.	Risk avoidance
 C.	Risk mitigation      
 D.	Risk transference       
 
-Answer: A    
+Answer: C    
 
 ### Question # 24 - You are trying to determine the critical assets that your organization must protect in your BC/DR activities. Which one of the following artifacts would be most useful in your work?     
 A.	Quantitative risk analysis     
@@ -188,7 +188,7 @@ B.	Qualitative risk analysis
 C.	Business impact analysis      
 D.	Risk appetite       
 
-Answer: A    
+Answer: C    
 
 ### Question # 25 - A component failure in the primary HVAC system leads to a high temperature alarm in the datacenter that Kim manages. After resolving the issue, what should Kim consider to prevent future issues like this?      
 A.	A closed loop chiller      
@@ -196,7 +196,7 @@ B.	Redundant cooling systems
 C.	Swamp coolers      
 D.	Relocating the datacenter to a colder climate      
 
-Answer: A    
+Answer: B    
 
 ### Question # 26 - Joe is the security administrator for a cloud- based ERP system. He is preparing to create accounts for several new employees. What default access should he give to all of the new employees as he creates the accounts?      
 A.	Read only     
@@ -204,7 +204,7 @@ B.	Editor
 C.	Administrator      
 D.	No access      
 
-Answer: A    
+Answer: D    
 
 ### Question # 27 - Jason operates a cloud datacenter and would like to improve the ability of administrators to interact programmatically with backend solutions on the management plane. What technology can he use to best allow this type of automation?       
 A.	CASB     
@@ -212,7 +212,7 @@ B.	API
 C.	Hypervisor     
 D.	Python     
 
-Answer: A    
+Answer: B    
 
 ### Question # 28 - Which of the following is a device specially designed to handle the management of cryptographic keys?       
 A.	Key management box (KMB)         
@@ -220,7 +220,7 @@ B.	Hardware security module (HSM)
 C.	Ticket- granting ticket (TGT)     
 D.	Trusted computing base (TCB)     
 
-Answer: A    
+Answer: B    
 
 ### Question # 29 - What individual in an organization bears ultimate responsibility for the success of the disaster recovery plan?        
 A.	End users          
@@ -228,7 +228,7 @@ B.	BC/DR team leader
 C.	CISO         
 D.	CEO        
 
-Answer: A    
+Answer: D    
 
 ### Question # 30 - Michael is responsible for forensic investigations and is investigating a security incident that involved the defacement of a corporate website. The web server in question ran on a virtualization platform, and the marketing team would like to get the website up and running as quickly as possible. What would be the most reasonable next step for Michael to take?      
 A. Keep the website offline until the investigation is complete.       
@@ -236,7 +236,7 @@ B.	Take the virtualization platform offline as evidence.
 C.	Take a snapshot of the compromised system and use that for the investigation.       
 D.	Ignore the incident and focus on quickly restoring the website.      
 
-Answer: A    
+Answer: C    
 
 ### Question # 31 - In a virtualized computing environment, what component is responsible for enforcing separation between guest machines?      
 A.	Guest operating system   
@@ -244,7 +244,7 @@ B.	Hypervisor
 C.	Kernel     
 D.	Protection manager     
 
-Answer: A    
+Answer: B    
 
 ### Question # 32 - Best practice for planning the physical resiliency for a cloud datacenter facility includes ___________________.    
 A.	Having one point of egress for personnel       
@@ -252,7 +252,7 @@ B.	Ensuring that redundant cabling/connectivity enters the facility from differe
 C.	Ensuring that all parking areas are near generators so that personnel in high- traffic areas are always illuminated by emergency lighting, even when utility power is not available             
 D. Ensuring that the foundation of the facility is rated to withstand earthquake tremors       
 
-Answer: A    
+Answer: B    
 
 ### Question # 33 - Jen is designing a datacenter that will be used to offer cloud services to her organization’s customers. She is concerned about separating systems that process information that belongs to different customers from each other. What networking technology would best allow her to enforce this separation?      
 A.	BGP    
@@ -260,7 +260,7 @@ B.	LAN
 C.	VLAN     
 D.	VPN      
 
-Answer: A    
+Answer: C    
 
 ### Question # 34 - Risk should always be considered from a business perspective. When a risk is accepted, it should be balanced by a corresponding ___________________.       
 A. Profit         
@@ -268,7 +268,7 @@ B. Performance
 C. Cost     
 D. Opportunity     
 
-Answer: A    
+Answer: D    
 
 ### Question # 35 - You are designing a cloud datacenter that is expected to meet Tier 2 status according to the Uptime Institute standards. What level of availability must you achieve to meet this standard?       
 A.	99.422%       
@@ -276,7 +276,7 @@ B. 99.671%
 C. 99.741%      
 D. 99.995%      
 
-Answer: A    
+Answer: C    
 
 ### Question # 36 - Ursula is examining several virtual servers that her organization runs in an IaaS service. She discovers that the servers are all running a scheduling service that is no longer used by the organization. What action should she take?       
 A. Ensure the service is fully patched.         
@@ -284,7 +284,7 @@ B.	Remove the service.
 C.	Leave the service alone unless it is causing issues.           
 D.	Contact the vendor for instructions.           
 
-Answer: A    
+Answer: B    
 
 ### Question # 37 - When discussing the cloud, we often segregate the datacenter into the terms compute, storage, and networking. Compute is made up of ___________________ and ___________________.          
 A. Routers; hosts         
@@ -292,7 +292,7 @@ B.	Application programming interfaces (APIs); northbound interfaces (NBIs)
 C.	Central processing units (CPUs); random access memory (RAM)      
 D.	Virtualized; actual hardware devices     
 
-Answer: A    
+Answer: C    
 
 ### Question # 38 - What type of IaaS storage is typically used to provide disk volumes that are mountable on virtual server instances?      
 A.	Dedicated disks      
@@ -300,7 +300,7 @@ B.	Block
 C.	Encrypted     
 D.	Object     
 
-Answer: A    
+Answer: B    
 
 ### Question # 39 - Which one of the following statements about file storage security in the cloud is correct?     
 A. File stores are always kept in plaintext in the cloud.    
@@ -308,7 +308,7 @@ B.	There is no way to sanitize file storage space in the cloud.
 C.	Virtualization prevents the use of application-b ased security controls.      
 D.	Virtual machines are stored as snapshotted files when not in use.
 
-Answer: A    
+Answer: D    
 
 ### Question # 40 - Javier is assisting with the implementation of a cloud- based SaaS solution. He is concerned about the ability of remote users to interact directly with the database supporting the application by exploiting a web application vulnerability. What type of vulnerability would permit this access?           
 A.	SQL injection      
@@ -324,7 +324,7 @@ B.	Recovery point objective
 C.	Maximum allowable downtime     
 D.	Mean time to failure      
 
-Answer: A    
+Answer: B    
 
 ### Question # 42 - Which of the following technologies is commonly implemented by websites to encrypt data being sent between the web server and an end user?          
 A.	VPN      
@@ -332,7 +332,7 @@ B.	TLS
 C.	VLANs      
 D.	IPsec     
 
-Answer: A    
+Answer: B    
 
 ### Question # 43 - “Return to normal operations” is a phase in BC/DR activity when the emergency is over and regular production can resume. Which of the following can sometimes be the result when the organization uses two different cloud providers for the production and BC/DR environments?      
 A.	Both providers are affected by the emergency, extending the time before return to normal can occur.   
@@ -340,7 +340,7 @@ B.	The BC/DR provider becomes the new normal production environment.
 C.	Regulators will find the organization in violation of compliance guidance.        
 D.	All data is lost irretrievably.          
 
-Answer: A    
+Answer: B    
 
 ### For questions 44–48, refer to the following scenario:       
 Gary was recently hired as the first chief information security officer (CISO) for a local government agency that makes heavy use of cloud computing resources. The agency recently suffered a security breach and is attempting to build a new information security program. Gary would like to apply some best practices for security operations as he is designing this program.      
@@ -351,7 +351,7 @@ B.	Least privilege
 C.	Aggregation                 
 D.	Separation of privileges           
 
-Answer: A    
+Answer: B    
 
 ### Question # 45 - As Gary designs the program, he uses the matrix shown here. What principle of information security does this matrix most directly help enforce?                     
 Roles/Tasks	 	 	 	 	 	 	 	 	 
@@ -386,7 +386,7 @@ B.	Clearance and need to know
 C.	Password and clearance        
 D.	Password and biometric scan     
 
-Answer: A    
+Answer: B    
 
 ### Question # 47 - Gary is preparing to develop controls around access to root encryption keys and would like to apply a principle of security designed specifically for very sensitive operations. Which principle should he apply?       
 A. Least privilege      
@@ -394,7 +394,7 @@ B.	Defense in depth
 C.	Security through obscurity          
 D.	Two- person control       
 
-Answer: A    
+Answer: D    
 
 ### Question # 48 - How often should Gary and his team conduct a review of the privileged access that a user has to sensitive systems? (Select all that apply.)       
 A.	On a periodic basis                  
@@ -402,7 +402,7 @@ B.	When a user leaves the organization
 C.	When a user changes roles             
 D.	On a daily basis             
 
-Answer: A    
+Answer: A, B, C    
 
 ### Question # 49 - Which one of the following hypervisor types is generally considered to offer the greatest level of security?             
 A.	Type 1        
@@ -426,7 +426,7 @@ B.	Dual- power supplies in systems
 C.	Backup generator                
 D.	Cooling                  
 
-Answer: A    
+Answer: B    
 
 ### Question # 52 - Fred is working to design security controls for a cloud environment where remote systems will need to gain command- line access to Linux servers in an automated fashion. Which one of the following authentication approaches will provide the strongest security in this scenario?       
 A.	Multifactor authentication           
@@ -434,7 +434,7 @@ B.	Digital certificates
 C.	Biometric authentication             
 D.	Strong passwords              
 
-Answer: A    
+Answer: B    
 
 ### Question # 53 - In software- defined networking (SDN), the northbound interface (NBI) usually handles traffic between the ___________________ and the ___________________.            
 A.	Cloud customer; ISP                     
@@ -442,7 +442,7 @@ B.	SDN controllers; SDN applications
 C.	Cloud provider; ISP                
 D.	Router; host                
 
-Answer: A    
+Answer: B    
 
 ### Question # 54 - A user signs on to a cloud- based social media platform. In another browser tab, the user finds an article worth posting to the social media platform. The user clicks on the platform’s icon listed on the article’s website, and the article is automatically posted to the user’s account on the social media platform. This is an example of what?             
 A. Single sign- on                  
@@ -450,7 +450,7 @@ B.	Insecure direct identifiers
 C.	Identity federation                   
 D.	Cross- site scripting                
 
-Answer: A    
+Answer: C    
 
 ### Question # 55 - Which of the following is a device specially purposed to handle the issuance, distribution, and storage of cryptographic keys?                 
 A.	Key management box (KMB)            
@@ -458,7 +458,7 @@ B.	Hardware security module (HSM)
 C.	Ticket- granting ticket (TGT)             
 D.	Trusted computing base (TCB)                    
 
-Answer: A    
+Answer: B    
 
 ### Question # 56 - Sprawl is mainly a(n) ___________________ problem.           
 A.	Technical      
@@ -466,7 +466,7 @@ B.	External
 C.	Management       
 D.	Logical      
 
-Answer: A    
+Answer: C    
 
 ### Question # 57 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. You decide to have a tabletop test of the BC/DR activity. Which of the following will offer the best value during the test?              
 A.	Have all participants conduct their individual activities via remote meeting technology.      
@@ -474,7 +474,7 @@ B.	Task a moderator well versed in BC/DR actions to supervise and present scenar
 C.	Provide copies of the BC/DR policy to all participants.        
 D.	Allow all users in your organization to participate.         
 
-Answer: A    
+Answer: B    
 
 ### Question # 58 - What can be revealed by an audit of a baseline virtual image, used in a cloud environment?          
 A.	Adequate physical protections in the datacenter      
@@ -482,7 +482,7 @@ B.	Potential criminal activity before it occurs
 C.	Whether necessary security controls are in place and functioning properly       
 D.	Lack of user training and awareness      
 
-Answer: A    
+Answer: C    
 
 ### Question # 59 - You are in charge of creating the business continuity and disaster recovery (BC/DR) plan and procedures for your organization. Your organization has its production environment hosted by a cloud provider, and you have appropriate protections in place. Which of the following is a significant consideration for your BC/DR backup?             
 A.	Enough personnel at the BC/DR recovery site to ensure proper operations       
@@ -490,11 +490,10 @@ B.	Good cryptographic key management
 C.	Access to the servers where the BC/DR backup is stored        
 D.	Forensic analysis capabilities       
 
-Answer: A    
+Answer: B    
 
 ### Question # 60 - The minimum essential characteristics of a cloud datacenter are often referred to as “ping, power, pipe.” What does this term mean?      
-A.	Remote access for a customer to racked devices in the datacenter; electrical utilities; connectivity to an internet service provider (ISP)/the internet      
-B.	Application suitability; availability; connectivity       
+A.	Remote access for a customer to racked devices in the datacenter; electrical utilities; connectivity to an internet service provider (ISP)/the internet     B.	Application suitability; availability; connectivity       
 C.	Infrastructure as a service (IaaS); software as a service (SaaS); platform as a service (PaaS)      
 D.	Antimalware tools; controls against distributed denial- of- service (DDoS) attacks; physical/environmental security controls, including fire suppression       
 
