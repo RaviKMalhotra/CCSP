@@ -678,7 +678,7 @@ D.	White box testing.
 
 Answer: A             
 
-### [important] Question # 85 - 	Frankie wants to implement single sign- on for her organization. Which of the following options is not commonly supported for SSO in cloud environments?     
+### [important] Question # 85 - 	Frankie wants to implement single sign- on for her organization. Which of the following options is [not] commonly supported for SSO in cloud environments?     
 A.	Cloud provider native SSO.    
 B.	Active Directory.    
 C.	SAML.     
@@ -697,12 +697,12 @@ Answer: A
 ### [knowledge Important] Question # 87 - 	Pete is reviewing his environment based on the OWASP Cloud Native Application Security Top 10. He knows that container configuration is a top concern and has [identified that his containers currently run as root]. How can he remediate this issue?       
 A.  Set the operating system to prevent root logins.      
 B.	Set a non-privileged user as the container owner.      
-C.	Set a non-privileged user as the process owner.      
+C.	**Set a non-privileged user as the process owner**.      
 D.	Use multifactor authentication for the root user.     
 
 Answer: C             
 
-### Question # 88 - Jessica’s quality assurance testing process involves identifying software flaws, including business logic flaws and other coding mistakes. What type of testing should she perform to most effectively identify underlying code quality issues?     
+### Question # 88 - Jessica’s [quality assurance testing process] involves identifying [software flaws, including business logic flaws and other coding mistakes]. What type of testing should she perform to most effectively identify underlying code quality issues?     
 A.	Static testing.   
 B.	Black box testing.   
 C.	Dynamic testing.  
@@ -767,7 +767,7 @@ D.	NIST.
 
 Answer: C             
 
-### Question # 96 - Henry uses an IAST process as part of his SLDC. What SDLC phase is IAST most likely to occur in?    
+### Question # 96 - [Henry uses an [IAST process] as part of his SLDC]. What SDLC phase is IAST most likely to occur in?    
 A.  Planning.   
 B.	Building.    
 C.	Deployment.    
@@ -778,7 +778,7 @@ Answer: D
 ### Question # 97 - Malika wants to ensure that human error doesn’t influence the security of secrets in her organization. Which of the following practices will most effectively prevent human- related issues from influencing her secrets security?           
 A.	Use a common passphrase word list in an automated CI/CD pipeline.     
 B.	Require password complexity.    
-C.	Generate passphrases randomly.   
+C.	**Generate passphrases randomly**.   
 D.	Exclusively use shared passphrases.  
 
 Answer: C             
@@ -794,12 +794,12 @@ Answer: A
 ### Question # 99 - 	James uses a CI/CD pipeline at the core of his development process. What design pattern should he use to ensure his QA process doesn’t impact production?         
 A.	Add software going through QA to his production environment to allow live testing.      
 B.	Create a new environment for QA testing, then promote to production after testing.      
-C. Replicate the production environment for QA testing, then promote to production after testing.       
-D. Add software to the QA environment for testing, then allow production users to access QA with instrumentation in place.    
+C.  **Replicate the production environment for QA testing, then promote to production after testing**.       
+D.  Add software to the QA environment for testing, then allow production users to access QA with instrumentation in place.    
 
 Answer: C             
 
-### Question # 100 - 	Tara’s organization uses a three- level application security verification standard, and requires that their most secure applications reach level 3 with in- depth validation and testing. What application security standard are they using?           
+### Question # 100 - 	Tara’s organization uses a [three- level application security verification standard], and requires that their most secure applications reach level 3 with in- depth validation and testing. What application security standard are they using?           
 A.	ASVS.    
 B.	SAFECode.   
 C.	OWASP.    
