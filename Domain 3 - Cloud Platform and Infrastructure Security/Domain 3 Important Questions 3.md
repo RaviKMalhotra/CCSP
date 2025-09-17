@@ -14,7 +14,7 @@ D.	ISP connectivity
 
 Answer: D    
 
-### Question # 3 - Brent is reviewing the controls that will protect his organization in the event of a sustained period of power loss at his on- premises datacenter. Which one of the following solutions would best meet his needs?     
+### Question # 3 - Brent is reviewing the controls that will protect his organization in the event of a [sustained period] of power loss at his on- premises datacenter. Which one of the following solutions would best meet his needs?     
 A.	Redundant servers   
 B.	Uninterruptible power supply (UPS)      
 C.	Generator     
@@ -30,7 +30,7 @@ D.	TLS
 
 Answer: C    
 
-### [important knowledge] Question # 5 - What individuals should have access to the management plane of a cloud datacenter?        
+### Question # 5 - What individuals should have access to the [management plane] of a [cloud datacenter]?        
 A.	Service provider engineers       
 B.	Customer engineers      
 C.	End users       
@@ -38,7 +38,7 @@ D.	Both A and B
 
 Answer: A    
 
-### [important] Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?    
+### Question # 6 - Roland is a physical security specialist in an organization that has a large amount of  expensive lab equipment that often moves around the facility. Which one of the following technologies would provide the most automation of an inventory control process in a  cost- effective manner?    
 A.	IPS      
 B.	Wi- Fi       
 C.	RFID      
@@ -46,8 +46,8 @@ D.	Ethernet
 
 Answer: C    
 
-### Question # 7 - Becka recently signed a contract with an alternate data processing facility that will provide her company with space in the event of a disaster. The facility includes HVAC, power, and communications circuits but no hardware. What type of facility is Becka using?      
-A.	Cold site     
+### Question # 7 - Becka recently signed a contract with an alternate data processing facility that will provide her company with space in the event of a disaster. The facility includes [HVAC, power, and communications circuits] but [no hardware]. What type of facility is Becka using?      
+A.	**Cold site**     
 B.	Warm site     
 C.	Hot site      
 D.	Mobile site       
@@ -55,16 +55,16 @@ D.	Mobile site
 Answer: A    
 
 ### Question # 8 - Your organization has its production environment hosted in a cloud environment. You are considering using cloud backup services for your BC/DR purposes as well. What would  probably be the best strategy for this approach, in terms of redundancy and resiliency? 
-A. Have your cloud provider also provide BC/DR backup.          
+A.  Have your cloud provider also provide BC/DR backup.          
 B.	Keep a BC/DR backup on the premises of your corporate headquarters.      
-C.	Use another cloud provider for the BC/DR backup.      
+C.	**Use another cloud provider for the BC/DR backup**.      
 D.	Move your production environment back into your corporate premises, and use your cloud provider to host your BC/DR backup.      
 
 Answer: C    
 
 ### Question # 9 - Philip is developing a new security tool that will be used by individuals in many different subsidiaries of his organization. He chooses to use Docker to deploy the tool to simplify configuration. What term best describes this approach?      
 A.	Virtualization     
-B. Abstraction       
+B.  Abstraction       
 C.	Simplification     
 D.	Containerization    
 
@@ -73,7 +73,7 @@ Answer: D
 ### Question # 10 - What is the most important asset to protect in cloud BC/DR activities?      
 A.	Intellectual property     
 B.	Hardware at the cloud datacenter     
-C.	Personnel     
+C.	**Personnel**     
 D.	Data on portable media     
 
 Answer: C    
@@ -158,8 +158,8 @@ D.	The RTO is too short and needs to be longer.
 
 Answer: A    
 
-### Question # 21 - Cameron is worried about distributed denial- of- service (DDoS) attacks against his company’s primary web application. Which of the following options will provide the most resilience against large- scale DDoS attacks? 
-A.  Implement a CDN.         
+### [important] Question # 21 - Cameron is worried about distributed denial- of- service (DDoS) attacks against his company’s primary web application. Which of the following options will provide the most resilience against large- scale DDoS attacks? 
+A.  **Implement a CDN**.         
 B.	Increase the number of servers in the web application server cluster.     
 C.	Contract for DDoS mitigation services via the company’s ISP.    
 D.	Increase the amount of bandwidth available from one or more ISPs.    
@@ -174,7 +174,7 @@ D.	Denial
 
 Answer: A    
 
-### Question # 23 - Mike recently implemented an intrusion prevention system designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing?     
+### [important] Question # 23 - Mike recently [implemented an intrusion prevention system] designed to block common network attacks from affecting his organization. What type of risk management strategy is Mike pursuing?     
 A.	Risk acceptance     
 B.	Risk avoidance     
 C.	Risk mitigation      
@@ -182,7 +182,7 @@ D.	Risk transference
 
 Answer: C    
 
-### Question # 24 - You are trying to determine the critical assets that your organization must protect in your BC/DR activities. Which one of the following artifacts would be most useful in your work?     
+### Question # 24 - You are trying to [determine] the critical assets that your organization must protect in your BC/DR activities. Which one of the following artifacts would be most useful in your work?     
 A.	Quantitative risk analysis     
 B.	Qualitative risk analysis      
 C.	Business impact analysis      
@@ -192,17 +192,17 @@ Answer: C
 
 ### Question # 25 - A component failure in the primary HVAC system leads to a high temperature alarm in the datacenter that Kim manages. After resolving the issue, what should Kim consider to prevent future issues like this?      
 A.	A closed loop chiller      
-B.	Redundant cooling systems      
+B.	**Redundant cooling systems**      
 C.	Swamp coolers      
 D.	Relocating the datacenter to a colder climate      
 
 Answer: B    
 
-### Question # 26 - Joe is the security administrator for a cloud- based ERP system. He is preparing to create accounts for several new employees. What default access should he give to all of the new employees as he creates the accounts?      
+### [important] Question # 26 - Joe is the security administrator for a cloud- based ERP system. He is preparing to create accounts for several new employees. What default access should he give to all of the new employees as he creates the accounts?      
 A.	Read only     
 B.	Editor          
 C.	Administrator      
-D.	No access      
+D.	**No access**      
 
 Answer: D    
 
@@ -222,16 +222,16 @@ D.	Trusted computing base (TCB)
 
 Answer: B    
 
-### Question # 29 - What individual in an organization bears ultimate responsibility for the success of the disaster recovery plan?        
+### [important] Question # 29 - What individual in an organization bears [ultimate [responsibility] for the success of the disaster recovery plan?        
 A.	End users          
 B.	BC/DR team leader       
 C.	CISO         
-D.	CEO        
+D.	**CEO**        
 
 Answer: D    
 
 ### Question # 30 - Michael is responsible for forensic investigations and is investigating a security incident that involved the defacement of a corporate website. The web server in question ran on a virtualization platform, and the marketing team would like to get the website up and running as quickly as possible. What would be the most reasonable next step for Michael to take?      
-A. Keep the website offline until the investigation is complete.       
+A.  Keep the website offline until the investigation is complete.       
 B.	Take the virtualization platform offline as evidence.       
 C.	Take a snapshot of the compromised system and use that for the investigation.       
 D.	Ignore the incident and focus on quickly restoring the website.      
@@ -246,9 +246,9 @@ D.	Protection manager
 
 Answer: B    
 
-### Question # 32 - Best practice for planning the physical resiliency for a cloud datacenter facility includes ___________________.    
+### [important] Question # 32 - Best practice for planning the physical resiliency for a cloud datacenter facility includes ___________________.    
 A.	Having one point of egress for personnel       
-B.	Ensuring that redundant cabling/connectivity enters the facility from different sides of the building/property      
+B.	**Ensuring that redundant cabling/connectivity enters the facility from different sides of the building/property**      
 C.	Ensuring that all parking areas are near generators so that personnel in high- traffic areas are always illuminated by emergency lighting, even when utility power is not available             
 D. Ensuring that the foundation of the facility is rated to withstand earthquake tremors       
 
@@ -262,32 +262,32 @@ D.	VPN
 
 Answer: C    
 
-### Question # 34 - Risk should always be considered from a business perspective. When a risk is accepted, it should be balanced by a corresponding ___________________.       
+### [important] Question # 34 - Risk should always be considered from a business perspective. [When a risk is accepted, it should be balanced by a corresponding] ___________________.       
 A. Profit         
 B. Performance       
 C. Cost     
-D. Opportunity     
+D. **Opportunity**     
 
 Answer: D    
 
-### Question # 35 - You are designing a cloud datacenter that is expected to meet Tier 2 status according to the Uptime Institute standards. What level of availability must you achieve to meet this standard?       
+### [important] Question # 35 - You are designing a cloud datacenter that is expected to [meet Tier 2 status] according to the Uptime Institute standards. What level of availability must you achieve to meet this standard?       
 A.	99.422%       
 B. 99.671%      
-C. 99.741%      
+C. **99.741%**      
 D. 99.995%      
 
 Answer: C    
 
-### Question # 36 - Ursula is examining several virtual servers that her organization runs in an IaaS service. She discovers that the servers are all running a scheduling service that is no longer used by the organization. What action should she take?       
-A. Ensure the service is fully patched.         
-B.	Remove the service.           
+### Question # 36 - Ursula is [examining] several virtual servers that her organization runs in an IaaS service. She discovers that the servers are all running a scheduling service that is no longer used by the organization. What action should she take?       
+A.  Ensure the service is fully patched.         
+B.	**Remove the service**.           
 C.	Leave the service alone unless it is causing issues.           
 D.	Contact the vendor for instructions.           
 
 Answer: B    
 
 ### Question # 37 - When discussing the cloud, we often segregate the datacenter into the terms compute, storage, and networking. Compute is made up of ___________________ and ___________________.          
-A. Routers; hosts         
+A.  Routers; hosts         
 B.	Application programming interfaces (APIs); northbound interfaces (NBIs)     
 C.	Central processing units (CPUs); random access memory (RAM)      
 D.	Virtualized; actual hardware devices     
@@ -302,11 +302,11 @@ D.	Object
 
 Answer: B    
 
-### Question # 39 - Which one of the following statements about file storage security in the cloud is correct?     
-A. File stores are always kept in plaintext in the cloud.    
+### Question # 39 - Which one of the following statements about [file storage security] in the cloud is correct?     
+A.  File stores are always kept in plaintext in the cloud.    
 B.	There is no way to sanitize file storage space in the cloud.     
-C.	Virtualization prevents the use of application-b ased security controls.      
-D.	Virtual machines are stored as snapshotted files when not in use.
+C.	Virtualization prevents the use of application-based security controls.      
+D.	**Virtual machines are stored as snapshotted files when not in use**.
 
 Answer: D    
 
@@ -884,7 +884,7 @@ The vendors used for on- premises security will no longer affect the data, so op
 
 Question # 20.	A. When Brittney reviews the recovery time objective (RTO) data, she needs to ensure that the organization can recover from an outage in less than 30 minutes based on the maximum tolerable downtime (MTD) of 30 minutes.
 
-Question # 21.	A. A content delivery network (CDN) run by a major provider can handle large-s cale DDoS attacks more easily than any of the other solutions. Using DDoS mitigation techniques via an ISP is the next most useful capability, followed by both increases in bandwidth and increases in the number of servers in the web application cluster.
+Question # 21.	A. A content delivery network (CDN) run by a major provider can handle large-scale DDoS attacks more easily than any of the other solutions. Using DDoS mitigation techniques via an ISP is the next most useful capability, followed by both increases in bandwidth and increases in the number of servers in the web application cluster.
 
 Question # 22.	A. A denial- of- service (DoS) attack is designed to overwhelm a system until it is unable to process legitimate requests. The purpose of this attack is to deny legitimate users access to the system, which is a violation of the principle of availability.
 
