@@ -732,7 +732,7 @@ B.	Proximity to population centers
 C.	Cost                
 D.	Security requirements                    
 
-Answer: A       
+Answer: A        
 
 ### Question # 93 - Rick is creating a policy defining his organization’s change management process. Which of the following is not a common change management policy element?               
 A.	Defining the composition of the change management board               
