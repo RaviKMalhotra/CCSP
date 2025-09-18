@@ -26,7 +26,8 @@ The STAR program has three tiers.
 A. Tier 1              
 B. Tier 2             
 C. Tier 5                
-D. Tier 8                
+D. Tier 8    
+
 Answer: A.                  
 
 [important] Tier 1 is the lowest tier of the STAR program, involving only self-assessment.
@@ -35,7 +36,8 @@ Answer: A.
 A. Remote Authentication Dial-In User Service (RADIUS)            
 B. Rivest-Shamir-Adelman (RSA) encryption            
 C. Diffie-Hellman exchange                                     
-D. Terminal Access Controller Access-Control System (TACACS)               
+D. Terminal Access Controller Access-Control System (TACACS)      
+
 Answer: C.                 
 
 [important] **The Diffie-Hellman key exchange process is designed to allow two parties to create a shared secret (symmetric key) over an untrusted medium**.
@@ -47,6 +49,7 @@ A. Proof
 B. Evidence                    
 C. Due diligence                   
 D. Application of reasonableness               
+
 Answer: C. 
 
 **A party who does not perform sufficient due diligence in choosing a contractor can be held accountable for the actions made by that contractor**. 
@@ -59,6 +62,7 @@ A. Warrant
 B. Subpoena                
 C. Court order                
 D. Affidavit                 
+
 Answer: D.                
 
 **An affidavit is only a form of formal testimony presented to the court**. 
@@ -69,25 +73,30 @@ A. Mitigation
 B. Acceptance               
 C. Avoidance               
 D. Streamlining             
+
 Answer: D.                
 
 Streamlining is a nonsense term in this context. All the other options represent normal ways of addressing risk. Mitigation is the use of controls to attenuate the impact or likelihood (or both) of risk, acceptance is allowing the business to function with no further action, and avoidance is halting the business function.
 
 ### [important knowledge] Question # 8 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.             
+
 A. Amorphous curtailment principle            
 B. Collection limitation principle              
 C. State-based incorporation principle               
 D. Hard-copy instantiation principle              
+
 Answer: B.                  
 
 [important] The **collection limitation principle** requires any entity that gathers personally identifiable information (PII) about a person **to restrict data collection to only information that is necessary for the transaction, and only with the knowledge and permission of the individual**. 
 The other options are meaningless in this context.
 
 ### [important knowledge] Question # 9 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.           
+
 A. Data quality principle                  
 B. Transformative neologism principle           
 C. Encryption matrices principle            
 D. Restful state principle             
+
 Answer: A.             
 
 The **data quality principle** requires any entity that gathers personally identifiable information (PII) about a person **to ensure that the data remains valid and accurate and allows for corrections by the data subject**. 
@@ -95,62 +104,74 @@ The **data quality principle** requires any entity that gathers personally ident
 The other answers are meaningless in this context.
 
 ### [important knowledge] Question # 10 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.              
+
 A. Archipelago enhancement principle            
 B. Solidity restoration principle                
 C. Nether working substrate principle               
 D. Purpose specification principle               
+
 Answer: D.             
 
 [important] The **purpose specification principle** requires any entity that gathers personally identifiable information (PII) about a person to clearly state the explicit purpose for which the PII will be used. 
 
 The other answers are meaningless in this context.
 
-### Question # 11 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.                  
+### Question # 11 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. [The OECD has published recommendations for privacy laws]. One of the characteristics the OECD suggests that privacy laws include is the _______________.    
+
 A. Use limitation principle               
 B. Erstwhile substitution principle             
 C. Flatline cohesion principle               
 D. Airstream fluidity principle              
+
 Answer: A.             
 
 [important] The **use limitation principle** requires any entity that gathers personally identifiable information (PII) about a person **to restrict the use of that PII to that which was permitted by the data subject and the reason given when it was collected**. 
 
 The other answers are meaningless in this context.
 
-### [important knowledge] Question # 12 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.                    
+### [important knowledge] Question # 12 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.      
+
 A. Transient data principle                 
 B. Security safeguards principle                 
 C. Longtrack resiliency principle                       
 D. Arbitrary insulation principle                  
+
 Answer: B.                   
 
 The **security safeguards principle** requires any entity that gathers personally identifiable information (PII) about a person to protect that data against unauthorized access and modification. The other answers are meaningless in this context.
 
 ### Question # 13 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. One of the characteristics the OECD suggests that privacy laws include is the _______________.               
+
 A. Volcanic principle               
 B. Inherency principle                   
 C. Repository principle                  
-D. Openness principle                  
+D. Openness principle     
+
 Answer: D.                    
 
 The **openness principle **requires any entity that **gathers personally identifiable information (PII) about a person to allow that person to access the information**. 
 The other answers are meaningless in this context.
 
-### [important knowledge] Question # 14 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. The OECD privacy principles [influenced] which lawmaking body and are readily apparent in the law(s) it created?              
+### [important knowledge] Question # 14 - The Organisation for Economic Cooperation and Development (OECD) is a multinational entity that creates nonbinding policy suggestions for its member countries. The OECD has published recommendations for privacy laws. The OECD privacy principles [influenced] which lawmaking body and are readily apparent in the law(s) it created?      
+
 A. U.S. Congress              
 B. European Union (EU)           
 C. Politburo                                      
 D. International Standards Organization (ISO)            
+
 Answer: B.              
 
 [important] **The EU crafted first the EU Data Directive and then the General Data Protection Regulation largely according to the OECD guidelines**. 
 
 The US Congress has (at the time of this writing) made no broad federal privacy law and instead has treated personal privacy on an industry-by-industry basis. The Politburo no longer exists. The ISO is not a lawmaking body.
 
-### [important] Question # 15 - Which of the following is not a way in which an entity located [outside the European Union (EU)] can be allowed to gather and process privacy data belonging to EU citizens?                  
+### [important] Question # 15 - Which of the following is not a way in which an entity located [outside the European Union (EU)] can be allowed to gather and process privacy data belonging to EU citizens?     
+
 A. Be located in a country with a nationwide law that complies with the EU laws.                         
 B. Appeal to the EU High Court for permission.                             
 C. Create binding contractual language that complies with the EU laws.               
 D. Join the Privacy Shield program in its own country.                
+
 Answer: B.             
 
 The General Data Protection Regulation prohibits entities within a country that has no nationwide privacy law from gathering or processing privacy data belonging to EU citizens. Entities can be allowed to do so if the following conditions are met:
@@ -160,29 +181,34 @@ The entity voluntarily subscribes to its own nation’s Privacy Shield program.
 There is no process for the entity to appeal to the EU for permission to do so, however.
 
 ### [important] Question # 16 - The Privacy Shield program is _______________.             
-A. Voluntary for non–European Union (EU) entities            
+A. **Voluntary** for non–European Union (EU) entities            
 B. Mandatory for all EU entities             
 C. Mandatory for all non-EU entities            
 D. Voluntary for all EU entities               
+
 Answer: A.             
 
 **The Privacy Shield program is for non-EU entities** that also do not exist in a country with a nationwide privacy law; no entity is required to join the program, but those who don’t are prevented from collecting and processing EU citizen privacy data. Entities within the EU are already subject to the EU General Data Protection Regulation law and therefore are not eligible or benefited by the Privacy Shield program.
 
-### Question # 17 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?              
+### Question # 17 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?     
+
 A. Canada               
 B. United States                
 C. Switzerland                
 D. Japan               
+
 Answer: B.             
 
 **The United States does not have a general nationwide privacy law that complies with the EU privacy statutes; it instead has created industry-specific privacy laws**. 
 Canada has a law (Personal Information Protection and Electronic Documents Act) that conforms with the EU laws, as does Switzerland and Japan.
 
 ### [important] Question # 18 - Which of the following countries does not have a federal privacy law that complies with the European Union (EU) General Data Protection Regulation?              
+
 A. Argentina               
 B. Israel                  
 C. Australia              
 D. Brazil                  
+
 Answer: D.                  
 
 **Brazil does not yet have federal privacy laws sufficient to be considered acceptable for EU compliance**. 
@@ -193,16 +219,19 @@ Israel, Australia, and Argentina all do.
 A. Department of State             
 B. Department of Interior            
 C. Department of Trade             
-D. Department of Commerce          
+D. Department of **Commerce**          
+
 Answer: D.                
 
 The Department of Commerce manages the Privacy Shield program in the United States; the Departments of State and Interior do not. There is no Department of Trade.
 
-### [important tricky] Question # 20 - You’re a sophomore at a small, private medical teaching college in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will not be applicable to you, your personal data, or the data you work with as a student?            
+### [important tricky] Question # 20 - You’re a sophomore at a small, private medical teaching college in the midwestern United States; you make your tuition payments directly from your bank account via a debit card. Which of the following laws and standards will [not] be applicable to you, your personal data, or the data you work with as a student?            
+
 A. Sarbanes-Oxley Act (SOX)                                          
 B. Health Information Portability and Accountability Act (HIPAA)            
 C. Payment Card Industry Data Security Standards (PCI DSS)            
 D. Family Educational Rights and Privacy Act (FERPA)              
+
 Answer: A.             
 
 [important] **SOX is only applicable to publicly traded corporations**, not all companies. 
@@ -211,10 +240,12 @@ Your payment and personal data is governed by PCI DSS.
 **FERPA protects your personal student information**.
 
 ### Question # 21 - U.S. federal entities are required to use cloud data centers within the borders of the United States only. Which law, standard, or requirement mandates this?               
+
 A. Federal Information Security Management Act (FISMA)               
 B. Federal Risk and Authorization Management Program (FedRAMP)              
 C. Organisation for Economic Cooperation and Development (OECD)              
 D. General Data Protection Regulation (GDPR)           
+
 Answer: B. 
 
 **The FedRAMP standard dictates that American federal agencies must retain their data within the boundaries of the United States, including data within cloud data centers**.
@@ -222,10 +253,12 @@ FISMA is the federal law requiring agencies to comply with National Institute of
 Options C and D are not American laws and therefore not applicable.
 
 ### [important] Question # 22 - The Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program includes a level of certification for cloud providers that acquire third-party assessments of their environment and controls. Which STAR level is this?                    
+
 A. 1             
 B. 2           
 C. 3             
 D. 4            
+
 Answer: B.             
 
 [very important] **Level 2 of the CSA STAR program requires third-party assessment of the provider**.
@@ -238,6 +271,7 @@ A. Due care
 B. Due diligence               
 C. Liability                  
 D. Reciprocity                  
+
 Answer: A.                  
 
 This is an example of due care.
@@ -251,6 +285,7 @@ A. A directive is enforced by the member states; a regulation is enforced by an 
 B. A directive is put in place by statute; a regulation is put in place by precedent.                          
 C. A directive is for local laws; a regulation is for laws dealing with matters outside the EU.                         
 D. A directive allows member states to create their own laws; a regulation is applied to all member states.              
+
 Answer: D.              
 
 The CCSP candidate is probably most familiar with the European Union’s (EU’s) Data Directive and General Data Protection Regulation in this regard. The directive allows every member country to create its own law that is compliant with the directive; the regulation mandates that all countries comply with the regulation itself.
@@ -259,10 +294,12 @@ Both directives and regulations are statutory; option B is not correct.
 Both directives and regulations deal with both internal EU matters and those that extend outside Europe; option C is not correct.
 
 ### [important knowledge] Question # 25 - You work for a European government agency providing tax counseling services to taxpayers. On your website home page, you include a banner with the following text: “As a visitor to this website, I agree that any information I disclose to the Tax Counseling Agency can be used for any and all purposes under the General Data Protection Regulation (GDPR).” This is followed by a button that says, “I Agree”: users have to click the button, or they are taken to a page that says, “Goodbye. Thank you for visiting the Tax Counseling Agency, and have a nice day.”  This method of collecting personal information is _______________.                      
+
 A. Illegal under the GDPR because it is electronic and needs to be in hard copy               
 B. Legal under the GDPR                                                           
 C. Illegal under the GDPR because it doesn’t allow service if the visitor refuses         
 D. Illegal under the GDPR because it doesn’t ask the nationality of the visitor             
+
 Answer: C.               
 
 A government service provider is not allowed to refuse service if an individual refuses to participate in data collection.
@@ -275,6 +312,7 @@ A. US$100,000
 B. 500,000 euros            
 C. 20,000,000 euros            
 D. 1,000,000 euros            
+
 Answer: C.              
 
 All the other options are incorrect.
@@ -284,16 +322,19 @@ A. Data subjects
 B. Data controllers             
 C. Data processors                     
 D. Data controllers and processors              
+
 Answer: D.                      
 
 The GDPR describes requirements for data collection by and transfers to data controllers and processors.
 All the other options are incorrect.
 
 ### Question # 28 - You are the security manager for a mid-sized nonprofit organization. Your organization has decided to use a software as a service (SaaS) public cloud provider for its production environment. A service contract audit reveals that while your organization has budgeted for 76 user accounts, there are currently 89 active user accounts. Your organization is paying the contract price, plus a per-account fee for every account over the contracted number. This is an example of costs incurred by _______________.                
+
 A. Data breach                 
 B. Shadow IT                  
 C. Intrusions                 
 D. Insider threat              
+
 Answer: B.                 
 
 This is the definition of shadow IT: unplanned costs from uncontrolled user activity.
@@ -302,10 +343,12 @@ This is not an intrusion because no external entity has gained access to the env
 While shadow IT may be considered a particular kind of insider threat, we usually consider insider threats as malicious, and shadow IT is typically the result of benign intentions. Option B is better than option D.
 
 ### Question # 29 - An audit against the _______________ will demonstrate that an organization has a holistic, comprehensive security program.            
+
 A. Statement on Auditing Standards (SAS) 70 standard                        
 B. Statement on Standards for Attestation Engagements (SSAE) 18 standard            
 C. Service Organization Control (SOC) 2, Type 2 report matrix              
 D. ISO 27001 certification requirements                
+
 Answer: D.                   
 
 The ISO 27001 certification is for the information security management system (ISMS), the organization’s entire security program.
@@ -317,6 +360,7 @@ A. Service Organization Control (SOC) 1
 B. SOC 2, Type 1           
 C. SOC 2, Type 2           
 D. SOC 3             
+
 Answer: B.              
 
 This is what a SOC 2, Type 1 report is for.
@@ -327,6 +371,7 @@ A. Service Organization Control (SOC) report
 B. Gap analysis                 
 C. Audit scoping statement              
 D. Federal guideline               
+
 Answer: B.                 
 
 This is the definition of a gap analysis.
@@ -339,69 +384,81 @@ A. Statement on Auditing Standards (SAS) 70 standard
 B. Statement on Standards for Attestation Engagements (SSAE) 18 standard             
 C. ISO 27002 certification criteria                                                          
 D. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53               
+
 Answer: C.            
 
 The 27002 standard contains sets of controls to be used in order to allow the organization to match the security program created for the organization with 27001.
 The SAS 70 and SSAE 18 are audit standards for service providers and include some review of security controls but not a cohesive program (and the SAS 70 is outdated); options A and B are not correct.
 NIST SP 800-53 allows the organization to craft a set of controls to meet the requirements created for and by the organization when using NIST SP 800-37; option D is incorrect.
 
-### Question # 33 - An audit scoping statement might include constraints on all of the following aspects of an environment except _______________.             
+### Question # 33 - An audit scoping statement might include constraints on all of the following aspects of an environment [except] _______________.             
 A. Time spent in the production space           
 B. Business areas and topics to be reviewed             
 C. Automated audit tools allowed in the environment               
-D. Not reviewing illicit activities that may be discovered             
+D. Not reviewing illicit activities that may be discovered  
+
 Answer: D.              
 
 While the auditor is not a law enforcement entity, they will likely have an ethical, if not legal, requirement to report illicit activities discovered during the audit.
 All the other options are incorrect as they are all facets of audit scoping.
 
-### Question # 34 - An audit scoping statement might include all of the following constraints except _______________.            
+### Question # 34 - An audit scoping statement might include all of the following constraints [except] _______________.            
+
 A. Limitation on destructive techniques          
 B. Prohibition of all personnel interviews            
 C. Prohibition on access to the production environment            
 D. Mandate of particular time zone review             
+
 Answer: B.             
 
 Auditors may find it necessary to speak to particular individuals in order to locate artifacts and understand the environment. Although there may be some limitation on particular points of contact and nature of interviews, there cannot be a total prohibition.
 All the other options are incorrect as they are all facets of audit scoping.
 
 ### Question # 35 - You are the IT director for a European cloud service provider. In reviewing possible certifications your company may want to acquire for its data centers, you consider the possibilities of the Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry (STAR) program, the Uptime Institute’s tier certification motif, and _______________.             
+
 A. The National Institute of Standards and Technology (NIST) Risk Management Framework (Special Publication [SP] 800-37)              
 B. The Federal Risk and Authorization Management Program (FedRAMP)            
 C. ISO 27034                                  
-D. The Euro Cloud Star Audit (ECSA) program             
+D. **The Euro Cloud Star Audit (ECSA) program**             
+
 Answer: D.                  
 
-The ECSA is designed as a cloud service certification motif for organizations located in Europe.
+**The ECSA is designed as a cloud service certification motif for organizations located in Europe**.
 NIST (which also administers FedRAMP) is designed specifically for federal agencies in the United States and is not applicable for European providers, so options A and B are incorrect.
 ISO 27034 deals with an organization’s use of security controls for software; while this may be pertinent to your organization, it is not a comprehensive view of cloud services and is not as beneficial or equivalent to the CSA STAR or Uptime Institute certifications. Option D is preferable to option C.
 
 ### Question # 36 - Who should perform the gap analysis following an audit?          
+
 A. The security office               
 B. The auditor                                
-C. A department other than the audit target            
+C. **A department other than the audit target**            
 D. An external audit body other than the original auditor             
+
 Answer: C.              
 
 Perspectives gained from people outside the audit target are invaluable because they may see possibilities and opportunities revealed by the audit, whereas the personnel in the target department may be constrained by habit and tradition.
 Options A and B are incorrect because this poses a conflict of interest.
 Option D is incorrect. Audits often reveal sensitive information that does not need to be shared with an external audit body that was not part of the original audit.
 
-### Question # 37 - An IT security audit is designed to reveal all of the following except _______________.            
+### Question # 37 - An IT security audit is designed to reveal all of the following [except] _______________.            
+
 A. Financial fraud                
 B. Malfunctioning controls             
 C. Inadequate controls                              
 D. Failure to meet target standards and guidelines             
+
 Answer: A.             
 
 An IT security audit is not intended to locate financial fraud; it may, however, lead to such revelations unintentionally. There are specific other audits that exist for this purpose.
 All the other options are incorrect because they are intended goals for IT security audits.
 
 ### Question # 38 - What was the first international privacy standard specifically for cloud providers?          
+
 A. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-37           
 B. Personal Information Protection and Electronic Documents Act                
 C. Payment Card Industry               
 D. ISO 27018              
+
 Answer: D.               
 
 ISO 27018 describes privacy requirements for cloud providers, including an annual audit mandate.
@@ -414,6 +471,7 @@ A. Organisation for Economic Cooperation and Development (OECD)
 B. American Institute of Certified Public Accountants (AICPA)               
 C. The European Union (EU) parliament                
 D. U.S. Congress                
+
 Answer: D.          
 
 Aside from industry-specific legislation, the United States does not have any federal laws outlining how citizens’ privacy data should be treated.
@@ -421,18 +479,21 @@ All the other entities have published such guidance, and those options are there
 
 ### Question # 40 - The field of digital forensics does not include the practice of securely _______________ data.            
 A. Collecting            
-B. Creating             
+B. **Creating**             
 C. Analyzing              
 D. Presenting              
+
 Answer: B.                         
 
 With rare exceptions, digital forensics does not include creation of data (other than the forensic reports regarding the analysis of data). While this could arguably be considered an aspect of digital forensics as well, the other options are more suited to describing digital forensics, so this is the best negative answer.
 
 ### Question # 41 - Which of the following is a legal practice of removing a suspect from one jurisdiction to another in order for the suspect to face prosecution for violating laws in the latter?            
+
 A. Applicable law              
 B. Judgments              
 C. Criminal law               
 D. Extradition               
+
 Answer: D.                     
 
 This is the definition of extradition.
@@ -441,42 +502,50 @@ Judgments are legal conclusions or decisions. Option B is incorrect.
 Option C is incorrect because criminal law is the body of law that pertains to crime.
 
 ### Question # 42 - In which court must the defendant be determined to have acted in a certain fashion according to the preponderance of the evidence?          
+
 A. Civil court           
 B. Criminal court           
 C. Religious court              
 D. Tribal court             
+
 Answer: A.                 
 
 Civil courts (for example, in a breach of contract case) are held to the “preponderance of evidence” standard.
 All the other options are incorrect because they do not hold to the preponderance of the evidence requirement.
 
 ### Question # 43 - You are the security manager for a retail sales company that uses a software as a service (SaaS) public cloud service. One of your employees uploads sensitive information they were not authorized to put in the cloud. An administrator working for the cloud provider accesses that information and uses it for an illegal purpose, benefiting the administrator and causing harm to your organization. After you perform all the incident-response activity related to the situation, your organization determines that the price of the damage was US$125,000. Your organization sues the cloud provider, and the jury determines that your organization shares in the blame (liability) for the loss because it was your employee performing an unauthorized action that created the situation. If the jury determines that 25 percent of the evidence shows that the situation was your organization’s fault and 75 percent of the evidence shows that the situation was the cloud provider’s fault, what is the likely outcome?               
+
 A. Your organization owes the cloud provider $31,250.            
 B. The cloud provider owes your organization $93,750.              
 C. Neither side owes the other party anything.               
 D. The cloud provider owes your organization $125,000.          
+
 Answer: D.              
 
 Except in jurisdictions where contributory negligence is a factor in the proceedings, civil courts use a standard of “preponderance of evidence,” so the entity that has a simple majority of fault (51 percent or more) is responsible for the full weight of the breach. Because the question did not specify the case was in contributory negligence jurisdiction, option D is the best answer because it is the most likely outcome.
 Options A, B, and C are incorrect because they are 25%, 75% and 0% of the full weight of the breach.
 
 ### Question # 44 - You are the security manager for a small American tech firm and investigate an incident. Upon analysis, you determine that one of your employees was stealing proprietary material and selling it to a competitor. You inform law enforcement and turn over the forensic data with which you determined the source and nature of the theft. The prosecutor can use the material you delivered because of _______________.                    
+
 A. The doctrine of plain view             
-B. The silver platter doctrine                      
+B. **The silver platter doctrine**                      
 C. The General Data Protection Regulation (GDPR)            
 D. The Federal Information System Management Act (FISMA)          
+
 Answer: B.                       
 
-The silver platter doctrine allows law enforcement entities to use material presented voluntarily by the owner as evidence in the prosecution of crimes, without a warrant or a court order.
+**The silver platter doctrine allows law enforcement entities to use material presented voluntarily by the owner as evidence in the prosecution of crimes, without a warrant or a court order**.
 The doctrine of plain view allows law enforcement to act on probable cause when evidence of a crime is within their presence; option A is incorrect.
 The GDPR is a European Union (EU) privacy law and not applicable here; option C is incorrect.
 FISMA is the American law requiring federal agencies to adhere to National Institute of Standards and Technology (NIST) standards; option D is incorrect.
 
 ### Question # 45 - You are the security director for an online retailer in Belgium. In February 2019, an audit reveals that your company may have been responsible for exposing personal data belonging to some of your customers over the previous month. Which law is applicable in this instance?              
+
 A. Belgian law                                
 B. The General Data Protection Regulation (GDPR)                                            
 C. National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53                 
 D. The Federal Information Systems Management Act (FISMA)                     
+
 Answer: B.                 
 
 As of May 2018, the GDPR is the law throughout all EU member states, superseding any existing local laws.
@@ -485,10 +554,11 @@ Options C and D are an American standard and law, respectively, and are not appl
 It’s important to note that the GDPR covers all entities that are located and/or operate in the EU, regardless of other details such as where the business entity stores the data or where the customers are located.
 
 ### Question # 46 - You are the security manager for a software company that uses platform as a service (PaaS) in a public cloud service. Your company’s general counsel informs you that they have received a letter from a former employee who is filing a lawsuit against your company. You should immediately issue a(n) _______________ to all personnel and offices within your company.                
-A. Litigation hold notice              
+A. **Litigation hold notice**              
 B. Audit scoping letter            
 C. Stop loss memo              
 D. Memorandum of agreement                
+
 Answer: A.                
 
 A litigation hold notice is required to prevent possible destruction of pertinent evidence that may be used in the case.
